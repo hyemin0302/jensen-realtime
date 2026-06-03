@@ -943,6 +943,7 @@ function applyStocks(d){
   }
   if(updated){
     try{buildStocks();}catch(e){}
+    try{buildNews();}catch(e){}
     // 마지막 갱신 시각 업데이트
     var ts=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
     document.querySelectorAll('.cst .v').forEach(function(el,i){if(i>=1)el.textContent=ts;});
