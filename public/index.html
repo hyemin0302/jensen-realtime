@@ -151,6 +151,7 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .fnew{background:var(--accent);color:#05210a}
 .fmed{background:rgba(118,185,0,.1);color:var(--accent);border:1px solid rgba(118,185,0,.45)}
 .fst{background:none;color:var(--muted);border:1px solid var(--line2);border-radius:99px;font-weight:500}
+.fauto{background:rgba(59,130,246,.12);color:#60a5fa;border:1px solid rgba(59,130,246,.35);border-radius:99px}
 .nws .row2{display:flex;gap:11px;align-items:flex-start}
 .nws .bd{flex:1;min-width:0}
 .nws .bd h4{font-size:17px;font-weight:700;line-height:1.35;color:#f2f6fb;}
@@ -756,9 +757,9 @@ function buildNews(){
         // 배지 행: 왼쪽 배지들 + 오른쪽 최초보도 시각
         +'<div class="bdrow">'
           +(n.new?'<span class="fg fnew">NEW</span>':'')
-          +'<span class="fg fmed">\uD83D\uDD25 '+n.med+(lang==='ko'?'개 매체 보도':' outlets')+'</span>'
+          +(n.cf&&(n.cf==='자동수집'||n.cf.ko==='자동수집')?'<span class="fg fauto">\u26A1 자동수집</span>':'<span class="fg fmed">\uD83D\uDD25 '+n.med+(lang==='ko'?'개 매체 보도':' outlets')+'</span>')
           +'<span class="fg fst">'+L(n.st)+'</span>'
-          +'<span class="fg fst">'+L(n.cf)+'</span>'
+          +(n.cf&&(n.cf==='자동수집'||n.cf.ko==='자동수집')?'':'<span class="fg fst">'+L(n.cf)+'</span>')
           +(n.loc?'<span class="fg fst">'+esc(n.loc)+'</span>':'')
           +(ts?'<span class="nts">'+(lang==='ko'?'최초보도 ':'first ')+''+ts+'</span>':'')
         +'</div>'
@@ -953,18 +954,53 @@ function applyStocks(d){
 
 function applyNews(items){
   if(!items||!items.length) return;
-  // FEED 배열 앞에 새 항목 추가 (중복 제목 제외)
-  var existTitles=new Set(FEED.map(function(f){return f.t.slice(0,20);}));
-  var added=false;
-  for(var i=items.length-1;i>=0;i--){
-    var key=items[i].t.slice(0,20);
-    if(!existTitles.has(key)){
-      FEED.unshift({s:items[i].s, t:items[i].t, m:items[i].m, u:items[i].u});
-      existTitles.add(key);
-      added=true;
+
+  // ── 하단 FEED 업데이트 ──
+  var existFeed=new Set(FEED.map(function(f){return f.t.slice(0,20);}));
+  var feedAdded=false;
+  for(var fi=items.length-1;fi>=0;fi--){
+    var fkey=items[fi].t.slice(0,20);
+    if(!existFeed.has(fkey)){
+      FEED.unshift({s:items[fi].s,t:items[fi].t,m:items[fi].m,u:items[fi].u});
+      existFeed.add(fkey);
+      feedAdded=true;
     }
   }
-  if(added) try{buildFeed();}catch(e){}
+  if(feedAdded) try{buildFeed();}catch(e){}
+
+  // ── 상단 뉴스카드 업데이트 ──
+  var existNews=new Set(NEWS.map(function(n){return L(n.ti).slice(0,20);}));
+  var newsAdded=false;
+  for(var ni=items.length-1;ni>=0;ni--){
+    var it=items[ni];
+    var nkey=it.t.slice(0,20);
+    if(!existNews.has(nkey)){
+      // 관련주 매핑 (stocks[] 코드 → 이름)
+      var CODEMAP={'005930':'삼성전자','005935':'삼성전자우','000660':'SK하이닉스','066570':'LG전자','066575':'LG전자우','035420':'네이버','017670':'SK텔레콤','000150':'두산','454910':'두산로보틱스','131970':'두산테스나','034220':'LG디스플레이','005380':'현대차'};
+      var rs=[];
+      if(it.stocks){for(var si=0;si<it.stocks.length;si++){var cd=it.stocks[si];if(CODEMAP[cd])rs.push({n:CODEMAP[cd],c:cd,v:'0',f:{ko:'관련주',en:'related'},b:{ko:'자동 수집',en:'auto-collected'}});}}
+      NEWS.unshift({
+        new:true,
+        med:1,
+        st:{ko:'속보',en:'breaking'},
+        cf:{ko:'자동수집',en:'auto'},
+        loc:'',
+        ti:{ko:it.t,en:it.t},
+        u:it.u||'#',
+        sm:{ko:[it.d||it.t],en:[it.d||it.t]},
+        rs:rs,
+        rp:[{s:it.s,t:it.t,m:it.m,u:it.u}]
+      });
+      existNews.add(nkey);
+      newsAdded=true;
+    }
+  }
+  if(newsAdded){
+    try{buildNews();}catch(e){}
+    // 카드 수 뱃지 갱신
+    var tag=document.querySelector('.shead .tag');
+    if(tag) tag.innerHTML=NEWS.length+'<span data-ko>개</span>';
+  }
 }
 
 function fetchLive(){
