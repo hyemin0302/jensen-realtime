@@ -1,0 +1,32 @@
+name: 뉴스 배치 업데이트 (2시간)
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # UTC 2시간마다 → KST 기준 짝수 시간 정각
+  workflow_dispatch:          # GitHub 대시보드에서 수동 실행 가능
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node.js 20 셋업
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: RSS 수집 실행
+        run: node scripts/fetch-news.js
+
+      - name: 변경사항 커밋 & 푸시
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "News Bot"
+          git add public/news-live.json
+          git diff --staged --quiet || git commit -m "news: 자동 업데이트 $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
+          git diff --staged --quiet || git push

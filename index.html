@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark only">
+<meta name="supported-color-schemes" content="dark">
+<title>Jensen Huang KR Tracker</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0e14;--panel:#121a26;--panel2:#16202e;--line:#1e2c3d;--line2:#27384c;
+  --txt:#e6edf5;--muted:#8a9bb0;--dim:#5c6c80;--up:#ff4d4f;--down:#3b82f6;--flat:#6b7c92;
+  --accent:#76b900;--gold:#e0b341;
+  --mono:ui-monospace,'SF Mono',Menlo,monospace;
+  --sans:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+}
+html{color-scheme:dark;background:#0a0e14}
+html,body{overflow-x:hidden}
+body{background:var(--bg);color:var(--txt);font-family:var(--sans);line-height:1.5;padding-bottom:60px;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:100;background:rgba(10,14,20,.92);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:8px;height:54px}
+.brand{font-weight:800;font-size:13px;display:flex;align-items:center;gap:7px;white-space:nowrap}
+.brand i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
+.nav-btns{flex:1;display:flex;justify-content:center;gap:2px}
+.nav-btns button{font:600 13px var(--sans);color:var(--muted);background:none;border:0;padding:7px 10px;border-radius:8px;cursor:pointer}
+.nav-btns button.on{color:var(--accent);background:rgba(118,185,0,.12)}
+.lang{display:flex;border:1px solid var(--line2);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang button{font:600 12px var(--sans);background:none;border:0;color:var(--muted);padding:6px 9px;cursor:pointer}
+.lang button.on{background:var(--accent);color:#05210a}
+.bell{font:500 11px var(--sans);background:none;border:1px solid var(--line2);color:var(--muted);padding:6px 10px;border-radius:8px;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:5px;flex-shrink:0;transition:border-color .2s,color .2s}
+.bell:hover{border-color:var(--accent);color:var(--accent)}
+
+/* hero */
+.hero{padding:40px 0 24px}
+.kick{font:600 12px var(--mono);letter-spacing:.15em;color:var(--accent)}
+.hero h1{font-size:clamp(30px,7vw,50px);font-weight:700;letter-spacing:-.02em;margin:8px 0;color:#fff;font-family:var(--sans);display:inline-block;background:#0d1420;border-radius:10px;padding:4px 14px 8px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.hero p{color:var(--muted);font-size:15px;max-width:600px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);padding:6px 11px;border-radius:99px;font:500 12px var(--mono)}
+.chip .b{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block;box-shadow:0 0 5px var(--accent)}
+
+/* sections */
+section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
+.shead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:5px}
+.shead h2{font-size:22px;font-weight:700;color:#fff;font-family:var(--sans);display:inline-flex;align-items:center;gap:9px;background:#0d1420;border-radius:8px;padding:4px 12px}
+.shead h2 i{width:12px;height:12px;border-radius:3px;background:var(--accent);display:inline-block}
+.shead .tag{font:500 11px var(--mono);color:var(--dim);border:1px solid var(--line);padding:3px 8px;border-radius:6px;margin-left:auto}
+.ssub{color:var(--muted);font-size:13px;margin-bottom:16px;max-width:680px}
+.note{font:500 11px var(--mono);color:var(--dim);margin-top:12px;line-height:1.7}
+
+/* map section header */
+.map-hd{display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+.map-hd h2{font-size:20px;font-weight:700;color:#fff;display:inline-flex;align-items:center;gap:8px;background:#0d1420;border-radius:8px;padding:4px 12px;white-space:nowrap;flex-shrink:0}
+.map-hd h2 i{width:11px;height:11px;border-radius:3px;background:var(--accent);display:inline-block}
+.map-hd .desc{flex:1;color:var(--muted);font-size:12px;line-height:1.65;min-width:180px;padding-top:5px}
+.map-hd .tag{flex-shrink:0;margin-top:5px;font:500 11px var(--mono);color:var(--dim);border:1px solid var(--line);padding:3px 8px;border-radius:6px}
+
+/* map 2-col grid */
+.map-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;align-items:start}
+
+/* map box */
+.mapbox{position:relative;width:100%;height:460px;background:#0a121d;border:1px solid var(--line2);border-radius:14px;overflow:hidden}
+.mapbox svg{position:absolute;inset:0;width:100%;height:100%}
+.locard{position:absolute;top:14px;left:14px;z-index:2;background:rgba(10,16,26,.78);border:1px solid var(--line2);border-radius:11px;padding:11px 14px;max-width:78%}
+.locard .l{font-size:11px;color:var(--muted)}
+
+/* timeline right column */
+.tl-col{display:flex;flex-direction:column;gap:10px;height:460px;overflow-y:auto;overflow-x:hidden;padding-right:4px;scrollbar-width:thin;scrollbar-color:var(--line2) transparent}
+/* timeline legend */
+.tl-leg{display:flex;align-items:center;gap:12px;padding-top:10px;border-top:1px solid var(--line);font:500 11px var(--mono);color:var(--muted);flex-wrap:wrap;flex-shrink:0}
+.tl-leg .ld{display:inline-flex;align-items:center;gap:4px}
+.tl-leg .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.tl-hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:2px}
+.tl-hd .ttl{font-size:15px;font-weight:700;color:#eef3f9}
+.tl-hd .tag{font:500 11px var(--mono);color:var(--dim);border:1px solid var(--line);padding:3px 8px;border-radius:6px}
+
+/* inbound card in timeline col */
+.inb-card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:11px 14px}
+.inb-sts{display:flex;align-items:center;gap:7px;font:600 12px var(--mono);color:var(--muted);margin-bottom:9px}
+.inb-sts .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex-shrink:0;box-shadow:0 0 6px var(--accent)}
+.inb-route{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;flex-wrap:wrap}
+.inb-route .dash{font:500 11px var(--mono);color:var(--gold);letter-spacing:-2px;flex:1;text-align:center;overflow:hidden}
+.inb-foot{font:500 11px var(--mono);color:var(--muted);margin-top:7px}
+.locard .p{font-size:17px;font-weight:700;color:#fff;margin-top:2px}
+.locard .w{font:500 12px var(--mono);color:var(--accent);margin-top:4px}
+
+/* timeline */
+.tl{margin-top:18px;display:grid;gap:9px}
+.tl-col .tl{margin-top:0}
+.tlrow{display:grid;grid-template-columns:34px 1fr;gap:11px;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 14px}
+.tlrow .n{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font:700 13px var(--mono);background:var(--panel2);border:1px solid var(--line2)}
+.tlrow.cur .n{background:var(--accent);color:#05210a;border-color:var(--accent)}
+.tlrow .when{font:500 11px var(--mono);color:var(--muted)}
+.bdg{font:600 10px var(--mono);padding:2px 6px;border-radius:5px;margin-left:6px}
+.bl{background:rgba(118,185,0,.15);color:var(--accent)}
+.be{background:rgba(224,179,65,.15);color:var(--gold)}
+.bu{background:rgba(107,124,146,.15);color:var(--flat)}
+.tlrow .pl{font-weight:700;font-size:15px;margin-top:2px}
+.tlrow .ds{color:var(--muted);font-size:13px;margin-top:2px}
+.tlrow .src{display:inline-block;margin-top:7px;font:500 11px var(--mono);color:var(--accent);border:1px solid var(--line2);padding:3px 8px;border-radius:6px}
+
+/* inbound banner */
+.inb{display:flex;align-items:center;gap:9px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:11px 14px;margin-bottom:14px;font-size:13px}
+.inb .t{font:600 11px var(--mono);color:var(--dim);border:1px solid var(--line2);padding:2px 7px;border-radius:5px}
+.inb .g{font:600 12px var(--mono);color:var(--accent)}
+.inb .w{font:500 12px var(--mono);color:var(--muted);margin-left:auto}
+
+/* stock cards */
+.theme{margin-top:22px}
+.thead{display:flex;align-items:center;gap:9px;margin-bottom:11px;flex-wrap:wrap}
+.thead h3{font-size:16px;font-weight:700;color:#eef3f9;display:flex;align-items:center;gap:8px}
+.thead h3 i{width:10px;height:10px;border-radius:3px;background:var(--accent);display:inline-block}
+.thead .d{color:var(--dim);font-size:12px}
+.thead .c{margin-left:auto;font:500 12px var(--mono);color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.card{background:#0f1722;border:1px solid var(--line);border-radius:15px;padding:16px 16px 0}
+.card .h{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.card .nm{font-size:20px;font-weight:700;color:#eef3f9;}
+.card .cd{font:500 12px var(--mono);color:var(--dim)}
+.card svg.sp{width:100%;height:56px;display:block;margin:12px 0 4px}
+.card .pr{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}
+.card .pr .now{font-size:13px;color:var(--muted)}
+.card .pr .now b{color:#cdd8e6}
+.card .pr .now .pt{font:500 11px var(--mono);color:var(--dim)}
+.card .big{font-size:24px;font-weight:800;display:flex;align-items:center;gap:3px}
+.dual{display:flex;border-top:1px solid var(--line);margin:0 -16px;padding:13px 0 15px}
+.dual>div{flex:1;text-align:center;position:relative}
+.dual>div:first-child:after{content:'';position:absolute;right:0;top:5px;bottom:5px;width:1px;background:var(--line)}
+.dual .l{font-size:12px;color:var(--muted)}
+.dual .v{font-size:18px;font-weight:800;display:block;margin-top:5px}
+.dual .s{font:500 10px var(--mono);color:var(--dim);display:block;margin-top:4px}
+.up{color:var(--up);}.down{color:var(--down);}.flat{color:var(--flat)}
+
+/* chart */
+.chartbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.chartbox svg{width:100%;height:300px;display:block}
+.clg{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:12px;font:500 12px var(--mono)}
+.clg span{display:inline-flex;align-items:center;gap:6px}
+.clg i{width:13px;height:3px;border-radius:2px;display:inline-block}
+
+/* news */
+.nws{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+.nws .top{display:block;padding:14px 15px;cursor:pointer}
+.nws .badges{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:11px}
+.fg{font:700 11px var(--mono);padding:5px 9px;border-radius:7px;white-space:nowrap}
+.fnew{background:var(--accent);color:#05210a}
+.fmed{background:rgba(118,185,0,.1);color:var(--accent);border:1px solid rgba(118,185,0,.45)}
+.fst{background:none;color:var(--muted);border:1px solid var(--line2);border-radius:99px;font-weight:500}
+.nws .row2{display:flex;gap:11px;align-items:flex-start}
+.nws .bd{flex:1;min-width:0}
+.nws .bd h4{font-size:17px;font-weight:700;line-height:1.35;color:#f2f6fb;}
+.nws .bd .loc{font:500 11px var(--mono);color:var(--gold);margin-top:6px}
+.nws .car{color:var(--dim);font:700 16px var(--mono);transition:transform .2s;padding-top:3px;flex-shrink:0;user-select:none}
+.nws.open .car{transform:rotate(90deg)}
+.nws .bd h4{color:#f2f6fb}
+.nws .bd a{color:inherit}
+.nws .det{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s ease;border-top:0 solid var(--line);margin-top:0}
+.nws .det>div{overflow:hidden}
+.nws.open .det{grid-template-rows:1fr;border-top:1px solid var(--line);margin-top:12px}
+.nws .det ul{margin:13px 0 0;padding-left:17px;color:var(--muted);font-size:13px}
+.nws .det li{margin-bottom:6px}
+.rl{font:500 11px var(--mono);color:var(--dim);margin:15px 0 8px}
+.rs{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:9px 11px;margin-bottom:7px}
+.rs .r1{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.rs .nm{font-weight:700;font-size:13px}.rs .cd{font:500 10px var(--mono);color:var(--dim)}
+.rs .pc{font:500 11px var(--mono);margin-left:auto}
+.rs .mt{font-size:11px;color:var(--dim);margin-top:6px;border-top:1px dashed var(--line2);padding-top:6px;line-height:1.5}
+.rs .mt b{color:var(--muted)}
+.rep{margin-top:13px}
+.rep summary{font:500 12px var(--mono);color:var(--muted);cursor:pointer;list-style:none}
+.rep summary::-webkit-details-marker{display:none}
+.rep a{display:block;font-size:12px;color:var(--muted);padding:6px 0;border-bottom:1px solid var(--line)}
+.rep .sn{color:var(--accent);font:500 11px var(--mono);margin-right:6px}
+.rep .st{float:right;font:500 11px var(--mono);color:var(--dim)}
+
+/* 뉴스 관련주 테이블 */
+.rs2{border:1px solid var(--line);border-radius:9px;padding:11px 14px;margin-bottom:6px;background:var(--panel2)}
+.rs2 .rh{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rs2 .rn{font-weight:700;font-size:14px;color:#eef3f9}
+.rs2 .rc{font:500 11px var(--mono);color:var(--dim)}
+.rs2 .rpr{display:flex;align-items:center;gap:10px;margin-left:auto;flex-wrap:wrap}
+.rs2 .rpx{font:700 13px var(--mono);color:#cdd8e6}
+.rs2 .rbc{font:500 11px var(--mono);color:var(--muted);display:inline-flex;align-items:center;gap:3px}
+.rs2 .rbc b{font-size:12px;font-weight:700}
+.rs2 .rbc .rd{font-size:10px;color:var(--dim)}
+.rs2 .rsub{font-size:12px;color:var(--dim);margin-top:5px;line-height:1.65}
+.rs2 .rsub b{color:var(--muted);font-weight:500}
+/* 배지 행 레이아웃 */
+.nws .bdrow{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-bottom:11px}
+.nws .nts{margin-left:auto;font:500 11px var(--mono);color:var(--dim);white-space:nowrap}
+
+/* collect */
+.cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:11px;margin-bottom:16px}
+.cst{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px}
+.cst .l{font-size:11px;color:var(--dim)}
+.cst .v{font:700 21px var(--mono);margin-top:5px}
+.cst .s{font:500 11px var(--mono);color:var(--muted)}
+.feed{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:4px 14px}
+.fr{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}
+.fr:last-child{border:0}
+.fr .s{font:500 11px var(--mono);color:var(--accent);min-width:58px}
+.fr .t{flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fr a.t:hover{color:var(--txt);text-decoration:underline}
+.fr .m{font:500 11px var(--mono);color:var(--dim)}
+
+/* about section */
+.made-lbl{font:500 11px var(--mono);color:var(--dim);margin-bottom:8px}
+.who2{font-size:38px;font-weight:800;color:#fff;letter-spacing:-.02em;line-height:1.1;margin-bottom:8px}
+.role2{color:var(--muted);font-size:14px;line-height:1.9}
+.role2 em{font:500 11px var(--mono);color:var(--dim);font-style:normal;margin-left:3px}
+.alinks2{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.alinks2 a{display:inline-flex;align-items:center;gap:7px;font:500 12px var(--mono);background:var(--panel);border:1px solid var(--line2);padding:8px 14px;border-radius:9px;color:var(--txt);transition:border-color .2s,color .2s}
+.alinks2 a:hover{border-color:var(--accent);color:var(--accent)}
+
+/* version history */
+.ver-hd{display:flex;align-items:center;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid var(--line);margin:28px 0 20px}
+.ver-hd .vtitle{font-size:17px;font-weight:700;color:#fff;display:flex;align-items:center;gap:8px}
+.ver-hd .vtitle span:first-child{width:9px;height:9px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0}
+.ver-hd .vright{font:500 12px var(--mono);color:var(--muted)}
+.ver2{display:grid;grid-template-columns:130px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.ver2 .vleft .vnum{font:700 15px var(--mono);color:var(--accent)}
+.ver2 .vleft .vnum.old{color:var(--muted)}
+.ver2 .vleft .vbadge{display:inline-block;font:600 10px var(--sans);background:var(--accent);color:#05210a;padding:2px 7px;border-radius:5px;margin:5px 0 4px}
+.ver2 .vleft .vbadge[data-en]{display:none}
+.en .ver2 .vleft .vbadge[data-en]{display:inline-block}
+.en .ver2 .vleft .vbadge[data-ko]{display:none}
+.ver2 .vleft .vdate{font:500 11px var(--mono);color:var(--dim)}
+.ver2 ul{margin:0;padding-left:16px;color:var(--muted);font-size:13px;line-height:2.1}
+
+/* disclaimer full-width */
+.disc2{background:#080c12;border-top:1px solid var(--line);margin-top:48px;padding:52px 0 48px}
+.disc2 .d1{font-size:clamp(22px,3vw,30px);font-weight:700;color:#cdd8e6;letter-spacing:-.01em;margin-bottom:6px}
+.disc2 .d2{font-size:clamp(18px,2.5vw,24px);font-weight:500;color:var(--muted);letter-spacing:-.01em}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font-size:12px;background:#080c12}
+footer .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+footer .fm{font:500 11px var(--mono)}
+.en [data-ko]{display:none}
+[data-en]{display:none}
+.en [data-en]{display:revert}
+
+/* hero image */
+.hero .wrap{position:relative}
+.hero-img{position:absolute;bottom:0;right:8px;height:160px;opacity:.95;pointer-events:none;display:none;object-fit:contain;object-position:bottom}
+@media(min-width:480px){.hero-img{display:block}}
+@media(min-width:768px){.hero-img{height:200px}.hero .wrap{padding-right:215px}}
+@media(min-width:1024px){.hero-img{height:232px;right:16px}.hero .wrap{padding-right:255px}}
+
+/* shead inline sub-title */
+.shead .sub{font:700 14px var(--sans);color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.shead .sub i{width:4px;height:4px;border-radius:50%;background:var(--line2);display:inline-block}
+
+/* map inbound light-ray animations */
+@keyframes ping{0%{r:10;opacity:.9}100%{r:32;opacity:0}}
+@keyframes ping2{0%{r:8;opacity:.7}100%{r:26;opacity:0}}
+@keyframes rayFade{0%,100%{opacity:.7}50%{opacity:.15}}
+@keyframes beam{0%{opacity:.6;transform:scaleY(1)}100%{opacity:0;transform:scaleY(2.5)}}
+
+/* responsive */
+@media(max-width:960px){
+  .map-grid{grid-template-columns:1fr}
+  .mapbox{height:auto;aspect-ratio:9/7}
+  .tl-col{height:auto;overflow-y:visible;padding-right:0}
+}
+@media(max-width:720px){
+  .bell span{display:none} /* icon only */
+  .map-hd .desc{display:none}
+}
+@media(max-width:600px){
+  .nav-btns button{padding:5px 7px;font-size:12px}
+  .lang button{padding:5px 7px;font-size:11px}
+  .hero h1{font-size:clamp(24px,8vw,40px)}
+  .chips{gap:6px}
+  .chip{font-size:11px;padding:5px 9px}
+  .cards{display:flex;overflow-x:auto;gap:12px;padding-bottom:10px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .cards::-webkit-scrollbar{display:none}
+  .card{min-width:calc(52vw - 16px);flex-shrink:0;scroll-snap-align:start}
+  .mapbox{aspect-ratio:3/2}
+  .chartbox svg{height:220px}
+  .cgrid{grid-template-columns:repeat(2,1fr)}
+  .map-hd h2{font-size:16px}
+}
+@media(max-width:360px){
+  .nav-btns{gap:0}
+  .nav-btns button{padding:5px 5px;font-size:11px}
+  .brand{font-size:12px}
+  .bell{display:none}
+}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <button class="bell" id="bellBtn">🔔 <span data-ko>브라우저 알림 받기</span><span data-en>Get alerts</span></button>
+  <div class="nav-btns">
+    <button data-go="news"><span data-ko>뉴스</span><span data-en>News</span></button>
+    <button data-go="stocks"><span data-ko>종목</span><span data-en>Stocks</span></button>
+    <button data-go="map"><span data-ko>지도</span><span data-en>Map</span></button>
+    <button data-go="about"><span data-ko>정보</span><span data-en>About</span></button>
+  </div>
+  <div class="lang"><button id="bko" class="on">한국어</button><button id="ben">EN</button></div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="kick">LIVE · NVIDIA CEO · KOREA</div>
+  <h1><span data-ko>젠슨황의 발자취</span><span data-en>Jensen Huang's Footsteps</span></h1>
+  <p><span data-ko>엔비디아 젠슨 황의 방한 동선과 관련 한국 상장사의 주가 움직임을 실시간으로 따라갑니다.</span><span data-en>Tracking NVIDIA CEO Jensen Huang's Korea visit and related KOSPI stocks in real time.</span></p>
+  <img src="jensen-cutout.png" class="hero-img" alt="Jensen Huang">
+  <div class="chips">
+    <span class="chip"><span class="b"></span>LIVE</span>
+    <span class="chip">🇹🇼 <span data-ko>한국 밖 · 대만 타이베이</span><span data-en>Outside Korea · Taipei</span></span>
+    <span class="chip">👁 <span data-ko>현재 1명</span><span data-en>1 viewing</span></span>
+  </div>
+</div></header>
+
+<section id="map"><div class="wrap">
+  <!-- 컴팩트 한 줄 헤더 -->
+  <div class="map-hd">
+    <h2><i></i><span data-ko>수도권 예상 방문지</span><span data-en>Capital-region route</span></h2>
+    <p class="desc"><span data-ko>공식 발표 전 보도 기반 추정 방문지입니다. 방문 순서·날짜는 확정되지 않았으며(번호·연결선은 추정 순서일 뿐), 구체 일시는 공개된 바 없어 표시하지 않습니다. 근거 기사는 타임라인에서 확인하세요.</span><span data-en>Estimated from reports. Order and dates unconfirmed.</span></p>
+    <span class="tag" data-ko>추정 · 순서/일시 미확정</span><span class="tag" data-en>estimated</span>
+  </div>
+  <!-- 2열 그리드: 지도(좌) + 타임라인(우) -->
+  <div class="map-grid">
+    <!-- 좌: 지도 -->
+    <div>
+      <div class="mapbox">
+        <div class="locard">
+          <div class="l" data-ko>현재 위치</div><div class="l" data-en>Current location</div>
+          <div class="p">🇹🇼 <span data-ko>한국 밖 · 대만 타이베이</span><span data-en>Outside · Taipei</span></div>
+          <div class="w">✈ COMPUTEX 2026 · 6/5 <span data-ko>방한 예상</span><span data-en>est.</span></div>
+        </div>
+        <svg id="mapsvg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <p class="note"><span data-ko>✓ 방문 · ● 현재 · 번호 예정 · ? 미정 / 번호·연결선 = 추정 순서(미확정) · 핀 크기 = 등락폭(빨강/파랑)</span><span data-en>✓ visited · ● current · # planned · ? TBD / connectors = estimated order · pin size = move (red/blue)</span></p>
+    </div>
+    <!-- 우: 타임라인 패널 -->
+    <div class="tl-col">
+      <div class="tl-hd">
+        <span class="ttl"><span data-ko>예상 방문지 · 날짜별</span><span data-en>Route by date</span></span>
+        <span class="tag" data-ko>추정 순서 · 미확정</span><span class="tag" data-en>estimated</span>
+      </div>
+      <!-- 타임라인 -->
+      <div class="tl" id="tl"></div>
+      <!-- 범례 -->
+      <div class="tl-leg">
+        <span class="ld"><span class="dot" style="background:var(--muted)"></span><span data-ko>방문</span><span data-en>visited</span></span>
+        <span class="ld"><span class="dot" style="background:var(--accent)"></span><span data-ko>현재</span><span data-en>current</span></span>
+        <span class="ld"><span class="dot" style="border:1.5px solid var(--line2);background:transparent"></span><span data-ko>예정</span><span data-en>planned</span></span>
+        <span class="ld">⚙ <span data-ko>미정</span><span data-en>TBD</span></span>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="stocks"><div class="wrap">
+  <div class="shead"><h2><i></i><span data-ko>테마별 관련주</span><span data-en>Stocks by theme</span></h2><span class="tag" id="scount"></span></div>
+  <p class="ssub"><span data-ko>젠슨 황·엔비디아 AI 밸류체인 1차 역할 기준으로 묶었습니다.</span><span data-en>Grouped by primary role in NVIDIA's AI value chain.</span></p>
+  <div id="themes"></div>
+  <p class="note"><span data-ko>※ 등락은 뉴스 전 종가 대비 · 시세 지연 가능</span><span data-en>※ change vs pre-news close · may be delayed</span></p>
+</div></section>
+
+<section id="compare"><div class="wrap">
+  <div class="shead"><h2><i></i><span data-ko>코스피 vs 관련주</span><span data-en>KOSPI vs stocks</span></h2><span class="tag" data-ko>첫값=0%</span><span class="tag" data-en>base 0%</span></div>
+  <p class="ssub"><span data-ko>첫 방한 보도 시점부터 첫값 대비 누적 변화율(%)로 정규화. 코스피는 굵은 기준선.</span><span data-en>Normalized cumulative % from first report. KOSPI is the bold baseline.</span></p>
+  <div class="chartbox"><svg id="chart" viewBox="0 0 900 300" preserveAspectRatio="none"></svg><div class="clg" id="clg"></div></div>
+</div></section>
+
+<section id="news"><div class="wrap">
+  <div class="shead"><h2><i></i><span data-ko>젠슨 황 관련 뉴스</span><span data-en>Jensen Huang news</span></h2><span class="tag">24<span data-ko>개</span></span></div>
+  <p class="ssub"><span data-ko>같은 내용은 묶고, 보도 매체 수로 열기를 표시합니다.</span><span data-en>Similar stories grouped; outlet count shows heat.</span></p>
+  <div id="newslist"></div>
+</div></section>
+
+<section id="collect"><div class="wrap">
+  <div class="shead"><h2><i></i><span data-ko>실시간 수집 현황</span><span data-en>Collection status</span></h2></div>
+  <div class="cgrid">
+    <div class="cst"><div class="l" data-ko>기사 → 뉴스</div><div class="l" data-en>articles → topics</div><div class="v">151 → 24</div></div>
+    <div class="cst"><div class="l" data-ko>기사 마지막 수집</div><div class="l" data-en>last article</div><div class="v">00:41:14</div><div class="s">06.03</div></div>
+    <div class="cst"><div class="l" data-ko>주가 마지막 갱신</div><div class="l" data-en>last quote</div><div class="v">00:41:14</div><div class="s">06.03</div></div>
+  </div>
+  <div class="rl"><span data-ko>최근 수집</span><span data-en>recent</span></div>
+  <div class="feed" id="feed"></div>
+</div></section>
+
+<section id="about"><div class="wrap">
+  <!-- 만든 사람 -->
+  <div class="made-lbl"><span data-ko>만든 사람</span><span data-en>made by</span></div>
+  <div class="who2">Jun</div>
+  <div class="role2">
+    Researcher <em>@FourPillars</em><br>VP <em>@Decipher</em>
+  </div>
+  <div class="alinks2">
+    <a href="https://x.com/Jun__Yoo" target="_blank" rel="noopener">𝕏 X @Jun__Yoo</a>
+    <a href="https://t.me/JunYooo" target="_blank" rel="noopener">✈ Telegram @JunYooo</a>
+    <a href="mailto:jun@4pillars.io">✉ Email jun@4pillars.io</a>
+  </div>
+  <!-- 업데이트 내역 -->
+  <div class="ver-hd">
+    <div class="vtitle"><span></span><span data-ko>업데이트 내역</span><span data-en>Changelog</span></div>
+    <div class="vright"><span data-ko>최신</span><span data-en>latest</span> v1.1</div>
+  </div>
+  <div class="ver2">
+    <div class="vleft">
+      <div class="vnum">v1.1</div>
+      <div class="vbadge" data-ko>최신</div><div class="vbadge" data-en>latest</div>
+      <div class="vdate">2026.06.01</div>
+    </div>
+    <ul data-ko>
+      <li>한국어·영어 이중언어 모드 — 지도·기사 제목·종목명·날짜까지 전체 영어화</li>
+      <li>SKT 등 협력사 뉴스 노출 (피지컬 AI·디지털 트윈 협력)</li>
+      <li>젠슨 황 관련 뉴스(큰 주제)별 접기·펼치기</li>
+      <li>방한 기준·뉴스 기준 이중 수익률 표시</li>
+      <li>새 뉴스 웹푸시 알림</li>
+    </ul>
+    <ul data-en>
+      <li>KO/EN bilingual mode — map, headlines, tickers, dates fully translated</li>
+      <li>Partner news surfaced (Physical AI · Digital Twin)</li>
+      <li>Collapse per topic</li>
+      <li>Dual returns (visit baseline vs news baseline)</li>
+      <li>Web push for new news</li>
+    </ul>
+  </div>
+  <div class="ver2">
+    <div class="vleft">
+      <div class="vnum old">v1.0</div>
+      <div class="vdate">2026.05.31</div>
+    </div>
+    <ul data-ko><li>최초 공개 — 뉴스 자동수집·관련주 주가·한반도 동선 지도·이벤트 피드</li></ul>
+    <ul data-en><li>Initial release — news collection, related stocks, Korea route map, event feed</li></ul>
+  </div>
+</div></section>
+
+<!-- 면책고지 (전폭) -->
+<div class="disc2"><div class="wrap">
+  <p class="d1" data-ko>정보 전달용 서비스입니다.</p>
+  <p class="d1" data-en>For informational purposes only.</p>
+  <p class="d2" data-ko>투자 판단과 책임은 본인에게 있습니다.</p>
+  <p class="d2" data-en>Investment decisions and responsibility are your own.</p>
+</div></div>
+
+<footer><div class="wrap">
+  <div><span data-ko>젠슨황의 발자취</span><span data-en>Jensen Huang's Footsteps</span> · made by Jun</div>
+  <div class="fm"><span data-ko>매 1분 수집 · 장중 3분 간격 갱신 · © 2026</span><span data-en>collected every 1 min · 3 min intraday · © 2026</span></div>
+</div></footer>
+
+<script>
+const KR_RINGS=[[[127.022,37.7],[127.028,37.701],[127.032,37.692],[127.049,37.694],[127.052,37.686],[127.063,37.695],[127.081,37.696],[127.096,37.689],[127.093,37.649],[127.111,37.642],[127.112,37.633],[127.104,37.622],[127.116,37.619],[127.118,37.605],[127.117,37.594],[127.101,37.576],[127.105,37.556],[127.177,37.581],[127.184,37.545],[127.163,37.545],[127.146,37.522],[127.141,37.505],[127.161,37.5],[127.147,37.477],[127.133,37.475],[127.133,37.468],[127.125,37.47],[127.117,37.459],[127.104,37.462],[127.088,37.445],[127.072,37.442],[127.07,37.431],[127.053,37.429],[127.036,37.439],[127.037,37.455],[127.032,37.466],[127.015,37.455],[127.004,37.468],[126.997,37.467],[126.997,37.462],[126.975,37.454],[126.963,37.44],[126.94,37.436],[126.928,37.45],[126.907,37.434],[126.886,37.456],[126.889,37.461],[126.872,37.485],[126.877,37.489],[126.87,37.494],[126.847,37.482],[126.845,37.474],[126.832,37.478],[126.815,37.475],[126.823,37.488],[126.813,37.496],[126.827,37.509],[126.828,37.529],[126.822,37.541],[126.807,37.544],[126.794,37.536],[126.791,37.544],[126.772,37.548],[126.764,37.555],[126.778,37.56],[126.782,37.574],[126.801,37.588],[126.8,37.603],[126.854,37.572],[126.876,37.578],[126.885,37.594],[126.888,37.589],[126.9,37.59],[126.9,37.611],[126.912,37.644],[126.905,37.649],[126.924,37.646],[126.948,37.659],[126.957,37.653],[126.963,37.633],[126.958,37.629],[126.975,37.632],[126.986,37.641],[126.98,37.656],[126.994,37.667],[126.992,37.68],[127.009,37.684],[127.01,37.697],[127.015,37.701],[127.022,37.7]],[[126.108,37.272],[126.112,37.258],[126.118,37.258],[126.118,37.248],[126.128,37.252],[126.138,37.247],[126.141,37.238],[126.15,37.239],[126.166,37.231],[126.144,37.222],[126.148,37.214],[126.117,37.209],[126.11,37.213],[126.116,37.216],[126.111,37.224],[126.101,37.222],[126.102,37.23],[126.085,37.222],[126.092,37.232],[126.09,37.248],[126.103,37.266],[126.1,37.272],[126.108,37.272]],[[126.482,37.244],[126.459,37.224],[126.453,37.231],[126.433,37.232],[126.433,37.258],[126.428,37.263],[126.436,37.266],[126.434,37.274],[126.448,37.272],[126.454,37.277],[126.45,37.28],[126.47,37.288],[126.475,37.283],[126.488,37.283],[126.498,37.277],[126.494,37.27],[126.502,37.258],[126.497,37.254],[126.486,37.259],[126.487,37.254],[126.476,37.253],[126.482,37.244]],[[126.503,37.531],[126.516,37.534],[126.525,37.525],[126.565,37.514],[126.577,37.504],[126.582,37.489],[126.564,37.479],[126.506,37.466],[126.485,37.444],[126.442,37.421],[126.419,37.422],[126.413,37.435],[126.406,37.439],[126.4,37.434],[126.404,37.44],[126.395,37.446],[126.38,37.44],[126.381,37.435],[126.377,37.442],[126.364,37.442],[126.372,37.447],[126.368,37.457],[126.356,37.463],[126.359,37.473],[126.373,37.472],[126.418,37.497],[126.476,37.5],[126.494,37.508],[126.497,37.526],[126.501,37.535],[126.503,37.531]],[[126.656,37.638],[126.694,37.62],[126.705,37.612],[126.705,37.602],[126.714,37.604],[126.725,37.592],[126.744,37.592],[126.752,37.58],[126.768,37.588],[126.794,37.582],[126.776,37.565],[126.778,37.56],[126.764,37.555],[126.76,37.518],[126.746,37.515],[126.742,37.509],[126.742,37.487],[126.768,37.472],[126.778,37.472],[126.78,37.455],[126.771,37.448],[126.769,37.428],[126.753,37.423],[126.752,37.411],[126.721,37.383],[126.685,37.387],[126.696,37.383],[126.665,37.35],[126.642,37.347],[126.654,37.344],[126.623,37.342],[126.613,37.347],[126.61,37.337],[126.606,37.337],[126.609,37.343],[126.581,37.337],[126.591,37.339],[126.596,37.347],[126.583,37.347],[126.583,37.355],[126.639,37.355],[126.622,37.355],[126.621,37.348],[126.641,37.348],[126.652,37.353],[126.643,37.355],[126.654,37.356],[126.61,37.387],[126.61,37.416],[126.598,37.416],[126.604,37.424],[126.633,37.427],[126.635,37.418],[126.637,37.421],[126.635,37.431],[126.61,37.43],[126.614,37.437],[126.608,37.441],[126.619,37.445],[126.611,37.448],[126.612,37.454],[126.601,37.438],[126.594,37.438],[126.593,37.455],[126.603,37.457],[126.591,37.462],[126.595,37.457],[126.6,37.466],[126.603,37.46],[126.624,37.458],[126.62,37.463],[126.627,37.462],[126.614,37.467],[126.625,37.467],[126.612,37.477],[126.604,37.466],[126.596,37.473],[126.606,37.486],[126.61,37.483],[126.605,37.48],[126.62,37.486],[126.612,37.483],[126.61,37.487],[126.625,37.492],[126.638,37.482],[126.627,37.493],[126.641,37.496],[126.639,37.504],[126.631,37.504],[126.623,37.496],[126.605,37.496],[126.603,37.533],[126.597,37.549],[126.607,37.554],[126.601,37.562],[126.589,37.564],[126.575,37.588],[126.614,37.606],[126.626,37.603],[126.637,37.627],[126.647,37.627],[126.656,37.638]],[[126.33,37.746],[126.318,37.73],[126.319,37.713],[126.343,37.697],[126.366,37.695],[126.379,37.682],[126.373,37.666],[126.341,37.644],[126.326,37.657],[126.329,37.67],[126.319,37.682],[126.289,37.695],[126.269,37.711],[126.282,37.709],[126.288,37.714],[126.293,37.745],[126.318,37.752],[126.33,37.746]],[[126.266,37.815],[126.295,37.802],[126.313,37.802],[126.324,37.808],[126.333,37.797],[126.331,37.79],[126.315,37.774],[126.291,37.763],[126.279,37.769],[126.248,37.766],[126.233,37.751],[126.205,37.769],[126.222,37.787],[126.219,37.796],[126.223,37.805],[126.241,37.817],[126.266,37.815]],[[126.439,37.825],[126.456,37.808],[126.506,37.783],[126.512,37.762],[126.526,37.748],[126.513,37.717],[126.525,37.702],[126.517,37.675],[126.532,37.665],[126.523,37.656],[126.527,37.647],[126.522,37.646],[126.535,37.622],[126.54,37.625],[126.544,37.618],[126.52,37.611],[126.515,37.597],[126.524,37.598],[126.518,37.592],[126.526,37.587],[126.517,37.58],[126.503,37.59],[126.514,37.593],[126.513,37.599],[126.504,37.596],[126.48,37.605],[126.478,37.599],[126.464,37.595],[126.462,37.589],[126.447,37.594],[126.405,37.594],[126.37,37.613],[126.378,37.619],[126.374,37.631],[126.366,37.635],[126.398,37.64],[126.411,37.652],[126.404,37.676],[126.388,37.69],[126.391,37.696],[126.359,37.704],[126.351,37.715],[126.352,37.74],[126.357,37.741],[126.35,37.79],[126.387,37.807],[126.392,37.823],[126.414,37.822],[126.427,37.832],[126.439,37.825]],[[126.743,37.038],[126.757,37.055],[126.681,37.117],[126.674,37.117],[126.685,37.119],[126.676,37.138],[126.68,37.143],[126.66,37.138],[126.696,37.151],[126.683,37.16],[126.65,37.155],[126.661,37.163],[126.654,37.181],[126.66,37.176],[126.67,37.189],[126.66,37.191],[126.65,37.184],[126.661,37.221],[126.648,37.244],[126.646,37.258],[126.654,37.269],[126.633,37.287],[126.646,37.279],[126.658,37.283],[126.661,37.291],[126.648,37.293],[126.629,37.285],[126.662,37.293],[126.662,37.278],[126.684,37.281],[126.672,37.273],[126.68,37.257],[126.698,37.261],[126.725,37.256],[126.734,37.249],[126.756,37.254],[126.765,37.245],[126.775,37.247],[126.783,37.23],[126.787,37.233],[126.778,37.246],[126.79,37.244],[126.791,37.267],[126.811,37.268],[126.804,37.277],[126.805,37.294],[126.819,37.29],[126.843,37.267],[126.838,37.276],[126.828,37.28],[126.817,37.298],[126.768,37.293],[126.676,37.32],[126.671,37.329],[126.616,37.314],[126.578,37.293],[126.586,37.291],[126.584,37.285],[126.589,37.29],[126.61,37.279],[126.589,37.29],[126.585,37.285],[126.624,37.264],[126.637,37.272],[126.643,37.269],[126.641,37.263],[126.643,37.271],[126.631,37.281],[126.642,37.273],[126.637,37.254],[126.655,37.225],[126.653,37.2],[126.645,37.192],[126.642,37.204],[126.647,37.211],[126.629,37.218],[126.626,37.202],[126.629,37.219],[126.622,37.236],[126.619,37.23],[126.611,37.234],[126.61,37.229],[126.6,37.228],[126.588,37.233],[126.61,37.221],[126.615,37.209],[126.605,37.212],[126.595,37.198],[126.605,37.212],[126.601,37.221],[126.591,37.213],[126.587,37.221],[126.576,37.221],[126.57,37.199],[126.562,37.193],[126.557,37.202],[126.545,37.206],[126.544,37.215],[126.557,37.218],[126.541,37.229],[126.569,37.237],[126.561,37.242],[126.559,37.267],[126.533,37.289],[126.562,37.277],[126.577,37.29],[126.572,37.298],[126.578,37.293],[126.607,37.313],[126.69,37.335],[126.686,37.341],[126.689,37.349],[126.703,37.351],[126.701,37.355],[126.731,37.387],[126.742,37.383],[126.734,37.389],[126.744,37.398],[126.792,37.393],[126.788,37.408],[126.789,37.396],[126.784,37.392],[126.749,37.404],[126.755,37.413],[126.753,37.423],[126.769,37.428],[126.771,37.448],[126.78,37.455],[126.778,37.472],[126.768,37.472],[126.742,37.487],[126.742,37.509],[126.746,37.515],[126.76,37.518],[126.766,37.554],[126.791,37.544],[126.794,37.536],[126.807,37.544],[126.822,37.541],[126.828,37.529],[126.827,37.509],[126.813,37.496],[126.823,37.488],[126.815,37.475],[126.832,37.478],[126.845,37.474],[126.847,37.482],[126.87,37.494],[126.877,37.489],[126.872,37.485],[126.889,37.461],[126.886,37.456],[126.894,37.453],[126.903,37.434],[126.909,37.434],[126.928,37.45],[126.94,37.436],[126.963,37.44],[126.975,37.454],[127.004,37.468],[127.015,37.455],[127.035,37.464],[127.036,37.439],[127.047,37.431],[127.066,37.429],[127.074,37.437],[127.072,37.442],[127.088,37.445],[127.104,37.462],[127.117,37.459],[127.125,37.47],[127.144,37.474],[127.157,37.489],[127.161,37.5],[127.14,37.509],[127.163,37.545],[127.184,37.545],[127.177,37.581],[127.105,37.556],[127.101,37.576],[127.117,37.594],[127.118,37.605],[127.116,37.619],[127.104,37.622],[127.112,37.633],[127.111,37.642],[127.093,37.649],[127.096,37.689],[127.081,37.696],[127.063,37.695],[127.052,37.686],[127.049,37.694],[127.032,37.692],[127.027,37.701],[127.015,37.701],[127.01,37.697],[127.009,37.684],[126.992,37.68],[126.994,37.667],[126.98,37.656],[126.986,37.641],[126.975,37.632],[126.958,37.629],[126.963,37.633],[126.957,37.653],[126.948,37.659],[126.924,37.646],[126.905,37.649],[126.912,37.644],[126.9,37.611],[126.9,37.59],[126.888,37.589],[126.885,37.594],[126.876,37.578],[126.854,37.572],[126.803,37.605],[126.797,37.598],[126.801,37.588],[126.794,37.582],[126.768,37.588],[126.752,37.58],[126.744,37.592],[126.725,37.592],[126.714,37.604],[126.705,37.602],[126.705,37.612],[126.694,37.62],[126.657,37.638],[126.647,37.627],[126.637,37.627],[126.626,37.603],[126.614,37.606],[126.592,37.593],[126.592,37.599],[126.578,37.605],[126.573,37.599],[126.566,37.604],[126.56,37.601],[126.547,37.634],[126.531,37.655],[126.544,37.663],[126.527,37.674],[126.533,37.694],[126.522,37.717],[126.531,37.748],[126.518,37.763],[126.525,37.768],[126.517,37.771],[126.518,37.777],[126.523,37.79],[126.555,37.778],[126.575,37.763],[126.594,37.761],[126.626,37.779],[126.663,37.781],[126.671,37.835],[126.659,37.84],[126.68,37.846],[126.692,37.869],[126.683,37.874],[126.673,37.87],[126.672,37.878],[126.682,37.88],[126.67,37.888],[126.683,37.913],[126.666,37.919],[126.671,37.955],[126.687,37.957],[126.704,37.975],[126.719,37.965],[126.737,37.966],[126.758,37.984],[126.773,37.978],[126.772,37.984],[126.784,37.982],[126.79,37.988],[126.786,37.99],[126.79,37.999],[126.817,38.003],[126.826,38.024],[126.828,38.02],[126.841,38.033],[126.855,38.032],[126.853,38.053],[126.858,38.054],[126.858,38.062],[126.87,38.078],[126.86,38.086],[126.863,38.094],[126.856,38.1],[126.862,38.108],[126.883,38.116],[126.889,38.129],[126.905,38.138],[126.917,38.137],[126.928,38.127],[126.958,38.135],[126.961,38.14],[126.966,38.137],[126.968,38.147],[126.949,38.162],[126.966,38.171],[126.967,38.199],[126.975,38.199],[126.974,38.205],[126.984,38.211],[126.982,38.227],[126.992,38.229],[127.005,38.222],[127.014,38.237],[127.024,38.242],[127.02,38.246],[127.037,38.25],[127.042,38.259],[127.066,38.264],[127.078,38.279],[127.103,38.281],[127.101,38.274],[127.111,38.271],[127.112,38.238],[127.131,38.233],[127.149,38.242],[127.163,38.238],[127.16,38.22],[127.171,38.213],[127.175,38.205],[127.17,38.198],[127.179,38.188],[127.189,38.188],[127.189,38.162],[127.219,38.139],[127.225,38.148],[127.234,38.147],[127.239,38.157],[127.256,38.163],[127.266,38.18],[127.283,38.183],[127.298,38.175],[127.284,38.159],[127.286,38.153],[127.275,38.137],[127.276,38.124],[127.281,38.125],[127.286,38.115],[127.31,38.118],[127.321,38.095],[127.337,38.09],[127.34,38.101],[127.366,38.107],[127.379,38.118],[127.403,38.113],[127.406,38.103],[127.413,38.102],[127.431,38.115],[127.445,38.097],[127.445,38.057],[127.453,38.047],[127.452,38.035],[127.462,38.013],[127.504,37.998],[127.54,38.001],[127.547,37.978],[127.545,37.968],[127.602,37.955],[127.603,37.946],[127.612,37.941],[127.617,37.928],[127.612,37.923],[127.617,37.906],[127.606,37.876],[127.578,37.874],[127.567,37.859],[127.55,37.852],[127.55,37.847],[127.529,37.84],[127.525,37.83],[127.537,37.811],[127.521,37.793],[127.545,37.76],[127.511,37.736],[127.507,37.721],[127.512,37.716],[127.527,37.727],[127.543,37.72],[127.557,37.729],[127.562,37.72],[127.551,37.687],[127.553,37.662],[127.544,37.652],[127.536,37.651],[127.538,37.641],[127.559,37.628],[127.581,37.633],[127.585,37.642],[127.606,37.651],[127.647,37.633],[127.652,37.623],[127.664,37.624],[127.708,37.586],[127.754,37.592],[127.784,37.578],[127.794,37.585],[127.814,37.564],[127.84,37.559],[127.848,37.55],[127.842,37.539],[127.81,37.538],[127.785,37.513],[127.76,37.503],[127.76,37.493],[127.775,37.492],[127.79,37.475],[127.8,37.471],[127.796,37.463],[127.804,37.429],[127.795,37.424],[127.784,37.389],[127.777,37.383],[127.779,37.371],[127.759,37.367],[127.758,37.346],[127.763,37.334],[127.759,37.331],[127.768,37.307],[127.75,37.297],[127.76,37.273],[127.747,37.24],[127.749,37.218],[127.735,37.208],[127.726,37.183],[127.717,37.183],[127.707,37.17],[127.704,37.158],[127.695,37.151],[127.695,37.14],[127.687,37.135],[127.67,37.136],[127.647,37.151],[127.628,37.155],[127.638,37.141],[127.635,37.1],[127.612,37.087],[127.595,37.088],[127.605,37.069],[127.578,37.075],[127.565,37.061],[127.57,37.048],[127.557,37.041],[127.518,37.058],[127.5,37.048],[127.486,37.055],[127.468,37.053],[127.457,37.042],[127.458,37.02],[127.451,37.019],[127.447,37.011],[127.441,37.012],[127.429,37.002],[127.393,36.997],[127.385,36.984],[127.402,36.968],[127.387,36.964],[127.376,36.949],[127.358,36.948],[127.35,36.953],[127.327,36.936],[127.309,36.929],[127.296,36.931],[127.303,36.916],[127.29,36.894],[127.253,36.922],[127.244,36.918],[127.21,36.931],[127.212,36.938],[127.202,36.952],[127.144,36.971],[127.13,36.966],[127.112,36.971],[127.097,36.959],[127.103,36.953],[127.096,36.942],[127.086,36.948],[127.074,36.939],[127.065,36.942],[127.031,36.928],[127.016,36.935],[126.995,36.935],[126.94,36.917],[126.91,36.902],[126.899,36.93],[126.887,36.936],[126.867,36.933],[126.859,36.951],[126.854,36.948],[126.859,36.942],[126.85,36.946],[126.826,36.986],[126.813,36.987],[126.821,36.986],[126.823,36.991],[126.812,36.995],[126.81,36.988],[126.804,36.99],[126.806,36.997],[126.789,36.995],[126.779,37.007],[126.798,37.014],[126.795,37.026],[126.751,37.03],[126.743,37.038]],[[126.757,37.056],[126.771,37.064],[126.763,37.063],[126.762,37.068],[126.771,37.102],[126.758,37.111],[126.76,37.118],[126.777,37.132],[126.783,37.135],[126.795,37.129],[126.801,37.138],[126.817,37.143],[126.8,37.154],[126.782,37.152],[126.798,37.162],[126.792,37.173],[126.801,37.196],[126.795,37.182],[126.778,37.165],[126.747,37.168],[126.742,37.153],[126.731,37.149],[126.727,37.139],[126.714,37.131],[126.706,37.132],[126.701,37.127],[126.705,37.123],[126.684,37.115],[126.757,37.056]]];
+var MAP_BOUNDS=[126.085,127.848,36.894,38.281];
+var ROUTE=[
+ {n:'1',d:{ko:'6/5 (예상)',en:'Jun 5'},pl:{ko:'인천공항',en:'Incheon Airport'},ds:{ko:'대만 컴퓨텍스 마치고 입국',en:'Arrives after COMPUTEX Taiwan'},lng:126.4407,lat:37.4602,pin:{label:{ko:'입국 예정',en:'Inbound'},cur:true}},
+ {n:'2',d:{ko:'6/5 (예상)',en:'Jun 5'},b:'l',pl:{ko:'성남 분당',en:'Bundang'},ds:{ko:'네이버 이해진 의장 회동 · 소버린 AI',en:'Meets Naver chair Lee'},lng:127.1052,lat:37.3595,pin:{label:{ko:'네이버',en:'Naver'},pct:36.6},src:{m:{ko:'한겨레',en:'Hankyoreh'},t:{ko:"젠슨 황 엔비디아 CEO '유퀴즈' 나온다",en:"Huang to appear on 'Youquiz'"},u:'https://www.hani.co.kr/arti/economy/stock/1196578.html'}},
+ {n:'3',d:{ko:'방한 중 (예상·일시 미정)',en:'During (est.)'},b:'e',pl:{ko:'서울 도심',en:'Central Seoul'},ds:{ko:'4대 그룹 총수 회동 추진 (이재용·최태원·정의선·구광모)',en:'Top-4 chaebol summit'},lng:127.0092,lat:37.5710,pin:{label:{ko:'두산글로벌',en:'Doosan Global'},pct:11.8}},
+ {n:'4',d:{ko:'방한 중 (유력·일시 미정)',en:'During (likely)'},b:'l',pl:{ko:'서울 여의도',en:'Yeouido'},ds:{ko:'LG 구광모 회장 회동 · 피지컬 AI/로봇',en:'Meets LG chair Koo · Physical AI/Robots'},lng:126.9245,lat:37.5219,pin:{label:{ko:'LG전자',en:'LG'},sub:{ko:'(서울 장지·김포)',en:'(Seoul)'},pct:61.9},src:{m:{ko:'한겨레',en:'Hankyoreh'},t:{ko:"젠슨 황 'AI칩 공급 재약 여전…한국 로보틱스 큰손 될 것'",en:"'AI chip constraint continues'"},u:'https://www.hani.co.kr/arti/economy/stock/1196578.html'}},
+ {n:'5',d:{ko:'방한 중 (예상·일시 미정)',en:'During (est.)'},b:'e',pl:{ko:'평택',en:'Pyeongtaek'},ds:{ko:'삼성전자 평택캠퍼스 · HBM4 공급 논의',en:'Samsung Pyeongtaek · HBM4'},lng:127.0500,lat:37.0786,pin:{label:{ko:'삼성전자',en:'Samsung'},pct:13.7},src:{m:{ko:'한겨레',en:'Hankyoreh'},t:{ko:"젠슨 황 'AI칩 공급 재약 여전…한국 로보틱스 큰손 될 것'",en:"'AI chip constraint continues'"},u:'https://www.hani.co.kr/arti/economy/stock/1196578.html'}},
+ {n:'6',d:{ko:'방한 중 (추정·일시 미정)',en:'During (presumed)'},b:'e',pl:{ko:'이천',en:'Icheon'},ds:{ko:'SK하이닉스 M16 방문 (추정)',en:'SK hynix M16 (presumed)'},lng:127.4425,lat:37.2792,pin:{label:{ko:'SK하이닉스',en:'SK hynix'},pct:5.4},src:{m:{ko:'한겨레',en:'Hankyoreh'},t:{ko:"젠슨 황 'AI칩 공급 재약 여전…한국 로보틱스 큰손 될 것'",en:"'AI chip constraint continues'"},u:'https://www.hani.co.kr/arti/economy/stock/1196578.html'}},
+ {n:'7',d:{ko:'6/7 검토 (미정)',en:'Jun 7 (TBD)'},b:'u',pl:{ko:'서울 잠실',en:'Jamsil'},ds:{ko:'두산 베어스 홈경기 시구 검토 (#93 유니폼?)',en:'Possible Doosan first pitch (#93?)'},lng:127.0719,lat:37.5121,pin:{label:{ko:'잠실 · 검토',en:'Jamsil?'},undef:true}}
+];
+var MAP_EXTRAS=[
+ {label:{ko:'현대차',en:'Hyundai'},lng:127.033,lat:37.466,pct:10.13},
+ {label:{ko:'두산로보틱스',en:'Doosan Rob.'},lng:127.097,lat:37.406,pct:34.37}
+];
+var THEMES=[
+ {nm:{ko:'반도체·HBM',en:'Semiconductor·HBM'},d:{ko:'AI 가속기용 메모리·반도체',en:'Memory/chips'},s:[
+  {n:{ko:'삼성전자우',en:'Samsung(pf)'},c:'005935',px:'229,000',v:'+19.27',nw:'+13.09'},
+  {n:{ko:'삼성전자',en:'Samsung Elec'},c:'005930',px:'349,000',v:'+13.68',nw:'+10.09'},
+  {n:{ko:'SK하이닉스',en:'SK hynix'},c:'000660',px:'2,363,000',v:'+5.35',nw:'+1.29'}]},
+ {nm:{ko:'로봇·피지컬 AI',en:'Robotics·Physical AI'},d:{ko:'엔비디아 Isaac 등',en:'NVIDIA Isaac'},s:[
+  {n:{ko:'LG전자',en:'LG Elec'},c:'066570',px:'380,500',v:'+61.91',nw:'+29.86'},
+  {n:{ko:'LG전자우',en:'LG Elec(pf)'},c:'066575',px:'124,400',v:'+53.58',nw:'+29.99'},
+  {n:{ko:'두산로보틱스',en:'Doosan Robotics'},c:'454910',px:'138,400',v:'+34.37',nw:'+29.95'}]},
+ {nm:{ko:'AI 인프라·전력',en:'AI infra·Power'},d:{ko:'데이터센터 전력',en:'Datacenter power'},s:[
+  {n:{ko:'두산에너빌리티',en:'Doosan Enerbility'},c:'034020',px:'106,900',v:'-1.47',nw:'+1.23'}]},
+ {nm:{ko:'플랫폼·소버린 AI',en:'Platform·Sovereign'},d:{ko:'클라우드·소버린 AI',en:'Cloud/sovereign'},s:[
+  {n:{ko:'네이버',en:'Naver'},c:'035420',px:'271,500',v:'+36.57',nw:'+16.03'},
+  {n:{ko:'SK텔레콤',en:'SK Telecom'},c:'017670',px:'112,200',v:'+11.75',nw:'+11.53'}]},
+ {nm:{ko:'완성차·자율주행',en:'Auto·Autonomous'},d:{ko:'차량 AI',en:'Vehicle AI'},s:[
+  {n:{ko:'현대차',en:'Hyundai'},c:'005380',px:'750,000',v:'+10.13',nw:'+3.73'},
+  {n:{ko:'현대차2우B',en:'Hyundai 2pfB'},c:'005387',px:'295,500',v:'+9.65',nw:'+8.64'},
+  {n:{ko:'현대차우',en:'Hyundai(pf)'},c:'005385',px:'295,000',v:'+6.31',nw:'+7.66'},
+  {n:{ko:'현대차3우B',en:'Hyundai 3pfB'},c:'005389',px:'275,000',v:'+5.16',nw:'+6.38'}]},
+ {nm:{ko:'지주·그룹',en:'Holding'},d:{ko:'그룹 지주사',en:'Group holding'},s:[
+  {n:{ko:'두산',en:'Doosan'},c:'000150',px:'2,203,000',v:'+28.45',nw:'+11.71'},
+  {n:{ko:'두산우',en:'Doosan(pf)'},c:'000155',px:'736,000',v:'+21.45',nw:'+11.68'},
+  {n:{ko:'두산2우B',en:'Doosan 2pfB'},c:'000157',px:'584,000',v:'+13.40',nw:'+9.16'}]},
+ {nm:{ko:'기타 관련주',en:'Other'},d:{ko:'테마 밖 거론',en:'Mentioned'},s:[
+  {n:{ko:'두산퓨얼셀',en:'Doosan FuelCell'},c:'336260',px:'89,600',v:'-11.72',nw:'-1.97'},
+  {n:{ko:'두산밥캣',en:'Doosan Bobcat'},c:'241560',px:'66,000',v:'-3.08',nw:'+2.01'},
+  {n:{ko:'LG디스플레이',en:'LG Display'},c:'034220',px:'15,800',v:'-1.80',nw:'-1.80'},
+  {n:{ko:'두산테스나',en:'Doosan Tesna'},c:'131970',px:'156,900',v:'-0.25',nw:'-0.25'}]}
+];
+var CHART=[
+ {nm:{ko:'코스피',en:'KOSPI'},v:4.5,c:'#fff',bold:true},
+ {nm:{ko:'LG전자',en:'LG Elec'},v:57.9,c:'#ff4d4f'},
+ {nm:{ko:'LG이노텍',en:'LG Innotek'},v:39.7,c:'#ff7a45'},
+ {nm:{ko:'두산로보틱스',en:'Doosan Rob'},v:34.4,c:'#ffa940'},
+ {nm:{ko:'네이버',en:'Naver'},v:28.5,c:'#76b900'},
+ {nm:{ko:'LG',en:'LG'},v:24.0,c:'#36cfc9'},
+ {nm:{ko:'두산',en:'Doosan'},v:15.0,c:'#f759ab'}
+];
+var NEWS=[
+ {new:true,med:6,st:{ko:'예정',en:'planned'},cf:{ko:'유력',en:'likely'},loc:'',
+  ti:{ko:'젠슨 황, GTC 타이베이 이후 방한해 국내 기업과 AI 협력 논의 전망',en:'Huang to visit Korea after GTC Taipei'},u:'https://www.mk.co.kr/news/stock/12063307',
+  sm:{ko:['구광모 LG회장, 이해진 네이버 의장 등과 연쇄 회동 소식.','GTC 2026 기조연설에서 네이버클라우드를 글로벌 파트너로 언급.','협력이 메모리에서 피지컬 AI(로봇·모빌리티)로 확산.'],en:['Back-to-back meetings with LG and Naver chairs.','Keynote named Naver Cloud as a global partner.','Cooperation shifting to physical AI.']},
+  rs:[{n:'LG전자',c:'066570',v:'+61.91',f:{ko:'로봇·피지컬AI',en:'Robotics'},b:{ko:'피지컬 AI 협력으로 로봇·AI가전 재평가',en:'Re-rated on physical-AI'}},
+      {n:'네이버',c:'035420',v:'+36.57',f:{ko:'플랫폼·소버린AI',en:'Platform'},b:{ko:'네이버클라우드를 글로벌 파트너로 직접 언급',en:'Named as global cloud partner'}},
+      {n:'삼성전자',c:'005930',v:'+13.68',f:{ko:'반도체·HBM',en:'Semi'},b:{ko:'협력 확산 맥락에서 거론',en:'Cited in expansion context'}}],
+  rp:[{s:'매일경제',t:'LG·두산·네이버株 불기둥',m:'06.01 18:02',u:'https://www.mk.co.kr/news/stock/12063307'},
+      {s:'한국경제',t:'젠슨 황 이번주 방한…AI·로봇 동맹',m:'06.01 16:11',u:'https://www.hankyung.com/article/202606011179i'},
+      {s:'연합뉴스',t:'LG그룹주·네이버 폭등',m:'06.01 16:00',u:'https://www.yna.co.kr/view/AKR20260601036051008'}]},
+ {new:false,med:5,st:{ko:'예정',en:'planned'},cf:{ko:'유력',en:'likely'},loc:'경기 성남시',
+  ti:{ko:'젠슨 황, 네이버 1784 방문 및 이해진 회동 추진설',en:'Huang to visit Naver 1784'},u:'https://www.newsis.com/view/NISX20260601_0003651743',
+  sm:{ko:['8일 성남 네이버 1784 방문 가능성 유력.','자율주행 로봇·디지털트윈 기술 시찰 전망.','소버린 AI·클라우드 협력 확대 논의.'],en:['Jun-8 Naver 1784 visit likely.','Tour of robots & digital twin.','Sovereign AI/cloud talks.']},
+  rs:[{n:'네이버',c:'035420',v:'+16.03',f:{ko:'플랫폼·소버린AI',en:'Platform'},b:{ko:'네이버 1784 방문, AI 인프라·클라우드 협력 전망',en:'1784 visit; AI infra/cloud talks'}}],
+  rp:[{s:'뉴시스',t:'8일 네이버 1784 방문 유력',m:'06.01 13:57',u:'https://www.newsis.com/view/NISX20260601_0003651743'},
+      {s:'한국경제',t:'젠슨 황이 네이버 찍었다',m:'06.01 14:45',u:'https://www.hankyung.com/article/2026060107986'}]},
+ {new:false,med:8,st:{ko:'예정',en:'planned'},cf:{ko:'예상',en:'expected'},loc:'서울 여의도',
+  ti:{ko:'젠슨 황·구광모 회동 기대에 LG그룹 피지컬 AI 협력 부각',en:'LG physical-AI hopes on Huang–Koo meeting'},u:'https://www.newsis.com/view/NISX20260601_0003651988',
+  sm:{ko:['이번 주 방한해 구광모·최태원·이해진 등과 회동 전망.','피지컬 AI 협력 확대 논의 예상.','LG전자 CES서 AI 홈로봇 공개, 로봇 사업 확대.'],en:['Meets Koo, Chey, Lee this week.','Physical-AI cooperation expected.','LG scaling robotics.']},
+  rs:[{n:'LG전자',c:'066570',v:'+68.74',f:{ko:'로봇·피지컬AI',en:'Robotics'},b:{ko:'구광모 회장과 피지컬 AI 협력, 로봇 투자 언급',en:'Huang–Koo physical-AI cooperation'}},
+      {n:'LG전자우',c:'066575',v:'+58.47',f:{ko:'로봇·피지컬AI',en:'Robotics'},b:{ko:'LG전자 우선주',en:'LG preferred'}}],
+  rp:[{s:'뉴시스',t:'LG 로봇 유니버스 속도내나',m:'06.01 15:10',u:'https://www.newsis.com/view/NISX20260601_0003651988'},
+      {s:'동아일보',t:'LG 계열사 강세',m:'06.01 11:53',u:'https://www.donga.com/news/Economy/article/all/20260601/134028145/2'}]},
+ {new:false,med:6,st:{ko:'완료',en:'done'},cf:{ko:'확정',en:'confirmed'},loc:'대만 타이베이',
+  ti:{ko:'GTC 타이베이서 SKT·SK하이닉스 제조 피지컬 AI 협력 성과 공개',en:'SKT/SK hynix physical-AI at GTC Taipei'},u:'https://www.hankyung.com/article/202606011504g',
+  sm:{ko:['최태원 SK 회장이 곽노정 사장과 기조연설 청취.','차세대 GPU 베라 루빈 로드맵 소개.','SK하이닉스 HBM4·HBF 로드맵 부각.'],en:['SK chair Chey attended keynote.','Vera Rubin roadmap shown.','SK hynix HBM4 roadmap.']},
+  rs:[{n:'SK하이닉스',c:'000660',v:'+1.29',f:{ko:'반도체·HBM',en:'Semi'},b:{ko:'곽노정 사장 참석, HBM 파트너십 설명',en:'CEO attended; HBM partnership'}},
+      {n:'SK텔레콤',c:'017670',v:'+11.53',f:{ko:'플랫폼·소버린AI',en:'Platform'},b:{ko:'피지컬 AI 협력사로 직접 언급',en:'Named partner'}}],
+  rp:[{s:'한국경제',t:'최태원, 젠슨 황과 밀착 동맹',m:'06.01 17:39',u:'https://www.hankyung.com/article/202606011504g'},
+      {s:'조선일보',t:'SKT, 피지컬 AI 협력사 언급',m:'06.01 15:31',u:'https://www.chosun.com/economy/tech_it/2026/06/01/GU4WCNDFMU2TANJXGM3DMOJSGA/'}]},
+ {new:false,med:2,st:{ko:'완료',en:'done'},cf:{ko:'확정',en:'confirmed'},loc:'',
+  ti:{ko:'젠슨 황, 컴퓨텍스서 베라 루빈에 삼성·SK하이닉스 HBM4 사용 언급',en:'HBM4 for Vera Rubin at COMPUTEX'},u:'https://www.donga.com/news/Economy/article/all/20260601/134030240/1',
+  sm:{ko:['차세대 AI 가속기 베라 루빈 공개.','삼성전자·SK하이닉스 협력 강조.'],en:['Unveiled Vera Rubin.','Emphasized Samsung/SK hynix.']},
+  rs:[{n:'삼성전자',c:'005930',v:'+10.09',f:{ko:'반도체·HBM',en:'Semi'},b:{ko:'베라 루빈 공개와 함께 협력 강조',en:'Cooperation emphasized'}}],
+  rp:[{s:'동아일보',t:'베라 루빈 공개…삼전·하닉 협력',m:'06.01 16:41',u:'https://www.donga.com/news/Economy/article/all/20260601/134030240/1'}]},
+ {new:false,med:4,st:{ko:'예정',en:'planned'},cf:{ko:'예상',en:'expected'},loc:'성수',
+  ti:{ko:'젠슨 황 방한 임박, 성수동서 삼겹살·소맥 회동 예정',en:'Pork-belly dinner in Seongsu'},u:'https://www.chosun.com/economy/tech_it/2026/06/01/G5TDGNLGHA2DEZTFMM4DQZDGGI/',
+  sm:{ko:['한국 기업인들과 성수에서 삼겹살·소맥 회동 가능성.','한국 내 동선·회동 가능성 보도.','KBO 시구 가능성도 거론.'],en:['Possible Seongsu dinner.','In-Korea route covered.','KBO first pitch floated.']},
+  rs:[],
+  rp:[{s:'조선일보',t:'성수서 삼겹살 소맥 회동할 듯',m:'06.01 16:22',u:'https://www.chosun.com/economy/tech_it/2026/06/01/G5TDGNLGHA2DEZTFMM4DQZDGGI/'},
+      {s:'연합뉴스',t:'성수서 삼겹살 소맥 회동(종합2보)',m:'06.01 15:27',u:'https://www.yna.co.kr/view/AKR20260601072152017'}]},
+ {new:false,med:1,st:{ko:'예정',en:'planned'},cf:{ko:'유력',en:'likely'},loc:'서울',
+  ti:{ko:'젠슨 황, 신라호텔서 국내 AI 스타트업 대상 생태계 행사',en:'Korea AI-ecosystem event at Shilla'},u:'https://www.mk.co.kr/news/business/12063308',
+  sm:{ko:['8일 신라호텔서 대기업·스타트업·정부 100여 명 행사.','4일 저녁 입국, 5일부터 총수 회동 예상.','잠실 시구 가능성 거론.'],en:['~100 attendees at Shilla on the 8th.','Arrives the 4th, meetings from 5th.','Jamsil first pitch floated.']},
+  rs:[{n:'두산',c:'000150',v:'+11.71',f:{ko:'지주·그룹',en:'Holding'},b:{ko:'잠실 시구 가능성으로 그룹 부각',en:'Jamsil pitch spotlight'}}],
+  rp:[{s:'매일경제',t:'8일 서울서 AI 스타트업 만난다',m:'06.01 18:02',u:'https://www.mk.co.kr/news/business/12063308'}]},
+ {new:false,med:2,st:{ko:'예정',en:'planned'},cf:{ko:'미정',en:'TBD'},loc:'잠실',
+  ti:{ko:'젠슨 황 두산 경기 시구설 확산과 구단 부인',en:'First-pitch rumor; club denies'},u:'https://www.donga.com/news/Sports/article/all/20260601/134029207/1',
+  sm:{ko:['잠실 마운드 시구설 제기.','두산 구단은 전달받은 바 없다고 밝힘.','이벤트성 동선 가능성.'],en:['Jamsil mound rumor.','Club says no notice.','Event-style only.']},
+  rs:[{n:'두산',c:'000150',v:'+11.71',f:{ko:'지주·그룹',en:'Holding'},b:{ko:'시구설이 두산 구단과 연결',en:'Rumor tied to Doosan'}},
+      {n:'두산로보틱스',c:'454910',v:'+29.95',f:{ko:'지주·그룹',en:'Holding'},b:{ko:'두산 계열주',en:'Doosan affiliate'}}],
+  rp:[{s:'동아일보',t:'젠슨 황이 잠실 마운드에?',m:'06.01 14:57',u:'https://www.donga.com/news/Sports/article/all/20260601/134029207/1'},
+      {s:'뉴시스',t:'시구설에 두산그룹株 강세',m:'06.01 11:11',u:'https://www.newsis.com/view/NISX20260601_0003651622'}]},
+ {new:false,med:1,st:{ko:'예정',en:'planned'},cf:{ko:'유력',en:'likely'},loc:'대만 타이베이',
+  ti:{ko:'젠슨 황, 타이베이서 한국 스타트업 알세미와 비공개 만찬',en:'Private dinner with Alsemy'},u:'https://www.mk.co.kr/news/business/12062570',
+  sm:{ko:['코리아 파트너 나이트에 알세미 대표 초청.','LG디스플레이와 디지털 트윈 툴 4년 개발.','SK하이닉스도 도입 논의 착수.'],en:['Alsemy CEO invited.','Digital-twin tool with LG Display.','SK hynix in talks.']},
+  rs:[{n:'LG디스플레이',c:'034220',v:'-1.80',f:{ko:'디지털트윈',en:'Digital twin'},b:{ko:'알세미와 DPS 공동 개발',en:'Co-developed DPS'}}],
+  rp:[{s:'매일경제',t:'[단독] 젠슨 황 비공개 만찬 초대 韓스타트업',m:'06.01 09:53',u:'https://www.mk.co.kr/news/business/12062570'}]},
+ {new:false,med:1,st:{ko:'예정',en:'planned'},cf:{ko:'예상',en:'expected'},loc:'서울 잠실 · 성수',
+  ti:{ko:'두산그룹 로봇·반도체 협력 및 회동 가능성 부각',en:'Doosan cooperation prospects rise'},u:'https://www.newsis.com/view/NISX20260601_0003651665',
+  sm:{ko:['컴퓨텍스 후 4일께 방한 전망.','두산로보틱스·테스나가 접점으로 거론.','7일 잠실 시구·성수 만찬설.'],en:['Arrives ~4th.','Doosan Robotics/Tesna cited.','Jamsil pitch & Seongsu dinner.']},
+  rs:[{n:'두산테스나',c:'131970',v:'-0.25',f:{ko:'반도체 테스트',en:'Chip test'},b:{ko:'엔비디아 SoC 테스트 협력 가능성',en:'NVIDIA SoC testing'}}],
+  rp:[{s:'뉴시스',t:'젠슨 황, 방한 기간 두산과 회동하나',m:'06.01 17:51',u:'https://www.newsis.com/view/NISX20260601_0003651665'}]},
+ {new:false,med:1,st:{ko:'예정',en:'planned'},cf:{ko:'예상',en:'expected'},loc:'서울 중구',
+  ti:{ko:'삼성 전영현, 컴퓨텍스서 젠슨 황과 반도체 협력 논의 가능성',en:'Samsung may discuss chips with Huang'},u:'https://www.newsis.com/view/NISX20260601_0003651950',
+  sm:{ko:['이재용 회장 삼성호암상 시상식 참석.','전영현 등 사장단 50여 명 참석.','전 부회장 대만행 협력 논의 가능성.'],en:['Chairman Lee at Ho-Am Prize.','~50 execs attended.','Jun may meet Huang in Taiwan.']},
+  rs:[{n:'삼성전자',c:'005930',v:'+10.09',f:{ko:'반도체',en:'Semi'},b:{ko:'컴퓨텍스서 협력 논의 가능성',en:'Possible talks at COMPUTEX'}}],
+  rp:[{s:'뉴시스',t:'이재용, 삼성호암상 시상식 참석',m:'06.01 16:38',u:'https://www.newsis.com/view/NISX20260601_0003651950'}]}
+];
+var FEED=[
+ {s:'매일경제',t:'LG·두산·네이버株 불기둥',m:'18:04:51'},
+ {s:'매일경제',t:'8일 서울서 국내 AI 스타트업 만난다',m:'18:04:09'},
+ {s:'뉴시스',t:'방한 기간 두산과 회동하나',m:'17:54:40'},
+ {s:'한국경제',t:'최태원, 젠슨 황과 밀착 동맹',m:'17:47:51'},
+ {s:'경향신문',t:'젠슨 황 효과에 8800 돌파한 코스피',m:'17:42:11'},
+ {s:'뉴시스',t:'SKT, 피지컬 AI 협력사 언급에 11%↑',m:'16:56:34'},
+ {s:'동아일보',t:'베라 루빈 공개…삼전·하닉 협력',m:'16:43:20'},
+ {s:'조선일보',t:'성수서 삼겹살 소맥 회동할 듯',m:'16:29:10'}
+];
+
+/* ===== helpers ===== */
+var lang='ko';
+function L(o){return (o&&typeof o==='object'&&'ko'in o)?(o[lang]||o.ko):o;}
+function el(id){return document.getElementById(id);}
+function num(v){return parseFloat(v);}
+function cls(v){var n=num(v);return n>0?'up':n<0?'down':'flat';}
+function arr(v){var n=num(v);return n>0?'\u25B2':n<0?'\u25BC':'\u00B7';}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ===== MAP (inline SVG, real geometry, no network) ===== */
+function buildMap(){
+  var svg=el('mapsvg'); if(!svg) return;
+  var W=900,H=700, b=MAP_BOUNDS, padX=30, top=150, bot=40;
+  function X(lng){return padX+(W-padX*2)*((lng-b[0])/(b[1]-b[0]));}
+  function Y(lat){return top+(H-top-bot)*(1-(lat-b[2])/(b[3]-b[2]));}
+  var parts=[];
+  function ringPath(r){var d='M',j;for(j=0;j<r.length;j++){d+=(j?'L':'')+X(r[j][0]).toFixed(1)+' '+Y(r[j][1]).toFixed(1);}return d+'Z';}
+  // Korea capital region (gray)
+  for(var i=0;i<KR_RINGS.length;i++){
+    parts.push('<path d="'+ringPath(KR_RINGS[i])+'" fill="#16212f" stroke="#3f5268" stroke-width="1" stroke-linejoin="round"/>');
+  }
+  // inbound (Taiwan direction) marker — lower-left water area
+  var ix=70, iy=H-120;
+  // light rays (8 directions, staggered fade)
+  var rays=8;
+  for(var ri=0;ri<rays;ri++){
+    var ang=ri*(Math.PI*2/rays);
+    var r1x=(ix+Math.cos(ang)*16).toFixed(1), r1y=(iy+Math.sin(ang)*16).toFixed(1);
+    var r2x=(ix+Math.cos(ang)*38).toFixed(1), r2y=(iy+Math.sin(ang)*38).toFixed(1);
+    var delay=(ri*0.18).toFixed(2);
+    parts.push('<line x1="'+r1x+'" y1="'+r1y+'" x2="'+r2x+'" y2="'+r2y+'" stroke="#76b900" stroke-width="1.4" stroke-linecap="round"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.8s" begin="'+delay+'s" repeatCount="indefinite"/><animate attributeName="x2" values="'+r2x+';'+(ix+Math.cos(ang)*48).toFixed(1)+';'+r2x+'" dur="1.8s" begin="'+delay+'s" repeatCount="indefinite"/><animate attributeName="y2" values="'+r2y+';'+(iy+Math.sin(ang)*48).toFixed(1)+';'+r2y+'" dur="1.8s" begin="'+delay+'s" repeatCount="indefinite"/></line>');
+  }
+  // vertical beam (spotlight going up)
+  parts.push('<line x1="'+ix+'" y1="'+(iy-14)+'" x2="'+ix+'" y2="'+(iy-80)+'" stroke="url(#beamGrad)" stroke-width="3" stroke-linecap="round"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.2s" repeatCount="indefinite"/></line>');
+  // pulse rings
+  parts.push('<circle cx="'+ix+'" cy="'+iy+'" r="10" fill="none" stroke="#76b900" stroke-width="1.5"><animate attributeName="r" values="10;30;10" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/></circle>');
+  parts.push('<circle cx="'+ix+'" cy="'+iy+'" r="6" fill="none" stroke="#76b900" stroke-width="1.2"><animate attributeName="r" values="6;22;6" dur="2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>');
+  // core dot + glow
+  parts.push('<circle cx="'+ix+'" cy="'+iy+'" r="14" fill="rgba(118,185,0,.18)"/><circle cx="'+ix+'" cy="'+iy+'" r="7" fill="#76b900" stroke="#0a121d" stroke-width="2.5"/>');
+  // gradient def for beam
+  parts.unshift('<defs><linearGradient id="beamGrad" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#76b900" stop-opacity="0.8"/><stop offset="1" stop-color="#76b900" stop-opacity="0"/></linearGradient></defs>');
+  parts.push('<text x="'+(ix+20)+'" y="'+(iy+5)+'" fill="#9fb24a" font-size="13" font-family="monospace" font-weight="600">\u2708 '+(lang==='ko'?'입국 예정':'Inbound')+'</text>');
+  // dashed flight path inbound -> Incheon
+  parts.push('<path d="M'+ix+' '+iy+'L'+X(ROUTE[0].lng).toFixed(1)+' '+Y(ROUTE[0].lat).toFixed(1)+'" fill="none" stroke="#76b900" stroke-width="1.3" opacity="0.3" stroke-dasharray="7 7"/>');
+  // dashed route between stops
+  var dd='M';
+  for(var k=0;k<ROUTE.length;k++){ dd+=(k?'L':'')+X(ROUTE[k].lng).toFixed(1)+' '+Y(ROUTE[k].lat).toFixed(1); }
+  parts.push('<path d="'+dd+'" fill="none" stroke="#76b900" stroke-width="1.4" opacity="0.25" stroke-dasharray="6 6"/>');
+  // pins
+  for(var p=0;p<ROUTE.length;p++){
+    var s=ROUTE[p], pin=s.pin, cx=X(s.lng), cy=Y(s.lat), lab=esc(L(pin.label));
+    if(pin.cur){
+      /* inbound shown via the marker above */
+    } else if(pin.undef){
+      parts.push('<circle cx="'+cx+'" cy="'+cy+'" r="10" fill="none" stroke="#5c6c80" stroke-width="1.4" stroke-dasharray="3 3"/><text x="'+cx+'" y="'+(cy+4)+'" fill="#8a9bb0" font-size="11" text-anchor="middle" font-family="monospace">?</text>');
+      parts.push('<text x="'+(cx+14)+'" y="'+(cy+4)+'" fill="#8a9bb0" font-size="12.5">'+lab+'</text>');
+    } else {
+      var rad=Math.max(11,Math.min(24,11+pin.pct*0.2));
+      parts.push('<circle cx="'+cx+'" cy="'+cy+'" r="'+(rad+5)+'" fill="rgba(255,77,79,.12)"/><circle cx="'+cx+'" cy="'+cy+'" r="'+rad+'" fill="#ff4d4f" stroke="#0a121d" stroke-width="1.5"/>');
+      parts.push('<text x="'+cx+'" y="'+(cy+4)+'" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">\u25B2</text>');
+      parts.push('<text x="'+(cx+rad+4)+'" y="'+(cy+4)+'" fill="#e6edf5" font-size="13" font-weight="600">'+lab+'</text>');
+      if(pin.sub){parts.push('<text x="'+(cx+rad+4)+'" y="'+(cy+17)+'" fill="#8a9bb0" font-size="11">'+esc(L(pin.sub))+'</text>');}
+    }
+  }
+  // extra company pins (map-only, no number)
+  for(var xe=0;xe<MAP_EXTRAS.length;xe++){
+    var me=MAP_EXTRAS[xe], mx=X(me.lng), my=Y(me.lat), ml=esc(L(me.label));
+    var mr=Math.max(9,Math.min(20,9+me.pct*0.18));
+    parts.push('<circle cx="'+mx+'" cy="'+my+'" r="'+(mr+4)+'" fill="rgba(255,77,79,.1)"/><circle cx="'+mx+'" cy="'+my+'" r="'+mr+'" fill="#ff4d4f" stroke="#0a121d" stroke-width="1.5"/>');
+    parts.push('<text x="'+mx+'" y="'+(my+4)+'" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">\u25B2</text>');
+    parts.push('<text x="'+(mx+mr+4)+'" y="'+(my+4)+'" fill="#e6edf5" font-size="13" font-weight="600">'+ml+'</text>');
+  }
+  svg.innerHTML=parts.join('');
+}
+
+/* ===== timeline ===== */
+function buildTL(){
+  var bcl={l:'bl',e:'be',u:'bu'}, btx={l:{ko:'유력',en:'likely'},e:{ko:'예상',en:'est.'},u:{ko:'미정',en:'TBD'}};
+  var h='';
+  for(var i=0;i<ROUTE.length;i++){var s=ROUTE[i];
+    h+='<div class="tlrow'+(i===0?' cur':'')+'"><div class="n">'+s.n+'</div><div>'
+      +'<span class="when">'+L(s.d)+'</span>'+(s.b?'<span class="bdg '+bcl[s.b]+'">'+L(btx[s.b])+'</span>':'')
+      +'<div class="pl">'+L(s.pl)+'</div><div class="ds">'+L(s.ds)+'</div>'
+      +(s.src?'<a class="src" href="'+s.src.u+'" target="_blank" rel="noopener">&#9632; '+L(s.src.m)+' \u00b7 '+L(s.src.t)+' \u2197</a>':'')
+      +'</div></div>';
+  }
+  el('tl').innerHTML=h;
+}
+
+/* ===== stock cards ===== */
+function spark(v){
+  var up=num(v)>=0, mag=Math.min(1,Math.abs(num(v))/60), base=up?42:18, ys=[],xs=[],i;
+  for(i=0;i<7;i++){var f=i/6, tr=up?(1-Math.pow(f,1.6)):Math.pow(f,1.4), wob=Math.sin(f*9+mag*4)*4*(i>0&&i<6?1:0);
+    ys.push(base+(up?1:-1)*tr*32*mag+wob); xs.push(6+i*(228/6));}
+  var line='';for(i=0;i<7;i++){line+=(i?'L':'M')+xs[i].toFixed(1)+' '+ys[i].toFixed(1);}
+  return {line:line,area:line+'L'+xs[6].toFixed(1)+' 56L'+xs[0].toFixed(1)+' 56Z',up:up,lx:xs[6],ly:ys[6]};
+}
+function buildStocks(){
+  var h='',tot=0;
+  for(var t=0;t<THEMES.length;t++){var th=THEMES[t];tot+=th.s.length;
+    h+='<div class="theme"><div class="thead"><h3><i></i>'+L(th.nm)+'</h3><span class="d">'+L(th.d)+'</span><span class="c">'+th.s.length+'</span></div><div class="cards">';
+    for(var i=0;i<th.s.length;i++){var s=th.s[i],sp=spark(s.v),col=sp.up?'#ff4d4f':'#3b82f6',gid='g'+s.c;
+      h+='<div class="card"><div class="h"><span class="nm">'+L(s.n)+'</span><span class="cd">'+s.c+'</span></div>'
+        +'<svg class="sp" viewBox="0 0 240 56" preserveAspectRatio="none"><defs><linearGradient id="'+gid+'" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="'+col+'" stop-opacity=".28"/><stop offset="1" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
+        +'<path d="'+sp.area+'" fill="url(#'+gid+')"/><path d="'+sp.line+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round"/>'
+        +'<circle cx="'+sp.lx.toFixed(1)+'" cy="'+sp.ly.toFixed(1)+'" r="3.4" fill="'+col+'"/></svg>'
+        +'<div class="pr"><span class="now">'+(lang==='ko'?'현재':'now')+' <b>'+s.px+'</b><span class="pt"> · 15:30</span></span><span class="big '+cls(s.v)+'" data-count="'+s.v+'" data-pfx="'+arr(s.v)+'">'+arr(s.v)+' '+(num(s.v)>=0?'+':'')+s.v+'%</span></div>'
+        +'<div class="dual"><div><span class="l">'+(lang==='ko'?'방한확정':'visit')+'</span><span class="v '+cls(s.v)+'" data-count="'+s.v+'">'+(num(s.v)>=0?'+':'')+s.v+'%</span><span class="s">05/27</span></div>'
+        +'<div><span class="l">'+(lang==='ko'?'뉴스':'news')+'</span><span class="v '+cls(s.nw)+'" data-count="'+s.nw+'">'+(num(s.nw)>=0?'+':'')+s.nw+'%</span><span class="s">06/01</span></div></div></div>';
+    }
+    h+='</div></div>';
+  }
+  el('themes').innerHTML=h;
+  el('scount').textContent=(lang==='ko'?tot+'개 · '+THEMES.length+'테마':tot+' · '+THEMES.length+' themes');
+}
+
+/* ===== chart ===== */
+function buildChart(){
+  var svg=el('chart'); if(!svg) return;
+  var W=900,H=300,pl=42,pr=120,pt=18,pb=30, xs=['5/27','5/28','5/29','5/30','5/31','6/1'], ymax=65,ymin=-5;
+  function X(t){return pl+(W-pl-pr)*(t/(xs.length-1));}
+  function Y(v){return pt+(H-pt-pb)*(1-(v-ymin)/(ymax-ymin));}
+  var h='',g,i;
+  for(g=0;g<=60;g+=20){h+='<line x1="'+pl+'" y1="'+Y(g)+'" x2="'+(W-pr)+'" y2="'+Y(g)+'" stroke="#1e2c3d"/>';
+    h+='<text x="'+(pl-6)+'" y="'+(Y(g)+4)+'" fill="#5c6c80" font-size="11" text-anchor="end" font-family="monospace">'+(g>0?'+':'')+g+'%</text>';}
+  for(i=0;i<xs.length;i++){h+='<text x="'+X(i)+'" y="'+(H-10)+'" fill="#5c6c80" font-size="11" text-anchor="middle" font-family="monospace">'+xs[i]+'</text>';}
+  for(var c=0;c<CHART.length;c++){var sc=CHART[c],pts=[];
+    for(i=0;i<xs.length;i++){var f=i/(xs.length-1),ease=Math.pow(f,1.6);pts.push([X(i),Y(sc.v*ease)]);}
+    var d='';for(i=0;i<pts.length;i++){d+=(i?'L':'M')+pts[i][0].toFixed(1)+' '+pts[i][1].toFixed(1);}
+    h+='<path d="'+d+'" fill="none" stroke="'+sc.c+'" stroke-width="'+(sc.bold?3:1.8)+'" opacity="'+(sc.bold?1:.9)+'" stroke-linejoin="round"/>';
+    var lp=pts[pts.length-1];
+    h+='<text x="'+(lp[0]+7)+'" y="'+(lp[1]+4)+'" fill="'+sc.c+'" font-size="11" font-family="monospace" font-weight="'+(sc.bold?700:500)+'">'+L(sc.nm)+' '+(sc.v>0?'+':'')+sc.v+'%</text>';
+  }
+  svg.innerHTML=h;
+  var lg='';for(c=0;c<CHART.length;c++){lg+='<span><i style="background:'+CHART[c].c+'"></i>'+L(CHART[c].nm)+' '+(CHART[c].v>0?'+':'')+CHART[c].v+'%</span>';}
+  el('clg').innerHTML=lg;
+  // 호버 인터랙션: 선 강조
+  var cPaths=svg.querySelectorAll('path');
+  cPaths.forEach(function(p){
+    var origSW=p.getAttribute('stroke-width')||'1.8';
+    p.style.cursor='default';p.style.transition='opacity .15s';
+    p.addEventListener('mouseenter',function(){
+      cPaths.forEach(function(op){op.style.opacity='0.15';});
+      p.style.opacity='1';
+      p.style.strokeWidth=(parseFloat(origSW)*1.7).toFixed(1);
+    });
+    p.addEventListener('mouseleave',function(){
+      cPaths.forEach(function(op){op.style.opacity='';});
+      p.style.strokeWidth='';
+    });
+  });
+}
+
+/* ===== news ===== */
+function buildNews(){
+  // 가격 룩업맵 (티커코드 → 가격·수익률)
+  var pm={};
+  for(var tt=0;tt<THEMES.length;tt++){
+    for(var ii=0;ii<THEMES[tt].s.length;ii++){
+      var ss=THEMES[tt].s[ii];
+      pm[ss.c]={px:ss.px,v:num(ss.v),nw:num(ss.nw)};
+    }
+  }
+  var h='';
+  for(var i=0;i<NEWS.length;i++){var n=NEWS[i];
+    var ts=n.rp&&n.rp.length?n.rp[0].m:'';
+    // 모든 카드 기본 펼침(open)
+    h+='<div class="nws open">'
+      // ── 헤더 (클릭 토글) ──
+      +'<div class="top" data-i="'+i+'">'
+        // 배지 행: 왼쪽 배지들 + 오른쪽 최초보도 시각
+        +'<div class="bdrow">'
+          +(n.new?'<span class="fg fnew">NEW</span>':'')
+          +'<span class="fg fmed">\uD83D\uDD25 '+n.med+(lang==='ko'?'개 매체 보도':' outlets')+'</span>'
+          +'<span class="fg fst">'+L(n.st)+'</span>'
+          +'<span class="fg fst">'+L(n.cf)+'</span>'
+          +(n.loc?'<span class="fg fst">'+esc(n.loc)+'</span>':'')
+          +(ts?'<span class="nts">'+(lang==='ko'?'최초보도 ':'first ')+''+ts+'</span>':'')
+        +'</div>'
+        // 제목 행: 왼쪽 화살표 + 제목 링크
+        +'<div class="row2">'
+          +'<div class="car">\u25B8</div>'
+          +'<div class="bd"><a href="'+n.u+'" target="_blank" rel="noopener"><h4>'+L(n.ti)+' \u2197</h4></a></div>'
+        +'</div>'
+      +'</div>'
+      // ── 상세 내용 (아코디언) ──
+      +'<div class="det"><div style="padding:0 15px 15px">'
+        // 요약 불릿
+        +'<ul>';
+    var sm=L(n.sm);for(var j=0;j<sm.length;j++){h+='<li>'+sm[j]+'</li>';}
+    h+='</ul>';
+    // 관련주 테이블
+    if(n.rs&&n.rs.length){
+      h+='<div class="rl">'+(lang==='ko'?'관련주':'stocks')+'</div>';
+      for(var k=0;k<n.rs.length;k++){var r=n.rs[k];var sd=pm[r.c]||{};
+        h+='<div class="rs2">'
+          +'<div class="rh">'
+            +'<span class="rn">'+esc(r.n)+'</span><span class="rc">'+esc(r.c)+'</span>'
+            +(sd.px
+              ?'<div class="rpr">'
+                +'<span class="rpx">'+sd.px+'</span>'
+                +'<span class="rbc">'+(lang==='ko'?'방한확정':'visit')+' <span class="rd">05/27</span> <b class="'+cls(sd.v)+'">'+(sd.v>=0?'+':'')+sd.v.toFixed(2)+'%</b></span>'
+                +'<span class="rbc">'+(lang==='ko'?'뉴스':'news')+' <span class="rd">06/01</span> <b class="'+cls(sd.nw)+'">'+(sd.nw>=0?'+':'')+sd.nw.toFixed(2)+'%</b></span>'
+              +'</div>':'')
+          +'</div>'
+          +'<div class="rsub"><b>'+(lang==='ko'?'협력분야':'field')+'</b> · '+L(r.f)+'</div>'
+          +'<div class="rsub"><b>'+(lang==='ko'?'근거':'basis')+'</b> · '+L(r.b)+'</div>'
+        +'</div>';
+      }
+    }
+    // 관련 보도
+    h+='<details class="rep" open><summary>\u25BE '+(lang==='ko'?'관련 보도 '+n.rp.length+'건':n.rp.length+' reports')+'</summary>';
+    for(var m=0;m<n.rp.length;m++){var rp=n.rp[m];
+      h+='<a href="'+rp.u+'" target="_blank" rel="noopener"><span class="sn">'+esc(rp.s)+'</span>'+esc(rp.t)+'<span class="st">'+rp.m+'</span></a>';
+    }
+    h+='</details>'
+    +'</div></div></div>';
+  }
+  el('newslist').innerHTML=h;
+  var tops=document.querySelectorAll('.nws .top');
+  for(var t=0;t<tops.length;t++){tops[t].onclick=function(){this.parentNode.classList.toggle('open');};}
+}
+
+/* ===== feed ===== */
+function buildFeed(){
+  var h='';for(var i=0;i<FEED.length;i++){var f=FEED[i];
+    var title=f.u?'<a class="t" href="'+f.u+'" target="_blank" rel="noopener">'+esc(f.t)+'</a>':'<span class="t">'+esc(f.t)+'</span>';
+    h+='<div class="fr"><span class="s">'+esc(f.s)+'</span>'+title+'<span class="m">'+esc(f.m||'')+'</span></div>';
+  }
+  el('feed').innerHTML=h;
+}
+
+/* ===== render all ===== */
+function renderAll(){
+  try{buildMap();}catch(e){}
+  try{buildTL();}catch(e){}
+  try{buildStocks();}catch(e){}
+  try{buildChart();}catch(e){}
+  try{buildNews();}catch(e){}
+  try{buildFeed();}catch(e){}
+  setTimeout(setupAnimations,80);
+}
+function setLang(l){
+  lang=l;
+  document.body.classList.toggle('en',l==='en');
+  el('bko').classList.toggle('on',l==='ko');
+  el('ben').classList.toggle('on',l==='en');
+  renderAll();
+}
+el('bko').onclick=function(){setLang('ko');};
+el('ben').onclick=function(){setLang('en');};
+
+/* ===== scroll animations ===== */
+function setupAnimations(){
+  if(!window.IntersectionObserver)return;
+
+  // 숫자 카운트업
+  function countUp(target,val,dur){
+    var pfx=target.dataset.pfx||'', isNeg=val<0, abs=Math.abs(val);
+    var sign=isNeg?'-':'+', t0=null;
+    function step(ts){
+      if(!t0)t0=ts;
+      var p=Math.min((ts-t0)/dur,1), ease=1-Math.pow(1-p,3);
+      target.textContent=(pfx?pfx+' ':'')+sign+(abs*ease).toFixed(2)+'%';
+      if(p<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  // [data-count] 요소 관찰
+  var numObs=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting)return;
+      countUp(e.target,parseFloat(e.target.dataset.count),750);
+      numObs.unobserve(e.target);
+    });
+  },{threshold:0.15,rootMargin:'0px 0px -30px 0px'});
+  document.querySelectorAll('[data-count]').forEach(function(n){numObs.observe(n);});
+
+  // 차트 선 그리기 (stroke-dashoffset)
+  var chartSvg=el('chart');
+  if(chartSvg){
+    var cPaths=chartSvg.querySelectorAll('path');
+    cPaths.forEach(function(p){
+      try{var len=p.getTotalLength();p.style.strokeDasharray=len;p.style.strokeDashoffset=len;p.style.transition='none';}catch(e){}
+    });
+    var cObs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(!e.isIntersecting)return;
+        e.target.querySelectorAll('path').forEach(function(p,i){
+          p.style.transition='stroke-dashoffset '+(0.9+i*0.09).toFixed(2)+'s cubic-bezier(.25,.8,.25,1) '+(i*0.04).toFixed(2)+'s';
+          p.style.strokeDashoffset='0';
+        });
+        cObs.unobserve(e.target);
+      });
+    },{threshold:0.2});
+    cObs.observe(chartSvg);
+  }
+
+  // 스파크라인 선 그리기
+  document.querySelectorAll('.card svg.sp').forEach(function(svg){
+    var linePath=svg.querySelectorAll('path')[1];
+    if(!linePath)return;
+    try{var len=linePath.getTotalLength();linePath.style.strokeDasharray=len;linePath.style.strokeDashoffset=len;linePath.style.transition='none';}catch(e){}
+    var sObs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(!e.isIntersecting)return;
+        linePath.style.transition='stroke-dashoffset 0.65s cubic-bezier(.25,.8,.25,1)';
+        linePath.style.strokeDashoffset='0';
+        sObs.unobserve(e.target);
+      });
+    },{threshold:0.4});
+    sObs.observe(svg);
+  });
+}
+
+/* bell */
+var bellBtn=el('bellBtn');
+if(bellBtn){bellBtn.onclick=function(){
+  if(!('Notification'in window)){alert('이 브라우저는 알림을 지원하지 않습니다.');return;}
+  Notification.requestPermission().then(function(p){
+    if(p==='granted'){
+      new Notification('Jensen Huang KR Tracker',{body:'알림이 설정되었습니다. 방한 소식을 알려드릴게요.',icon:'jensen-cutout.png'});
+      bellBtn.style.borderColor='var(--accent)';bellBtn.style.color='var(--accent)';
+    }
+  });
+};}
+
+/* nav scroll */
+function goTo(id){var t=el(id);if(!t)return;var y=t.getBoundingClientRect().top+window.pageYOffset-58;window.scrollTo({top:y,behavior:'smooth'});}
+var nb=document.querySelectorAll('.nav-btns button');
+for(var z=0;z<nb.length;z++){(function(btn){btn.onclick=function(){goTo(btn.getAttribute('data-go'));};})(nb[z]);}
+window.addEventListener('scroll',function(){
+  var y=window.pageYOffset+110,cur='',ids=['news','stocks','map','about'];
+  for(var i=0;i<ids.length;i++){var e=el(ids[i]);if(e&&e.offsetTop<=y)cur=ids[i];}
+  for(var j=0;j<nb.length;j++){nb[j].classList.toggle('on',nb[j].getAttribute('data-go')===cur);}
+},{passive:true});
+
+renderAll();
+
+/* ===== 실시간 데이터 (Yahoo Finance + RSS) ===== */
+function fmtPx(n){return Math.round(n).toLocaleString('ko-KR');}
+function fmtPct(n){return (n>=0?'+':'')+n.toFixed(2);}
+
+function applyStocks(d){
+  var updated=false;
+  for(var t=0;t<THEMES.length;t++){
+    for(var i=0;i<THEMES[t].s.length;i++){
+      var s=THEMES[t].s[i], live=d[s.c];
+      if(live && live.px>0){
+        s.px=fmtPx(live.px);
+        s.v=fmtPct(live.v);
+        s.nw=fmtPct(live.nw);
+        updated=true;
+      }
+    }
+  }
+  if(updated){
+    try{buildStocks();}catch(e){}
+    // 마지막 갱신 시각 업데이트
+    var ts=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    document.querySelectorAll('.cst .v').forEach(function(el,i){if(i>=1)el.textContent=ts;});
+    // LIVE 뱃지 표시
+    var chip=document.querySelector('.chip .b');
+    if(chip){chip.style.background='#76b900';chip.style.boxShadow='0 0 8px #76b900';}
+  }
+}
+
+function applyNews(items){
+  if(!items||!items.length) return;
+  // FEED 배열 앞에 새 항목 추가 (중복 제목 제외)
+  var existTitles=new Set(FEED.map(function(f){return f.t.slice(0,20);}));
+  var added=false;
+  for(var i=items.length-1;i>=0;i--){
+    var key=items[i].t.slice(0,20);
+    if(!existTitles.has(key)){
+      FEED.unshift({s:items[i].s, t:items[i].t, m:items[i].m, u:items[i].u});
+      existTitles.add(key);
+      added=true;
+    }
+  }
+  if(added) try{buildFeed();}catch(e){}
+}
+
+function fetchLive(){
+  // 주가
+  fetch('/api/stocks')
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(d){if(d&&d.ok&&d.count>0) applyStocks(d.data);})
+    .catch(function(){});
+  // 실시간 뉴스 (Vercel serverless)
+  fetch('/api/news')
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(d){if(d&&d.ok) applyNews(d.items);})
+    .catch(function(){});
+  // 배치 뉴스 (2시간 업데이트, GitHub Actions)
+  fetch('/news-live.json?_='+Math.floor(Date.now()/120000))
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(d){if(d&&d.items&&d.items.length) applyNews(d.items);})
+    .catch(function(){});
+}
+
+// 페이지 로드 후 즉시 + 3분마다 자동 갱신
+setTimeout(fetchLive, 500);
+setInterval(fetchLive, 3*60*1000);
+</script>
+</body>
+</html>
