@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "dir=\"${CLAUDE_PROJECT_DIR:-$(pwd)}\"; input=$(cat); sid=$(printf '%s' \"$input\" | jq -r '.session_id // \"unknown\"'); src=$(printf '%s' \"$input\" | jq -r '.source // \"unknown\"'); mkdir -p \"$dir/logs\"; echo \"[$(date '+%Y-%m-%d %H:%M:%S %Z')] SessionStart  session=$sid  source=$src  cwd=$(pwd)\" >> \"$dir/logs/claude-code.log\"",
+            "statusMessage": "Logging session start"
+          }
+        ]
+      }
+    ]
+  }
+}
