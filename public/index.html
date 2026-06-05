@@ -92,9 +92,35 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 /* timeline */
 .tl{margin-top:18px;display:grid;gap:9px}
 .tl-col .tl{margin-top:0}
-.tlrow{display:grid;grid-template-columns:34px 1fr;gap:11px;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 14px}
+.tlrow{display:grid;grid-template-columns:34px 1fr;gap:11px;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 14px;transition:opacity .3s}
 .tlrow .n{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font:700 13px var(--mono);background:var(--panel2);border:1px solid var(--line2)}
 .tlrow.cur .n{background:var(--accent);color:#05210a;border-color:var(--accent)}
+/* 상태별 스타일 */
+.tlrow.st-completed{opacity:.55}
+.tlrow.st-completed .n{background:var(--line2);color:var(--muted);border-color:var(--line2)}
+.tlrow.st-in_progress{border-color:var(--accent);box-shadow:0 0 0 1px rgba(118,185,0,.3)}
+.tlrow.st-in_progress .n{background:var(--accent);color:#05210a;border-color:var(--accent);animation:npulse 1.8s ease-in-out infinite}
+@keyframes npulse{0%,100%{box-shadow:0 0 0 0 rgba(118,185,0,.6)}50%{box-shadow:0 0 0 7px rgba(118,185,0,0)}}
+.tlrow.st-upcoming{opacity:1}
+.tlrow.impact-high{border-left:3px solid var(--accent)}
+.tlrow.impact-low{opacity:.8}
+.imp-badge{font:700 10px var(--mono);padding:2px 7px;border-radius:99px;margin-left:6px;vertical-align:middle}
+.imp-h{background:rgba(118,185,0,.15);color:var(--accent);border:1px solid rgba(118,185,0,.4)}
+.imp-m{background:rgba(224,179,65,.1);color:var(--gold);border:1px solid rgba(224,179,65,.3)}
+.imp-l{background:rgba(107,124,146,.1);color:var(--muted);border:1px solid var(--line2)}
+.st-badge{font:600 10px var(--mono);padding:2px 7px;border-radius:99px}
+.st-done{background:rgba(107,124,146,.15);color:var(--dim)}
+.st-live{background:rgba(118,185,0,.2);color:var(--accent)}
+.st-soon{background:rgba(59,130,246,.12);color:#60a5fa}
+/* 카운트다운 */
+.countdown-bar{background:linear-gradient(135deg,rgba(118,185,0,.08),rgba(118,185,0,.03));border:1px solid rgba(118,185,0,.25);border-radius:12px;padding:14px 18px;margin-top:16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.cd-label{font:500 11px var(--mono);color:var(--muted);white-space:nowrap}
+.cd-event{font:700 13px var(--sans);color:#eef3f9;flex:1;min-width:140px}
+.cd-timer{font:800 22px var(--mono);color:var(--accent);white-space:nowrap;letter-spacing:.04em}
+.cd-impact{font:700 10px var(--mono);padding:3px 9px;border-radius:99px}
+.cd-imp-h{background:rgba(118,185,0,.2);color:var(--accent)}
+.cd-imp-m{background:rgba(224,179,65,.15);color:var(--gold)}
+.cd-done{color:var(--muted);font-size:14px}
 .tlrow .when{font:500 11px var(--mono);color:var(--muted)}
 .bdg{font:600 10px var(--mono);padding:2px 6px;border-radius:5px;margin-left:6px}
 .bl{background:rgba(118,185,0,.15);color:var(--accent)}
@@ -191,6 +217,60 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .rs2 .rbc .rd{font-size:10px;color:var(--dim)}
 .rs2 .rsub{font-size:12px;color:var(--dim);margin-top:5px;line-height:1.65}
 .rs2 .rsub b{color:var(--muted);font-weight:500}
+/* ===== 3컬럼 인사이트 대시보드 ===== */
+.ins-dash{display:grid;grid-template-columns:200px 1fr 280px;gap:14px;align-items:start;margin-top:16px}
+@media(max-width:900px){.ins-dash{grid-template-columns:160px 1fr}}
+@media(max-width:640px){.ins-dash{grid-template-columns:1fr}}
+/* 왼쪽: 이벤트 리스트 */
+.ins-list{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ins-list-item{display:flex;align-items:center;gap:9px;padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--line);transition:background .15s}
+.ins-list-item:last-child{border-bottom:0}
+.ins-list-item:hover,.ins-list-item.active{background:rgba(118,185,0,.08)}
+.ins-list-item.active{border-left:3px solid var(--accent)}
+.ins-list-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.ins-list-dot.done{background:var(--line2)}
+.ins-list-dot.live{background:var(--accent);box-shadow:0 0 6px var(--accent)}
+.ins-list-dot.soon{background:var(--line2);border:1.5px solid var(--muted)}
+.ins-list-n{font:700 11px var(--mono);color:var(--dim);width:16px;flex-shrink:0}
+.ins-list-title{font-size:12px;color:var(--muted);line-height:1.4;flex:1;min-width:0;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.ins-list-item.active .ins-list-title{color:#eef3f9}
+/* 가운데: 인사이트 패널 */
+.ins-panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+.ins-panel-hd{margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.ins-panel-title{font-size:17px;font-weight:700;color:#eef3f9;line-height:1.4;margin-bottom:6px}
+.ins-panel-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ins-intent{font-size:12px;color:var(--muted);margin-top:8px;padding:8px 10px;background:var(--panel2);border-radius:8px;border-left:2px solid rgba(118,185,0,.4);line-height:1.5}
+.ins-mode-badge{font:700 10px var(--mono);padding:3px 8px;border-radius:99px}
+.ins-mode-pre{background:rgba(59,130,246,.15);color:#60a5fa;border:1px solid rgba(59,130,246,.3)}
+.ins-mode-post{background:rgba(118,185,0,.15);color:var(--accent);border:1px solid rgba(118,185,0,.3)}
+.ins-no-data{color:var(--dim);font-size:13px;padding:20px 0;text-align:center}
+/* 신뢰도 바 */
+.conf-bar-wrap{margin:12px 0}
+.conf-bar-label{display:flex;justify-content:space-between;font:500 11px var(--mono);color:var(--muted);margin-bottom:5px}
+.conf-bar-track{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden}
+.conf-bar-fill{height:100%;border-radius:3px;transition:width .4s}
+/* 이미 반영도 게이지 */
+.priced-gauge{margin:12px 0;padding:10px 12px;background:var(--panel2);border-radius:9px}
+.priced-gauge-label{font:500 11px var(--mono);color:var(--muted);margin-bottom:7px;display:flex;justify-content:space-between}
+.priced-track{height:8px;background:var(--line);border-radius:4px;overflow:hidden;position:relative}
+.priced-fill{height:100%;border-radius:4px;transition:width .5s}
+.priced-pct{font:700 13px var(--mono);color:var(--txt);margin-top:5px}
+/* 목표가 레인지 바 */
+.price-range{margin:12px 0;padding:10px 12px;background:var(--panel2);border-radius:9px}
+.price-range-label{font:500 11px var(--mono);color:var(--muted);margin-bottom:8px}
+.price-range-bar{position:relative;height:24px;background:var(--line);border-radius:4px;overflow:visible;margin:0 8px}
+.price-range-fill{position:absolute;top:0;bottom:0;background:rgba(118,185,0,.25);border-radius:4px}
+.price-range-base{position:absolute;top:-3px;bottom:-3px;width:3px;background:var(--accent);border-radius:2px}
+.price-range-cur{position:absolute;top:-5px;bottom:-5px;width:3px;background:#fff;border-radius:2px}
+.price-range-labels{display:flex;justify-content:space-between;font:500 10px var(--mono);color:var(--dim);margin-top:5px}
+/* 오른쪽: 관련주 패널 */
+.ins-stocks{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.ins-stock-card{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:11px 13px}
+.ins-stock-hd{display:flex;align-items:baseline;gap:7px;margin-bottom:7px}
+.ins-stock-name{font-weight:700;font-size:14px;color:#eef3f9}
+.ins-stock-code{font:500 10px var(--mono);color:var(--dim)}
+.ins-stock-evt{font:500 10px var(--mono);padding:2px 7px;border-radius:99px;background:rgba(118,185,0,.1);color:var(--accent);border:1px solid rgba(118,185,0,.3);cursor:pointer}
+@media(max-width:900px){.ins-stocks{display:none}}
 /* 인사이트 카드 */
 .ig{border:1px solid rgba(118,185,0,.3);border-radius:10px;padding:13px 15px;margin:15px 0 5px;background:rgba(118,185,0,.04)}
 .ig-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
@@ -314,6 +394,7 @@ footer .fm{font:500 11px var(--mono)}
 <nav><div class="wrap">
   <button class="bell" id="bellBtn">🔔 <span data-ko>브라우저 알림 받기</span><span data-en>Get alerts</span></button>
   <div class="nav-btns">
+    <button data-go="insights"><span data-ko>인사이트</span><span data-en>Insights</span></button>
     <button data-go="news"><span data-ko>뉴스</span><span data-en>News</span></button>
     <button data-go="stocks"><span data-ko>종목</span><span data-en>Stocks</span></button>
     <button data-go="map"><span data-ko>지도</span><span data-en>Map</span></button>
@@ -329,8 +410,14 @@ footer .fm{font:500 11px var(--mono)}
   <img src="jensen-cutout.png" class="hero-img" alt="Jensen Huang">
   <div class="chips">
     <span class="chip"><span class="b"></span>LIVE</span>
-    <span class="chip">🇹🇼 <span data-ko>한국 밖 · 대만 타이베이</span><span data-en>Outside Korea · Taipei</span></span>
+    <span class="chip">🇰🇷 <span data-ko>한국 방문 중 · 6/5–6/8</span><span data-en>Korea Visit · Jun 5–8</span></span>
     <span class="chip">👁 <span data-ko>현재 1명</span><span data-en>1 viewing</span></span>
+  </div>
+  <div class="countdown-bar" id="countdown-bar" style="display:none">
+    <div class="cd-label" data-ko>다음 일정</div><div class="cd-label" data-en>Next event</div>
+    <div class="cd-event" id="cd-event">—</div>
+    <span class="cd-impact" id="cd-impact"></span>
+    <div class="cd-timer" id="cd-timer">—</div>
   </div>
 </div></header>
 
@@ -385,6 +472,16 @@ footer .fm{font:500 11px var(--mono)}
   <div class="shead"><h2><i></i><span data-ko>코스피 vs 관련주</span><span data-en>KOSPI vs stocks</span></h2><span class="tag" data-ko>첫값=0%</span><span class="tag" data-en>base 0%</span></div>
   <p class="ssub"><span data-ko>첫 방한 보도 시점부터 첫값 대비 누적 변화율(%)로 정규화. 코스피는 굵은 기준선.</span><span data-en>Normalized cumulative % from first report. KOSPI is the bold baseline.</span></p>
   <div class="chartbox"><svg id="chart" viewBox="0 0 900 300" preserveAspectRatio="none"></svg><div class="clg" id="clg"></div></div>
+</div></section>
+
+<section id="insights"><div class="wrap">
+  <div class="shead"><h2><i></i><span data-ko>일정별 AI 인사이트</span><span data-en>Event Insights</span></h2><span class="tag" data-ko>이벤트 × 주가 분석</span><span class="tag" data-en>Event × Stock Analysis</span></div>
+  <p class="ssub"><span data-ko>일정을 선택하면 전략적 의도·주가 방향성·시나리오를 확인할 수 있습니다.</span><span data-en>Select an event to view strategic intent, stock direction, and scenarios.</span></p>
+  <div class="ins-dash">
+    <div class="ins-list" id="ins-list"></div>
+    <div class="ins-panel" id="ins-panel"><div class="ins-no-data" data-ko>이벤트를 선택하세요</div><div class="ins-no-data" data-en>Select an event</div></div>
+    <div class="ins-stocks" id="ins-stocks"></div>
+  </div>
 </div></section>
 
 <section id="news"><div class="wrap">
@@ -512,6 +609,8 @@ var CHART=[
 ];
 var NEWS=[];
 var FEED=[];
+var INSIGHT_EVENTS=[];   // 타임라인 이벤트 + insight 데이터
+var SELECTED_EVENT_IDX=0; // 인사이트 패널에서 선택된 이벤트 인덱스
 
 /* ===== events.json → array converters ===== */
 function eventsToRoute(events){
@@ -523,7 +622,12 @@ function eventsToRoute(events){
         pl:e.location?e.location.name:{ko:'',en:''},
         ds:e.description,
         lng:e.location?e.location.lng:0,lat:e.location?e.location.lat:0,
-        pin:e.map_pin||{label:{ko:'',en:''},cur:false,undef:false}
+        pin:e.map_pin||{label:{ko:'',en:''},cur:false,undef:false},
+        status:e.status||'upcoming',
+        impact:e.impact_level||'medium',
+        dt:e.datetime||null,
+        end_dt:e.end_datetime||null,
+        title:e.title||null
       };
       if(e.sources&&e.sources.length){var s0=e.sources[0];r.src={m:s0.publisher,t:s0.title,u:s0.url};}
       return r;
@@ -550,6 +654,24 @@ function eventsToNews(events){
       };
     });
 }
+function eventsToInsightEvents(events){
+  return events.filter(function(e){return e.views&&e.views.timeline;})
+    .sort(function(a,b){return (a.timeline_order||0)-(b.timeline_order||0);})
+    .map(function(e){
+      return {
+        id:e.id, n:String(e.timeline_order),
+        title:e.title, dt:e.datetime_display, datetime:e.datetime,
+        status:e.status||'upcoming', impact:e.impact_level||'medium',
+        strategic_intent:e.strategic_intent||'',
+        tickers:e.related_tickers||[],
+        related_stocks:e.related_stocks||[],
+        pre_insight:e.pre_insight||null,
+        post_insight:e.post_insight||null,
+        insight:e.insight||null,
+        summary:e.summary||null
+      };
+    });
+}
 function loadEvents(){
   fetch('/data/events.json?_='+Math.floor(Date.now()/120000))
     .then(function(r){return r.ok?r.json():null;})
@@ -559,6 +681,7 @@ function loadEvents(){
       MAP_EXTRAS=eventsToMapExtras(data.events||[]);
       NEWS=eventsToNews(data.events||[]);
       FEED=data.feed||[];
+      INSIGHT_EVENTS=eventsToInsightEvents(data.events||[]);
       renderAll();
       setTimeout(fetchLive,500);
     })
@@ -653,18 +776,261 @@ function buildMap(){
   svg.innerHTML=parts.join('');
 }
 
+/* ===== countdown ===== */
+function buildCountdown(){
+  var bar=el('countdown-bar'); if(!bar) return;
+  // 다음 upcoming/in_progress 이벤트 찾기
+  var next=null;
+  for(var i=0;i<ROUTE.length;i++){
+    var s=ROUTE[i];
+    if((s.status==='upcoming'||s.status==='in_progress')&&s.dt){next=s;break;}
+  }
+  if(!next){bar.style.display='none';return;}
+  bar.style.display='flex';
+
+  var impLbl={'high':{ko:'HIGH',en:'HIGH'},'medium':{ko:'MED',en:'MED'},'low':{ko:'LOW',en:'LOW'}};
+  var impCls={'high':'cd-imp-h','medium':'','low':''};
+  var impEl=el('cd-impact');
+  var evEl=el('cd-event');
+  var tmEl=el('cd-timer');
+
+  evEl.textContent=L(next.title||next.pl)||'다음 일정';
+  if(impEl){impEl.textContent=L(impLbl[next.impact||'medium']);impEl.className='cd-impact '+(impCls[next.impact||'medium']||'');}
+
+  var target=new Date(next.dt).getTime();
+  function tick(){
+    var now=Date.now(), diff=target-now;
+    if(diff<=0){
+      tmEl.textContent=lang==='ko'?'진행중':'LIVE';tmEl.style.color='var(--accent)';
+      // 이벤트 시작 후 다음 것으로 교체 트리거
+      setTimeout(buildCountdown,60000);
+      return;
+    }
+    var h=Math.floor(diff/3600000), m=Math.floor((diff%3600000)/60000), s=Math.floor((diff%60000)/1000);
+    tmEl.textContent=(h?h+'h ':'')+(m<10&&h?'0':'')+m+'m '+(s<10?'0':'')+s+'s';
+  }
+  tick();
+  if(window._cdTimer) clearInterval(window._cdTimer);
+  window._cdTimer=setInterval(tick,1000);
+}
+
 /* ===== timeline ===== */
 function buildTL(){
-  var bcl={l:'bl',e:'be',u:'bu'}, btx={l:{ko:'유력',en:'likely'},e:{ko:'예상',en:'est.'},u:{ko:'미정',en:'TBD'}};
+  var stCls={completed:'st-completed',in_progress:'st-in_progress',upcoming:'st-upcoming',planned:'st-upcoming',rumored:'st-upcoming'};
+  var stBadge={completed:{ko:'완료',en:'done',cls:'st-done'},in_progress:{ko:'LIVE',en:'LIVE',cls:'st-live'},upcoming:{ko:'예정',en:'soon',cls:'st-soon'},planned:{ko:'예정',en:'soon',cls:'st-soon'}};
+  var impCls={high:'imp-h',medium:'imp-m',low:'imp-l'};
+  var impLbl={high:{ko:'HIGH',en:'HIGH'},medium:{ko:'MED',en:'MED'},low:{ko:'LOW',en:'LOW'}};
   var h='';
   for(var i=0;i<ROUTE.length;i++){var s=ROUTE[i];
-    h+='<div class="tlrow'+(i===0?' cur':'')+'"><div class="n">'+s.n+'</div><div>'
-      +'<span class="when">'+L(s.d)+'</span>'+(s.b?'<span class="bdg '+bcl[s.b]+'">'+L(btx[s.b])+'</span>':'')
-      +'<div class="pl">'+L(s.pl)+'</div><div class="ds">'+L(s.ds)+'</div>'
+    var sc=stCls[s.status]||'st-upcoming';
+    var ic=s.impact==='high'?'impact-high':s.impact==='low'?'impact-low':'';
+    var sb=stBadge[s.status]||stBadge.upcoming;
+    var ib=impCls[s.impact||'medium'];
+    h+='<div class="tlrow '+sc+' '+ic+'">'
+      +'<div class="n">'+s.n+'</div><div>'
+      +'<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:3px">'
+        +'<span class="when">'+L(s.d)+'</span>'
+        +'<span class="st-badge '+sb.cls+'">'+L(sb)+'</span>'
+        +'<span class="imp-badge '+ib+'">'+L(impLbl[s.impact||'medium'])+'</span>'
+      +'</div>'
+      +'<div class="pl">'+L(s.pl)+'</div>'
+      +'<div class="ds">'+L(s.ds)+'</div>'
       +(s.src?'<a class="src" href="'+s.src.u+'" target="_blank" rel="noopener">&#9632; '+L(s.src.m)+' \u00b7 '+L(s.src.t)+' \u2197</a>':'')
       +'</div></div>';
   }
   el('tl').innerHTML=h;
+  buildCountdown();
+}
+
+/* ===== insight dashboard helpers ===== */
+function statusBadge(status){
+  var m={completed:{ko:'완료',en:'done',cls:'st-done'},in_progress:{ko:'LIVE',en:'LIVE',cls:'st-live'},upcoming:{ko:'예정',en:'soon',cls:'st-soon'},planned:{ko:'예정',en:'soon',cls:'st-soon'}};
+  var b=m[status]||m.upcoming;
+  return '<span class="st-badge '+b.cls+'">'+L(b)+'</span>';
+}
+function impactBadge(impact){
+  var m={high:{ko:'HIGH',en:'HIGH',cls:'imp-h'},medium:{ko:'MED',en:'MED',cls:'imp-m'},low:{ko:'LOW',en:'LOW',cls:'imp-l'}};
+  var b=m[impact||'medium']||m.medium;
+  return '<span class="imp-badge '+b.cls+'">'+L(b)+'</span>';
+}
+
+/* ===== insight dashboard ===== */
+function buildInsightDash(){
+  var listEl=el('ins-list'), panelEl=el('ins-panel'), stocksEl=el('ins-stocks');
+  if(!listEl||!panelEl||!stocksEl) return;
+
+  // 빌드 종목 룩업맵
+  var pm={};
+  for(var tt=0;tt<THEMES.length;tt++){for(var ss=0;ss<THEMES[tt].s.length;ss++){var st=THEMES[tt].s[ss];pm[st.c]={px:st.px,v:num(st.v),nw:num(st.nw),n:st.n};}}
+
+  if(!INSIGHT_EVENTS.length){
+    listEl.innerHTML='<div style="padding:18px 14px;font-size:12px;color:var(--dim)">'+(lang==='ko'?'데이터 로드 중...':'Loading...')+'</div>';
+    panelEl.innerHTML=''; stocksEl.innerHTML=''; return;
+  }
+  // 유효 인덱스 보장
+  if(SELECTED_EVENT_IDX>=INSIGHT_EVENTS.length) SELECTED_EVENT_IDX=0;
+
+  // ── 왼쪽: 이벤트 리스트 ──
+  var dotCls={completed:'done',in_progress:'live',upcoming:'soon',planned:'soon',rumored:'soon'};
+  var lh='';
+  for(var i=0;i<INSIGHT_EVENTS.length;i++){
+    var ev0=INSIGHT_EVENTS[i];
+    var dc=dotCls[ev0.status]||'soon';
+    lh+='<div class="ins-list-item'+(i===SELECTED_EVENT_IDX?' active':'')+'" data-idx="'+i+'">'
+      +'<span class="ins-list-dot '+dc+'"></span>'
+      +'<span class="ins-list-n">'+ev0.n+'</span>'
+      +'<span class="ins-list-title">'+esc(L(ev0.title))+'</span>'
+      +'</div>';
+  }
+  listEl.innerHTML=lh;
+  var items=listEl.querySelectorAll('.ins-list-item');
+  for(var ii=0;ii<items.length;ii++){(function(item){
+    item.onclick=function(){SELECTED_EVENT_IDX=parseInt(item.getAttribute('data-idx'),10);buildInsightDash();};
+  })(items[ii]);}
+
+  // ── 선택된 이벤트 ──
+  var ev=INSIGHT_EVENTS[SELECTED_EVENT_IDX];
+  var insight=(ev.status==='completed'&&ev.post_insight)?ev.post_insight:(ev.pre_insight||ev.insight||null);
+  var mode=(ev.status==='completed'&&ev.post_insight)?'post':(ev.pre_insight?'pre':null);
+  var sv=insight?(insight.stock_view||{}):null;
+
+  // ── 가운데: 인사이트 패널 ──
+  var ph='<div class="ins-panel-hd">'
+    +'<div class="ins-panel-title">'+esc(L(ev.title))+'</div>'
+    +'<div class="ins-panel-meta">'
+      +statusBadge(ev.status)
+      +impactBadge(ev.impact)
+      +(ev.dt?'<span style="font:500 11px var(--mono);color:var(--dim)">'+esc(L(ev.dt))+'</span>':'')
+      +(mode?'<span class="ins-mode-badge ins-mode-'+mode+'">'+(mode==='post'?(lang==='ko'?'사후 분석':'Post-Analysis'):(lang==='ko'?'사전 분석':'Pre-Analysis'))+'</span>':'')
+    +'</div>'
+    +(ev.strategic_intent?'<div class="ins-intent">'+esc(ev.strategic_intent)+'</div>':'')
+    +'</div>';
+
+  if(!insight){
+    ph+='<div class="ins-no-data">'+(lang==='ko'?'인사이트 분석 대기 중 — 이벤트 1시간 전·직후 자동 생성':'Insight pending — auto-generated 1h before/after event')+'</div>';
+    // 원본 summary 불릿 표시
+    var sm=ev.summary?L(ev.summary):null;
+    if(sm&&sm.length){
+      ph+='<div style="margin-top:10px;font:500 11px var(--mono);color:var(--dim);margin-bottom:6px">'+(lang==='ko'?'기본 요약':'Summary')+'</div>';
+      ph+='<ul style="margin:0;padding-left:16px;color:var(--dim);font-size:12px;line-height:1.8">';
+      for(var si=0;si<sm.length;si++){ph+='<li>'+esc(sm[si])+'</li>';}
+      ph+='</ul>';
+    }
+  } else {
+    // 방향성 배지 + 근거
+    if(sv&&sv.direction){
+      var dir=sv.direction;
+      var dirCls=dir==='bullish'?'up':dir==='bearish'?'dn':'nt';
+      var dirLbl=dir==='bullish'?(lang==='ko'?'▲ 강세':'▲ Bullish'):dir==='bearish'?(lang==='ko'?'▼ 약세':'▼ Bearish'):(lang==='ko'?'— 중립':'— Neutral');
+      ph+='<div style="margin:12px 0 8px;display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap">'
+        +'<span class="ig-dir '+dirCls+'">'+dirLbl+'</span>'
+        +(sv.rationale?'<span style="font-size:12px;color:var(--muted);line-height:1.5">'+esc(sv.rationale)+'</span>':'')
+        +'</div>';
+    }
+    // 핵심 요약
+    if(insight.summary){ph+='<div style="font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:10px">'+esc(insight.summary)+'</div>';}
+    // meaning 불릿
+    if(insight.meaning&&insight.meaning.length){
+      ph+='<ul style="margin:0 0 10px;padding-left:16px;color:var(--dim);font-size:12px;line-height:1.8">';
+      for(var mi=0;mi<insight.meaning.length;mi++){ph+='<li>'+esc(insight.meaning[mi])+'</li>';}
+      ph+='</ul>';
+    }
+    // post only: outcome + vs_expectation
+    if(mode==='post'){
+      if(insight.actual_outcome){
+        ph+='<div style="margin-bottom:8px;padding:9px 12px;background:var(--panel2);border-radius:8px;font-size:12px;color:var(--muted);line-height:1.5">'
+          +'<span style="font:700 10px var(--mono);color:var(--accent);margin-right:7px;letter-spacing:.05em">OUTCOME</span>'
+          +esc(insight.actual_outcome)+'</div>';
+      }
+      if(insight.vs_expectation){
+        var vsC=insight.vs_expectation==='상회'?'var(--up)':insight.vs_expectation==='하회'?'var(--down)':'var(--gold)';
+        ph+='<div style="margin-bottom:12px;font:700 12px var(--mono);color:'+vsC+'">'
+          +(lang==='ko'?'기대 대비 ':'vs expectation: ')+esc(insight.vs_expectation)+'</div>';
+      }
+    }
+    // 신뢰도 바
+    if(insight.confidence!=null){
+      var conf=Math.round(insight.confidence*100);
+      var confC=conf>=70?'var(--accent)':conf>=50?'var(--gold)':'#ff6b6d';
+      ph+='<div class="conf-bar-wrap">'
+        +'<div class="conf-bar-label">'
+          +'<span>'+(lang==='ko'?'신뢰도':'Confidence')+'</span>'
+          +'<span style="color:'+confC+';font-weight:700">'+conf+'%</span>'
+        +'</div>'
+        +'<div class="conf-bar-track"><div class="conf-bar-fill" style="width:'+conf+'%;background:'+confC+'"></div></div>'
+        +'</div>';
+    }
+    // 이미 반영도 게이지
+    if(sv&&sv.already_priced_ratio!=null){
+      var apr=Math.round(sv.already_priced_ratio*100);
+      var aprC=apr>=70?'#ff6b6d':apr>=40?'var(--gold)':'var(--accent)';
+      ph+='<div class="priced-gauge">'
+        +'<div class="priced-gauge-label">'
+          +'<span>'+(lang==='ko'?'시장 선반영도':'Already Priced In')+'</span>'
+          +'<span class="priced-pct" style="color:'+aprC+'">'+apr+'%</span>'
+        +'</div>'
+        +'<div class="priced-track"><div class="priced-fill" style="width:'+apr+'%;background:'+aprC+'"></div></div>'
+        +'</div>';
+    }
+    // 시나리오 박스
+    if(sv&&(sv.upside_scenario||sv.downside_scenario)){
+      ph+='<div class="ig-sc" style="margin-top:12px">'
+        +(sv.upside_scenario?'<div class="ig-sc-box"><div class="ig-sc-lbl up">'+(lang==='ko'?'▲ 상승 시나리오':'▲ Upside')+'</div><div class="ig-sc-txt">'+esc(sv.upside_scenario)+'</div></div>':'')
+        +(sv.downside_scenario?'<div class="ig-sc-box"><div class="ig-sc-lbl dn">'+(lang==='ko'?'▼ 하락 시나리오':'▼ Downside')+'</div><div class="ig-sc-txt">'+esc(sv.downside_scenario)+'</div></div>':'')
+        +'</div>';
+    }
+    if(insight.disclaimer){ph+='<div class="ig-disc">'+esc(insight.disclaimer)+'</div>';}
+  }
+  panelEl.innerHTML=ph;
+
+  // ── 오른쪽: 관련주 패널 ──
+  var tks=ev.tickers&&ev.tickers.length?ev.tickers:(ev.related_stocks||[]).map(function(s){return s.code||s.c||s;});
+  var sh='<div style="font:700 11px var(--mono);color:var(--dim);padding:0 0 8px;border-bottom:1px solid var(--line);margin-bottom:8px">'
+    +(lang==='ko'?'관련주 · '+ev.n+'번 이벤트':'Stocks · Event #'+ev.n)+'</div>';
+  if(!tks.length){
+    sh+='<div class="ins-no-data" style="padding:16px 0;font-size:12px">'+(lang==='ko'?'관련 종목 없음':'No related stocks')+'</div>';
+  } else {
+    for(var ki=0;ki<tks.length;ki++){
+      var code=tks[ki], sd=pm[code]||{};
+      var ptr=sv&&sv.price_target_range&&sv.price_target_range.low&&sv.price_target_range.high?sv.price_target_range:null;
+      var sn=sd.n?L(sd.n):code;
+      sh+='<div class="ins-stock-card">'
+        +'<div class="ins-stock-hd">'
+          +'<span class="ins-stock-name">'+esc(sn)+'</span>'
+          +'<span class="ins-stock-code">'+code+'</span>'
+          +'<span class="ins-stock-evt">#'+ev.n+'</span>'
+        +'</div>';
+      if(sd.px){
+        sh+='<div style="display:flex;justify-content:space-between;align-items:center;font-size:12px;margin-bottom:6px">'
+          +'<span style="color:var(--muted);font-weight:600">'+esc(sd.px)+'</span>'
+          +'<span class="'+cls(sd.v)+'" style="font:700 12px var(--mono)">'+(sd.v>=0?'+':'')+sd.v.toFixed(2)+'%</span>'
+          +'</div>';
+      }
+      if(ptr){
+        var curRaw=parseInt((sd.px||'0').replace(/[^0-9]/g,''),10)||0;
+        var rMin=ptr.low*0.97, rMax=ptr.high*1.03, span=rMax-rMin||1;
+        var fillL=((ptr.low-rMin)/span*100).toFixed(1);
+        var fillW=((ptr.high-ptr.low)/span*100).toFixed(1);
+        var baseX=((ptr.base-rMin)/span*100).toFixed(1);
+        var curX=Math.max(0,Math.min(100,((curRaw-rMin)/span*100))).toFixed(1);
+        sh+='<div class="price-range">'
+          +'<div class="price-range-label">'+(lang==='ko'?'목표가 레인지 (L/기준/H)':'Target Range (L/base/H)')+'</div>'
+          +'<div class="price-range-bar">'
+            +'<div class="price-range-fill" style="left:'+fillL+'%;width:'+fillW+'%"></div>'
+            +(curRaw?'<div class="price-range-cur" title="현재가" style="left:'+curX+'%"></div>':'')
+            +'<div class="price-range-base" title="기준가" style="left:'+baseX+'%"></div>'
+          +'</div>'
+          +'<div class="price-range-labels">'
+            +'<span>'+Math.round(ptr.low/1000)+'K</span>'
+            +'<span style="color:var(--accent)">'+(lang==='ko'?'기준 ':'base ')+Math.round(ptr.base/1000)+'K</span>'
+            +'<span>'+Math.round(ptr.high/1000)+'K</span>'
+          +'</div>'
+          +'</div>';
+      }
+      sh+='</div>';
+    }
+  }
+  stocksEl.innerHTML=sh;
 }
 
 /* ===== stock cards ===== */
@@ -837,6 +1203,7 @@ function buildFeed(){
 function renderAll(){
   try{buildMap();}catch(e){}
   try{buildTL();}catch(e){}
+  try{buildInsightDash();}catch(e){}
   try{buildStocks();}catch(e){}
   try{buildChart();}catch(e){}
   try{buildNews();}catch(e){}
@@ -934,7 +1301,7 @@ function goTo(id){var t=el(id);if(!t)return;var y=t.getBoundingClientRect().top+
 var nb=document.querySelectorAll('.nav-btns button');
 for(var z=0;z<nb.length;z++){(function(btn){btn.onclick=function(){goTo(btn.getAttribute('data-go'));};})(nb[z]);}
 window.addEventListener('scroll',function(){
-  var y=window.pageYOffset+110,cur='',ids=['news','stocks','map','about'];
+  var y=window.pageYOffset+110,cur='',ids=['insights','news','stocks','compare','map','about'];
   for(var i=0;i<ids.length;i++){var e=el(ids[i]);if(e&&e.offsetTop<=y)cur=ids[i];}
   for(var j=0;j<nb.length;j++){nb[j].classList.toggle('on',nb[j].getAttribute('data-go')===cur);}
 },{passive:true});
