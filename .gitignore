@@ -1,1 +1,9 @@
 .vercel
+
+# 보고서 임시 파일
+*.pptx
+~$*.pptx
+slide_imgs/
+slides.html
+export_pptx.py
+make_ppt.py
