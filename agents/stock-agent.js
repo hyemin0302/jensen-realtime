@@ -42,6 +42,49 @@ async function fetchNaverPrice(code) {
 }
 
 /**
+ * 네이버 frgn.naver에서 외국인/기관 순매수 파싱
+ * 행 구조: 날짜|종가|방향|등락폭|등락률|거래량|외국인순매수|기관순매수|외국인보유주수|외국인보유비율
+ * @returns {{ frgn: number, inst: number, vol: number, frgnRatio: number } | null}
+ */
+async function fetchNaverInvestor(code) {
+  try {
+    const resp = await fetch(`https://finance.naver.com/item/frgn.naver?code=${code}`, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        'Referer': 'https://finance.naver.com/',
+      },
+      signal: AbortSignal.timeout(7000),
+    });
+    if (!resp.ok) return null;
+
+    const buf = await resp.arrayBuffer();
+    const text = new TextDecoder('euc-kr').decode(buf);
+
+    // <tr> 행에서 날짜 패턴(YYYY.MM.DD) 포함 첫 번째 행 = 최신 데이터
+    const rows = text.match(/<tr[^>]*>([\s\S]*?)<\/tr>/gi) || [];
+    for (const row of rows) {
+      const plain = row.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, '0').replace(/\s+/g, ' ').trim();
+      if (!/^\d{4}\.\d{2}\.\d{2}/.test(plain)) continue;
+
+      const parts = plain.split(/\s+/);
+      // parts: [날짜, 종가, 방향, 등락폭, 등락률, 거래량, 외국인순매수, 기관순매수, 외국인보유주수, 외국인보유비율]
+      const toNum = s => parseInt((s || '0').replace(/[+,]/g, ''), 10) || 0;
+      const toFloat = s => parseFloat((s || '0').replace('%', '')) || 0;
+
+      return {
+        frgn: toNum(parts[6]),       // 외국인 순매수 (주)
+        inst: toNum(parts[7]),       // 기관 순매수 (주)
+        vol:  toNum(parts[5]),       // 거래량
+        frgnRatio: toFloat(parts[9]), // 외국인 보유비율 (%)
+      };
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * 현재가 기반 통계적 목표가 레인지 추정
  * 방문 이후 수익률(v)에 따라 레인지 폭 확대 — 모멘텀 ↑ → 변동성 ↑
  * @returns {{ low: number, base: number, high: number }}
@@ -68,10 +111,13 @@ function estimatePriceTargetRange(px, v) {
  * @returns {{ ok: boolean, data: Object, count: number, ts: number }}
  */
 export async function runStockAgent() {
-  const results = await Promise.allSettled(CODES.map(fetchNaverPrice));
+  const [priceResults, investorResults] = await Promise.all([
+    Promise.allSettled(CODES.map(fetchNaverPrice)),
+    Promise.allSettled(CODES.map(fetchNaverInvestor)),
+  ]);
 
   const data = {};
-  results.forEach((r, i) => {
+  priceResults.forEach((r, i) => {
     if (r.status !== 'fulfilled') return;
     const code = CODES[i];
     const s = r.value;
@@ -79,10 +125,15 @@ export async function runStockAgent() {
     if (!px) return;
     const v  = BASE_VISIT[code] ? +((px - BASE_VISIT[code]) / BASE_VISIT[code] * 100).toFixed(2) : 0;
     const nw = BASE_NEWS[code]  ? +((px - BASE_NEWS[code])  / BASE_NEWS[code]  * 100).toFixed(2) : 0;
+    const inv = investorResults[i]?.value || null;
     data[code] = {
       px, v, nw,
       state: s.marketStatus || 'CLOSED',
-      ptr: estimatePriceTargetRange(px, v),   // 통계적 목표가 레인지 추정
+      ptr: estimatePriceTargetRange(px, v),
+      vol:       inv?.vol        ?? null,
+      frgn:      inv?.frgn       ?? null,  // 외국인 순매수 (주, 음수=순매도)
+      inst:      inv?.inst       ?? null,  // 기관 순매수 (주, 음수=순매도)
+      frgnRatio: inv?.frgnRatio  ?? null,  // 외국인 보유비율 (%)
     };
   });
 

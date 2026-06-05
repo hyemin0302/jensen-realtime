@@ -138,8 +138,10 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 
 /* stock cards */
 .theme{margin-top:22px}
-.thead{display:flex;align-items:center;gap:9px;margin-bottom:11px;flex-wrap:wrap}
-.thead h3{font-size:16px;font-weight:700;color:#eef3f9;display:flex;align-items:center;gap:8px}
+.thead{display:flex;align-items:center;gap:9px;margin-bottom:11px;flex-wrap:wrap;cursor:pointer;transition:opacity .15s}
+.thead:hover{opacity:.82}
+.thead:hover h3{color:var(--accent)}
+.thead h3{font-size:16px;font-weight:700;color:#eef3f9;display:flex;align-items:center;gap:8px;transition:color .15s}
 .thead h3 i{width:10px;height:10px;border-radius:3px;background:var(--accent);display:inline-block}
 .thead .d{color:var(--dim);font-size:12px}
 .thead .c{margin-left:auto;font:500 12px var(--mono);color:var(--muted)}
@@ -154,12 +156,16 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .card .pr .now b{color:#cdd8e6}
 .card .pr .now .pt{font:500 11px var(--mono);color:var(--dim)}
 .card .big{font-size:24px;font-weight:800;display:flex;align-items:center;gap:3px}
-.dual{display:flex;border-top:1px solid var(--line);margin:0 -16px;padding:13px 0 15px}
-.dual>div{flex:1;text-align:center;position:relative}
-.dual>div:first-child:after{content:'';position:absolute;right:0;top:5px;bottom:5px;width:1px;background:var(--line)}
-.dual .l{font-size:12px;color:var(--muted)}
-.dual .v{font-size:18px;font-weight:800;display:block;margin-top:5px}
-.dual .s{font:500 10px var(--mono);color:var(--dim);display:block;margin-top:4px}
+.dual{display:flex;border-top:1px solid var(--line);margin:0 -16px;padding:11px 0 13px;align-items:center}
+.dual .pm{flex:1.6;text-align:center;position:relative}
+.dual .pm:after{content:'';position:absolute;right:0;top:12%;bottom:12%;width:1px;background:var(--line)}
+.dual .sc{flex:1;text-align:center;cursor:pointer;transition:opacity .15s;-webkit-tap-highlight-color:transparent}
+.dual .sc:hover{opacity:.7}
+.dual .l{font-size:11px;color:var(--muted)}
+.dual .v{font-size:20px;font-weight:800;display:block;margin-top:4px}
+.dual .vs{font:700 13px var(--mono);display:block;margin-top:3px}
+.dual .s{font:500 10px var(--mono);color:var(--dim);display:block;margin-top:3px}
+.sw-ic{font-size:9px;opacity:.4;margin-left:2px;font-style:normal}
 .up{color:var(--up);}.down{color:var(--down);}.flat{color:var(--flat)}
 
 /* chart */
@@ -312,6 +318,16 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .hmap-nm{font:700 12px var(--sans);color:#eef3f9;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hmap-v{font:800 16px var(--mono)}
 .hmap-cnt{font:500 10px var(--mono);color:var(--dim);margin-top:2px}
+/* news filter bar */
+.news-filter-bar{display:flex;align-items:center;gap:10px;padding:10px 14px;background:rgba(118,185,0,.07);border:1px solid rgba(118,185,0,.28);border-radius:10px;margin-bottom:12px;flex-wrap:wrap}
+.news-filter-bar span{font:500 13px var(--sans);color:var(--muted);flex:1}
+.news-filter-bar b{color:#eef3f9}
+.nfc-btn{font:600 11px var(--mono);background:none;border:1px solid var(--line2);color:var(--dim);padding:4px 10px;border-radius:6px;cursor:pointer;transition:border-color .2s,color .2s;white-space:nowrap}
+.nfc-btn:hover{border-color:var(--accent);color:var(--accent)}
+/* stock card clickable */
+.card{cursor:pointer;transition:border-color .2s}
+.card:hover{border-color:rgba(118,185,0,.35)}
+
 /* collect */
 .cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:11px;margin-bottom:16px}
 .cst{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px}
@@ -325,6 +341,83 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .fr .t{flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .fr a.t:hover{color:var(--txt);text-decoration:underline}
 .fr .m{font:500 11px var(--mono);color:var(--dim)}
+
+/* investor row */
+.inv{display:flex;border-top:1px solid var(--line);margin:0 -16px;padding:10px 0 12px}
+.inv>div{flex:1;text-align:center;position:relative}
+.inv>div:first-child:after{content:'';position:absolute;right:0;top:5px;bottom:5px;width:1px;background:var(--line)}
+.inv .l{font-size:11px;color:var(--dim)}
+.inv .v{font:700 14px var(--mono);display:block;margin-top:4px;letter-spacing:-.01em}
+.inv .s{font:500 9px var(--mono);color:var(--dim);display:block;margin-top:3px}
+.vol-row{border-top:1px solid var(--line);padding:7px 0 10px;display:flex;justify-content:space-between;font:500 10px var(--mono);color:var(--dim)}
+.vol-row .vl{color:var(--muted)}
+
+/* ── brief nav button ── */
+.brief-nav-btn{font:600 12px var(--sans);background:rgba(118,185,0,.12);border:1px solid rgba(118,185,0,.35);color:var(--accent);padding:6px 11px;border-radius:8px;cursor:pointer;transition:all .2s;white-space:nowrap;flex-shrink:0}
+.brief-nav-btn:hover{background:rgba(118,185,0,.22)}
+
+/* ── brief modal ── */
+.brief-ov{position:fixed;inset:0;z-index:200;background:rgba(5,8,14,.88);display:flex;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.brief-card{background:#0d1520;border:1px solid var(--line2);border-radius:16px;width:100%;max-width:680px;max-height:90vh;overflow-y:auto;padding:24px;scrollbar-width:thin;scrollbar-color:var(--line2) transparent}
+.brief-hd{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px;gap:12px;flex-wrap:wrap}
+.brief-title{font-size:18px;font-weight:800;color:#fff}
+.brief-date{font:500 12px var(--mono);color:var(--dim);margin-top:4px}
+.brief-hd-btns{display:flex;gap:7px;flex-shrink:0;align-items:center}
+.brief-btn{font:600 12px var(--sans);background:var(--panel);border:1px solid var(--line2);color:var(--muted);padding:7px 12px;border-radius:8px;cursor:pointer;transition:border-color .2s,color .2s;white-space:nowrap}
+.brief-btn:hover{border-color:var(--accent);color:var(--accent)}
+.brief-close{font-size:20px;background:none;border:0;color:var(--muted);cursor:pointer;padding:2px 6px;line-height:1;transition:color .15s}
+.brief-close:hover{color:#fff}
+/* live 배너 */
+.brief-live{background:rgba(118,185,0,.07);border:1px solid rgba(118,185,0,.28);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+.brief-live-tag{font:700 11px var(--mono);color:var(--accent);margin-bottom:7px;display:flex;align-items:center;gap:6px}
+.brief-live-tag .bp{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 5px var(--accent);flex-shrink:0;animation:npulse 1.8s infinite}
+.brief-live-ev{font:700 15px var(--sans);color:#fff;margin-bottom:4px}
+.brief-live-sub{font:500 12px var(--mono);color:var(--muted);line-height:1.5}
+.brief-next{font:500 11px var(--mono);color:var(--dim);margin-top:9px;padding-top:9px;border-top:1px dashed var(--line)}
+/* 섹션 */
+.brief-sec{margin-bottom:16px}
+.brief-sec-hd{font:700 11px var(--mono);color:var(--dim);letter-spacing:.1em;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.brief-sec-hd:before{content:'';width:3px;height:11px;background:var(--accent);border-radius:2px;display:inline-block;flex-shrink:0}
+/* 일정 그리드 */
+.brief-sched{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+@media(max-width:480px){.brief-sched{grid-template-columns:repeat(2,1fr)}}
+.bsi{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:9px 11px;transition:border-color .15s}
+.bsi.done{opacity:.5}
+.bsi.live{border-color:var(--accent);background:rgba(118,185,0,.07)}
+.bsi-n{font:700 12px var(--mono);color:var(--dim);margin-bottom:3px}
+.bsi-n.done{color:var(--muted)}
+.bsi-n.live{color:var(--accent)}
+.bsi-title{font-size:12px;color:var(--muted);line-height:1.4}
+.bsi-when{font:500 10px var(--mono);color:var(--dim);margin-top:5px}
+/* 종목 테이블 */
+.brief-tbl{border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.btr{display:flex;align-items:center;gap:10px;padding:9px 14px;border-bottom:1px solid var(--line)}
+.btr:last-child{border:0}
+.btr-nm{font:600 13px var(--sans);color:#eef3f9;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btr-cd{font:500 10px var(--mono);color:var(--dim);margin-left:4px}
+.btr-v{font:800 14px var(--mono);min-width:58px;text-align:right}
+.btr-inv{font:500 10px var(--mono);color:var(--dim);min-width:90px;text-align:right}
+/* 인사이트 박스 */
+.brief-ig{background:var(--panel);border-left:3px solid var(--accent);border-radius:9px;padding:12px 14px;font-size:13px;color:var(--muted);line-height:1.65}
+/* 면책 */
+.brief-disc{font:500 10px var(--mono);color:var(--dim);margin-top:18px;padding-top:14px;border-top:1px solid var(--line);line-height:1.7}
+
+/* ── print ── */
+@media print{
+  body>*:not(#brief-overlay){display:none!important}
+  #brief-overlay{position:static!important;background:none!important;backdrop-filter:none!important;padding:0!important;display:block!important}
+  .brief-card{background:#fff!important;color:#000!important;border:none!important;max-height:none!important;overflow:visible!important;border-radius:0!important;padding:12px!important;box-shadow:none!important}
+  .brief-close,.brief-btn{display:none!important}
+  :root{--txt:#111;--muted:#333;--dim:#666;--accent:#2e6b00;--line:#d0d0d0;--line2:#e0e0e0;--panel:#f5f5f5;--panel2:#ececec;--up:#b00020;--down:#0040b0}
+  .brief-live{background:#f0f7e6!important;border-color:#2e6b00!important}
+  .brief-live-ev{color:#000!important}
+  .bsi{background:#f5f5f5!important;border-color:#ddd!important}
+  .bsi.live{background:#f0f7e6!important;border-color:#2e6b00!important}
+  .brief-ig{background:#f5f5f5!important;border-left-color:#2e6b00!important}
+  .brief-tbl{border-color:#ddd!important}
+  .btr{border-color:#ddd!important}
+  .bp{animation:none!important}
+}
 
 /* about section */
 .made-lbl{font:500 11px var(--mono);color:var(--dim);margin-bottom:8px}
@@ -363,12 +456,22 @@ footer .fm{font:500 11px var(--mono)}
 [data-en]{display:none}
 .en [data-en]{display:revert}
 
-/* hero image */
-.hero .wrap{position:relative}
-.hero-img{position:absolute;bottom:0;right:8px;height:160px;opacity:.95;pointer-events:none;display:none;object-fit:contain;object-position:bottom}
-@media(min-width:480px){.hero-img{display:block}}
-@media(min-width:768px){.hero-img{height:200px}.hero .wrap{padding-right:215px}}
-@media(min-width:1024px){.hero-img{height:232px;right:16px}.hero .wrap{padding-right:255px}}
+/* hero image — flexbox layout (absolute 방식 제거, overflow 원천 차단) */
+.hero .wrap{display:flex;align-items:flex-end;gap:12px}
+.hero-text{flex:1;min-width:0;padding-bottom:4px}
+.hero-img{
+  display:none;
+  flex-shrink:0;
+  align-self:flex-end;
+  height:150px;
+  opacity:.95;
+  pointer-events:none;
+  object-fit:contain;
+  object-position:bottom;
+}
+@media(min-width:480px){.hero-img{display:block;height:150px}}
+@media(min-width:768px){.hero-img{height:195px}}
+@media(min-width:1024px){.hero-img{height:230px}}
 
 /* shead inline sub-title */
 .shead .sub{font:700 14px var(--sans);color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
@@ -434,25 +537,28 @@ footer .fm{font:500 11px var(--mono)}
     <button data-go="map"><span data-ko>지도</span><span data-en>Map</span></button>
     <button data-go="about"><span data-ko>정보</span><span data-en>About</span></button>
   </div>
+  <button class="brief-nav-btn" onclick="openBrief()">📋 <span data-ko>오늘 요약</span><span data-en>Brief</span></button>
   <div class="lang"><button id="bko" class="on">한국어</button><button id="ben">EN</button></div>
 </div></nav>
 
 <header class="hero"><div class="wrap">
-  <div class="kick">LIVE · NVIDIA CEO · KOREA</div>
-  <h1><span data-ko>젠슨황의 발자취</span><span data-en>Jensen Huang's Footsteps</span></h1>
-  <p><span data-ko>엔비디아 젠슨 황의 방한 동선과 관련 한국 상장사의 주가 움직임을 실시간으로 따라갑니다.</span><span data-en>Tracking NVIDIA CEO Jensen Huang's Korea visit and related KOSPI stocks in real time.</span></p>
+  <div class="hero-text">
+    <div class="kick">LIVE · NVIDIA CEO · KOREA</div>
+    <h1><span data-ko>젠슨황의 발자취</span><span data-en>Jensen Huang's Footsteps</span></h1>
+    <p><span data-ko>엔비디아 젠슨 황의 방한 동선과 관련 한국 상장사의 주가 움직임을 실시간으로 따라갑니다.</span><span data-en>Tracking NVIDIA CEO Jensen Huang's Korea visit and related KOSPI stocks in real time.</span></p>
+    <div class="chips">
+      <span class="chip"><span class="b"></span>LIVE</span>
+      <span class="chip">🇰🇷 <span data-ko>한국 방문 중 · 6/5–6/8</span><span data-en>Korea Visit · Jun 5–8</span></span>
+      <span class="chip">👁 <span data-ko>현재 1명</span><span data-en>1 viewing</span></span>
+    </div>
+    <div class="countdown-bar" id="countdown-bar" style="display:none">
+      <div class="cd-label" data-ko>다음 일정</div><div class="cd-label" data-en>Next event</div>
+      <div class="cd-event" id="cd-event">—</div>
+      <span class="cd-impact" id="cd-impact"></span>
+      <div class="cd-timer" id="cd-timer">—</div>
+    </div>
+  </div>
   <img src="jensen-cutout.png" class="hero-img" alt="Jensen Huang">
-  <div class="chips">
-    <span class="chip"><span class="b"></span>LIVE</span>
-    <span class="chip">🇰🇷 <span data-ko>한국 방문 중 · 6/5–6/8</span><span data-en>Korea Visit · Jun 5–8</span></span>
-    <span class="chip">👁 <span data-ko>현재 1명</span><span data-en>1 viewing</span></span>
-  </div>
-  <div class="countdown-bar" id="countdown-bar" style="display:none">
-    <div class="cd-label" data-ko>다음 일정</div><div class="cd-label" data-en>Next event</div>
-    <div class="cd-event" id="cd-event">—</div>
-    <span class="cd-impact" id="cd-impact"></span>
-    <div class="cd-timer" id="cd-timer">—</div>
-  </div>
 </div></header>
 
 <section id="map"><div class="wrap">
@@ -467,14 +573,14 @@ footer .fm{font:500 11px var(--mono)}
     <!-- 좌: 지도 -->
     <div>
       <div class="mapbox">
-        <div class="locard">
+        <div class="locard" id="locard">
           <div class="l" data-ko>현재 위치</div><div class="l" data-en>Current location</div>
-          <div class="p">🇹🇼 <span data-ko>한국 밖 · 대만 타이베이</span><span data-en>Outside · Taipei</span></div>
-          <div class="w">✈ COMPUTEX 2026 · 6/5 <span data-ko>방한 예상</span><span data-en>est.</span></div>
+          <div class="p" id="locard-place">🇰🇷 <span data-ko>서울 · 홍대 삼소회동</span><span data-en>Seoul · Hongdae Dinner</span></div>
+          <div class="w" id="locard-detail">🍖 <span data-ko>최태원·정의선·구광모·이해진</span><span data-en>SK·Hyundai·LG·Naver chairs</span></div>
         </div>
         <svg id="mapsvg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid meet"></svg>
       </div>
-      <p class="note"><span data-ko>✓ 방문 · ● 현재 · 번호 예정 · ? 미정 / 번호·연결선 = 추정 순서(미확정) · 핀 크기 = 등락폭(빨강/파랑)</span><span data-en>✓ visited · ● current · # planned · ? TBD / connectors = estimated order · pin size = move (red/blue)</span></p>
+      <p class="note"><span data-ko>✓ 방문완료(작은점·라벨없음) · ● LIVE(글로우·라벨) · 번호 예정(중간핀) · ? 미정 / 라벨은 겹침 자동 회피</span><span data-en>✓ visited (small dot, no label) · ● live (glow) · # upcoming · ? TBD / labels auto-placed to avoid overlap</span></p>
     </div>
     <!-- 우: 타임라인 패널 -->
     <div class="tl-col">
@@ -486,10 +592,10 @@ footer .fm{font:500 11px var(--mono)}
       <div class="tl" id="tl"></div>
       <!-- 범례 -->
       <div class="tl-leg">
-        <span class="ld"><span class="dot" style="background:var(--muted)"></span><span data-ko>방문</span><span data-en>visited</span></span>
-        <span class="ld"><span class="dot" style="background:var(--accent)"></span><span data-ko>현재</span><span data-en>current</span></span>
-        <span class="ld"><span class="dot" style="border:1.5px solid var(--line2);background:transparent"></span><span data-ko>예정</span><span data-en>planned</span></span>
-        <span class="ld">⚙ <span data-ko>미정</span><span data-en>TBD</span></span>
+        <span class="ld"><span style="font:700 10px monospace;color:var(--dim)">✓</span> <span data-ko>방문완료</span><span data-en>visited</span></span>
+        <span class="ld"><span class="dot" style="background:var(--accent);box-shadow:0 0 5px var(--accent)"></span><span data-ko>LIVE</span><span data-en>live</span></span>
+        <span class="ld"><span class="dot" style="background:var(--accent);opacity:.55"></span><span data-ko>예정</span><span data-en>planned</span></span>
+        <span class="ld"><span style="font:500 11px monospace;color:var(--dim)">?</span> <span data-ko>미정</span><span data-en>TBD</span></span>
       </div>
     </div>
   </div>
@@ -613,6 +719,26 @@ footer .fm{font:500 11px var(--mono)}
   <div class="fm"><span data-ko>매 1분 수집 · 장중 3분 간격 갱신 · © 2026</span><span data-en>collected every 1 min · 3 min intraday · © 2026</span></div>
 </div></footer>
 
+<!-- brief modal -->
+<div id="brief-overlay" class="brief-ov" style="display:none" onclick="if(event.target===this)closeBrief()">
+  <div class="brief-card">
+    <div class="brief-hd">
+      <div>
+        <div class="brief-title">📋 <span data-ko>젠슨황 방한 브리핑</span><span data-en>Jensen Huang Korea Brief</span></div>
+        <div class="brief-date" id="brief-date"></div>
+      </div>
+      <div class="brief-hd-btns">
+        <button class="brief-btn" onclick="shareBrief()">🔗 <span data-ko>공유</span><span data-en>Share</span></button>
+        <button class="brief-btn" onclick="window.print()">🖨 <span data-ko>인쇄</span><span data-en>Print</span></button>
+        <button class="brief-close" onclick="closeBrief()" aria-label="닫기">✕</button>
+      </div>
+    </div>
+    <div id="brief-body"></div>
+    <div class="brief-disc" data-ko>본 자료는 AI가 생성한 정보이며 투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다.</div>
+    <div class="brief-disc" data-en>This material is AI-generated for informational purposes only and does not constitute investment advice.</div>
+  </div>
+</div>
+
 <script>
 const KR_RINGS=[[[127.022,37.7],[127.028,37.701],[127.032,37.692],[127.049,37.694],[127.052,37.686],[127.063,37.695],[127.081,37.696],[127.096,37.689],[127.093,37.649],[127.111,37.642],[127.112,37.633],[127.104,37.622],[127.116,37.619],[127.118,37.605],[127.117,37.594],[127.101,37.576],[127.105,37.556],[127.177,37.581],[127.184,37.545],[127.163,37.545],[127.146,37.522],[127.141,37.505],[127.161,37.5],[127.147,37.477],[127.133,37.475],[127.133,37.468],[127.125,37.47],[127.117,37.459],[127.104,37.462],[127.088,37.445],[127.072,37.442],[127.07,37.431],[127.053,37.429],[127.036,37.439],[127.037,37.455],[127.032,37.466],[127.015,37.455],[127.004,37.468],[126.997,37.467],[126.997,37.462],[126.975,37.454],[126.963,37.44],[126.94,37.436],[126.928,37.45],[126.907,37.434],[126.886,37.456],[126.889,37.461],[126.872,37.485],[126.877,37.489],[126.87,37.494],[126.847,37.482],[126.845,37.474],[126.832,37.478],[126.815,37.475],[126.823,37.488],[126.813,37.496],[126.827,37.509],[126.828,37.529],[126.822,37.541],[126.807,37.544],[126.794,37.536],[126.791,37.544],[126.772,37.548],[126.764,37.555],[126.778,37.56],[126.782,37.574],[126.801,37.588],[126.8,37.603],[126.854,37.572],[126.876,37.578],[126.885,37.594],[126.888,37.589],[126.9,37.59],[126.9,37.611],[126.912,37.644],[126.905,37.649],[126.924,37.646],[126.948,37.659],[126.957,37.653],[126.963,37.633],[126.958,37.629],[126.975,37.632],[126.986,37.641],[126.98,37.656],[126.994,37.667],[126.992,37.68],[127.009,37.684],[127.01,37.697],[127.015,37.701],[127.022,37.7]],[[126.108,37.272],[126.112,37.258],[126.118,37.258],[126.118,37.248],[126.128,37.252],[126.138,37.247],[126.141,37.238],[126.15,37.239],[126.166,37.231],[126.144,37.222],[126.148,37.214],[126.117,37.209],[126.11,37.213],[126.116,37.216],[126.111,37.224],[126.101,37.222],[126.102,37.23],[126.085,37.222],[126.092,37.232],[126.09,37.248],[126.103,37.266],[126.1,37.272],[126.108,37.272]],[[126.482,37.244],[126.459,37.224],[126.453,37.231],[126.433,37.232],[126.433,37.258],[126.428,37.263],[126.436,37.266],[126.434,37.274],[126.448,37.272],[126.454,37.277],[126.45,37.28],[126.47,37.288],[126.475,37.283],[126.488,37.283],[126.498,37.277],[126.494,37.27],[126.502,37.258],[126.497,37.254],[126.486,37.259],[126.487,37.254],[126.476,37.253],[126.482,37.244]],[[126.503,37.531],[126.516,37.534],[126.525,37.525],[126.565,37.514],[126.577,37.504],[126.582,37.489],[126.564,37.479],[126.506,37.466],[126.485,37.444],[126.442,37.421],[126.419,37.422],[126.413,37.435],[126.406,37.439],[126.4,37.434],[126.404,37.44],[126.395,37.446],[126.38,37.44],[126.381,37.435],[126.377,37.442],[126.364,37.442],[126.372,37.447],[126.368,37.457],[126.356,37.463],[126.359,37.473],[126.373,37.472],[126.418,37.497],[126.476,37.5],[126.494,37.508],[126.497,37.526],[126.501,37.535],[126.503,37.531]],[[126.656,37.638],[126.694,37.62],[126.705,37.612],[126.705,37.602],[126.714,37.604],[126.725,37.592],[126.744,37.592],[126.752,37.58],[126.768,37.588],[126.794,37.582],[126.776,37.565],[126.778,37.56],[126.764,37.555],[126.76,37.518],[126.746,37.515],[126.742,37.509],[126.742,37.487],[126.768,37.472],[126.778,37.472],[126.78,37.455],[126.771,37.448],[126.769,37.428],[126.753,37.423],[126.752,37.411],[126.721,37.383],[126.685,37.387],[126.696,37.383],[126.665,37.35],[126.642,37.347],[126.654,37.344],[126.623,37.342],[126.613,37.347],[126.61,37.337],[126.606,37.337],[126.609,37.343],[126.581,37.337],[126.591,37.339],[126.596,37.347],[126.583,37.347],[126.583,37.355],[126.639,37.355],[126.622,37.355],[126.621,37.348],[126.641,37.348],[126.652,37.353],[126.643,37.355],[126.654,37.356],[126.61,37.387],[126.61,37.416],[126.598,37.416],[126.604,37.424],[126.633,37.427],[126.635,37.418],[126.637,37.421],[126.635,37.431],[126.61,37.43],[126.614,37.437],[126.608,37.441],[126.619,37.445],[126.611,37.448],[126.612,37.454],[126.601,37.438],[126.594,37.438],[126.593,37.455],[126.603,37.457],[126.591,37.462],[126.595,37.457],[126.6,37.466],[126.603,37.46],[126.624,37.458],[126.62,37.463],[126.627,37.462],[126.614,37.467],[126.625,37.467],[126.612,37.477],[126.604,37.466],[126.596,37.473],[126.606,37.486],[126.61,37.483],[126.605,37.48],[126.62,37.486],[126.612,37.483],[126.61,37.487],[126.625,37.492],[126.638,37.482],[126.627,37.493],[126.641,37.496],[126.639,37.504],[126.631,37.504],[126.623,37.496],[126.605,37.496],[126.603,37.533],[126.597,37.549],[126.607,37.554],[126.601,37.562],[126.589,37.564],[126.575,37.588],[126.614,37.606],[126.626,37.603],[126.637,37.627],[126.647,37.627],[126.656,37.638]],[[126.33,37.746],[126.318,37.73],[126.319,37.713],[126.343,37.697],[126.366,37.695],[126.379,37.682],[126.373,37.666],[126.341,37.644],[126.326,37.657],[126.329,37.67],[126.319,37.682],[126.289,37.695],[126.269,37.711],[126.282,37.709],[126.288,37.714],[126.293,37.745],[126.318,37.752],[126.33,37.746]],[[126.266,37.815],[126.295,37.802],[126.313,37.802],[126.324,37.808],[126.333,37.797],[126.331,37.79],[126.315,37.774],[126.291,37.763],[126.279,37.769],[126.248,37.766],[126.233,37.751],[126.205,37.769],[126.222,37.787],[126.219,37.796],[126.223,37.805],[126.241,37.817],[126.266,37.815]],[[126.439,37.825],[126.456,37.808],[126.506,37.783],[126.512,37.762],[126.526,37.748],[126.513,37.717],[126.525,37.702],[126.517,37.675],[126.532,37.665],[126.523,37.656],[126.527,37.647],[126.522,37.646],[126.535,37.622],[126.54,37.625],[126.544,37.618],[126.52,37.611],[126.515,37.597],[126.524,37.598],[126.518,37.592],[126.526,37.587],[126.517,37.58],[126.503,37.59],[126.514,37.593],[126.513,37.599],[126.504,37.596],[126.48,37.605],[126.478,37.599],[126.464,37.595],[126.462,37.589],[126.447,37.594],[126.405,37.594],[126.37,37.613],[126.378,37.619],[126.374,37.631],[126.366,37.635],[126.398,37.64],[126.411,37.652],[126.404,37.676],[126.388,37.69],[126.391,37.696],[126.359,37.704],[126.351,37.715],[126.352,37.74],[126.357,37.741],[126.35,37.79],[126.387,37.807],[126.392,37.823],[126.414,37.822],[126.427,37.832],[126.439,37.825]],[[126.743,37.038],[126.757,37.055],[126.681,37.117],[126.674,37.117],[126.685,37.119],[126.676,37.138],[126.68,37.143],[126.66,37.138],[126.696,37.151],[126.683,37.16],[126.65,37.155],[126.661,37.163],[126.654,37.181],[126.66,37.176],[126.67,37.189],[126.66,37.191],[126.65,37.184],[126.661,37.221],[126.648,37.244],[126.646,37.258],[126.654,37.269],[126.633,37.287],[126.646,37.279],[126.658,37.283],[126.661,37.291],[126.648,37.293],[126.629,37.285],[126.662,37.293],[126.662,37.278],[126.684,37.281],[126.672,37.273],[126.68,37.257],[126.698,37.261],[126.725,37.256],[126.734,37.249],[126.756,37.254],[126.765,37.245],[126.775,37.247],[126.783,37.23],[126.787,37.233],[126.778,37.246],[126.79,37.244],[126.791,37.267],[126.811,37.268],[126.804,37.277],[126.805,37.294],[126.819,37.29],[126.843,37.267],[126.838,37.276],[126.828,37.28],[126.817,37.298],[126.768,37.293],[126.676,37.32],[126.671,37.329],[126.616,37.314],[126.578,37.293],[126.586,37.291],[126.584,37.285],[126.589,37.29],[126.61,37.279],[126.589,37.29],[126.585,37.285],[126.624,37.264],[126.637,37.272],[126.643,37.269],[126.641,37.263],[126.643,37.271],[126.631,37.281],[126.642,37.273],[126.637,37.254],[126.655,37.225],[126.653,37.2],[126.645,37.192],[126.642,37.204],[126.647,37.211],[126.629,37.218],[126.626,37.202],[126.629,37.219],[126.622,37.236],[126.619,37.23],[126.611,37.234],[126.61,37.229],[126.6,37.228],[126.588,37.233],[126.61,37.221],[126.615,37.209],[126.605,37.212],[126.595,37.198],[126.605,37.212],[126.601,37.221],[126.591,37.213],[126.587,37.221],[126.576,37.221],[126.57,37.199],[126.562,37.193],[126.557,37.202],[126.545,37.206],[126.544,37.215],[126.557,37.218],[126.541,37.229],[126.569,37.237],[126.561,37.242],[126.559,37.267],[126.533,37.289],[126.562,37.277],[126.577,37.29],[126.572,37.298],[126.578,37.293],[126.607,37.313],[126.69,37.335],[126.686,37.341],[126.689,37.349],[126.703,37.351],[126.701,37.355],[126.731,37.387],[126.742,37.383],[126.734,37.389],[126.744,37.398],[126.792,37.393],[126.788,37.408],[126.789,37.396],[126.784,37.392],[126.749,37.404],[126.755,37.413],[126.753,37.423],[126.769,37.428],[126.771,37.448],[126.78,37.455],[126.778,37.472],[126.768,37.472],[126.742,37.487],[126.742,37.509],[126.746,37.515],[126.76,37.518],[126.766,37.554],[126.791,37.544],[126.794,37.536],[126.807,37.544],[126.822,37.541],[126.828,37.529],[126.827,37.509],[126.813,37.496],[126.823,37.488],[126.815,37.475],[126.832,37.478],[126.845,37.474],[126.847,37.482],[126.87,37.494],[126.877,37.489],[126.872,37.485],[126.889,37.461],[126.886,37.456],[126.894,37.453],[126.903,37.434],[126.909,37.434],[126.928,37.45],[126.94,37.436],[126.963,37.44],[126.975,37.454],[127.004,37.468],[127.015,37.455],[127.035,37.464],[127.036,37.439],[127.047,37.431],[127.066,37.429],[127.074,37.437],[127.072,37.442],[127.088,37.445],[127.104,37.462],[127.117,37.459],[127.125,37.47],[127.144,37.474],[127.157,37.489],[127.161,37.5],[127.14,37.509],[127.163,37.545],[127.184,37.545],[127.177,37.581],[127.105,37.556],[127.101,37.576],[127.117,37.594],[127.118,37.605],[127.116,37.619],[127.104,37.622],[127.112,37.633],[127.111,37.642],[127.093,37.649],[127.096,37.689],[127.081,37.696],[127.063,37.695],[127.052,37.686],[127.049,37.694],[127.032,37.692],[127.027,37.701],[127.015,37.701],[127.01,37.697],[127.009,37.684],[126.992,37.68],[126.994,37.667],[126.98,37.656],[126.986,37.641],[126.975,37.632],[126.958,37.629],[126.963,37.633],[126.957,37.653],[126.948,37.659],[126.924,37.646],[126.905,37.649],[126.912,37.644],[126.9,37.611],[126.9,37.59],[126.888,37.589],[126.885,37.594],[126.876,37.578],[126.854,37.572],[126.803,37.605],[126.797,37.598],[126.801,37.588],[126.794,37.582],[126.768,37.588],[126.752,37.58],[126.744,37.592],[126.725,37.592],[126.714,37.604],[126.705,37.602],[126.705,37.612],[126.694,37.62],[126.657,37.638],[126.647,37.627],[126.637,37.627],[126.626,37.603],[126.614,37.606],[126.592,37.593],[126.592,37.599],[126.578,37.605],[126.573,37.599],[126.566,37.604],[126.56,37.601],[126.547,37.634],[126.531,37.655],[126.544,37.663],[126.527,37.674],[126.533,37.694],[126.522,37.717],[126.531,37.748],[126.518,37.763],[126.525,37.768],[126.517,37.771],[126.518,37.777],[126.523,37.79],[126.555,37.778],[126.575,37.763],[126.594,37.761],[126.626,37.779],[126.663,37.781],[126.671,37.835],[126.659,37.84],[126.68,37.846],[126.692,37.869],[126.683,37.874],[126.673,37.87],[126.672,37.878],[126.682,37.88],[126.67,37.888],[126.683,37.913],[126.666,37.919],[126.671,37.955],[126.687,37.957],[126.704,37.975],[126.719,37.965],[126.737,37.966],[126.758,37.984],[126.773,37.978],[126.772,37.984],[126.784,37.982],[126.79,37.988],[126.786,37.99],[126.79,37.999],[126.817,38.003],[126.826,38.024],[126.828,38.02],[126.841,38.033],[126.855,38.032],[126.853,38.053],[126.858,38.054],[126.858,38.062],[126.87,38.078],[126.86,38.086],[126.863,38.094],[126.856,38.1],[126.862,38.108],[126.883,38.116],[126.889,38.129],[126.905,38.138],[126.917,38.137],[126.928,38.127],[126.958,38.135],[126.961,38.14],[126.966,38.137],[126.968,38.147],[126.949,38.162],[126.966,38.171],[126.967,38.199],[126.975,38.199],[126.974,38.205],[126.984,38.211],[126.982,38.227],[126.992,38.229],[127.005,38.222],[127.014,38.237],[127.024,38.242],[127.02,38.246],[127.037,38.25],[127.042,38.259],[127.066,38.264],[127.078,38.279],[127.103,38.281],[127.101,38.274],[127.111,38.271],[127.112,38.238],[127.131,38.233],[127.149,38.242],[127.163,38.238],[127.16,38.22],[127.171,38.213],[127.175,38.205],[127.17,38.198],[127.179,38.188],[127.189,38.188],[127.189,38.162],[127.219,38.139],[127.225,38.148],[127.234,38.147],[127.239,38.157],[127.256,38.163],[127.266,38.18],[127.283,38.183],[127.298,38.175],[127.284,38.159],[127.286,38.153],[127.275,38.137],[127.276,38.124],[127.281,38.125],[127.286,38.115],[127.31,38.118],[127.321,38.095],[127.337,38.09],[127.34,38.101],[127.366,38.107],[127.379,38.118],[127.403,38.113],[127.406,38.103],[127.413,38.102],[127.431,38.115],[127.445,38.097],[127.445,38.057],[127.453,38.047],[127.452,38.035],[127.462,38.013],[127.504,37.998],[127.54,38.001],[127.547,37.978],[127.545,37.968],[127.602,37.955],[127.603,37.946],[127.612,37.941],[127.617,37.928],[127.612,37.923],[127.617,37.906],[127.606,37.876],[127.578,37.874],[127.567,37.859],[127.55,37.852],[127.55,37.847],[127.529,37.84],[127.525,37.83],[127.537,37.811],[127.521,37.793],[127.545,37.76],[127.511,37.736],[127.507,37.721],[127.512,37.716],[127.527,37.727],[127.543,37.72],[127.557,37.729],[127.562,37.72],[127.551,37.687],[127.553,37.662],[127.544,37.652],[127.536,37.651],[127.538,37.641],[127.559,37.628],[127.581,37.633],[127.585,37.642],[127.606,37.651],[127.647,37.633],[127.652,37.623],[127.664,37.624],[127.708,37.586],[127.754,37.592],[127.784,37.578],[127.794,37.585],[127.814,37.564],[127.84,37.559],[127.848,37.55],[127.842,37.539],[127.81,37.538],[127.785,37.513],[127.76,37.503],[127.76,37.493],[127.775,37.492],[127.79,37.475],[127.8,37.471],[127.796,37.463],[127.804,37.429],[127.795,37.424],[127.784,37.389],[127.777,37.383],[127.779,37.371],[127.759,37.367],[127.758,37.346],[127.763,37.334],[127.759,37.331],[127.768,37.307],[127.75,37.297],[127.76,37.273],[127.747,37.24],[127.749,37.218],[127.735,37.208],[127.726,37.183],[127.717,37.183],[127.707,37.17],[127.704,37.158],[127.695,37.151],[127.695,37.14],[127.687,37.135],[127.67,37.136],[127.647,37.151],[127.628,37.155],[127.638,37.141],[127.635,37.1],[127.612,37.087],[127.595,37.088],[127.605,37.069],[127.578,37.075],[127.565,37.061],[127.57,37.048],[127.557,37.041],[127.518,37.058],[127.5,37.048],[127.486,37.055],[127.468,37.053],[127.457,37.042],[127.458,37.02],[127.451,37.019],[127.447,37.011],[127.441,37.012],[127.429,37.002],[127.393,36.997],[127.385,36.984],[127.402,36.968],[127.387,36.964],[127.376,36.949],[127.358,36.948],[127.35,36.953],[127.327,36.936],[127.309,36.929],[127.296,36.931],[127.303,36.916],[127.29,36.894],[127.253,36.922],[127.244,36.918],[127.21,36.931],[127.212,36.938],[127.202,36.952],[127.144,36.971],[127.13,36.966],[127.112,36.971],[127.097,36.959],[127.103,36.953],[127.096,36.942],[127.086,36.948],[127.074,36.939],[127.065,36.942],[127.031,36.928],[127.016,36.935],[126.995,36.935],[126.94,36.917],[126.91,36.902],[126.899,36.93],[126.887,36.936],[126.867,36.933],[126.859,36.951],[126.854,36.948],[126.859,36.942],[126.85,36.946],[126.826,36.986],[126.813,36.987],[126.821,36.986],[126.823,36.991],[126.812,36.995],[126.81,36.988],[126.804,36.99],[126.806,36.997],[126.789,36.995],[126.779,37.007],[126.798,37.014],[126.795,37.026],[126.751,37.03],[126.743,37.038]],[[126.757,37.056],[126.771,37.064],[126.763,37.063],[126.762,37.068],[126.771,37.102],[126.758,37.111],[126.76,37.118],[126.777,37.132],[126.783,37.135],[126.795,37.129],[126.801,37.138],[126.817,37.143],[126.8,37.154],[126.782,37.152],[126.798,37.162],[126.792,37.173],[126.801,37.196],[126.795,37.182],[126.778,37.165],[126.747,37.168],[126.742,37.153],[126.731,37.149],[126.727,37.139],[126.714,37.131],[126.706,37.132],[126.701,37.127],[126.705,37.123],[126.684,37.115],[126.757,37.056]]];
 var MAP_BOUNDS=[126.085,127.848,36.894,38.281];
@@ -620,6 +746,7 @@ var ROUTE=[];
 var MAP_EXTRAS=[];
 var STOCK_UPDATED_AT='';   // 마지막 주가 갱신 시각
 var EVENTS_UPDATED_AT='';  // events.json 버전 (updatedAt 필드)
+var NEWS_FILTER=null;      // { code, name } — 종목 필터
 var THEMES=[
  {nm:{ko:'반도체·HBM',en:'Semiconductor·HBM'},d:{ko:'AI 가속기용 메모리·반도체',en:'Memory/chips'},s:[
   {n:{ko:'삼성전자우',en:'Samsung(pf)'},c:'005935',px:'229,000',v:'+19.27',nw:'+13.09'},
@@ -733,6 +860,19 @@ function loadEvents(){
       NEWS=eventsToNews(data.events||[]);
       FEED=data.feed||[];
       INSIGHT_EVENTS=eventsToInsightEvents(data.events||[]);
+      EVENTS_UPDATED_AT=data.updatedAt||'';
+      // events.json updatedAt → 시간 초기화 (live API 전에도 표시)
+      if(data.updatedAt){
+        var _ud=new Date(data.updatedAt);
+        STOCK_UPDATED_AT=_ud.toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+        var _udDate=('0'+(_ud.getMonth()+1)).slice(-2)+'.'+('0'+_ud.getDate()).slice(-2);
+        document.querySelectorAll('.cst').forEach(function(c,i){
+          if(i<1) return;
+          var v=c.querySelector('.v'), s=c.querySelector('.s');
+          if(v) v.textContent=STOCK_UPDATED_AT;
+          if(s) s.textContent=_udDate;
+        });
+      }
       renderAll();
       setTimeout(fetchLive,500);
     })
@@ -747,6 +887,22 @@ function num(v){return parseFloat(v);}
 function cls(v){var n=num(v);return n>0?'up':n<0?'down':'flat';}
 function arr(v){var n=num(v);return n>0?'\u25B2':n<0?'\u25BC':'\u00B7';}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+/* \uC678\uAD6D\uC778\u00B7\uAE30\uAD00 \uC21C\uB9E4\uC218 \uD3EC\uB9F7 (\uC8FC \u2192 \uB9CC\uC8FC \uB2E8\uC704) */
+function fmtInv(n){
+  if(n===null||n===undefined)return '--';
+  var abs=Math.abs(n),s;
+  if(abs>=1000000)s=(n/10000).toFixed(0)+'\uB9CC';
+  else if(abs>=10000)s=(n/10000).toFixed(1)+'\uB9CC';
+  else if(abs>=1000)s=(n/1000).toFixed(1)+'\uCC9C';
+  else s=String(n);
+  return (n>0?'+':'')+s;
+}
+function fmtVol(n){
+  if(!n)return '--';
+  if(n>=1000000)return (n/10000).toFixed(0)+'\uB9CC';
+  if(n>=10000)return (n/10000).toFixed(1)+'\uB9CC';
+  return n.toLocaleString();
+}
 
 /* ===== MAP (inline SVG, real geometry, no network) ===== */
 function buildMap(){
@@ -787,27 +943,116 @@ function buildMap(){
   var dd='M';
   for(var k=0;k<ROUTE.length;k++){ dd+=(k?'L':'')+X(ROUTE[k].lng).toFixed(1)+' '+Y(ROUTE[k].lat).toFixed(1); }
   parts.push('<path d="'+dd+'" fill="none" stroke="#76b900" stroke-width="1.4" opacity="0.25" stroke-dasharray="6 6"/>');
-  // pins
-  for(var p=0;p<ROUTE.length;p++){
-    var s=ROUTE[p], pin=s.pin, cx=X(s.lng), cy=Y(s.lat), lab=esc(L(pin.label));
+  // ── pins ──
+  // STEP 1: 우선순위 정렬 (in_progress가 먼저 좋은 위치 선점)
+  var renderOrder=ROUTE.slice().sort(function(a,b){
+    var pri={in_progress:0,upcoming:1,planned:2,completed:3,rumored:4};
+    return (pri[a.status]||3)-(pri[b.status]||3);
+  });
+
+  // STEP 2: 핀 displacement — 겹치는 핀 원(circle)을 물리적으로 밀어냄
+  var radByStatus={in_progress:22,upcoming:16,planned:16,completed:9,rumored:12};
+  var dp=renderOrder.map(function(s){
+    return {s:s, cx:s.pin?X(s.lng):0, cy:s.pin?Y(s.lat):0};
+  });
+  for(var iter=0;iter<5;iter++){          // 5회 반복으로 안정 수렴
+    for(var ii=0;ii<dp.length;ii++){
+      for(var jj=ii+1;jj<dp.length;jj++){
+        var da=dp[ii], db=dp[jj];
+        if(!da.s.pin||!db.s.pin||da.s.pin.cur||db.s.pin.cur||da.s.pin.undef||db.s.pin.undef) continue;
+        var ra=radByStatus[da.s.status]||12, rb=radByStatus[db.s.status]||12;
+        var minD=ra+rb+8;                 // 두 핀 반지름 합 + 8px 여백
+        var ddx=da.cx-db.cx, ddy=da.cy-db.cy;
+        var dd=Math.sqrt(ddx*ddx+ddy*ddy);
+        if(dd<minD){
+          if(dd<0.5){ddx=0;ddy=1;}       // 완전히 같은 점 → 세로로 밀기
+          else{ddx/=dd;ddy/=dd;}
+          var push=(minD-dd)/2;
+          da.cx+=ddx*push; da.cy+=ddy*push;
+          db.cx-=ddx*push; db.cy-=ddy*push;
+        }
+      }
+    }
+  }
+
+  // STEP 3: 분리된 좌표로 pinCenters 구성 (라벨 배치 참조용)
+  var pinCenters=dp.filter(function(d){
+    return d.s.pin&&!d.s.pin.cur&&!d.s.pin.undef;
+  }).map(function(d){return {cx:d.cx,cy:d.cy,status:d.s.status};});
+
+  // STEP 4: 4방향 라벨 충돌 회피
+  var placedLabels=[];
+  function bestLabelPos(cx,cy,rad,lw){
+    var LH=19;
+    var cands=[
+      {dir:'right',lx:cx+rad+5,    ly:cy-LH/2},
+      {dir:'left', lx:cx-rad-5-lw, ly:cy-LH/2},
+      {dir:'above',lx:cx-lw/2,     ly:cy-rad-LH-5},
+      {dir:'below',lx:cx-lw/2,     ly:cy+rad+5},
+    ];
+    var best=cands[0], bestScore=Infinity;
+    for(var ci=0;ci<cands.length;ci++){
+      var c=cands[ci], sc=0;
+      if(c.lx<8) sc+=10; if(c.lx+lw>W-8) sc+=10;
+      if(c.ly<8) sc+=6;  if(c.ly+LH>H-12) sc+=6;
+      for(var pi=0;pi<pinCenters.length;pi++){
+        var pc=pinCenters[pi];
+        if(Math.abs(pc.cx-cx)<1&&Math.abs(pc.cy-cy)<1) continue;
+        if(pc.cx>c.lx-3&&pc.cx<c.lx+lw+3&&pc.cy>c.ly-3&&pc.cy<c.ly+LH+3) sc+=12;
+        var dist=Math.sqrt(Math.pow(pc.cx-(c.lx+lw/2),2)+Math.pow(pc.cy-(c.ly+LH/2),2));
+        if(dist<24) sc+=4;
+      }
+      for(var li=0;li<placedLabels.length;li++){
+        var pl=placedLabels[li];
+        if(c.lx<pl.x+pl.w+2&&c.lx+lw>pl.x-2&&c.ly<pl.y+LH+2&&c.ly+LH>pl.y-2) sc+=10;
+      }
+      if(sc<bestScore){bestScore=sc;best=c;}
+    }
+    placedLabels.push({x:best.lx,y:best.ly,w:lw,h:LH});
+    return best;
+  }
+
+  // STEP 5: 분리된 좌표(dp[].cx/cy)로 핀 렌더링
+  for(var p=0;p<dp.length;p++){
+    var dpe=dp[p], s=dpe.s, pin=s.pin;
+    if(!pin) continue;
+    var cx=dpe.cx, cy=dpe.cy, lab=esc(L(pin.label));
     if(pin.cur){
       /* inbound shown via the marker above */
     } else if(pin.undef){
-      parts.push('<circle cx="'+cx+'" cy="'+cy+'" r="10" fill="none" stroke="#5c6c80" stroke-width="1.4" stroke-dasharray="3 3"/><text x="'+cx+'" y="'+(cy+4)+'" fill="#8a9bb0" font-size="11" text-anchor="middle" font-family="monospace">?</text>');
-      parts.push('<text x="'+(cx+14)+'" y="'+(cy+4)+'" fill="#8a9bb0" font-size="12.5">'+lab+'</text>');
-    } else {
-      var rad=Math.max(14,Math.min(22,14+pin.pct*0.15));
-      // green numbered pin
-      parts.push('<circle cx="'+cx+'" cy="'+cy+'" r="'+(rad+5)+'" fill="rgba(118,185,0,.15)"/>');
-      parts.push('<circle cx="'+cx+'" cy="'+cy+'" r="'+rad+'" fill="#76b900" stroke="#0a121d" stroke-width="2"/>');
-      parts.push('<text x="'+cx+'" y="'+(cy+5)+'" fill="#05210a" font-size="13" text-anchor="middle" font-weight="800">'+s.n+'</text>');
-      // label: right half of map → put label on left, left half → right
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="10" fill="none" stroke="#5c6c80" stroke-width="1.4" stroke-dasharray="3 3"/><text x="'+cx.toFixed(1)+'" y="'+(cy+4).toFixed(1)+'" fill="#8a9bb0" font-size="11" text-anchor="middle" font-family="monospace">?</text>');
+    } else if(s.status==='completed'){
+      // 완료: 작은 ✓ 점만, 라벨 없음
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="9" fill="#0f1e2e" stroke="#3f5268" stroke-width="1.5"/>');
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(cy+4).toFixed(1)+'" fill="#5c6c80" font-size="10" text-anchor="middle" font-family="monospace" font-weight="700">✓</text>');
+    } else if(s.status==='in_progress'){
+      // LIVE: 큰 글로우 핀 + 라벨
+      var rad=18;
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="'+(rad+16)+'" fill="none" stroke="#76b900" stroke-width="1.2"><animate attributeName="r" values="'+(rad+12)+';'+(rad+22)+';'+(rad+12)+'" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite"/></circle>');
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="'+(rad+6)+'" fill="rgba(118,185,0,.2)"/>');
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="'+rad+'" fill="#76b900" stroke="#e6edf5" stroke-width="2.5"/>');
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(cy+5).toFixed(1)+'" fill="#05210a" font-size="13" text-anchor="middle" font-weight="800">'+s.n+'</text>');
       if(lab){
-        var onLeft=cx>W*0.55;
-        var lw=lab.length*7.5+14;
-        var lx=onLeft?cx-rad-6:cx+rad+4, ly=cy-10;
-        parts.push('<rect x="'+lx+'" y="'+ly+'" width="'+lw+'" height="19" rx="4" fill="rgba(10,14,20,.82)" stroke="rgba(118,185,0,.25)" stroke-width="1"/>');
-        parts.push('<text x="'+(onLeft?lx+lw-7:lx+7)+'" y="'+(ly+13)+'" fill="#e6edf5" font-size="12" font-weight="600" text-anchor="'+(onLeft?'end':'start')+'">'+lab+'</text>');
+        var liveLbl='● '+lab, lw=liveLbl.length*7.5+14;
+        var pos=bestLabelPos(cx,cy,rad,lw);
+        var anchor=(pos.dir==='above'||pos.dir==='below')?'middle':pos.dir==='right'?'start':'end';
+        var tx=(pos.dir==='above'||pos.dir==='below')?pos.lx+lw/2:pos.dir==='right'?pos.lx+7:pos.lx+lw-7;
+        parts.push('<rect x="'+pos.lx.toFixed(1)+'" y="'+pos.ly.toFixed(1)+'" width="'+lw+'" height="19" rx="4" fill="rgba(10,14,20,.93)" stroke="rgba(118,185,0,.7)" stroke-width="1.3"/>');
+        parts.push('<text x="'+tx.toFixed(1)+'" y="'+(pos.ly+13).toFixed(1)+'" fill="#76b900" font-size="12" font-weight="700" text-anchor="'+anchor+'" font-family="monospace">'+liveLbl+'</text>');
+      }
+    } else {
+      // upcoming / planned: 중간 크기 핀 + 라벨
+      var rad=Math.max(12,Math.min(17,12+(pin.pct||0)*0.1));
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="'+(rad+4)+'" fill="rgba(118,185,0,.1)"/>');
+      parts.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="'+rad+'" fill="#76b900" stroke="#0a121d" stroke-width="1.8"/>');
+      parts.push('<text x="'+cx.toFixed(1)+'" y="'+(cy+5).toFixed(1)+'" fill="#05210a" font-size="12" text-anchor="middle" font-weight="700">'+s.n+'</text>');
+      if(lab){
+        var lw=lab.length*7+16;
+        var pos=bestLabelPos(cx,cy,rad,lw);
+        var anchor=(pos.dir==='above'||pos.dir==='below')?'middle':pos.dir==='right'?'start':'end';
+        var tx=(pos.dir==='above'||pos.dir==='below')?pos.lx+lw/2:pos.dir==='right'?pos.lx+6:pos.lx+lw-6;
+        parts.push('<rect x="'+pos.lx.toFixed(1)+'" y="'+pos.ly.toFixed(1)+'" width="'+lw+'" height="18" rx="3" fill="rgba(10,14,20,.82)" stroke="rgba(118,185,0,.22)" stroke-width="1"/>');
+        parts.push('<text x="'+tx.toFixed(1)+'" y="'+(pos.ly+12).toFixed(1)+'" fill="#e6edf5" font-size="11" font-weight="600" text-anchor="'+anchor+'" font-family="monospace">'+lab+'</text>');
       }
     }
   }
@@ -825,6 +1070,25 @@ function buildMap(){
     }
   }
   svg.innerHTML=parts.join('');
+
+  /* locard 동적 갱신 */
+  var lcPlace=el('locard-place'), lcDetail=el('locard-detail');
+  if(lcPlace&&lcDetail&&ROUTE.length){
+    // 진행중 > 가장 최근 완료 > 미정 순으로 현재 위치 결정
+    var cur=ROUTE.filter(function(r){return r.status==='in_progress';})[0]
+      || (function(){var done=ROUTE.filter(function(r){return r.status==='completed';});return done[done.length-1];})();
+    if(cur){
+      var pnm=L(cur.pl)||L(cur.title);
+      var isLive=cur.status==='in_progress';
+      var flag='🇰🇷';
+      lcPlace.innerHTML=flag+' <span data-ko>서울 · '+esc(pnm)+'</span><span data-en>Seoul · '+esc(pnm)+'</span>';
+      if(isLive){
+        lcDetail.innerHTML='<span style="color:var(--accent)">● LIVE</span> '+(lang==='ko'?L(cur.d)||'진행중':'In progress');
+      } else {
+        lcDetail.innerHTML='✓ '+(lang==='ko'?L(cur.d)||'방문 완료':'Visited');
+      }
+    }
+  }
 }
 
 /* ===== countdown ===== */
@@ -1290,7 +1554,7 @@ function buildHeatmap(){
         ?'rgba(59,130,246,'+alpha+')'
         :'rgba(107,124,146,0.10)';
     var vcls=avg>0?'up':avg<0?'down':'flat';
-    h+='<div class="hmap-cell" style="background:'+bg+'">'
+    h+='<div class="hmap-cell" style="background:'+bg+';cursor:pointer" onclick="filterNewsByTheme('+t+')">'
       +'<div class="hmap-nm">'+L(th.nm)+'</div>'
       +'<div class="hmap-v '+vcls+'">'+(avg>=0?'+':'')+avg.toFixed(1)+'%</div>'
       +'<div class="hmap-cnt">'+cnt+(lang==='ko'?' 종목':' stk')+'</div>'
@@ -1310,15 +1574,48 @@ function spark(v){
 function buildStocks(){
   var h='',tot=0;
   for(var t=0;t<THEMES.length;t++){var th=THEMES[t];tot+=th.s.length;
-    h+='<div class="theme"><div class="thead"><h3><i></i>'+L(th.nm)+'</h3><span class="d">'+L(th.d)+'</span><span class="c">'+th.s.length+'</span></div><div class="cards">';
+    h+='<div class="theme"><div class="thead" onclick="filterNewsByTheme('+t+')">'
+       +'<h3><i></i>'+L(th.nm)+'</h3>'
+       +'<span class="d">'+L(th.d)+'</span>'
+       +'<span class="c">'+th.s.length+'</span>'
+       +'<span style="font:500 11px var(--mono);color:var(--dim);margin-left:4px">→ 뉴스</span>'
+       +'</div><div class="cards">';
     for(var i=0;i<th.s.length;i++){var s=th.s[i],sp=spark(s.v),col=sp.up?'#ff4d4f':'#3b82f6',gid='g'+s.c;
-      h+='<div class="card"><div class="h"><span class="nm">'+L(s.n)+'</span><span class="cd">'+s.c+'</span></div>'
+      h+='<div class="card" onclick="filterNewsByStock(\''+s.c+'\',\''+esc(L(s.n))+'\');event.stopPropagation()">'
+        +'<div class="h"><span class="nm">'+L(s.n)+'</span><span class="cd">'+s.c+'</span></div>'
         +'<svg class="sp" viewBox="0 0 240 56" preserveAspectRatio="none"><defs><linearGradient id="'+gid+'" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="'+col+'" stop-opacity=".28"/><stop offset="1" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
         +'<path d="'+sp.area+'" fill="url(#'+gid+')"/><path d="'+sp.line+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round"/>'
         +'<circle cx="'+sp.lx.toFixed(1)+'" cy="'+sp.ly.toFixed(1)+'" r="3.4" fill="'+col+'"/></svg>'
         +'<div class="pr"><span class="now">'+(lang==='ko'?'현재':'now')+' <b>'+s.px+'</b><span class="pt"> · '+(STOCK_UPDATED_AT||'--:--')+'</span></span><span class="big '+cls(s.v)+'" data-count="'+s.v+'" data-pfx="'+arr(s.v)+'">'+arr(s.v)+' '+(num(s.v)>=0?'+':'')+s.v+'%</span></div>'
-        +'<div class="dual"><div><span class="l">'+(lang==='ko'?'방한확정':'visit')+'</span><span class="v '+cls(s.v)+'" data-count="'+s.v+'">'+(num(s.v)>=0?'+':'')+s.v+'%</span><span class="s">05/27</span></div>'
-        +'<div><span class="l">'+(lang==='ko'?'뉴스':'news')+'</span><span class="v '+cls(s.nw)+'" data-count="'+s.nw+'">'+(num(s.nw)>=0?'+':'')+s.nw+'%</span><span class="s">06/01</span></div></div></div>';
+        +(function(){
+          var prim=(window._basePrims&&window._basePrims[s.c])||'v';
+          var pa=prim==='v'?{val:s.v,cls_:cls(s.v),lbl:(lang==='ko'?'방한확정比':'vs Visit'),dt:'05/27'}:{val:s.nw,cls_:cls(s.nw),lbl:(lang==='ko'?'뉴스比':'vs News'),dt:'06/01'};
+          var sa=prim==='v'?{val:s.nw,cls_:cls(s.nw),lbl:(lang==='ko'?'뉴스比':'news'  ),dt:'06/01'}:{val:s.v, cls_:cls(s.v), lbl:(lang==='ko'?'방한확정':'visit'),dt:'05/27'};
+          return '<div class="dual" id="b_'+s.c+'" data-prim="'+prim+'" data-v="'+s.v+'" data-vc="'+cls(s.v)+'" data-nw="'+s.nw+'" data-nwc="'+cls(s.nw)+'">'
+            +'<div class="pm"><span class="l">'+pa.lbl+'</span>'
+              +'<span class="v '+pa.cls_+'" data-count="'+num(pa.val)+'">'+pa.val+'%</span>'
+              +'<span class="s">'+pa.dt+'</span></div>'
+            +'<div class="sc" onclick="swapBase(\''+s.c+'\');event.stopPropagation()">'
+              +'<span class="l">'+sa.lbl+' <i class="sw-ic">⇄</i></span>'
+              +'<span class="vs '+sa.cls_+'">'+sa.val+'%</span>'
+              +'<span class="s">'+sa.dt+'</span></div>'
+            +'</div>';
+        })()
+        +'<div class="inv" id="inv_'+s.c+'">'
+          +'<div><span class="l">'+(lang==='ko'?'외국인':'Foreign')+'</span>'
+            +'<span class="v '+(s.frgn!=null?(s.frgn>=0?'up':'down'):'')+'" data-frgn="'+(s.frgn??'')+'">'+fmtInv(s.frgn)+'</span>'
+            +'<span class="s">'+(lang==='ko'?'주':'shr')+'</span>'
+          +'</div>'
+          +'<div><span class="l">'+(lang==='ko'?'기관':'Inst.')+'</span>'
+            +'<span class="v '+(s.inst!=null?(s.inst>=0?'up':'down'):'')+'" data-inst="'+(s.inst??'')+'">'+fmtInv(s.inst)+'</span>'
+            +'<span class="s">'+(lang==='ko'?'주':'shr')+'</span>'
+          +'</div>'
+        +'</div>'
+        +'<div class="vol-row" id="vol_'+s.c+'">'
+          +'<span>'+(lang==='ko'?'거래량 ':'vol ')+'<span class="vl">'+fmtVol(s.vol??null)+'</span></span>'
+          +(s.frgnRatio!=null?'<span>'+(lang==='ko'?'외국인보유 ':'frgn ')+'<span class="vl">'+(s.frgnRatio??'--')+'%</span></span>':'')
+        +'</div>'
+        +'</div>';
     }
     h+='</div></div>';
   }
@@ -1374,7 +1671,28 @@ function buildNews(){
     }
   }
   var h='';
-  for(var i=0;i<NEWS.length;i++){var n=NEWS[i];
+  // 종목 필터
+  var displayNews=NEWS;
+  if(NEWS_FILTER){
+    displayNews=NEWS.filter(function(n){
+      if(!n.rs||!n.rs.length) return false;
+      if(NEWS_FILTER.codes){
+        return n.rs.some(function(r){return NEWS_FILTER.codes.indexOf(r.c)>=0;});
+      }
+      return n.rs.some(function(r){return r.c===NEWS_FILTER.code;});
+    });
+    h+='<div class="news-filter-bar">'
+      +'<span>📌 <b>'+esc(NEWS_FILTER.name)+'</b> ('+NEWS_FILTER.code+') '
+      +(lang==='ko'?'관련 뉴스 '+displayNews.length+'건':'news · '+displayNews.length)+'</span>'
+      +'<button class="nfc-btn" onclick="clearNewsFilter()">'+(lang==='ko'?'× 필터 해제':'× Clear')+'</button>'
+      +'</div>';
+    if(!displayNews.length){
+      h+='<div style="color:var(--dim);font-size:13px;padding:20px 0;text-align:center">'
+        +(lang==='ko'?'해당 종목의 직접 관련 뉴스가 없습니다.':'No directly related news for this stock.')+'</div>';
+      el('newslist').innerHTML=h; return;
+    }
+  }
+  for(var i=0;i<displayNews.length;i++){var n=displayNews[i];
     var ts=n.rp&&n.rp.length?n.rp[0].m:'';
     // 모든 카드 기본 펼침(open)
     h+='<div class="nws open">'
@@ -1553,6 +1871,161 @@ function setupAnimations(){
   });
 }
 
+/* ===== 기준값 swap ===== */
+function renderDual(baseEl, prim){
+  var pm=baseEl.querySelector('.pm'), sc=baseEl.querySelector('.sc');
+  if(!pm||!sc) return;
+  var sec=prim==='v'?'nw':'v';
+  var pd={val:baseEl.dataset[prim],  cls_:baseEl.dataset[prim+'c'],
+    lbl:(lang==='ko'?(prim==='v'?'방한확정比':'뉴스比'):(prim==='v'?'vs Visit':'vs News')), dt:prim==='v'?'05/27':'06/01'};
+  var sd={val:baseEl.dataset[sec],   cls_:baseEl.dataset[sec+'c'],
+    lbl:(lang==='ko'?(sec==='v'?'방한확정比':'뉴스比'):(sec==='v'?'visit':'news')), dt:sec==='v'?'05/27':'06/01'};
+  pm.innerHTML='<span class="l">'+pd.lbl+'</span>'
+    +'<span class="v '+pd.cls_+'" data-count="'+parseFloat(pd.val||0)+'">'+pd.val+'%</span>'
+    +'<span class="s">'+pd.dt+'</span>';
+  sc.innerHTML='<span class="l">'+sd.lbl+' <i class="sw-ic">⇄</i></span>'
+    +'<span class="vs '+sd.cls_+'">'+sd.val+'%</span>'
+    +'<span class="s">'+sd.dt+'</span>';
+}
+function swapBase(code){
+  var baseEl=document.getElementById('b_'+code); if(!baseEl) return;
+  var next=baseEl.dataset.prim==='v'?'nw':'v';
+  baseEl.dataset.prim=next;
+  if(!window._basePrims) window._basePrims={};
+  window._basePrims[code]=next;
+  renderDual(baseEl,next);
+}
+
+/* ===== 종목/섹터 → 뉴스 필터 ===== */
+function filterNewsByStock(code, name){
+  NEWS_FILTER={code:code, codes:null, name:name};
+  try{buildNews();}catch(e){}
+  goTo('news');
+}
+function filterNewsByTheme(idx){
+  var th=THEMES[idx]; if(!th) return;
+  var codes=th.s.map(function(s){return s.c;});
+  NEWS_FILTER={code:null, codes:codes, name:L(th.nm)};
+  try{buildNews();}catch(e){}
+  goTo('news');
+}
+function clearNewsFilter(){
+  NEWS_FILTER=null;
+  try{buildNews();}catch(e){}
+}
+
+/* ===== brief modal ===== */
+function buildBrief(){
+  var dateEl=el('brief-date'), bodyEl=el('brief-body');
+  if(!dateEl||!bodyEl) return;
+
+  // 헤더: 날짜
+  var now=new Date();
+  dateEl.textContent=now.toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'short'})
+    +' '+now.toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit'});
+
+  var h='';
+
+  // ── 현재/다음 이벤트 배너 ──
+  var liveEv=ROUTE.filter(function(r){return r.status==='in_progress';})[0];
+  var nextEv=ROUTE.filter(function(r){return (r.status==='upcoming'||r.status==='planned')&&r.dt;})[0];
+  var bannerEv=liveEv||nextEv;
+  if(bannerEv){
+    var isLive=!!liveEv;
+    h+='<div class="brief-live">';
+    h+='<div class="brief-live-tag">'+(isLive?'<span class="bp"></span>LIVE 진행중':'⟳ '+(lang==='ko'?'다음 일정':'Next event'))+'</div>';
+    h+='<div class="brief-live-ev">'+esc(L(bannerEv.title||bannerEv.pl))+'</div>';
+    if(bannerEv.ds) h+='<div class="brief-live-sub">'+esc(L(bannerEv.ds))+'</div>';
+    if(isLive&&nextEv) h+='<div class="brief-next">▸ '+(lang==='ko'?'다음':'Next')+': '+esc(L(nextEv.title||nextEv.pl))+' · '+esc(L(nextEv.d))+'</div>';
+    h+='</div>';
+  }
+
+  // ── 일정 체크리스트 ──
+  var scheds=ROUTE.filter(function(r){return r.n;});
+  if(scheds.length){
+    h+='<div class="brief-sec"><div class="brief-sec-hd">'+(lang==='ko'?'방한 일정 진행 현황':'Schedule Progress')+'</div>';
+    h+='<div class="brief-sched">';
+    scheds.forEach(function(r){
+      var isDone=r.status==='completed', isLv=r.status==='in_progress';
+      var sc=isDone?'done':isLv?'live':'';
+      var icon=isDone?'✓':isLv?'●':r.n;
+      h+='<div class="bsi '+sc+'">';
+      h+='<div class="bsi-n '+sc+'">'+icon+'</div>';
+      h+='<div class="bsi-title">'+esc(L(r.title||r.pl))+'</div>';
+      if(r.d) h+='<div class="bsi-when">'+esc(L(r.d))+'</div>';
+      h+='</div>';
+    });
+    h+='</div></div>';
+  }
+
+  // ── 관련주 수익률 TOP 5 ──
+  var allS=[];
+  THEMES.forEach(function(t){t.s.forEach(function(s){allS.push(s);});});
+  var top5=allS.filter(function(s){return !isNaN(num(s.v));})
+    .sort(function(a,b){return num(b.v)-num(a.v);}).slice(0,5);
+  if(top5.length){
+    h+='<div class="brief-sec"><div class="brief-sec-hd">'+(lang==='ko'?'관련주 수익률 TOP 5 (방한확정比 05/27)':'Top 5 Stocks vs Visit (05/27)')+'</div>';
+    h+='<div class="brief-tbl">';
+    top5.forEach(function(s){
+      var fc=s.frgn!=null?(s.frgn>=0?'up':'down'):'', ic=s.inst!=null?(s.inst>=0?'up':'down'):'';
+      var invStr='';
+      if(s.frgn!=null) invStr+='외'+fmtInv(s.frgn)+' ';
+      if(s.inst!=null) invStr+='기'+fmtInv(s.inst);
+      h+='<div class="btr">';
+      h+='<span class="btr-nm">'+esc(L(s.n))+'<span class="btr-cd">'+s.c+'</span></span>';
+      h+='<span class="btr-v '+cls(s.v)+'">'+(num(s.v)>=0?'+':'')+s.v+'%</span>';
+      if(invStr.trim()) h+='<span class="btr-inv">'+invStr.trim()+'</span>';
+      h+='</div>';
+    });
+    h+='</div></div>';
+  }
+
+  // ── 현재 이벤트 AI 인사이트 ──
+  var insEv=INSIGHT_EVENTS.filter(function(e){return e.status==='in_progress';})[0]
+    ||INSIGHT_EVENTS.filter(function(e){return e.status==='upcoming'&&(e.pre_insight||e.insight);})[0];
+  if(insEv){
+    var ins=(insEv.status==='completed'&&insEv.post_insight)?insEv.post_insight:(insEv.pre_insight||insEv.insight);
+    if(ins&&ins.summary){
+      h+='<div class="brief-sec"><div class="brief-sec-hd">AI '+(lang==='ko'?'인사이트':'Insight')+'</div>';
+      h+='<div class="brief-ig">'+esc(ins.summary);
+      if(ins.stock_view&&ins.stock_view.direction){
+        var dir=ins.stock_view.direction;
+        var dl=dir==='bullish'?'▲ '+(lang==='ko'?'강세':'Bullish'):dir==='bearish'?'▼ '+(lang==='ko'?'약세':'Bearish'):'— '+(lang==='ko'?'중립':'Neutral');
+        var dc=dir==='bullish'?'up':dir==='bearish'?'down':'flat';
+        h+='<div style="margin-top:8px;font:700 12px var(--mono)" class="'+dc+'">'+dl+'</div>';
+      }
+      h+='</div></div>';
+    }
+  }
+
+  bodyEl.innerHTML=h;
+}
+
+function openBrief(){
+  buildBrief();
+  var ov=el('brief-overlay');
+  if(ov){ov.style.display='flex';document.body.style.overflow='hidden';}
+}
+function closeBrief(){
+  var ov=el('brief-overlay');
+  if(ov){ov.style.display='none';document.body.style.overflow='';}
+  if(location.search.includes('brief')) history.replaceState(null,'',location.pathname+location.hash);
+}
+function shareBrief(){
+  var url=location.origin+location.pathname+'?brief=1';
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(url).then(function(){
+      var t=document.createElement('div');
+      t.textContent=lang==='ko'?'링크 복사됨! ✓':'Link copied! ✓';
+      t.style.cssText='position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:var(--accent);color:#05210a;font:700 13px var(--sans);padding:10px 20px;border-radius:99px;z-index:300;pointer-events:none;white-space:nowrap';
+      document.body.appendChild(t);
+      setTimeout(function(){t.remove();},2000);
+    });
+  }
+}
+// ESC 키로 닫기
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeBrief();});
+
 /* bell */
 var bellBtn=el('bellBtn');
 if(bellBtn){bellBtn.onclick=function(){
@@ -1577,6 +2050,14 @@ window.addEventListener('scroll',function(){
 
 loadEvents(); // events.json 로드 후 renderAll() + fetchLive() 호출
 
+// ?brief=1 파라미터: 데이터 로드 완료 후 자동으로 브리핑 열기
+if(location.search.includes('brief=1')){
+  var _briefTimer=setInterval(function(){
+    if(ROUTE.length||NEWS.length){clearInterval(_briefTimer);setTimeout(openBrief,200);}
+  },100);
+  setTimeout(function(){clearInterval(_briefTimer);},5000); // 5초 타임아웃
+}
+
 /* ===== 실시간 데이터 (Yahoo Finance + RSS) ===== */
 function fmtPx(n){return Math.round(n).toLocaleString('ko-KR');}
 function fmtPct(n){return (n>=0?'+':'')+n.toFixed(2);}
@@ -1590,19 +2071,46 @@ function applyStocks(d){
         s.px=fmtPx(live.px);
         s.v=fmtPct(live.v);
         s.nw=fmtPct(live.nw);
+        // 외국인·기관 순매수 업데이트
+        if(live.frgn!==undefined) s.frgn=live.frgn;
+        if(live.inst!==undefined) s.inst=live.inst;
+        if(live.vol!==undefined)  s.vol=live.vol;
+        if(live.frgnRatio!==undefined) s.frgnRatio=live.frgnRatio;
+        // DOM 직접 업데이트 (buildStocks 재호출 없이)
+        var invEl=el('inv_'+s.c);
+        if(invEl&&live.frgn!==undefined){
+          var fEl=invEl.querySelector('[data-frgn]'), iEl=invEl.querySelector('[data-inst]');
+          if(fEl){fEl.textContent=fmtInv(live.frgn);fEl.className='v '+(live.frgn>=0?'up':'down');fEl.dataset.frgn=live.frgn;}
+          if(iEl){iEl.textContent=fmtInv(live.inst);iEl.className='v '+(live.inst>=0?'up':'down');iEl.dataset.inst=live.inst;}
+        }
+        var volEl=el('vol_'+s.c);
+        if(volEl&&live.vol!=null){
+          volEl.innerHTML='<span>'+(lang==='ko'?'거래량 ':'vol ')+'<span class="vl">'+fmtVol(live.vol)+'</span></span>'
+            +(live.frgnRatio!=null?'<span>'+(lang==='ko'?'외국인보유 ':'frgn ')+'<span class="vl">'+live.frgnRatio+'%</span></span>':'');
+        }
         updated=true;
       }
     }
   }
   if(updated){
-    // 시각을 먼저 설정해야 buildStocks()에서 정상 렌더링됨
+    // swap 상태 보존: buildStocks() 전에 현재 prim 저장
+    window._basePrims={};
+    document.querySelectorAll('.dual[id^="b_"]').forEach(function(e){
+      if(e.dataset.prim&&e.dataset.prim!=='v') window._basePrims[e.id.slice(2)]=e.dataset.prim;
+    });
     STOCK_UPDATED_AT=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
     try{buildStocks();}catch(e){}
     try{buildHeatmap();}catch(e){}
     try{buildEventChart();}catch(e){}
     try{buildInsightDash();}catch(e){}
     try{buildNews();}catch(e){}
-    document.querySelectorAll('.cst .v').forEach(function(el,i){if(i>=1)el.textContent=STOCK_UPDATED_AT;});
+    var _ln=new Date(), _ld=('0'+(_ln.getMonth()+1)).slice(-2)+'.'+('0'+_ln.getDate()).slice(-2);
+    document.querySelectorAll('.cst').forEach(function(c,i){
+      if(i<1) return;
+      var v=c.querySelector('.v'),s=c.querySelector('.s');
+      if(v) v.textContent=STOCK_UPDATED_AT;
+      if(s) s.textContent=_ld;
+    });
     // LIVE 뱃지 표시
     var chip=document.querySelector('.chip .b');
     if(chip){chip.style.background='#76b900';chip.style.boxShadow='0 0 8px #76b900';}
