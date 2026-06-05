@@ -102,6 +102,114 @@ export async function collectRSS() {
 }
 
 /**
+ * [자동화] LLM으로 타임라인 이벤트를 뉴스에서 자동 업데이트
+ * 기존 timeline 이벤트 중 아직 completed가 아닌 것 + 매칭 기사 → LLM 판단 → status/sources 업데이트
+ * @param {Array} events - events.json events 배열 (수정됨)
+ * @param {Array} articles - collectRSS() 결과
+ * @returns {Promise<number>} 업데이트된 이벤트 수
+ */
+export async function updateTimelineFromNews(events, articles) {
+  if (!articles.length) return 0;
+  const targets = events.filter(e =>
+    e.views?.timeline &&
+    e.status !== 'completed' &&
+    e.timeline_order != null
+  );
+  if (!targets.length) return 0;
+
+  let updatedCount = 0;
+
+  // LLM 없이: 키워드 매칭으로 sources만 보강
+  if (!process.env.ANTHROPIC_API_KEY) {
+    for (const event of targets) {
+      const keywords = [
+        event.title?.ko, event.location?.name?.ko,
+        ...(event.key_persons || [])
+      ].filter(Boolean);
+      const matched = articles.filter(a =>
+        keywords.some(kw => kw && (a.t.includes(kw) || a.d.includes(kw)))
+      );
+      if (!matched.length) continue;
+
+      const existingUrls = new Set((event.sources || []).map(s => s.url));
+      const newSources = matched
+        .filter(a => a.u && !existingUrls.has(a.u))
+        .map(a => ({ publisher: { ko: a.s, en: a.s }, title: { ko: a.t, en: a.t }, url: a.u, time: a.m }));
+
+      if (newSources.length) {
+        event.sources = [...(event.sources || []), ...newSources];
+        event.source_count = (event.source_count || 0) + newSources.length;
+        event.is_new = true;
+        updatedCount++;
+        console.log(`  [news-agent] 소스 보강: ${event.title?.ko} (+${newSources.length}건)`);
+      }
+    }
+    return updatedCount;
+  }
+
+  // LLM 모드: Haiku로 이벤트 확정/완료 판단
+  const { default: Anthropic } = await import('@anthropic-ai/sdk');
+  const client = new Anthropic();
+
+  for (const event of targets) {
+    const keywords = [
+      event.title?.ko, event.location?.name?.ko,
+      ...(event.key_persons || [])
+    ].filter(Boolean);
+    const candidates = articles.filter(a =>
+      keywords.some(kw => kw && (a.t.includes(kw) || a.d.includes(kw)))
+    );
+    if (!candidates.length) continue;
+
+    const articleList = candidates.slice(0, 5)
+      .map((a, i) => `[${i+1}] ${a.s}: ${a.t} — ${a.d}`).join('\n');
+
+    try {
+      const resp = await client.messages.create({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 256,
+        messages: [{
+          role: 'user',
+          content: `이벤트: "${event.title?.ko}" (현재상태: ${event.status})\n\n관련 기사:\n${articleList}\n\n이 기사들이 위 이벤트가 실제로 진행됐거나 완료됐음을 보도하는가?\nJSON으로만 답변: { "confirmed": true/false, "completed": true/false, "reason": "한 문장" }`
+        }]
+      });
+
+      let parsed;
+      try { parsed = JSON.parse(resp.content[0].text); } catch { continue; }
+
+      const existingUrls = new Set((event.sources || []).map(s => s.url));
+      const newSources = candidates
+        .filter(a => a.u && !existingUrls.has(a.u))
+        .map(a => ({ publisher: { ko: a.s, en: a.s }, title: { ko: a.t, en: a.t }, url: a.u, time: a.m }));
+
+      if (newSources.length) {
+        event.sources = [...(event.sources || []), ...newSources];
+        event.source_count = (event.source_count || 0) + newSources.length;
+        event.is_new = true;
+      }
+
+      if (parsed.completed && event.status !== 'completed') {
+        event.status = 'completed';
+        event.status_label = { ko: '완료', en: 'completed' };
+        updatedCount++;
+        console.log(`  [news-agent] 완료 확정: ${event.title?.ko}`);
+      } else if (parsed.confirmed && event.confidence !== 'confirmed') {
+        event.confidence = 'confirmed';
+        event.confidence_label = { ko: '확정', en: 'confirmed' };
+        updatedCount++;
+        console.log(`  [news-agent] 확정 업데이트: ${event.title?.ko}`);
+      } else if (newSources.length) {
+        updatedCount++;
+      }
+    } catch (e) {
+      console.log(`  [news-agent] 타임라인 업데이트 실패 (${event.id}): ${e.message}`);
+    }
+  }
+
+  return updatedCount;
+}
+
+/**
  * [Phase 2 준비] LLM으로 뉴스 카드 자동 생성
  * ANTHROPIC_API_KEY 환경변수 있으면 LLM 사용, 없으면 기본 구조만 반환
  * @param {Array} articles - collectRSS() 결과
@@ -203,21 +311,27 @@ export async function runNewsAgent(eventsPath) {
     eventsData = JSON.parse(fs.readFileSync(eventsPath, 'utf8'));
   } catch (e) { /* 없으면 빈 상태로 시작 */ }
 
+  // ── 타임라인 이벤트 자동 업데이트 (기사 → 상태/소스 반영) ──
+  const timelineUpdates = await updateTimelineFromNews(eventsData.events, articles);
+  console.log(`[news-agent] 타임라인 업데이트: ${timelineUpdates}개`);
+
   const existingTitles = new Set(
     eventsData.events.map(e => (e.title?.ko || '').slice(0, 25))
   );
 
-  // 새 이벤트 카드 생성
+  // 새 이벤트 카드 생성 (타임라인에서 이미 처리된 기사 제외)
   const newCards = await generateEventCards(
     articles.filter(a => !existingTitles.has(a.t.slice(0, 25)))
   );
 
-  if (newCards.length > 0) {
-    eventsData.events = [...newCards, ...eventsData.events];
+  if (newCards.length > 0 || timelineUpdates > 0) {
+    eventsData.events = newCards.length > 0
+      ? [...newCards, ...eventsData.events]
+      : eventsData.events;
     eventsData.updatedAt = new Date().toISOString();
     eventsData.updatedBy = 'news-agent';
     fs.writeFileSync(eventsPath, JSON.stringify(eventsData, null, 2));
-    console.log(`[news-agent] ${newCards.length}개 새 카드 추가`);
+    if (newCards.length > 0) console.log(`[news-agent] ${newCards.length}개 새 카드 추가`);
   }
 
   // 하단 피드용 news-live.json도 동시 업데이트

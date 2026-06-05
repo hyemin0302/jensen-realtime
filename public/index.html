@@ -191,6 +191,21 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .rs2 .rbc .rd{font-size:10px;color:var(--dim)}
 .rs2 .rsub{font-size:12px;color:var(--dim);margin-top:5px;line-height:1.65}
 .rs2 .rsub b{color:var(--muted);font-weight:500}
+/* 인사이트 카드 */
+.ig{border:1px solid rgba(118,185,0,.3);border-radius:10px;padding:13px 15px;margin:15px 0 5px;background:rgba(118,185,0,.04)}
+.ig-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.ig-label{font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);opacity:.8}
+.ig-dir{font:700 11px var(--mono);padding:3px 9px;border-radius:99px}
+.ig-dir.up{background:rgba(255,77,79,.15);color:#ff6b6d;border:1px solid rgba(255,77,79,.35)}
+.ig-dir.dn{background:rgba(59,130,246,.15);color:#60a5fa;border:1px solid rgba(59,130,246,.35)}
+.ig-dir.nt{background:rgba(107,124,146,.15);color:var(--muted);border:1px solid var(--line2)}
+.ig-sum{font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:8px}
+.ig-sc{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}
+.ig-sc-box{background:var(--panel2);border-radius:7px;padding:8px 10px;border:1px solid var(--line)}
+.ig-sc-lbl{font:600 10px var(--mono);letter-spacing:.05em;margin-bottom:4px}
+.ig-sc-lbl.up{color:#ff6b6d}.ig-sc-lbl.dn{color:#60a5fa}
+.ig-sc-txt{font-size:11px;color:var(--dim);line-height:1.5}
+.ig-disc{font:500 10px var(--mono);color:var(--dim);margin-top:9px;padding-top:7px;border-top:1px solid var(--line);opacity:.7}
 /* 배지 행 레이아웃 */
 .nws .bdrow{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-bottom:11px}
 .nws .nts{margin-left:auto;font:500 11px var(--mono);color:var(--dim);white-space:nowrap}
@@ -530,7 +545,8 @@ function eventsToNews(events){
         rp:(e.sources||[]).map(function(s){
           var pub=s.publisher,tit=s.title;
           return {s:(pub&&pub.ko)?pub.ko:String(pub),t:(tit&&tit.ko)?tit.ko:String(tit),m:s.time,u:s.url};
-        })
+        }),
+        ig:e.insight||null
       };
     });
 }
@@ -740,6 +756,29 @@ function buildNews(){
         +'<ul>';
     var sm=L(n.sm);for(var j=0;j<sm.length;j++){h+='<li>'+sm[j]+'</li>';}
     h+='</ul>';
+    // 인사이트 카드
+    if(n.ig&&!n.ig._stub){
+      var ig=n.ig,sv=ig.stock_view||{};
+      var dir=sv.direction||'neutral';
+      var dirCls=dir==='bullish'?'up':dir==='bearish'?'dn':'nt';
+      var dirLbl=dir==='bullish'?(lang==='ko'?'▲ 강세':'▲ Bullish'):dir==='bearish'?(lang==='ko'?'▼ 약세':'▼ Bearish'):(lang==='ko'?'— 중립':'— Neutral');
+      h+='<div class="ig">'
+        +'<div class="ig-head"><span class="ig-label">AI INSIGHT</span><span class="ig-dir '+dirCls+'">'+dirLbl+'</span></div>'
+        +(ig.summary?'<div class="ig-sum">'+esc(ig.summary)+'</div>':'');
+      if(ig.meaning&&ig.meaning.length){
+        h+='<ul style="margin:0 0 0;padding-left:16px;color:var(--muted);font-size:12px">';
+        for(var mi=0;mi<ig.meaning.length;mi++){h+='<li style="margin-bottom:4px">'+esc(ig.meaning[mi])+'</li>';}
+        h+='</ul>';
+      }
+      if(sv.upside_scenario||sv.downside_scenario){
+        h+='<div class="ig-sc">'
+          +(sv.upside_scenario?'<div class="ig-sc-box"><div class="ig-sc-lbl up">'+(lang==='ko'?'▲ 상승 시나리오':'▲ Upside')+'</div><div class="ig-sc-txt">'+esc(sv.upside_scenario)+'</div></div>':'')
+          +(sv.downside_scenario?'<div class="ig-sc-box"><div class="ig-sc-lbl dn">'+(lang==='ko'?'▼ 하락 시나리오':'▼ Downside')+'</div><div class="ig-sc-txt">'+esc(sv.downside_scenario)+'</div></div>':'')
+        +'</div>';
+      }
+      h+='<div class="ig-disc">본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다.</div>'
+      +'</div>';
+    }
     // 관련주 테이블
     if(n.rs&&n.rs.length){
       h+='<div class="rl">'+(lang==='ko'?'관련주':'stocks')+'</div>';
