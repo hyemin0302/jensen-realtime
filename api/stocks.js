@@ -1,4 +1,4 @@
-// 방한확정 기준 2026-05-27 종가 (역산값, 고정)
+// 방한확정 기준 2026-05-27 종가 (고정)
 const BASE_VISIT = {
   '005935': 192040,  '005930': 307000,  '000660': 224300,
   '066570': 235000,  '066575': 81000,   '454910': 103000,
@@ -8,7 +8,7 @@ const BASE_VISIT = {
   '000157': 515000,  '336260': 101500,  '241560': 68100,
   '034220': 16090,   '131970': 157300,
 };
-// 뉴스 기준 2026-06-01 종가 (역산값, 고정)
+// 뉴스 기준 2026-06-01 종가 (고정)
 const BASE_NEWS = {
   '005935': 202500,  '005930': 317000,  '000660': 233300,
   '066570': 293000,  '066575': 95700,   '454910': 106500,
@@ -19,39 +19,46 @@ const BASE_NEWS = {
   '034220': 16090,   '131970': 157300,
 };
 
-const TICKERS = Object.keys(BASE_VISIT).map(c => c + '.KS').join(',');
+const CODES = Object.keys(BASE_VISIT);
+
+async function fetchNaver(code) {
+  const resp = await fetch(`https://m.stock.naver.com/api/stock/${code}/basic`, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15',
+      'Referer': 'https://m.stock.naver.com/',
+      'Accept': 'application/json',
+    },
+    signal: AbortSignal.timeout(6000),
+  });
+  if (!resp.ok) throw new Error(`${code} HTTP ${resp.status}`);
+  return resp.json();
+}
 
 export default async function handler(req, res) {
   try {
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${TICKERS}&lang=ko-KR&region=KR`;
-    const resp = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-        'Accept': 'application/json',
-        'Referer': 'https://finance.yahoo.com/',
-      },
-    });
-    if (!resp.ok) throw new Error(`Yahoo ${resp.status}`);
-
-    const json = await resp.json();
-    const quotes = json.quoteResponse?.result || [];
-    if (!quotes.length) throw new Error('empty response');
+    const results = await Promise.allSettled(CODES.map(fetchNaver));
 
     const data = {};
-    quotes.forEach(q => {
-      const code = q.symbol.replace('.KS', '');
-      const px = q.regularMarketPrice || 0;
+    results.forEach((r, i) => {
+      if (r.status !== 'fulfilled') return;
+      const code = CODES[i];
+      const s = r.value;
+      const px = parseFloat((s.closePrice || '0').replace(/,/g, ''));
+      if (!px) return;
       data[code] = {
         px,
-        v: BASE_VISIT[code] ? +((px - BASE_VISIT[code]) / BASE_VISIT[code] * 100).toFixed(2) : 0,
+        v:  BASE_VISIT[code] ? +((px - BASE_VISIT[code]) / BASE_VISIT[code] * 100).toFixed(2) : 0,
         nw: BASE_NEWS[code]  ? +((px - BASE_NEWS[code])  / BASE_NEWS[code]  * 100).toFixed(2) : 0,
-        state: q.marketState || 'CLOSED',
+        state: s.marketStatus || 'CLOSED',
       };
     });
 
-    res.setHeader('Cache-Control', 's-maxage=180, stale-while-revalidate=60');
+    const count = Object.keys(data).length;
+    if (!count) throw new Error('no data from Naver');
+
+    res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate=30');
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.json({ ok: true, data, ts: Date.now(), count: quotes.length });
+    res.json({ ok: true, data, ts: Date.now(), count });
   } catch (e) {
     res.status(500).json({ ok: false, error: e.message });
   }
