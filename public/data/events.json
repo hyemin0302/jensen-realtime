@@ -1,0 +1,516 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-06-05T00:00:00.000Z",
+  "updatedBy": "manual",
+  "events": [
+    {
+      "id": "evt_gtc_overview",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 6,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "likely",
+      "confidence_label": { "ko": "유력", "en": "likely" },
+      "title": { "ko": "젠슨 황, GTC 타이베이 이후 방한해 국내 기업과 AI 협력 논의 전망", "en": "Huang to visit Korea after GTC Taipei" },
+      "url": "https://www.mk.co.kr/news/stock/12063307",
+      "location": null,
+      "datetime": null,
+      "datetime_display": { "ko": "6/5 방한 예정", "en": "Jun 5 (est.)" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "GTC 타이베이 이후 방한 일정 연쇄 확인", "en": "Korea visit confirmed after GTC Taipei" },
+      "summary": {
+        "ko": ["구광모 LG회장, 이해진 네이버 의장 등과 연쇄 회동 소식.", "GTC 2026 기조연설에서 네이버클라우드를 글로벌 파트너로 언급.", "협력이 메모리에서 피지컬 AI(로봇·모빌리티)로 확산."],
+        "en": ["Back-to-back meetings with LG and Naver chairs.", "Keynote named Naver Cloud as a global partner.", "Cooperation shifting to physical AI."]
+      },
+      "related_stocks": [
+        { "code": "066570", "name": "LG전자", "theme": { "ko": "로봇·피지컬AI", "en": "Robotics" }, "brief": { "ko": "피지컬 AI 협력으로 로봇·AI가전 재평가", "en": "Re-rated on physical-AI" } },
+        { "code": "035420", "name": "네이버", "theme": { "ko": "플랫폼·소버린AI", "en": "Platform" }, "brief": { "ko": "네이버클라우드를 글로벌 파트너로 직접 언급", "en": "Named as global cloud partner" } },
+        { "code": "005930", "name": "삼성전자", "theme": { "ko": "반도체·HBM", "en": "Semi" }, "brief": { "ko": "협력 확산 맥락에서 거론", "en": "Cited in expansion context" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "매일경제", "en": "MK" }, "title": { "ko": "LG·두산·네이버株 불기둥", "en": "LG/Doosan/Naver surge" }, "url": "https://www.mk.co.kr/news/stock/12063307", "time": "06.01 18:02" },
+        { "publisher": { "ko": "한국경제", "en": "Hankyung" }, "title": { "ko": "젠슨 황 이번주 방한…AI·로봇 동맹", "en": "Huang visits this week" }, "url": "https://www.hankyung.com/article/202606011179i", "time": "06.01 16:11" },
+        { "publisher": { "ko": "연합뉴스", "en": "Yonhap" }, "title": { "ko": "LG그룹주·네이버 폭등", "en": "LG group stocks surge" }, "url": "https://www.yna.co.kr/view/AKR20260601036051008", "time": "06.01 16:00" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_incheon_arrival",
+      "type": "travel",
+      "is_new": false,
+      "source_count": 1,
+      "status": "expected",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "인천공항 입국", "en": "Incheon Airport Arrival" },
+      "url": null,
+      "location": { "name": { "ko": "인천공항", "en": "Incheon Airport" }, "address": "인천광역시 중구", "lat": 37.4602, "lng": 126.4407 },
+      "datetime": "2026-06-05T00:00:00+09:00",
+      "datetime_display": { "ko": "6/5 (예상)", "en": "Jun 5" },
+      "timeline_order": 1,
+      "timeline_badge": null,
+      "description": { "ko": "대만 컴퓨텍스 마치고 입국", "en": "Arrives after COMPUTEX Taiwan" },
+      "summary": { "ko": ["GTC 타이베이·컴퓨텍스 일정 마치고 방한."], "en": ["Arrives after GTC Taipei/COMPUTEX schedule."] },
+      "related_stocks": [],
+      "sources": [],
+      "map_pin": { "label": { "ko": "입국 예정", "en": "Inbound" }, "pct": null, "sub": null, "cur": true, "undef": false },
+      "insight": null,
+      "views": { "timeline": true, "news_card": false, "map_pin": true }
+    },
+    {
+      "id": "evt_naver_1784",
+      "type": "visit",
+      "is_new": false,
+      "source_count": 5,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "likely",
+      "confidence_label": { "ko": "유력", "en": "likely" },
+      "title": { "ko": "젠슨 황, 네이버 1784 방문 및 이해진 회동 추진설", "en": "Huang to visit Naver 1784" },
+      "url": "https://www.newsis.com/view/NISX20260601_0003651743",
+      "location": { "name": { "ko": "네이버 1784", "en": "Naver 1784" }, "address": "경기 성남시 분당구", "lat": 37.3595, "lng": 127.1052 },
+      "datetime": "2026-06-05T00:00:00+09:00",
+      "datetime_display": { "ko": "6/5 (예상)", "en": "Jun 5" },
+      "timeline_order": 2,
+      "timeline_badge": "l",
+      "description": { "ko": "네이버 이해진 의장 회동 · 소버린 AI", "en": "Meets Naver chair Lee" },
+      "summary": {
+        "ko": ["8일 성남 네이버 1784 방문 가능성 유력.", "자율주행 로봇·디지털트윈 기술 시찰 전망.", "소버린 AI·클라우드 협력 확대 논의."],
+        "en": ["Jun-8 Naver 1784 visit likely.", "Tour of robots & digital twin.", "Sovereign AI/cloud talks."]
+      },
+      "related_stocks": [
+        { "code": "035420", "name": "네이버", "theme": { "ko": "플랫폼·소버린AI", "en": "Platform" }, "brief": { "ko": "네이버 1784 방문, AI 인프라·클라우드 협력 전망", "en": "1784 visit; AI infra/cloud talks" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "뉴시스", "en": "Newsis" }, "title": { "ko": "8일 네이버 1784 방문 유력", "en": "Naver 1784 visit likely Jun-8" }, "url": "https://www.newsis.com/view/NISX20260601_0003651743", "time": "06.01 13:57" },
+        { "publisher": { "ko": "한국경제", "en": "Hankyung" }, "title": { "ko": "젠슨 황이 네이버 찍었다", "en": "Huang targets Naver" }, "url": "https://www.hankyung.com/article/2026060107986", "time": "06.01 14:45" }
+      ],
+      "map_pin": { "label": { "ko": "네이버", "en": "Naver" }, "pct": 36.6, "sub": null, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": true, "news_card": true, "map_pin": true }
+    },
+    {
+      "id": "evt_chaebol_summit",
+      "type": "meeting",
+      "is_new": false,
+      "source_count": 4,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "4대 그룹 총수 회동 추진 (이재용·최태원·정의선·구광모)", "en": "Top-4 chaebol summit" },
+      "url": null,
+      "location": { "name": { "ko": "두산글로벌", "en": "Doosan Global" }, "address": "서울 동대문구", "lat": 37.5710, "lng": 127.0092 },
+      "datetime": null,
+      "datetime_display": { "ko": "방한 중 (예상·일시 미정)", "en": "During (est.)" },
+      "timeline_order": 3,
+      "timeline_badge": "e",
+      "description": { "ko": "4대 그룹 총수 회동 추진 (이재용·최태원·정의선·구광모)", "en": "Top-4 chaebol summit" },
+      "summary": { "ko": ["이재용·최태원·정의선·구광모 4대 그룹 총수와 연쇄 회동 추진."], "en": ["Back-to-back meetings with top-4 chaebol chairs."] },
+      "related_stocks": [],
+      "sources": [],
+      "map_pin": { "label": { "ko": "두산글로벌", "en": "Doosan Global" }, "pct": 11.8, "sub": null, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": true, "news_card": false, "map_pin": true }
+    },
+    {
+      "id": "evt_lg_koo",
+      "type": "meeting",
+      "is_new": false,
+      "source_count": 8,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "likely",
+      "confidence_label": { "ko": "유력", "en": "likely" },
+      "title": { "ko": "젠슨 황·구광모 회동 기대에 LG그룹 피지컬 AI 협력 부각", "en": "LG physical-AI hopes on Huang–Koo meeting" },
+      "url": "https://www.newsis.com/view/NISX20260601_0003651988",
+      "location": { "name": { "ko": "LG 여의도", "en": "LG Yeouido" }, "address": "서울 여의도", "lat": 37.5219, "lng": 126.9245 },
+      "datetime": null,
+      "datetime_display": { "ko": "방한 중 (유력·일시 미정)", "en": "During (likely)" },
+      "timeline_order": 4,
+      "timeline_badge": "l",
+      "description": { "ko": "LG 구광모 회장 회동 · 피지컬 AI/로봇", "en": "Meets LG chair Koo · Physical AI/Robots" },
+      "summary": {
+        "ko": ["이번 주 방한해 구광모·최태원·이해진 등과 회동 전망.", "피지컬 AI 협력 확대 논의 예상.", "LG전자 CES서 AI 홈로봇 공개, 로봇 사업 확대."],
+        "en": ["Meets Koo, Chey, Lee this week.", "Physical-AI cooperation expected.", "LG scaling robotics."]
+      },
+      "related_stocks": [
+        { "code": "066570", "name": "LG전자", "theme": { "ko": "로봇·피지컬AI", "en": "Robotics" }, "brief": { "ko": "구광모 회장과 피지컬 AI 협력, 로봇 투자 언급", "en": "Huang–Koo physical-AI cooperation" } },
+        { "code": "066575", "name": "LG전자우", "theme": { "ko": "로봇·피지컬AI", "en": "Robotics" }, "brief": { "ko": "LG전자 우선주", "en": "LG preferred" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "뉴시스", "en": "Newsis" }, "title": { "ko": "LG 로봇 유니버스 속도내나", "en": "LG robot universe accelerates" }, "url": "https://www.newsis.com/view/NISX20260601_0003651988", "time": "06.01 15:10" },
+        { "publisher": { "ko": "동아일보", "en": "Donga" }, "title": { "ko": "LG 계열사 강세", "en": "LG affiliates surge" }, "url": "https://www.donga.com/news/Economy/article/all/20260601/134028145/2", "time": "06.01 11:53" }
+      ],
+      "map_pin": { "label": { "ko": "LG전자", "en": "LG" }, "pct": 61.9, "sub": { "ko": "(서울 장지·김포)", "en": "(Seoul)" }, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": true, "news_card": true, "map_pin": true }
+    },
+    {
+      "id": "evt_samsung_pyeongtaek",
+      "type": "visit",
+      "is_new": false,
+      "source_count": 3,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "삼성전자 평택캠퍼스 방문 · HBM4 공급 논의", "en": "Samsung Pyeongtaek · HBM4" },
+      "url": "https://www.hani.co.kr/arti/economy/stock/1196578.html",
+      "location": { "name": { "ko": "삼성전자 평택", "en": "Samsung Pyeongtaek" }, "address": "경기 평택시", "lat": 37.0786, "lng": 127.0500 },
+      "datetime": null,
+      "datetime_display": { "ko": "방한 중 (예상·일시 미정)", "en": "During (est.)" },
+      "timeline_order": 5,
+      "timeline_badge": "e",
+      "description": { "ko": "삼성전자 평택캠퍼스 · HBM4 공급 논의", "en": "Samsung Pyeongtaek · HBM4" },
+      "summary": { "ko": ["HBM4 공급망 협력 논의.", "차세대 메모리 로드맵 공유 전망."], "en": ["HBM4 supply chain talks.", "Next-gen memory roadmap expected."] },
+      "related_stocks": [
+        { "code": "005930", "name": "삼성전자", "theme": { "ko": "반도체·HBM", "en": "Semi" }, "brief": { "ko": "평택캠퍼스 방문, HBM4 협력 논의", "en": "Pyeongtaek visit; HBM4 talks" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "한겨레", "en": "Hankyoreh" }, "title": { "ko": "젠슨 황 'AI칩 공급 재약 여전…한국 로보틱스 큰손 될 것'", "en": "'AI chip constraint continues'" }, "url": "https://www.hani.co.kr/arti/economy/stock/1196578.html", "time": "06.01" }
+      ],
+      "map_pin": { "label": { "ko": "삼성전자", "en": "Samsung" }, "pct": 13.7, "sub": null, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": true, "news_card": false, "map_pin": true }
+    },
+    {
+      "id": "evt_sk_hynix_icheon",
+      "type": "visit",
+      "is_new": false,
+      "source_count": 2,
+      "status": "planned",
+      "status_label": { "ko": "추정", "en": "presumed" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "추정", "en": "presumed" },
+      "title": { "ko": "SK하이닉스 M16 방문 (추정)", "en": "SK hynix M16 (presumed)" },
+      "url": "https://www.hani.co.kr/arti/economy/stock/1196578.html",
+      "location": { "name": { "ko": "SK하이닉스 이천", "en": "SK hynix Icheon" }, "address": "경기 이천시", "lat": 37.2792, "lng": 127.4425 },
+      "datetime": null,
+      "datetime_display": { "ko": "방한 중 (추정·일시 미정)", "en": "During (presumed)" },
+      "timeline_order": 6,
+      "timeline_badge": "e",
+      "description": { "ko": "SK하이닉스 M16 방문 (추정)", "en": "SK hynix M16 (presumed)" },
+      "summary": { "ko": ["SK하이닉스 이천 M16 팹 방문 추정.", "HBM4·HBF 로드맵 논의 전망."], "en": ["Presumed M16 fab visit.", "HBM4/HBF roadmap talks."] },
+      "related_stocks": [
+        { "code": "000660", "name": "SK하이닉스", "theme": { "ko": "반도체·HBM", "en": "Semi" }, "brief": { "ko": "M16 방문, HBM 파트너십", "en": "M16 visit; HBM partnership" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "한겨레", "en": "Hankyoreh" }, "title": { "ko": "젠슨 황 'AI칩 공급 재약 여전…한국 로보틱스 큰손 될 것'", "en": "'AI chip constraint continues'" }, "url": "https://www.hani.co.kr/arti/economy/stock/1196578.html", "time": "06.01" }
+      ],
+      "map_pin": { "label": { "ko": "SK하이닉스", "en": "SK hynix" }, "pct": 5.4, "sub": null, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": true, "news_card": false, "map_pin": true }
+    },
+    {
+      "id": "evt_jamsil_pitch",
+      "type": "event",
+      "is_new": false,
+      "source_count": 2,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "tbd",
+      "confidence_label": { "ko": "미정", "en": "TBD" },
+      "title": { "ko": "젠슨 황 두산 경기 시구설 확산과 구단 부인", "en": "First-pitch rumor; club denies" },
+      "url": "https://www.donga.com/news/Sports/article/all/20260601/134029207/1",
+      "location": { "name": { "ko": "잠실야구장", "en": "Jamsil Stadium" }, "address": "서울 송파구 잠실", "lat": 37.5121, "lng": 127.0719 },
+      "datetime": "2026-06-07T00:00:00+09:00",
+      "datetime_display": { "ko": "6/7 검토 (미정)", "en": "Jun 7 (TBD)" },
+      "timeline_order": 7,
+      "timeline_badge": "u",
+      "description": { "ko": "두산 베어스 홈경기 시구 검토 (#93 유니폼?)", "en": "Possible Doosan first pitch (#93?)" },
+      "summary": {
+        "ko": ["잠실 마운드 시구설 제기.", "두산 구단은 전달받은 바 없다고 밝힘.", "이벤트성 동선 가능성."],
+        "en": ["Jamsil mound rumor.", "Club says no notice.", "Event-style only."]
+      },
+      "related_stocks": [
+        { "code": "000150", "name": "두산", "theme": { "ko": "지주·그룹", "en": "Holding" }, "brief": { "ko": "시구설이 두산 구단과 연결", "en": "Rumor tied to Doosan" } },
+        { "code": "454910", "name": "두산로보틱스", "theme": { "ko": "지주·그룹", "en": "Holding" }, "brief": { "ko": "두산 계열주", "en": "Doosan affiliate" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "동아일보", "en": "Donga" }, "title": { "ko": "젠슨 황이 잠실 마운드에?", "en": "Huang at Jamsil mound?" }, "url": "https://www.donga.com/news/Sports/article/all/20260601/134029207/1", "time": "06.01 14:57" },
+        { "publisher": { "ko": "뉴시스", "en": "Newsis" }, "title": { "ko": "시구설에 두산그룹株 강세", "en": "Doosan surges on first-pitch rumor" }, "url": "https://www.newsis.com/view/NISX20260601_0003651622", "time": "06.01 11:11" }
+      ],
+      "map_pin": { "label": { "ko": "잠실 · 검토", "en": "Jamsil?" }, "pct": null, "sub": null, "cur": false, "undef": true },
+      "insight": null,
+      "views": { "timeline": true, "news_card": true, "map_pin": true }
+    },
+    {
+      "id": "evt_gtc_skt_hynix",
+      "type": "announcement",
+      "is_new": false,
+      "source_count": 6,
+      "status": "completed",
+      "status_label": { "ko": "완료", "en": "done" },
+      "confidence": "confirmed",
+      "confidence_label": { "ko": "확정", "en": "confirmed" },
+      "title": { "ko": "GTC 타이베이서 SKT·SK하이닉스 제조 피지컬 AI 협력 성과 공개", "en": "SKT/SK hynix physical-AI at GTC Taipei" },
+      "url": "https://www.hankyung.com/article/202606011504g",
+      "location": { "name": { "ko": "대만 타이베이", "en": "Taipei, Taiwan" }, "address": "대만 타이베이", "lat": null, "lng": null },
+      "datetime": "2026-06-01T00:00:00+09:00",
+      "datetime_display": { "ko": "6/1 완료", "en": "Jun 1 done" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "GTC 타이베이 SKT·SK하이닉스 피지컬 AI", "en": "GTC Taipei SKT/SK hynix" },
+      "summary": {
+        "ko": ["최태원 SK 회장이 곽노정 사장과 기조연설 청취.", "차세대 GPU 베라 루빈 로드맵 소개.", "SK하이닉스 HBM4·HBF 로드맵 부각."],
+        "en": ["SK chair Chey attended keynote.", "Vera Rubin roadmap shown.", "SK hynix HBM4 roadmap."]
+      },
+      "related_stocks": [
+        { "code": "000660", "name": "SK하이닉스", "theme": { "ko": "반도체·HBM", "en": "Semi" }, "brief": { "ko": "곽노정 사장 참석, HBM 파트너십 설명", "en": "CEO attended; HBM partnership" } },
+        { "code": "017670", "name": "SK텔레콤", "theme": { "ko": "플랫폼·소버린AI", "en": "Platform" }, "brief": { "ko": "피지컬 AI 협력사로 직접 언급", "en": "Named partner" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "한국경제", "en": "Hankyung" }, "title": { "ko": "최태원, 젠슨 황과 밀착 동맹", "en": "Chey forms close alliance with Huang" }, "url": "https://www.hankyung.com/article/202606011504g", "time": "06.01 17:39" },
+        { "publisher": { "ko": "조선일보", "en": "Chosun" }, "title": { "ko": "SKT, 피지컬 AI 협력사 언급", "en": "SKT named physical-AI partner" }, "url": "https://www.chosun.com/economy/tech_it/2026/06/01/GU4WCNDFMU2TANJXGM3DMOJSGA/", "time": "06.01 15:31" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_computex_hbm4",
+      "type": "announcement",
+      "is_new": false,
+      "source_count": 2,
+      "status": "completed",
+      "status_label": { "ko": "완료", "en": "done" },
+      "confidence": "confirmed",
+      "confidence_label": { "ko": "확정", "en": "confirmed" },
+      "title": { "ko": "젠슨 황, 컴퓨텍스서 베라 루빈에 삼성·SK하이닉스 HBM4 사용 언급", "en": "HBM4 for Vera Rubin at COMPUTEX" },
+      "url": "https://www.donga.com/news/Economy/article/all/20260601/134030240/1",
+      "location": null,
+      "datetime": "2026-06-01T00:00:00+09:00",
+      "datetime_display": { "ko": "6/1 완료", "en": "Jun 1 done" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "컴퓨텍스 베라 루빈 삼성·SK하이닉스 HBM4", "en": "COMPUTEX Vera Rubin HBM4" },
+      "summary": {
+        "ko": ["차세대 AI 가속기 베라 루빈 공개.", "삼성전자·SK하이닉스 협력 강조."],
+        "en": ["Unveiled Vera Rubin.", "Emphasized Samsung/SK hynix."]
+      },
+      "related_stocks": [
+        { "code": "005930", "name": "삼성전자", "theme": { "ko": "반도체·HBM", "en": "Semi" }, "brief": { "ko": "베라 루빈 공개와 함께 협력 강조", "en": "Cooperation emphasized" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "동아일보", "en": "Donga" }, "title": { "ko": "베라 루빈 공개…삼전·하닉 협력", "en": "Vera Rubin; Samsung/SK hynix" }, "url": "https://www.donga.com/news/Economy/article/all/20260601/134030240/1", "time": "06.01 16:41" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_seongsu_dinner",
+      "type": "meeting",
+      "is_new": false,
+      "source_count": 4,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "젠슨 황 방한 임박, 성수동서 삼겹살·소맥 회동 예정", "en": "Pork-belly dinner in Seongsu" },
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/01/G5TDGNLGHA2DEZTFMM4DQZDGGI/",
+      "location": { "name": { "ko": "서울 성수", "en": "Seongsu, Seoul" }, "address": "서울 성동구 성수동", "lat": 37.5445, "lng": 127.0553 },
+      "datetime": null,
+      "datetime_display": { "ko": "방한 중", "en": "During visit" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "성수동 삼겹살·소맥 비공식 회동", "en": "Informal pork-belly dinner" },
+      "summary": {
+        "ko": ["한국 기업인들과 성수에서 삼겹살·소맥 회동 가능성.", "한국 내 동선·회동 가능성 보도.", "KBO 시구 가능성도 거론."],
+        "en": ["Possible Seongsu dinner.", "In-Korea route covered.", "KBO first pitch floated."]
+      },
+      "related_stocks": [],
+      "sources": [
+        { "publisher": { "ko": "조선일보", "en": "Chosun" }, "title": { "ko": "성수서 삼겹살 소맥 회동할 듯", "en": "Seongsu pork-belly dinner likely" }, "url": "https://www.chosun.com/economy/tech_it/2026/06/01/G5TDGNLGHA2DEZTFMM4DQZDGGI/", "time": "06.01 16:22" },
+        { "publisher": { "ko": "연합뉴스", "en": "Yonhap" }, "title": { "ko": "성수서 삼겹살 소맥 회동(종합2보)", "en": "Seongsu dinner (2nd update)" }, "url": "https://www.yna.co.kr/view/AKR20260601072152017", "time": "06.01 15:27" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_shilla_ecosystem",
+      "type": "event",
+      "is_new": false,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "likely",
+      "confidence_label": { "ko": "유력", "en": "likely" },
+      "title": { "ko": "젠슨 황, 신라호텔서 국내 AI 스타트업 대상 생태계 행사", "en": "Korea AI-ecosystem event at Shilla" },
+      "url": "https://www.mk.co.kr/news/business/12063308",
+      "location": { "name": { "ko": "신라호텔", "en": "Shilla Hotel" }, "address": "서울 중구", "lat": 37.5543, "lng": 126.9955 },
+      "datetime": "2026-06-08T00:00:00+09:00",
+      "datetime_display": { "ko": "6/8 (유력)", "en": "Jun 8 (likely)" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "신라호텔 AI 생태계 행사 100명 규모", "en": "Shilla Hotel AI ecosystem event" },
+      "summary": {
+        "ko": ["8일 신라호텔서 대기업·스타트업·정부 100여 명 행사.", "4일 저녁 입국, 5일부터 총수 회동 예상.", "잠실 시구 가능성 거론."],
+        "en": ["~100 attendees at Shilla on the 8th.", "Arrives the 4th, meetings from 5th.", "Jamsil first pitch floated."]
+      },
+      "related_stocks": [
+        { "code": "000150", "name": "두산", "theme": { "ko": "지주·그룹", "en": "Holding" }, "brief": { "ko": "잠실 시구 가능성으로 그룹 부각", "en": "Jamsil pitch spotlight" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "매일경제", "en": "MK" }, "title": { "ko": "8일 서울서 AI 스타트업 만난다", "en": "Meets AI startups Jun-8 in Seoul" }, "url": "https://www.mk.co.kr/news/business/12063308", "time": "06.01 18:02" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_alsemy_dinner",
+      "type": "meeting",
+      "is_new": false,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "likely",
+      "confidence_label": { "ko": "유력", "en": "likely" },
+      "title": { "ko": "젠슨 황, 타이베이서 한국 스타트업 알세미와 비공개 만찬", "en": "Private dinner with Alsemy" },
+      "url": "https://www.mk.co.kr/news/business/12062570",
+      "location": null,
+      "datetime": null,
+      "datetime_display": { "ko": "6/1 대만", "en": "Jun 1 Taiwan" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "타이베이 코리아 파트너 나이트 비공개 만찬", "en": "Taipei Korea Partner Night" },
+      "summary": {
+        "ko": ["코리아 파트너 나이트에 알세미 대표 초청.", "LG디스플레이와 디지털 트윈 툴 4년 개발.", "SK하이닉스도 도입 논의 착수."],
+        "en": ["Alsemy CEO invited.", "Digital-twin tool with LG Display.", "SK hynix in talks."]
+      },
+      "related_stocks": [
+        { "code": "034220", "name": "LG디스플레이", "theme": { "ko": "디지털트윈", "en": "Digital twin" }, "brief": { "ko": "알세미와 DPS 공동 개발", "en": "Co-developed DPS" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "매일경제", "en": "MK" }, "title": { "ko": "[단독] 젠슨 황 비공개 만찬 초대 韓스타트업", "en": "[Excl] Korean startup at Huang's private dinner" }, "url": "https://www.mk.co.kr/news/business/12062570", "time": "06.01 09:53" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_doosan_cooperation",
+      "type": "meeting",
+      "is_new": false,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "두산그룹 로봇·반도체 협력 및 회동 가능성 부각", "en": "Doosan cooperation prospects rise" },
+      "url": "https://www.newsis.com/view/NISX20260601_0003651665",
+      "location": null,
+      "datetime": null,
+      "datetime_display": { "ko": "방한 중", "en": "During visit" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "두산로보틱스·테스나 협력 가능성", "en": "Doosan Robotics/Tesna cooperation" },
+      "summary": {
+        "ko": ["컴퓨텍스 후 4일께 방한 전망.", "두산로보틱스·테스나가 접점으로 거론.", "7일 잠실 시구·성수 만찬설."],
+        "en": ["Arrives ~4th.", "Doosan Robotics/Tesna cited.", "Jamsil pitch & Seongsu dinner."]
+      },
+      "related_stocks": [
+        { "code": "131970", "name": "두산테스나", "theme": { "ko": "반도체 테스트", "en": "Chip test" }, "brief": { "ko": "엔비디아 SoC 테스트 협력 가능성", "en": "NVIDIA SoC testing" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "뉴시스", "en": "Newsis" }, "title": { "ko": "젠슨 황, 방한 기간 두산과 회동하나", "en": "Will Huang meet Doosan during Korea visit?" }, "url": "https://www.newsis.com/view/NISX20260601_0003651665", "time": "06.01 17:51" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_samsung_jun",
+      "type": "meeting",
+      "is_new": false,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": { "ko": "예정", "en": "planned" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "삼성 전영현, 컴퓨텍스서 젠슨 황과 반도체 협력 논의 가능성", "en": "Samsung may discuss chips with Huang" },
+      "url": "https://www.newsis.com/view/NISX20260601_0003651950",
+      "location": null,
+      "datetime": null,
+      "datetime_display": { "ko": "6/1 대만", "en": "Jun 1 Taiwan" },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "삼성 전영현 부회장 컴퓨텍스 협력 논의", "en": "Samsung VP Jun at COMPUTEX" },
+      "summary": {
+        "ko": ["이재용 회장 삼성호암상 시상식 참석.", "전영현 등 사장단 50여 명 참석.", "전 부회장 대만행 협력 논의 가능성."],
+        "en": ["Chairman Lee at Ho-Am Prize.", "~50 execs attended.", "Jun may meet Huang in Taiwan."]
+      },
+      "related_stocks": [
+        { "code": "005930", "name": "삼성전자", "theme": { "ko": "반도체", "en": "Semi" }, "brief": { "ko": "컴퓨텍스서 협력 논의 가능성", "en": "Possible talks at COMPUTEX" } }
+      ],
+      "sources": [
+        { "publisher": { "ko": "뉴시스", "en": "Newsis" }, "title": { "ko": "이재용, 삼성호암상 시상식 참석", "en": "Lee attends Ho-Am Prize" }, "url": "https://www.newsis.com/view/NISX20260601_0003651950", "time": "06.01 16:38" }
+      ],
+      "insight": null,
+      "views": { "timeline": false, "news_card": true, "map_pin": false }
+    },
+    {
+      "id": "evt_hyundai_map",
+      "type": "map_marker",
+      "is_new": false,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": { "ko": "예상", "en": "expected" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "현대차 관련주", "en": "Hyundai related" },
+      "url": null,
+      "location": { "name": { "ko": "현대차", "en": "Hyundai" }, "address": "서울 서초구", "lat": 37.466, "lng": 127.033 },
+      "datetime": null,
+      "datetime_display": null,
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "현대차 관련주 지도 표시", "en": "Hyundai map marker" },
+      "summary": { "ko": [], "en": [] },
+      "related_stocks": [
+        { "code": "005380", "name": "현대차", "theme": { "ko": "완성차·자율주행", "en": "Auto" }, "brief": { "ko": "차량 AI 협력 기대", "en": "Vehicle AI cooperation" } }
+      ],
+      "sources": [],
+      "map_pin": { "label": { "ko": "현대차", "en": "Hyundai" }, "pct": 10.13, "sub": null, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": false, "news_card": false, "map_pin": true, "map_only": true }
+    },
+    {
+      "id": "evt_doosan_robotics_map",
+      "type": "map_marker",
+      "is_new": false,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": { "ko": "예상", "en": "expected" },
+      "confidence": "expected",
+      "confidence_label": { "ko": "예상", "en": "expected" },
+      "title": { "ko": "두산로보틱스 관련주", "en": "Doosan Robotics related" },
+      "url": null,
+      "location": { "name": { "ko": "두산로보틱스", "en": "Doosan Rob." }, "address": "경기 수원시", "lat": 37.406, "lng": 127.097 },
+      "datetime": null,
+      "datetime_display": null,
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": { "ko": "두산로보틱스 관련주 지도 표시", "en": "Doosan Robotics map marker" },
+      "summary": { "ko": [], "en": [] },
+      "related_stocks": [
+        { "code": "454910", "name": "두산로보틱스", "theme": { "ko": "로봇·피지컬AI", "en": "Robotics" }, "brief": { "ko": "피지컬 AI 로봇 협력", "en": "Physical AI robotics" } }
+      ],
+      "sources": [],
+      "map_pin": { "label": { "ko": "두산로보틱스", "en": "Doosan Rob." }, "pct": 34.37, "sub": null, "cur": false, "undef": false },
+      "insight": null,
+      "views": { "timeline": false, "news_card": false, "map_pin": true, "map_only": true }
+    }
+  ],
+  "feed": [
+    { "s": "매일경제", "t": "LG·두산·네이버株 불기둥", "m": "18:04:51", "u": "https://www.mk.co.kr/news/stock/12063307" },
+    { "s": "매일경제", "t": "8일 서울서 국내 AI 스타트업 만난다", "m": "18:04:09", "u": "https://www.mk.co.kr/news/business/12063308" },
+    { "s": "뉴시스", "t": "방한 기간 두산과 회동하나", "m": "17:54:40", "u": "https://www.newsis.com/view/NISX20260601_0003651665" },
+    { "s": "한국경제", "t": "최태원, 젠슨 황과 밀착 동맹", "m": "17:47:51", "u": "https://www.hankyung.com/article/202606011504g" },
+    { "s": "경향신문", "t": "젠슨 황 효과에 8800 돌파한 코스피", "m": "17:42:11", "u": "" },
+    { "s": "뉴시스", "t": "SKT, 피지컬 AI 협력사 언급에 11%↑", "m": "16:56:34", "u": "" },
+    { "s": "동아일보", "t": "베라 루빈 공개…삼전·하닉 협력", "m": "16:43:20", "u": "https://www.donga.com/news/Economy/article/all/20260601/134030240/1" },
+    { "s": "조선일보", "t": "성수서 삼겹살 소맥 회동할 듯", "m": "16:29:10", "u": "https://www.chosun.com/economy/tech_it/2026/06/01/G5TDGNLGHA2DEZTFMM4DQZDGGI/" }
+  ]
+}

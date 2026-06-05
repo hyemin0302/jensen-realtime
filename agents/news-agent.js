@@ -1,0 +1,229 @@
+/**
+ * 뉴스 에이전트 (News Agent)
+ * LLM: 사용 (Claude Haiku) — RSS → 구조화 카드 자동 생성
+ * 현재: LLM 없이 키워드 필터링만 수행 (Phase 2에서 LLM 연결)
+ * 역할: RSS 수집 → 키워드 필터 → events.json 후보 생성
+ */
+
+import fs from 'fs';
+import path from 'path';
+
+const FEEDS = [
+  { url: 'https://www.yna.co.kr/rss/economy.xml',        src: '연합뉴스' },
+  { url: 'https://www.hankyung.com/feed/all-news',        src: '한국경제' },
+  { url: 'https://www.newsis.com/rss/realnews.xml',       src: '뉴시스'  },
+  { url: 'https://rss.mt.co.kr/mt/mt.xml',               src: '머니투데이' },
+  { url: 'https://biz.chosun.com/site/data/rss/rss.xml', src: '조선비즈' },
+  { url: 'https://www.mk.co.kr/rss/30000001/',            src: '매일경제' },
+  { url: 'https://n.news.naver.com/rss/news.xml',        src: '네이버뉴스' },
+];
+
+const KEYWORDS = [
+  '젠슨황', '젠슨 황', 'Jensen Huang',
+  '엔비디아 방한', 'NVIDIA 방한', '엔비디아 CEO',
+  '젠슨황 방한', '젠슨 황 방한', '젠슨황 한국',
+];
+
+const STOCK_MAP = {
+  '삼성전자': ['005930','005935'], 'Samsung': ['005930','005935'],
+  'SK하이닉스': ['000660'],        'SK hynix': ['000660'],
+  'LG전자': ['066570','066575'],   'LG Electronics': ['066570'],
+  '네이버': ['035420'],            'Naver': ['035420'],
+  '현대차': ['005380'],            'Hyundai': ['005380'],
+  '두산로보틱스': ['454910'],       'Doosan Robotics': ['454910'],
+  '두산': ['000150','454910'],     'Doosan': ['000150'],
+  'SK텔레콤': ['017670'],          'SKT': ['017670'],
+};
+
+function extractTag(xml, tag) {
+  const cdataRe = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i');
+  const plainRe  = new RegExp(`<${tag}[^>]*>([^<]*)<\\/${tag}>`, 'i');
+  return (xml.match(cdataRe) || xml.match(plainRe) || [])[1]?.trim() || '';
+}
+
+function parseRSS(xml, src) {
+  const items = [];
+  const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
+  let m;
+  while ((m = re.exec(xml))) {
+    const b = m[1];
+    const title = extractTag(b, 'title');
+    const link  = extractTag(b, 'link') || extractTag(b, 'guid');
+    const desc  = extractTag(b, 'description').replace(/<[^>]+>/g, '').slice(0, 200);
+    const date  = extractTag(b, 'pubDate');
+    if (!title) continue;
+    const text = title + ' ' + desc;
+    if (!KEYWORDS.some(kw => text.includes(kw))) continue;
+
+    const stocks = new Set();
+    for (const [kw, codes] of Object.entries(STOCK_MAP)) {
+      if (text.includes(kw)) codes.forEach(c => stocks.add(c));
+    }
+
+    items.push({
+      s: src, t: title, d: desc, u: link,
+      m: date ? new Date(date).toLocaleString('ko-KR', { month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' }) : '',
+      ts: date ? new Date(date).getTime() : 0,
+      stocks: [...stocks],
+    });
+  }
+  return items;
+}
+
+/**
+ * RSS 수집 실행
+ * @returns {Promise<Array>} 수집된 뉴스 아이템 배열
+ */
+export async function collectRSS() {
+  const all = [];
+  for (const { url, src } of FEEDS) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'Mozilla/5.0' },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!res.ok) { console.log(`  SKIP ${src}: HTTP ${res.status}`); continue; }
+      const xml = await res.text();
+      const items = parseRSS(xml, src);
+      console.log(`  ${src}: ${items.length}개`);
+      all.push(...items);
+    } catch (e) {
+      console.log(`  ERROR ${src}: ${e.message}`);
+    }
+  }
+
+  // 중복 제거 후 최신순 정렬
+  const seen = new Set();
+  return all.filter(item => {
+    const key = item.t.slice(0, 25);
+    if (seen.has(key)) return false;
+    seen.add(key); return true;
+  }).sort((a, b) => b.ts - a.ts).slice(0, 60);
+}
+
+/**
+ * [Phase 2 준비] LLM으로 뉴스 카드 자동 생성
+ * ANTHROPIC_API_KEY 환경변수 있으면 LLM 사용, 없으면 기본 구조만 반환
+ * @param {Array} articles - collectRSS() 결과
+ * @returns {Promise<Array>} events.json 호환 이벤트 객체 배열
+ */
+export async function generateEventCards(articles) {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    // LLM 없이: 기본 구조로 변환만 수행
+    console.log('  [news-agent] LLM 미연결 — 기본 구조 변환만 수행');
+    return articles.map(a => ({
+      id: `evt_auto_${a.ts}`,
+      type: 'announcement',
+      is_new: true,
+      source_count: 1,
+      status: 'planned',
+      status_label: { ko: '속보', en: 'breaking' },
+      confidence: 'auto',
+      confidence_label: { ko: '자동수집', en: 'auto' },
+      title: { ko: a.t, en: a.t },
+      url: a.u || '',
+      location: null,
+      datetime: new Date(a.ts).toISOString(),
+      datetime_display: { ko: a.m, en: a.m },
+      timeline_order: null,
+      timeline_badge: null,
+      description: { ko: a.d || a.t, en: a.d || a.t },
+      summary: { ko: [a.d || a.t], en: [a.d || a.t] },
+      related_stocks: a.stocks.map(code => ({
+        code, name: code, theme: { ko: '관련주', en: 'related' },
+        brief: { ko: '자동 수집', en: 'auto-collected' }
+      })),
+      sources: [{ publisher: { ko: a.s, en: a.s }, title: { ko: a.t, en: a.t }, url: a.u, time: a.m }],
+      insight: null,
+      views: { timeline: false, news_card: true, map_pin: false },
+      _auto: true,
+    }));
+  }
+
+  // Phase 2: LLM 카드 생성 (ANTHROPIC_API_KEY 있을 때)
+  const { default: Anthropic } = await import('@anthropic-ai/sdk');
+  const client = new Anthropic();
+  const generated = [];
+
+  for (const article of articles.slice(0, 10)) { // 배치당 최대 10개
+    try {
+      const resp = await client.messages.create({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 512,
+        messages: [{
+          role: 'user',
+          content: `다음 기사를 분석해서 JSON으로 반환해줘. 필드: status(예정/완료/진행중), confidence(확정/유력/예상/미정), summary_ko(요약 2줄 배열), location(장소명 또는 null), persons(인물명 배열).\n\n제목: ${article.t}\n내용: ${article.d}\n출처: ${article.s}\n\nJSON만 반환.`
+        }]
+      });
+      const parsed = JSON.parse(resp.content[0].text);
+      generated.push({
+        id: `evt_llm_${article.ts}`,
+        type: 'announcement',
+        is_new: true,
+        source_count: 1,
+        status: parsed.status || 'planned',
+        status_label: { ko: parsed.status || '예정', en: 'planned' },
+        confidence: parsed.confidence || 'expected',
+        confidence_label: { ko: parsed.confidence || '예상', en: 'expected' },
+        title: { ko: article.t, en: article.t },
+        url: article.u || '',
+        location: parsed.location ? { name: { ko: parsed.location, en: parsed.location } } : null,
+        datetime: new Date(article.ts).toISOString(),
+        datetime_display: { ko: article.m, en: article.m },
+        timeline_order: null,
+        timeline_badge: null,
+        description: { ko: article.d || article.t, en: article.d || article.t },
+        summary: { ko: parsed.summary_ko || [article.d || article.t], en: [article.d || article.t] },
+        related_stocks: article.stocks.map(code => ({ code, name: code, theme: { ko: '관련주', en: 'related' }, brief: { ko: '자동수집', en: 'auto' } })),
+        sources: [{ publisher: { ko: article.s, en: article.s }, title: { ko: article.t, en: article.t }, url: article.u, time: article.m }],
+        insight: null,
+        views: { timeline: false, news_card: true, map_pin: false },
+        _auto: true,
+        _llm: true,
+      });
+    } catch (e) {
+      console.log(`  [news-agent] LLM 카드 생성 실패: ${e.message}`);
+    }
+  }
+  return generated;
+}
+
+/**
+ * 뉴스 에이전트 메인 실행
+ * events.json 업데이트 + public/data/news-live.json 저장
+ */
+export async function runNewsAgent(eventsPath) {
+  console.log(`[news-agent] RSS 수집 시작`);
+  const articles = await collectRSS();
+  console.log(`[news-agent] ${articles.length}개 수집 완료`);
+
+  // events.json 기존 이벤트 로드
+  let eventsData = { events: [], feed: [] };
+  try {
+    eventsData = JSON.parse(fs.readFileSync(eventsPath, 'utf8'));
+  } catch (e) { /* 없으면 빈 상태로 시작 */ }
+
+  const existingTitles = new Set(
+    eventsData.events.map(e => (e.title?.ko || '').slice(0, 25))
+  );
+
+  // 새 이벤트 카드 생성
+  const newCards = await generateEventCards(
+    articles.filter(a => !existingTitles.has(a.t.slice(0, 25)))
+  );
+
+  if (newCards.length > 0) {
+    eventsData.events = [...newCards, ...eventsData.events];
+    eventsData.updatedAt = new Date().toISOString();
+    eventsData.updatedBy = 'news-agent';
+    fs.writeFileSync(eventsPath, JSON.stringify(eventsData, null, 2));
+    console.log(`[news-agent] ${newCards.length}개 새 카드 추가`);
+  }
+
+  // 하단 피드용 news-live.json도 동시 업데이트
+  const feedPath = path.join(path.dirname(eventsPath), 'news-live.json');
+  const feedOut = { updatedAt: new Date().toISOString(), count: articles.length, items: articles };
+  fs.writeFileSync(feedPath, JSON.stringify(feedOut, null, 2));
+
+  return { newCards: newCards.length, totalArticles: articles.length };
+}

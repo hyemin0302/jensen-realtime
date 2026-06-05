@@ -20,13 +20,15 @@ jobs:
         with:
           node-version: '20'
 
-      - name: RSS 수집 실행
-        run: node scripts/fetch-news.js
+      - name: 오케스트레이터 실행 (뉴스+주가+지도+인사이트)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/batch-runner.js
 
       - name: 변경사항 커밋 & 푸시
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "News Bot"
-          git add public/news-live.json
-          git diff --staged --quiet || git commit -m "news: 자동 업데이트 $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
+          git config --local user.name "Jensen Bot"
+          git add public/data/events.json public/data/meta.json public/news-live.json
+          git diff --staged --quiet || git commit -m "batch: 자동 업데이트 $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
           git diff --staged --quiet || git push

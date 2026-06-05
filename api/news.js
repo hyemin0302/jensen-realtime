@@ -1,4 +1,6 @@
-// RSS 피드에서 젠슨 황 관련 뉴스 수집
+// Vercel Serverless: 뉴스 에이전트 래퍼 (실시간 RSS)
+// agents/news-agent.js의 collectRSS()를 직접 인라인 구현
+// (Vercel 서버리스에서 import 경로 이슈 방지)
 const FEEDS = [
   { url: 'https://www.yna.co.kr/rss/economy.xml',       src: '연합뉴스' },
   { url: 'https://www.hankyung.com/feed/all-news',       src: '한국경제' },
