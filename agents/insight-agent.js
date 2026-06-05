@@ -1,88 +1,226 @@
 /**
  * 인사이트 에이전트 (Insight Agent)
  * LLM: 사용 (Claude Sonnet) — 이벤트 × 주가 데이터 분석
- * 현재: LLM stub — ANTHROPIC_API_KEY 있으면 실제 분석 실행
- * 역할: 이벤트 일정 + 주가 현황 → 방향성 분석 + 시나리오 카드
+ * 이벤트 상태별 3단계 프롬프트 분기:
+ *   - upcoming/in_progress → pre_insight (기대감·시나리오·리스크)
+ *   - completed           → post_insight (결과 분석·주가 반응 해석)
  */
 
-const SYSTEM_PROMPT = `당신은 한국 주식시장 이벤트 분석 전문가입니다.
-젠슨 황 방한 일정을 바탕으로 관련 주식의 방향성을 분석합니다.
+const PRE_SYSTEM = `당신은 한국 주식시장 이벤트 분석 전문가입니다.
+젠슨 황 방한 예정 일정을 바탕으로 관련 주식의 기대 방향성과 시나리오를 분석합니다.
 
 분석 시 고려사항:
-1. 이벤트가 해당 기업에 미치는 사업적 의미
-2. 현재 주가의 선반영 정도 (이미 많이 올랐는가)
-3. 이벤트 미실현 시 리스크
-4. 유사 NVIDIA 파트너십 발표 사례
+1. 이벤트가 해당 기업에 미치는 잠재적 사업적 의미
+2. 현재 주가의 선반영(already priced in) 정도
+3. 이벤트 미실현/실망 시 하방 리스크
+4. 유사 NVIDIA 파트너십 발표 선례
 
-반드시 다음을 명시: "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다."`;
+출력 형식: JSON만 반환. "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다." 포함 필수.`;
+
+const POST_SYSTEM = `당신은 한국 주식시장 이벤트 사후 분석 전문가입니다.
+젠슨 황 방한 완료 이벤트를 바탕으로 실제 결과와 주가 반응을 분석합니다.
+
+분석 시 고려사항:
+1. 이벤트에서 실제로 발표/언급된 내용
+2. 기대 대비 실제 결과 (over/under deliver)
+3. 주가의 실제 반응과 그 해석
+4. 향후 MOU·파트너십·투자 발표 가능성
+
+출력 형식: JSON만 반환. "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다." 포함 필수.`;
+
+function buildPrePrompt(event, stockSummary, prevContext) {
+  return `이벤트 (예정): "${event.title?.ko}"
+전략적 의도: ${event.strategic_intent || '미기재'}
+임팩트 레벨: ${event.impact_level || 'medium'}
+예정 일시: ${event.datetime_display?.ko}
+
+이전 이벤트 맥락 (직전 2개):
+${prevContext || '없음'}
+
+주가 현황:
+${stockSummary}
+
+다음 JSON 형식으로 pre_insight 분석 반환:
+{
+  "summary": "2-3문장 핵심 요약",
+  "meaning": ["의미1", "의미2", "의미3"],
+  "stock_view": {
+    "direction": "bullish|bearish|neutral",
+    "rationale": "방향성 근거",
+    "price_target_range": { "low": 숫자, "base": 숫자, "high": 숫자 },
+    "catalyst_timeline": "촉매 예상 시기",
+    "already_priced": true|false,
+    "already_priced_ratio": 0.0~1.0,
+    "upside_scenario": "상승 시나리오",
+    "downside_scenario": "하락 시나리오"
+  },
+  "confidence": 0.0~1.0,
+  "disclaimer": "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다."
+}`;
+}
+
+function buildPostPrompt(event, stockSummary, newsSummary) {
+  return `이벤트 (완료): "${event.title?.ko}"
+전략적 의도: ${event.strategic_intent || '미기재'}
+임팩트 레벨: ${event.impact_level || 'medium'}
+
+이벤트 후 주가 현황:
+${stockSummary}
+
+관련 뉴스 요약:
+${newsSummary || '수집된 뉴스 없음'}
+
+다음 JSON 형식으로 post_insight 분석 반환:
+{
+  "summary": "이벤트 결과 2-3문장 요약",
+  "meaning": ["실제 의미1", "실제 의미2"],
+  "actual_outcome": "이벤트에서 실제 발생한 내용",
+  "vs_expectation": "기대 대비 평가: 상회|부합|하회",
+  "stock_view": {
+    "direction": "bullish|bearish|neutral",
+    "rationale": "주가 방향 근거",
+    "price_target_range": { "low": 숫자, "base": 숫자, "high": 숫자 },
+    "catalyst_timeline": "다음 촉매 예상 시기",
+    "already_priced": true|false,
+    "already_priced_ratio": 0.0~1.0,
+    "upside_scenario": "후속 상승 시나리오",
+    "downside_scenario": "후속 하락 시나리오"
+  },
+  "confidence": 0.0~1.0,
+  "disclaimer": "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다."
+}`;
+}
 
 /**
- * 단일 이벤트에 대한 인사이트 생성
- * @param {Object} event - events.json 이벤트 객체
- * @param {Object} stockData - runStockAgent() 결과의 data 필드
- * @returns {Promise<Object|null>} 인사이트 객체 또는 null
+ * 단일 이벤트 pre_insight 생성
  */
-export async function generateInsight(event, stockData) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    // LLM 미연결: placeholder 반환
-    return {
-      summary: '인사이트 에이전트 준비 중 (ANTHROPIC_API_KEY 필요)',
-      meaning: [],
-      stock_view: { direction: 'neutral', rationale: 'LLM 미연결', already_priced: '알 수 없음', upside_scenario: '-', downside_scenario: '-' },
-      confidence: 0,
-      disclaimer: true,
-      _stub: true,
-    };
-  }
-
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic();
-
-  const stockSummary = event.related_stocks
-    ?.filter(s => stockData[s.code])
-    .map(s => {
-      const d = stockData[s.code];
-      return `${s.name}(${s.code}): 현재가 ${d.px}원, 방한확정比 ${d.v >= 0 ? '+' : ''}${d.v}%, 뉴스比 ${d.nw >= 0 ? '+' : ''}${d.nw}%`;
+async function generatePreInsight(event, stockData, prevContext, client) {
+  const stockSummary = (event.related_tickers || [])
+    .filter(code => stockData[code])
+    .map(code => {
+      const d = stockData[code];
+      const ptrStr = d.ptr ? ` | 통계 레인지 ${d.ptr.low.toLocaleString()}~${d.ptr.high.toLocaleString()}원` : '';
+      return `${code}: 현재가 ${d.px}원, 방한확정比 ${d.v >= 0 ? '+' : ''}${d.v}%, 뉴스比 ${d.nw >= 0 ? '+' : ''}${d.nw}%${ptrStr}`;
     }).join('\n') || '관련 주가 데이터 없음';
 
-  try {
-    const resp = await client.messages.create({
-      model: 'claude-sonnet-4-6',
-      max_tokens: 800,
-      system: SYSTEM_PROMPT,
-      messages: [{
-        role: 'user',
-        content: `이벤트: ${event.title?.ko}\n신뢰도: ${event.confidence_label?.ko}\n매체수: ${event.source_count}\n\n주가현황:\n${stockSummary}\n\nJSON으로 분석 반환: { summary, meaning(배열), stock_view: { direction, rationale, already_priced, upside_scenario, downside_scenario }, confidence(0-1), disclaimer }`
-      }]
-    });
+  const resp = await client.messages.create({
+    model: 'claude-sonnet-4-6',
+    max_tokens: 900,
+    system: PRE_SYSTEM,
+    messages: [{ role: 'user', content: buildPrePrompt(event, stockSummary, prevContext) }]
+  });
 
-    const parsed = JSON.parse(resp.content[0].text);
-    return { ...parsed, _llm: true, generatedAt: new Date().toISOString() };
-  } catch (e) {
-    console.log(`[insight-agent] 인사이트 생성 실패: ${e.message}`);
-    return null;
-  }
+  const parsed = JSON.parse(resp.content[0].text.replace(/```json\n?|\n?```/g, '').trim());
+  return { ...parsed, _mode: 'pre', _llm: true, generatedAt: new Date().toISOString() };
+}
+
+/**
+ * 단일 이벤트 post_insight 생성
+ */
+async function generatePostInsight(event, stockData, recentNews, client) {
+  const stockSummary = (event.related_tickers || [])
+    .filter(code => stockData[code])
+    .map(code => {
+      const d = stockData[code];
+      const ptrStr = d.ptr ? ` | 통계 레인지 ${d.ptr.low.toLocaleString()}~${d.ptr.high.toLocaleString()}원` : '';
+      return `${code}: 현재가 ${d.px}원, 방한확정比 ${d.v >= 0 ? '+' : ''}${d.v}%, 뉴스比 ${d.nw >= 0 ? '+' : ''}${d.nw}%${ptrStr}`;
+    }).join('\n') || '관련 주가 데이터 없음';
+
+  const newsSummary = (recentNews || [])
+    .filter(n => {
+      const title = n.title?.ko || n.t || '';
+      return (event.title?.ko || '').split(' ').some(w => w.length > 2 && title.includes(w));
+    })
+    .slice(0, 5)
+    .map(n => `- ${n.title?.ko || n.t}`)
+    .join('\n');
+
+  const resp = await client.messages.create({
+    model: 'claude-sonnet-4-6',
+    max_tokens: 900,
+    system: POST_SYSTEM,
+    messages: [{ role: 'user', content: buildPostPrompt(event, stockSummary, newsSummary) }]
+  });
+
+  const parsed = JSON.parse(resp.content[0].text.replace(/```json\n?|\n?```/g, '').trim());
+  return { ...parsed, _mode: 'post', _llm: true, generatedAt: new Date().toISOString() };
 }
 
 /**
  * 인사이트 에이전트 통합 실행
  * @param {Array} events - events.json events 배열
  * @param {Object} stockData - runStockAgent() 결과
- * @returns {Promise<Object>} eventId → insight 매핑
+ * @param {{ forcePreIds?: string[], forcePostIds?: string[] }} opts
+ * @returns {Promise<{ pre: Object, post: Object }>} eventId → insight 매핑
  */
-export async function runInsightAgent(events, stockData) {
-  const insights = {};
-  const targets = events.filter(e =>
-    e.views?.news_card &&
-    e.related_stocks?.length > 0 &&
-    !e.insight &&
-    ['likely', 'confirmed', 'expected'].includes(e.confidence)
-  );
+export async function runInsightAgent(events, stockData, opts = {}) {
+  const result = { pre: {}, post: {} };
 
-  for (const event of targets.slice(0, 5)) { // 배치당 최대 5개
-    const insight = await generateInsight(event, stockData);
-    if (insight) insights[event.id] = insight;
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.log('  [insight-agent] LLM 미연결 — 스킵');
+    return result;
   }
 
-  return insights;
+  const { default: Anthropic } = await import('@anthropic-ai/sdk');
+  const client = new Anthropic();
+
+  // 완료된 이벤트 중 post_insight 미생성 또는 강제 재생성 대상
+  const postTargets = events.filter(e =>
+    e.views?.timeline &&
+    (e.related_tickers?.length > 0) &&
+    e.status === 'completed' &&
+    (!e.post_insight || opts.forcePostIds?.includes(e.id))
+  ).slice(0, 4);
+
+  // 예정 이벤트 중 pre_insight 미생성 또는 강제 재생성 대상 (관련 종목 있는 것 우선)
+  const preTargets = events.filter(e =>
+    e.views?.timeline &&
+    (e.related_tickers?.length > 0 || e.impact_level === 'high') &&
+    (e.status === 'upcoming' || e.status === 'in_progress') &&
+    (!e.pre_insight || opts.forcePreIds?.includes(e.id))
+  ).slice(0, 4);
+
+  // 슬라이딩 윈도우 컨텍스트 (직전 2개 완료 이벤트 요약)
+  const completedEvents = events.filter(e => e.status === 'completed' && e.views?.timeline);
+  const prevContext = completedEvents.slice(-2)
+    .map(e => `• ${e.title?.ko}: ${e.post_insight?.actual_outcome || e.summary?.ko?.[0] || ''}`)
+    .join('\n');
+
+  // post_insight 생성
+  for (const event of postTargets) {
+    try {
+      console.log(`  [insight-agent] post_insight: ${event.id}`);
+      result.post[event.id] = await generatePostInsight(event, stockData, events, client);
+    } catch (e) {
+      console.log(`  [insight-agent] post 실패 (${event.id}): ${e.message}`);
+    }
+  }
+
+  // pre_insight 생성
+  for (const event of preTargets) {
+    try {
+      console.log(`  [insight-agent] pre_insight: ${event.id}`);
+      result.pre[event.id] = await generatePreInsight(event, stockData, prevContext, client);
+    } catch (e) {
+      console.log(`  [insight-agent] pre 실패 (${event.id}): ${e.message}`);
+    }
+  }
+
+  return result;
+}
+
+// 하위호환: 기존 단일 generateInsight 인터페이스 유지
+export async function generateInsight(event, stockData) {
+  if (!process.env.ANTHROPIC_API_KEY) return null;
+  const { default: Anthropic } = await import('@anthropic-ai/sdk');
+  const client = new Anthropic();
+  try {
+    if (event.status === 'completed') {
+      return await generatePostInsight(event, stockData, [], client);
+    }
+    return await generatePreInsight(event, stockData, '', client);
+  } catch (e) {
+    console.log(`[insight-agent] 실패: ${e.message}`);
+    return null;
+  }
 }

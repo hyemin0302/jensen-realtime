@@ -290,6 +290,17 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .nws .bdrow{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-bottom:11px}
 .nws .nts{margin-left:auto;font:500 11px var(--mono);color:var(--dim);white-space:nowrap}
 
+/* 재벌 네트워크 */
+.net-node{cursor:default}
+.net-node circle{transition:r .2s}
+.net-node:hover circle{r:22}
+/* 섹터 히트맵 */
+.heatmap{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:7px;margin-bottom:18px}
+.hmap-cell{border-radius:10px;padding:11px 12px;border:1px solid var(--line2);cursor:default;transition:transform .15s}
+.hmap-cell:hover{transform:scale(1.04)}
+.hmap-nm{font:700 12px var(--sans);color:#eef3f9;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hmap-v{font:800 16px var(--mono)}
+.hmap-cnt{font:500 10px var(--mono);color:var(--dim);margin-top:2px}
 /* collect */
 .cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:11px;margin-bottom:16px}
 .cst{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px}
@@ -464,6 +475,7 @@ footer .fm{font:500 11px var(--mono)}
 <section id="stocks"><div class="wrap">
   <div class="shead"><h2><i></i><span data-ko>테마별 관련주</span><span data-en>Stocks by theme</span></h2><span class="tag" id="scount"></span></div>
   <p class="ssub"><span data-ko>젠슨 황·엔비디아 AI 밸류체인 1차 역할 기준으로 묶었습니다.</span><span data-en>Grouped by primary role in NVIDIA's AI value chain.</span></p>
+  <div class="heatmap" id="heatmap"></div>
   <div id="themes"></div>
   <p class="note"><span data-ko>※ 등락은 뉴스 전 종가 대비 · 시세 지연 가능</span><span data-en>※ change vs pre-news close · may be delayed</span></p>
 </div></section>
@@ -472,6 +484,14 @@ footer .fm{font:500 11px var(--mono)}
   <div class="shead"><h2><i></i><span data-ko>코스피 vs 관련주</span><span data-en>KOSPI vs stocks</span></h2><span class="tag" data-ko>첫값=0%</span><span class="tag" data-en>base 0%</span></div>
   <p class="ssub"><span data-ko>첫 방한 보도 시점부터 첫값 대비 누적 변화율(%)로 정규화. 코스피는 굵은 기준선.</span><span data-en>Normalized cumulative % from first report. KOSPI is the bold baseline.</span></p>
   <div class="chartbox"><svg id="chart" viewBox="0 0 900 300" preserveAspectRatio="none"></svg><div class="clg" id="clg"></div></div>
+  <!-- 이벤트 기준 수익률 차트 -->
+  <div style="margin-top:20px">
+    <div style="font:700 13px var(--mono);color:var(--muted);margin-bottom:10px;display:flex;align-items:center;gap:8px">
+      <span data-ko>이벤트별 관련주 수익률</span><span data-en>Event-relative stock returns</span>
+      <span style="font:500 11px var(--mono);color:var(--dim)" data-ko>방한확정(5/27) 기준</span><span style="font:500 11px var(--mono);color:var(--dim)" data-en>vs visit baseline (5/27)</span>
+    </div>
+    <div class="chartbox" style="padding:12px 16px"><svg id="evtchart" viewBox="0 0 900 220" preserveAspectRatio="none"></svg><div class="clg" id="evtclg"></div></div>
+  </div>
 </div></section>
 
 <section id="insights"><div class="wrap">
@@ -481,6 +501,14 @@ footer .fm{font:500 11px var(--mono)}
     <div class="ins-list" id="ins-list"></div>
     <div class="ins-panel" id="ins-panel"><div class="ins-no-data" data-ko>이벤트를 선택하세요</div><div class="ins-no-data" data-en>Select an event</div></div>
     <div class="ins-stocks" id="ins-stocks"></div>
+  </div>
+</div></section>
+
+<section id="network"><div class="wrap">
+  <div class="shead"><h2><i></i><span data-ko>재벌 네트워크</span><span data-en>Chaebol Network</span></h2><span class="tag" data-ko>NVIDIA 파트너십 관계도</span><span class="tag" data-en>NVIDIA partnership map</span></div>
+  <p class="ssub"><span data-ko>젠슨황 방한 관련 기업·그룹 간 파트너십 및 협력 관계. 선 굵기 = 관계 강도 추정.</span><span data-en>Partnership and collaboration links between Jensen's visit-related firms. Line weight = estimated relationship strength.</span></p>
+  <div class="chartbox" style="padding:0;overflow:hidden">
+    <svg id="netsvg" viewBox="0 0 900 440" style="width:100%;display:block"></svg>
   </div>
 </div></section>
 
@@ -1033,6 +1061,194 @@ function buildInsightDash(){
   stocksEl.innerHTML=sh;
 }
 
+/* ===== chaebol network SVG ===== */
+function buildNetwork(){
+  var svg=el('netsvg'); if(!svg) return;
+  // 노드 정의: id, x, y, label, group, r, ticker
+  var nodes=[
+    // NVIDIA (center hub)
+    {id:'nvda', x:450,y:220, lbl:'NVIDIA', grp:'nvda', r:28, col:'#76b900'},
+    // 삼성 그룹
+    {id:'005930',x:180,y:100, lbl:'삼성전자', grp:'samsung', r:20, col:'#3b82f6'},
+    {id:'005935',x:130,y:165, lbl:'삼성전자우', grp:'samsung', r:13, col:'#3b82f6'},
+    // SK 그룹
+    {id:'000660',x:280,y:60,  lbl:'SK하이닉스', grp:'sk', r:18, col:'#a78bfa'},
+    {id:'017670',x:200,y:185, lbl:'SKT', grp:'sk', r:15, col:'#a78bfa'},
+    // LG 그룹
+    {id:'066570',x:680,y:90,  lbl:'LG전자', grp:'lg', r:20, col:'#f59e0b'},
+    {id:'454910',x:760,y:160, lbl:'두산로보틱스', grp:'doosan', r:17, col:'#10b981'},
+    // 네이버
+    {id:'035420',x:600,y:60,  lbl:'네이버', grp:'naver', r:18, col:'#06b6d4'},
+    // 현대차
+    {id:'005380',x:700,y:360, lbl:'현대차', grp:'hyundai', r:18, col:'#f97316'},
+    {id:'005387',x:790,y:310, lbl:'현대차2우B', grp:'hyundai', r:11, col:'#f97316'},
+    // 두산 그룹
+    {id:'000150',x:150,y:330, lbl:'두산', grp:'doosan', r:18, col:'#10b981'},
+    {id:'454911',x:230,y:390, lbl:'두산로보틱스', grp:'doosan', r:14, col:'#10b981'},
+    // 크래프톤
+    {id:'259960',x:560,y:360, lbl:'크래프톤', grp:'krafton', r:15, col:'#e879f9'},
+    // NC소프트
+    {id:'036570',x:440,y:380, lbl:'NC소프트', grp:'nc', r:14, col:'#fb7185'},
+  ];
+  // 엣지: [from, to, strength(1-3), label]
+  var edges=[
+    // NVIDIA ↔ 직접 파트너십
+    ['nvda','000660', 3, 'HBM 파트너'],
+    ['nvda','005930', 2, 'AI 협력'],
+    ['nvda','035420', 3, '소버린 AI'],
+    ['nvda','017670', 2, 'AI 인프라'],
+    ['nvda','066570', 2, 'Isaac 로봇'],
+    ['nvda','005380', 2, 'DRIVE 자율주행'],
+    ['nvda','259960', 2, 'AI 게이밍'],
+    ['nvda','036570', 1, 'AI NPC'],
+    ['nvda','000150', 2, '로봇·에너지'],
+    ['nvda','454910', 2, 'Isaac 협력'],
+    // 그룹 내 관계
+    ['005930','005935', 1, null],
+    ['000150','454911', 1, null],
+    ['005380','005387', 1, null],
+    // 크로스 파트너십
+    ['035420','017670', 2, 'AI 클라우드'],
+    ['066570','454910', 2, '로봇 협력'],
+  ];
+  var nodeMap={};
+  nodes.forEach(function(n){nodeMap[n.id]=n;});
+
+  var parts=[];
+  // 배경 그라데이션 def
+  parts.push('<defs>'
+    +'<radialGradient id="netbg" cx="50%" cy="50%" r="50%">'
+    +'<stop offset="0%" stop-color="#0d1a2a"/>'
+    +'<stop offset="100%" stop-color="#0a0e14"/>'
+    +'</radialGradient>'
+    +'</defs>');
+  parts.push('<rect x="0" y="0" width="900" height="440" fill="url(#netbg)" rx="14"/>');
+
+  // 엣지 그리기
+  edges.forEach(function(e){
+    var a=nodeMap[e[0]], b=nodeMap[e[1]];
+    if(!a||!b) return;
+    var sw=e[2]*1.2;
+    var alpha=0.15+e[2]*0.12;
+    // 곡선 엣지
+    var mx=(a.x+b.x)/2, my=(a.y+b.y)/2-20;
+    parts.push('<path d="M'+a.x+' '+a.y+' Q'+mx+' '+my+' '+b.x+' '+b.y+'"'
+      +' fill="none" stroke="rgba(118,185,0,'+alpha.toFixed(2)+')" stroke-width="'+sw+'"/>');
+    if(e[3]){
+      parts.push('<text x="'+mx+'" y="'+(my-4)+'" fill="rgba(118,185,0,.5)" font-size="9" text-anchor="middle" font-family="monospace">'+e[3]+'</text>');
+    }
+  });
+
+  // 그룹 레이블 배경 영역
+  var groups={samsung:{x:140,y:60,w:130,h:130,lbl:'삼성',col:'#3b82f6'},
+    sk:{x:185,y:30,w:110,h:90,lbl:'SK',col:'#a78bfa'},
+    lg:{x:630,y:60,w:90,h:80,lbl:'LG',col:'#f59e0b'},
+    doosan:{x:115,y:295,w:145,h:130,lbl:'두산',col:'#10b981'},
+    hyundai:{x:660,y:295,w:160,h:90,lbl:'현대',col:'#f97316'}};
+  Object.keys(groups).forEach(function(k){
+    var g=groups[k];
+    parts.push('<rect x="'+g.x+'" y="'+g.y+'" width="'+g.w+'" height="'+g.h+'" rx="12" fill="rgba('+hexToRgb(g.col)+',.05)" stroke="rgba('+hexToRgb(g.col)+',.18)" stroke-width="1" stroke-dasharray="4 4"/>');
+    parts.push('<text x="'+(g.x+8)+'" y="'+(g.y+15)+'" fill="rgba('+hexToRgb(g.col)+',.5)" font-size="10" font-family="monospace" font-weight="700">'+g.lbl+'</text>');
+  });
+
+  // 노드 그리기
+  nodes.forEach(function(n){
+    var isHub=n.grp==='nvda';
+    var glow=isHub?'<circle cx="'+n.x+'" cy="'+n.y+'" r="'+(n.r+14)+'" fill="rgba(118,185,0,.08)"/>'
+      +'<circle cx="'+n.x+'" cy="'+n.y+'" r="'+(n.r+7)+'" fill="rgba(118,185,0,.05)"/>':'';
+    parts.push(glow
+      +'<circle cx="'+n.x+'" cy="'+n.y+'" r="'+n.r+'" fill="'+n.col+'" fill-opacity="0.9" stroke="#0a0e14" stroke-width="2"/>'
+      +(isHub?'<circle cx="'+n.x+'" cy="'+n.y+'" r="'+(n.r-4)+'" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1"/>':'')
+      +'<text x="'+n.x+'" y="'+(n.y+4)+'" fill="'+(isHub?'#05210a':'#fff')+'" font-size="'+(n.r>16?'10':'9')+'" text-anchor="middle" font-family="monospace" font-weight="700">'+n.lbl+'</text>');
+  });
+
+  svg.innerHTML=parts.join('');
+}
+function hexToRgb(hex){
+  var r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+  return r+','+g+','+b;
+}
+
+/* ===== event-relative return chart ===== */
+function buildEventChart(){
+  var svg=el('evtchart'), clg=el('evtclg');
+  if(!svg) return;
+  // 이벤트별 관련 종목 평균 수익률 (방한확정比 v 기준)
+  var evts=INSIGHT_EVENTS.filter(function(e){return e.tickers&&e.tickers.length;});
+  if(!evts.length){svg.innerHTML='';return;}
+
+  // 종목 룩업
+  var pm={};
+  for(var tt=0;tt<THEMES.length;tt++){for(var ss=0;ss<THEMES[tt].s.length;ss++){var st=THEMES[tt].s[ss];pm[st.c]={v:num(st.v),n:st.n};}}
+
+  var W=900,H=220,pl=30,pr=20,pt=18,pb=40;
+  var xStep=(W-pl-pr)/(evts.length+1);
+  var vals=evts.map(function(e){
+    var sum=0,cnt=0;
+    e.tickers.forEach(function(c){if(pm[c]){sum+=pm[c].v;cnt++;}});
+    return cnt?+(sum/cnt).toFixed(2):0;
+  });
+  var ymax=Math.max(70,Math.max.apply(null,vals.map(Math.abs))*1.25+5);
+  var ymin=-ymax/3;
+  function X(i){return pl+xStep*(i+1);}
+  function Y(v){return pt+(H-pt-pb)*(1-(v-ymin)/(ymax-ymin));}
+
+  var h='';
+  // 그리드
+  var ySteps=[-20,0,20,40,60];
+  for(var g=0;g<ySteps.length;g++){
+    var gy=Y(ySteps[g]);
+    h+='<line x1="'+pl+'" y1="'+gy+'" x2="'+(W-pr)+'" y2="'+gy+'" stroke="'+(ySteps[g]===0?'#3f5268':'#1e2c3d')+'" stroke-width="'+(ySteps[g]===0?1.5:.8)+'"/>';
+    h+='<text x="'+pl+'" y="'+(gy-3)+'" fill="#5c6c80" font-size="10" text-anchor="end" font-family="monospace">'+(ySteps[g]>0?'+':'')+ySteps[g]+'%</text>';
+  }
+  // 막대
+  var barW=Math.min(40,xStep*0.55);
+  for(var i=0;i<evts.length;i++){
+    var v=vals[i], x=X(i), y0=Y(0), yv=Y(v);
+    var col=v>0?'rgba(118,185,0,.75)':'rgba(59,130,246,.75)';
+    var bx=x-barW/2, by=Math.min(y0,yv), bh=Math.abs(y0-yv)||2;
+    h+='<rect x="'+bx.toFixed(1)+'" y="'+by.toFixed(1)+'" width="'+barW.toFixed(1)+'" height="'+bh.toFixed(1)+'" rx="3" fill="'+col+'"/>';
+    // 값 레이블
+    var vlab=(v>=0?'+':'')+v.toFixed(1)+'%';
+    h+='<text x="'+x+'" y="'+(v>=0?yv-4:yv+bh+11)+'" fill="'+(v>=0?'#76b900':'#60a5fa')+'" font-size="11" text-anchor="middle" font-family="monospace" font-weight="700">'+vlab+'</text>';
+    // 이벤트 번호 + 이름
+    h+='<text x="'+x+'" y="'+(H-pb+14)+'" fill="#8a9bb0" font-size="10" text-anchor="middle" font-family="monospace">#'+evts[i].n+'</text>';
+    var nm=L(evts[i].title)||'';
+    var shortNm=nm.replace(/\s+/g,'').slice(0,5);
+    h+='<text x="'+x+'" y="'+(H-pb+26)+'" fill="#5c6c80" font-size="9" text-anchor="middle">'+shortNm+'</text>';
+  }
+  svg.innerHTML=h;
+  // 범례
+  if(clg) clg.innerHTML='<span><i style="background:rgba(118,185,0,.75)"></i><span data-ko>상승 이벤트</span><span data-en>Upside event</span></span><span><i style="background:rgba(59,130,246,.75)"></i><span data-ko>하락 이벤트</span><span data-en>Downside event</span></span>';
+}
+
+/* ===== sector heatmap ===== */
+function buildHeatmap(){
+  var hm=el('heatmap'); if(!hm) return;
+  var h='';
+  for(var t=0;t<THEMES.length;t++){
+    var th=THEMES[t];
+    // 테마 평균 수익률 (방한확정比 기준)
+    var total=0, cnt=th.s.length;
+    for(var i=0;i<cnt;i++){total+=num(th.s[i].v);}
+    var avg=cnt?+(total/cnt).toFixed(2):0;
+    // 색상 — 상승: 녹색, 하락: 파란색, 강도 = |avg|/60 (최대 0.88)
+    var alpha=Math.min(0.88, Math.max(0.06, Math.abs(avg)/60));
+    var bg=avg>0
+      ?'rgba(118,185,0,'+alpha+')'
+      :avg<0
+        ?'rgba(59,130,246,'+alpha+')'
+        :'rgba(107,124,146,0.10)';
+    var vcls=avg>0?'up':avg<0?'down':'flat';
+    h+='<div class="hmap-cell" style="background:'+bg+'">'
+      +'<div class="hmap-nm">'+L(th.nm)+'</div>'
+      +'<div class="hmap-v '+vcls+'">'+(avg>=0?'+':'')+avg.toFixed(1)+'%</div>'
+      +'<div class="hmap-cnt">'+cnt+(lang==='ko'?' 종목':' stk')+'</div>'
+      +'</div>';
+  }
+  hm.innerHTML=h;
+}
+
 /* ===== stock cards ===== */
 function spark(v){
   var up=num(v)>=0, mag=Math.min(1,Math.abs(num(v))/60), base=up?42:18, ys=[],xs=[],i;
@@ -1202,9 +1418,12 @@ function buildFeed(){
 /* ===== render all ===== */
 function renderAll(){
   try{buildMap();}catch(e){}
+  try{buildNetwork();}catch(e){}
   try{buildTL();}catch(e){}
   try{buildInsightDash();}catch(e){}
+  try{buildHeatmap();}catch(e){}
   try{buildStocks();}catch(e){}
+  try{buildEventChart();}catch(e){}
   try{buildChart();}catch(e){}
   try{buildNews();}catch(e){}
   try{buildFeed();}catch(e){}
@@ -1301,7 +1520,7 @@ function goTo(id){var t=el(id);if(!t)return;var y=t.getBoundingClientRect().top+
 var nb=document.querySelectorAll('.nav-btns button');
 for(var z=0;z<nb.length;z++){(function(btn){btn.onclick=function(){goTo(btn.getAttribute('data-go'));};})(nb[z]);}
 window.addEventListener('scroll',function(){
-  var y=window.pageYOffset+110,cur='',ids=['insights','news','stocks','compare','map','about'];
+  var y=window.pageYOffset+110,cur='',ids=['insights','network','news','stocks','compare','map','about'];
   for(var i=0;i<ids.length;i++){var e=el(ids[i]);if(e&&e.offsetTop<=y)cur=ids[i];}
   for(var j=0;j<nb.length;j++){nb[j].classList.toggle('on',nb[j].getAttribute('data-go')===cur);}
 },{passive:true});

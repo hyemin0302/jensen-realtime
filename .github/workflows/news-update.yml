@@ -2,7 +2,7 @@ name: 뉴스 배치 업데이트 (2시간)
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # UTC 2시간마다 → KST 기준 짝수 시간 정각
+    - cron: '*/30 * * * *'  # 30분마다 — 이벤트 1시간 전 pre_insight 감지
   workflow_dispatch:          # GitHub 대시보드에서 수동 실행 가능
 
 jobs:
@@ -19,9 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: 의존성 설치
-        run: npm install
 
       - name: 오케스트레이터 실행 (뉴스+주가+지도+인사이트)
         env:

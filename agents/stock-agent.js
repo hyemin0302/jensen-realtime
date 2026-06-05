@@ -42,6 +42,28 @@ async function fetchNaverPrice(code) {
 }
 
 /**
+ * 현재가 기반 통계적 목표가 레인지 추정
+ * 방문 이후 수익률(v)에 따라 레인지 폭 확대 — 모멘텀 ↑ → 변동성 ↑
+ * @returns {{ low: number, base: number, high: number }}
+ */
+function estimatePriceTargetRange(px, v) {
+  const absV = Math.abs(v);
+  // 모멘텀 구간별 레인지 폭 결정
+  let upMult, dnMult;
+  if (absV >= 30) { upMult = 0.18; dnMult = 0.14; }       // 고모멘텀 — ±18%/14%
+  else if (absV >= 15) { upMult = 0.12; dnMult = 0.10; }  // 중모멘텀 — ±12%/10%
+  else if (absV >= 5)  { upMult = 0.08; dnMult = 0.07; }  // 저모멘텀 — ±8%/7%
+  else                 { upMult = 0.05; dnMult = 0.05; }  // 기본 — ±5%
+
+  // 방향성 반영: 상승 추세면 상단 더 넓게, 하락 추세면 하단 더 넓게
+  const adj = v > 0 ? 1 : -1;
+  const base   = Math.round(px / 1000) * 1000;
+  const high   = Math.round(px * (1 + upMult + (v > 0 ? adj * absV / 1000 : 0)) / 1000) * 1000;
+  const low    = Math.round(px * (1 - dnMult - (v < 0 ? Math.abs(adj) * absV / 1000 : 0)) / 1000) * 1000;
+  return { low: Math.max(low, Math.round(px * 0.7 / 1000) * 1000), base, high };
+}
+
+/**
  * 모든 종목 현재가 조회 및 등락률 계산
  * @returns {{ ok: boolean, data: Object, count: number, ts: number }}
  */
@@ -55,11 +77,12 @@ export async function runStockAgent() {
     const s = r.value;
     const px = parseFloat((s.closePrice || '0').replace(/,/g, ''));
     if (!px) return;
+    const v  = BASE_VISIT[code] ? +((px - BASE_VISIT[code]) / BASE_VISIT[code] * 100).toFixed(2) : 0;
+    const nw = BASE_NEWS[code]  ? +((px - BASE_NEWS[code])  / BASE_NEWS[code]  * 100).toFixed(2) : 0;
     data[code] = {
-      px,
-      v:  BASE_VISIT[code] ? +((px - BASE_VISIT[code]) / BASE_VISIT[code] * 100).toFixed(2) : 0,
-      nw: BASE_NEWS[code]  ? +((px - BASE_NEWS[code])  / BASE_NEWS[code]  * 100).toFixed(2) : 0,
+      px, v, nw,
       state: s.marketStatus || 'CLOSED',
+      ptr: estimatePriceTargetRange(px, v),   // 통계적 목표가 레인지 추정
     };
   });
 
