@@ -263,6 +263,17 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .price-range-base{position:absolute;top:-3px;bottom:-3px;width:3px;background:var(--accent);border-radius:2px}
 .price-range-cur{position:absolute;top:-5px;bottom:-5px;width:3px;background:#fff;border-radius:2px}
 .price-range-labels{display:flex;justify-content:space-between;font:500 10px var(--mono);color:var(--dim);margin-top:5px}
+/* 시나리오 트리 */
+.sc-tree{margin:14px 0;padding:12px 14px;background:var(--panel2);border-radius:10px;border:1px solid var(--line)}
+.sc-tree-root{display:flex;align-items:center;gap:8px;font:700 12px var(--mono);color:var(--muted);margin-bottom:10px}
+.sc-tree-root .dot{width:10px;height:10px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.sc-branches{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:relative}
+.sc-branches::before{content:'';position:absolute;top:0;left:50%;width:1px;height:100%;background:var(--line);pointer-events:none}
+.sc-branch{padding:9px 10px;border-radius:8px;font-size:11px;line-height:1.55;border:1px solid}
+.sc-branch.up{background:rgba(255,77,79,.06);border-color:rgba(255,77,79,.25);color:#fca5a5}
+.sc-branch.dn{background:rgba(59,130,246,.06);border-color:rgba(59,130,246,.25);color:#93c5fd}
+.sc-branch-lbl{font:700 10px var(--mono);letter-spacing:.05em;margin-bottom:4px}
+.sc-branch-lbl.up{color:#ff6b6d}.sc-branch-lbl.dn{color:#60a5fa}
 /* 오른쪽: 관련주 패널 */
 .ins-stocks{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
 .ins-stock-card{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:11px 13px}
@@ -398,6 +409,18 @@ footer .fm{font:500 11px var(--mono)}
   .nav-btns button{padding:5px 5px;font-size:11px}
   .brand{font-size:12px}
   .bell{display:none}
+}
+/* 모바일 최적화 */
+@media(max-width:600px){
+  .heatmap{grid-template-columns:repeat(3,1fr)}
+  .hmap-v{font-size:13px}
+  .ins-panel{padding:12px}
+  .sc-branches{grid-template-columns:1fr}
+  .sc-branches::before{display:none}
+  .chartbox svg#evtchart{height:160px}
+  .countdown-bar{flex-wrap:wrap;gap:8px;padding:10px 14px}
+  .cd-timer{font-size:18px}
+  .price-range-labels{font-size:9px}
 }
 </style>
 </head>
@@ -1000,14 +1023,41 @@ function buildInsightDash(){
         +'<div class="priced-track"><div class="priced-fill" style="width:'+apr+'%;background:'+aprC+'"></div></div>'
         +'</div>';
     }
-    // 시나리오 박스
+    // 시나리오 트리 시각화
     if(sv&&(sv.upside_scenario||sv.downside_scenario)){
-      ph+='<div class="ig-sc" style="margin-top:12px">'
-        +(sv.upside_scenario?'<div class="ig-sc-box"><div class="ig-sc-lbl up">'+(lang==='ko'?'▲ 상승 시나리오':'▲ Upside')+'</div><div class="ig-sc-txt">'+esc(sv.upside_scenario)+'</div></div>':'')
-        +(sv.downside_scenario?'<div class="ig-sc-box"><div class="ig-sc-lbl dn">'+(lang==='ko'?'▼ 하락 시나리오':'▼ Downside')+'</div><div class="ig-sc-txt">'+esc(sv.downside_scenario)+'</div></div>':'')
-        +'</div>';
+      var rootLabel=sv.catalyst_timeline?sv.catalyst_timeline:(lang==='ko'?'촉매 이벤트':'Catalyst event');
+      ph+='<div class="sc-tree">'
+        +'<div class="sc-tree-root"><span class="dot"></span><span>'+(lang==='ko'?'분기점: ':'Pivot: ')+esc(rootLabel)+'</span></div>'
+        +'<div class="sc-branches">'
+          +(sv.upside_scenario
+            ?'<div class="sc-branch up"><div class="sc-branch-lbl up">▲ '+(lang==='ko'?'상승 시나리오':'UPSIDE')+'</div>'+esc(sv.upside_scenario)+'</div>'
+            :'<div></div>')
+          +(sv.downside_scenario
+            ?'<div class="sc-branch dn"><div class="sc-branch-lbl dn">▼ '+(lang==='ko'?'하락 시나리오':'DOWNSIDE')+'</div>'+esc(sv.downside_scenario)+'</div>'
+            :'<div></div>')
+        +'</div></div>';
     }
     if(insight.disclaimer){ph+='<div class="ig-disc">'+esc(insight.disclaimer)+'</div>';}
+  }
+  // Outcome Tracker (완료 이벤트에 outcome 필드가 있을 때 표시)
+  if(ev.status==='completed'&&ev.outcome){
+    var oc=ev.outcome;
+    ph+='<div style="margin-top:14px;padding:12px 14px;background:var(--panel2);border-radius:10px;border:1px solid rgba(224,179,65,.3)">'
+      +'<div style="font:700 11px var(--mono);color:var(--gold);margin-bottom:8px;letter-spacing:.06em">'+(lang==='ko'?'✓ 사후 추적 (Outcome Tracker)':'✓ Outcome Tracker')+'</div>';
+    var rows=[{k:'d7',l:'7일',le:'7d'},{k:'d30',l:'30일',le:'30d'},{k:'d90',l:'90일',le:'90d'}];
+    var hasAny=false;
+    for(var ri=0;ri<rows.length;ri++){
+      var row=rows[ri], val=oc[row.k];
+      if(val==null) continue; hasAny=true;
+      ph+='<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--line);font-size:12px">'
+        +'<span style="color:var(--dim);font:500 11px var(--mono)">'+(lang==='ko'?row.l:row.le)+'</span>'
+        +'<span class="'+(val>=0?'up':'down')+'" style="font:700 12px var(--mono)">'+(val>=0?'+':'')+val.toFixed(2)+'%</span>'
+        +'</div>';
+    }
+    if(oc.mou_announced){ph+='<div style="margin-top:7px;font-size:11px;color:var(--accent)">✓ '+(lang==='ko'?'MOU/파트너십 발표 확인':'MOU/Partnership confirmed')+'</div>';}
+    if(oc.note){ph+='<div style="margin-top:6px;font-size:11px;color:var(--dim)">'+esc(oc.note)+'</div>';}
+    if(!hasAny){ph+='<div style="color:var(--dim);font-size:12px">'+(lang==='ko'?'추적 데이터 수집 중...':'Tracking in progress...')+'</div>';}
+    ph+='</div>';
   }
   panelEl.innerHTML=ph;
 
@@ -1548,6 +1598,9 @@ function applyStocks(d){
     // 시각을 먼저 설정해야 buildStocks()에서 정상 렌더링됨
     STOCK_UPDATED_AT=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
     try{buildStocks();}catch(e){}
+    try{buildHeatmap();}catch(e){}
+    try{buildEventChart();}catch(e){}
+    try{buildInsightDash();}catch(e){}
     try{buildNews();}catch(e){}
     document.querySelectorAll('.cst .v').forEach(function(el,i){if(i>=1)el.textContent=STOCK_UPDATED_AT;});
     // LIVE 뱃지 표시
