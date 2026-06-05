@@ -455,6 +455,8 @@ const KR_RINGS=[[[127.022,37.7],[127.028,37.701],[127.032,37.692],[127.049,37.69
 var MAP_BOUNDS=[126.085,127.848,36.894,38.281];
 var ROUTE=[];
 var MAP_EXTRAS=[];
+var STOCK_UPDATED_AT='';   // 마지막 주가 갱신 시각
+var EVENTS_UPDATED_AT='';  // events.json 버전 (updatedAt 필드)
 var THEMES=[
  {nm:{ko:'반도체·HBM',en:'Semiconductor·HBM'},d:{ko:'AI 가속기용 메모리·반도체',en:'Memory/chips'},s:[
   {n:{ko:'삼성전자우',en:'Samsung(pf)'},c:'005935',px:'229,000',v:'+19.27',nw:'+13.09'},
@@ -653,7 +655,7 @@ function buildStocks(){
         +'<svg class="sp" viewBox="0 0 240 56" preserveAspectRatio="none"><defs><linearGradient id="'+gid+'" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="'+col+'" stop-opacity=".28"/><stop offset="1" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
         +'<path d="'+sp.area+'" fill="url(#'+gid+')"/><path d="'+sp.line+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round"/>'
         +'<circle cx="'+sp.lx.toFixed(1)+'" cy="'+sp.ly.toFixed(1)+'" r="3.4" fill="'+col+'"/></svg>'
-        +'<div class="pr"><span class="now">'+(lang==='ko'?'현재':'now')+' <b>'+s.px+'</b><span class="pt"> · 15:30</span></span><span class="big '+cls(s.v)+'" data-count="'+s.v+'" data-pfx="'+arr(s.v)+'">'+arr(s.v)+' '+(num(s.v)>=0?'+':'')+s.v+'%</span></div>'
+        +'<div class="pr"><span class="now">'+(lang==='ko'?'현재':'now')+' <b>'+s.px+'</b><span class="pt"> · '+(STOCK_UPDATED_AT||'--:--')+'</span></span><span class="big '+cls(s.v)+'" data-count="'+s.v+'" data-pfx="'+arr(s.v)+'">'+arr(s.v)+' '+(num(s.v)>=0?'+':'')+s.v+'%</span></div>'
         +'<div class="dual"><div><span class="l">'+(lang==='ko'?'방한확정':'visit')+'</span><span class="v '+cls(s.v)+'" data-count="'+s.v+'">'+(num(s.v)>=0?'+':'')+s.v+'%</span><span class="s">05/27</span></div>'
         +'<div><span class="l">'+(lang==='ko'?'뉴스':'news')+'</span><span class="v '+cls(s.nw)+'" data-count="'+s.nw+'">'+(num(s.nw)>=0?'+':'')+s.nw+'%</span><span class="s">06/01</span></div></div></div>';
     }
@@ -908,8 +910,8 @@ function applyStocks(d){
     try{buildStocks();}catch(e){}
     try{buildNews();}catch(e){}
     // 마지막 갱신 시각 업데이트
-    var ts=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
-    document.querySelectorAll('.cst .v').forEach(function(el,i){if(i>=1)el.textContent=ts;});
+    STOCK_UPDATED_AT=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    document.querySelectorAll('.cst .v').forEach(function(el,i){if(i>=1)el.textContent=STOCK_UPDATED_AT;});
     // LIVE 뱃지 표시
     var chip=document.querySelector('.chip .b');
     if(chip){chip.style.background='#76b900';chip.style.boxShadow='0 0 8px #76b900';}
@@ -982,6 +984,28 @@ function fetchLive(){
   fetch('/news-live.json?_='+Math.floor(Date.now()/120000))
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){if(d&&d.items&&d.items.length) applyNews(d.items);})
+    .catch(function(){});
+  // events.json 재로딩 — 배치가 지도/타임라인 업데이트하면 자동 반영
+  fetch('/data/events.json?_='+Math.floor(Date.now()/120000))
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(data){
+      if(!data||data.updatedAt===EVENTS_UPDATED_AT) return; // 변경 없으면 skip
+      EVENTS_UPDATED_AT=data.updatedAt;
+      var newRoute=eventsToRoute(data.events||[]);
+      var newExtras=eventsToMapExtras(data.events||[]);
+      ROUTE=newRoute;
+      MAP_EXTRAS=newExtras;
+      // 자동수집 뉴스는 유지하고 events.json 뉴스카드만 교체
+      var autoItems=NEWS.filter(function(n){return n.cf&&(n.cf==='자동수집'||n.cf.ko==='자동수집');});
+      var fresh=eventsToNews(data.events||[]);
+      var freshTitles=new Set(fresh.map(function(n){return L(n.ti).slice(0,20);}));
+      NEWS=fresh.concat(autoItems.filter(function(n){return !freshTitles.has(L(n.ti).slice(0,20));}));
+      FEED=data.feed||FEED;
+      try{buildMap();}catch(e){}
+      try{buildTL();}catch(e){}
+      try{buildNews();}catch(e){}
+      try{buildFeed();}catch(e){}
+    })
     .catch(function(){});
 }
 
