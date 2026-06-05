@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: 의존성 설치
+        run: npm install
+
       - name: 오케스트레이터 실행 (뉴스+주가+지도+인사이트)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
