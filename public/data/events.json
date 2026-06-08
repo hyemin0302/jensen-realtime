@@ -1,8 +1,651 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-05T11:05:31.178Z",
+  "updatedAt": "2026-06-08T01:23:06.856Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_auto_1780880851000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "“지금 싸게 살수 있다”…‘주식시장 급락’ 기뻐해야 한다는 젠슨 황",
+        "en": "“지금 싸게 살수 있다”…‘주식시장 급락’ 기뻐해야 한다는 젠슨 황"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068122",
+      "location": null,
+      "datetime": "2026-06-08T01:07:31.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 01:07",
+        "en": "06. 08. AM 01:07"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "전 세계 증시가 급락한 가운데 젠슨 황 엔비디아 최고경영자(CEO)가 “주식을 더 저렴한 가격에 살 수 있게 됐다”고 말했다. 황 CEO는 8일 이날 서울 종로구 SK서린빌딩에서 ..",
+        "en": "전 세계 증시가 급락한 가운데 젠슨 황 엔비디아 최고경영자(CEO)가 “주식을 더 저렴한 가격에 살 수 있게 됐다”고 말했다. 황 CEO는 8일 이날 서울 종로구 SK서린빌딩에서 .."
+      },
+      "summary": {
+        "ko": [
+          "전 세계 증시가 급락한 가운데 젠슨 황 엔비디아 최고경영자(CEO)가 “주식을 더 저렴한 가격에 살 수 있게 됐다”고 말했다. 황 CEO는 8일 이날 서울 종로구 SK서린빌딩에서 .."
+        ],
+        "en": [
+          "전 세계 증시가 급락한 가운데 젠슨 황 엔비디아 최고경영자(CEO)가 “주식을 더 저렴한 가격에 살 수 있게 됐다”고 말했다. 황 CEO는 8일 이날 서울 종로구 SK서린빌딩에서 .."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "“지금 싸게 살수 있다”…‘주식시장 급락’ 기뻐해야 한다는 젠슨 황",
+            "en": "“지금 싸게 살수 있다”…‘주식시장 급락’ 기뻐해야 한다는 젠슨 황"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068122",
+          "time": "06. 08. AM 01:07"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780879552000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여",
+        "en": "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여"
+      },
+      "url": "https://www.hankyung.com/article/2026060825726",
+      "location": null,
+      "datetime": "2026-06-08T00:45:52.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:45",
+        "en": "06. 08. AM 12:45"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여",
+        "en": "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여"
+        ],
+        "en": [
+          "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여",
+            "en": "젠슨 황 \"AI 관련주 주가 매우 싸다\"…삼전닉스 낙폭 줄여"
+          },
+          "url": "https://www.hankyung.com/article/2026060825726",
+          "time": "06. 08. AM 12:45"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780879115000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\"",
+        "en": "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\""
+      },
+      "url": "https://www.hankyung.com/article/2026060826137",
+      "location": null,
+      "datetime": "2026-06-08T00:38:35.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:38",
+        "en": "06. 08. AM 12:38"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\"",
+        "en": "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\""
+      },
+      "summary": {
+        "ko": [
+          "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\""
+        ],
+        "en": [
+          "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\"",
+            "en": "[속보] 젠슨 황 \"AI 밝은 미래는 절대적 사실…주식 싸게 살 때\""
+          },
+          "url": "https://www.hankyung.com/article/2026060826137",
+          "time": "06. 08. AM 12:38"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780878227000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\"",
+        "en": "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\""
+      },
+      "url": "https://www.hankyung.com/article/2026060825447",
+      "location": null,
+      "datetime": "2026-06-08T00:23:47.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:23",
+        "en": "06. 08. AM 12:23"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\"",
+        "en": "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\""
+      },
+      "summary": {
+        "ko": [
+          "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\""
+        ],
+        "en": [
+          "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\""
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": "000660",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\"",
+            "en": "[속보] 젠슨 황 \"SK하이닉스, 향후에도 엔비디아 최대 파트너\""
+          },
+          "url": "https://www.hankyung.com/article/2026060825447",
+          "time": "06. 08. AM 12:23"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780878050000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\"",
+        "en": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\""
+      },
+      "url": "https://www.hankyung.com/article/2026060823987",
+      "location": null,
+      "datetime": "2026-06-08T00:20:50.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:20",
+        "en": "06. 08. AM 12:20"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\"",
+        "en": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\""
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\""
+        ],
+        "en": [
+          "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\"",
+            "en": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\""
+          },
+          "url": "https://www.hankyung.com/article/2026060823987",
+          "time": "06. 08. AM 12:20"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780877822000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\"",
+        "en": "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\""
+      },
+      "url": "https://www.hankyung.com/article/2026060825207",
+      "location": null,
+      "datetime": "2026-06-08T00:17:02.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:17",
+        "en": "06. 08. AM 12:17"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\"",
+        "en": "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\""
+      },
+      "summary": {
+        "ko": [
+          "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\""
+        ],
+        "en": [
+          "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\"",
+            "en": "[속보] 젠슨황 \"AI 인프라 구축 시작 단계…미래 대단히 밝아\""
+          },
+          "url": "https://www.hankyung.com/article/2026060825207",
+          "time": "06. 08. AM 12:17"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780877656000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "[속보] 최태원 “엔비디아와 메모리 넘어 미래 AI팩토리 협력”",
+        "en": "[속보] 최태원 “엔비디아와 메모리 넘어 미래 AI팩토리 협력”"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068070",
+      "location": null,
+      "datetime": "2026-06-08T00:14:16.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:14",
+        "en": "06. 08. AM 12:14"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "최태원 SK그룹 회장이 8일 “미래 인공지능(AI) 팩토리를 엔비디아와 함께 만들겠다”고 말했다. 최 회장은 이날 오전 서울 종로구 SK서린빌딩에서 젠슨 황 엔비디아 최고경영자(C..",
+        "en": "최태원 SK그룹 회장이 8일 “미래 인공지능(AI) 팩토리를 엔비디아와 함께 만들겠다”고 말했다. 최 회장은 이날 오전 서울 종로구 SK서린빌딩에서 젠슨 황 엔비디아 최고경영자(C.."
+      },
+      "summary": {
+        "ko": [
+          "최태원 SK그룹 회장이 8일 “미래 인공지능(AI) 팩토리를 엔비디아와 함께 만들겠다”고 말했다. 최 회장은 이날 오전 서울 종로구 SK서린빌딩에서 젠슨 황 엔비디아 최고경영자(C.."
+        ],
+        "en": [
+          "최태원 SK그룹 회장이 8일 “미래 인공지능(AI) 팩토리를 엔비디아와 함께 만들겠다”고 말했다. 최 회장은 이날 오전 서울 종로구 SK서린빌딩에서 젠슨 황 엔비디아 최고경영자(C.."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "[속보] 최태원 “엔비디아와 메모리 넘어 미래 AI팩토리 협력”",
+            "en": "[속보] 최태원 “엔비디아와 메모리 넘어 미래 AI팩토리 협력”"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068070",
+          "time": "06. 08. AM 12:14"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780876912000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황, 화사 팬이었다…“정말 매력적, 그녀의 음악 사랑해”",
+        "en": "젠슨 황, 화사 팬이었다…“정말 매력적, 그녀의 음악 사랑해”"
+      },
+      "url": "https://www.mk.co.kr/news/culture/12068056",
+      "location": null,
+      "datetime": "2026-06-08T00:01:52.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:01",
+        "en": "06. 08. AM 12:01"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "엔비디아 최고경영자(CEO) 젠슨 황이 가수 화사를 향한 팬심을 드러냈다. 지난 7일 tvN 예능프로그램 ‘유 퀴즈 온 더 블럭’ 사회관계망서비스(SNS)에는 ‘젠슨 황 샤라웃 투..",
+        "en": "엔비디아 최고경영자(CEO) 젠슨 황이 가수 화사를 향한 팬심을 드러냈다. 지난 7일 tvN 예능프로그램 ‘유 퀴즈 온 더 블럭’ 사회관계망서비스(SNS)에는 ‘젠슨 황 샤라웃 투.."
+      },
+      "summary": {
+        "ko": [
+          "엔비디아 최고경영자(CEO) 젠슨 황이 가수 화사를 향한 팬심을 드러냈다. 지난 7일 tvN 예능프로그램 ‘유 퀴즈 온 더 블럭’ 사회관계망서비스(SNS)에는 ‘젠슨 황 샤라웃 투.."
+        ],
+        "en": [
+          "엔비디아 최고경영자(CEO) 젠슨 황이 가수 화사를 향한 팬심을 드러냈다. 지난 7일 tvN 예능프로그램 ‘유 퀴즈 온 더 블럭’ 사회관계망서비스(SNS)에는 ‘젠슨 황 샤라웃 투.."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황, 화사 팬이었다…“정말 매력적, 그녀의 음악 사랑해”",
+            "en": "젠슨 황, 화사 팬이었다…“정말 매력적, 그녀의 음악 사랑해”"
+          },
+          "url": "https://www.mk.co.kr/news/culture/12068056",
+          "time": "06. 08. AM 12:01"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780838665000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)",
+        "en": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)"
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260607034852030",
+      "location": null,
+      "datetime": "2026-06-07T13:24:25.000Z",
+      "datetime_display": {
+        "ko": "06. 07. PM 01:24",
+        "en": "06. 07. PM 01:24"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 홍국기 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보...",
+        "en": "(서울=연합뉴스) 홍국기 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보..."
+      },
+      "summary": {
+        "ko": [
+          "(서울=연합뉴스) 홍국기 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보..."
+        ],
+        "en": [
+          "(서울=연합뉴스) 홍국기 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보..."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)",
+            "en": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)"
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260607034852030",
+          "time": "06. 07. PM 01:24"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780780261000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "한국 여름 더위에도 '가죽 재킷' 젠슨황…\"전투복·브랜드 구축\"",
+        "en": "한국 여름 더위에도 '가죽 재킷' 젠슨황…\"전투복·브랜드 구축\""
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260606045700030",
+      "location": null,
+      "datetime": "2026-06-06T21:11:01.000Z",
+      "datetime_display": {
+        "ko": "06. 06. PM 09:11",
+        "en": "06. 06. PM 09:11"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 이상서 기자 = 검은색 반소매 티셔츠와 검은색 바지, 검은색 신발. 그리고 검은색 가죽 재킷.",
+        "en": "(서울=연합뉴스) 이상서 기자 = 검은색 반소매 티셔츠와 검은색 바지, 검은색 신발. 그리고 검은색 가죽 재킷."
+      },
+      "summary": {
+        "ko": [
+          "(서울=연합뉴스) 이상서 기자 = 검은색 반소매 티셔츠와 검은색 바지, 검은색 신발. 그리고 검은색 가죽 재킷."
+        ],
+        "en": [
+          "(서울=연합뉴스) 이상서 기자 = 검은색 반소매 티셔츠와 검은색 바지, 검은색 신발. 그리고 검은색 가죽 재킷."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "한국 여름 더위에도 '가죽 재킷' 젠슨황…\"전투복·브랜드 구축\"",
+            "en": "한국 여름 더위에도 '가죽 재킷' 젠슨황…\"전투복·브랜드 구축\""
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260606045700030",
+          "time": "06. 06. PM 09:11"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
     {
       "id": "evt_auto_1780656714000",
       "type": "announcement",
@@ -1581,10 +2224,10 @@
       "type": "meeting",
       "is_new": true,
       "source_count": 8,
-      "status": "in_progress",
+      "status": "completed",
       "status_label": {
-        "ko": "진행중",
-        "en": "LIVE"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -1799,10 +2442,10 @@
       "type": "meeting",
       "is_new": true,
       "source_count": 2,
-      "status": "upcoming",
+      "status": "completed",
       "status_label": {
-        "ko": "예정",
-        "en": "upcoming"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -1948,10 +2591,10 @@
       "type": "meeting",
       "is_new": true,
       "source_count": 2,
-      "status": "upcoming",
+      "status": "completed",
       "status_label": {
-        "ko": "예정",
-        "en": "upcoming"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -2043,10 +2686,10 @@
       "type": "event",
       "is_new": true,
       "source_count": 2,
-      "status": "upcoming",
+      "status": "completed",
       "status_label": {
-        "ko": "예정",
-        "en": "upcoming"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -2127,10 +2770,10 @@
       "type": "event",
       "is_new": true,
       "source_count": 4,
-      "status": "upcoming",
+      "status": "completed",
       "status_label": {
-        "ko": "예정",
-        "en": "upcoming"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -2316,10 +2959,10 @@
       "type": "event",
       "is_new": false,
       "source_count": 3,
-      "status": "upcoming",
+      "status": "in_progress",
       "status_label": {
-        "ko": "예정",
-        "en": "upcoming"
+        "ko": "진행중",
+        "en": "live"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -2481,10 +3124,10 @@
       "type": "visit",
       "is_new": true,
       "source_count": 2,
-      "status": "upcoming",
+      "status": "in_progress",
       "status_label": {
-        "ko": "예정",
-        "en": "upcoming"
+        "ko": "진행중",
+        "en": "live"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -3329,6 +3972,111 @@
         "news_card": false,
         "map_pin": true
       }
+    },
+    {
+      "id": "evt_auto_loc_hongdae",
+      "type": "visit",
+      "is_new": true,
+      "source_count": 3,
+      "status": "planned",
+      "status_label": {
+        "ko": "예상",
+        "en": "expected"
+      },
+      "confidence": "expected",
+      "confidence_label": {
+        "ko": "예상 (자동)",
+        "en": "expected (auto)"
+      },
+      "title": {
+        "ko": "홍대 (뉴스 감지)",
+        "en": "Hongdae (auto)"
+      },
+      "url": "https://www.hankyung.com/article/2026060823987",
+      "location": {
+        "name": {
+          "ko": "홍대 (마포)",
+          "en": "Hongdae, Mapo"
+        },
+        "address": "서울 마포구 홍익로",
+        "lat": 37.5572,
+        "lng": 126.9255
+      },
+      "datetime": null,
+      "datetime_display": {
+        "ko": "방한 중 (뉴스 감지)",
+        "en": "During visit (auto)"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "총수 회동 · 만찬",
+        "en": "Chaebol dinner meeting"
+      },
+      "summary": {
+        "ko": [
+          "뉴스 본문 키워드 자동 감지"
+        ],
+        "en": [
+          "Auto-detected from article body"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\"",
+            "en": "젠슨 황, 이재용·정의선·최태원 중 가장 친한 사람 묻자…\"쉽다\""
+          },
+          "url": "https://www.hankyung.com/article/2026060823987",
+          "time": "06. 08. AM 12:20"
+        },
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)",
+            "en": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)"
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260607034852030",
+          "time": "06. 07. PM 01:24"
+        },
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "한국 여름 더위에도 '가죽 재킷' 젠슨황…\"전투복·브랜드 구축\"",
+            "en": "한국 여름 더위에도 '가죽 재킷' 젠슨황…\"전투복·브랜드 구축\""
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260606045700030",
+          "time": "06. 06. PM 09:11"
+        }
+      ],
+      "map_pin": {
+        "label": {
+          "ko": "홍대",
+          "en": "Hongdae"
+        },
+        "undef": false,
+        "pct": null,
+        "sub": null,
+        "cur": false
+      },
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": false,
+        "map_pin": true
+      },
+      "_auto_loc": true
     }
   ],
   "feed": [
