@@ -1,8 +1,394 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T15:36:01.623Z",
+  "updatedAt": "2026-06-08T18:21:23.754Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780933020000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”",
+        "en": "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”"
+      },
+      "url": "https://www.chosun.com/economy/money/2026/06/09/OWICOA7BZFDRVGZQHFLBKBTTSQ/",
+      "location": null,
+      "datetime": "2026-06-08T15:37:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 03:37",
+        "en": "06. 08. PM 03:37"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”",
+        "en": "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”"
+      },
+      "summary": {
+        "ko": [
+          "주식 시장 젠슨 황 영향력 과해",
+          "피지컬 AI 강조, GPU 더 팔려는 것"
+        ],
+        "en": [
+          "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”",
+            "en": "“주식 시장 젠슨 황 영향력 과해… 피지컬 AI 강조, GPU 더 팔려는 것”"
+          },
+          "url": "https://www.chosun.com/economy/money/2026/06/09/OWICOA7BZFDRVGZQHFLBKBTTSQ/",
+          "time": "06. 08. PM 03:37"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780920954000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "동에 번쩍 서에 번쩍 ‘황길동’…새 깐부 멤버 된 기업총수들 누구",
+        "en": "동에 번쩍 서에 번쩍 ‘황길동’…새 깐부 멤버 된 기업총수들 누구"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068885",
+      "location": {
+        "name": {
+          "ko": "서울 여의도 LG 트윈타워",
+          "en": "서울 여의도 LG 트윈타워"
+        }
+      },
+      "datetime": "2026-06-08T12:15:54.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 12:15",
+        "en": "06. 08. PM 12:15"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "LG·네이버, 엔비디아 AI생태계 동참 LG 구광모 만나“피지컬AI 공동개발” 젠슨 황, 네이버 사옥서 이해진 회동 “전세계 클라우드 함께 구축하겠다” 현대차 “엔비디아와 새만금 ..",
+        "en": "LG·네이버, 엔비디아 AI생태계 동참 LG 구광모 만나“피지컬AI 공동개발” 젠슨 황, 네이버 사옥서 이해진 회동 “전세계 클라우드 함께 구축하겠다” 현대차 “엔비디아와 새만금 .."
+      },
+      "summary": {
+        "ko": [
+          "LG·네이버, 엔비디아 AI생태계 동참",
+          "LG 구광모 만나“피지컬AI 공동개발” 젠슨 황, 네이버 사옥서 이해진 회동 “전세계 클라우드 함께 구축하겠다”"
+        ],
+        "en": [
+          "LG·네이버, 엔비디아 AI생태계 동참 LG 구광모 만나“피지컬AI 공동개발” 젠슨 황, 네이버 사옥서 이해진 회동 “전세계 클라우드 함께 구축하겠다” 현대차 “엔비디아와 새만금 .."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "동에 번쩍 서에 번쩍 ‘황길동’…새 깐부 멤버 된 기업총수들 누구",
+            "en": "동에 번쩍 서에 번쩍 ‘황길동’…새 깐부 멤버 된 기업총수들 누구"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068885",
+          "time": "06. 08. PM 12:15"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780920597000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 “지금은 한국의 시간…이런 나라는 세상 어디에도 없다”",
+        "en": "젠슨 황 “지금은 한국의 시간…이런 나라는 세상 어디에도 없다”"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068880",
+      "location": {
+        "name": {
+          "ko": "한국",
+          "en": "한국"
+        }
+      },
+      "datetime": "2026-06-08T12:09:57.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 12:09",
+        "en": "06. 08. PM 12:09"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“지금은 바로 한국의 시간이다. 한국은 올바른 문화적 기반과 산업적 기반, 지정학적 위치를 모두 갖췄다. 이것들을 활용할 절호의 기회다” 젠슨 황 엔비디아 최고경영자(CEO)가 8..",
+        "en": "“지금은 바로 한국의 시간이다. 한국은 올바른 문화적 기반과 산업적 기반, 지정학적 위치를 모두 갖췄다. 이것들을 활용할 절호의 기회다” 젠슨 황 엔비디아 최고경영자(CEO)가 8.."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 8일 한국은 인공지능(AI) 시대 최적의 파트너라며 이같이 말했다.",
+          "한국은 올바른 문화적 기반과 산업적 기반, 지정학적 위치를 모두 갖췄다. 이것들을 활용할 절호의 기회다"
+        ],
+        "en": [
+          "“지금은 바로 한국의 시간이다. 한국은 올바른 문화적 기반과 산업적 기반, 지정학적 위치를 모두 갖췄다. 이것들을 활용할 절호의 기회다” 젠슨 황 엔비디아 최고경영자(CEO)가 8.."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황 “지금은 한국의 시간…이런 나라는 세상 어디에도 없다”",
+            "en": "젠슨 황 “지금은 한국의 시간…이런 나라는 세상 어디에도 없다”"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068880",
+          "time": "06. 08. PM 12:09"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780920477000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\"",
+        "en": "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\""
+      },
+      "url": "https://www.hankyung.com/article/2026060843647",
+      "location": {
+        "name": {
+          "ko": "서울 중구 신라호텔",
+          "en": "서울 중구 신라호텔"
+        }
+      },
+      "datetime": "2026-06-08T12:07:57.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 12:07",
+        "en": "06. 08. PM 12:07"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\"",
+        "en": "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\""
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 국내 AI 생태계를 총망라한 대규모 간담회를 끝으로 방한 나흘간의 대장정을 마무리했다.",
+          "엔비디아는 이날 저녁 서울 신라호텔 영빈관에서 코리아 AI 에코시스템 리셉션을 개최했다."
+        ],
+        "en": [
+          "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\"",
+            "en": "젠슨 황, 국내 AI 생태계 한자리에 모으더니…\"지금은 한국의 시간\""
+          },
+          "url": "https://www.hankyung.com/article/2026060843647",
+          "time": "06. 08. PM 12:07"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780918406000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토",
+        "en": "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토"
+      },
+      "url": "https://www.hankyung.com/article/2026060843607",
+      "location": null,
+      "datetime": "2026-06-08T11:33:26.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 11:33",
+        "en": "06. 08. AM 11:33"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토",
+        "en": "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, '한국판 GTC' 행사 긍정적 검토",
+          "이정우 기자"
+        ],
+        "en": [
+          "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토",
+            "en": "[속보] 젠슨 황, '한국판 GTC' 행사 긍정적 검토"
+          },
+          "url": "https://www.hankyung.com/article/2026060843607",
+          "time": "06. 08. AM 11:33"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780932600000",
       "type": "announcement",
