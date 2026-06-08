@@ -2241,8 +2241,8 @@ function fetchLive(){
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){if(d&&d.ok) applyNews(d.items);})
     .catch(function(){});
-  // 배치 뉴스 (2시간 업데이트, GitHub Actions)
-  fetch('/news-live.json?_='+Math.floor(Date.now()/120000))
+  // 배치 뉴스 (1시간 업데이트, GitHub Actions)
+  fetch('/data/news-live.json?_='+Math.floor(Date.now()/60000))
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){if(d&&d.items&&d.items.length) applyNews(d.items);})
     .catch(function(){});

@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Jensen Bot"
-          git add public/data/events.json public/data/meta.json public/news-live.json
+          git add public/data/events.json public/data/meta.json public/data/news-live.json
           if ! git diff --staged --quiet; then
             git commit -m "batch: 자동 업데이트 $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
             git push
