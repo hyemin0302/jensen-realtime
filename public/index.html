@@ -1759,7 +1759,7 @@ function buildNews(){
       for(var k=0;k<n.rs.length;k++){var r=n.rs[k];var sd=pm[r.c]||{};
         h+='<div class="rs2">'
           +'<div class="rh">'
-            +'<span class="rn">'+esc(r.n)+'</span><span class="rc">'+esc(r.c)+'</span>'
+            +'<span class="rn">'+esc(L(r.n))+'</span><span class="rc">'+esc(r.c)+'</span>'
             +(sd.px
               ?'<div class="rpr">'
                 +'<span class="rpx">'+sd.px+'</span>'
