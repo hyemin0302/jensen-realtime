@@ -283,6 +283,21 @@ const STOCK_MAP = {
   'SK텔레콤': ['017670'],          'SKT': ['017670'],
 };
 
+// 종목코드 → 종목명 역매핑
+const CODE_NAME = {
+  '005930': '삼성전자', '005935': '삼성전자우',
+  '000660': 'SK하이닉스',
+  '066570': 'LG전자',   '066575': 'LG전자우',
+  '035420': '네이버',
+  '005380': '현대차',   '005387': '현대차2우B', '005385': '현대차우',
+  '454910': '두산로보틱스',
+  '000150': '두산',     '000155': '두산우',
+  '017670': 'SK텔레콤',
+  '034020': '두산에너빌리티', '336260': '두산퓨얼셀',
+  '241560': '두산밥캣',  '131970': '두산테스나',
+  '034220': 'LG디스플레이',
+};
+
 function extractTag(xml, tag) {
   const cdataRe = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i');
   const plainRe  = new RegExp(`<${tag}[^>]*>([^<]*)<\\/${tag}>`, 'i');
@@ -480,7 +495,7 @@ export async function generateEventCards(articles) {
       description: { ko: a.d || a.t, en: a.d || a.t },
       summary: { ko: [a.d || a.t], en: [a.d || a.t] },
       related_stocks: a.stocks.map(code => ({
-        code, name: code, theme: { ko: '관련주', en: 'related' },
+        code, name: { ko: CODE_NAME[code] || code, en: CODE_NAME[code] || code }, theme: { ko: '관련주', en: 'related' },
         brief: { ko: '자동 수집', en: 'auto-collected' }
       })),
       sources: [{ publisher: { ko: a.s, en: a.s }, title: { ko: a.t, en: a.t }, url: a.u, time: a.m }],
@@ -519,7 +534,7 @@ export async function generateEventCards(articles) {
         timeline_badge: null,
         description: { ko: article.d || article.t, en: article.d || article.t },
         summary: { ko: parsed.summary_ko || [article.d || article.t], en: [article.d || article.t] },
-        related_stocks: article.stocks.map(code => ({ code, name: code, theme: { ko: '관련주', en: 'related' }, brief: { ko: '자동수집', en: 'auto' } })),
+        related_stocks: article.stocks.map(code => ({ code, name: { ko: CODE_NAME[code] || code, en: CODE_NAME[code] || code }, theme: { ko: '관련주', en: 'related' }, brief: { ko: '자동수집', en: 'auto' } })),
         sources: [{ publisher: { ko: article.s, en: article.s }, title: { ko: article.t, en: article.t }, url: article.u, time: article.m }],
         insight: null,
         views: { timeline: false, news_card: true, map_pin: false },
