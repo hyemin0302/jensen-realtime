@@ -1,8 +1,8 @@
-name: 뉴스 배치 업데이트 (2시간)
+name: 뉴스 배치 업데이트 (30분)
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 1시간마다
+    - cron: '*/30 * * * *'  # 30분마다
   workflow_dispatch:          # GitHub 대시보드에서 수동 실행 가능
 
 jobs:
