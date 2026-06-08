@@ -1,8 +1,400 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T18:21:23.754Z",
+  "updatedAt": "2026-06-08T20:38:36.396Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780946767000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Nvidia CEO Jensen Huang declines Warren’s request to testify at AI hearing",
+        "en": "Nvidia CEO Jensen Huang declines Warren’s request to testify at AI hearing"
+      },
+      "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-declines-warren-senate-testify-ai-hearing-rcna349034",
+      "location": null,
+      "datetime": "2026-06-08T19:26:07.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 07:26",
+        "en": "06. 08. PM 07:26"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Sen. Elizabeth Warren had invited Huang to discuss Nvidia’s business in China at a Thursday Senate committee meeting about America’s AI industry.",
+        "en": "Sen. Elizabeth Warren had invited Huang to discuss Nvidia’s business in China at a Thursday Senate committee meeting about America’s AI industry."
+      },
+      "summary": {
+        "ko": [
+          "Nvidia CEO Jensen Huang은 중국 사업에 대한 토론을 위해 미국의 AI 산업에 대한 목요일 상원 위원회 회의에 초대받았습니다.",
+          "그러나 Huang은 NBC 뉴스에 따르면 위원회 회의에 증언하기를 거부했습니다."
+        ],
+        "en": [
+          "Sen. Elizabeth Warren had invited Huang to discuss Nvidia’s business in China at a Thursday Senate committee meeting about America’s AI industry."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "CNBC Tech",
+            "en": "CNBC Tech"
+          },
+          "title": {
+            "ko": "Nvidia CEO Jensen Huang declines Warren’s request to testify at AI hearing",
+            "en": "Nvidia CEO Jensen Huang declines Warren’s request to testify at AI hearing"
+          },
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-declines-warren-senate-testify-ai-hearing-rcna349034",
+          "time": "06. 08. PM 07:26"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780916908000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\"",
+        "en": "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\""
+      },
+      "url": "https://www.hankyung.com/article/2026060843417",
+      "location": {
+        "name": {
+          "ko": "서울 중구 신라호텔",
+          "en": "서울 중구 신라호텔"
+        }
+      },
+      "datetime": "2026-06-08T11:08:28.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 11:08",
+        "en": "06. 08. AM 11:08"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\"",
+        "en": "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\""
+      },
+      "summary": {
+        "ko": [
+          "전영현 삼성전자 대표이사 겸 디바이스솔루션(DS) 부문장이 젠슨 황 엔비디아 최고경영자(CEO)와 회동한 뒤 7·8세대 고대역폭메모리(HBM)인 HBM4E·HBM5 공급 논의 내용을 공개했다.",
+          "전 부회장은 8일 서울 중구 신라호텔에서 황 CEO 및 엔비디아 주요 경영진과 만난 후 기자들과 만나 \"황 CEO와 오랫동안 같이 협력해왔는데 오늘 가장 좋은 얘기를 나눈 것 같다\"고 말했다."
+        ],
+        "en": [
+          "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\"",
+            "en": "전영현 \"젠슨 황과 오랜 협력 기간 중 가장 좋은 얘기 나눴다\""
+          },
+          "url": "https://www.hankyung.com/article/2026060843417",
+          "time": "06. 08. AM 11:08"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780910909000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 “네이버, 우리와의 협력으로 10배 커질 것”",
+        "en": "젠슨 황 “네이버, 우리와의 협력으로 10배 커질 것”"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068775",
+      "location": {
+        "name": {
+          "ko": "네이버 사옥",
+          "en": "네이버 사옥"
+        }
+      },
+      "datetime": "2026-06-08T09:28:29.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 09:28",
+        "en": "06. 08. AM 09:28"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨황, 네이버 사옥 8일 방문 AI 팩토리 사업 협력 공식화  로봇틱스 분야에서도 협업“Don’t Worry, I have GPUs.”(걱정하지 마, 나에게 GPU가 있어.) 8..",
+        "en": "젠슨황, 네이버 사옥 8일 방문 AI 팩토리 사업 협력 공식화  로봇틱스 분야에서도 협업“Don’t Worry, I have GPUs.”(걱정하지 마, 나에게 GPU가 있어.) 8.."
+      },
+      "summary": {
+        "ko": [
+          "젠슨황, 네이버 사옥 8일 방문 AI 팩토리 사업 협력 공식화",
+          "로봇틱스 분야에서도 협업"
+        ],
+        "en": [
+          "젠슨황, 네이버 사옥 8일 방문 AI 팩토리 사업 협력 공식화  로봇틱스 분야에서도 협업“Don’t Worry, I have GPUs.”(걱정하지 마, 나에게 GPU가 있어.) 8.."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황 “네이버, 우리와의 협력으로 10배 커질 것”",
+            "en": "젠슨 황 “네이버, 우리와의 협력으로 10배 커질 것”"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068775",
+          "time": "06. 08. AM 09:28"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780909691000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "현대차 \"엔비디아와 새만금 AI밸리\"… LG \"피지컬AI 공동개발\"",
+        "en": "현대차 \"엔비디아와 새만금 AI밸리\"… LG \"피지컬AI 공동개발\""
+      },
+      "url": "https://www.mk.co.kr/news/it/12068763",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-08T09:08:11.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 09:08",
+        "en": "06. 08. AM 09:08"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "마지막 한국 공식 일정에서도 젠슨 황 엔비디아 최고경영자(CEO)의 행보엔 거침이 없었다. 국내 주요 파트너사 총수들을 직접 만나고 각 회사 직원들과도 함께했다. \n엔비디아가 정점..",
+        "en": "마지막 한국 공식 일정에서도 젠슨 황 엔비디아 최고경영자(CEO)의 행보엔 거침이 없었다. 국내 주요 파트너사 총수들을 직접 만나고 각 회사 직원들과도 함께했다. \n엔비디아가 정점.."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)의 행보엔 거침이 없었다.",
+          "엔비디아가 정점에 있는 글로벌 인공지능(AI) 인프라 생태계에서 한국 기업들과 계속 협력할 뜻이 있다."
+        ],
+        "en": [
+          "마지막 한국 공식 일정에서도 젠슨 황 엔비디아 최고경영자(CEO)의 행보엔 거침이 없었다. 국내 주요 파트너사 총수들을 직접 만나고 각 회사 직원들과도 함께했다. \n엔비디아가 정점.."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "현대차 \"엔비디아와 새만금 AI밸리\"… LG \"피지컬AI 공동개발\"",
+            "en": "현대차 \"엔비디아와 새만금 AI밸리\"… LG \"피지컬AI 공동개발\""
+          },
+          "url": "https://www.mk.co.kr/news/it/12068763",
+          "time": "06. 08. AM 09:08"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780903154000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[영상] '3일 4닭' 젠슨 황의 K치킨 홀릭…최태원과 러브샷 \"깐부됐다\"",
+        "en": "[영상] '3일 4닭' 젠슨 황의 K치킨 홀릭…최태원과 러브샷 \"깐부됐다\""
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260608145400704",
+      "location": {
+        "name": {
+          "ko": "서울 강남구 깐부치킨 삼성점",
+          "en": "서울 강남구 깐부치킨 삼성점"
+        }
+      },
+      "datetime": "2026-06-08T07:19:14.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 07:19",
+        "en": "06. 08. AM 07:19"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보여줬습니다.",
+        "en": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보여줬습니다."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보여줬습니다.",
+          "황 CEO는 프로야구 시구와 관람이 끝나고 오후 7시께 서울 강남구 깐부치킨 삼성점에서 SK그룹 최 회장과 '2차 깐부 회동'을 가졌습니다."
+        ],
+        "en": [
+          "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보여줬습니다."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "[영상] '3일 4닭' 젠슨 황의 K치킨 홀릭…최태원과 러브샷 \"깐부됐다\"",
+            "en": "[영상] '3일 4닭' 젠슨 황의 K치킨 홀릭…최태원과 러브샷 \"깐부됐다\""
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260608145400704",
+          "time": "06. 08. AM 07:19"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780933020000",
       "type": "announcement",
