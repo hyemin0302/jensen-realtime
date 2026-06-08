@@ -159,7 +159,6 @@ async function generatePostInsight(event, stockData, recentNews) {
     { role: 'system', content: POST_SYSTEM },
     { role: 'user', content: buildPostPrompt(event, stockSummary, newsSummary) }
   ]);
-  });
 
   const parsed = JSON.parse(text.replace(/```json\n?|\n?```/g, '').trim());
   return { ...parsed, _mode: 'post', _llm: true, _model: 'llama-3.3-70b', generatedAt: new Date().toISOString() };
