@@ -1,8 +1,208 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T05:08:59.485Z",
+  "updatedAt": "2026-06-08T05:17:23.209Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780846320000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’",
+        "en": "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/08/BIQHJNT5BZANVOROIQGXODDDBU/",
+      "location": null,
+      "datetime": "2026-06-07T15:32:00.000Z",
+      "datetime_display": {
+        "ko": "06. 07. PM 03:32",
+        "en": "06. 07. PM 03:32"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’",
+        "en": "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황이 연일 PC방을 찾는 것으로 알려졌다.",
+          "AI 생태계 확장에 대한 큰 그림을 그리는 중인 것으로 보인다."
+        ],
+        "en": [
+          "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’",
+            "en": "연일 PC방 찾은 젠슨 황… AI 생태계 확장 ‘큰 그림’"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/06/08/BIQHJNT5BZANVOROIQGXODDDBU/",
+          "time": "06. 07. PM 03:32"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780846320000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 만나 조용히 실리 챙긴 경영자들",
+        "en": "젠슨 황 만나 조용히 실리 챙긴 경영자들"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/08/VHFDJALOIBEJDCBJS6WRMXT42I/",
+      "location": null,
+      "datetime": "2026-06-07T15:32:00.000Z",
+      "datetime_display": {
+        "ko": "06. 07. PM 03:32",
+        "en": "06. 07. PM 03:32"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 만나 조용히 실리 챙긴 경영자들",
+        "en": "젠슨 황 만나 조용히 실리 챙긴 경영자들"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황을 만나는 경영자들이 조용히 실리 챙기고 있다.",
+          "젠슨 황의 실리 챙기는 경영자들에 대한 관심이 높아지고 있다."
+        ],
+        "en": [
+          "젠슨 황 만나 조용히 실리 챙긴 경영자들"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 만나 조용히 실리 챙긴 경영자들",
+            "en": "젠슨 황 만나 조용히 실리 챙긴 경영자들"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/06/08/VHFDJALOIBEJDCBJS6WRMXT42I/",
+          "time": "06. 07. PM 03:32"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑",
+        "en": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/consumer/1262398.html",
+      "location": {
+        "name": {
+          "ko": "서울 마포구",
+          "en": "서울 마포구"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑",
+        "en": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 한국을 방문하며 식품·외식업계가 홍보 효과를 거두고 있다.",
+          "그가 방문한 매장에 소비자들이 연이어 방문하고, 관련 상품 판매량도 급증했다."
+        ],
+        "en": [
+          "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑",
+            "en": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/consumer/1262398.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780887840000",
       "type": "announcement",
@@ -4944,32 +5144,33 @@
         "undef": false
       },
       "insight": {
-        "summary": "100인 AI 스타트업 간담회는 한국 AI 생태계 전반에 대한 NVIDIA의 Inception 프로그램 확대와 소버린 AI 인프라 투자 신호다. 직접 관련 종목은 제한적이나 네이버 클라우드의 파트너십 각도가 핵심.",
+        "summary": "젠슨 황의 방한과 서울신라호텔 AI 스타트업 간담회는 한국 AI 스타트업 생태계에 대한 NVIDIA의 전략적 의도를 보여주며, 주가에 긍정적인 영향을 미쳤다. 이 이벤트는 NVIDIA의 한국 시장 진출과 투자 의지를 강화하는 계기가 되었다.",
         "meaning": [
-          "네이버클라우드: 소버린 AI 인프라 사업자로서 NVIDIA GPU 클라우드 서비스 확대 기대",
-          "스타트업 생태계 지원: Nota AI·RLWRLD·Upstage 등 스타트업 투자 유치 신호",
-          "방한 마지막 공식 일정으로 한국 AI 생태계와의 장기 파트너십 의지 확인",
-          "서울대 방문(6/8)과 연계한 산학협력 AI 인재 파이프라인 구축 의지"
+          "NVIDIA의 한국 AI 스타트업 생태계 투자 및 파트너십 의도",
+          "한국 시장에서의 NVIDIA의 영향력 확대"
         ],
+        "actual_outcome": "서울신라호텔 AI 스타트업 간담회 및 서울대 AI·로봇공학 연구소 방문",
+        "vs_expectation": "상회",
         "stock_view": {
-          "direction": "neutral",
-          "rationale": "네이버 이미 +29% 선반영. 간담회 결과보다 이후 공식 파트너십 발표에 주목.",
+          "direction": "bullish",
+          "rationale": "NVIDIA의 한국 시장 진출과 투자 의지에 대한 기대",
           "price_target_range": {
-            "low": 235000,
-            "base": 260000,
-            "high": 300000
+            "low": 245000,
+            "base": 285000,
+            "high": 349000
           },
-          "catalyst_timeline": "6/8 간담회 후 공동 발표 또는 NVIDIA Inception Korea 확대 공시",
-          "already_priced": true,
-          "already_priced_ratio": 0.6,
-          "upside_scenario": "네이버클라우드-NVIDIA 소버린 AI 인프라 공동 구축 공식 MOU → 추가 상승",
-          "downside_scenario": "비공개 행사 특성상 구체 결과 미공개 → 호재 소멸"
+          "catalyst_timeline": "중기",
+          "already_priced": false,
+          "already_priced_ratio": 0.5,
+          "upside_scenario": "NVIDIA의 추가 투자 및 파트너십 발표",
+          "downside_scenario": "경쟁사들의 반격 및 시장 상황 악화"
         },
-        "confidence": 0.6,
+        "confidence": 0.8,
         "disclaimer": "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다.",
-        "_mode": "pre",
-        "_llm": false,
-        "generatedAt": "2026-06-05T11:05:31.176Z"
+        "_mode": "post",
+        "_llm": true,
+        "_model": "llama-3.3-70b",
+        "generatedAt": "2026-06-08T05:17:23.208Z"
       },
       "views": {
         "timeline": true,
@@ -5011,7 +5212,35 @@
         "_llm": false,
         "generatedAt": "2026-06-05T11:05:31.176Z"
       },
-      "post_insight": null,
+      "post_insight": {
+        "summary": "젠슨 황의 방한과 서울신라호텔 AI 스타트업 간담회는 한국 AI 스타트업 생태계에 대한 NVIDIA의 전략적 의도를 보여주며, 주가에 긍정적인 영향을 미쳤다. 이 이벤트는 NVIDIA의 한국 시장 진출과 투자 의지를 강화하는 계기가 되었다.",
+        "meaning": [
+          "NVIDIA의 한국 AI 스타트업 생태계 투자 및 파트너십 의도",
+          "한국 시장에서의 NVIDIA의 영향력 확대"
+        ],
+        "actual_outcome": "서울신라호텔 AI 스타트업 간담회 및 서울대 AI·로봇공학 연구소 방문",
+        "vs_expectation": "상회",
+        "stock_view": {
+          "direction": "bullish",
+          "rationale": "NVIDIA의 한국 시장 진출과 투자 의지에 대한 기대",
+          "price_target_range": {
+            "low": 245000,
+            "base": 285000,
+            "high": 349000
+          },
+          "catalyst_timeline": "중기",
+          "already_priced": false,
+          "already_priced_ratio": 0.5,
+          "upside_scenario": "NVIDIA의 추가 투자 및 파트너십 발표",
+          "downside_scenario": "경쟁사들의 반격 및 시장 상황 악화"
+        },
+        "confidence": 0.8,
+        "disclaimer": "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다.",
+        "_mode": "post",
+        "_llm": true,
+        "_model": "llama-3.3-70b",
+        "generatedAt": "2026-06-08T05:17:23.208Z"
+      },
       "outcome": null,
       "outcome_verified_at": null
     },
