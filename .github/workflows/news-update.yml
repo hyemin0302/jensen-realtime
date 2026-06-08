@@ -22,7 +22,7 @@ jobs:
 
       - name: 오케스트레이터 실행 (뉴스+주가+지도+인사이트)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/batch-runner.js
 
       - name: 변경사항 커밋 & 푸시

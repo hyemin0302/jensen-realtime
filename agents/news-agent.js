@@ -7,6 +7,28 @@
 import fs from 'fs';
 import path from 'path';
 
+// ── Groq API 헬퍼 (OpenAI 호환, fetch 사용 — SDK 불필요) ──
+async function callGroq(model, messages, maxTokens = 512) {
+  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model,
+      messages,
+      max_tokens: maxTokens,
+      response_format: { type: 'json_object' },
+      temperature: 0.1,
+    }),
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!res.ok) throw new Error(`Groq API ${res.status}: ${await res.text()}`);
+  const data = await res.json();
+  return data.choices[0].message.content;
+}
+
 // ── 기사 본문 크롤링 ──────────────────────────────────────
 
 function htmlToText(html) {
@@ -346,7 +368,7 @@ export async function updateTimelineFromNews(events, articles) {
   let updatedCount = 0;
 
   // LLM 없이: 키워드 매칭으로 sources만 보강
-  if (!process.env.ANTHROPIC_API_KEY) {
+  if (!process.env.GROQ_API_KEY) {
     for (const event of targets) {
       const keywords = [
         event.title?.ko, event.location?.name?.ko,
@@ -374,10 +396,7 @@ export async function updateTimelineFromNews(events, articles) {
     return updatedCount;
   }
 
-  // LLM 모드: Haiku로 이벤트 확정/완료 판단
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic();
-
+  // LLM 모드: Llama로 이벤트 확정/완료 판단
   for (const event of targets) {
     const keywords = [
       event.title?.ko, event.location?.name?.ko,
@@ -392,17 +411,13 @@ export async function updateTimelineFromNews(events, articles) {
       .map((a, i) => `[${i+1}] ${a.s}: ${a.t} — ${a.d}`).join('\n');
 
     try {
-      const resp = await client.messages.create({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 256,
-        messages: [{
-          role: 'user',
-          content: `이벤트: "${event.title?.ko}" (현재상태: ${event.status})\n\n관련 기사:\n${articleList}\n\n이 기사들이 위 이벤트가 실제로 진행됐거나 완료됐음을 보도하는가? 기사 본문까지 참고해 판단해줘.\nJSON으로만 답변: { "confirmed": true/false, "completed": true/false, "reason": "한 문장" }`
-        }]
-      });
+      const text = await callGroq('llama-3.1-8b-instant', [{
+        role: 'user',
+        content: `이벤트: "${event.title?.ko}" (현재상태: ${event.status})\n\n관련 기사:\n${articleList}\n\n이 기사들이 위 이벤트가 실제로 진행됐거나 완료됐음을 보도하는가? 기사 본문까지 참고해 판단해줘.\nJSON으로만 답변: { "confirmed": true/false, "completed": true/false, "reason": "한 문장" }`
+      }], 256);
 
       let parsed;
-      try { parsed = JSON.parse(resp.content[0].text); } catch { continue; }
+      try { parsed = JSON.parse(text); } catch { continue; }
 
       const existingUrls = new Set((event.sources || []).map(s => s.url));
       const newSources = candidates
@@ -443,7 +458,7 @@ export async function updateTimelineFromNews(events, articles) {
  * @returns {Promise<Array>} events.json 호환 이벤트 객체 배열
  */
 export async function generateEventCards(articles) {
-  if (!process.env.ANTHROPIC_API_KEY) {
+  if (!process.env.GROQ_API_KEY) {
     // LLM 없이: 기본 구조로 변환만 수행
     console.log('  [news-agent] LLM 미연결 — 기본 구조 변환만 수행');
     return articles.map(a => ({
@@ -475,22 +490,16 @@ export async function generateEventCards(articles) {
     }));
   }
 
-  // Phase 2: LLM 카드 생성 (ANTHROPIC_API_KEY 있을 때)
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic();
+  // LLM 카드 생성 (GROQ_API_KEY 있을 때, Llama 3.1 8B)
   const generated = [];
 
   for (const article of articles.slice(0, 10)) { // 배치당 최대 10개
     try {
-      const resp = await client.messages.create({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 512,
-        messages: [{
-          role: 'user',
-          content: `다음 기사를 분석해서 JSON으로 반환해줘. 필드: status(예정/완료/진행중), confidence(확정/유력/예상/미정), summary_ko(요약 2줄 배열), location(장소명 또는 null), persons(인물명 배열).\n\n제목: ${article.t}\n요약: ${article.d}\n본문: ${(article.fullText || '').slice(0, 800)}\n출처: ${article.s}\n\nJSON만 반환.`
-        }]
-      });
-      const parsed = JSON.parse(resp.content[0].text);
+      const text = await callGroq('llama-3.1-8b-instant', [{
+        role: 'user',
+        content: `다음 기사를 분석해서 JSON으로 반환해줘. 필드: status(예정/완료/진행중), confidence(확정/유력/예상/미정), summary_ko(요약 2줄 배열), location(장소명 또는 null), persons(인물명 배열).\n\n제목: ${article.t}\n요약: ${article.d}\n본문: ${(article.fullText || '').slice(0, 800)}\n출처: ${article.s}\n\nJSON만 반환.`
+      }], 512);
+      const parsed = JSON.parse(text);
       generated.push({
         id: `evt_llm_${article.ts}`,
         type: 'announcement',

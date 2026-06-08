@@ -1,10 +1,32 @@
 /**
  * 인사이트 에이전트 (Insight Agent)
- * LLM: 사용 (Claude Sonnet) — 이벤트 × 주가 데이터 분석
+ * LLM: Groq Llama 3.3 70B — 이벤트 × 주가 데이터 분석
  * 이벤트 상태별 3단계 프롬프트 분기:
  *   - upcoming/in_progress → pre_insight (기대감·시나리오·리스크)
  *   - completed           → post_insight (결과 분석·주가 반응 해석)
  */
+
+// Groq API 헬퍼 (OpenAI 호환, fetch 사용)
+async function callGroq(messages, maxTokens = 900) {
+  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'llama-3.3-70b-versatile',
+      messages,
+      max_tokens: maxTokens,
+      response_format: { type: 'json_object' },
+      temperature: 0.2,
+    }),
+    signal: AbortSignal.timeout(30000),
+  });
+  if (!res.ok) throw new Error(`Groq API ${res.status}: ${await res.text()}`);
+  const data = await res.json();
+  return data.choices[0].message.content;
+}
 
 const PRE_SYSTEM = `당신은 한국 주식시장 이벤트 분석 전문가입니다.
 젠슨 황 방한 예정 일정을 바탕으로 관련 주식의 기대 방향성과 시나리오를 분석합니다.
@@ -94,7 +116,7 @@ ${newsSummary || '수집된 뉴스 없음'}
 /**
  * 단일 이벤트 pre_insight 생성
  */
-async function generatePreInsight(event, stockData, prevContext, client) {
+async function generatePreInsight(event, stockData, prevContext) {
   const stockSummary = (event.related_tickers || [])
     .filter(code => stockData[code])
     .map(code => {
@@ -103,21 +125,19 @@ async function generatePreInsight(event, stockData, prevContext, client) {
       return `${code}: 현재가 ${d.px}원, 방한확정比 ${d.v >= 0 ? '+' : ''}${d.v}%, 뉴스比 ${d.nw >= 0 ? '+' : ''}${d.nw}%${ptrStr}`;
     }).join('\n') || '관련 주가 데이터 없음';
 
-  const resp = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 900,
-    system: PRE_SYSTEM,
-    messages: [{ role: 'user', content: buildPrePrompt(event, stockSummary, prevContext) }]
-  });
+  const text = await callGroq([
+    { role: 'system', content: PRE_SYSTEM },
+    { role: 'user', content: buildPrePrompt(event, stockSummary, prevContext) }
+  ]);
 
-  const parsed = JSON.parse(resp.content[0].text.replace(/```json\n?|\n?```/g, '').trim());
-  return { ...parsed, _mode: 'pre', _llm: true, generatedAt: new Date().toISOString() };
+  const parsed = JSON.parse(text.replace(/```json\n?|\n?```/g, '').trim());
+  return { ...parsed, _mode: 'pre', _llm: true, _model: 'llama-3.3-70b', generatedAt: new Date().toISOString() };
 }
 
 /**
  * 단일 이벤트 post_insight 생성
  */
-async function generatePostInsight(event, stockData, recentNews, client) {
+async function generatePostInsight(event, stockData, recentNews) {
   const stockSummary = (event.related_tickers || [])
     .filter(code => stockData[code])
     .map(code => {
@@ -135,15 +155,14 @@ async function generatePostInsight(event, stockData, recentNews, client) {
     .map(n => `- ${n.title?.ko || n.t}`)
     .join('\n');
 
-  const resp = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 900,
-    system: POST_SYSTEM,
-    messages: [{ role: 'user', content: buildPostPrompt(event, stockSummary, newsSummary) }]
+  const text = await callGroq([
+    { role: 'system', content: POST_SYSTEM },
+    { role: 'user', content: buildPostPrompt(event, stockSummary, newsSummary) }
+  ]);
   });
 
-  const parsed = JSON.parse(resp.content[0].text.replace(/```json\n?|\n?```/g, '').trim());
-  return { ...parsed, _mode: 'post', _llm: true, generatedAt: new Date().toISOString() };
+  const parsed = JSON.parse(text.replace(/```json\n?|\n?```/g, '').trim());
+  return { ...parsed, _mode: 'post', _llm: true, _model: 'llama-3.3-70b', generatedAt: new Date().toISOString() };
 }
 
 /**
@@ -156,13 +175,10 @@ async function generatePostInsight(event, stockData, recentNews, client) {
 export async function runInsightAgent(events, stockData, opts = {}) {
   const result = { pre: {}, post: {} };
 
-  if (!process.env.ANTHROPIC_API_KEY) {
+  if (!process.env.GROQ_API_KEY) {
     console.log('  [insight-agent] LLM 미연결 — 스킵');
     return result;
   }
-
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic();
 
   // 완료된 이벤트 중 post_insight 미생성 또는 강제 재생성 대상
   const postTargets = events.filter(e =>
@@ -172,7 +188,7 @@ export async function runInsightAgent(events, stockData, opts = {}) {
     (!e.post_insight || opts.forcePostIds?.includes(e.id))
   ).slice(0, 4);
 
-  // 예정 이벤트 중 pre_insight 미생성 또는 강제 재생성 대상 (관련 종목 있는 것 우선)
+  // 예정 이벤트 중 pre_insight 미생성 또는 강제 재생성 대상
   const preTargets = events.filter(e =>
     e.views?.timeline &&
     (e.related_tickers?.length > 0 || e.impact_level === 'high') &&
@@ -190,7 +206,7 @@ export async function runInsightAgent(events, stockData, opts = {}) {
   for (const event of postTargets) {
     try {
       console.log(`  [insight-agent] post_insight: ${event.id}`);
-      result.post[event.id] = await generatePostInsight(event, stockData, events, client);
+      result.post[event.id] = await generatePostInsight(event, stockData, events);
     } catch (e) {
       console.log(`  [insight-agent] post 실패 (${event.id}): ${e.message}`);
     }
@@ -200,7 +216,7 @@ export async function runInsightAgent(events, stockData, opts = {}) {
   for (const event of preTargets) {
     try {
       console.log(`  [insight-agent] pre_insight: ${event.id}`);
-      result.pre[event.id] = await generatePreInsight(event, stockData, prevContext, client);
+      result.pre[event.id] = await generatePreInsight(event, stockData, prevContext);
     } catch (e) {
       console.log(`  [insight-agent] pre 실패 (${event.id}): ${e.message}`);
     }
@@ -211,14 +227,12 @@ export async function runInsightAgent(events, stockData, opts = {}) {
 
 // 하위호환: 기존 단일 generateInsight 인터페이스 유지
 export async function generateInsight(event, stockData) {
-  if (!process.env.ANTHROPIC_API_KEY) return null;
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  const client = new Anthropic();
+  if (!process.env.GROQ_API_KEY) return null;
   try {
     if (event.status === 'completed') {
-      return await generatePostInsight(event, stockData, [], client);
+      return await generatePostInsight(event, stockData, []);
     }
-    return await generatePreInsight(event, stockData, '', client);
+    return await generatePreInsight(event, stockData, '');
   } catch (e) {
     console.log(`[insight-agent] 실패: ${e.message}`);
     return null;
