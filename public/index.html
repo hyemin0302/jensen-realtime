@@ -1154,6 +1154,10 @@ function buildTL(){
       +'</div></div>';
   }
   el('tl').innerHTML=h;
+  // in_progress 이벤트가 보이도록 타임라인 컬럼 자동 스크롤
+  var tlCol=document.querySelector('.tl-col');
+  var liveRow=tlCol&&tlCol.querySelector('.st-in_progress');
+  if(tlCol&&liveRow) tlCol.scrollTop=liveRow.offsetTop-tlCol.offsetTop-16;
   buildCountdown();
 }
 
@@ -1586,7 +1590,7 @@ function buildStocks(){
         +'<svg class="sp" viewBox="0 0 240 56" preserveAspectRatio="none"><defs><linearGradient id="'+gid+'" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="'+col+'" stop-opacity=".28"/><stop offset="1" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
         +'<path d="'+sp.area+'" fill="url(#'+gid+')"/><path d="'+sp.line+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round"/>'
         +'<circle cx="'+sp.lx.toFixed(1)+'" cy="'+sp.ly.toFixed(1)+'" r="3.4" fill="'+col+'"/></svg>'
-        +'<div class="pr"><span class="now">'+(lang==='ko'?'현재':'now')+' <b>'+s.px+'</b><span class="pt"> · '+(STOCK_UPDATED_AT||'--:--')+'</span></span><span class="big '+cls(s.v)+'" data-count="'+s.v+'" data-pfx="'+arr(s.v)+'">'+arr(s.v)+' '+(num(s.v)>=0?'+':'')+s.v+'%</span></div>'
+        +'<div class="pr"><span class="now">'+(lang==='ko'?'현재':'now')+' <b>'+s.px+'</b><span class="pt"> · '+(STOCK_UPDATED_AT||'--:--')+'</span></span><span class="big '+cls(s.v)+'" data-count="'+s.v+'" data-pfx="'+arr(s.v)+'">'+arr(s.v)+' '+s.v+'%</span></div>'
         +(function(){
           var prim=(window._basePrims&&window._basePrims[s.c])||'v';
           var pa=prim==='v'?{val:s.v,cls_:cls(s.v),lbl:(lang==='ko'?'방한확정比':'vs Visit'),dt:'05/27'}:{val:s.nw,cls_:cls(s.nw),lbl:(lang==='ko'?'뉴스比':'vs News'),dt:'06/01'};
