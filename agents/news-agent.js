@@ -257,30 +257,50 @@ function updateMapPins(eventsData, detected) {
 }
 
 const FEEDS = [
-  { url: 'https://www.yna.co.kr/rss/economy.xml',        src: '연합뉴스' },
-  { url: 'https://www.hankyung.com/feed/all-news',        src: '한국경제' },
-  { url: 'https://www.newsis.com/rss/realnews.xml',       src: '뉴시스'  },
-  { url: 'https://rss.donga.com/total.xml',                                  src: '동아일보'  },
-  { url: 'https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml',   src: '조선일보'  },
-  { url: 'https://www.mk.co.kr/rss/30000001/',                              src: '매일경제'  },
-  { url: 'https://www.hani.co.kr/rss/economy',                              src: '한겨레'    },
+  // ── 한국 언론 ──────────────────────────────────────────
+  { url: 'https://www.yna.co.kr/rss/economy.xml',                         src: '연합뉴스' },
+  { url: 'https://www.hankyung.com/feed/all-news',                        src: '한국경제' },
+  { url: 'https://www.newsis.com/rss/realnews.xml',                       src: '뉴시스'   },
+  { url: 'https://rss.donga.com/total.xml',                               src: '동아일보' },
+  { url: 'https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml',  src: '조선일보' },
+  { url: 'https://www.mk.co.kr/rss/30000001/',                            src: '매일경제' },
+  { url: 'https://www.hani.co.kr/rss/economy',                            src: '한겨레'   },
+  // ── 공식 기업 뉴스룸 (파트너사 공식 채널) ────────────────
+  { url: 'https://blogs.nvidia.com/feed/',                                src: 'NVIDIA공식' },
+  { url: 'https://news.samsung.com/kr/feed',                              src: '삼성뉴스룸' },
+  // ── 글로벌 테크 미디어 (해외 일정 추적용) ──────────────
+  { url: 'https://feeds.nbcnews.com/nbcnews/public/tech',                 src: 'CNBC Tech' },
+  { url: 'https://www.theverge.com/rss/index.xml',                        src: 'The Verge' },
+  { url: 'https://techcrunch.com/feed/',                                  src: 'TechCrunch' },
+  { url: 'https://asia.nikkei.com/rss/feed/nar',                         src: 'Nikkei Asia' },
+  { url: 'https://feeds.bloomberg.com/technology/news.rss',              src: 'Bloomberg Tech' },
 ];
 
 const KEYWORDS = [
+  // 한국어 — 방한 기간
   '젠슨황', '젠슨 황', 'Jensen Huang',
   '엔비디아 방한', 'NVIDIA 방한', '엔비디아 CEO',
   '젠슨황 방한', '젠슨 황 방한', '젠슨황 한국',
+  // 영어 — 글로벌 방문 추적
+  'Jensen Huang visits', 'Jensen Huang meets', 'Huang visits',
+  'NVIDIA CEO visits', 'NVIDIA CEO meets', 'NVIDIA partnership',
+  'Jensen Huang keynote', 'Jensen Huang announced',
 ];
 
 const STOCK_MAP = {
+  // 한국 종목
   '삼성전자': ['005930','005935'], 'Samsung': ['005930','005935'],
-  'SK하이닉스': ['000660'],        'SK hynix': ['000660'],
-  'LG전자': ['066570','066575'],   'LG Electronics': ['066570'],
+  'SK하이닉스': ['000660'],        'SK hynix': ['000660'],   'Hynix': ['000660'],
+  'LG전자': ['066570','066575'],   'LG Electronics': ['066570'], 'LG': ['066570'],
   '네이버': ['035420'],            'Naver': ['035420'],
-  '현대차': ['005380'],            'Hyundai': ['005380'],
+  '현대차': ['005380'],            'Hyundai': ['005380'],    'Hyundai Motor': ['005380'],
   '두산로보틱스': ['454910'],       'Doosan Robotics': ['454910'],
   '두산': ['000150','454910'],     'Doosan': ['000150'],
-  'SK텔레콤': ['017670'],          'SKT': ['017670'],
+  'SK텔레콤': ['017670'],          'SKT': ['017670'],        'SK Telecom': ['017670'],
+  // 글로벌 종목 (해외 일정 시 연관주)
+  'TSMC': ['TSM'],                 'Taiwan Semiconductor': ['TSM'],
+  'Microsoft': ['MSFT'],           'Apple': ['AAPL'],
+  'Broadcom': ['AVGO'],            'AMD': ['AMD'],
 };
 
 // 종목코드 → 종목명 역매핑
