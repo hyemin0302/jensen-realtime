@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-08T05:05:03.422Z",
+  "updatedAt": "2026-06-08T05:08:59.487Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-06-08",
+      "note": "자동 배치: 뉴스 5건, 주가 20개, 인사이트 4개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-06-08",
