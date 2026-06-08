@@ -1576,20 +1576,37 @@ function buildStocks(){
               +'<span class="s">'+sa.dt+'</span></div>'
             +'</div>';
         })()
-        +'<div class="inv" id="inv_'+s.c+'">'
-          +'<div><span class="l">'+(lang==='ko'?'외국인':'Foreign')+'</span>'
-            +'<span class="v '+(s.frgn!=null?(s.frgn>=0?'up':'down'):'')+'" data-frgn="'+(s.frgn??'')+'">'+fmtInv(s.frgn)+'</span>'
-            +'<span class="s">'+(lang==='ko'?'주':'shr')+'</span>'
-          +'</div>'
-          +'<div><span class="l">'+(lang==='ko'?'기관':'Inst.')+'</span>'
-            +'<span class="v '+(s.inst!=null?(s.inst>=0?'up':'down'):'')+'" data-inst="'+(s.inst??'')+'">'+fmtInv(s.inst)+'</span>'
-            +'<span class="s">'+(lang==='ko'?'주':'shr')+'</span>'
-          +'</div>'
-        +'</div>'
-        +'<div class="vol-row" id="vol_'+s.c+'">'
-          +'<span>'+(lang==='ko'?'거래량 ':'vol ')+'<span class="vl">'+fmtVol(s.vol??null)+'</span></span>'
-          +(s.frgnRatio!=null?'<span>'+(lang==='ko'?'외국인보유 ':'frgn ')+'<span class="vl">'+(s.frgnRatio??'--')+'%</span></span>':'')
-        +'</div>'
+        +(s.country&&s.country!=='KR'
+          // 글로벌 종목: 당일 등락 + 시장 상태
+          ? '<div class="inv" id="inv_'+s.c+'">'
+              +'<div><span class="l">'+(lang==='ko'?'당일':'Day chg')+'</span>'
+                +'<span class="v '+cls(s.nw)+'">'+fmtPct(num(s.nw))+'%</span>'
+              +'</div>'
+              +'<div><span class="l">'+(lang==='ko'?'통화':'Curr')+'</span>'
+                +'<span class="v" style="color:var(--muted)">'+(s.currency||'USD')+'</span>'
+              +'</div>'
+            +'</div>'
+            +'<div class="vol-row" id="vol_'+s.c+'">'
+              +'<span style="color:var(--dim);font-size:11px">'
+                +(s.state==='REGULAR'?'🟢 장 중':'🔴 장 외')
+              +'</span>'
+            +'</div>'
+          // 국내 종목: 외국인/기관/거래량
+          : '<div class="inv" id="inv_'+s.c+'">'
+              +'<div><span class="l">'+(lang==='ko'?'외국인':'Foreign')+'</span>'
+                +'<span class="v '+(s.frgn!=null?(s.frgn>=0?'up':'down'):'')+'" data-frgn="'+(s.frgn??'')+'">'+fmtInv(s.frgn)+'</span>'
+                +'<span class="s">'+(lang==='ko'?'주':'shr')+'</span>'
+              +'</div>'
+              +'<div><span class="l">'+(lang==='ko'?'기관':'Inst.')+'</span>'
+                +'<span class="v '+(s.inst!=null?(s.inst>=0?'up':'down'):'')+'" data-inst="'+(s.inst??'')+'">'+fmtInv(s.inst)+'</span>'
+                +'<span class="s">'+(lang==='ko'?'주':'shr')+'</span>'
+              +'</div>'
+            +'</div>'
+            +'<div class="vol-row" id="vol_'+s.c+'">'
+              +'<span>'+(lang==='ko'?'거래량 ':'vol ')+'<span class="vl">'+fmtVol(s.vol??null)+'</span></span>'
+              +(s.frgnRatio!=null?'<span>'+(lang==='ko'?'외국인보유 ':'frgn ')+'<span class="vl">'+(s.frgnRatio??'--')+'%</span></span>':'')
+            +'</div>'
+        )
         +'</div>';
     }
     h+='</div></div>';
@@ -2051,6 +2068,12 @@ function setStockFilter(f){
     var tp=card.getAttribute('data-type')||'stock';
     var show=f==='all'||(f==='KR'&&c==='KR')||(f==='US'&&c!=='KR')||(f==='etf'&&(tp==='etf'||tp==='etf-lev'));
     card.classList.toggle('sf-hidden',!show);
+  });
+  // 카드가 모두 숨겨진 그룹 헤더도 숨기기
+  document.querySelectorAll('#themes .theme').forEach(function(theme){
+    var cards=theme.querySelectorAll('.card');
+    var allHidden=Array.prototype.every.call(cards,function(c){return c.classList.contains('sf-hidden');});
+    theme.style.display=allHidden?'none':'';
   });
 }
 
