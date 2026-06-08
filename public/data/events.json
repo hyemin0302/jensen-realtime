@@ -1,8 +1,401 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T05:42:52.305Z",
+  "updatedAt": "2026-06-08T06:02:41.141Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780897920000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황, 현대 사옥 방문에 직원들 환호…‘깐부’ 정의선 직접 맞이 [현장 사진]",
+        "en": "젠슨 황, 현대 사옥 방문에 직원들 환호…‘깐부’ 정의선 직접 맞이 [현장 사진]"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134069646/2",
+      "location": {
+        "name": {
+          "ko": "현대차그룹 본사",
+          "en": "현대차그룹 본사"
+        }
+      },
+      "datetime": "2026-06-08T05:52:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 05:52",
+        "en": "06. 08. AM 05:52"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "방한 일정을 소화 중인 젠슨 황 엔비디아 최고경영자(CEO)가 10일 서울 양재동 현대차그룹 본사를 방문해 정의선 현대차그룹 회장과 만났다.젠슨 황 CEO는 이날 오후 현대차그룹 사옥에 도착해 정의선 회장과 함께 1층 로비에 전시된 로봇 기술을 둘러본 뒤 비공개 회동을 진행했다.이날 현대차그룹 사옥 로비에는 젠슨 황 CEO를 보기 위해 많은 임직원들이 몰렸다. 당초 젠슨 황 CEO의 방문 시각은 오후 2시 전후로 예상됐지만, 예정보다 이른 시간에 도착했다젠슨 황 CEO는 현장을 찾은 직원들과 인사를 나누고 사인 요청에 응하는 등 친근한 모습을 보였다. 일부 직원들은 기념 촬영을 하거나 선물을 전달하며 환영의 뜻을 전했다.젠슨 황 CEO와 정의선 회장은 전날 서울 시내에서 평양냉면 오찬을 함께하며 친분을 이어",
+        "en": "방한 일정을 소화 중인 젠슨 황 엔비디아 최고경영자(CEO)가 10일 서울 양재동 현대차그룹 본사를 방문해 정의선 현대차그룹 회장과 만났다.젠슨 황 CEO는 이날 오후 현대차그룹 사옥에 도착해 정의선 회장과 함께 1층 로비에 전시된 로봇 기술을 둘러본 뒤 비공개 회동을 진행했다.이날 현대차그룹 사옥 로비에는 젠슨 황 CEO를 보기 위해 많은 임직원들이 몰렸다. 당초 젠슨 황 CEO의 방문 시각은 오후 2시 전후로 예상됐지만, 예정보다 이른 시간에 도착했다젠슨 황 CEO는 현장을 찾은 직원들과 인사를 나누고 사인 요청에 응하는 등 친근한 모습을 보였다. 일부 직원들은 기념 촬영을 하거나 선물을 전달하며 환영의 뜻을 전했다.젠슨 황 CEO와 정의선 회장은 전날 서울 시내에서 평양냉면 오찬을 함께하며 친분을 이어"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 10일 서울 양재동 현대차그룹 본사를 방문해 정의선 현대차그룹 회장과 만났다.",
+          "젠슨 황 CEO는 이날 오후 현대차그룹 사옥에 도착해 정의선 회장과 함께 1층 로비에 전시된 로봇 기술을 둘러본 뒤 비공개 회동을 진행했다."
+        ],
+        "en": [
+          "방한 일정을 소화 중인 젠슨 황 엔비디아 최고경영자(CEO)가 10일 서울 양재동 현대차그룹 본사를 방문해 정의선 현대차그룹 회장과 만났다.젠슨 황 CEO는 이날 오후 현대차그룹 사옥에 도착해 정의선 회장과 함께 1층 로비에 전시된 로봇 기술을 둘러본 뒤 비공개 회동을 진행했다.이날 현대차그룹 사옥 로비에는 젠슨 황 CEO를 보기 위해 많은 임직원들이 몰렸다. 당초 젠슨 황 CEO의 방문 시각은 오후 2시 전후로 예상됐지만, 예정보다 이른 시간에 도착했다젠슨 황 CEO는 현장을 찾은 직원들과 인사를 나누고 사인 요청에 응하는 등 친근한 모습을 보였다. 일부 직원들은 기념 촬영을 하거나 선물을 전달하며 환영의 뜻을 전했다.젠슨 황 CEO와 정의선 회장은 전날 서울 시내에서 평양냉면 오찬을 함께하며 친분을 이어"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대 사옥 방문에 직원들 환호…‘깐부’ 정의선 직접 맞이 [현장 사진]",
+            "en": "젠슨 황, 현대 사옥 방문에 직원들 환호…‘깐부’ 정의선 직접 맞이 [현장 사진]"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134069646/2",
+          "time": "06. 08. AM 05:52"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780897585000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\"",
+        "en": "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\""
+      },
+      "url": "https://www.hankyung.com/article/202606083517i",
+      "location": {
+        "name": {
+          "ko": "서울 양재동 현대자동차그룹 사옥",
+          "en": "서울 양재동 현대자동차그룹 사옥"
+        }
+      },
+      "datetime": "2026-06-08T05:46:25.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 05:46",
+        "en": "06. 08. AM 05:46"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\"",
+        "en": "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\""
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 8일 서울 양재동 현대차그룹 사옥을 방문해 정의선 현대차그룹 회장과 회동했다.",
+          "황 CEO는 이날 오후 1시30분께 현대차그룹 양재 본사를 찾았다."
+        ],
+        "en": [
+          "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\""
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\"",
+            "en": "젠슨 황, 현대차그룹 사옥 방문…\"AI·모빌리티 미래 발명할 것\""
+          },
+          "url": "https://www.hankyung.com/article/202606083517i",
+          "time": "06. 08. AM 05:46"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780897440000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "'케데헌' 춤추는 젠슨 황을 보다니...'유퀴즈' 유재석 극찬",
+        "en": "'케데헌' 춤추는 젠슨 황을 보다니...'유퀴즈' 유재석 극찬"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/08/MI2WENBUGNSGGMTGGAYGGMJSMU/",
+      "location": null,
+      "datetime": "2026-06-08T05:44:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 05:44",
+        "en": "06. 08. AM 05:44"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=최이정 기자] 세계적인 AI 혁명의 아이콘 젠슨 황 엔비디아 최고경영자(CEO)가 유재석을 향해 극찬을 날렸다. 그의 세계 최초 예능 토크쇼 출연이 단 이틀 앞으로 다가오며 전 세계의 이목이 쏠리고 있다.오는 10일 오후 8시 45분에 방송되는 tvN 예능 프로그램 '유 퀴즈 온 더 블럭'(연출 허강석 김지영, 작가 이언주)에서는 글로벌 기술 트",
+        "en": "[OSEN=최이정 기자] 세계적인 AI 혁명의 아이콘 젠슨 황 엔비디아 최고경영자(CEO)가 유재석을 향해 극찬을 날렸다. 그의 세계 최초 예능 토크쇼 출연이 단 이틀 앞으로 다가오며 전 세계의 이목이 쏠리고 있다.오는 10일 오후 8시 45분에 방송되는 tvN 예능 프로그램 '유 퀴즈 온 더 블럭'(연출 허강석 김지영, 작가 이언주)에서는 글로벌 기술 트"
+      },
+      "summary": {
+        "ko": [
+          "세계적인 AI 혁명의 아이콘 젠슨 황 엔비디아 최고경영자(CEO)가 유재석을 향해 극찬을 날렸다.",
+          "유재석이 출연하는 tvN 예능 프로그램 '유 퀴즈 온 더 블럭'이 10일 방송된다."
+        ],
+        "en": [
+          "[OSEN=최이정 기자] 세계적인 AI 혁명의 아이콘 젠슨 황 엔비디아 최고경영자(CEO)가 유재석을 향해 극찬을 날렸다. 그의 세계 최초 예능 토크쇼 출연이 단 이틀 앞으로 다가오며 전 세계의 이목이 쏠리고 있다.오는 10일 오후 8시 45분에 방송되는 tvN 예능 프로그램 '유 퀴즈 온 더 블럭'(연출 허강석 김지영, 작가 이언주)에서는 글로벌 기술 트"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "'케데헌' 춤추는 젠슨 황을 보다니...'유퀴즈' 유재석 극찬",
+            "en": "'케데헌' 춤추는 젠슨 황을 보다니...'유퀴즈' 유재석 극찬"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/08/MI2WENBUGNSGGMTGGAYGGMJSMU/",
+          "time": "06. 08. AM 05:44"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780897433000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 “요즘 K만 붙이면 인기…이제 K젠슨이라고 불러 주세요”",
+        "en": "젠슨 황 “요즘 K만 붙이면 인기…이제 K젠슨이라고 불러 주세요”"
+      },
+      "url": "https://www.mk.co.kr/news/society/12068368",
+      "location": {
+        "name": {
+          "ko": "서울대학교",
+          "en": "서울대학교"
+        }
+      },
+      "datetime": "2026-06-08T05:43:53.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 05:43",
+        "en": "06. 08. AM 05:43"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "서울대서 학생들 대상으로 강연 “미래 로봇, 모든 역량 갖춘 한국 이런 나라서 사는 여러분 부럽다”젠슨 황 엔비디아 최고경영자(CEO)가 8일 서울대학교를 찾아 세상 전체가 변화하..",
+        "en": "서울대서 학생들 대상으로 강연 “미래 로봇, 모든 역량 갖춘 한국 이런 나라서 사는 여러분 부럽다”젠슨 황 엔비디아 최고경영자(CEO)가 8일 서울대학교를 찾아 세상 전체가 변화하.."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 8일 서울대학교를 찾아 세상 전체가 변화하는 상황에서 \"한국에서 성장하고 최고의 시기에 졸업하는 여러분이 너무 부럽다\"고 학생들에게 말했다.",
+          "이날 황 CEO를 보기 위해 이른 오전부터 서울대 공과대학 해동첨단공학과 건물 주차장에 학생들이 몰려들어 황 CEO를 만날 수 있는 행사장까지는 1시간 반 정도 걸렸다."
+        ],
+        "en": [
+          "서울대서 학생들 대상으로 강연 “미래 로봇, 모든 역량 갖춘 한국 이런 나라서 사는 여러분 부럽다”젠슨 황 엔비디아 최고경영자(CEO)가 8일 서울대학교를 찾아 세상 전체가 변화하.."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황 “요즘 K만 붙이면 인기…이제 K젠슨이라고 불러 주세요”",
+            "en": "젠슨 황 “요즘 K만 붙이면 인기…이제 K젠슨이라고 불러 주세요”"
+          },
+          "url": "https://www.mk.co.kr/news/society/12068368",
+          "time": "06. 08. AM 05:43"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780897428000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]",
+        "en": "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]"
+      },
+      "url": "https://www.hankyung.com/article/202606083214g",
+      "location": {
+        "name": {
+          "ko": "서울 양재동 현대차그룹 본사",
+          "en": "서울 양재동 현대차그룹 본사"
+        }
+      },
+      "datetime": "2026-06-08T05:43:48.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 05:43",
+        "en": "06. 08. AM 05:43"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]",
+        "en": "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 CEO가 정의선 현대차그룹 회장과 만났다.",
+          "현대차그룹 본사에서 환호성으로 맞이한 황 CEO"
+        ],
+        "en": [
+          "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]",
+            "en": "등장하자마자 \"와\" 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황 [영상]"
+          },
+          "url": "https://www.hankyung.com/article/202606083214g",
+          "time": "06. 08. AM 05:43"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780896180000",
       "type": "announcement",
@@ -5531,7 +5924,7 @@
       "id": "evt_snu_visit",
       "type": "visit",
       "is_new": true,
-      "source_count": 2,
+      "source_count": 3,
       "status": "in_progress",
       "status_label": {
         "ko": "진행중",
@@ -5592,6 +5985,18 @@
           },
           "url": "https://www.asiae.co.kr/en/article/2026060221082420700",
           "time": "06.02"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황 “요즘 K만 붙이면 인기…이제 K젠슨이라고 불러 주세요”",
+            "en": "젠슨 황 “요즘 K만 붙이면 인기…이제 K젠슨이라고 불러 주세요”"
+          },
+          "url": "https://www.mk.co.kr/news/society/12068368",
+          "time": "06. 08. AM 05:43"
         }
       ],
       "map_pin": {
@@ -6424,7 +6829,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 6,
+      "source_count": 7,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -6541,6 +6946,18 @@
           },
           "url": "https://www.hankyung.com/article/202606082749g",
           "time": "06. 08. AM 02:29"
+        },
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑",
+            "en": "젠슨 황 스치니 매출 대박…바나나맛 HBM칩 704%, BBQ 홍대점 20%↑"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/consumer/1262398.html",
+          "time": ""
         }
       ],
       "map_pin": {
