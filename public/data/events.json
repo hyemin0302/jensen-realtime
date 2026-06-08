@@ -1,8 +1,354 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T22:21:05.192Z",
+  "updatedAt": "2026-06-08T23:44:46.921Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780962172000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“젠슨 형, 로보틱스 주가 오르는 거지?”…재계 회장 줄 세운 엔비디아의 옥석 가리기 [오늘 나온 보고서]",
+        "en": "“젠슨 형, 로보틱스 주가 오르는 거지?”…재계 회장 줄 세운 엔비디아의 옥석 가리기 [오늘 나온 보고서]"
+      },
+      "url": "https://www.mk.co.kr/news/stock/12069097",
+      "location": {
+        "name": {
+          "ko": "서울 중구 신라호텔",
+          "en": "서울 중구 신라호텔"
+        }
+      },
+      "datetime": "2026-06-08T23:42:52.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 11:42",
+        "en": "06. 08. PM 11:42"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "iM증권 보고서 젠슨 황 방한에 주가 오락가락 “엔비디아, 휴머노이드 산업에 특히 관심 차익 실현 매물 나오지만 장기 모멘텀”젠슨 황 엔비디아 최고경영자(CEO)가 한국 로보틱스 ..",
+        "en": "iM증권 보고서 젠슨 황 방한에 주가 오락가락 “엔비디아, 휴머노이드 산업에 특히 관심 차익 실현 매물 나오지만 장기 모멘텀”젠슨 황 엔비디아 최고경영자(CEO)가 한국 로보틱스 .."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 한국 로보틱스 산업을 차세대 핵심 산업으로 언급",
+          "관련주들이 중장기 관점으로 투자해야 한다는 목소리가 나왔다"
+        ],
+        "en": [
+          "iM증권 보고서 젠슨 황 방한에 주가 오락가락 “엔비디아, 휴머노이드 산업에 특히 관심 차익 실현 매물 나오지만 장기 모멘텀”젠슨 황 엔비디아 최고경영자(CEO)가 한국 로보틱스 .."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "“젠슨 형, 로보틱스 주가 오르는 거지?”…재계 회장 줄 세운 엔비디아의 옥석 가리기 [오늘 나온 보고서]",
+            "en": "“젠슨 형, 로보틱스 주가 오르는 거지?”…재계 회장 줄 세운 엔비디아의 옥석 가리기 [오늘 나온 보고서]"
+          },
+          "url": "https://www.mk.co.kr/news/stock/12069097",
+          "time": "06. 08. PM 11:42"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780962111000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "성룡이 젠슨 황 연기? 온라인 뒤집은 캐스팅설의 전말",
+        "en": "성룡이 젠슨 황 연기? 온라인 뒤집은 캐스팅설의 전말"
+      },
+      "url": "https://www.mk.co.kr/news/culture/12069094",
+      "location": null,
+      "datetime": "2026-06-08T23:41:51.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 11:41",
+        "en": "06. 08. PM 11:41"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "최근 엔비디아 최고경영자(CEO) 젠슨 황의 방한 행보가 연일 화제를 모으는 가운데, 온라인에서는 “성룡이 젠슨 황의 일대기를 다룬 드라마에 캐스팅됐다”는 소문까지 확산됐다. 최근..",
+        "en": "최근 엔비디아 최고경영자(CEO) 젠슨 황의 방한 행보가 연일 화제를 모으는 가운데, 온라인에서는 “성룡이 젠슨 황의 일대기를 다룬 드라마에 캐스팅됐다”는 소문까지 확산됐다. 최근.."
+      },
+      "summary": {
+        "ko": [
+          "최근 엔비디아 최고경영자(CEO) 젠슨 황의 방한 행보가 연일 화제를 모으는 가운데, 온라인에서는 \"성룡이 젠슨 황의 일대기를 다룬 드라마에 캐스팅됐다\"는 소문까지 확산됐다.",
+          "하지만 이는 사실이 아니었다. 해당 사진은 AI로 제작된 이미지였으며, 드라마 제작 및 캐스팅 소식 역시 공식적으로 확인된 바 없는 것으로 드러났다."
+        ],
+        "en": [
+          "최근 엔비디아 최고경영자(CEO) 젠슨 황의 방한 행보가 연일 화제를 모으는 가운데, 온라인에서는 “성룡이 젠슨 황의 일대기를 다룬 드라마에 캐스팅됐다”는 소문까지 확산됐다. 최근.."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "성룡이 젠슨 황 연기? 온라인 뒤집은 캐스팅설의 전말",
+            "en": "성룡이 젠슨 황 연기? 온라인 뒤집은 캐스팅설의 전말"
+          },
+          "url": "https://www.mk.co.kr/news/culture/12069094",
+          "time": "06. 08. PM 11:41"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780959219000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“15억원짜리 만찬은 가면서”…美의원, 청문회 출석 요청에 젠슨 황이 한 말",
+        "en": "“15억원짜리 만찬은 가면서”…美의원, 청문회 출석 요청에 젠슨 황이 한 말"
+      },
+      "url": "https://www.mk.co.kr/news/world/12069073",
+      "location": null,
+      "datetime": "2026-06-08T22:53:39.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 10:53",
+        "en": "06. 08. PM 10:53"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 미 상원의 인공지능(AI) 청문회 출석 요청을 거부하는 대신 실리콘밸리로 의원을 초청하겠다는 역제안을 내놨다고 미 경제방송 CNBC가 8일(..",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 미 상원의 인공지능(AI) 청문회 출석 요청을 거부하는 대신 실리콘밸리로 의원을 초청하겠다는 역제안을 내놨다고 미 경제방송 CNBC가 8일(.."
+      },
+      "summary": {
+        "ko": [
+          "미 상원의 인공지능(AI) 청문회 출석 요청을 거부하는 대신 실리콘밸리로 의원을 초청하겠다는 역제안을 내놨다고 미 경제방송 CNBC가 8일(현지시간) 보도했다.",
+          "엔비디아 최고경영자(CEO)가 미 상원의 인공지능(AI) 청문회 출석 요청을 거부하는 대신 실리콘밸리로 의원을 초청하겠다는 역제안을 내놨다고 미 경제방송 CNBC가 8일(현지시간) 보도했다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 미 상원의 인공지능(AI) 청문회 출석 요청을 거부하는 대신 실리콘밸리로 의원을 초청하겠다는 역제안을 내놨다고 미 경제방송 CNBC가 8일(.."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "“15억원짜리 만찬은 가면서”…美의원, 청문회 출석 요청에 젠슨 황이 한 말",
+            "en": "“15억원짜리 만찬은 가면서”…美의원, 청문회 출석 요청에 젠슨 황이 한 말"
+          },
+          "url": "https://www.mk.co.kr/news/world/12069073",
+          "time": "06. 08. PM 10:53"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780959002000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까",
+        "en": "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까"
+      },
+      "url": "https://www.hankyung.com/article/202606084328i",
+      "location": null,
+      "datetime": "2026-06-08T22:50:02.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 10:50",
+        "en": "06. 08. PM 10:50"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까",
+        "en": "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까"
+      },
+      "summary": {
+        "ko": [
+          "네이버에게 인공지능(AI)은 올해 초까지만해도 약한 고리로 여겨졌다.",
+          "젠슨 황 엔비디아 최고경영자(CEO)가 네이버에 방문한다는 소식이 퍼진 지난달부터 상황은 변하기 시작했다."
+        ],
+        "en": [
+          "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까",
+            "en": "'AI 열등생' 취급받던 네이버…젠슨 황 만나 기지개 펼까"
+          },
+          "url": "https://www.hankyung.com/article/202606084328i",
+          "time": "06. 08. PM 10:50"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780957886000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "나영석 PD, 유튜브 올스타전 열었다···침착맨·빠니보틀 등판에 예고편부터 아수라장",
+        "en": "나영석 PD, 유튜브 올스타전 열었다···침착맨·빠니보틀 등판에 예고편부터 아수라장"
+      },
+      "url": "https://www.chosun.com/entertainments/enter_general/2026/06/09/MVRDEOLEHE2WINJYGUZDOM3GHE/",
+      "location": null,
+      "datetime": "2026-06-08T22:31:26.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 10:31",
+        "en": "06. 08. PM 10:31"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[스포츠조선 조민정 기자] 나영석 PD가 유튜브 대표 크리에이터들을 한자리에 모은 초대형 콘텐츠를 예고해 화제를 모으고 있다. 8일 유튜브 채널 '채널십오야'에는 '(금욜예고) 이게 내 젠슨황이야. 유튜브1황들과 함께한 고품격십오야회동'이라는 제목의 예고 영상이 공개됐다. 이번 콘텐츠는 '제1회 유튜브 심포지엄' 콘셉트로 꾸며질 예정이다. 예고편에는 나영석",
+        "en": "[스포츠조선 조민정 기자] 나영석 PD가 유튜브 대표 크리에이터들을 한자리에 모은 초대형 콘텐츠를 예고해 화제를 모으고 있다. 8일 유튜브 채널 '채널십오야'에는 '(금욜예고) 이게 내 젠슨황이야. 유튜브1황들과 함께한 고품격십오야회동'이라는 제목의 예고 영상이 공개됐다. 이번 콘텐츠는 '제1회 유튜브 심포지엄' 콘셉트로 꾸며질 예정이다. 예고편에는 나영석"
+      },
+      "summary": {
+        "ko": [
+          "나영석 PD가 유튜브 대표 크리에이터들을 한자리에 모은 초대형 콘텐츠를 예고해 화제를 모으고 있다.",
+          "8일 유튜브 채널 '채널십오야'에는 '(금욜예고) 이게 내 젠슨황이야. 유튜브1황들과 함께한 고품격십오야회동'이라는 제목의 예고 영상이 공개됐다."
+        ],
+        "en": [
+          "[스포츠조선 조민정 기자] 나영석 PD가 유튜브 대표 크리에이터들을 한자리에 모은 초대형 콘텐츠를 예고해 화제를 모으고 있다. 8일 유튜브 채널 '채널십오야'에는 '(금욜예고) 이게 내 젠슨황이야. 유튜브1황들과 함께한 고품격십오야회동'이라는 제목의 예고 영상이 공개됐다. 이번 콘텐츠는 '제1회 유튜브 심포지엄' 콘셉트로 꾸며질 예정이다. 예고편에는 나영석"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "나영석 PD, 유튜브 올스타전 열었다···침착맨·빠니보틀 등판에 예고편부터 아수라장",
+            "en": "나영석 PD, 유튜브 올스타전 열었다···침착맨·빠니보틀 등판에 예고편부터 아수라장"
+          },
+          "url": "https://www.chosun.com/entertainments/enter_general/2026/06/09/MVRDEOLEHE2WINJYGUZDOM3GHE/",
+          "time": "06. 08. PM 10:31"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780956421000",
       "type": "announcement",
@@ -9806,7 +10152,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 13,
+      "source_count": 14,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -10007,6 +10353,18 @@
           },
           "url": "https://www.hankyung.com/article/202606083190g",
           "time": "06. 08. PM 09:06"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "“15억원짜리 만찬은 가면서”…美의원, 청문회 출석 요청에 젠슨 황이 한 말",
+            "en": "“15억원짜리 만찬은 가면서”…美의원, 청문회 출석 요청에 젠슨 황이 한 말"
+          },
+          "url": "https://www.mk.co.kr/news/world/12069073",
+          "time": "06. 08. PM 10:53"
         }
       ],
       "map_pin": {
@@ -10031,7 +10389,7 @@
       "id": "evt_auto_loc_shilla",
       "type": "visit",
       "is_new": true,
-      "source_count": 7,
+      "source_count": 9,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -10160,6 +10518,30 @@
           },
           "url": "https://www.mk.co.kr/news/business/12069048",
           "time": "06. 08. PM 09:01"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "“젠슨 형, 로보틱스 주가 오르는 거지?”…재계 회장 줄 세운 엔비디아의 옥석 가리기 [오늘 나온 보고서]",
+            "en": "“젠슨 형, 로보틱스 주가 오르는 거지?”…재계 회장 줄 세운 엔비디아의 옥석 가리기 [오늘 나온 보고서]"
+          },
+          "url": "https://www.mk.co.kr/news/stock/12069097",
+          "time": "06. 08. PM 11:42"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"중국서 시진핑 만나더니…\" 美 의원 '젠슨 황' 때린 까닭은",
+            "en": "\"중국서 시진핑 만나더니…\" 美 의원 '젠슨 황' 때린 까닭은"
+          },
+          "url": "https://www.hankyung.com/article/2026060945847",
+          "time": "06. 08. PM 10:11"
         }
       ],
       "map_pin": {
