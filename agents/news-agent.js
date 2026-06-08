@@ -238,10 +238,10 @@ const FEEDS = [
   { url: 'https://www.yna.co.kr/rss/economy.xml',        src: '연합뉴스' },
   { url: 'https://www.hankyung.com/feed/all-news',        src: '한국경제' },
   { url: 'https://www.newsis.com/rss/realnews.xml',       src: '뉴시스'  },
-  { url: 'https://rss.mt.co.kr/mt/mt.xml',               src: '머니투데이' },
-  { url: 'https://biz.chosun.com/site/data/rss/rss.xml', src: '조선비즈' },
-  { url: 'https://www.mk.co.kr/rss/30000001/',            src: '매일경제' },
-  { url: 'https://n.news.naver.com/rss/news.xml',        src: '네이버뉴스' },
+  { url: 'https://rss.donga.com/total.xml',                                  src: '동아일보'  },
+  { url: 'https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml',   src: '조선일보'  },
+  { url: 'https://www.mk.co.kr/rss/30000001/',                              src: '매일경제'  },
+  { url: 'https://www.hani.co.kr/rss/economy',                              src: '한겨레'    },
 ];
 
 const KEYWORDS = [
