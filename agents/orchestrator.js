@@ -80,7 +80,8 @@ export function checkEventStatus(eventsData) {
 export async function runOrchestrator(options = {}) {
   const start = Date.now();
   console.log(`\n[orchestrator] 시작 ${new Date().toISOString()}`);
-  console.log(`[orchestrator] 모드: ${process.env.ANTHROPIC_API_KEY ? 'LLM 활성화' : '기본 모드'}`);
+  const LLM_KEY = process.env.GROQ_API_KEY || process.env.ANTHROPIC_API_KEY;
+  console.log(`[orchestrator] 모드: ${LLM_KEY ? 'LLM 활성화 (Groq)' : '기본 모드'}`);
 
   const report = { newsCards: 0, stockCount: 0, insights: 0, statusChanges: 0, errors: [] };
 
@@ -142,7 +143,7 @@ export async function runOrchestrator(options = {}) {
   }
 
   // ── Step 4: 인사이트 에이전트 (LLM 있을 때만) ──
-  if (options.runInsights && process.env.ANTHROPIC_API_KEY) {
+  if (options.runInsights && (process.env.GROQ_API_KEY || process.env.ANTHROPIC_API_KEY)) {
     try {
       console.log('\n[orchestrator] Step 4: 인사이트 에이전트');
       const eventsData = JSON.parse(fs.readFileSync(EVENTS_PATH, 'utf8'));

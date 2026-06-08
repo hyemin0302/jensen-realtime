@@ -493,8 +493,9 @@ export async function generateEventCards(articles) {
   // LLM 카드 생성 (GROQ_API_KEY 있을 때, Llama 3.1 8B)
   const generated = [];
 
-  for (const article of articles.slice(0, 10)) { // 배치당 최대 10개
+  for (const article of articles.slice(0, 5)) { // 무료 TPM 한도 내 최대 5개
     try {
+      await new Promise(r => setTimeout(r, 1200)); // 1.2초 간격 — 분당 6,000 토큰 한도 방어
       const text = await callGroq('llama-3.1-8b-instant', [{
         role: 'user',
         content: `다음 기사를 분석해서 JSON으로 반환해줘. 필드: status(예정/완료/진행중), confidence(확정/유력/예상/미정), summary_ko(요약 2줄 배열), location(장소명 또는 null), persons(인물명 배열).\n\n제목: ${article.t}\n요약: ${article.d}\n본문: ${(article.fullText || '').slice(0, 800)}\n출처: ${article.s}\n\nJSON만 반환.`

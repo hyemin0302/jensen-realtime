@@ -6,7 +6,7 @@
 import { runOrchestrator } from '../agents/orchestrator.js';
 
 const options = {
-  runInsights: process.env.ANTHROPIC_API_KEY ? true : false,
+  runInsights: (process.env.GROQ_API_KEY || process.env.ANTHROPIC_API_KEY) ? true : false,
 };
 
 console.log(`[batch-runner] ${new Date().toISOString()} 시작`);
