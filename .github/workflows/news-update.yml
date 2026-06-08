@@ -2,7 +2,7 @@ name: 뉴스 배치 업데이트 (2시간)
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 30분마다 — 이벤트 1시간 전 pre_insight 감지
+    - cron: '0 * * * *'  # 1시간마다
   workflow_dispatch:          # GitHub 대시보드에서 수동 실행 가능
 
 jobs:
