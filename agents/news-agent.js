@@ -1,12 +1,76 @@
 /**
  * 뉴스 에이전트 (News Agent)
  * LLM: 사용 (Claude Haiku) — RSS → 구조화 카드 자동 생성
- * 현재: LLM 없이 키워드 필터링만 수행 (Phase 2에서 LLM 연결)
- * 역할: RSS 수집 → 키워드 필터 → events.json 후보 생성
+ * 역할: RSS 수집 → 본문 크롤링 → 키워드 필터 → events.json 후보 생성
  */
 
 import fs from 'fs';
 import path from 'path';
+
+// ── 기사 본문 크롤링 ──────────────────────────────────────
+
+function htmlToText(html) {
+  return html
+    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#\d+;/g, '')
+    .replace(/\s+/g, ' ').trim();
+}
+
+function extractBody(html) {
+  // article/main → 사이트별 클래스 → body 순으로 시도
+  const patterns = [
+    /<article[^>]*>([\s\S]*?)<\/article>/i,
+    /<main[^>]*>([\s\S]*?)<\/main>/i,
+    /class="(?:article[_-]?(?:body|txt|content|view)|news[_-]?(?:body|content|detail|view|article)|view[_-]?cont|cont[_-]?detail)[^"]*"[^>]*>([\s\S]*?)<\/(?:div|section)>/i,
+    /<div[^>]+id="(?:article[_-]?body|article[_-]?view|newsContent|news_content)"[^>]*>([\s\S]*?)<\/div>/i,
+    /<body[^>]*>([\s\S]*?)<\/body>/i,
+  ];
+  for (const re of patterns) {
+    const m = html.match(re);
+    if (m?.[1]?.length > 200) return htmlToText(m[1]).slice(0, 3000);
+  }
+  return htmlToText(html).slice(0, 3000);
+}
+
+async function fetchFullText(url) {
+  if (!url || url === '#') return '';
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml',
+        'Accept-Language': 'ko-KR,ko;q=0.9',
+      },
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!res.ok) return '';
+    return extractBody(await res.text());
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * 기사 배열에 본문(fullText) 추가 — 동시 5개, 배치 간 400ms 대기
+ * @param {Array} items
+ * @returns {Promise<Array>}
+ */
+export async function enrichWithFullText(items, concurrency = 5) {
+  const results = [];
+  for (let i = 0; i < items.length; i += concurrency) {
+    const batch = items.slice(i, i + concurrency);
+    const texts = await Promise.all(batch.map(item => fetchFullText(item.u)));
+    texts.forEach((fullText, j) => results.push({ ...batch[j], fullText }));
+    if (i + concurrency < items.length) await new Promise(r => setTimeout(r, 400));
+  }
+  const ok = results.filter(r => r.fullText).length;
+  console.log(`[news-agent] 본문 크롤링: ${ok}/${results.length}건 성공`);
+  return results;
+}
 
 const FEEDS = [
   { url: 'https://www.yna.co.kr/rss/economy.xml',        src: '연합뉴스' },
@@ -49,7 +113,7 @@ function parseRSS(xml, src) {
     const b = m[1];
     const title = extractTag(b, 'title');
     const link  = extractTag(b, 'link') || extractTag(b, 'guid');
-    const desc  = extractTag(b, 'description').replace(/<[^>]+>/g, '').slice(0, 200);
+    const desc  = extractTag(b, 'description').replace(/<[^>]+>/g, '').slice(0, 400);
     const date  = extractTag(b, 'pubDate');
     if (!title) continue;
     const text = title + ' ' + desc;
@@ -126,9 +190,10 @@ export async function updateTimelineFromNews(events, articles) {
         event.title?.ko, event.location?.name?.ko,
         ...(event.key_persons || [])
       ].filter(Boolean);
-      const matched = articles.filter(a =>
-        keywords.some(kw => kw && (a.t.includes(kw) || a.d.includes(kw)))
-      );
+      const matched = articles.filter(a => {
+        const text = a.t + ' ' + (a.d || '') + ' ' + (a.fullText || '');
+        return keywords.some(kw => kw && text.includes(kw));
+      });
       if (!matched.length) continue;
 
       const existingUrls = new Set((event.sources || []).map(s => s.url));
@@ -170,7 +235,7 @@ export async function updateTimelineFromNews(events, articles) {
         max_tokens: 256,
         messages: [{
           role: 'user',
-          content: `이벤트: "${event.title?.ko}" (현재상태: ${event.status})\n\n관련 기사:\n${articleList}\n\n이 기사들이 위 이벤트가 실제로 진행됐거나 완료됐음을 보도하는가?\nJSON으로만 답변: { "confirmed": true/false, "completed": true/false, "reason": "한 문장" }`
+          content: `이벤트: "${event.title?.ko}" (현재상태: ${event.status})\n\n관련 기사:\n${articleList}\n\n이 기사들이 위 이벤트가 실제로 진행됐거나 완료됐음을 보도하는가? 기사 본문까지 참고해 판단해줘.\nJSON으로만 답변: { "confirmed": true/false, "completed": true/false, "reason": "한 문장" }`
         }]
       });
 
@@ -260,7 +325,7 @@ export async function generateEventCards(articles) {
         max_tokens: 512,
         messages: [{
           role: 'user',
-          content: `다음 기사를 분석해서 JSON으로 반환해줘. 필드: status(예정/완료/진행중), confidence(확정/유력/예상/미정), summary_ko(요약 2줄 배열), location(장소명 또는 null), persons(인물명 배열).\n\n제목: ${article.t}\n내용: ${article.d}\n출처: ${article.s}\n\nJSON만 반환.`
+          content: `다음 기사를 분석해서 JSON으로 반환해줘. 필드: status(예정/완료/진행중), confidence(확정/유력/예상/미정), summary_ko(요약 2줄 배열), location(장소명 또는 null), persons(인물명 배열).\n\n제목: ${article.t}\n요약: ${article.d}\n본문: ${(article.fullText || '').slice(0, 800)}\n출처: ${article.s}\n\nJSON만 반환.`
         }]
       });
       const parsed = JSON.parse(resp.content[0].text);
@@ -302,8 +367,11 @@ export async function generateEventCards(articles) {
  */
 export async function runNewsAgent(eventsPath) {
   console.log(`[news-agent] RSS 수집 시작`);
-  const articles = await collectRSS();
-  console.log(`[news-agent] ${articles.length}개 수집 완료`);
+  const rssArticles = await collectRSS();
+  console.log(`[news-agent] ${rssArticles.length}개 수집 완료`);
+
+  // 본문 크롤링으로 fullText 보강 (동시 5개, 배치 간 400ms)
+  const articles = await enrichWithFullText(rssArticles);
 
   // events.json 기존 이벤트 로드
   let eventsData = { events: [], feed: [] };
