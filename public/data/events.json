@@ -1,8 +1,371 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T01:48:34.172Z",
+  "updatedAt": "2026-06-08T05:04:58.364Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780893434000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이",
+        "en": "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이"
+      },
+      "url": "https://www.hankyung.com/article/2026060832967",
+      "location": {
+        "name": {
+          "ko": "현대차그룹 양재 사옥",
+          "en": "현대차그룹 양재 사옥"
+        }
+      },
+      "datetime": "2026-06-08T04:37:14.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 04:37",
+        "en": "06. 08. AM 04:37"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이",
+        "en": "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이",
+          "신용현 기자"
+        ],
+        "en": [
+          "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": "005380",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이",
+            "en": "[속보] 젠슨 황, 현대차그룹 양재 사옥 도착…정의선 회장 직접 맞이"
+          },
+          "url": "https://www.hankyung.com/article/2026060832967",
+          "time": "06. 08. AM 04:37"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780893315000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\"",
+        "en": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\""
+      },
+      "url": "https://www.hankyung.com/article/2026060832647",
+      "location": {
+        "name": {
+          "ko": "서울대학교",
+          "en": "서울대학교"
+        }
+      },
+      "datetime": "2026-06-08T04:35:15.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 04:35",
+        "en": "06. 08. AM 04:35"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\"",
+        "en": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\""
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 서울대학교를 방문해 재학생들과 만나며 인공지능(AI) 시대의 무한한 가능성을 강조했다.",
+          "황 CEO는 '지금은 산업 전체가, 그리고 세상 전체가 변화하고 있다'며 '최고의 시기에 졸업하는 여러분이 너무 부럽다'고 말했다."
+        ],
+        "en": [
+          "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\"",
+            "en": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\""
+          },
+          "url": "https://www.hankyung.com/article/2026060832647",
+          "time": "06. 08. AM 04:35"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780892901000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[포토] 악수하는 구광모-젠슨 황",
+        "en": "[포토] 악수하는 구광모-젠슨 황"
+      },
+      "url": "https://www.hankyung.com/article/202606083268i",
+      "location": {
+        "name": {
+          "ko": "서울 영등포구 LG그룹 사옥",
+          "en": "서울 영등포구 LG그룹 사옥"
+        }
+      },
+      "datetime": "2026-06-08T04:28:21.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 04:28",
+        "en": "06. 08. AM 04:28"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[포토] 악수하는 구광모-젠슨 황",
+        "en": "[포토] 악수하는 구광모-젠슨 황"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)와 구광모 LG회장이 8일 서울 영등포구 LG그룹 사옥에서 회동을 마친 뒤 취재진을 향해 악수를 하며 포즈를 취하고 있다.",
+          "젠슨 황 엔비디아 최고경영자(CEO)와 구광모 LG회장이 8일 서울 영등포구 LG그룹 사옥에서 취재진 질문에 답하고 있다."
+        ],
+        "en": [
+          "[포토] 악수하는 구광모-젠슨 황"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[포토] 악수하는 구광모-젠슨 황",
+            "en": "[포토] 악수하는 구광모-젠슨 황"
+          },
+          "url": "https://www.hankyung.com/article/202606083268i",
+          "time": "06. 08. AM 04:28"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780892572000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[포토] LG그룹 사옥 방문한 젠슨 황",
+        "en": "[포토] LG그룹 사옥 방문한 젠슨 황"
+      },
+      "url": "https://www.hankyung.com/article/202606083261i",
+      "location": {
+        "name": {
+          "ko": "서울 영등포구 LG그룹 사옥",
+          "en": "서울 영등포구 LG그룹 사옥"
+        }
+      },
+      "datetime": "2026-06-08T04:22:52.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 04:22",
+        "en": "06. 08. AM 04:22"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[포토] LG그룹 사옥 방문한 젠슨 황",
+        "en": "[포토] LG그룹 사옥 방문한 젠슨 황"
+      },
+      "summary": {
+        "ko": [
+          "LG그룹 사옥 방문한 젠슨 황",
+          "엔비디아 최고경영자(CEO)와 구광모 LG회장이 악수를 하고 있다."
+        ],
+        "en": [
+          "[포토] LG그룹 사옥 방문한 젠슨 황"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[포토] LG그룹 사옥 방문한 젠슨 황",
+            "en": "[포토] LG그룹 사옥 방문한 젠슨 황"
+          },
+          "url": "https://www.hankyung.com/article/202606083261i",
+          "time": "06. 08. AM 04:22"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780887480000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 “주가 폭락? 좋은 매수 타이밍”",
+        "en": "젠슨 황 “주가 폭락? 좋은 매수 타이밍”"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134069074/2",
+      "location": {
+        "name": {
+          "ko": "서울 여의도 LG트윈타워",
+          "en": "서울 여의도 LG트윈타워"
+        }
+      },
+      "datetime": "2026-06-08T02:58:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 02:58",
+        "en": "06. 08. AM 02:58"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "LG와 엔비디아가 피지컬 인공지능(AI), AI 데이터센터 등 차세대 AI 기반 산업 전반에서 전략적 협력을 확대하기로 했다. 젠슨 황 엔비디아 최고경영자(CEO)는 이 자리에서 주가 폭락에 대해 “좋은 매수 타이밍”이라고 말했다.황 CEO는 이날 오전 서울 여의도 LG트윈타워에서 구광모 LG그룹 회장과 재회했다. 5일 서울 마포구 홍대 인근의 한 고기집에서 만난 지 3일 만이다. 두 사람은 1시간가량 면담한 뒤 1층 로비로 내려와 취재진에 성과에 대해 이야기했다. 황 CEO는 “우리가 함께 협력하고 있는 가장 중요한 분야 중 하나는 로보틱스”라며 “LG의 AI 연구진과 협력하고 있는데, 그들은 정말 대단하다”고 말했다. 로보틱스는 로봇을 설계·제작·제어하는 기술과 산업 전반을 뜻한다.황 CEO는 “미래의 ",
+        "en": "LG와 엔비디아가 피지컬 인공지능(AI), AI 데이터센터 등 차세대 AI 기반 산업 전반에서 전략적 협력을 확대하기로 했다. 젠슨 황 엔비디아 최고경영자(CEO)는 이 자리에서 주가 폭락에 대해 “좋은 매수 타이밍”이라고 말했다.황 CEO는 이날 오전 서울 여의도 LG트윈타워에서 구광모 LG그룹 회장과 재회했다. 5일 서울 마포구 홍대 인근의 한 고기집에서 만난 지 3일 만이다. 두 사람은 1시간가량 면담한 뒤 1층 로비로 내려와 취재진에 성과에 대해 이야기했다. 황 CEO는 “우리가 함께 협력하고 있는 가장 중요한 분야 중 하나는 로보틱스”라며 “LG의 AI 연구진과 협력하고 있는데, 그들은 정말 대단하다”고 말했다. 로보틱스는 로봇을 설계·제작·제어하는 기술과 산업 전반을 뜻한다.황 CEO는 “미래의 "
+      },
+      "summary": {
+        "ko": [
+          "LG와 엔비디아가 피지컬 인공지능(AI), AI 데이터센터 등 차세대 AI 기반 산업 전반에서 전략적 협력을 확대하기로 했다.",
+          "젠슨 황 엔비디아 최고경영자(CEO)는 이 자리에서 주가 폭락에 대해 '좋은 매수 타이밍'이라고 말했다."
+        ],
+        "en": [
+          "LG와 엔비디아가 피지컬 인공지능(AI), AI 데이터센터 등 차세대 AI 기반 산업 전반에서 전략적 협력을 확대하기로 했다. 젠슨 황 엔비디아 최고경영자(CEO)는 이 자리에서 주가 폭락에 대해 “좋은 매수 타이밍”이라고 말했다.황 CEO는 이날 오전 서울 여의도 LG트윈타워에서 구광모 LG그룹 회장과 재회했다. 5일 서울 마포구 홍대 인근의 한 고기집에서 만난 지 3일 만이다. 두 사람은 1시간가량 면담한 뒤 1층 로비로 내려와 취재진에 성과에 대해 이야기했다. 황 CEO는 “우리가 함께 협력하고 있는 가장 중요한 분야 중 하나는 로보틱스”라며 “LG의 AI 연구진과 협력하고 있는데, 그들은 정말 대단하다”고 말했다. 로보틱스는 로봇을 설계·제작·제어하는 기술과 산업 전반을 뜻한다.황 CEO는 “미래의 "
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황 “주가 폭락? 좋은 매수 타이밍”",
+            "en": "젠슨 황 “주가 폭락? 좋은 매수 타이밍”"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134069074/2",
+          "time": "06. 08. AM 02:58"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_auto_1780882851000",
       "type": "announcement",
@@ -3931,10 +4294,10 @@
       "type": "event",
       "is_new": false,
       "source_count": 3,
-      "status": "in_progress",
+      "status": "completed",
       "status_label": {
-        "ko": "진행중",
-        "en": "live"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -4949,7 +5312,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 3,
+      "source_count": 6,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -5030,6 +5393,42 @@
           },
           "url": "https://www.yna.co.kr/view/AKR20260606045700030",
           "time": "06. 06. PM 09:11"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\"",
+            "en": "서울대 찾은 젠슨 황 \"산업과 세상 변화하는 최고의 시기 졸업 부럽다\""
+          },
+          "url": "https://www.hankyung.com/article/2026060832647",
+          "time": "06. 08. AM 04:35"
+        },
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황 “주가 폭락? 좋은 매수 타이밍”",
+            "en": "젠슨 황 “주가 폭락? 좋은 매수 타이밍”"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134069074/2",
+          "time": "06. 08. AM 02:58"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "올해만 6번 만난 '깐부' 최태원…젠슨 황 '선물 보따리' 풀었다",
+            "en": "올해만 6번 만난 '깐부' 최태원…젠슨 황 '선물 보따리' 풀었다"
+          },
+          "url": "https://www.hankyung.com/article/202606082749g",
+          "time": "06. 08. AM 02:29"
         }
       ],
       "map_pin": {
