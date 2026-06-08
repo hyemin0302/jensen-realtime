@@ -1,8 +1,389 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T20:38:36.396Z",
+  "updatedAt": "2026-06-08T22:21:05.192Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780956421000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[머니톡스] \"형, 동생, 깐부\"…AI 권력자의 비즈니스",
+        "en": "[머니톡스] \"형, 동생, 깐부\"…AI 권력자의 비즈니스"
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260608154400546",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-08T22:07:01.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 10:07",
+        "en": "06. 08. PM 10:07"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 윤선희 선임기자 = ＃ 전 세계 인공지능(AI) 황제로 불리는 젠슨 황 엔비디아 창립자 겸 최고경영자(CEO)가 한국 산업계를...",
+        "en": "(서울=연합뉴스) 윤선희 선임기자 = ＃ 전 세계 인공지능(AI) 황제로 불리는 젠슨 황 엔비디아 창립자 겸 최고경영자(CEO)가 한국 산업계를..."
+      },
+      "summary": {
+        "ko": [
+          "전 세계 인공지능 황제로 불리는 젠슨 황 엔비디아 창립자 겸 최고경영자가 한국 산업계를 들었다 놨다 했다.",
+          "황 CEO는 이번 방한에서 반도체, 배터리·모빌리티, 플랫폼, 중공업 등 핵심 산업을 이끄는 한국 총수들을 만나 엔비디아가 중심에 있는 글로벌 AI 동맹을 다지고 실리를 챙겼다."
+        ],
+        "en": [
+          "(서울=연합뉴스) 윤선희 선임기자 = ＃ 전 세계 인공지능(AI) 황제로 불리는 젠슨 황 엔비디아 창립자 겸 최고경영자(CEO)가 한국 산업계를..."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "[머니톡스] \"형, 동생, 깐부\"…AI 권력자의 비즈니스",
+            "en": "[머니톡스] \"형, 동생, 깐부\"…AI 권력자의 비즈니스"
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260608154400546",
+          "time": "06. 08. PM 10:07"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780952781000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유",
+        "en": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유"
+      },
+      "url": "https://www.hankyung.com/article/202606083190g",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-08T21:06:21.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 09:06",
+        "en": "06. 08. PM 09:06"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유",
+        "en": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 국내에서 탄 의전 차량이 화제다.",
+          "황 CEO는 제네시스 G90를 의전차로 사용했다."
+        ],
+        "en": [
+          "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유",
+            "en": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유"
+          },
+          "url": "https://www.hankyung.com/article/202606083190g",
+          "time": "06. 08. PM 09:06"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780952491000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "페이커로 시작한 젠슨 황의 4박5일…마지막은 역시 이 회사였다",
+        "en": "페이커로 시작한 젠슨 황의 4박5일…마지막은 역시 이 회사였다"
+      },
+      "url": "https://www.mk.co.kr/news/business/12069048",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-08T21:01:31.000Z",
+      "datetime_display": {
+        "ko": "06. 08. PM 09:01",
+        "en": "06. 08. PM 09:01"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "신라호텔서 삼성 경영진 만나인공지능(AI) 반도체 시장의 세계 최대 고객사인 엔비디아와 공급망 확대를 노리는 삼성전자 반도체 수장이 8일 서울에서 마주 앉았다. 업계에선 양사가 차..",
+        "en": "신라호텔서 삼성 경영진 만나인공지능(AI) 반도체 시장의 세계 최대 고객사인 엔비디아와 공급망 확대를 노리는 삼성전자 반도체 수장이 8일 서울에서 마주 앉았다. 업계에선 양사가 차.."
+      },
+      "summary": {
+        "ko": [
+          "신라호텔서 삼성 경영진 만나",
+          "엔비디아와 공급망 확대를 노리는 삼성전자 반도체 수장이 8일 서울에서 마주 앉았다."
+        ],
+        "en": [
+          "신라호텔서 삼성 경영진 만나인공지능(AI) 반도체 시장의 세계 최대 고객사인 엔비디아와 공급망 확대를 노리는 삼성전자 반도체 수장이 8일 서울에서 마주 앉았다. 업계에선 양사가 차.."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005930",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005935",
+          "name": {
+            "ko": "삼성전자우",
+            "en": "삼성전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "페이커로 시작한 젠슨 황의 4박5일…마지막은 역시 이 회사였다",
+            "en": "페이커로 시작한 젠슨 황의 4박5일…마지막은 역시 이 회사였다"
+          },
+          "url": "https://www.mk.co.kr/news/business/12069048",
+          "time": "06. 08. PM 09:01"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780815615000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
+        "en": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs"
+      },
+      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+      "location": {
+        "name": {
+          "ko": "한국",
+          "en": "한국"
+        }
+      },
+      "datetime": "2026-06-07T07:00:15.000Z",
+      "datetime_display": {
+        "ko": "06. 07. AM 07:00",
+        "en": "06. 07. AM 07:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — [&#8230;]",
+        "en": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — [&#8230;]"
+      },
+      "summary": {
+        "ko": [
+          "NVIDIA는 RTX Spark를 발표하여 윈도우 PC를 개인 AI 에이전트 시대에 맞게 재창조했습니다.",
+          "NVIDIA의 Jensen Huang CEO는 RTX Spark를 한국의 열정적인 게임 커뮤니티에 소개했습니다."
+        ],
+        "en": [
+          "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — [&#8230;]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "NVIDIA공식",
+            "en": "NVIDIA공식"
+          },
+          "title": {
+            "ko": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
+            "en": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs"
+          },
+          "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+          "time": "06. 07. AM 07:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780637917000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "진행중",
+      "status_label": {
+        "ko": "진행중",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+        "en": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI"
+      },
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-05T05:38:37.000Z",
+      "datetime_display": {
+        "ko": "06. 05. AM 05:38",
+        "en": "06. 05. AM 05:38"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live [&#8230;]",
+        "en": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live [&#8230;]"
+      },
+      "summary": {
+        "ko": [
+          "NVIDIA의 창립자이자 CEO인 Jensen Huang이 서울을 방문하여 한국의 AI 개발자, 자주적 인프라 파트너 및 게임 커뮤니티를 만납니다.",
+          "서울은 세계적인 AI 센터 중 하나로,尖端 자주적 인프라 및 로봇 기술 혁신가, 세계에서 가장 열정적인 게임 커뮤니티가 있습니다."
+        ],
+        "en": [
+          "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live [&#8230;]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "NVIDIA공식",
+            "en": "NVIDIA공식"
+          },
+          "title": {
+            "ko": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+            "en": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI"
+          },
+          "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+          "time": "06. 05. AM 05:38"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780946767000",
       "type": "announcement",
@@ -9425,7 +9806,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 12,
+      "source_count": 13,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -9614,6 +9995,18 @@
           },
           "url": "https://www.hankyung.com/article/2026060843647",
           "time": "06. 08. PM 12:07"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유",
+            "en": "마이바흐 타던 젠슨황이 선택한 '국산차 끝판왕'…의전차 바뀐 이유"
+          },
+          "url": "https://www.hankyung.com/article/202606083190g",
+          "time": "06. 08. PM 09:06"
         }
       ],
       "map_pin": {
@@ -9638,7 +10031,7 @@
       "id": "evt_auto_loc_shilla",
       "type": "visit",
       "is_new": true,
-      "source_count": 6,
+      "source_count": 7,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -9755,6 +10148,18 @@
           },
           "url": "https://www.mk.co.kr/news/business/12068880",
           "time": "06. 08. PM 12:09"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "페이커로 시작한 젠슨 황의 4박5일…마지막은 역시 이 회사였다",
+            "en": "페이커로 시작한 젠슨 황의 4박5일…마지막은 역시 이 회사였다"
+          },
+          "url": "https://www.mk.co.kr/news/business/12069048",
+          "time": "06. 08. PM 09:01"
         }
       ],
       "map_pin": {
