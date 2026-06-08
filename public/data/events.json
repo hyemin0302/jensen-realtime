@@ -1,8 +1,980 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T01:23:06.856Z",
+  "updatedAt": "2026-06-08T01:48:34.172Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_auto_1780882851000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "SKT, 엔비디아와 글로벌 AI 인프라 구축…한국 첫 ‘AI 팩토리’ 2027년 가동 시작",
+        "en": "SKT, 엔비디아와 글로벌 AI 인프라 구축…한국 첫 ‘AI 팩토리’ 2027년 가동 시작"
+      },
+      "url": "https://www.donga.com/news/It/article/all/20260608/134068419/2",
+      "location": null,
+      "datetime": "2026-06-08T01:40:51.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 01:40",
+        "en": "06. 08. AM 01:40"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "SK텔레콤이 엔비디아와 함께 글로벌시장을 겨냥해 AI(인공지능) 인프라를 구축한다.SKT는 8일 “양사는 엔비디아 DSX 플랫폼을 기반으로 칩부터 데이터센터 운영까지 아우르는 ‘풀스택(Full Stack) AI 클라우드’ 협력을 추진하기로 했다”며 “이를 위해 양사는 AI 작업에 특화된 데이터센터인 ‘AI 팩토리’를 GW(기가와트)급 스케일을 목표로 확장해 나갈 예정”이라고 밝혔다. DSX 플랫폼은 시스템부터 인프라 소프트웨어·시설·파트너 기술까지 풀스택 전반에 걸쳐 AI 팩토리의 설계·구축·최적화 방식을 정의하는 플랫폼이다. 앞서 1일 대만에서 만난 최태원 SK그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 는 양사가 구상해 온 AI 인프라 로드맵을 검토하고 그룹 차원의 협력을 추진하기로 합의했다. 이",
+        "en": "SK텔레콤이 엔비디아와 함께 글로벌시장을 겨냥해 AI(인공지능) 인프라를 구축한다.SKT는 8일 “양사는 엔비디아 DSX 플랫폼을 기반으로 칩부터 데이터센터 운영까지 아우르는 ‘풀스택(Full Stack) AI 클라우드’ 협력을 추진하기로 했다”며 “이를 위해 양사는 AI 작업에 특화된 데이터센터인 ‘AI 팩토리’를 GW(기가와트)급 스케일을 목표로 확장해 나갈 예정”이라고 밝혔다. DSX 플랫폼은 시스템부터 인프라 소프트웨어·시설·파트너 기술까지 풀스택 전반에 걸쳐 AI 팩토리의 설계·구축·최적화 방식을 정의하는 플랫폼이다. 앞서 1일 대만에서 만난 최태원 SK그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 는 양사가 구상해 온 AI 인프라 로드맵을 검토하고 그룹 차원의 협력을 추진하기로 합의했다. 이"
+      },
+      "summary": {
+        "ko": [
+          "SK텔레콤이 엔비디아와 함께 글로벌시장을 겨냥해 AI(인공지능) 인프라를 구축한다.SKT는 8일 “양사는 엔비디아 DSX 플랫폼을 기반으로 칩부터 데이터센터 운영까지 아우르는 ‘풀스택(Full Stack) AI 클라우드’ 협력을 추진하기로 했다”며 “이를 위해 양사는 AI 작업에 특화된 데이터센터인 ‘AI 팩토리’를 GW(기가와트)급 스케일을 목표로 확장해 나갈 예정”이라고 밝혔다. DSX 플랫폼은 시스템부터 인프라 소프트웨어·시설·파트너 기술까지 풀스택 전반에 걸쳐 AI 팩토리의 설계·구축·최적화 방식을 정의하는 플랫폼이다. 앞서 1일 대만에서 만난 최태원 SK그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 는 양사가 구상해 온 AI 인프라 로드맵을 검토하고 그룹 차원의 협력을 추진하기로 합의했다. 이"
+        ],
+        "en": [
+          "SK텔레콤이 엔비디아와 함께 글로벌시장을 겨냥해 AI(인공지능) 인프라를 구축한다.SKT는 8일 “양사는 엔비디아 DSX 플랫폼을 기반으로 칩부터 데이터센터 운영까지 아우르는 ‘풀스택(Full Stack) AI 클라우드’ 협력을 추진하기로 했다”며 “이를 위해 양사는 AI 작업에 특화된 데이터센터인 ‘AI 팩토리’를 GW(기가와트)급 스케일을 목표로 확장해 나갈 예정”이라고 밝혔다. DSX 플랫폼은 시스템부터 인프라 소프트웨어·시설·파트너 기술까지 풀스택 전반에 걸쳐 AI 팩토리의 설계·구축·최적화 방식을 정의하는 플랫폼이다. 앞서 1일 대만에서 만난 최태원 SK그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 는 양사가 구상해 온 AI 인프라 로드맵을 검토하고 그룹 차원의 협력을 추진하기로 합의했다. 이"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "017670",
+          "name": "017670",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "SKT, 엔비디아와 글로벌 AI 인프라 구축…한국 첫 ‘AI 팩토리’ 2027년 가동 시작",
+            "en": "SKT, 엔비디아와 글로벌 AI 인프라 구축…한국 첫 ‘AI 팩토리’ 2027년 가동 시작"
+          },
+          "url": "https://www.donga.com/news/It/article/all/20260608/134068419/2",
+          "time": "06. 08. AM 01:40"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780881909000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "SWM.AI, 강남 누비는 로보택시로 완전 무인 자율주행 정조준",
+        "en": "SWM.AI, 강남 누비는 로보택시로 완전 무인 자율주행 정조준"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134068270/1",
+      "location": null,
+      "datetime": "2026-06-08T01:25:09.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 01:25",
+        "en": "06. 08. AM 01:25"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "에스더블유엠(SWM.AI)이 글로벌 ICT 기업 레노버(Lenovo)와 차세대 자율주행 컨트롤러 ‘AP-700’ 공동 개발 계약을 체결했다고 8일 밝혔다.  이번 계약은 서울 도심에서 축적한 실주행 데이터와 글로벌 컴퓨팅 기술을 결합하여 완전 무인 자율주행차를 현실 공간에서 구동하는 완성형 피지컬 AI로 구현하기 위해 체결됐다. SWM.AI는 이번 협력으로 서울 도심을 주행하는 로보택시를 피지컬 AI(Physical AI)로 완성하고, 완전 무인 자율주행 상용화에 필요한 요소를 마련했다는 평가를 받고 있다. 가상 세계를 넘어 현실 공간에서 직접 인지하고(Perception), 판단하며(Reasoning), 행동하는(Action) 피지컬 AI는 기술 산업의 주요 분야로 거론된다. 엔비디아 젠슨 황 CEO가 한",
+        "en": "에스더블유엠(SWM.AI)이 글로벌 ICT 기업 레노버(Lenovo)와 차세대 자율주행 컨트롤러 ‘AP-700’ 공동 개발 계약을 체결했다고 8일 밝혔다.  이번 계약은 서울 도심에서 축적한 실주행 데이터와 글로벌 컴퓨팅 기술을 결합하여 완전 무인 자율주행차를 현실 공간에서 구동하는 완성형 피지컬 AI로 구현하기 위해 체결됐다. SWM.AI는 이번 협력으로 서울 도심을 주행하는 로보택시를 피지컬 AI(Physical AI)로 완성하고, 완전 무인 자율주행 상용화에 필요한 요소를 마련했다는 평가를 받고 있다. 가상 세계를 넘어 현실 공간에서 직접 인지하고(Perception), 판단하며(Reasoning), 행동하는(Action) 피지컬 AI는 기술 산업의 주요 분야로 거론된다. 엔비디아 젠슨 황 CEO가 한"
+      },
+      "summary": {
+        "ko": [
+          "에스더블유엠(SWM.AI)이 글로벌 ICT 기업 레노버(Lenovo)와 차세대 자율주행 컨트롤러 ‘AP-700’ 공동 개발 계약을 체결했다고 8일 밝혔다.  이번 계약은 서울 도심에서 축적한 실주행 데이터와 글로벌 컴퓨팅 기술을 결합하여 완전 무인 자율주행차를 현실 공간에서 구동하는 완성형 피지컬 AI로 구현하기 위해 체결됐다. SWM.AI는 이번 협력으로 서울 도심을 주행하는 로보택시를 피지컬 AI(Physical AI)로 완성하고, 완전 무인 자율주행 상용화에 필요한 요소를 마련했다는 평가를 받고 있다. 가상 세계를 넘어 현실 공간에서 직접 인지하고(Perception), 판단하며(Reasoning), 행동하는(Action) 피지컬 AI는 기술 산업의 주요 분야로 거론된다. 엔비디아 젠슨 황 CEO가 한"
+        ],
+        "en": [
+          "에스더블유엠(SWM.AI)이 글로벌 ICT 기업 레노버(Lenovo)와 차세대 자율주행 컨트롤러 ‘AP-700’ 공동 개발 계약을 체결했다고 8일 밝혔다.  이번 계약은 서울 도심에서 축적한 실주행 데이터와 글로벌 컴퓨팅 기술을 결합하여 완전 무인 자율주행차를 현실 공간에서 구동하는 완성형 피지컬 AI로 구현하기 위해 체결됐다. SWM.AI는 이번 협력으로 서울 도심을 주행하는 로보택시를 피지컬 AI(Physical AI)로 완성하고, 완전 무인 자율주행 상용화에 필요한 요소를 마련했다는 평가를 받고 있다. 가상 세계를 넘어 현실 공간에서 직접 인지하고(Perception), 판단하며(Reasoning), 행동하는(Action) 피지컬 AI는 기술 산업의 주요 분야로 거론된다. 엔비디아 젠슨 황 CEO가 한"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "SWM.AI, 강남 누비는 로보택시로 완전 무인 자율주행 정조준",
+            "en": "SWM.AI, 강남 누비는 로보택시로 완전 무인 자율주행 정조준"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134068270/1",
+          "time": "06. 08. AM 01:25"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780881889000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황“하닉 없인 AI 발전 불가…주식시장 변동? 할인가에 살 기회” [현장]",
+        "en": "젠슨 황“하닉 없인 AI 발전 불가…주식시장 변동? 할인가에 살 기회” [현장]"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068139",
+      "location": null,
+      "datetime": "2026-06-08T01:24:49.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 01:24",
+        "en": "06. 08. AM 01:24"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "베라 루빈·젯슨 토르 등 차세대 라인업 전방위 탑재 공식화 “AI는 글로벌 핵심 인프라…기정사실” 주가 급등락 우려에 “싸게 살 기회”SK하이닉스와 글로벌 AI 컴퓨팅 선두주자인 ..",
+        "en": "베라 루빈·젯슨 토르 등 차세대 라인업 전방위 탑재 공식화 “AI는 글로벌 핵심 인프라…기정사실” 주가 급등락 우려에 “싸게 살 기회”SK하이닉스와 글로벌 AI 컴퓨팅 선두주자인 .."
+      },
+      "summary": {
+        "ko": [
+          "베라 루빈·젯슨 토르 등 차세대 라인업 전방위 탑재 공식화 “AI는 글로벌 핵심 인프라…기정사실” 주가 급등락 우려에 “싸게 살 기회”SK하이닉스와 글로벌 AI 컴퓨팅 선두주자인 .."
+        ],
+        "en": [
+          "베라 루빈·젯슨 토르 등 차세대 라인업 전방위 탑재 공식화 “AI는 글로벌 핵심 인프라…기정사실” 주가 급등락 우려에 “싸게 살 기회”SK하이닉스와 글로벌 AI 컴퓨팅 선두주자인 .."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": "000660",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황“하닉 없인 AI 발전 불가…주식시장 변동? 할인가에 살 기회” [현장]",
+            "en": "젠슨 황“하닉 없인 AI 발전 불가…주식시장 변동? 할인가에 살 기회” [현장]"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068139",
+          "time": "06. 08. AM 01:24"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780881655000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”",
+        "en": "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/08/W4Q422BULRCHXLG2BMQIF5YW4I/",
+      "location": null,
+      "datetime": "2026-06-08T01:20:55.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 01:20",
+        "en": "06. 08. AM 01:20"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”",
+        "en": "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”"
+        ],
+        "en": [
+          "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”",
+            "en": "젠슨 황 “AI 혁명 초입”...최태원 “엔비디아와 AI 팩토리 구축”"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/06/08/W4Q422BULRCHXLG2BMQIF5YW4I/",
+          "time": "06. 08. AM 01:20"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780880640000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "최태원 “엔비디아와 메모리 넘어 미래 AI 팩토리 협력”…AI인프라 동맹",
+        "en": "최태원 “엔비디아와 메모리 넘어 미래 AI 팩토리 협력”…AI인프라 동맹"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134068044/2",
+      "location": null,
+      "datetime": "2026-06-08T01:04:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 01:04",
+        "en": "06. 08. AM 01:04"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. 최태원 SK그룹 회장은 “(양사가) 주로 (해왔던 것이) 메모리 협력인데 지금부터는 협력의 차원을 높이는 것”이라고 설명했다.최 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 이날 오전 서울 종로구 SK서린빌딩에서 이같은 협력안을 발표했다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이",
+        "en": "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. 최태원 SK그룹 회장은 “(양사가) 주로 (해왔던 것이) 메모리 협력인데 지금부터는 협력의 차원을 높이는 것”이라고 설명했다.최 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 이날 오전 서울 종로구 SK서린빌딩에서 이같은 협력안을 발표했다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이"
+      },
+      "summary": {
+        "ko": [
+          "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. 최태원 SK그룹 회장은 “(양사가) 주로 (해왔던 것이) 메모리 협력인데 지금부터는 협력의 차원을 높이는 것”이라고 설명했다.최 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 이날 오전 서울 종로구 SK서린빌딩에서 이같은 협력안을 발표했다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이"
+        ],
+        "en": [
+          "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. 최태원 SK그룹 회장은 “(양사가) 주로 (해왔던 것이) 메모리 협력인데 지금부터는 협력의 차원을 높이는 것”이라고 설명했다.최 회장과 젠슨 황 엔비디아 최고경영자(CEO)는 이날 오전 서울 종로구 SK서린빌딩에서 이같은 협력안을 발표했다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": "000660",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "최태원 “엔비디아와 메모리 넘어 미래 AI 팩토리 협력”…AI인프라 동맹",
+            "en": "최태원 “엔비디아와 메모리 넘어 미래 AI 팩토리 협력”…AI인프라 동맹"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134068044/2",
+          "time": "06. 08. AM 01:04"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780877880000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "SK하이닉스, 엔비디아와 ‘AI 팩토리’ 차세대 메모리 공동개발",
+        "en": "SK하이닉스, 엔비디아와 ‘AI 팩토리’ 차세대 메모리 공동개발"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134067566/2",
+      "location": null,
+      "datetime": "2026-06-08T00:18:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 12:18",
+        "en": "06. 08. AM 12:18"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. SK하이닉스는 이날 오전 “양사는 지난 수년간 세계 최고 수준의 AI 컴퓨팅 플랫폼 구축을 위해 긴밀히 진행해 온 협업을 바탕으로 파트너십을 고도화하는 데 뜻을 모았다”며 이같이 밝혔다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이다. 젠슨 황 엔비디아 최고경영자(CEO)는 “AI 팩",
+        "en": "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. SK하이닉스는 이날 오전 “양사는 지난 수년간 세계 최고 수준의 AI 컴퓨팅 플랫폼 구축을 위해 긴밀히 진행해 온 협업을 바탕으로 파트너십을 고도화하는 데 뜻을 모았다”며 이같이 밝혔다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이다. 젠슨 황 엔비디아 최고경영자(CEO)는 “AI 팩"
+      },
+      "summary": {
+        "ko": [
+          "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. SK하이닉스는 이날 오전 “양사는 지난 수년간 세계 최고 수준의 AI 컴퓨팅 플랫폼 구축을 위해 긴밀히 진행해 온 협업을 바탕으로 파트너십을 고도화하는 데 뜻을 모았다”며 이같이 밝혔다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이다. 젠슨 황 엔비디아 최고경영자(CEO)는 “AI 팩"
+        ],
+        "en": [
+          "SK하이닉스가 엔비디아와 글로벌 AI(인공지능) 팩토리 구축을 위한 차세대 메모리를 공동 개발한다고 8일 발표했다. 또 반도체 설계 및 제조를 가속화하는 장기 기술 파트너십을 강화하기로 했다. SK하이닉스는 이날 오전 “양사는 지난 수년간 세계 최고 수준의 AI 컴퓨팅 플랫폼 구축을 위해 긴밀히 진행해 온 협업을 바탕으로 파트너십을 고도화하는 데 뜻을 모았다”며 이같이 밝혔다. SK하이닉스는 이번 파트너십을 통해 AI 인프라∙퍼스널 AI∙피지컬 AI 등 엔비디아가 개척하는 AI 분야 신시장에도 진출한다. 양사는 최신 AI 가속기 ‘베라 루빈’, 베라 CPU(중앙처리장치), RTX 스파크 PC, 젯슨 토르 로보틱 컴퓨팅 플랫폼용 메모리를 공동 개발할 예정이다. 젠슨 황 엔비디아 최고경영자(CEO)는 “AI 팩"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": "000660",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "SK하이닉스, 엔비디아와 ‘AI 팩토리’ 차세대 메모리 공동개발",
+            "en": "SK하이닉스, 엔비디아와 ‘AI 팩토리’ 차세대 메모리 공동개발"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134067566/2",
+          "time": "06. 08. AM 12:18"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780804083000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석",
+        "en": "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/07/VE4N3AOE7VC4TNVFVFNQM3Y334/",
+      "location": null,
+      "datetime": "2026-06-07T03:48:03.000Z",
+      "datetime_display": {
+        "ko": "06. 07. AM 03:48",
+        "en": "06. 07. AM 03:48"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석",
+        "en": "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석"
+        ],
+        "en": [
+          "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": "000660",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        },
+        {
+          "code": "017670",
+          "name": "017670",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석",
+            "en": "젠슨 황 또 ‘깐부 회동’... 최태원, SK하이닉스-SKT CEO 참석"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/06/07/VE4N3AOE7VC4TNVFVFNQM3Y334/",
+          "time": "06. 07. AM 03:48"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780795015000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장",
+        "en": "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/07/PEX53DCULJC5NAHKBUXMKOGSVQ/",
+      "location": null,
+      "datetime": "2026-06-07T01:16:55.000Z",
+      "datetime_display": {
+        "ko": "06. 07. AM 01:16",
+        "en": "06. 07. AM 01:16"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장",
+        "en": "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장"
+        ],
+        "en": [
+          "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장",
+            "en": "젠슨 황, 또 PC방으로… 김택진과 ‘아이온2’ 깜짝 등장"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/06/07/PEX53DCULJC5NAHKBUXMKOGSVQ/",
+          "time": "06. 07. AM 01:16"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_1780794786000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요",
+        "en": "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요"
+      },
+      "url": "https://www.chosun.com/kid/kid_literacy/kid_people/2026/06/07/CS732ZDSINDOLDJY7V2YWX4GCU/",
+      "location": null,
+      "datetime": "2026-06-07T01:13:06.000Z",
+      "datetime_display": {
+        "ko": "06. 07. AM 01:13",
+        "en": "06. 07. AM 01:13"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요",
+        "en": "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요"
+      },
+      "summary": {
+        "ko": [
+          "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요"
+        ],
+        "en": [
+          "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요",
+            "en": "한국 와서 가장 먼저 페이커 만난 젠슨 황, 33세 때 용산 전자 상가에서 게임 그래픽 카드 팔았어요"
+          },
+          "url": "https://www.chosun.com/kid/kid_literacy/kid_people/2026/06/07/CS732ZDSINDOLDJY7V2YWX4GCU/",
+          "time": "06. 07. AM 01:13"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯",
+        "en": "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1262355.html",
+      "location": null,
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯",
+        "en": "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯"
+        ],
+        "en": [
+          "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": "005380",
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동 수집",
+            "en": "auto-collected"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯",
+            "en": "젠슨 황, 현대차 ‘로봇 실증 공간’ 방문…정의선과 피지컬 AI 논의할 듯"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262355.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”",
+        "en": "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1262330.html",
+      "location": null,
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”",
+        "en": "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”"
+        ],
+        "en": [
+          "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”",
+            "en": "젠슨 황 “메모리 수요 엄청나…앞으로 몇 년 동안 공급 부족할 것”"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262330.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다",
+        "en": "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1262329.html",
+      "location": null,
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다",
+        "en": "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다"
+        ],
+        "en": [
+          "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다",
+            "en": "젠슨 황, ‘1차 깐부회동’ 불참자 최태원과 같은 가게로 ‘2차’ 갔다"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262329.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져",
+        "en": "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/it/1262324.html",
+      "location": null,
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져",
+        "en": "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져"
+      },
+      "summary": {
+        "ko": [
+          "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져"
+        ],
+        "en": [
+          "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져",
+            "en": "잠실 시구, 삼성동 2차 깐부회동…젠슨 황 광폭 행보에 ‘그늘’도 커져"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/it/1262324.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
+    {
+      "id": "evt_auto_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "planned",
+      "status_label": {
+        "ko": "속보",
+        "en": "breaking"
+      },
+      "confidence": "auto",
+      "confidence_label": {
+        "ko": "자동수집",
+        "en": "auto"
+      },
+      "title": {
+        "ko": "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”",
+        "en": "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1262293.html",
+      "location": null,
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”",
+        "en": "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”"
+      },
+      "summary": {
+        "ko": [
+          "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”"
+        ],
+        "en": [
+          "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”",
+            "en": "93번 ‘젠슨 황’ 한글 유니폼 입고 시구…“치맥보다 좋은 건 없어”"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262293.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true
+    },
     {
       "id": "evt_auto_1780880851000",
       "type": "announcement",
