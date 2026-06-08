@@ -1,8 +1,410 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T06:15:32.676Z",
+  "updatedAt": "2026-06-08T11:51:39.835Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780916899000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”",
+        "en": "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”"
+      },
+      "url": "https://www.chosun.com/economy/science/2026/06/08/4ERGFYO3MBC7LF3AYJI2XT6UQQ/",
+      "location": null,
+      "datetime": "2026-06-08T11:08:19.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 11:08",
+        "en": "06. 08. AM 11:08"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”",
+        "en": "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 만난 배경훈 부총리 \"GPU 26만장 조기 공급 요청\"",
+          "배경훈 부총리가 젠슨 황과 만난 배경에 대해 설명했습니다."
+        ],
+        "en": [
+          "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”",
+            "en": "젠슨 황 만난 배경훈 부총리 “GPU 26만장 조기 공급 요청”"
+          },
+          "url": "https://www.chosun.com/economy/science/2026/06/08/4ERGFYO3MBC7LF3AYJI2XT6UQQ/",
+          "time": "06. 08. AM 11:08"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780916880000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "삼성 전영현 “젠슨 황과 HBM4 공급, 차세대 칩 협력 논의”",
+        "en": "삼성 전영현 “젠슨 황과 HBM4 공급, 차세대 칩 협력 논의”"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134073156/1",
+      "location": {
+        "name": {
+          "ko": "서울 중구 신라호텔",
+          "en": "서울 중구 신라호텔"
+        }
+      },
+      "datetime": "2026-06-08T11:08:00.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 11:08",
+        "en": "06. 08. AM 11:08"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "전영현 삼성전자 반도체(DS)부문장(부회장)이 8일 젠슨 황 엔비디아 최고경영자(CEO)와 면담을 갖고 차세대 고대역폭메모리(HBM)인 HBM4E(7세대)와 HBM5(8세대) 공급 등 협력 방안에 대해 이야기를 나눴다고 밝혔다. 전 부회장은 8일 서울 중구 신라호텔에서 황 CEO와 1대1 면담을 진행한 뒤 취재진 앞에서 “HBM4E와 파운드리 비즈니스, HBM5 등 장기적인 협력 방안에 대해 많은 이야기를 나눴다”며 “서로 좋은 의견을 주고받았고 전반적으로 매우 만족스러운 미팅이었다”고 밝혔다. 이날 황 CEO와 전 부회장은 엔비디아와 한국 인공지능(AI), 로보틱스 스타트업 생태계의 간담회 참석을 겸해 면담을 가졌다. 전 CEO는 이날 면담에 대해 “(엔비디아와)오랜 기간 협력해 왔는데, 오늘이 가장 좋은",
+        "en": "전영현 삼성전자 반도체(DS)부문장(부회장)이 8일 젠슨 황 엔비디아 최고경영자(CEO)와 면담을 갖고 차세대 고대역폭메모리(HBM)인 HBM4E(7세대)와 HBM5(8세대) 공급 등 협력 방안에 대해 이야기를 나눴다고 밝혔다. 전 부회장은 8일 서울 중구 신라호텔에서 황 CEO와 1대1 면담을 진행한 뒤 취재진 앞에서 “HBM4E와 파운드리 비즈니스, HBM5 등 장기적인 협력 방안에 대해 많은 이야기를 나눴다”며 “서로 좋은 의견을 주고받았고 전반적으로 매우 만족스러운 미팅이었다”고 밝혔다. 이날 황 CEO와 전 부회장은 엔비디아와 한국 인공지능(AI), 로보틱스 스타트업 생태계의 간담회 참석을 겸해 면담을 가졌다. 전 CEO는 이날 면담에 대해 “(엔비디아와)오랜 기간 협력해 왔는데, 오늘이 가장 좋은"
+      },
+      "summary": {
+        "ko": [
+          "전영현 삼성전자 반도체(DS)부문장(부회장)이 8일 젠슨 황 엔비디아 최고경영자(CEO)와 면담을 갖고 차세대 고대역폭메모리(HBM)인 HBM4E(7세대)와 HBM5(8세대) 공급 등 협력 방안에 대해 이야기를 나눴다고 밝혔다.",
+          "전 부회장은 8일 서울 중구 신라호텔에서 황 CEO와 1대1 면담을 진행한 뒤 취재진 앞에서 “HBM4E와 파운드리 비즈니스, HBM5 등 장기적인 협력 방안에 대해 많은 이야기를 나눴다”며 “서로 좋은 의견을 주고받았고 전반적으로 매우 만족스러운 미팅이었다”고 밝혔다."
+        ],
+        "en": [
+          "전영현 삼성전자 반도체(DS)부문장(부회장)이 8일 젠슨 황 엔비디아 최고경영자(CEO)와 면담을 갖고 차세대 고대역폭메모리(HBM)인 HBM4E(7세대)와 HBM5(8세대) 공급 등 협력 방안에 대해 이야기를 나눴다고 밝혔다. 전 부회장은 8일 서울 중구 신라호텔에서 황 CEO와 1대1 면담을 진행한 뒤 취재진 앞에서 “HBM4E와 파운드리 비즈니스, HBM5 등 장기적인 협력 방안에 대해 많은 이야기를 나눴다”며 “서로 좋은 의견을 주고받았고 전반적으로 매우 만족스러운 미팅이었다”고 밝혔다. 이날 황 CEO와 전 부회장은 엔비디아와 한국 인공지능(AI), 로보틱스 스타트업 생태계의 간담회 참석을 겸해 면담을 가졌다. 전 CEO는 이날 면담에 대해 “(엔비디아와)오랜 기간 협력해 왔는데, 오늘이 가장 좋은"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005930",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005935",
+          "name": {
+            "ko": "삼성전자우",
+            "en": "삼성전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "삼성 전영현 “젠슨 황과 HBM4 공급, 차세대 칩 협력 논의”",
+            "en": "삼성 전영현 “젠슨 황과 HBM4 공급, 차세대 칩 협력 논의”"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134073156/1",
+          "time": "06. 08. AM 11:08"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780916116000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Jensen Huang Mania Sweeps Through Seoul",
+        "en": "Jensen Huang Mania Sweeps Through Seoul"
+      },
+      "url": "https://www.bloomberg.com/news/videos/2026-06-08/jensen-huang-mania-sweeps-through-seoul-video",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-08T10:55:16.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 10:55",
+        "en": "06. 08. AM 10:55"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Jensen Huang's South Korea visit wasn't all business. The Nvidia CEO met esports legend Faker, dined with tech titans, drew crowds like a rockstar, and even threw out the ceremonial first pitch at a baseball game. (Source: Bloomberg)",
+        "en": "Jensen Huang's South Korea visit wasn't all business. The Nvidia CEO met esports legend Faker, dined with tech titans, drew crowds like a rockstar, and even threw out the ceremonial first pitch at a baseball game. (Source: Bloomberg)"
+      },
+      "summary": {
+        "ko": [
+          "제인슨 후앙의 한국 방문은 비즈니스만이 아니었다.",
+          "엔비디아 CEO는 에스포츠 레전드 페이커와 만났고, 기술 대장들과 식사를 하며, 군중을 사로잡는 록스타처럼 행동했으며, 심지어 야구 경기에서 공식 첫 투구를 던졌다."
+        ],
+        "en": [
+          "Jensen Huang's South Korea visit wasn't all business. The Nvidia CEO met esports legend Faker, dined with tech titans, drew crowds like a rockstar, and even threw out the ceremonial first pitch at a baseball game. (Source: Bloomberg)"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Bloomberg Tech",
+            "en": "Bloomberg Tech"
+          },
+          "title": {
+            "ko": "Jensen Huang Mania Sweeps Through Seoul",
+            "en": "Jensen Huang Mania Sweeps Through Seoul"
+          },
+          "url": "https://www.bloomberg.com/news/videos/2026-06-08/jensen-huang-mania-sweeps-through-seoul-video",
+          "time": "06. 08. AM 10:55"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780915842000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”",
+        "en": "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/08/E5UTOW6RMNBSXL6TRVNJTSIY6Q/",
+      "location": null,
+      "datetime": "2026-06-08T10:50:42.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 10:50",
+        "en": "06. 08. AM 10:50"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”",
+        "en": "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 만난 삼성 전영현 \"HBM·파운드리 협력 논의\"",
+          "본문 내용 없음"
+        ],
+        "en": [
+          "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”",
+            "en": "젠슨 황 만난 삼성 전영현 “HBM·파운드리 협력 논의”"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/06/08/E5UTOW6RMNBSXL6TRVNJTSIY6Q/",
+          "time": "06. 08. AM 10:50"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780915393000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨황 만난 전영현 부회장 “가장 좋은 얘기 나눠…최고의 파트너 될 것”",
+        "en": "젠슨황 만난 전영현 부회장 “가장 좋은 얘기 나눠…최고의 파트너 될 것”"
+      },
+      "url": "https://www.mk.co.kr/news/business/12068815",
+      "location": {
+        "name": {
+          "ko": "서울 중구 신라호텔",
+          "en": "서울 중구 신라호텔"
+        }
+      },
+      "datetime": "2026-06-08T10:43:13.000Z",
+      "datetime_display": {
+        "ko": "06. 08. AM 10:43",
+        "en": "06. 08. AM 10:43"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "삼성전자가 엔비디아와의 차세대 고대역폭메모리(HBM) 및 파운드리(반도체 위탁생산) 협력을 전방위로 확대한다. 전영현 삼성전자 대표이사 겸 DS(디바이스솔루션) 부문장(부회장)은 ..",
+        "en": "삼성전자가 엔비디아와의 차세대 고대역폭메모리(HBM) 및 파운드리(반도체 위탁생산) 협력을 전방위로 확대한다. 전영현 삼성전자 대표이사 겸 DS(디바이스솔루션) 부문장(부회장)은 .."
+      },
+      "summary": {
+        "ko": [
+          "삼성전자가 엔비디아와의 차세대 고대역폭메모리(HBM) 및 파운드리(반도체 위탁생산) 협력을 전방위로 확대한다.",
+          "전영현 삼성전자 대표이사 겸 DS(디바이스솔루션) 부문장(부회장)은 황 CEO와 오랫동안 협력해 왔는데, 오늘 가장 좋은 이야기를 나눈 것 같다."
+        ],
+        "en": [
+          "삼성전자가 엔비디아와의 차세대 고대역폭메모리(HBM) 및 파운드리(반도체 위탁생산) 협력을 전방위로 확대한다. 전영현 삼성전자 대표이사 겸 DS(디바이스솔루션) 부문장(부회장)은 .."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005930",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005935",
+          "name": {
+            "ko": "삼성전자우",
+            "en": "삼성전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨황 만난 전영현 부회장 “가장 좋은 얘기 나눠…최고의 파트너 될 것”",
+            "en": "젠슨황 만난 전영현 부회장 “가장 좋은 얘기 나눠…최고의 파트너 될 것”"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068815",
+          "time": "06. 08. AM 10:43"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780898828000",
       "type": "announcement",
@@ -7823,7 +8225,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 8,
+      "source_count": 11,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -7964,12 +8366,153 @@
           },
           "url": "https://www.mk.co.kr/news/economy/12068407",
           "time": "06. 08. AM 06:07"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨 황 “네이버, 우리와의 협력으로 10배 커질 것”",
+            "en": "젠슨 황 “네이버, 우리와의 협력으로 10배 커질 것”"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068775",
+          "time": "06. 08. AM 09:28"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "‘엔비디아♥네이버’ 발표하더니 결국…삼쏘하던 형님들 치지직에 떴다",
+            "en": "‘엔비디아♥네이버’ 발표하더니 결국…삼쏘하던 형님들 치지직에 떴다"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068734",
+          "time": "06. 08. AM 08:59"
+        },
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황이 나눠준 과자 뭐길래…판매 766% 늘었다",
+            "en": "젠슨 황이 나눠준 과자 뭐길래…판매 766% 늘었다"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134071183/2",
+          "time": "06. 08. AM 08:15"
         }
       ],
       "map_pin": {
         "label": {
           "ko": "홍대",
           "en": "Hongdae"
+        },
+        "undef": false,
+        "pct": null,
+        "sub": null,
+        "cur": false
+      },
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": false,
+        "map_pin": true
+      },
+      "_auto_loc": true
+    },
+    {
+      "id": "evt_auto_loc_shilla",
+      "type": "visit",
+      "is_new": true,
+      "source_count": 3,
+      "status": "planned",
+      "status_label": {
+        "ko": "예상",
+        "en": "expected"
+      },
+      "confidence": "expected",
+      "confidence_label": {
+        "ko": "예상 (자동)",
+        "en": "expected (auto)"
+      },
+      "title": {
+        "ko": "서울신라호텔 (뉴스 감지)",
+        "en": "Shilla Hotel event (auto)"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260608/134073156/1",
+      "location": {
+        "name": {
+          "ko": "서울신라호텔",
+          "en": "Shilla Hotel, Seoul"
+        },
+        "address": "서울 중구 동호로",
+        "lat": 37.5583,
+        "lng": 126.9976
+      },
+      "datetime": null,
+      "datetime_display": {
+        "ko": "방한 중 (뉴스 감지)",
+        "en": "During visit (auto)"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "AI 생태계 행사",
+        "en": "AI ecosystem event"
+      },
+      "summary": {
+        "ko": [
+          "뉴스 본문 키워드 자동 감지"
+        ],
+        "en": [
+          "Auto-detected from article body"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "삼성 전영현 “젠슨 황과 HBM4 공급, 차세대 칩 협력 논의”",
+            "en": "삼성 전영현 “젠슨 황과 HBM4 공급, 차세대 칩 협력 논의”"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134073156/1",
+          "time": "06. 08. AM 11:08"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨황 만난 전영현 부회장 “가장 좋은 얘기 나눠…최고의 파트너 될 것”",
+            "en": "젠슨황 만난 전영현 부회장 “가장 좋은 얘기 나눠…최고의 파트너 될 것”"
+          },
+          "url": "https://www.mk.co.kr/news/business/12068815",
+          "time": "06. 08. AM 10:43"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "배경훈 부총리도 '코리아 AI' 지원사격",
+            "en": "배경훈 부총리도 '코리아 AI' 지원사격"
+          },
+          "url": "https://www.mk.co.kr/news/it/12068777",
+          "time": "06. 08. AM 09:35"
+        }
+      ],
+      "map_pin": {
+        "label": {
+          "ko": "신라호텔",
+          "en": "Shilla Hotel"
         },
         "undef": false,
         "pct": null,
