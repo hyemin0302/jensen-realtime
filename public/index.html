@@ -673,37 +673,9 @@ footer .fm{font:500 11px var(--mono)}
   <!-- 업데이트 내역 -->
   <div class="ver-hd">
     <div class="vtitle"><span></span><span data-ko>업데이트 내역</span><span data-en>Changelog</span></div>
-    <div class="vright"><span data-ko>최신</span><span data-en>latest</span> v1.1</div>
+    <div class="vright"><span data-ko>최신</span><span data-en>latest</span> <span id="ver-latest">—</span></div>
   </div>
-  <div class="ver2">
-    <div class="vleft">
-      <div class="vnum">v1.1</div>
-      <div class="vbadge" data-ko>최신</div><div class="vbadge" data-en>latest</div>
-      <div class="vdate">2026.06.01</div>
-    </div>
-    <ul data-ko>
-      <li>한국어·영어 이중언어 모드 — 지도·기사 제목·종목명·날짜까지 전체 영어화</li>
-      <li>SKT 등 협력사 뉴스 노출 (피지컬 AI·디지털 트윈 협력)</li>
-      <li>젠슨 황 관련 뉴스(큰 주제)별 접기·펼치기</li>
-      <li>방한 기준·뉴스 기준 이중 수익률 표시</li>
-      <li>새 뉴스 웹푸시 알림</li>
-    </ul>
-    <ul data-en>
-      <li>KO/EN bilingual mode — map, headlines, tickers, dates fully translated</li>
-      <li>Partner news surfaced (Physical AI · Digital Twin)</li>
-      <li>Collapse per topic</li>
-      <li>Dual returns (visit baseline vs news baseline)</li>
-      <li>Web push for new news</li>
-    </ul>
-  </div>
-  <div class="ver2">
-    <div class="vleft">
-      <div class="vnum old">v1.0</div>
-      <div class="vdate">2026.05.31</div>
-    </div>
-    <ul data-ko><li>최초 공개 — 뉴스 자동수집·관련주 주가·한반도 동선 지도·이벤트 피드</li></ul>
-    <ul data-en><li>Initial release — news collection, related stocks, Korea route map, event feed</li></ul>
-  </div>
+  <div id="changelog-list"></div>
 </div></section>
 
 <!-- 면책고지 (전폭) -->
@@ -877,6 +849,52 @@ function loadEvents(){
       setTimeout(fetchLive,500);
     })
     .catch(function(){renderAll();setTimeout(fetchLive,500);});
+  // meta.json에서 업데이트 내역 로드
+  fetch('/data/meta.json?_='+Math.floor(Date.now()/120000))
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(meta){if(meta&&meta.changelog) buildChangelog(meta.changelog,meta.version);})
+    .catch(function(){});
+}
+
+/* ===== 업데이트 내역 (meta.json 기반 자동 렌더) ===== */
+function buildChangelog(changelog, latestVer){
+  // 버전별 그룹화
+  var versions={};
+  for(var i=0;i<changelog.length;i++){
+    var e=changelog[i];
+    var v=e.version||'?';
+    if(!versions[v]) versions[v]={date:e.date||'',notes:[]};
+    versions[v].notes.push(e.note||'');
+    if(e.date&&e.date>versions[v].date) versions[v].date=e.date;
+  }
+  // 버전 내림차순 정렬
+  var sorted=Object.keys(versions).sort(function(a,b){
+    var av=a.split('.').map(Number), bv=b.split('.').map(Number);
+    for(var i=0;i<3;i++){if((bv[i]||0)!==(av[i]||0)) return (bv[i]||0)-(av[i]||0);}
+    return 0;
+  });
+  // 최신 버전 표시
+  var latestEl=el('ver-latest');
+  if(latestEl) latestEl.textContent='v'+(latestVer||sorted[0]||'?');
+  // 목록 렌더
+  var h='';
+  for(var j=0;j<sorted.length;j++){
+    var ver=sorted[j], info=versions[ver], isLatest=(j===0);
+    var autoBatches=info.notes.filter(function(n){return n.indexOf('자동 배치:')=== 0;});
+    var featureNotes=info.notes.filter(function(n){return n.indexOf('자동 배치:')!==0;});
+    h+='<div class="ver2"><div class="vleft">'
+      +'<div class="vnum'+(isLatest?'':' old')+'">v'+ver+'</div>'
+      +(isLatest?'<div class="vbadge" data-ko>최신</div><div class="vbadge" data-en>latest</div>':'')
+      +'<div class="vdate">'+info.date+'</div>'
+      +'</div><ul>';
+    featureNotes.forEach(function(n){h+='<li>'+esc(n)+'</li>';});
+    if(autoBatches.length){
+      h+='<li style="color:var(--dim);font-size:11px">⚡ 자동 배치 '+autoBatches.length+'회 실행</li>';
+    }
+    h+='</ul></div>';
+  }
+  var listEl=el('changelog-list');
+  if(listEl) listEl.innerHTML=h;
 }
 
 /* ===== helpers ===== */
