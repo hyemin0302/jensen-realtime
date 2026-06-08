@@ -1,8 +1,489 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T06:02:41.141Z",
-  "updatedBy": "news-agent",
+  "updatedAt": "2026-06-08T06:30:00Z",
+  "updatedBy": "manual-curator",
   "events": [
+    {
+      "id": "evt_samsung_2nd_dinner",
+      "type": "meeting",
+      "is_new": true,
+      "source_count": 2,
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "confidence": "confirmed",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "confirmed"
+      },
+      "title": {
+        "ko": "삼성동 2차 깐부회동 — 최태원 합류",
+        "en": "2nd Chaebol Dinner (Samseongdong) — Chey joins"
+      },
+      "url": "https://n.news.naver.com/article/009/0005477123",
+      "location": {
+        "name": {
+          "ko": "서울 삼성동",
+          "en": "Samseongdong, Seoul"
+        },
+        "address": "서울 강남구 삼성동",
+        "lat": 37.514,
+        "lng": 127.0595
+      },
+      "datetime": "2026-06-07T20:00:00+09:00",
+      "end_datetime": "2026-06-07T23:00:00+09:00",
+      "datetime_display": {
+        "ko": "6/7 저녁 (잠실 시구 후)",
+        "en": "Jun 7 evening (after Jamsil pitch)"
+      },
+      "timeline_order": 8,
+      "timeline_badge": "l",
+      "description": {
+        "ko": "잠실 시구 후 삼성동으로 이동 · 1차 불참자 최태원 SK 회장 합류 · 2차 깐부 회동",
+        "en": "After Jamsil pitch · SK chair Chey Tae-won joins · 2nd chaebol dinner"
+      },
+      "summary": {
+        "ko": [
+          "잠실 시구 후 삼성동으로 이동해 2차 회동.",
+          "1차 불참한 최태원 SK 회장과 합류.",
+          "반도체·AI 팩토리 구축 논의."
+        ],
+        "en": [
+          "Moved to Samseongdong after Jamsil pitch.",
+          "SK chair Chey Tae-won (absent from 1st dinner) joins.",
+          "AI factory & chip partnership talks."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "017670",
+          "name": {
+            "ko": "SK텔레콤",
+            "en": "SKT"
+          },
+          "theme": {
+            "ko": "플랫폼·소버린AI",
+            "en": "Platform"
+          },
+          "brief": {
+            "ko": "SK 최태원 회장 AI 팩토리 논의",
+            "en": "SK chair AI factory talks"
+          }
+        },
+        {
+          "code": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK hynix"
+          },
+          "theme": {
+            "ko": "반도체·HBM",
+            "en": "Semi"
+          },
+          "brief": {
+            "ko": "HBM 협력 지속 논의",
+            "en": "HBM cooperation"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "MK"
+          },
+          "title": {
+            "ko": "젠슨 황, 1차 불참자 최태원과 2차 회동",
+            "en": "2nd dinner with Chey"
+          },
+          "url": "https://www.mk.co.kr/news/business/",
+          "time": "06.07"
+        },
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "Chosun"
+          },
+          "title": {
+            "ko": "잠실 시구, 삼성동 2차 깐부회동",
+            "en": "Jamsil pitch then Samseongdong dinner"
+          },
+          "url": "https://www.chosun.com/",
+          "time": "06.07"
+        }
+      ],
+      "map_pin": {
+        "label": {
+          "ko": "2차 회동",
+          "en": "2nd dinner"
+        },
+        "pct": null,
+        "sub": null,
+        "cur": false,
+        "undef": false
+      },
+      "insight": null,
+      "views": {
+        "timeline": true,
+        "news_card": true,
+        "map_pin": true
+      },
+      "impact_level": "medium",
+      "strategic_intent": "SK 최태원과 2차 회동 — HBM·AI 팩토리 심화 논의",
+      "related_tickers": [
+        "017670",
+        "000660"
+      ],
+      "pre_insight": null,
+      "post_insight": null,
+      "outcome": null,
+      "outcome_verified_at": null
+    },
+    {
+      "id": "evt_lg_meeting",
+      "type": "meeting",
+      "is_new": true,
+      "source_count": 3,
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "confidence": "confirmed",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "confirmed"
+      },
+      "title": {
+        "ko": "LG 구광모 회장 회동 — '엔비디아-LG 거대한 팀'",
+        "en": "LG chair Koo meeting — 'NVIDIA-LG, one great team'"
+      },
+      "url": "https://www.hankyung.com/article/2026060832647",
+      "location": {
+        "name": {
+          "ko": "서울 여의도 LG트윈타워",
+          "en": "LG Twin Tower, Yeouido"
+        },
+        "address": "서울 영등포구 여의대로",
+        "lat": 37.5261,
+        "lng": 126.9224
+      },
+      "datetime": "2026-06-08T09:00:00+09:00",
+      "end_datetime": "2026-06-08T11:00:00+09:00",
+      "datetime_display": {
+        "ko": "6/8 오전",
+        "en": "Jun 8 morning"
+      },
+      "timeline_order": 10,
+      "timeline_badge": "l",
+      "description": {
+        "ko": "구광모 LG 회장과 회동 · 휴머노이드·데이터센터 구현 논의 · '엔비디아-LG 거대한 팀' 발언",
+        "en": "Meets LG chair Koo · Humanoid & datacenter talks · 'NVIDIA-LG, one great team'"
+      },
+      "summary": {
+        "ko": [
+          "구광모 LG 회장과 공식 회동.",
+          "'엔비디아-LG는 거대한 팀'이라고 발언.",
+          "미래 휴머노이드·데이터센터 구현 협력 논의."
+        ],
+        "en": [
+          "Official meeting with LG chair Koo.",
+          "Called NVIDIA-LG 'one great team'.",
+          "Discussed humanoid robots & datacenter cooperation."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG Elec"
+          },
+          "theme": {
+            "ko": "로봇·피지컬AI",
+            "en": "Robotics"
+          },
+          "brief": {
+            "ko": "엔비디아-LG 거대한 팀 발언",
+            "en": "NVIDIA-LG great team"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG Elec(pf)"
+          },
+          "theme": {
+            "ko": "로봇·피지컬AI",
+            "en": "Robotics"
+          },
+          "brief": {
+            "ko": "LG전자 우선주",
+            "en": "LG preferred"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "Hankyung"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대차그룹 사옥 방문 (LG 회동 후)",
+            "en": "After LG, visits Hyundai HQ"
+          },
+          "url": "https://www.hankyung.com/article/2026060832647",
+          "time": "06.08"
+        },
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "Donga"
+          },
+          "title": {
+            "ko": "악수하는 구광모-젠슨 황",
+            "en": "Koo & Huang handshake"
+          },
+          "url": "https://www.donga.com/",
+          "time": "06.08"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "MK"
+          },
+          "title": {
+            "ko": "엔비디아-LG, 거대한 팀...휴머노이드·데이터센터",
+            "en": "NVIDIA-LG great team"
+          },
+          "url": "https://www.mk.co.kr/",
+          "time": "06.08"
+        }
+      ],
+      "map_pin": {
+        "label": {
+          "ko": "LG 회동",
+          "en": "LG meeting"
+        },
+        "pct": null,
+        "sub": null,
+        "cur": false,
+        "undef": false
+      },
+      "insight": null,
+      "views": {
+        "timeline": true,
+        "news_card": true,
+        "map_pin": true
+      },
+      "impact_level": "high",
+      "strategic_intent": "LG 피지컬 AI 협력 심화 — 휴머노이드·데이터센터 구체화",
+      "related_tickers": [
+        "066570",
+        "066575"
+      ],
+      "pre_insight": null,
+      "post_insight": null,
+      "outcome": null,
+      "outcome_verified_at": null
+    },
+    {
+      "id": "evt_hyundai_visit",
+      "type": "visit",
+      "is_new": true,
+      "source_count": 5,
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "confidence": "confirmed",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "confirmed"
+      },
+      "title": {
+        "ko": "현대차그룹 양재 사옥 방문 — 정의선과 피지컬AI 논의",
+        "en": "Visits Hyundai HQ Yangjae — Physical AI with Euisun Chung"
+      },
+      "url": "https://www.hankyung.com/article/2026060832647",
+      "location": {
+        "name": {
+          "ko": "현대차그룹 양재 사옥",
+          "en": "Hyundai Motor Group HQ, Yangjae"
+        },
+        "address": "서울 서초구 헌릉로",
+        "lat": 37.466,
+        "lng": 127.033
+      },
+      "datetime": "2026-06-08T13:30:00+09:00",
+      "end_datetime": "2026-06-08T15:30:00+09:00",
+      "datetime_display": {
+        "ko": "6/8 오후 1시 30분",
+        "en": "Jun 8, 1:30 PM"
+      },
+      "timeline_order": 12,
+      "timeline_badge": "l",
+      "description": {
+        "ko": "정의선 회장 직접 맞이 · 현대차 로봇 실증 공간 방문 · 피지컬AI·자율주행·모빌리티 협력 논의",
+        "en": "Euisun Chung meets personally · Robot demo space tour · Physical AI, autonomous driving, mobility"
+      },
+      "summary": {
+        "ko": [
+          "정의선 현대차 회장이 직접 맞이.",
+          "현대차 로봇 실증 공간 방문, 피지컬 AI 데모 시연.",
+          "'AI·모빌리티 미래 함께 발명할 것' 발언.",
+          "직원들 로비에서 환호."
+        ],
+        "en": [
+          "Euisun Chung greets personally at the lobby.",
+          "Tours Hyundai robot demo space.",
+          "Said 'we will invent the future of AI & mobility together'.",
+          "Staff cheers in lobby."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "Hyundai"
+          },
+          "theme": {
+            "ko": "완성차·자율주행",
+            "en": "Auto·AV"
+          },
+          "brief": {
+            "ko": "정의선 직접 맞이, AI·모빌리티 협력",
+            "en": "Chung greets, AI mobility talk"
+          }
+        },
+        {
+          "code": "005387",
+          "name": {
+            "ko": "현대차2우B",
+            "en": "Hyundai 2pfB"
+          },
+          "theme": {
+            "ko": "완성차",
+            "en": "Auto"
+          },
+          "brief": {
+            "ko": "현대차 우선주",
+            "en": "Hyundai preferred"
+          }
+        },
+        {
+          "code": "454910",
+          "name": {
+            "ko": "두산로보틱스",
+            "en": "Doosan Robotics"
+          },
+          "theme": {
+            "ko": "로봇",
+            "en": "Robotics"
+          },
+          "brief": {
+            "ko": "피지컬AI 로봇 협력 수혜",
+            "en": "Physical AI robot benefit"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "Donga"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대 사옥 방문에 직원들 환호…'깐부' 정의선 직접 맞이",
+            "en": "Staff cheer as Huang visits Hyundai HQ"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260608/134069772/1",
+          "time": "06.08"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "Hankyung"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대차그룹 사옥 방문…AI·모빌리티 미래 발명할 것",
+            "en": "Huang visits Hyundai HQ"
+          },
+          "url": "https://www.hankyung.com/article/2026060832647",
+          "time": "06.08"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "Hankyung"
+          },
+          "title": {
+            "ko": "등장하자마자 환호성…현대차 사옥서 정의선 회장 만난 젠슨 황",
+            "en": "Huang meets Chung at Hyundai HQ"
+          },
+          "url": "https://www.hankyung.com/",
+          "time": "06.08"
+        },
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "Chosun"
+          },
+          "title": {
+            "ko": "젠슨 황, 현대차 로봇 실증 공간 방문…피지컬 AI 논의",
+            "en": "Visits Hyundai robot demo space"
+          },
+          "url": "https://www.chosun.com/",
+          "time": "06.08"
+        },
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "MK"
+          },
+          "title": {
+            "ko": "젠슨 황 '깐부' 정의선, 양재서 피지컬AI 논의",
+            "en": "Huang & Chung discuss Physical AI"
+          },
+          "url": "https://www.mk.co.kr/",
+          "time": "06.08"
+        }
+      ],
+      "map_pin": {
+        "label": {
+          "ko": "현대차",
+          "en": "Hyundai"
+        },
+        "pct": null,
+        "sub": null,
+        "cur": false,
+        "undef": false
+      },
+      "insight": null,
+      "views": {
+        "timeline": true,
+        "news_card": true,
+        "map_pin": true
+      },
+      "impact_level": "high",
+      "strategic_intent": "현대차 피지컬AI·자율주행·로보틱스 협력 심화 — 방한 마지막 주요 일정",
+      "related_tickers": [
+        "005380",
+        "005387",
+        "005385",
+        "454910"
+      ],
+      "pre_insight": null,
+      "post_insight": null,
+      "outcome": null,
+      "outcome_verified_at": null
+    },
     {
       "id": "evt_llm_1780897920000",
       "type": "announcement",
@@ -5757,7 +6238,7 @@
         "ko": "6/8 (월)",
         "en": "Jun 8 (Mon)"
       },
-      "timeline_order": 8,
+      "timeline_order": 9,
       "timeline_badge": "l",
       "description": {
         "ko": "국내 AI·로봇 스타트업 100명 규모 비공개 간담회",
@@ -5925,10 +6406,10 @@
       "type": "visit",
       "is_new": true,
       "source_count": 3,
-      "status": "in_progress",
+      "status": "completed",
       "status_label": {
-        "ko": "진행중",
-        "en": "live"
+        "ko": "완료",
+        "en": "done"
       },
       "confidence": "confirmed",
       "confidence_label": {
@@ -5954,7 +6435,7 @@
         "ko": "6/8 (월)",
         "en": "Jun 8 (Mon)"
       },
-      "timeline_order": 9,
+      "timeline_order": 11,
       "timeline_badge": "l",
       "description": {
         "ko": "서울대 AI 연구소 및 로봇공학 연구센터 방문 · 학생·연구자 면담",
