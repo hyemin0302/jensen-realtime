@@ -252,7 +252,10 @@
       "related_stocks": [
         {
           "code": "005930",
-          "name": "005930",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -264,7 +267,10 @@
         },
         {
           "code": "005935",
-          "name": "005935",
+          "name": {
+            "ko": "삼성전자우",
+            "en": "삼성전자우"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -276,7 +282,10 @@
         },
         {
           "code": "000660",
-          "name": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -288,7 +297,10 @@
         },
         {
           "code": "035420",
-          "name": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -300,7 +312,10 @@
         },
         {
           "code": "454910",
-          "name": "454910",
+          "name": {
+            "ko": "두산로보틱스",
+            "en": "두산로보틱스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -312,7 +327,10 @@
         },
         {
           "code": "000150",
-          "name": "000150",
+          "name": {
+            "ko": "두산",
+            "en": "두산"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -670,7 +688,10 @@
       "related_stocks": [
         {
           "code": "005380",
-          "name": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1027,7 +1048,10 @@
       "related_stocks": [
         {
           "code": "017670",
-          "name": "017670",
+          "name": {
+            "ko": "SK텔레콤",
+            "en": "SK텔레콤"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1166,7 +1190,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1305,7 +1332,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1381,7 +1411,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1457,7 +1490,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1469,7 +1505,10 @@
         },
         {
           "code": "017670",
-          "name": "017670",
+          "name": {
+            "ko": "SK텔레콤",
+            "en": "SK텔레콤"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -1671,7 +1710,10 @@
       "related_stocks": [
         {
           "code": "005380",
-          "name": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -2188,7 +2230,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -2642,7 +2687,10 @@
       "related_stocks": [
         {
           "code": "035420",
-          "name": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -2718,7 +2766,10 @@
       "related_stocks": [
         {
           "code": "035420",
-          "name": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -3739,7 +3790,10 @@
       "related_stocks": [
         {
           "code": "035420",
-          "name": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -3941,7 +3995,10 @@
       "related_stocks": [
         {
           "code": "035420",
-          "name": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "관련주",
             "en": "related"
@@ -4229,7 +4286,10 @@
       "related_stocks": [
         {
           "code": "017670",
-          "name": "SK텔레콤",
+          "name": {
+            "ko": "SK텔레콤",
+            "en": "SK텔레콤"
+          },
           "theme": {
             "ko": "플랫폼·소버린AI",
             "en": "Platform"
@@ -4241,7 +4301,10 @@
         },
         {
           "code": "005380",
-          "name": "현대차",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
           "theme": {
             "ko": "완성차·자율주행",
             "en": "Auto·Autonomous"
@@ -4253,7 +4316,10 @@
         },
         {
           "code": "066570",
-          "name": "LG전자",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
           "theme": {
             "ko": "로봇·피지컬AI",
             "en": "Robotics"
@@ -4265,7 +4331,10 @@
         },
         {
           "code": "035420",
-          "name": "네이버",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "플랫폼·소버린AI",
             "en": "Platform"
@@ -4889,7 +4958,10 @@
       "related_stocks": [
         {
           "code": "000150",
-          "name": "두산",
+          "name": {
+            "ko": "두산",
+            "en": "두산"
+          },
           "theme": {
             "ko": "지주·그룹",
             "en": "Holding"
@@ -4901,7 +4973,10 @@
         },
         {
           "code": "454910",
-          "name": "두산로보틱스",
+          "name": {
+            "ko": "두산로보틱스",
+            "en": "두산로보틱스"
+          },
           "theme": {
             "ko": "로봇·피지컬AI",
             "en": "Robotics"
@@ -5105,7 +5180,10 @@
       "related_stocks": [
         {
           "code": "035420",
-          "name": "네이버",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "플랫폼·소버린AI",
             "en": "Platform"
@@ -5386,7 +5464,10 @@
       "related_stocks": [
         {
           "code": "066570",
-          "name": "LG전자",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
           "theme": {
             "ko": "로봇·피지컬AI",
             "en": "Robotics"
@@ -5398,7 +5479,10 @@
         },
         {
           "code": "035420",
-          "name": "네이버",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
           "theme": {
             "ko": "플랫폼·소버린AI",
             "en": "Platform"
@@ -5410,7 +5494,10 @@
         },
         {
           "code": "005380",
-          "name": "현대차",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
           "theme": {
             "ko": "완성차·자율주행",
             "en": "Auto·Autonomous"
@@ -5501,7 +5588,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "SK하이닉스",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "반도체·HBM",
             "en": "Semi"
@@ -5513,7 +5603,10 @@
         },
         {
           "code": "017670",
-          "name": "SK텔레콤",
+          "name": {
+            "ko": "SK텔레콤",
+            "en": "SK텔레콤"
+          },
           "theme": {
             "ko": "플랫폼·소버린AI",
             "en": "Platform"
@@ -5604,7 +5697,10 @@
       "related_stocks": [
         {
           "code": "005930",
-          "name": "삼성전자",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
           "theme": {
             "ko": "반도체·HBM",
             "en": "Semi"
@@ -5616,7 +5712,10 @@
         },
         {
           "code": "000660",
-          "name": "SK하이닉스",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "반도체·HBM",
             "en": "Semi"
@@ -5695,7 +5794,10 @@
       "related_stocks": [
         {
           "code": "034220",
-          "name": "LG디스플레이",
+          "name": {
+            "ko": "LG디스플레이",
+            "en": "LG디스플레이"
+          },
           "theme": {
             "ko": "디지털트윈",
             "en": "Digital twin"
@@ -5774,7 +5876,10 @@
       "related_stocks": [
         {
           "code": "005930",
-          "name": "삼성전자",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
           "theme": {
             "ko": "반도체·HBM",
             "en": "Semi"
@@ -5850,7 +5955,10 @@
       "related_stocks": [
         {
           "code": "005930",
-          "name": "삼성전자",
+          "name": {
+            "ko": "삼성전자",
+            "en": "삼성전자"
+          },
           "theme": {
             "ko": "반도체·HBM",
             "en": "Semi"
@@ -5923,7 +6031,10 @@
       "related_stocks": [
         {
           "code": "000660",
-          "name": "SK하이닉스",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
           "theme": {
             "ko": "반도체·HBM",
             "en": "Semi"
@@ -5996,7 +6107,10 @@
       "related_stocks": [
         {
           "code": "005380",
-          "name": "현대차",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
           "theme": {
             "ko": "완성차·자율주행",
             "en": "Auto"
@@ -6069,7 +6183,10 @@
       "related_stocks": [
         {
           "code": "454910",
-          "name": "두산로보틱스",
+          "name": {
+            "ko": "두산로보틱스",
+            "en": "두산로보틱스"
+          },
           "theme": {
             "ko": "로봇·피지컬AI",
             "en": "Robotics"
