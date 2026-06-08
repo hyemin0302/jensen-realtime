@@ -145,6 +145,23 @@ section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:60px}
 .thead h3 i{width:10px;height:10px;border-radius:3px;background:var(--accent);display:inline-block}
 .thead .d{color:var(--dim);font-size:12px}
 .thead .c{margin-left:auto;font:500 12px var(--mono);color:var(--muted)}
+/* 종목 필터 */
+.stk-filter{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.sfb{font:600 12px var(--sans);background:none;border:1px solid var(--line2);color:var(--muted);padding:5px 12px;border-radius:99px;cursor:pointer;transition:all .15s}
+.sfb.on{background:var(--accent);color:#05210a;border-color:var(--accent)}
+/* 거래소 뱃지 */
+.exbadge{font:700 9px var(--mono);padding:2px 5px;border-radius:4px;letter-spacing:.04em;flex-shrink:0}
+.ex-KRX{background:rgba(59,130,246,.15);color:#60a5fa}
+.ex-NASDAQ{background:rgba(16,185,129,.15);color:#34d399}
+.ex-NYSE{background:rgba(139,92,246,.15);color:#a78bfa}
+.ex-TSE{background:rgba(239,68,68,.15);color:#f87171}
+/* ETF 뱃지 */
+.etfbadge{font:700 9px var(--mono);background:rgba(245,158,11,.15);color:#fbbf24;padding:2px 5px;border-radius:4px}
+.etflevbadge{font:700 9px var(--mono);background:rgba(239,68,68,.12);color:#f87171;padding:2px 5px;border-radius:4px}
+/* 통화 */
+.currency-tag{font:500 10px var(--mono);color:var(--dim);margin-left:3px}
+/* 숨김 */
+.card.sf-hidden{display:none}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 .card{background:#0f1722;border:1px solid var(--line);border-radius:15px;padding:16px 16px 0}
 .card .h{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
@@ -609,6 +626,13 @@ footer .fm{font:500 11px var(--mono)}
 <section id="stocks"><div class="wrap">
   <div class="shead"><h2><i></i><span data-ko>테마별 관련주</span><span data-en>Stocks by theme</span></h2><span class="tag" id="scount"></span></div>
   <p class="ssub"><span data-ko>젠슨 황·엔비디아 AI 밸류체인 1차 역할 기준으로 묶었습니다.</span><span data-en>Grouped by primary role in NVIDIA's AI value chain.</span></p>
+  <!-- 국내/해외/ETF 필터 -->
+  <div class="stk-filter" id="stk-filter">
+    <button class="sfb on" data-sf="all" onclick="setStockFilter('all')"><span data-ko>전체</span><span data-en>All</span></button>
+    <button class="sfb" data-sf="KR" onclick="setStockFilter('KR')">🇰🇷 <span data-ko>국내</span><span data-en>Korea</span></button>
+    <button class="sfb" data-sf="US" onclick="setStockFilter('US')">🇺🇸 <span data-ko>미국</span><span data-en>US</span></button>
+    <button class="sfb" data-sf="etf" onclick="setStockFilter('etf')">ETF</button>
+  </div>
   <div class="heatmap" id="heatmap"></div>
   <div id="themes"></div>
   <p class="note"><span data-ko>※ 등락은 뉴스 전 종가 대비 · 시세 지연 가능</span><span data-en>※ change vs pre-news close · may be delayed</span></p>
@@ -1526,8 +1550,14 @@ function buildStocks(){
        +'<span style="font:500 11px var(--mono);color:var(--dim);margin-left:4px">→ 뉴스</span>'
        +'</div><div class="cards">';
     for(var i=0;i<th.s.length;i++){var s=th.s[i],sp=spark(s.v),col=sp.up?'#ff4d4f':'#3b82f6',gid='g'+s.c;
-      h+='<div class="card" onclick="filterNewsByStock(\''+s.c+'\',\''+esc(L(s.n))+'\');event.stopPropagation()">'
-        +'<div class="h"><span class="nm">'+L(s.n)+'</span><span class="cd">'+s.c+'</span></div>'
+      var exCls=s.exchange?'ex-'+s.exchange:'ex-KRX';
+      var typBadge=s.type==='etf'?'<span class="etfbadge">ETF</span>':s.type==='etf-lev'?'<span class="etflevbadge">레버리지</span>':'';
+      var exBadge=s.exchange?'<span class="exbadge '+exCls+'">'+s.exchange+'</span>':'';
+      var curflag={'US':'🇺🇸','KR':'🇰🇷','TW':'🇹🇼','JP':'🇯🇵'}[s.country||'KR']||'';
+      var sfhidden=(function(){var f=window._stockFilter||'all';return f!=='all'&&((f==='KR'&&(s.country||'KR')!=='KR')||(f==='US'&&(s.country||'KR')==='KR')||(f==='etf'&&s.type!=='etf'&&s.type!=='etf-lev'));})();
+      h+='<div class="card'+(sfhidden?' sf-hidden':'')+'" data-country="'+(s.country||'KR')+'" data-type="'+(s.type||'stock')+'" onclick="filterNewsByStock(\''+s.c+'\',\''+esc(L(s.n))+'\');event.stopPropagation()">'
+        +'<div class="h" style="gap:6px"><span class="nm">'+curflag+' '+L(s.n)+'</span>'
+        +'<div style="display:flex;align-items:center;gap:3px;margin-left:auto">'+typBadge+exBadge+'<span class="cd">'+s.c+'</span></div></div>'
         +'<svg class="sp" viewBox="0 0 240 56" preserveAspectRatio="none"><defs><linearGradient id="'+gid+'" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="'+col+'" stop-opacity=".28"/><stop offset="1" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
         +'<path d="'+sp.area+'" fill="url(#'+gid+')"/><path d="'+sp.line+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round"/>'
         +'<circle cx="'+sp.lx.toFixed(1)+'" cy="'+sp.ly.toFixed(1)+'" r="3.4" fill="'+col+'"/></svg>'
@@ -2005,15 +2035,79 @@ if(location.search.includes('brief=1')){
 
 /* ===== 실시간 데이터 (Yahoo Finance + RSS) ===== */
 function fmtPx(n){return Math.round(n).toLocaleString('ko-KR');}
+function fmtPxGlobal(n,currency){
+  if(!currency||currency==='KRW') return Math.round(n).toLocaleString('ko-KR');
+  return n>=1000?n.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0}):n.toFixed(2);
+}
 function fmtPct(n){return (n>=0?'+':'')+n.toFixed(2);}
+
+/* 종목 필터 */
+window._stockFilter='all';
+function setStockFilter(f){
+  window._stockFilter=f;
+  document.querySelectorAll('.sfb').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-sf')===f);});
+  document.querySelectorAll('#themes .card').forEach(function(card){
+    var c=card.getAttribute('data-country')||'KR';
+    var tp=card.getAttribute('data-type')||'stock';
+    var show=f==='all'||(f==='KR'&&c==='KR')||(f==='US'&&c!=='KR')||(f==='etf'&&(tp==='etf'||tp==='etf-lev'));
+    card.classList.toggle('sf-hidden',!show);
+  });
+}
+
+/* 글로벌 THEMES 자동 주입 — applyStocks가 데이터 받을 때 한 번만 */
+var _globalThemeAdded=false;
+var GLOBAL_META=[
+  {code:'NVDA',name:{ko:'NVIDIA',en:'NVIDIA'},exchange:'NASDAQ',country:'US',type:'stock'},
+  {code:'TSM',name:{ko:'TSMC',en:'TSMC'},exchange:'NYSE',country:'TW',type:'stock'},
+  {code:'MSFT',name:{ko:'Microsoft',en:'Microsoft'},exchange:'NASDAQ',country:'US',type:'stock'},
+  {code:'AAPL',name:{ko:'Apple',en:'Apple'},exchange:'NASDAQ',country:'US',type:'stock'},
+  {code:'AVGO',name:{ko:'Broadcom',en:'Broadcom'},exchange:'NASDAQ',country:'US',type:'stock'},
+  {code:'AMD',name:{ko:'AMD',en:'AMD'},exchange:'NASDAQ',country:'US',type:'stock'},
+  {code:'SMH',name:{ko:'VanEck 반도체ETF',en:'VanEck Semiconductor'},exchange:'NASDAQ',country:'US',type:'etf'},
+  {code:'SOXX',name:{ko:'iShares 반도체ETF',en:'iShares Semiconductor'},exchange:'NASDAQ',country:'US',type:'etf'},
+  {code:'SOXL',name:{ko:'3x 반도체 레버리지',en:'3x Semicon Bull'},exchange:'NYSE',country:'US',type:'etf-lev'},
+  {code:'NVDL',name:{ko:'2x NVIDIA 레버리지',en:'2x NVIDIA'},exchange:'NYSE',country:'US',type:'etf-lev'},
+  {code:'BOTZ',name:{ko:'로보틱스·AI ETF',en:'Robotics·AI ETF'},exchange:'NASDAQ',country:'US',type:'etf'},
+  {code:'QQQ',name:{ko:'Nasdaq-100 ETF',en:'Nasdaq-100 ETF'},exchange:'NASDAQ',country:'US',type:'etf'},
+  {code:'091160.KS',name:{ko:'KODEX 반도체',en:'KODEX Semiconductor'},exchange:'KRX',country:'KR',type:'etf'},
+  {code:'452990.KS',name:{ko:'TIGER AI반도체핵심장비',en:'TIGER AI Semiconductor'},exchange:'KRX',country:'KR',type:'etf'},
+  {code:'379800.KS',name:{ko:'KODEX 미국S&P500',en:'KODEX US S&P500'},exchange:'KRX',country:'KR',type:'etf'},
+];
 
 function applyStocks(d){
   var updated=false;
+
+  // 글로벌 테마 그룹 자동 추가 (최초 1회)
+  if(!_globalThemeAdded){
+    var globalStocks=[];
+    GLOBAL_META.forEach(function(m){
+      if(d[m.code]){
+        var live=d[m.code];
+        globalStocks.push({
+          n:m.name, c:m.code, exchange:m.exchange, country:m.country, type:m.type,
+          px:(live.currency==='USD'?'$':'')+fmtPxGlobal(live.px,live.currency),
+          v:fmtPct(live.v), nw:fmtPct(live.nw),
+          frgn:null, inst:null, vol:null, frgnRatio:null,
+        });
+      }
+    });
+    if(globalStocks.length>0){
+      THEMES.push({
+        nm:{ko:'NVIDIA · 글로벌',en:'NVIDIA · Global'},
+        d:{ko:'NVIDIA 파트너사 · 반도체 ETF (NASDAQ/NYSE)',en:'NVIDIA partners · Semiconductor ETFs'},
+        s:globalStocks, _global:true,
+      });
+      _globalThemeAdded=true;
+      updated=true;
+    }
+  }
+
   for(var t=0;t<THEMES.length;t++){
     for(var i=0;i<THEMES[t].s.length;i++){
       var s=THEMES[t].s[i], live=d[s.c];
       if(live && live.px>0){
-        s.px=fmtPx(live.px);
+        var isUSD=live.currency&&live.currency!=='KRW';
+        s.px=(isUSD?'$':'')+fmtPxGlobal(live.px,live.currency);
         s.v=fmtPct(live.v);
         s.nw=fmtPct(live.nw);
         // 외국인·기관 순매수 업데이트

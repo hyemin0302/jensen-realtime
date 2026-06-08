@@ -28,6 +28,52 @@ export const BASE_NEWS = {
 
 const CODES = Object.keys(BASE_VISIT);
 
+// ── 글로벌 종목 + ETF (Yahoo Finance) ──────────────────
+// type: stock | etf | etf-lev(레버리지ETF)
+// country: US·KR·TW·JP (거래소 소재지)
+// base: 2026-05-27 종가 기준 (방한확정比 계산용, 0이면 당일 등락만 표시)
+export const GLOBAL_TICKERS = [
+  // ── NVIDIA (항상 표시) ──
+  { code:'NVDA',      name:'NVIDIA',                 exchange:'NASDAQ', country:'US', type:'stock',   base:110.50 },
+  // ── 미국 반도체/AI ETF ──
+  { code:'SMH',       name:'VanEck Semiconductor',   exchange:'NASDAQ', country:'US', type:'etf',     base:213.20 },
+  { code:'SOXX',      name:'iShares Semiconductor',  exchange:'NASDAQ', country:'US', type:'etf',     base:218.40 },
+  { code:'SOXL',      name:'3x Semicon Bull (레버리지)',exchange:'NYSE', country:'US', type:'etf-lev', base:42.10  },
+  { code:'NVDL',      name:'2x NVIDIA (레버리지)',    exchange:'NYSE',   country:'US', type:'etf-lev', base:22.50  },
+  { code:'BOTZ',      name:'로보틱스·AI ETF',         exchange:'NASDAQ', country:'US', type:'etf',     base:28.30  },
+  { code:'AIQ',       name:'AI & Big Data ETF',       exchange:'NYSE',   country:'US', type:'etf',     base:34.60  },
+  { code:'QQQ',       name:'Nasdaq-100 ETF',          exchange:'NASDAQ', country:'US', type:'etf',     base:465.20 },
+  // ── 미국 관련주 (파트너사) ──
+  { code:'TSM',       name:'TSMC',                   exchange:'NYSE',   country:'TW', type:'stock',   base:178.40 },
+  { code:'MSFT',      name:'Microsoft',               exchange:'NASDAQ', country:'US', type:'stock',   base:420.80 },
+  { code:'AAPL',      name:'Apple',                   exchange:'NASDAQ', country:'US', type:'stock',   base:207.30 },
+  { code:'AVGO',      name:'Broadcom',                exchange:'NASDAQ', country:'US', type:'stock',   base:184.20 },
+  { code:'AMD',       name:'AMD',                     exchange:'NASDAQ', country:'US', type:'stock',   base:118.60 },
+  // ── 한국 ETF ──
+  { code:'091160.KS', name:'KODEX 반도체',            exchange:'KRX',    country:'KR', type:'etf',     base:33800  },
+  { code:'452990.KS', name:'TIGER AI반도체핵심장비',  exchange:'KRX',    country:'KR', type:'etf',     base:14950  },
+  { code:'379800.KS', name:'KODEX 미국S&P500',       exchange:'KRX',    country:'KR', type:'etf',     base:15420  },
+];
+
+// Yahoo Finance 가격 조회
+async function fetchYahooPrice(symbol) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=1d`;
+  const resp = await fetch(url, {
+    headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' },
+    signal: AbortSignal.timeout(7000),
+  });
+  if (!resp.ok) throw new Error(`${symbol} HTTP ${resp.status}`);
+  const data = await resp.json();
+  const meta = data?.chart?.result?.[0]?.meta;
+  if (!meta || !meta.regularMarketPrice) throw new Error('no price');
+  return {
+    px:         meta.regularMarketPrice,
+    dayChange:  +(meta.regularMarketChangePercent || 0).toFixed(2),
+    currency:   meta.currency || 'USD',
+    marketState: meta.marketState || 'CLOSED',
+  };
+}
+
 async function fetchNaverPrice(code) {
   const resp = await fetch(`https://m.stock.naver.com/api/stock/${code}/basic`, {
     headers: {
@@ -111,12 +157,15 @@ function estimatePriceTargetRange(px, v) {
  * @returns {{ ok: boolean, data: Object, count: number, ts: number }}
  */
 export async function runStockAgent() {
-  const [priceResults, investorResults] = await Promise.all([
+  const [priceResults, investorResults, globalResults] = await Promise.all([
     Promise.allSettled(CODES.map(fetchNaverPrice)),
     Promise.allSettled(CODES.map(fetchNaverInvestor)),
+    Promise.allSettled(GLOBAL_TICKERS.map(t => fetchYahooPrice(t.code))),
   ]);
 
   const data = {};
+
+  // ── 한국 종목 (Naver) ──
   priceResults.forEach((r, i) => {
     if (r.status !== 'fulfilled') return;
     const code = CODES[i];
@@ -128,15 +177,32 @@ export async function runStockAgent() {
     const inv = investorResults[i]?.value || null;
     data[code] = {
       px, v, nw,
+      currency: 'KRW', exchange: 'KRX', country: 'KR', type: 'stock',
       state: s.marketStatus || 'CLOSED',
       ptr: estimatePriceTargetRange(px, v),
       vol:       inv?.vol        ?? null,
-      frgn:      inv?.frgn       ?? null,  // 외국인 순매수 (주, 음수=순매도)
-      inst:      inv?.inst       ?? null,  // 기관 순매수 (주, 음수=순매도)
-      frgnRatio: inv?.frgnRatio  ?? null,  // 외국인 보유비율 (%)
+      frgn:      inv?.frgn       ?? null,
+      inst:      inv?.inst       ?? null,
+      frgnRatio: inv?.frgnRatio  ?? null,
+    };
+  });
+
+  // ── 글로벌 종목 + ETF (Yahoo Finance) ──
+  globalResults.forEach((r, i) => {
+    if (r.status !== 'fulfilled') return;
+    const meta = GLOBAL_TICKERS[i];
+    const { px, dayChange, currency, marketState } = r.value;
+    const v = meta.base > 0 ? +((px - meta.base) / meta.base * 100).toFixed(2) : dayChange;
+    data[meta.code] = {
+      px, v, nw: dayChange,
+      currency, exchange: meta.exchange, country: meta.country, type: meta.type,
+      name: meta.name,
+      state: marketState,
+      ptr: null, vol: null, frgn: null, inst: null, frgnRatio: null,
     };
   });
 
   const count = Object.keys(data).length;
+  console.log(`[stock-agent] 한국 ${CODES.length}개 + 글로벌 ${GLOBAL_TICKERS.length}개 → 성공 ${count}개`);
   return { ok: count > 0, data, count, ts: Date.now() };
 }
