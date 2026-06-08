@@ -72,6 +72,160 @@ export async function enrichWithFullText(items, concurrency = 5) {
   return results;
 }
 
+// ── 뉴스 본문 기반 장소 자동 감지 ────────────────────────
+// events.json에 evt_auto_loc_{id} 패턴으로 map_pin 이벤트를 자동 삽입
+// pinned 이벤트(evt_auto_loc_* 아닌 것)는 절대 수정하지 않음
+
+const LOCATION_CATALOG = [
+  {
+    id: 'seongsu',
+    keywords: ['성수', '성수동', '성수 만찬', '성수 삼겹살'],
+    title:  { ko: '서울 성수 (뉴스 감지)', en: 'Seongsu, Seoul (auto)' },
+    desc:   { ko: '이벤트성 회동 · 만찬', en: 'Event dinner' },
+    location: { name: { ko: '서울 성수', en: 'Seongsu, Seoul' }, address: '서울 성동구 성수동', lat: 37.5449, lng: 127.0589 },
+    pin:    { label: { ko: '성수', en: 'Seongsu' }, undef: true },
+  },
+  {
+    id: 'shilla',
+    keywords: ['신라호텔', '신라 호텔', 'Shilla Hotel'],
+    title:  { ko: '서울신라호텔 행사 (뉴스 감지)', en: 'Shilla Hotel event (auto)' },
+    desc:   { ko: 'AI 생태계 행사', en: 'AI ecosystem event' },
+    location: { name: { ko: '서울신라호텔', en: 'Shilla Hotel, Seoul' }, address: '서울 중구 동호로', lat: 37.5583, lng: 126.9976 },
+    pin:    { label: { ko: '신라호텔', en: 'Shilla Hotel' }, undef: false },
+  },
+  {
+    id: 'hyundai',
+    keywords: ['현대차 양재', '현대자동차 양재', '양재 현대', '정의선 회동', '정의선 면담'],
+    title:  { ko: '현대차 양재 (뉴스 감지)', en: 'Hyundai Yangjae (auto)' },
+    desc:   { ko: '현대차 · 자율주행 AI', en: 'Hyundai · Autonomous AI' },
+    location: { name: { ko: '현대차 양재', en: 'Hyundai HQ, Yangjae' }, address: '서울 서초구 헌릉로', lat: 37.4660, lng: 127.0330 },
+    pin:    { label: { ko: '현대차', en: 'Hyundai' }, undef: false },
+  },
+  {
+    id: 'yongsan',
+    keywords: ['대통령실', '용산 대통령', '이재명 회동', '총리 면담', 'Presidential Office'],
+    title:  { ko: '대통령실 면담 (뉴스 감지)', en: 'Presidential Office (auto)' },
+    desc:   { ko: '정부 면담', en: 'Government meeting' },
+    location: { name: { ko: '대통령실 (용산)', en: 'Presidential Office (Yongsan)' }, address: '서울 용산구 이태원로', lat: 37.5362, lng: 126.9768 },
+    pin:    { label: { ko: '대통령실', en: 'Presidential' }, undef: false },
+  },
+  {
+    id: 'samsung-seocho',
+    keywords: ['삼성리서치', '삼성 우면', '삼성전자 서초', 'Samsung Research'],
+    title:  { ko: '삼성리서치 (뉴스 감지)', en: 'Samsung Research (auto)' },
+    desc:   { ko: '삼성리서치 AI 연구소', en: 'Samsung Research AI Lab' },
+    location: { name: { ko: '삼성리서치 (서초)', en: 'Samsung Research (Seocho)' }, address: '서울 서초구 우면산로', lat: 37.4816, lng: 127.0273 },
+    pin:    { label: { ko: '삼성R&D', en: 'Samsung R&D' }, undef: true },
+  },
+  {
+    id: 'coex',
+    keywords: ['코엑스', 'COEX', '코엑스 행사'],
+    title:  { ko: 'COEX 행사 (뉴스 감지)', en: 'COEX event (auto)' },
+    desc:   { ko: 'COEX 강연 · 행사', en: 'COEX talk/event' },
+    location: { name: { ko: '서울 강남 COEX', en: 'COEX, Gangnam' }, address: '서울 강남구 영동대로', lat: 37.5130, lng: 127.0590 },
+    pin:    { label: { ko: 'COEX', en: 'COEX' }, undef: true },
+  },
+  {
+    id: 'skt',
+    keywords: ['SKT 분당', 'SK텔레콤 분당', 'SKT AI 센터', 'SK AI 인프라'],
+    title:  { ko: 'SKT 분당 (뉴스 감지)', en: 'SKT Bundang (auto)' },
+    desc:   { ko: 'SK텔레콤 AI 인프라', en: 'SKT AI infrastructure' },
+    location: { name: { ko: 'SK텔레콤 (분당)', en: 'SKT (Bundang)' }, address: '경기 성남시 분당구', lat: 37.3946, lng: 127.1137 },
+    pin:    { label: { ko: 'SK텔레콤', en: 'SKT' }, undef: false },
+  },
+];
+
+/**
+ * 본문 포함 기사에서 장소 언급 횟수 집계
+ * @param {Array} articles - enrichWithFullText() 결과
+ * @returns {Object} { locationId: { count, sources[] } }
+ */
+function detectLocations(articles) {
+  const result = {};
+  for (const article of articles) {
+    const text = article.t + ' ' + (article.d || '') + ' ' + (article.fullText || '');
+    for (const loc of LOCATION_CATALOG) {
+      if (!loc.keywords.some(kw => text.includes(kw))) continue;
+      if (!result[loc.id]) result[loc.id] = { count: 0, sources: [] };
+      result[loc.id].count++;
+      if (result[loc.id].sources.length < 3) {
+        result[loc.id].sources.push({
+          publisher: { ko: article.s, en: article.s },
+          title:     { ko: article.t, en: article.t },
+          url:       article.u,
+          time:      article.m,
+        });
+      }
+    }
+  }
+  return result;
+}
+
+/**
+ * 감지된 위치를 events.json에 map_pin 이벤트로 삽입/갱신
+ * - id 패턴 evt_auto_loc_{id} 인 이벤트만 건드림
+ * - 언급 2회 미만은 무시
+ * @param {Object} eventsData - events.json 파싱 결과 (in-place 수정)
+ * @param {Object} detected   - detectLocations() 결과
+ * @returns {number} 추가/갱신된 핀 수
+ */
+function updateMapPins(eventsData, detected) {
+  let changed = 0;
+  const existingIds = new Set(eventsData.events.map(e => e.id));
+
+  for (const loc of LOCATION_CATALOG) {
+    const info = detected[loc.id];
+    if (!info || info.count < 2) continue;
+
+    const autoId = `evt_auto_loc_${loc.id}`;
+
+    if (existingIds.has(autoId)) {
+      // 기존 자동 핀 소스 보강
+      const ev = eventsData.events.find(e => e.id === autoId);
+      const existUrls = new Set((ev.sources || []).map(s => s.url));
+      const newSrc = info.sources.filter(s => s.url && !existUrls.has(s.url));
+      if (newSrc.length) {
+        ev.sources = [...(ev.sources || []), ...newSrc];
+        ev.source_count = ev.sources.length;
+        ev.is_new = true;
+        changed++;
+        console.log(`  [news-agent] 지도 핀 소스 보강: ${loc.title.ko} (+${newSrc.length}건)`);
+      }
+    } else {
+      // 새 map_pin 이벤트 삽입
+      eventsData.events.push({
+        id: autoId,
+        type: 'visit',
+        is_new: true,
+        source_count: info.sources.length,
+        status: 'planned',
+        status_label: { ko: '예상', en: 'expected' },
+        confidence: 'expected',
+        confidence_label: { ko: '예상 (자동)', en: 'expected (auto)' },
+        title: loc.title,
+        url: info.sources[0]?.url || '',
+        location: loc.location,
+        datetime: null,
+        datetime_display: { ko: '방한 중 (뉴스 감지)', en: 'During visit (auto)' },
+        timeline_order: null,
+        timeline_badge: null,
+        description: loc.desc,
+        summary: { ko: ['뉴스 본문 키워드 자동 감지'], en: ['Auto-detected from article body'] },
+        related_stocks: [],
+        sources: info.sources,
+        map_pin: { ...loc.pin, pct: null, sub: null, cur: false },
+        insight: null,
+        views: { timeline: false, news_card: false, map_pin: true },
+        _auto_loc: true,
+      });
+      existingIds.add(autoId);
+      changed++;
+      console.log(`  [news-agent] 새 지도 핀 추가: ${loc.title.ko} (${info.count}건 언급)`);
+    }
+  }
+  return changed;
+}
+
 const FEEDS = [
   { url: 'https://www.yna.co.kr/rss/economy.xml',        src: '연합뉴스' },
   { url: 'https://www.hankyung.com/feed/all-news',        src: '한국경제' },
@@ -392,7 +546,12 @@ export async function runNewsAgent(eventsPath) {
     articles.filter(a => !existingTitles.has(a.t.slice(0, 25)))
   );
 
-  if (newCards.length > 0 || timelineUpdates > 0) {
+  // 본문 기반 장소 자동 감지 → map_pin 이벤트 삽입/갱신
+  const detected = detectLocations(articles);
+  const mapPinChanges = updateMapPins(eventsData, detected);
+  console.log(`[news-agent] 지도 핀 변경: ${mapPinChanges}개`);
+
+  if (newCards.length > 0 || timelineUpdates > 0 || mapPinChanges > 0) {
     eventsData.events = newCards.length > 0
       ? [...newCards, ...eventsData.events]
       : eventsData.events;
