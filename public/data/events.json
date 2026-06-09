@@ -1,8 +1,391 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-09T06:43:25.779Z",
+  "updatedAt": "2026-06-09T10:31:07.938Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780995524000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“젠슨 황 소용없네” LG전자·네이버, 팔천피 복귀일 7% 급락",
+        "en": "“젠슨 황 소용없네” LG전자·네이버, 팔천피 복귀일 7% 급락"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260609/134079612/1",
+      "location": {
+        "name": {
+          "ko": "한국거래소",
+          "en": "한국거래소"
+        }
+      },
+      "datetime": "2026-06-09T08:58:44.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 08:58",
+        "en": "06. 09. AM 08:58"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "LG전자와 네이버가 9일 코스피 지수가 8% 이상 올라 8000선을 탈환한 장에서도 7% 이상 급락했다. 두 기업모두 엔비디아와 인공지능(AI) 분야 협력을 발표했지만, 최근 급등한 데 따른 차익실현 물량이 출회된 영향으로 풀이된다.한국거래소에 따르면 이날 LG전자는 전일 대비 2만 원(7.46%) 내린 24만 8000원으로 장을 마감했다.LG전자는 젠슨 황 엔비디아 최고경영자(CEO)의 방한 소식이 알려지면서 지난달 29일과 이달 1일 연속 상한가를 기록했고, 지난 2일에도 상승해 39만 2500원으로 사상 최고가를 기록했다.하지만 지난 4일부터는 단기간 급등에 따른 차익실현 매물이 쏟아지면서 4거래일 연속 급락했다.구광모 LG그룹 회장이 황 CEO와 직접 회동하고 피지컬 AI, 모빌리티 등 협력 계회을 ",
+        "en": "LG전자와 네이버가 9일 코스피 지수가 8% 이상 올라 8000선을 탈환한 장에서도 7% 이상 급락했다. 두 기업모두 엔비디아와 인공지능(AI) 분야 협력을 발표했지만, 최근 급등한 데 따른 차익실현 물량이 출회된 영향으로 풀이된다.한국거래소에 따르면 이날 LG전자는 전일 대비 2만 원(7.46%) 내린 24만 8000원으로 장을 마감했다.LG전자는 젠슨 황 엔비디아 최고경영자(CEO)의 방한 소식이 알려지면서 지난달 29일과 이달 1일 연속 상한가를 기록했고, 지난 2일에도 상승해 39만 2500원으로 사상 최고가를 기록했다.하지만 지난 4일부터는 단기간 급등에 따른 차익실현 매물이 쏟아지면서 4거래일 연속 급락했다.구광모 LG그룹 회장이 황 CEO와 직접 회동하고 피지컬 AI, 모빌리티 등 협력 계회을 "
+      },
+      "summary": {
+        "ko": [
+          "LG전자와 네이버가 9일 코스피 지수가 8% 이상 올라 8000선을 탈환한 장에서도 7% 이상 급락했다.",
+          "두 기업모두 엔비디아와 인공지능(AI) 분야 협력을 발표했지만, 최근 급등한 데 따른 차익실현 물량이 출회된 영향으로 풀이된다."
+        ],
+        "en": [
+          "LG전자와 네이버가 9일 코스피 지수가 8% 이상 올라 8000선을 탈환한 장에서도 7% 이상 급락했다. 두 기업모두 엔비디아와 인공지능(AI) 분야 협력을 발표했지만, 최근 급등한 데 따른 차익실현 물량이 출회된 영향으로 풀이된다.한국거래소에 따르면 이날 LG전자는 전일 대비 2만 원(7.46%) 내린 24만 8000원으로 장을 마감했다.LG전자는 젠슨 황 엔비디아 최고경영자(CEO)의 방한 소식이 알려지면서 지난달 29일과 이달 1일 연속 상한가를 기록했고, 지난 2일에도 상승해 39만 2500원으로 사상 최고가를 기록했다.하지만 지난 4일부터는 단기간 급등에 따른 차익실현 매물이 쏟아지면서 4거래일 연속 급락했다.구광모 LG그룹 회장이 황 CEO와 직접 회동하고 피지컬 AI, 모빌리티 등 협력 계회을 "
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "“젠슨 황 소용없네” LG전자·네이버, 팔천피 복귀일 7% 급락",
+            "en": "“젠슨 황 소용없네” LG전자·네이버, 팔천피 복귀일 7% 급락"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260609/134079612/1",
+          "time": "06. 09. AM 08:58"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780995146000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황이 선택한 네이버 AI 팩토리, 핵심은 ‘데이터센터 역량’",
+        "en": "젠슨 황이 선택한 네이버 AI 팩토리, 핵심은 ‘데이터센터 역량’"
+      },
+      "url": "https://www.donga.com/news/It/article/all/20260609/134079545/1",
+      "location": {
+        "name": {
+          "ko": "네이버 데이터센터 '각 세종'",
+          "en": "네이버 데이터센터 '각 세종'"
+        }
+      },
+      "datetime": "2026-06-09T08:52:26.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 08:52",
+        "en": "06. 09. AM 08:52"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 네이버(035420)를 ‘인공지능(AI) 팩토리’ 사업 파트너로 낙점하며 그 배경에 관심이 쏠린다. 네이버는 자체 최대규모 데이터센터 운영 경험과 대규모 그래픽처리장치(GPU) 클러스터 구축 노하우를 자사의 핵심 경쟁력으로 꼽았다.9일 정보기술(IT) 업계에 따르면 젠슨 황 CEO는 전날(8일) 네이버 사옥 ‘1784’를 찾아 이해진 네이버 의장과 회동한 뒤 네이버와의 협력 방안을 발표했다.양사는 네이버 데이터센터 ‘각 세종’을 거점으로 AI 팩토리를 구축한다. 궁극적으로는 ‘각 세종’ 최대 용량의 약 4배인 1기가와트(GW)까지 인프라를 확장할 계획이다.AI 팩토리는 전력과 데이터를 투입해 AI의 핵심 연산 단위인 ‘토큰’을 대량 생산하는 지능형 인프라다. 기존의 A",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 네이버(035420)를 ‘인공지능(AI) 팩토리’ 사업 파트너로 낙점하며 그 배경에 관심이 쏠린다. 네이버는 자체 최대규모 데이터센터 운영 경험과 대규모 그래픽처리장치(GPU) 클러스터 구축 노하우를 자사의 핵심 경쟁력으로 꼽았다.9일 정보기술(IT) 업계에 따르면 젠슨 황 CEO는 전날(8일) 네이버 사옥 ‘1784’를 찾아 이해진 네이버 의장과 회동한 뒤 네이버와의 협력 방안을 발표했다.양사는 네이버 데이터센터 ‘각 세종’을 거점으로 AI 팩토리를 구축한다. 궁극적으로는 ‘각 세종’ 최대 용량의 약 4배인 1기가와트(GW)까지 인프라를 확장할 계획이다.AI 팩토리는 전력과 데이터를 투입해 AI의 핵심 연산 단위인 ‘토큰’을 대량 생산하는 지능형 인프라다. 기존의 A"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 네이버를 '인공지능(AI) 팩토리' 사업 파트너로 낙점했다.",
+          "네이버는 자체 최대규모 데이터센터 운영 경험과 대규모 그래픽처리장치(GPU) 클러스터 구축 노하우를 자사의 핵심 경쟁력으로 꼽았다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 네이버(035420)를 ‘인공지능(AI) 팩토리’ 사업 파트너로 낙점하며 그 배경에 관심이 쏠린다. 네이버는 자체 최대규모 데이터센터 운영 경험과 대규모 그래픽처리장치(GPU) 클러스터 구축 노하우를 자사의 핵심 경쟁력으로 꼽았다.9일 정보기술(IT) 업계에 따르면 젠슨 황 CEO는 전날(8일) 네이버 사옥 ‘1784’를 찾아 이해진 네이버 의장과 회동한 뒤 네이버와의 협력 방안을 발표했다.양사는 네이버 데이터센터 ‘각 세종’을 거점으로 AI 팩토리를 구축한다. 궁극적으로는 ‘각 세종’ 최대 용량의 약 4배인 1기가와트(GW)까지 인프라를 확장할 계획이다.AI 팩토리는 전력과 데이터를 투입해 AI의 핵심 연산 단위인 ‘토큰’을 대량 생산하는 지능형 인프라다. 기존의 A"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황이 선택한 네이버 AI 팩토리, 핵심은 ‘데이터센터 역량’",
+            "en": "젠슨 황이 선택한 네이버 AI 팩토리, 핵심은 ‘데이터센터 역량’"
+          },
+          "url": "https://www.donga.com/news/It/article/all/20260609/134079545/1",
+          "time": "06. 09. AM 08:52"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780989087000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[특징주] 젠슨 황 출국에 네이버·LG전자 등 동반 급락(종합)",
+        "en": "[특징주] 젠슨 황 출국에 네이버·LG전자 등 동반 급락(종합)"
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260609055651008",
+      "location": null,
+      "datetime": "2026-06-09T07:11:27.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 07:11",
+        "en": "06. 09. AM 07:11"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 방한을 계기로 주가가 요동쳤던 네이버와 LG 그룹주 등 관련 종목 다수...",
+        "en": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 방한을 계기로 주가가 요동쳤던 네이버와 LG 그룹주 등 관련 종목 다수..."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자의 방한을 계기로 주가가 요동쳤던 네이버와 LG 그룹주 등 관련 종목 다수가 9일 큰 폭으로 하락한 채 거래를 마쳤다.",
+          "젠슨 황 엔비디아 최고경영자의 방한을 계기로 엔비디아와의 협력이 부각되며 전날 9.02% 급등하는 등 최근 수일간 강세를 이어온 데 따른 차익실현 매물이 일시에 출회됐을 가능성이 있어 보인다."
+        ],
+        "en": [
+          "(서울=연합뉴스) 황철환 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 방한을 계기로 주가가 요동쳤던 네이버와 LG 그룹주 등 관련 종목 다수..."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "[특징주] 젠슨 황 출국에 네이버·LG전자 등 동반 급락(종합)",
+            "en": "[특징주] 젠슨 황 출국에 네이버·LG전자 등 동반 급락(종합)"
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260609055651008",
+          "time": "06. 09. AM 07:11"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK",
+        "en": "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK"
+      },
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-s-jensen-huang-charms-south-korea-clinching-ai-factory-deal-with-sk",
+      "location": {
+        "name": {
+          "ko": "한국",
+          "en": "한국"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK",
+        "en": "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK"
+      },
+      "summary": {
+        "ko": [
+          "Nvidia의 제인슨 황이 한국을 매혹했다.",
+          "SK와 AI 공장 계약을 체결했다."
+        ],
+        "en": [
+          "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Nikkei Asia",
+            "en": "Nikkei Asia"
+          },
+          "title": {
+            "ko": "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK",
+            "en": "Nvidia's Jensen Huang charms South Korea, clinching AI factory deal with SK"
+          },
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-s-jensen-huang-charms-south-korea-clinching-ai-factory-deal-with-sk",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780986421000",
       "type": "announcement",

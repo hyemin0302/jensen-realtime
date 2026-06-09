@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-09T06:43:30.437Z",
+  "updatedAt": "2026-06-09T10:31:11.011Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-06-09",
+      "note": "자동 배치: 뉴스 4건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-06-09",
@@ -98,11 +103,6 @@
       "version": "1.3.0",
       "date": "2026-06-04",
       "note": "뉴스 카드 자동 수집 (RSS 배치). 주가 API Yahoo→Naver 교체."
-    },
-    {
-      "version": "1.2.0",
-      "date": "2026-06-03",
-      "note": "GitHub Actions 2시간 배치 뉴스 자동화. Vercel 배포 자동화."
     }
   ]
 }
