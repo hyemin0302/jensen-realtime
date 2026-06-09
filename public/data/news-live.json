@@ -1,21 +1,7 @@
 {
-  "updatedAt": "2026-06-09T13:40:43.594Z",
-  "count": 8,
+  "updatedAt": "2026-06-09T16:28:04.942Z",
+  "count": 6,
   "items": [
-    {
-      "s": "동아일보",
-      "t": "“젠슨 황 소용없네” LG전자·네이버, 팔천피 복귀일 7% 급락",
-      "d": "LG전자와 네이버가 9일 코스피 지수가 8% 이상 올라 8000선을 탈환한 장에서도 7% 이상 급락했다. 두 기업모두 엔비디아와 인공지능(AI) 분야 협력을 발표했지만, 최근 급등한 데 따른 차익실현 물량이 출회된 영향으로 풀이된다.한국거래소에 따르면 이날 LG전자는 전일 대비 2만 원(7.46%) 내린 24만 8000원으로 장을 마감했다.LG전자는 젠슨 황 엔비디아 최고경영자(CEO)의 방한 소식이 알려지면서 지난달 29일과 이달 1일 연속 상한가를 기록했고, 지난 2일에도 상승해 39만 2500원으로 사상 최고가를 기록했다.하지만 지난 4일부터는 단기간 급등에 따른 차익실현 매물이 쏟아지면서 4거래일 연속 급락했다.구광모 LG그룹 회장이 황 CEO와 직접 회동하고 피지컬 AI, 모빌리티 등 협력 계회을 ",
-      "u": "https://www.donga.com/news/Economy/article/all/20260609/134079612/1",
-      "m": "06. 09. AM 08:58",
-      "ts": 1780995524000,
-      "stocks": [
-        "066570",
-        "066575",
-        "035420"
-      ],
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
-    },
     {
       "s": "연합뉴스",
       "t": "[특징주] 젠슨 황 출국에 네이버·LG전자 등 동반 급락(종합)",
@@ -29,16 +15,6 @@
         "035420"
       ],
       "fullText": "젠슨 황 엔비디아 최고경영자의 방한을 계기로 주가가 요동쳤던 네이버와 LG 그룹주 등 관련 종목 다수가 9일 큰 폭으로 하락한 채 거래를 마쳤다. 2.51% 오른 28만6천원으로 출발한 네이버는 개장하자마자 급격히 상승분을 반납한 뒤 하락 전환해 한때 12.90% 내린 24만3천원까지 밀리는 모습을 보였다. 젠슨 황 엔비디아 최고경영자의 방한을 계기로 엔비디아와의 협력이 부각되며 전날 9.02% 급등하는 등 최근 수일간 강세를 이어온 데 따른 차익실현 매물이 일시에 출회됐을 가능성이 있어 보인다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Why Jensen Huang Talking Up Suppliers Is Worrying",
-      "d": "Nvidia CEO Jensen Huang's investment advice involving the company's suppliers is dangerously rosy, Bloomberg Opinion columnist Shuli Ren says. Ren argues that concrete guidance, not outsized optimism, is what's needed from Huang and other tech titans. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-06-09/why-jensen-huang-talking-up-suppliers-is-worrying-video",
-      "m": "06. 09. AM 06:18",
-      "ts": 1780985925000,
-      "stocks": [],
-      "fullText": ""
     },
     {
       "s": "CNBC Tech",
@@ -78,7 +54,7 @@
       "m": "06. 05. AM 05:38",
       "ts": 1780637917000,
       "stocks": [],
-      "fullText": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI NVIDIA founder and CEO Jensen Huang takes to Seoul, meeting Korea’s AI builders, sovereign infrastructure partners and gaming community. June 4, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live updates. Monday, June 8, 10:00 a.m. PT From Industrial Leadership to Gaming and AI: Go Korea! “Thank you for your friendship. Thank you for your partnership. Go Korea!” NVIDIA founder and CEO Jensen Huang said, addressing a reception that brought together roughly 200 partners from every part of the Korea AI ecosystem, corresponding to the five‑layer cake . “I’m very happy to be here with all of you. This is Korea’s ecosystem,” Huang said. “This is the industrial base. This is the venture investors. This is the young entrepreneurs. We brought them all together. Frankly, next year I hope to see this be 10 times larger — not two times larger, 10 times larger.” Hosted at the Young Bin Gwan at The Shilla Seoul, the gathering rounded out Huang’s trip, which spotlighted Korea’s place at the intersection of gaming, industry and AI, and the many partnerships shaping what comes next. Off of a series of surprise visits to PC bangs and the announcement a week earlier of NVIDIA RTX Spark — a new superchip reinventing Windows PCs — Huang kicked off remarks on gaming and esports, tracing NVIDIA’s origins and Korea’s tech roots back to its earliest bet on computer graphics. “Almost all great technology started out as toys,” he said. “And we realized that computer games were complicated, because they were trying to reproduce reality. Reproducing reality requires extraordinary algorithms, extraordinary computing technology. And we dreamed from that beginning, we could someday be one of the worlds most important technology companies. That was our dream. That was 33 years ago.” That dream has “revolutionized the gaming industry,” Huang said. “It transformed an entire generation. It made video games something fun into something worthy to endeavor, to be great at. Now, Korea is the world leader in esports.” Huang described Korea also as a “world-class leader in heavy industries” — and now in AI. Now were sitting in a country where you are world-class at manufacturing, world-class at electronics, world-class at software — and you are now world-class at AI.” The gathering capped off a week of meetings with partners — including LG Group , SK Group , Hyundai Motor Group, Naver and Doosan — expanding collaborations that support the nation’s AI infrastructure and setting the stage for advancements in agentic AI, physical AI and beyond. “You ha"
+      "fullText": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI NVIDIA founder and CEO Jensen Huang takes to Seoul, meeting Korea’s AI builders, sovereign infrastructure partners and gaming community. June 4, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live updates. Monday, June 8, 10:00 a.m. PT From Industrial Leadership to Gaming and AI: Go Korea! “Thank you for your friendship. Thank you for your partnership. Go Korea!” NVIDIA founder and CEO Jensen Huang said, addressing a reception that brought together roughly 200 partners from every part of the Korea AI ecosystem, corresponding to the five‑layer cake . “I’m very happy to be here with all of you. This is Korea’s ecosystem,” Huang said. “This is the industrial base. This is the venture investors. This is the young entrepreneurs. We brought them all together. Frankly, next year I hope to see this be 10 times larger — not two times larger, 10 times larger.” Hosted at the Young Bin Gwan at The Shilla Seoul, the gathering rounded out Huang’s trip, which spotlighted Korea’s place at the intersection of gaming, industry and AI, and the many partnerships shaping what comes next. Off of a series of surprise visits to PC bangs and the announcement a week earlier of NVIDIA RTX Spark — a new superchip reinventing Windows PCs — Huang kicked off remarks on gaming and esports, tracing NVIDIA’s origins and Korea’s tech roots back to its earliest bet on computer graphics. “Almost all great technology started out as toys,” he said. “And we realized that computer games were complicated, because they were trying to reproduce reality. Reproducing reality requires extraordinary algorithms, extraordinary computing technology. And we dreamed from that beginning, we could someday be one of the worlds most important technology companies. That was our dream. That was 33 years ago.” That dream has “revolutionized the gaming industry,” Huang said. “It transformed an entire generation. It made video games something fun into something worthy to endeavor, to be great at. Now, Korea is the world leader in esports.” Huang described Korea also as a “world-class leader in heavy industries” — and now in AI. Now were sitting in a country where you are world-class at manufacturing, world-class at electronics, world-class at software — and you are now world-class at AI.” The gathering capped off a week of meetings with partners — including LG Group , SK Group , Hyundai Motor Group , Naver and Doosan — expanding collaborations that support the nation’s AI infrastructure and setting the stage for advancements in agentic AI, physical AI and beyond. “You h"
     },
     {
       "s": "Nikkei Asia",
