@@ -1,8 +1,430 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-08T23:44:46.921Z",
+  "updatedAt": "2026-06-09T02:31:26.019Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780970139000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨황株 두고 엇갈린 행보…현대차·LG전자 담고 네이버 팔고 [주식 초고수는 지금]",
+        "en": "젠슨황株 두고 엇갈린 행보…현대차·LG전자 담고 네이버 팔고 [주식 초고수는 지금]"
+      },
+      "url": "https://www.mk.co.kr/news/stock/12069269",
+      "location": null,
+      "datetime": "2026-06-09T01:55:39.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 01:55",
+        "en": "06. 09. AM 01:55"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[수익률 상위 1% 투자자 오전 9시30분 거래동향] 초고수들, 엔비디아 수혜주 하락에 울상주식 투자 수익률 상위 1% 초고수들은 9일 오전 9시 30분 기준으로 현대차, LG전자..",
+        "en": "[수익률 상위 1% 투자자 오전 9시30분 거래동향] 초고수들, 엔비디아 수혜주 하락에 울상주식 투자 수익률 상위 1% 초고수들은 9일 오전 9시 30분 기준으로 현대차, LG전자.."
+      },
+      "summary": {
+        "ko": [
+          "[수익률 상위 1% 투자자 오전 9시30분 거래동향] 초고수들, 엔비디아 수혜주 하락에 울상",
+          "주식 투자 수익률 상위 1% 초고수들은 9일 오전 9시 30분 기준으로 현대차, LG전자..."
+        ],
+        "en": [
+          "[수익률 상위 1% 투자자 오전 9시30분 거래동향] 초고수들, 엔비디아 수혜주 하락에 울상주식 투자 수익률 상위 1% 초고수들은 9일 오전 9시 30분 기준으로 현대차, LG전자.."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "매일경제",
+            "en": "매일경제"
+          },
+          "title": {
+            "ko": "젠슨황株 두고 엇갈린 행보…현대차·LG전자 담고 네이버 팔고 [주식 초고수는 지금]",
+            "en": "젠슨황株 두고 엇갈린 행보…현대차·LG전자 담고 네이버 팔고 [주식 초고수는 지금]"
+          },
+          "url": "https://www.mk.co.kr/news/stock/12069269",
+          "time": "06. 09. AM 01:55"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780966920000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "떠나는 젠슨황 “삼겹살-치킨 친구들, 휴식 필요…곧 다시 오길 기대”",
+        "en": "떠나는 젠슨황 “삼겹살-치킨 친구들, 휴식 필요…곧 다시 오길 기대”"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260609/134075307/2",
+      "location": {
+        "name": {
+          "ko": "김포국제공항",
+          "en": "김포국제공항"
+        }
+      },
+      "datetime": "2026-06-09T01:02:00.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 01:02",
+        "en": "06. 09. AM 01:02"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 4박 5일의 한국 일정을 마치고 9일 오전 출국했다. 황 CEO는 다음 방문 계획과 관련해선 “모두 휴식이 필요할 것 같다”며 “저의 삼겹살, 치킨 친구들도 휴식이 필요하다”고 했다. 그러면서 “곧 다시 오기를 기대한다”고 덧붙였다. ‘삼겹살-치킨 친구들’은 방한 기간 중 만난 한국 최고 경영자들을 말한 것으로 보인다.황 CEO는 이날 오전 서울 강서구 김포국제공항에서 대기하던 취재진 등에게 “안녕하세요”라고 인사했다. 이어 자신을 보기 위해 모인 인파 쪽으로 다가가 종이를 내미는 한 명, 한 명에게 사인했다. 그러면서 “모두 고맙습니다” “다음에 뵙겠습니다”라고 인사했다.황 CEO는 방한 일정을 마친 소감에 대해 “모두 정말 친절했다”며 “정말 따듯했다”고 말했다. ",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 4박 5일의 한국 일정을 마치고 9일 오전 출국했다. 황 CEO는 다음 방문 계획과 관련해선 “모두 휴식이 필요할 것 같다”며 “저의 삼겹살, 치킨 친구들도 휴식이 필요하다”고 했다. 그러면서 “곧 다시 오기를 기대한다”고 덧붙였다. ‘삼겹살-치킨 친구들’은 방한 기간 중 만난 한국 최고 경영자들을 말한 것으로 보인다.황 CEO는 이날 오전 서울 강서구 김포국제공항에서 대기하던 취재진 등에게 “안녕하세요”라고 인사했다. 이어 자신을 보기 위해 모인 인파 쪽으로 다가가 종이를 내미는 한 명, 한 명에게 사인했다. 그러면서 “모두 고맙습니다” “다음에 뵙겠습니다”라고 인사했다.황 CEO는 방한 일정을 마친 소감에 대해 “모두 정말 친절했다”며 “정말 따듯했다”고 말했다. "
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 4박 5일의 한국 일정을 마치고 9일 오전 출국했다.",
+          "황 CEO는 다음 방문 계획과 관련해선 \"모두 휴식이 필요할 것 같다\"며 \"저의 삼겹살, 치킨 친구들도 휴식이 필요하다\"고 했다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 4박 5일의 한국 일정을 마치고 9일 오전 출국했다. 황 CEO는 다음 방문 계획과 관련해선 “모두 휴식이 필요할 것 같다”며 “저의 삼겹살, 치킨 친구들도 휴식이 필요하다”고 했다. 그러면서 “곧 다시 오기를 기대한다”고 덧붙였다. ‘삼겹살-치킨 친구들’은 방한 기간 중 만난 한국 최고 경영자들을 말한 것으로 보인다.황 CEO는 이날 오전 서울 강서구 김포국제공항에서 대기하던 취재진 등에게 “안녕하세요”라고 인사했다. 이어 자신을 보기 위해 모인 인파 쪽으로 다가가 종이를 내미는 한 명, 한 명에게 사인했다. 그러면서 “모두 고맙습니다” “다음에 뵙겠습니다”라고 인사했다.황 CEO는 방한 일정을 마친 소감에 대해 “모두 정말 친절했다”며 “정말 따듯했다”고 말했다. "
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "떠나는 젠슨황 “삼겹살-치킨 친구들, 휴식 필요…곧 다시 오길 기대”",
+            "en": "떠나는 젠슨황 “삼겹살-치킨 친구들, 휴식 필요…곧 다시 오길 기대”"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260609/134075307/2",
+          "time": "06. 09. AM 01:02"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780966685000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[특징주] '젠슨황 효과'로 전날 급등했던 네이버, 8%대 급락",
+        "en": "[특징주] '젠슨황 효과'로 전날 급등했던 네이버, 8%대 급락"
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260609055600008",
+      "location": {
+        "name": {
+          "ko": "유가증권시장",
+          "en": "유가증권시장"
+        }
+      },
+      "datetime": "2026-06-09T00:58:05.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 12:58",
+        "en": "06. 09. AM 12:58"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 황철환 기자 = 네이버(NAVER[035420])가 9일 장 초반 8%대의 낙폭을 보이며 급락 중이다.",
+        "en": "(서울=연합뉴스) 황철환 기자 = 네이버(NAVER[035420])가 9일 장 초반 8%대의 낙폭을 보이며 급락 중이다."
+      },
+      "summary": {
+        "ko": [
+          "네이버(NAVER[035420])가 9일 장 초반 8%대의 낙폭을 보이며 급락 중이다.",
+          "네이버는 오전 9시 45분 현재 전장보다 8.06% 내린 25만6천500원에 거래되고 있다."
+        ],
+        "en": [
+          "(서울=연합뉴스) 황철환 기자 = 네이버(NAVER[035420])가 9일 장 초반 8%대의 낙폭을 보이며 급락 중이다."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "[특징주] '젠슨황 효과'로 전날 급등했던 네이버, 8%대 급락",
+            "en": "[특징주] '젠슨황 효과'로 전날 급등했던 네이버, 8%대 급락"
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260609055600008",
+          "time": "06. 09. AM 12:58"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”",
+        "en": "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1262525.html",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”",
+        "en": "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”"
+      },
+      "summary": {
+        "ko": [
+          "엔비디아·국내 기업들의 동행…젠슨 황 \"AI 인프라 미래 밝다\"",
+          "삼성·에스케이(SK)·현대차·엘지(LG)·네이버 등 국내 대기업들이 미국 엔비디아와 '인공지능(AI) 인프라 동맹'을 맺고 국내 인공지능 데이터센터 조성 등에 속도를 내기로 했다."
+        ],
+        "en": [
+          "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”",
+            "en": "엔비디아·국내 기업들의 동행…젠슨 황 “AI 인프라 미래 밝다”"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262525.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”",
+        "en": "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/it/1262510.html",
+      "location": {
+        "name": {
+          "ko": "경기 성남시 네이버 1784 사옥",
+          "en": "경기 성남시 네이버 1784 사옥"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”",
+        "en": "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 네이버의 환영 행사에서 '행복은 삼겹살, 일은 깻잎'이라고 말했다.",
+          "그는 GPU가 많을수록 더 많이 일하고, 더 행복해진다고 던졌다."
+        ],
+        "en": [
+          "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”",
+            "en": "젠슨 황 “GPU 많을수록 행복해져…게임이 스포츠 된 건 한국인 덕”"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/it/1262510.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780962172000",
       "type": "announcement",
