@@ -1,8 +1,415 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-09T02:31:26.019Z",
+  "updatedAt": "2026-06-09T06:43:25.779Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1780986421000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[비즈톡톡] 젠슨 황이 “이 코리아 스타트업들 키워달라” 외친 밤",
+        "en": "[비즈톡톡] 젠슨 황이 “이 코리아 스타트업들 키워달라” 외친 밤"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/09/MNQTCNDFMJQTCOJXMEYDSOJTMY/",
+      "location": {
+        "name": {
+          "ko": "대한민국",
+          "en": "대한민국"
+        }
+      },
+      "datetime": "2026-06-09T06:27:01.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 06:27",
+        "en": "06. 09. AM 06:27"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“한국은 어려운 하드웨어 제조를 피하지 않았던 나라입니다. AI 칩부터 철강까지 전 영역을 갖추고 있습니다. 한국이 AI를 잘하게 된다면 엄청난 상업적 기회가 열릴 겁니다. 이곳 스타트업들을 지원해주십시오.” 젠슨 황 엔비디아 최고경영자(CEO)가 지난 8일 방한 마지막 공식 일정으로 택한 국내 로봇·AI 스타트업 초청 비공개 간담회에서 던진 메시지는 분명",
+        "en": "“한국은 어려운 하드웨어 제조를 피하지 않았던 나라입니다. AI 칩부터 철강까지 전 영역을 갖추고 있습니다. 한국이 AI를 잘하게 된다면 엄청난 상업적 기회가 열릴 겁니다. 이곳 스타트업들을 지원해주십시오.” 젠슨 황 엔비디아 최고경영자(CEO)가 지난 8일 방한 마지막 공식 일정으로 택한 국내 로봇·AI 스타트업 초청 비공개 간담회에서 던진 메시지는 분명"
+      },
+      "summary": {
+        "ko": [
+          "한국은 어려운 하드웨어 제조를 피하지 않았던 나라입니다.",
+          "AI 칩부터 철강까지 전 영역을 갖추고 있습니다."
+        ],
+        "en": [
+          "“한국은 어려운 하드웨어 제조를 피하지 않았던 나라입니다. AI 칩부터 철강까지 전 영역을 갖추고 있습니다. 한국이 AI를 잘하게 된다면 엄청난 상업적 기회가 열릴 겁니다. 이곳 스타트업들을 지원해주십시오.” 젠슨 황 엔비디아 최고경영자(CEO)가 지난 8일 방한 마지막 공식 일정으로 택한 국내 로봇·AI 스타트업 초청 비공개 간담회에서 던진 메시지는 분명"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "[비즈톡톡] 젠슨 황이 “이 코리아 스타트업들 키워달라” 외친 밤",
+            "en": "[비즈톡톡] 젠슨 황이 “이 코리아 스타트업들 키워달라” 외친 밤"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/06/09/MNQTCNDFMJQTCOJXMEYDSOJTMY/",
+          "time": "06. 09. AM 06:27"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780986346000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황, ‘깐부’ SK ‘삼쏘’ LG·네이버, ‘평냉‘ 현대차에 치른 식삿값은?",
+        "en": "젠슨 황, ‘깐부’ SK ‘삼쏘’ LG·네이버, ‘평냉‘ 현대차에 치른 식삿값은?"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260609/134077694/1",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-09T06:25:46.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 06:25",
+        "en": "06. 09. AM 06:25"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 방한 일정을 마쳤다. 그는 닷새 일정 동안 SK, LG, 현대차, 네이버 등 다양한 기업 총수와 만나 파트너십을 강화했다.먼저 황 CEO는 지난 5일 저녁 서울 마포구 홍대입구역 인근 고깃집인 ‘형님 저요’에서 최태원 SK그룹 회장, 구광모 LG그룹 회장, 이해진 네이버 글로벌투자책임자(GIO)와 ‘삼쏘(삼겹살+소주)’ 회동을 가졌다.이날 모임에선 1978년생으로 ‘막내’인 구 회장이 삼겹살을 구웠다. 황 CEO는 이 GIO가 알려준 대로 쌈을 싸먹으며 한국 회식 문화를 경험했으며, 비용은 이 GIO가 네이버페이의 안면인식 결제 서비스 ‘페이스사인’으로 결제했다. 이들은 이날 인근 치킨집에서 ‘2차’까지 진행한 뒤 헤어졌다.이어 황 CEO는 7일 낮 서울 을지로에 있는",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 방한 일정을 마쳤다. 그는 닷새 일정 동안 SK, LG, 현대차, 네이버 등 다양한 기업 총수와 만나 파트너십을 강화했다.먼저 황 CEO는 지난 5일 저녁 서울 마포구 홍대입구역 인근 고깃집인 ‘형님 저요’에서 최태원 SK그룹 회장, 구광모 LG그룹 회장, 이해진 네이버 글로벌투자책임자(GIO)와 ‘삼쏘(삼겹살+소주)’ 회동을 가졌다.이날 모임에선 1978년생으로 ‘막내’인 구 회장이 삼겹살을 구웠다. 황 CEO는 이 GIO가 알려준 대로 쌈을 싸먹으며 한국 회식 문화를 경험했으며, 비용은 이 GIO가 네이버페이의 안면인식 결제 서비스 ‘페이스사인’으로 결제했다. 이들은 이날 인근 치킨집에서 ‘2차’까지 진행한 뒤 헤어졌다.이어 황 CEO는 7일 낮 서울 을지로에 있는"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 방한 일정을 마쳤다.",
+          "그는 닷새 일정 동안 SK, LG, 현대차, 네이버 등 다양한 기업 총수와 만나 파트너십을 강화했다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 방한 일정을 마쳤다. 그는 닷새 일정 동안 SK, LG, 현대차, 네이버 등 다양한 기업 총수와 만나 파트너십을 강화했다.먼저 황 CEO는 지난 5일 저녁 서울 마포구 홍대입구역 인근 고깃집인 ‘형님 저요’에서 최태원 SK그룹 회장, 구광모 LG그룹 회장, 이해진 네이버 글로벌투자책임자(GIO)와 ‘삼쏘(삼겹살+소주)’ 회동을 가졌다.이날 모임에선 1978년생으로 ‘막내’인 구 회장이 삼겹살을 구웠다. 황 CEO는 이 GIO가 알려준 대로 쌈을 싸먹으며 한국 회식 문화를 경험했으며, 비용은 이 GIO가 네이버페이의 안면인식 결제 서비스 ‘페이스사인’으로 결제했다. 이들은 이날 인근 치킨집에서 ‘2차’까지 진행한 뒤 헤어졌다.이어 황 CEO는 7일 낮 서울 을지로에 있는"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황, ‘깐부’ SK ‘삼쏘’ LG·네이버, ‘평냉‘ 현대차에 치른 식삿값은?",
+            "en": "젠슨 황, ‘깐부’ SK ‘삼쏘’ LG·네이버, ‘평냉‘ 현대차에 치른 식삿값은?"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260609/134077694/1",
+          "time": "06. 09. AM 06:25"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780985925000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Why Jensen Huang Talking up Suppliers Is Worrying",
+        "en": "Why Jensen Huang Talking up Suppliers Is Worrying"
+      },
+      "url": "https://www.bloomberg.com/news/videos/2026-06-09/why-jensen-huang-talking-up-suppliers-is-worrying-video",
+      "location": null,
+      "datetime": "2026-06-09T06:18:45.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 06:18",
+        "en": "06. 09. AM 06:18"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Nvidia CEO Jensen Huang's investment advice involving the company's suppliers is dangerously rosy, Bloomberg Opinion columnist Shuli Ren says. Ren argues that concrete guidance, not outsized optimism, is what's needed from Huang and other tech titans. (Source: Bloomberg)",
+        "en": "Nvidia CEO Jensen Huang's investment advice involving the company's suppliers is dangerously rosy, Bloomberg Opinion columnist Shuli Ren says. Ren argues that concrete guidance, not outsized optimism, is what's needed from Huang and other tech titans. (Source: Bloomberg)"
+      },
+      "summary": {
+        "ko": [
+          "Nvidia CEO Jensen Huang의 투자 조언은 Bloomberg Opinion 칼럼니스트 Shuli Ren에 의해 위험하게 밝은 것으로 보인다.",
+          "Ren은 Huang과 다른 기술 대장들이 구체적인 지침보다는 과대 낙관주의가 필요한 것이라고 주장한다."
+        ],
+        "en": [
+          "Nvidia CEO Jensen Huang's investment advice involving the company's suppliers is dangerously rosy, Bloomberg Opinion columnist Shuli Ren says. Ren argues that concrete guidance, not outsized optimism, is what's needed from Huang and other tech titans. (Source: Bloomberg)"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Bloomberg Tech",
+            "en": "Bloomberg Tech"
+          },
+          "title": {
+            "ko": "Why Jensen Huang Talking up Suppliers Is Worrying",
+            "en": "Why Jensen Huang Talking up Suppliers Is Worrying"
+          },
+          "url": "https://www.bloomberg.com/news/videos/2026-06-09/why-jensen-huang-talking-up-suppliers-is-worrying-video",
+          "time": "06. 09. AM 06:18"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780983884000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "방한 젠슨 황이 찍어준 부동산 유망 입지는?",
+        "en": "방한 젠슨 황이 찍어준 부동산 유망 입지는?"
+      },
+      "url": "https://www.chosun.com/economy/realty/investment_trends/2026/06/09/GQ4TSN3DGQZGGYZTGIYTGNRQGE/",
+      "location": {
+        "name": {
+          "ko": "용인, 동탄, 판교",
+          "en": "용인, 동탄, 판교"
+        }
+      },
+      "datetime": "2026-06-09T05:44:44.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 05:44",
+        "en": "06. 09. AM 05:44"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[땅집고] “젠슨 황의 방한은 인공지능(AI) 산업권이 새로운 부동산 시장 프리미엄이 될 것이라는 의미다. 용인, 동탄, 판교 등 반도체와 IT 산업 기반이 있는 지역을 주목해야 한다.”\n \n젠슨 황 엔비디아 CEO는 지난 5일 입국해 국내 복수의 기업 총수를 만나 AI 인프라 구축을 협력했다. 9일 출국할 때까지 최태원 SK그룹 회장, 정의선 현대차그룹",
+        "en": "[땅집고] “젠슨 황의 방한은 인공지능(AI) 산업권이 새로운 부동산 시장 프리미엄이 될 것이라는 의미다. 용인, 동탄, 판교 등 반도체와 IT 산업 기반이 있는 지역을 주목해야 한다.”\n \n젠슨 황 엔비디아 CEO는 지난 5일 입국해 국내 복수의 기업 총수를 만나 AI 인프라 구축을 협력했다. 9일 출국할 때까지 최태원 SK그룹 회장, 정의선 현대차그룹"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황의 방한은 인공지능(AI) 산업권이 새로운 부동산 시장 프리미엄이 될 것이라는 의미다.",
+          "용인, 동탄, 판교 등 반도체와 IT 산업 기반이 있는 지역을 주목해야 한다."
+        ],
+        "en": [
+          "[땅집고] “젠슨 황의 방한은 인공지능(AI) 산업권이 새로운 부동산 시장 프리미엄이 될 것이라는 의미다. 용인, 동탄, 판교 등 반도체와 IT 산업 기반이 있는 지역을 주목해야 한다.”\n \n젠슨 황 엔비디아 CEO는 지난 5일 입국해 국내 복수의 기업 총수를 만나 AI 인프라 구축을 협력했다. 9일 출국할 때까지 최태원 SK그룹 회장, 정의선 현대차그룹"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "005380",
+          "name": {
+            "ko": "현대차",
+            "en": "현대차"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "방한 젠슨 황이 찍어준 부동산 유망 입지는?",
+            "en": "방한 젠슨 황이 찍어준 부동산 유망 입지는?"
+          },
+          "url": "https://www.chosun.com/economy/realty/investment_trends/2026/06/09/GQ4TSN3DGQZGGYZTGIYTGNRQGE/",
+          "time": "06. 09. AM 05:44"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1780981480000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다",
+        "en": "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/09/QVBPFXLNTRC7LJ5G5HXBARSOXA/",
+      "location": {
+        "name": {
+          "ko": "평냉",
+          "en": "평냉"
+        }
+      },
+      "datetime": "2026-06-09T05:04:40.000Z",
+      "datetime_display": {
+        "ko": "06. 09. AM 05:04",
+        "en": "06. 09. AM 05:04"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다",
+        "en": "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황과 정의선이 평냉 회동을 가졌다.",
+          "부부 깐부 모임이었다고 알려졌다."
+        ],
+        "en": [
+          "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다",
+            "en": "[단독] 젠슨 황·정의선 ‘평냉 회동’... 부부 깐부 모임이었다"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/06/09/QVBPFXLNTRC7LJ5G5HXBARSOXA/",
+          "time": "06. 09. AM 05:04"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1780970139000",
       "type": "announcement",
@@ -10574,7 +10981,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 14,
+      "source_count": 17,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -10787,6 +11194,42 @@
           },
           "url": "https://www.mk.co.kr/news/world/12069073",
           "time": "06. 08. PM 10:53"
+        },
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "젠슨 황, ‘깐부’ SK ‘삼쏘’ LG·네이버, ‘평냉‘ 현대차에 치른 식삿값은?",
+            "en": "젠슨 황, ‘깐부’ SK ‘삼쏘’ LG·네이버, ‘평냉‘ 현대차에 치른 식삿값은?"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260609/134077694/1",
+          "time": "06. 09. AM 06:25"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "삼겹살·치킨 먹으며 웃었지만…젠슨 황이 남긴 '진짜 숙제' [분석+]",
+            "en": "삼겹살·치킨 먹으며 웃었지만…젠슨 황이 남긴 '진짜 숙제' [분석+]"
+          },
+          "url": "https://www.hankyung.com/article/202606095683g",
+          "time": "06. 09. AM 04:23"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[단독] \"치맥 특수 잡아라\"…BBQ, '젠슨 황 세트' 만든다",
+            "en": "[단독] \"치맥 특수 잡아라\"…BBQ, '젠슨 황 세트' 만든다"
+          },
+          "url": "https://www.hankyung.com/article/202606084409i",
+          "time": "06. 09. AM 04:00"
         }
       ],
       "map_pin": {
