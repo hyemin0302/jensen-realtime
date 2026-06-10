@@ -1,8 +1,249 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-10T02:44:43.950Z",
+  "updatedAt": "2026-06-10T07:03:25.912Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781072323000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "방한해 “I LOVE 아이온2” 외친 젠슨 황… 9월 글로벌 출시 앞두고 흥행 기대감",
+        "en": "방한해 “I LOVE 아이온2” 외친 젠슨 황… 9월 글로벌 출시 앞두고 흥행 기대감"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/10/GFSGMNTCMNTGKMLCGY4WENRVGE/",
+      "location": {
+        "name": {
+          "ko": "서울의 한 PC방",
+          "en": "서울의 한 PC방"
+        }
+      },
+      "datetime": "2026-06-10T06:18:43.000Z",
+      "datetime_display": {
+        "ko": "06. 10. AM 06:18",
+        "en": "06. 10. AM 06:18"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "엔씨는 젠슨 황 엔비디아 최고경영자(CEO)가 지난 7일 서울의 한 PC방에서 열린 엔씨 ‘아이온2 서프라이즈 라이브’ 행사에 찾아왔다고 10일 밝혔다. 글로벌 빅테크의 수장이 게임 오프라인 이용자 행사에 등장하는 이례적 장면이 연출되며, 아이온2의 글로벌 흥행에 기대감이 커졌다. 황 CEO의 등장은 김택진 엔씨 공동대표와의 파트너십 25주년 기념 회동에서",
+        "en": "엔씨는 젠슨 황 엔비디아 최고경영자(CEO)가 지난 7일 서울의 한 PC방에서 열린 엔씨 ‘아이온2 서프라이즈 라이브’ 행사에 찾아왔다고 10일 밝혔다. 글로벌 빅테크의 수장이 게임 오프라인 이용자 행사에 등장하는 이례적 장면이 연출되며, 아이온2의 글로벌 흥행에 기대감이 커졌다. 황 CEO의 등장은 김택진 엔씨 공동대표와의 파트너십 25주년 기념 회동에서"
+      },
+      "summary": {
+        "ko": [
+          "엔씨는 젠슨 황 엔비디아 최고경영자(CEO)가 지난 7일 서울의 한 PC방에서 열린 엔씨 '아이온2 서프라이즈 라이브' 행사에 찾아왔다.",
+          "글로벌 빅테크의 수장이 게임 오프라인 이용자 행사에 등장하는 이례적 장면이 연출되며, 아이온2의 글로벌 흥행에 기대감이 커졌다."
+        ],
+        "en": [
+          "엔씨는 젠슨 황 엔비디아 최고경영자(CEO)가 지난 7일 서울의 한 PC방에서 열린 엔씨 ‘아이온2 서프라이즈 라이브’ 행사에 찾아왔다고 10일 밝혔다. 글로벌 빅테크의 수장이 게임 오프라인 이용자 행사에 등장하는 이례적 장면이 연출되며, 아이온2의 글로벌 흥행에 기대감이 커졌다. 황 CEO의 등장은 김택진 엔씨 공동대표와의 파트너십 25주년 기념 회동에서"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "방한해 “I LOVE 아이온2” 외친 젠슨 황… 9월 글로벌 출시 앞두고 흥행 기대감",
+            "en": "방한해 “I LOVE 아이온2” 외친 젠슨 황… 9월 글로벌 출시 앞두고 흥행 기대감"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/06/10/GFSGMNTCMNTGKMLCGY4WENRVGE/",
+          "time": "06. 10. AM 06:18"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781072278000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨황도 놀란 ‘페이스 사인’… 네이버·토스, 안면결제 경쟁",
+        "en": "젠슨황도 놀란 ‘페이스 사인’… 네이버·토스, 안면결제 경쟁"
+      },
+      "url": "https://www.chosun.com/economy/stock-finance/2026/06/10/G43TONRVMRQTIMBRMJSDQMRRMY/",
+      "location": {
+        "name": {
+          "ko": "서울 마포구",
+          "en": "서울 마포구"
+        }
+      },
+      "datetime": "2026-06-10T06:17:58.000Z",
+      "datetime_display": {
+        "ko": "06. 10. AM 06:17",
+        "en": "06. 10. AM 06:17"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "지난 5일 서울 마포구의 한 고깃집에서 젠슨 황 엔비디아 최고경영자(CEO), 최태원 SK그룹 회장, 구광모 LG그룹 회장과 삼소(삼겹살+소주) 회동을 가졌던 이해진 네이버 의장이 주목받았다. 이 의장은 본인 테이블에 더해 다른 손님들 밥값까지 계산했는데, 이때 네이버페이의 안면 결제 서비스 ‘페이스 사인’을 썼다. 그가 카드나 휴대폰 없이 네이버페이 결제",
+        "en": "지난 5일 서울 마포구의 한 고깃집에서 젠슨 황 엔비디아 최고경영자(CEO), 최태원 SK그룹 회장, 구광모 LG그룹 회장과 삼소(삼겹살+소주) 회동을 가졌던 이해진 네이버 의장이 주목받았다. 이 의장은 본인 테이블에 더해 다른 손님들 밥값까지 계산했는데, 이때 네이버페이의 안면 결제 서비스 ‘페이스 사인’을 썼다. 그가 카드나 휴대폰 없이 네이버페이 결제"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO), 최태원 SK그룹 회장, 구광모 LG그룹 회장과 삼소(삼겹살+소주) 회동",
+          "이해진 네이버 의장이 네이버페이의 안면 결제 서비스 '페이스 사인'을 썼다."
+        ],
+        "en": [
+          "지난 5일 서울 마포구의 한 고깃집에서 젠슨 황 엔비디아 최고경영자(CEO), 최태원 SK그룹 회장, 구광모 LG그룹 회장과 삼소(삼겹살+소주) 회동을 가졌던 이해진 네이버 의장이 주목받았다. 이 의장은 본인 테이블에 더해 다른 손님들 밥값까지 계산했는데, 이때 네이버페이의 안면 결제 서비스 ‘페이스 사인’을 썼다. 그가 카드나 휴대폰 없이 네이버페이 결제"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨황도 놀란 ‘페이스 사인’… 네이버·토스, 안면결제 경쟁",
+            "en": "젠슨황도 놀란 ‘페이스 사인’… 네이버·토스, 안면결제 경쟁"
+          },
+          "url": "https://www.chosun.com/economy/stock-finance/2026/06/10/G43TONRVMRQTIMBRMJSDQMRRMY/",
+          "time": "06. 10. AM 06:17"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781069423000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은",
+        "en": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은"
+      },
+      "url": "https://www.hankyung.com/article/202606108042i",
+      "location": {
+        "name": {
+          "ko": "tvN",
+          "en": "tvN"
+        }
+      },
+      "datetime": "2026-06-10T05:30:23.000Z",
+      "datetime_display": {
+        "ko": "06. 10. AM 05:30",
+        "en": "06. 10. AM 05:30"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은",
+        "en": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 CEO가 등판한 tvN '유 퀴즈 온 더 블럭'이 10일 방영된다.",
+          "젠슨 황 CEO가 텔레비전(TV) 예능 토크쇼에 출연하는 것은 이번이 처음이라 화제를 낳았다."
+        ],
+        "en": [
+          "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은",
+            "en": "\"이재용·정의선·최태원 중 '찐친'은…\" 젠슨 황 '유 퀴즈' PICK은"
+          },
+          "url": "https://www.hankyung.com/article/202606108042i",
+          "time": "06. 10. AM 05:30"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781058360000",
       "type": "announcement",
