@@ -1,8 +1,372 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-10T11:07:41.239Z",
+  "updatedAt": "2026-06-10T14:34:08.683Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781097960000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "역술가 박성준, 젠슨 황 관상 봤다 \"거상의 상, 제국을 호령할 것\"('유퀴즈')",
+        "en": "역술가 박성준, 젠슨 황 관상 봤다 \"거상의 상, 제국을 호령할 것\"('유퀴즈')"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/MQYDMMJQGQ3WKNLBG5STOZJXMM/",
+      "location": null,
+      "datetime": "2026-06-10T13:26:00.000Z",
+      "datetime_display": {
+        "ko": "06. 10. PM 01:26",
+        "en": "06. 10. PM 01:26"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 회장 젠슨 황이 역술가 박성준의 관상 풀이를 듣고 아이처럼 기뻐했다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 젠슨 황이 출연했다. 젠슨 황에게 질문을 할 사람들로는 유퀴즈에 출연했던 자기님들이 등장했다. 오둥이 부모님, 주식",
+        "en": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 회장 젠슨 황이 역술가 박성준의 관상 풀이를 듣고 아이처럼 기뻐했다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 젠슨 황이 출연했다. 젠슨 황에게 질문을 할 사람들로는 유퀴즈에 출연했던 자기님들이 등장했다. 오둥이 부모님, 주식"
+      },
+      "summary": {
+        "ko": [
+          "엔비디아 회장 젠슨 황이 역술가 박성준의 관상 풀이를 듣고 아이처럼 기뻐했다.",
+          "'유퀴즈 온 더 블럭' 엔비디아 회장 젠슨 황이 역술가 박성준의 관상 풀이를 듣고 아이처럼 기뻐했다."
+        ],
+        "en": [
+          "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 회장 젠슨 황이 역술가 박성준의 관상 풀이를 듣고 아이처럼 기뻐했다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 젠슨 황이 출연했다. 젠슨 황에게 질문을 할 사람들로는 유퀴즈에 출연했던 자기님들이 등장했다. 오둥이 부모님, 주식"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "역술가 박성준, 젠슨 황 관상 봤다 \"거상의 상, 제국을 호령할 것\"('유퀴즈')",
+            "en": "역술가 박성준, 젠슨 황 관상 봤다 \"거상의 상, 제국을 호령할 것\"('유퀴즈')"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/MQYDMMJQGQ3WKNLBG5STOZJXMM/",
+          "time": "06. 10. PM 01:26"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781097120000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "엔비디아 젠슨 황, 유재석에 치킨 회동 권유 \"MC 챔피언도 고민 많을 것\"('유퀴즈')",
+        "en": "엔비디아 젠슨 황, 유재석에 치킨 회동 권유 \"MC 챔피언도 고민 많을 것\"('유퀴즈')"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/GZRDOMTBHE2TONBQGY2WIZJTGY/",
+      "location": null,
+      "datetime": "2026-06-10T13:12:00.000Z",
+      "datetime_display": {
+        "ko": "06. 10. PM 01:12",
+        "en": "06. 10. PM 01:12"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 젠슨 황이 유재석의 명성에 대해 공감하더니 그에게 치킨 회식을 권했다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 엔비디아 회장 젠슨 황이 출연했다. 젠슨 황은 시총 1위의 엔비디아 회장으로, 작년 이재용 회장, 정의선 회장,",
+        "en": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 젠슨 황이 유재석의 명성에 대해 공감하더니 그에게 치킨 회식을 권했다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 엔비디아 회장 젠슨 황이 출연했다. 젠슨 황은 시총 1위의 엔비디아 회장으로, 작년 이재용 회장, 정의선 회장,"
+      },
+      "summary": {
+        "ko": [
+          "엔비디아 젠슨 황이 유재석의 명성에 대해 공감하더니 그에게 치킨 회식을 권했다.",
+          "'유퀴즈 온 더 블럭' 엔비디아 젠슨 황이 유재석에게 치킨 회식을 권했다."
+        ],
+        "en": [
+          "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 젠슨 황이 유재석의 명성에 대해 공감하더니 그에게 치킨 회식을 권했다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 엔비디아 회장 젠슨 황이 출연했다. 젠슨 황은 시총 1위의 엔비디아 회장으로, 작년 이재용 회장, 정의선 회장,"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "엔비디아 젠슨 황, 유재석에 치킨 회동 권유 \"MC 챔피언도 고민 많을 것\"('유퀴즈')",
+            "en": "엔비디아 젠슨 황, 유재석에 치킨 회동 권유 \"MC 챔피언도 고민 많을 것\"('유퀴즈')"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/GZRDOMTBHE2TONBQGY2WIZJTGY/",
+          "time": "06. 10. PM 01:12"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781096340000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "엔비디아 젠슨 황 \"좋아하는 가수는 화사, 노래는 케데헌 골든\"('유퀴즈')[순간포착]",
+        "en": "엔비디아 젠슨 황 \"좋아하는 가수는 화사, 노래는 케데헌 골든\"('유퀴즈')[순간포착]"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/G42TIYRUG43DKNLFMJSWMMZRME/",
+      "location": {
+        "name": {
+          "ko": "tvN",
+          "en": "tvN"
+        }
+      },
+      "datetime": "2026-06-10T12:59:00.000Z",
+      "datetime_display": {
+        "ko": "06. 10. PM 12:59",
+        "en": "06. 10. PM 12:59"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 회장 젠슨 황이 한국 문화에 대해 지대한 관심을 보였다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 촬영 전날 삼겹살 소주 회동을 마친 젠슨 황이 출연했다. 전날 삼겹살 회동에 대한 질문에 젠슨 황은 \"KM(LG 구광모 회장)이",
+        "en": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 회장 젠슨 황이 한국 문화에 대해 지대한 관심을 보였다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 촬영 전날 삼겹살 소주 회동을 마친 젠슨 황이 출연했다. 전날 삼겹살 회동에 대한 질문에 젠슨 황은 \"KM(LG 구광모 회장)이"
+      },
+      "summary": {
+        "ko": [
+          "엔비디아 회장 젠슨 황이 한국 문화에 대해 지대한 관심을 보였다.",
+          "'유퀴즈 온 더 블럭'에서 촬영 전날 삼겹살 소주 회동을 마친 젠슨 황이 출연했다."
+        ],
+        "en": [
+          "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 엔비디아 회장 젠슨 황이 한국 문화에 대해 지대한 관심을 보였다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 촬영 전날 삼겹살 소주 회동을 마친 젠슨 황이 출연했다. 전날 삼겹살 회동에 대한 질문에 젠슨 황은 \"KM(LG 구광모 회장)이"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "엔비디아 젠슨 황 \"좋아하는 가수는 화사, 노래는 케데헌 골든\"('유퀴즈')[순간포착]",
+            "en": "엔비디아 젠슨 황 \"좋아하는 가수는 화사, 노래는 케데헌 골든\"('유퀴즈')[순간포착]"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/G42TIYRUG43DKNLFMJSWMMZRME/",
+          "time": "06. 10. PM 12:59"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781096160000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]",
+        "en": "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/GBQTGMLDGM3WEYRZGBSTENJZGM/",
+      "location": null,
+      "datetime": "2026-06-10T12:56:00.000Z",
+      "datetime_display": {
+        "ko": "06. 10. PM 12:56",
+        "en": "06. 10. PM 12:56"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]",
+        "en": "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]"
+      },
+      "summary": {
+        "ko": [
+          "형님\" 유재석, 젠슨 황에 감동 후 의기 투합",
+          "n",
+          "'유퀴즈' 순간포착\"\n   ],\n   \"location",
+          ": null",
+          "n",
+          "persons",
+          ":",
+          [
+            "n",
+            "유재석",
+            "n",
+            "젠슨 황",
+            "n"
+          ],
+          "n"
+        ],
+        "en": [
+          "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]",
+            "en": "\"형님\" 유재석, 젠슨 황에 감동 후 의기 투합('유퀴즈')[순간포착]"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/10/GBQTGMLDGM3WEYRZGBSTENJZGM/",
+          "time": "06. 10. PM 12:56"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781087282000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]",
+        "en": "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]"
+      },
+      "url": "https://www.hankyung.com/article/2026061087307",
+      "location": {
+        "name": {
+          "ko": "서울 마포구 홍대 인근",
+          "en": "서울 마포구 홍대 인근"
+        }
+      },
+      "datetime": "2026-06-10T10:28:02.000Z",
+      "datetime_display": {
+        "ko": "06. 10. AM 10:28",
+        "en": "06. 10. AM 10:28"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]",
+        "en": "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 효과요? 문 일찍 닫았죠",
+          "상인들 한숨 나온 까닭"
+        ],
+        "en": [
+          "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]",
+            "en": "\"젠슨 황 효과요? 문 일찍 닫았죠\"…상인들 한숨 나온 까닭 [현장+]"
+          },
+          "url": "https://www.hankyung.com/article/2026061087307",
+          "time": "06. 10. AM 10:28"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781086880000",
       "type": "announcement",
