@@ -1,8 +1,154 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-10T17:53:47.221Z",
+  "updatedAt": "2026-06-10T22:25:09.642Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781126340000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "유재석, 엔비디아 젠슨 황이 인정했다 \"당신은 엠씨 챔피언\"('유퀴즈')[어저께TV]",
+        "en": "유재석, 엔비디아 젠슨 황이 인정했다 \"당신은 엠씨 챔피언\"('유퀴즈')[어저께TV]"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/11/GJSTENJTGI4WEMBQHE4DOOJWGM/",
+      "location": null,
+      "datetime": "2026-06-10T21:19:00.000Z",
+      "datetime_display": {
+        "ko": "06. 10. PM 09:19",
+        "en": "06. 10. PM 09:19"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 국민 MC 유재석이 글로벌 MC로 거듭났다. 엔비디아 젠슨 황은 유재석의 진가를 알아보았다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 엔비디아 회장 젠슨 황이 출연했다. 이례적으로 젠슨 황의 아내와 딸까지 함께 나타나 촬영장은 들썩거렸",
+        "en": "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 국민 MC 유재석이 글로벌 MC로 거듭났다. 엔비디아 젠슨 황은 유재석의 진가를 알아보았다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 엔비디아 회장 젠슨 황이 출연했다. 이례적으로 젠슨 황의 아내와 딸까지 함께 나타나 촬영장은 들썩거렸"
+      },
+      "summary": {
+        "ko": [
+          "유재석, 엔비디아 젠슨 황이 인정했다 '당신은 엠씨 챔피언'",
+          "'유퀴즈' 국민 MC 유재석이 글로벌 MC로 거듭났다"
+        ],
+        "en": [
+          "[OSEN=오세진 기자] ‘유퀴즈 온 더 블럭’ 국민 MC 유재석이 글로벌 MC로 거듭났다. 엔비디아 젠슨 황은 유재석의 진가를 알아보았다.10일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 엔비디아 회장 젠슨 황이 출연했다. 이례적으로 젠슨 황의 아내와 딸까지 함께 나타나 촬영장은 들썩거렸"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "유재석, 엔비디아 젠슨 황이 인정했다 \"당신은 엠씨 챔피언\"('유퀴즈')[어저께TV]",
+            "en": "유재석, 엔비디아 젠슨 황이 인정했다 \"당신은 엠씨 챔피언\"('유퀴즈')[어저께TV]"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/11/GJSTENJTGI4WEMBQHE4DOOJWGM/",
+          "time": "06. 10. PM 09:19"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781125208000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까",
+        "en": "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까"
+      },
+      "url": "https://www.hankyung.com/article/2026061090211",
+      "location": null,
+      "datetime": "2026-06-10T21:00:08.000Z",
+      "datetime_display": {
+        "ko": "06. 10. PM 09:00",
+        "en": "06. 10. PM 09:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까",
+        "en": "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까"
+      },
+      "summary": {
+        "ko": [
+          "네이버, AI 부진 탈출할까",
+          "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까"
+        ],
+        "en": [
+          "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까",
+            "en": "젠슨 황 떠나자 다시 '뚝'…네이버, AI 부진 탈출할까"
+          },
+          "url": "https://www.hankyung.com/article/2026061090211",
+          "time": "06. 10. PM 09:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781105400000",
       "type": "announcement",
