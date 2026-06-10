@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-10T07:03:25.912Z",
+  "updatedAt": "2026-06-10T11:07:41.239Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781086880000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제",
+        "en": "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제"
+      },
+      "url": "https://www.hankyung.com/article/202606109205i",
+      "location": {
+        "name": {
+          "ko": "서울 삼성동",
+          "en": "서울 삼성동"
+        }
+      },
+      "datetime": "2026-06-10T10:21:20.000Z",
+      "datetime_display": {
+        "ko": "06. 10. AM 10:21",
+        "en": "06. 10. AM 10:21"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제",
+        "en": "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제"
+      },
+      "summary": {
+        "ko": [
+          "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제",
+          "젠슨 황에 '호두과자' 선물한 팬, SNS서 화제"
+        ],
+        "en": [
+          "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제",
+            "en": "400만뷰 터졌다…젠슨 황이 선택한 'K간식' 화제"
+          },
+          "url": "https://www.hankyung.com/article/202606109205i",
+          "time": "06. 10. AM 10:21"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781072323000",
       "type": "announcement",
