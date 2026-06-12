@@ -569,12 +569,12 @@ body.is-archived .chip .b{background:#888 !important;box-shadow:none !important;
 
 <header class="hero"><div class="wrap">
   <div class="hero-text">
-    <div class="kick">LIVE · NVIDIA CEO · KOREA</div>
+    <div class="kick">LIVE · NVIDIA CEO · GLOBAL</div>
     <h1><span data-ko>젠슨황의 발자취</span><span data-en>Jensen Huang's Footsteps</span></h1>
-    <p><span data-ko>엔비디아 젠슨 황의 방한 동선과 관련 한국 상장사의 주가 움직임을 실시간으로 따라갑니다.</span><span data-en>Tracking NVIDIA CEO Jensen Huang's Korea visit and related KOSPI stocks in real time.</span></p>
+    <p><span data-ko>엔비디아 젠슨 황의 글로벌 활동 동선과 관련 상장사의 주가 움직임을 실시간으로 따라갑니다.</span><span data-en>Tracking NVIDIA CEO Jensen Huang's global activities and related stocks in real time.</span></p>
     <div class="chips">
       <span class="chip"><span class="b"></span>LIVE</span>
-      <span class="chip">🇰🇷 <span data-ko>한국 방문 중 · 6/5–6/8</span><span data-en>Korea Visit · Jun 5–8</span></span>
+      <span class="chip">🌐 <span data-ko>글로벌 활동 추적</span><span data-en>Global Activity Tracker</span></span>
       <span class="chip">👁 <span data-ko>현재 1명</span><span data-en>1 viewing</span></span>
     </div>
     <div class="countdown-bar" id="countdown-bar" style="display:none">
@@ -741,18 +741,20 @@ var STOCK_UPDATED_AT='';   // 마지막 주가 갱신 시각
 var EVENTS_UPDATED_AT='';  // events.json 버전 (updatedAt 필드)
 var NEWS_FILTER=null;      // { code, name } — 종목 필터
 
-/* ===== Archive 모드 — 방한 종료/데이터 정지 자동 감지 ===== */
-var ARCHIVE_FRESHNESS_HOURS=24;
+/* ===== Archive 모드 — 데이터 정지 + 활동 부재 둘 다 만족 시만 발동 ===== */
+var ARCHIVE_FRESHNESS_HOURS=168; // 7일 — 글로벌 트래커는 매일 큰 이벤트 없을 수 있음
 function isArchived(){
+  var stale=false;
   if(EVENTS_UPDATED_AT){
     var diff=Date.now()-new Date(EVENTS_UPDATED_AT).getTime();
-    if(diff>ARCHIVE_FRESHNESS_HOURS*3600000) return true;
+    stale=diff>ARCHIVE_FRESHNESS_HOURS*3600000;
   }
+  var noActive=false;
   if(typeof ROUTE!=='undefined'&&ROUTE.length){
-    var hasActive=ROUTE.some(function(r){return r.status==='in_progress'||r.status==='upcoming'||r.status==='planned';});
-    if(!hasActive) return true;
+    noActive=!ROUTE.some(function(r){return r.status==='in_progress'||r.status==='upcoming'||r.status==='planned';});
   }
-  return false;
+  // AND: 데이터도 오래되고 + 활동도 없을 때만 Archive (단순 "모두 completed" 만으론 발동 안 함)
+  return stale && noActive;
 }
 function applyArchiveMode(){
   var on=isArchived();
@@ -764,8 +766,8 @@ function applyArchiveMode(){
   if(chips&&!chips.dataset.archived){
     chips.dataset.archived='1';
     var hb=chips.querySelector('.chip-heartbeat');
-    chips.innerHTML='<span class="chip" style="background:rgba(180,140,40,.18);border-color:rgba(180,140,40,.45);color:#e6b85a">📦 <span data-ko>방한 종료 · Archive</span><span data-en>Visit Ended · Archive</span></span>'
-      +'<span class="chip"><span data-ko>6/5–6/8 일정 종료</span><span data-en>Jun 5–8 ended</span></span>';
+    chips.innerHTML='<span class="chip" style="background:rgba(180,140,40,.18);border-color:rgba(180,140,40,.45);color:#e6b85a">📦 <span data-ko>최근 활동 정보 없음</span><span data-en>No recent activity</span></span>'
+      +'<span class="chip"><span data-ko>7일+ 정체 · 모니터링 중</span><span data-en>7d+ inactive · monitoring</span></span>';
     if(hb) chips.appendChild(hb);
   }
   var lk=document.querySelector('#locard .l[data-ko]');

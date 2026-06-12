@@ -285,6 +285,12 @@ const KEYWORDS = [
   'Jensen Huang visits', 'Jensen Huang meets', 'Huang visits',
   'NVIDIA CEO visits', 'NVIDIA CEO meets', 'NVIDIA partnership',
   'Jensen Huang keynote', 'Jensen Huang announced',
+  // 영어 — 글로벌 활동(인물 reference)
+  'Nvidia chief', "Nvidia's Huang", 'Nvidia CEO Huang',
+  'Huang said', 'Huang says', 'Huang told', 'Huang to keynote', 'Huang to speak',
+  // 영어 — 글로벌 이벤트(고확률 시그널)
+  'GTC keynote', 'Computex keynote', 'CES keynote', 'SIGGRAPH keynote',
+  'Nvidia earnings', 'Nvidia announces',
 ];
 
 const STOCK_MAP = {
