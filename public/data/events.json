@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-12T10:49:44.271Z",
+  "updatedAt": "2026-06-12T19:00:35.646Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781287200000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까",
+        "en": "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까"
+      },
+      "url": "https://www.chosun.com/culture-life/food-taste/2026/06/13/4H4FDQYTDBAJJEBLEHKZKH5UHQ/",
+      "location": null,
+      "datetime": "2026-06-12T18:00:00.000Z",
+      "datetime_display": {
+        "ko": "06. 12. PM 06:00",
+        "en": "06. 12. PM 06:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까",
+        "en": "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까"
+      },
+      "summary": {
+        "ko": [
+          "젠슨황 '8000조' 회동에 올라온 위스키",
+          "왜 맥켈란과 시그넷이었을까"
+        ],
+        "en": [
+          "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까",
+            "en": "젠슨황 ’8000조' 회동에 올라온 위스키… 왜 맥켈란과 시그넷이었을까"
+          },
+          "url": "https://www.chosun.com/culture-life/food-taste/2026/06/13/4H4FDQYTDBAJJEBLEHKZKH5UHQ/",
+          "time": "06. 12. PM 06:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781256612000",
       "type": "announcement",
