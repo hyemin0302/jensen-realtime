@@ -25,6 +25,26 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/batch-runner.js
 
+      - name: 배치 요약 및 zero-news streak 알람
+        run: |
+          STREAK=$(node -p "require('./public/data/meta.json').zeroNewsStreak || 0")
+          REPORT=$(node -p "JSON.stringify(require('./public/data/meta.json').lastPollReport || {})")
+          POLLED=$(node -p "new Date(require('./public/data/meta.json').lastPolledAt || 0).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})")
+          {
+            echo "## 📊 배치 결과"
+            echo ""
+            echo "- 마지막 폴링: $POLLED"
+            echo "- 결과: \`$REPORT\`"
+            echo "- Zero-news streak: $STREAK 회 (30분 × $STREAK = $((STREAK*30))분 정체)"
+            if [ "$STREAK" -ge 48 ]; then
+              echo ""
+              echo "> ⚠️ **${STREAK}회 연속 새 뉴스 0건** — RSS 소스 점검 필요 (24시간+ 정체)"
+            fi
+          } >> $GITHUB_STEP_SUMMARY
+          if [ "$STREAK" -ge 48 ]; then
+            echo "::warning title=Zero-news streak::연속 ${STREAK}번 새 뉴스 0건 — RSS 소스 점검 필요"
+          fi
+
       - name: 변경사항 커밋 & 푸시
         run: |
           git config --local user.email "action@github.com"

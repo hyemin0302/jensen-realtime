@@ -177,7 +177,24 @@ export async function runOrchestrator(options = {}) {
     const note = `자동 배치: 뉴스 ${report.newsCards}건, 주가 ${report.stockCount}개, 인사이트 ${report.insights}개, 상태변경 ${report.statusChanges}개`;
     appendChangelog(META_PATH, note, 'orchestrator');
     runInfoAgent(META_PATH);
-    console.log('\n[orchestrator] Step 5: meta.json 업데이트 완료');
+    // [heartbeat] 매 run 폴링 시각 + 결과 — newsCards=0이어도 "폴링은 살아있음" 신호
+    const meta = JSON.parse(fs.readFileSync(META_PATH, 'utf8'));
+    meta.lastPolledAt = new Date().toISOString();
+    meta.lastPollReport = {
+      newsCards: report.newsCards,
+      stockCount: report.stockCount,
+      insights: report.insights,
+      statusChanges: report.statusChanges,
+      errors: report.errors.length,
+    };
+    // 연속 zero-news streak 카운터 (RSS 장애 vs 자연스러운 무뉴스 구분)
+    if (report.newsCards === 0 && report.statusChanges === 0) {
+      meta.zeroNewsStreak = (meta.zeroNewsStreak || 0) + 1;
+    } else {
+      meta.zeroNewsStreak = 0;
+    }
+    fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2));
+    console.log('\n[orchestrator] Step 5: meta.json 업데이트 완료 (heartbeat 포함)');
   } catch (e) {
     report.errors.push(`info-agent: ${e.message}`);
   }

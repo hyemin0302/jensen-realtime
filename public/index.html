@@ -542,6 +542,10 @@ footer .fm{font:500 11px var(--mono)}
   .cd-timer{font-size:18px}
   .price-range-labels{font-size:9px}
 }
+/* Archive 모드 — 시각적 톤 다운 */
+body.is-archived .locard .w{color:var(--muted)}
+body.is-archived .ld .dot{background:#888 !important;box-shadow:none !important}
+body.is-archived .chip .b{background:#888 !important;box-shadow:none !important;animation:none !important}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css">
 <style>
@@ -736,6 +740,56 @@ var MAP_EXTRAS=[];
 var STOCK_UPDATED_AT='';   // 마지막 주가 갱신 시각
 var EVENTS_UPDATED_AT='';  // events.json 버전 (updatedAt 필드)
 var NEWS_FILTER=null;      // { code, name } — 종목 필터
+
+/* ===== Archive 모드 — 방한 종료/데이터 정지 자동 감지 ===== */
+var ARCHIVE_FRESHNESS_HOURS=24;
+function isArchived(){
+  if(EVENTS_UPDATED_AT){
+    var diff=Date.now()-new Date(EVENTS_UPDATED_AT).getTime();
+    if(diff>ARCHIVE_FRESHNESS_HOURS*3600000) return true;
+  }
+  if(typeof ROUTE!=='undefined'&&ROUTE.length){
+    var hasActive=ROUTE.some(function(r){return r.status==='in_progress'||r.status==='upcoming'||r.status==='planned';});
+    if(!hasActive) return true;
+  }
+  return false;
+}
+function applyArchiveMode(){
+  var on=isArchived();
+  document.body.classList.toggle('is-archived',on);
+  if(!on) return;
+  var kick=document.querySelector('header.hero .kick');
+  if(kick) kick.textContent='ARCHIVE · NVIDIA CEO · KOREA';
+  var chips=document.querySelector('header.hero .chips');
+  if(chips&&!chips.dataset.archived){
+    chips.dataset.archived='1';
+    var hb=chips.querySelector('.chip-heartbeat');
+    chips.innerHTML='<span class="chip" style="background:rgba(180,140,40,.18);border-color:rgba(180,140,40,.45);color:#e6b85a">📦 <span data-ko>방한 종료 · Archive</span><span data-en>Visit Ended · Archive</span></span>'
+      +'<span class="chip"><span data-ko>6/5–6/8 일정 종료</span><span data-en>Jun 5–8 ended</span></span>';
+    if(hb) chips.appendChild(hb);
+  }
+  var lk=document.querySelector('#locard .l[data-ko]');
+  if(lk) lk.textContent='마지막 일정';
+  var le=document.querySelector('#locard .l[data-en]');
+  if(le) le.textContent='Last event';
+}
+function renderHeartbeat(iso, report){
+  if(!iso) return;
+  var t=new Date(iso); if(isNaN(t.getTime())) return;
+  var hhmm=('0'+t.getHours()).slice(-2)+':'+('0'+t.getMinutes()).slice(-2);
+  var datestr=('0'+(t.getMonth()+1)).slice(-2)+'.'+('0'+t.getDate()).slice(-2);
+  var ageMin=Math.floor((Date.now()-t.getTime())/60000);
+  var fresh=ageMin<90; // 90분 이내면 정상
+  var host=document.querySelector('header.hero .chips'); if(!host) return;
+  var old=host.querySelector('.chip-heartbeat'); if(old) old.remove();
+  var dot=fresh?'💓':'⚠️';
+  var color=fresh?'#76b900':'#d49a16';
+  var chip=document.createElement('span');
+  chip.className='chip chip-heartbeat';
+  chip.style.cssText='font-size:11px;opacity:.85;color:'+color;
+  chip.innerHTML=dot+' <span data-ko>마지막 폴링 '+datestr+' '+hhmm+'</span><span data-en>Last poll '+datestr+' '+hhmm+'</span>';
+  host.appendChild(chip);
+}
 var THEMES=[
  {nm:{ko:'반도체·HBM',en:'Semiconductor·HBM'},d:{ko:'AI 가속기용 메모리·반도체',en:'Memory/chips'},s:[
   {n:{ko:'삼성전자우',en:'Samsung(pf)'},c:'005935',px:'229,000',v:'+19.27',nw:'+13.09'},
@@ -850,6 +904,7 @@ function loadEvents(){
       FEED=data.feed||[];
       INSIGHT_EVENTS=eventsToInsightEvents(data.events||[]);
       EVENTS_UPDATED_AT=data.updatedAt||'';
+      try{applyArchiveMode();}catch(e){}
       // events.json updatedAt → 시간 초기화 (live API 전에도 표시)
       if(data.updatedAt){
         var _ud=new Date(data.updatedAt);
@@ -869,7 +924,10 @@ function loadEvents(){
   // meta.json에서 업데이트 내역 로드
   fetch('/data/meta.json?_='+Math.floor(Date.now()/120000))
     .then(function(r){return r.ok?r.json():null;})
-    .then(function(meta){if(meta&&meta.changelog) buildChangelog(meta.changelog,meta.version);})
+    .then(function(meta){
+      if(meta&&meta.changelog) buildChangelog(meta.changelog,meta.version);
+      if(meta&&meta.lastPolledAt) try{renderHeartbeat(meta.lastPolledAt, meta.lastPollReport);}catch(e){}
+    })
     .catch(function(){});
 }
 
@@ -1059,6 +1117,15 @@ function buildMap(){
 /* ===== countdown ===== */
 function buildCountdown(){
   var bar=el('countdown-bar'); if(!bar) return;
+  // Archive 모드: 다음 이벤트 안내
+  if(typeof isArchived==='function'&&isArchived()){
+    if(window._cdTimer){clearInterval(window._cdTimer);window._cdTimer=null;}
+    bar.style.display='flex';
+    bar.innerHTML='<div class="cd-label" data-ko>다음 이벤트</div><div class="cd-label" data-en>Next event</div>'
+      +'<div class="cd-event" data-ko>준비 중</div><div class="cd-event" data-en>Coming soon</div>'
+      +'<div class="cd-timer" data-ko>미정</div><div class="cd-timer" data-en>TBD</div>';
+    return;
+  }
   // 다음 upcoming/in_progress 이벤트 찾기
   var next=null;
   for(var i=0;i<ROUTE.length;i++){
