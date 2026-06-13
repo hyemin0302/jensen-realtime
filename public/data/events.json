@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-12T19:00:35.646Z",
+  "updatedAt": "2026-06-13T08:21:17.682Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781278200000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다",
+        "en": "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다"
+      },
+      "url": "https://www.chosun.com/national/weekend/2026/06/13/RLEG4NLATNFX5KWAFCKZKBK5MQ/",
+      "location": null,
+      "datetime": "2026-06-12T15:30:00.000Z",
+      "datetime_display": {
+        "ko": "06. 12. PM 03:30",
+        "en": "06. 12. PM 03:30"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다",
+        "en": "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다"
+      },
+      "summary": {
+        "ko": [
+          "유명인의 한끼 늘 궁금하다",
+          "젠슨 황 어디서 뭐 먹었대?"
+        ],
+        "en": [
+          "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다",
+            "en": "“젠슨 황 어디서 뭐 먹었대?”유명인의 한끼 늘 궁금하다"
+          },
+          "url": "https://www.chosun.com/national/weekend/2026/06/13/RLEG4NLATNFX5KWAFCKZKBK5MQ/",
+          "time": "06. 12. PM 03:30"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781287200000",
       "type": "announcement",
