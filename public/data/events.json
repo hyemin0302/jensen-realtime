@@ -1,8 +1,97 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-13T08:21:17.682Z",
+  "updatedAt": "2026-06-14T01:41:16.906Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781391448000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]",
+        "en": "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]"
+      },
+      "url": "https://www.hankyung.com/article/202606144659i",
+      "location": null,
+      "datetime": "2026-06-13T22:57:28.000Z",
+      "datetime_display": {
+        "ko": "06. 13. PM 10:57",
+        "en": "06. 13. PM 10:57"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]",
+        "en": "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]"
+      },
+      "summary": {
+        "ko": [
+          "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]",
+          ",\n      ",
+          "AI 개발 파트너 아닌 단순 고객\"&hellip;뼈아픈 자성 젠슨 황 엔비디아 최고경영자(CEO)와 최태원 SK 회장이 7일 서울 강남구 깐부치킨 삼성점에서 주먹 인사를 하고 있다.",
+          ",\n      ",
+          "스티브 잡스도 이러지 않았는데, 일본을 건너 뛰다니&hellip;.&rdquo; 엔비디아의 젠슨 황 최고경영자(CEO)가 최근 한국과 대만을 잇달아 방문하면서도 일본은 찾지 않자, 현지 정보통신(IT) 업계에서 불안하다는 목소리가 나오고 있다.",
+          ",\n      ",
+          "일본 언론들은 이번 젠슨 황의 &lsquo;재팬 패싱&rsquo;이 단순한 일정상의 문제가 아니라 인공지능(AI) 혁명 과정에서 일본의 존재감이 약화되고 있음을 보여주는 상징적 장면이라고 짚었다.",
+          ",\n      ",
+          "황 CEO는 최근 대만에서 TSMC와 폭스콘 등 핵심 협력사 최고경영자들과 연쇄 회동한 뒤 지난 5일 한국으로 이동해 SK그룹 최태원 회장, LG그룹 구광모 회장, 이해진 네이버 의장 등을 비롯한 주요 기업 총수들과 만나 AI 데이터센터와 차세대 AI\"\n   ],\n   \"location",
+          ":",
+          "일본",
+          "n",
+          "persons",
+          ":",
+          [
+            "n",
+            "젠슨 황",
+            "n",
+            "최태원",
+            "n",
+            "구광모",
+            "n",
+            "이해진",
+            "n"
+          ],
+          "n"
+        ],
+        "en": [
+          "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]",
+            "en": "\"젠슨 황 일본은 왜 안와\"…'재팬 패싱'에 충격 빠진 日 [도쿄나우]"
+          },
+          "url": "https://www.hankyung.com/article/202606144659i",
+          "time": "06. 13. PM 10:57"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781278200000",
       "type": "announcement",
