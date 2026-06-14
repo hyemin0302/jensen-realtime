@@ -775,6 +775,29 @@ function applyArchiveMode(){
   var le=document.querySelector('#locard .l[data-en]');
   if(le) le.textContent='Last event';
 }
+function renderPendingTimeline(meta){
+  if(!meta||!Array.isArray(meta.pending_timeline)||!meta.pending_timeline.length) return;
+  var count=meta.pending_timeline.length;
+  var host=document.querySelector('header.hero .chips'); if(!host) return;
+  var old=host.querySelector('.chip-pending'); if(old) old.remove();
+  var chip=document.createElement('span');
+  chip.className='chip chip-pending';
+  chip.style.cssText='font-size:11px;cursor:pointer;background:rgba(80,120,200,.18);border-color:rgba(80,120,200,.45);color:#a0c0ff';
+  chip.title='LLM이 뉴스에서 추출한 timeline 후보 — 클릭하면 콘솔에서 검토';
+  chip.innerHTML='🔍 <span data-ko>검토 대기 '+count+'건</span><span data-en>'+count+' pending</span>';
+  chip.onclick=function(){
+    console.group('[pending timeline] '+count+'건');
+    meta.pending_timeline.forEach(function(c,i){
+      console.log('#'+(i+1), (c.title&&c.title.ko)||'?',
+        '| conf:', c.confidence,
+        '| '+(c.location&&c.location.country),
+        '| '+c.datetime,
+        '|', c.source&&c.source.url);
+    });
+    console.groupEnd();
+  };
+  host.appendChild(chip);
+}
 function renderHeartbeat(iso, report){
   if(!iso) return;
   var t=new Date(iso); if(isNaN(t.getTime())) return;
@@ -929,6 +952,7 @@ function loadEvents(){
     .then(function(meta){
       if(meta&&meta.changelog) buildChangelog(meta.changelog,meta.version);
       if(meta&&meta.lastPolledAt) try{renderHeartbeat(meta.lastPolledAt, meta.lastPollReport);}catch(e){}
+      if(meta&&meta.pending_timeline) try{renderPendingTimeline(meta);}catch(e){}
     })
     .catch(function(){});
 }

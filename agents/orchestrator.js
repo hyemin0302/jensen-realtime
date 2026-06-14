@@ -83,7 +83,7 @@ export async function runOrchestrator(options = {}) {
   const LLM_KEY = process.env.GROQ_API_KEY || process.env.ANTHROPIC_API_KEY;
   console.log(`[orchestrator] 모드: ${LLM_KEY ? 'LLM 활성화 (Groq)' : '기본 모드'}`);
 
-  const report = { newsCards: 0, stockCount: 0, insights: 0, statusChanges: 0, errors: [] };
+  const report = { newsCards: 0, autoTimelineAdded: 0, pendingTimelineCount: 0, stockCount: 0, insights: 0, statusChanges: 0, errors: [] };
 
   // ── Step 0: 이벤트 상태 자동 전환 ──
   try {
@@ -108,11 +108,15 @@ export async function runOrchestrator(options = {}) {
   }
 
   // ── Step 1: 뉴스 에이전트 ──
+  let pendingTimeline = [];
   try {
     console.log('\n[orchestrator] Step 1: 뉴스 에이전트');
     const newsResult = await runNewsAgent(EVENTS_PATH);
     report.newsCards = newsResult.newCards;
-    console.log(`[orchestrator] 새 카드: ${newsResult.newCards}개, 수집: ${newsResult.totalArticles}개`);
+    report.autoTimelineAdded = newsResult.autoTimelineAdded || 0;
+    pendingTimeline = newsResult.pendingTimeline || [];
+    report.pendingTimelineCount = pendingTimeline.length;
+    console.log(`[orchestrator] 새 카드: ${newsResult.newCards}개, auto-timeline: ${report.autoTimelineAdded}개, pending: ${report.pendingTimelineCount}개, 수집: ${newsResult.totalArticles}개`);
   } catch (e) {
     report.errors.push(`news-agent: ${e.message}`);
     console.error(`[orchestrator] 뉴스 에이전트 오류: ${e.message}`);
@@ -182,11 +186,15 @@ export async function runOrchestrator(options = {}) {
     meta.lastPolledAt = new Date().toISOString();
     meta.lastPollReport = {
       newsCards: report.newsCards,
+      autoTimelineAdded: report.autoTimelineAdded || 0,
+      pendingTimelineCount: report.pendingTimelineCount || 0,
       stockCount: report.stockCount,
       insights: report.insights,
       statusChanges: report.statusChanges,
       errors: report.errors.length,
     };
+    // pending_timeline 큐 — 페이지에서 "검토 대기" 표시용
+    meta.pending_timeline = pendingTimeline;
     // 연속 zero-news streak 카운터 (RSS 장애 vs 자연스러운 무뉴스 구분)
     if (report.newsCards === 0 && report.statusChanges === 0) {
       meta.zeroNewsStreak = (meta.zeroNewsStreak || 0) + 1;

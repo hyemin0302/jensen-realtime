@@ -575,6 +575,116 @@ export async function generateEventCards(articles) {
 }
 
 /**
+ * [LLM 자동 추출] 뉴스에서 timeline 후보 추출
+ * - confidence ≥ AUTO_TIMELINE_THRESHOLD + 위치+날짜 모두 명시 → autoAdded (자동 timeline 등록)
+ * - 그 외 confidence ≥ PENDING_TIMELINE_THRESHOLD → pending (검토 큐)
+ * - 그 미만은 무시
+ */
+const AUTO_TIMELINE_THRESHOLD = 0.85;
+const PENDING_TIMELINE_THRESHOLD = 0.5;
+const TIMELINE_BATCH_SIZE = 10;
+const TIMELINE_RECENT_HOURS = 36;
+
+export async function extractTimelineCandidates(articles, existingEvents) {
+  const result = { autoAdded: [], pending: [] };
+  if (!process.env.GROQ_API_KEY) return result;
+  if (!articles || !articles.length) return result;
+
+  const cutoff = Date.now() - TIMELINE_RECENT_HOURS * 3600 * 1000;
+  const recent = articles.filter(a => {
+    const t = a.ts || (a.m ? new Date(a.m).getTime() : 0);
+    return t > cutoff;
+  });
+  if (!recent.length) return result;
+
+  // 기존 timeline 제목 set (dedup 키)
+  const existingTitles = new Set(
+    (existingEvents || [])
+      .filter(e => e.views?.timeline)
+      .map(e => (e.title?.ko || '').slice(0, 18).trim())
+  );
+
+  for (let i = 0; i < recent.length; i += TIMELINE_BATCH_SIZE) {
+    const batch = recent.slice(i, i + TIMELINE_BATCH_SIZE);
+    const articleList = batch.map((a, idx) =>
+      `[${idx + 1}] ${a.s}: ${a.t}\n  설명: ${(a.d || '').slice(0, 220)}`
+    ).join('\n\n');
+
+    const prompt = `NVIDIA CEO 젠슨 황(Jensen Huang) 관련 뉴스에서 향후/최근 일정 후보를 추출.
+
+기사:
+${articleList}
+
+각 기사에서 일정 후보가 보이면 JSON 배열로 답변. 일정 시그널 없으면 빈 배열 [].
+
+스키마:
+[{
+ "article_index": 1-indexed,
+ "title_ko": "한국어 제목 35자 이내",
+ "title_en": "English title 35 chars",
+ "datetime": "YYYY-MM-DDTHH:MM 또는 YYYY-MM-DD 또는 빈 문자열",
+ "city_ko": "도시 한글",
+ "city_en": "city english",
+ "country": "ISO 2자 KR/US/TW/JP/CN/IN/SG/DE/AE/GB",
+ "kind": "keynote/meeting/visit/announcement/earnings/conference",
+ "confidence": 0.0-1.0,
+ "reason": "한 문장 근거"
+}]
+
+confidence 기준:
+- 0.9+ 날짜·장소·내용 모두 명확한 공식 일정 보도
+- 0.7-0.89 둘 중 하나 모호
+- 0.5-0.69 추측성/예측 보도
+- <0.5 단순 언급·회고
+
+JSON 배열만, 다른 텍스트 금지.`;
+
+    let parsed = [];
+    try {
+      const text = await callGroq('llama-3.1-8b-instant', [{ role: 'user', content: prompt }], 1200);
+      const match = text.match(/\[[\s\S]*\]/);
+      if (match) parsed = JSON.parse(match[0]);
+    } catch (e) {
+      console.warn(`  [news-agent] timeline 추출 batch ${i / TIMELINE_BATCH_SIZE + 1} 오류: ${e.message}`);
+      continue;
+    }
+
+    for (const cand of parsed) {
+      if (!cand || typeof cand.confidence !== 'number') continue;
+      if (cand.confidence < PENDING_TIMELINE_THRESHOLD) continue;
+
+      const titleKey = (cand.title_ko || '').slice(0, 18).trim();
+      if (!titleKey || existingTitles.has(titleKey)) continue;
+      existingTitles.add(titleKey); // 같은 batch 내 dedup
+
+      const articleIdx = (cand.article_index || 1) - 1;
+      const source = batch[articleIdx];
+
+      const candObj = {
+        title: { ko: cand.title_ko || '제목 미상', en: cand.title_en || cand.title_ko || 'TBD' },
+        datetime: cand.datetime || null,
+        location: {
+          city: { ko: cand.city_ko || '', en: cand.city_en || '' },
+          country: cand.country || 'unknown',
+        },
+        kind: cand.kind || 'meeting',
+        confidence: cand.confidence,
+        reason: cand.reason || '',
+        source: source ? { publisher: source.s, title: source.t, url: source.u, time: source.m } : null,
+        extracted_at: new Date().toISOString(),
+      };
+
+      const hasDatetime = !!cand.datetime && !isNaN(new Date(cand.datetime).getTime());
+      const hasLocation = !!cand.country && cand.country !== 'unknown' && !!cand.city_ko;
+      const autoQualified = cand.confidence >= AUTO_TIMELINE_THRESHOLD && hasDatetime && hasLocation;
+
+      (autoQualified ? result.autoAdded : result.pending).push(candObj);
+    }
+  }
+  return result;
+}
+
+/**
  * 뉴스 에이전트 메인 실행
  * events.json 업데이트 + public/data/news-live.json 저장
  */
@@ -596,6 +706,38 @@ export async function runNewsAgent(eventsPath) {
   const timelineUpdates = await updateTimelineFromNews(eventsData.events, articles);
   console.log(`[news-agent] 타임라인 업데이트: ${timelineUpdates}개`);
 
+  // ── timeline 후보 LLM 자동 추출 (글로벌 활동 트래킹) ──
+  const tlExtract = await extractTimelineCandidates(articles, eventsData.events);
+  console.log(`[news-agent] LLM 추출: auto ${tlExtract.autoAdded.length}, pending ${tlExtract.pending.length}`);
+
+  if (tlExtract.autoAdded.length > 0) {
+    const maxOrder = Math.max(0, ...eventsData.events
+      .filter(e => e.timeline_order != null)
+      .map(e => e.timeline_order || 0));
+    const autoEvents = tlExtract.autoAdded.map((c, idx) => {
+      const ts = c.datetime ? new Date(c.datetime).getTime() : Date.now();
+      const isPast = ts < Date.now();
+      return {
+        id: `auto-tl-${Date.now()}-${idx}`,
+        title: c.title,
+        datetime: c.datetime,
+        status: isPast ? 'completed' : 'upcoming',
+        status_label: isPast ? { ko: '완료', en: 'done' } : { ko: '예정', en: 'upcoming' },
+        location: { city: c.location.city, country: c.location.country },
+        kind: c.kind,
+        sources: c.source ? [c.source] : [],
+        source_count: c.source ? 1 : 0,
+        views: { timeline: true, news_card: false, map_pin: true },
+        timeline_order: maxOrder + idx + 1,
+        _extracted_by: 'llm-auto',
+        _confidence: c.confidence,
+        _extracted_at: c.extracted_at,
+      };
+    });
+    eventsData.events = [...autoEvents, ...eventsData.events];
+    console.log(`[news-agent] LLM auto timeline ${autoEvents.length}개 추가`);
+  }
+
   const existingTitles = new Set(
     eventsData.events.map(e => (e.title?.ko || '').slice(0, 25))
   );
@@ -610,7 +752,7 @@ export async function runNewsAgent(eventsPath) {
   const mapPinChanges = updateMapPins(eventsData, detected);
   console.log(`[news-agent] 지도 핀 변경: ${mapPinChanges}개`);
 
-  if (newCards.length > 0 || timelineUpdates > 0 || mapPinChanges > 0) {
+  if (newCards.length > 0 || timelineUpdates > 0 || mapPinChanges > 0 || tlExtract.autoAdded.length > 0) {
     eventsData.events = newCards.length > 0
       ? [...newCards, ...eventsData.events]
       : eventsData.events;
@@ -625,5 +767,10 @@ export async function runNewsAgent(eventsPath) {
   const feedOut = { updatedAt: new Date().toISOString(), count: articles.length, items: articles };
   fs.writeFileSync(feedPath, JSON.stringify(feedOut, null, 2));
 
-  return { newCards: newCards.length, totalArticles: articles.length };
+  return {
+    newCards: newCards.length,
+    totalArticles: articles.length,
+    autoTimelineAdded: tlExtract.autoAdded.length,
+    pendingTimeline: tlExtract.pending,
+  };
 }
