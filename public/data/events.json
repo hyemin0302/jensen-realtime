@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-14T01:41:16.906Z",
+  "updatedAt": "2026-06-14T12:21:11.400Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781429864000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격",
+        "en": "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격"
+      },
+      "url": "https://www.hankyung.com/article/2026061453221",
+      "location": {
+        "name": {
+          "ko": "한국",
+          "en": "한국"
+        }
+      },
+      "datetime": "2026-06-14T09:37:44.000Z",
+      "datetime_display": {
+        "ko": "06. 14. AM 09:37",
+        "en": "06. 14. AM 09:37"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격",
+        "en": "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 한국과 대만을 잇달아 방문하면서 일본은 찾지 않자 일본 IT업계에서 우려하는 목소리가 나오고 있다.",
+          "엔비디아 AI 반도체 공급망의 핵심 국가인 한국과 대만은 젠슨 황이 방문한 곳으로, 반면 일본과의 협력은 일부 사례에 머물고 있다."
+        ],
+        "en": [
+          "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격",
+            "en": "\"한국은 파트너, 日은 고객?\"…젠슨 황 '재팬 패싱'에 충격"
+          },
+          "url": "https://www.hankyung.com/article/2026061453221",
+          "time": "06. 14. AM 09:37"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781391448000",
       "type": "announcement",
