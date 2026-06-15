@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-14T12:21:11.400Z",
+  "updatedAt": "2026-06-15T03:00:09.495Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781490985000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“파트너 아닌 고객일 뿐?”…젠슨 황 ‘일본 패싱’에 술렁이는 日",
+        "en": "“파트너 아닌 고객일 뿐?”…젠슨 황 ‘일본 패싱’에 술렁이는 日"
+      },
+      "url": "https://www.donga.com/news/Inter/article/all/20260615/134112441/2",
+      "location": {
+        "name": {
+          "ko": "일본",
+          "en": "일본"
+        }
+      },
+      "datetime": "2026-06-15T02:36:25.000Z",
+      "datetime_display": {
+        "ko": "06. 15. AM 02:36",
+        "en": "06. 15. AM 02:36"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 최근 대만과 한국을 잇달아 방문한 반면 일본은 찾지 않으면서 일본 내에서 우려가 나오고 있다. 일본 언론은 황 CEO의 행보가 단순한 일정 문제가 아니라 글로벌 인공지능(AI) 생태계에서 일본의 위상이 약해진 현실을 보여준다고 분석했다.",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 최근 대만과 한국을 잇달아 방문한 반면 일본은 찾지 않으면서 일본 내에서 우려가 나오고 있다. 일본 언론은 황 CEO의 행보가 단순한 일정 문제가 아니라 글로벌 인공지능(AI) 생태계에서 일본의 위상이 약해진 현실을 보여준다고 분석했다."
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 최근 대만과 한국을 잇달아 방문한 반면 일본은 찾지 않으면서 일본 내에서 우려가 나오고 있다.",
+          "일본 언론은 황 CEO의 행보가 단순한 일정 문제가 아니라 글로벌 인공지능(AI) 생태계에서 일본의 위상이 약해진 현실을 보여준다고 분석했다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 최근 대만과 한국을 잇달아 방문한 반면 일본은 찾지 않으면서 일본 내에서 우려가 나오고 있다. 일본 언론은 황 CEO의 행보가 단순한 일정 문제가 아니라 글로벌 인공지능(AI) 생태계에서 일본의 위상이 약해진 현실을 보여준다고 분석했다."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "“파트너 아닌 고객일 뿐?”…젠슨 황 ‘일본 패싱’에 술렁이는 日",
+            "en": "“파트너 아닌 고객일 뿐?”…젠슨 황 ‘일본 패싱’에 술렁이는 日"
+          },
+          "url": "https://www.donga.com/news/Inter/article/all/20260615/134112441/2",
+          "time": "06. 15. AM 02:36"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781429864000",
       "type": "announcement",
