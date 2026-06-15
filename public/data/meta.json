@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-15T03:00:13.282Z",
+  "updatedAt": "2026-06-15T09:29:48.534Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-06-15",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-06-15",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-06-13",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-06-13",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-06-15T03:00:13.283Z",
+  "lastPolledAt": "2026-06-15T09:29:48.535Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "\"파트너 아닌 고객일 뿐?\"…젠슨 황 '일본 패싱'에 술렁이는 日",
-        "en": "\"파트너 아닌 고객일 뿐?\"…젠슨 황 '일본 패싱'에 술렁이는 日"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "JP"
-      },
-      "kind": "visit",
-      "confidence": 0.7,
-      "reason": "젠슨 황 엔비디아 최고경영자(CEO)가 최근 대만과 한국을 잇달아 방문한 반면 일본은 찾지 않으면서 일본 내에서 우려가 나오고 있다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "“파트너 아닌 고객일 뿐?”…젠슨 황 ‘일본 패싱’에 술렁이는 日",
-        "url": "https://www.donga.com/news/Inter/article/all/20260615/134112441/2",
-        "time": "06. 15. AM 02:36"
-      },
-      "extracted_at": "2026-06-15T03:00:08.003Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
