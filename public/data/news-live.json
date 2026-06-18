@@ -1,30 +1,16 @@
 {
-  "updatedAt": "2026-06-18T18:40:31.295Z",
-  "count": 5,
+  "updatedAt": "2026-06-18T21:18:37.034Z",
+  "count": 4,
   "items": [
     {
-      "s": "조선일보",
-      "t": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”",
-      "d": "",
-      "u": "https://www.chosun.com/politics/election2026/2026/06/19/QHVV5LHMKFBHZIUO7HGCWECB24/",
-      "m": "06. 18. PM 03:45",
-      "ts": 1781797500000,
+      "s": "NVIDIA공식",
+      "t": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "d": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid.  In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "m": "06. 18. PM 08:00",
+      "ts": 1781812827000,
       "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "“한국 제조현장은 피지컬 AI의 선생님”",
-      "d": "“피지컬 인공지능(AI) 시대에는 로봇이 현장에서 사람들이 어떻게 일하는지 보고 배우는 것이 핵심입니다. 한국의 제조 현장이 휴머노이드의 선생님에 해당됩니다.” 4일 서울 강남구 아셈타워에서 만난 이재형 AMD코리아 커머셜세일즈 대표는 젠슨 황 엔비디아 최고경영자(CEO), 리사 수 AMD CEO 등 글로벌 빅테크 수장들이 잇달아 한국을 찾는 이유를 이렇게 설명했다. 그는 삼보컴퓨터를 시작으로 LG전자, 레노버, 델을 거쳐 AMD까지 25년간 한국 정보기술(IT) 업계를 누볐다. 이 대표는 AMD에 있어 한국이 ‘글로벌 3대 전략 시장’이라고 설명했다. 그는 “한국은 최신 제품을 가장 먼저 도입하고, 실제 사업 성과로 그 쓰임을 증명해 보이는 시장”이라고 말했다. 향후 AI 활용이 피지컬 AI로 중심축이 넘",
-      "u": "https://www.donga.com/news/Economy/article/all/20260618/134139830/2",
-      "m": "06. 18. PM 03:30",
-      "ts": 1781796600000,
-      "stocks": [
-        "066570",
-        "066575",
-        "AMD"
-      ],
-      "fullText": "이민아 기자 구독"
+      "fullText": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability The U.S. Federal Energy Regulatory Commission’s new actions on energy — a foundational layer of AI — are poised to reduce costs for ratepayers, grow the industrial base and strengthen the nation’s electrical grid. June 18, 2026 by Vladimir Troy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid. In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a five-layer cake , energy is the critical foundation of technological innovation. FERC’s actions do more than modernize the grid interconnection queue — the approval process power developers must complete to safely connect new energy generation to the electrical grid. Following U.S. Secretary of Energy Chris Wright’s order directing FERC to address large-load interconnection, the actions establish national policy for how America can simultaneously lower energy costs, grow its industrial base, scale AI and strengthen the electrical grid. For policymakers, utilities and technology partners, the message is clear: This is a pro-growth, pro-affordability and pro-reliability policy. Faster Connections, Stronger Grid At its core, the new framework cuts through burdensome bureaucratic red tape and aligns industry incentives. Large customers are no longer passive entrants into an overburdened interconnection queue. They’re active participants in building the infrastructure they require. That means: Funding their own network upgrades , reducing cost pressure on existing ratepayers. Bringing new energy generation online , increasing supply alongside demand. Offering flexible load , allowing grid operators to manage peaks more efficiently. Customers that can demonstrate flexibility — shifting or curtailing load in response to grid conditions — can move through the process on accelerated timelines, with study periods potentially as short as 60 days, per Secretary Wright’s directive . This is not just faster interconnection. It’s smarter interconnection. The Math Adds Up Electric grids are capital-intensive systems with high fixed costs. When more demand is added efficiently, those costs are spread across a broader base — lowering prices per unit. The data backs this up. Lawrence Berkeley National Laboratory found that every 10% increase in state electricity consumption correlates with an approximately 6-cents-per-kilowatt-hour reduction in retail electricity prices. In other words, grid growth — when done right — lowers costs. This dynamic is already playing out at the state level: North Dakota , after adding 23 data centers, saw the nation’s largest decrease in electricit"
     },
     {
       "s": "NVIDIA공식",
