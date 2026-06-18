@@ -1,8 +1,194 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-17T16:10:36.272Z",
+  "updatedAt": "2026-06-18T16:23:19.770Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781797500000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”",
+        "en": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”"
+      },
+      "url": "https://www.chosun.com/politics/election2026/2026/06/19/QHVV5LHMKFBHZIUO7HGCWECB24/",
+      "location": {
+        "name": {
+          "ko": "하남",
+          "en": "하남"
+        }
+      },
+      "datetime": "2026-06-18T15:45:00.000Z",
+      "datetime_display": {
+        "ko": "06. 18. PM 03:45",
+        "en": "06. 18. PM 03:45"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”",
+        "en": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”"
+      },
+      "summary": {
+        "ko": [
+          "하남에 AI 클러스터를 꾸려 젠슨 황이 찾는 도시로 될 것",
+          "하남시가 AI 클러스터를 조성하여 젠슨 황이 찾는 도시로 성장할 것"
+        ],
+        "en": [
+          "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”",
+            "en": "“하남에 AI 클러스터 꾸려 젠슨 황이 찾는 도시 될 것”"
+          },
+          "url": "https://www.chosun.com/politics/election2026/2026/06/19/QHVV5LHMKFBHZIUO7HGCWECB24/",
+          "time": "06. 18. PM 03:45"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1781796600000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“한국 제조현장은 피지컬 AI의 선생님”",
+        "en": "“한국 제조현장은 피지컬 AI의 선생님”"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260618/134139830/2",
+      "location": {
+        "name": {
+          "ko": "서울 강남구 아셈타워",
+          "en": "서울 강남구 아셈타워"
+        }
+      },
+      "datetime": "2026-06-18T15:30:00.000Z",
+      "datetime_display": {
+        "ko": "06. 18. PM 03:30",
+        "en": "06. 18. PM 03:30"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“피지컬 인공지능(AI) 시대에는 로봇이 현장에서 사람들이 어떻게 일하는지 보고 배우는 것이 핵심입니다. 한국의 제조 현장이 휴머노이드의 선생님에 해당됩니다.” 4일 서울 강남구 아셈타워에서 만난 이재형 AMD코리아 커머셜세일즈 대표는 젠슨 황 엔비디아 최고경영자(CEO), 리사 수 AMD CEO 등 글로벌 빅테크 수장들이 잇달아 한국을 찾는 이유를 이렇게 설명했다. 그는 삼보컴퓨터를 시작으로 LG전자, 레노버, 델을 거쳐 AMD까지 25년간 한국 정보기술(IT) 업계를 누볐다. 이 대표는 AMD에 있어 한국이 ‘글로벌 3대 전략 시장’이라고 설명했다. 그는 “한국은 최신 제품을 가장 먼저 도입하고, 실제 사업 성과로 그 쓰임을 증명해 보이는 시장”이라고 말했다. 향후 AI 활용이 피지컬 AI로 중심축이 넘",
+        "en": "“피지컬 인공지능(AI) 시대에는 로봇이 현장에서 사람들이 어떻게 일하는지 보고 배우는 것이 핵심입니다. 한국의 제조 현장이 휴머노이드의 선생님에 해당됩니다.” 4일 서울 강남구 아셈타워에서 만난 이재형 AMD코리아 커머셜세일즈 대표는 젠슨 황 엔비디아 최고경영자(CEO), 리사 수 AMD CEO 등 글로벌 빅테크 수장들이 잇달아 한국을 찾는 이유를 이렇게 설명했다. 그는 삼보컴퓨터를 시작으로 LG전자, 레노버, 델을 거쳐 AMD까지 25년간 한국 정보기술(IT) 업계를 누볐다. 이 대표는 AMD에 있어 한국이 ‘글로벌 3대 전략 시장’이라고 설명했다. 그는 “한국은 최신 제품을 가장 먼저 도입하고, 실제 사업 성과로 그 쓰임을 증명해 보이는 시장”이라고 말했다. 향후 AI 활용이 피지컬 AI로 중심축이 넘"
+      },
+      "summary": {
+        "ko": [
+          "피지컬 인공지능(AI) 시대에는 로봇이 현장에서 사람들이 어떻게 일하는지 보고 배우는 것이 핵심입니다.",
+          "한국의 제조 현장이 휴머노이드의 선생님에 해당됩니다."
+        ],
+        "en": [
+          "“피지컬 인공지능(AI) 시대에는 로봇이 현장에서 사람들이 어떻게 일하는지 보고 배우는 것이 핵심입니다. 한국의 제조 현장이 휴머노이드의 선생님에 해당됩니다.” 4일 서울 강남구 아셈타워에서 만난 이재형 AMD코리아 커머셜세일즈 대표는 젠슨 황 엔비디아 최고경영자(CEO), 리사 수 AMD CEO 등 글로벌 빅테크 수장들이 잇달아 한국을 찾는 이유를 이렇게 설명했다. 그는 삼보컴퓨터를 시작으로 LG전자, 레노버, 델을 거쳐 AMD까지 25년간 한국 정보기술(IT) 업계를 누볐다. 이 대표는 AMD에 있어 한국이 ‘글로벌 3대 전략 시장’이라고 설명했다. 그는 “한국은 최신 제품을 가장 먼저 도입하고, 실제 사업 성과로 그 쓰임을 증명해 보이는 시장”이라고 말했다. 향후 AI 활용이 피지컬 AI로 중심축이 넘"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "AMD",
+          "name": {
+            "ko": "AMD",
+            "en": "AMD"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "“한국 제조현장은 피지컬 AI의 선생님”",
+            "en": "“한국 제조현장은 피지컬 AI의 선생님”"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260618/134139830/2",
+          "time": "06. 18. PM 03:30"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781705880000",
       "type": "announcement",
