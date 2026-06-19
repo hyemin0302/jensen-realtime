@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-19T21:59:47.717Z",
+  "updatedAt": "2026-06-19T23:03:14.611Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-06-19",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-06-19",
@@ -98,23 +103,67 @@
       "version": "2.0.0",
       "date": "2026-06-17",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-06-17",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-06-19T21:59:47.717Z",
+  "lastPolledAt": "2026-06-19T23:03:14.611Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 4,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "AI인 줄 화사, 젠슨 황의 'K팝 최애'샤라웃에 감격",
+        "en": "K-pop star expresses gratitude to Jensen Huang"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "announcement",
+      "confidence": 0.5,
+      "reason": "젠슨 황이 K팝 최애로 언급된 것에 대한 마마무 화사의 감격",
+      "source": {
+        "publisher": "조선일보",
+        "title": "\"AI인 줄\" 화사, 젠슨 황의 'K팝 최애'샤라웃에 감격 \"잘 때마다 감사해\"('고막남친') [어저께TV]",
+        "url": "https://www.chosun.com/entertainments/music/2026/06/20/MRQTSNBTMMZWGZBWGQYWEZLEGE/",
+        "time": "06. 19. PM 10:18"
+      },
+      "extracted_at": "2026-06-19T23:03:09.449Z"
+    },
+    {
+      "title": {
+        "ko": "FERC의 대규모 부하 접속 조치가 전력망 스트레스를 줄이고 비용을 절감하는 데 도움이 된다",
+        "en": "FERC's Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "announcement",
+      "confidence": 0.5,
+      "reason": "엔비디아가 AI 공장 및 반도체 공장 건설과 관련된 FERC의 결정에 언급",
+      "source": {
+        "publisher": "NVIDIA공식",
+        "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+        "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+        "time": "06. 18. PM 08:00"
+      },
+      "extracted_at": "2026-06-19T23:03:09.449Z"
+    }
+  ]
 }
