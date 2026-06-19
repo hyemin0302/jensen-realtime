@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-19T02:14:11.474Z",
+  "updatedAt": "2026-06-19T07:36:47.854Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-06-19",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-06-19",
@@ -98,23 +103,67 @@
       "version": "2.0.0",
       "date": "2026-06-16",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-06-16",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-06-19T02:14:11.474Z",
+  "lastPolledAt": "2026-06-19T07:36:47.855Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 2,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "한국 골목 누비던 토종 자율주행 로봇, 일본 배달·대만 순찰 시장 간다",
+        "en": "Korean Self-Driving Robot Heads to Japan Delivery and Taiwan Patrol Markets"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "announcement",
+      "confidence": 0.5,
+      "reason": "기사에서 젠슨 황 엔 mention",
+      "source": {
+        "publisher": "조선일보",
+        "title": "한국 골목 누비던 토종 자율주행 로봇, 일본 배달·대만 순찰 시장 간다",
+        "url": "https://www.chosun.com/economy/industry-company/2026/06/19/MRRDGNJTMRSTGZRVGFRDINTFMI/",
+        "time": "06. 19. AM 01:13"
+      },
+      "extracted_at": "2026-06-19T07:36:42.763Z"
+    },
+    {
+      "title": {
+        "ko": "FERC의 대규모 부하 연결 조치가 전력망 긴장 해소와 비용 절감에 도움이 된다",
+        "en": "FERC's Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "announcement",
+      "confidence": 0.5,
+      "reason": "기사에서 젠슨 황 엔 mention",
+      "source": {
+        "publisher": "NVIDIA공식",
+        "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+        "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+        "time": "06. 18. PM 08:00"
+      },
+      "extracted_at": "2026-06-19T07:36:42.763Z"
+    }
+  ]
 }

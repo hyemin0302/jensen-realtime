@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-18T21:18:37.031Z",
+  "updatedAt": "2026-06-19T07:36:44.258Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1781831608000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "한국 골목 누비던 토종 자율주행 로봇, 일본 배달·대만 순찰 시장 간다",
+        "en": "한국 골목 누비던 토종 자율주행 로봇, 일본 배달·대만 순찰 시장 간다"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/19/MRRDGNJTMRSTGZRVGFRDINTFMI/",
+      "location": {
+        "name": {
+          "ko": "대만",
+          "en": "대만"
+        }
+      },
+      "datetime": "2026-06-19T01:13:28.000Z",
+      "datetime_display": {
+        "ko": "06. 19. AM 01:13",
+        "en": "06. 19. AM 01:13"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "이달 초 대만 언론에 한국 자율주행 로봇 스타트업 뉴빌리티의 이름이 오르내렸다. 대만 보안 시장 1위 업체인 타이완 세콤이 ‘컴퓨텍스 2026’ 전시장에서 뉴빌리티의 인공지능(AI) 야외 순찰 로봇을 자사 보안 시스템과 연계해 선보이면서다. 로봇은 스스로 순찰 구역을 돌며 쓰러진 사람 등 이상 상황을 감지하고 관제센터에 알리는 기능을 시연했다. 젠슨 황 엔",
+        "en": "이달 초 대만 언론에 한국 자율주행 로봇 스타트업 뉴빌리티의 이름이 오르내렸다. 대만 보안 시장 1위 업체인 타이완 세콤이 ‘컴퓨텍스 2026’ 전시장에서 뉴빌리티의 인공지능(AI) 야외 순찰 로봇을 자사 보안 시스템과 연계해 선보이면서다. 로봇은 스스로 순찰 구역을 돌며 쓰러진 사람 등 이상 상황을 감지하고 관제센터에 알리는 기능을 시연했다. 젠슨 황 엔"
+      },
+      "summary": {
+        "ko": [
+          "이달 초 대만 언론에 한국 자율주행 로봇 스타트업 뉴빌리티의 이름이 오르내렸다.",
+          "대만 보안 시장 1위 업체인 타이완 세콤이 ‘컴퓨텍스 2026’ 전시장에서 뉴빌리티의 인공지능(AI) 야외 순찰 로봇을 자사 보안 시스템과 연계해 선보였다."
+        ],
+        "en": [
+          "이달 초 대만 언론에 한국 자율주행 로봇 스타트업 뉴빌리티의 이름이 오르내렸다. 대만 보안 시장 1위 업체인 타이완 세콤이 ‘컴퓨텍스 2026’ 전시장에서 뉴빌리티의 인공지능(AI) 야외 순찰 로봇을 자사 보안 시스템과 연계해 선보이면서다. 로봇은 스스로 순찰 구역을 돌며 쓰러진 사람 등 이상 상황을 감지하고 관제센터에 알리는 기능을 시연했다. 젠슨 황 엔"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "한국 골목 누비던 토종 자율주행 로봇, 일본 배달·대만 순찰 시장 간다",
+            "en": "한국 골목 누비던 토종 자율주행 로봇, 일본 배달·대만 순찰 시장 간다"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/06/19/MRRDGNJTMRSTGZRVGFRDINTFMI/",
+          "time": "06. 19. AM 01:13"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781812827000",
       "type": "announcement",
