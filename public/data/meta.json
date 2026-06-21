@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-21T18:03:50.667Z",
+  "updatedAt": "2026-06-21T20:11:00.203Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
@@ -17,6 +17,11 @@
     {
       "version": "2.0.0",
       "date": "2026-06-21",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-06-21",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-06-19",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-06-19",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-06-21T18:03:50.667Z",
+  "lastPolledAt": "2026-06-21T20:11:00.204Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 2,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "LG, 엔비디아와 AI 협력 속도 낸다…경영진·실무진 30여명 방미",
-        "en": "LG, NVIDIA AI Collaboration Speeds Up…30+ Executives Visit"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "visit",
-      "confidence": 0.7,
-      "reason": "LG 주요 계열사 경영진이 22일 미국 캘리포니아주 산타클라라 엔비디아 본사를 방문한다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "LG, 엔비디아와 AI 협력 속도 낸다…경영진·실무진 30여명 방미",
-        "url": "https://www.donga.com/news/Economy/article/all/20260621/134153610/1",
-        "time": "06. 21. PM 12:55"
-      },
-      "extracted_at": "2026-06-21T18:03:47.561Z"
-    }
-  ]
+  "zeroNewsStreak": 3,
+  "pending_timeline": []
 }
