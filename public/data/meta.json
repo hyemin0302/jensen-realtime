@@ -1,12 +1,17 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-21T14:39:37.122Z",
+  "updatedAt": "2026-06-21T16:26:41.559Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-06-21",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-06-21",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -88,11 +93,6 @@
       "version": "2.0.0",
       "date": "2026-06-19",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-06-19",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -105,41 +105,16 @@
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-06-21T14:39:37.122Z",
+  "lastPolledAt": "2026-06-21T16:26:41.560Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "LG, 엔비디아와 AI 협력 속도 낸다…경영진·실무진 30여명 방미",
-        "en": "LG, NVIDIA AI Collaboration Accelerates…30+ Executives to Visit"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "visit",
-      "confidence": 0.9,
-      "reason": "LG그룹 경영진·실무진 30여명이 엔비디아 본사를 방문한다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "LG, 엔비디아와 AI 협력 속도 낸다…경영진·실무진 30여명 방미",
-        "url": "https://www.donga.com/news/Economy/article/all/20260621/134153610/1",
-        "time": "06. 21. PM 12:55"
-      },
-      "extracted_at": "2026-06-21T14:39:29.861Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
