@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-19T23:03:10.968Z",
+  "updatedAt": "2026-06-21T06:51:01.043Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782023288000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]",
+        "en": "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]"
+      },
+      "url": "https://www.hankyung.com/article/202606196468g",
+      "location": {
+        "name": {
+          "ko": "서울",
+          "en": "서울"
+        }
+      },
+      "datetime": "2026-06-21T06:28:08.000Z",
+      "datetime_display": {
+        "ko": "06. 21. AM 06:28",
+        "en": "06. 21. AM 06:28"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]",
+        "en": "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황이 다녀간 맛집도 탄식...삼계탕 먹으러 갔다가 \"선 넘었다\"",
+          "서울 유명 삼계탕집들 줄줄이 2만원 넘어"
+        ],
+        "en": [
+          "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]",
+            "en": "젠슨 황 다녀간 맛집도 탄식…삼계탕 먹으러 갔다가 \"선 넘었다\" [장바구니+]"
+          },
+          "url": "https://www.hankyung.com/article/202606196468g",
+          "time": "06. 21. AM 06:28"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1781907480000",
       "type": "announcement",
