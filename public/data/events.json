@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-23T08:25:27.174Z",
+  "updatedAt": "2026-06-23T17:12:22.749Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782228780000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황도 ‘팬’… 디든로보틱스, 1000억 투자 유치 나서",
+        "en": "젠슨 황도 ‘팬’… 디든로보틱스, 1000억 투자 유치 나서"
+      },
+      "url": "https://www.chosun.com/economy/stock-finance/2026/06/24/6CCDXKN7QRGFVOBGB4PVUQYC4I/",
+      "location": null,
+      "datetime": "2026-06-23T15:33:00.000Z",
+      "datetime_display": {
+        "ko": "06. 23. PM 03:33",
+        "en": "06. 23. PM 03:33"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "이 기사는 2026년 6월 22일 15시 53분 조선비즈 머니무브(MM) 사이트에 표출됐습니다. 로보틱스 스타트업 디든로보틱스가 1000억원 규모 신규 투자유치에 나섰다. 로봇 양산을 위한 설비투자 자금 조달이 목표로, 디든로보틱스가 개발한 산업용 로봇 ‘디든 스파이더’는 지난 3월 엔비디아의 기술 발표회 ‘GTC’에 등장하며 시장의 주목을 받기도 했다.",
+        "en": "이 기사는 2026년 6월 22일 15시 53분 조선비즈 머니무브(MM) 사이트에 표출됐습니다. 로보틱스 스타트업 디든로보틱스가 1000억원 규모 신규 투자유치에 나섰다. 로봇 양산을 위한 설비투자 자금 조달이 목표로, 디든로보틱스가 개발한 산업용 로봇 ‘디든 스파이더’는 지난 3월 엔비디아의 기술 발표회 ‘GTC’에 등장하며 시장의 주목을 받기도 했다."
+      },
+      "summary": {
+        "ko": [
+          "로보틱스 스타트업 디든로보틱스가 1000억원 규모 신규 투자유치에 나섰다.",
+          "디든 스파이더는 지난 3월 엔비디아의 기술 발표회 'GTC'에 등장하며 시장의 주목을 받기도 했다."
+        ],
+        "en": [
+          "이 기사는 2026년 6월 22일 15시 53분 조선비즈 머니무브(MM) 사이트에 표출됐습니다. 로보틱스 스타트업 디든로보틱스가 1000억원 규모 신규 투자유치에 나섰다. 로봇 양산을 위한 설비투자 자금 조달이 목표로, 디든로보틱스가 개발한 산업용 로봇 ‘디든 스파이더’는 지난 3월 엔비디아의 기술 발표회 ‘GTC’에 등장하며 시장의 주목을 받기도 했다."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황도 ‘팬’… 디든로보틱스, 1000억 투자 유치 나서",
+            "en": "젠슨 황도 ‘팬’… 디든로보틱스, 1000억 투자 유치 나서"
+          },
+          "url": "https://www.chosun.com/economy/stock-finance/2026/06/24/6CCDXKN7QRGFVOBGB4PVUQYC4I/",
+          "time": "06. 23. PM 03:33"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782200202000",
       "type": "announcement",
