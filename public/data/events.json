@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-22T18:04:56.992Z",
+  "updatedAt": "2026-06-23T04:38:32.653Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782177737000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다",
+        "en": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다"
+      },
+      "url": "https://www.hankyung.com/article/202606231974g",
+      "location": {
+        "name": {
+          "ko": "서울 강남구",
+          "en": "서울 강남구"
+        }
+      },
+      "datetime": "2026-06-23T01:22:17.000Z",
+      "datetime_display": {
+        "ko": "06. 23. AM 01:22",
+        "en": "06. 23. AM 01:22"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다",
+        "en": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다"
+      },
+      "summary": {
+        "ko": [
+          "삼성전자, HBM4 매출 10억달러 돌파 올해 100억달러 돌파 전망 나오기도",
+          "SK하이닉스, HBM4E 12단 샘플 공급 젠슨 황 엔비디아 최고경영자(CEO)가 지난 7일 오후 서울 강남구 깐부치킨 삼성점에서 최태원 SK그룹 회장과 '치맥 회동'을 하고 있다."
+        ],
+        "en": [
+          "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다",
+            "en": "젠슨 황 \"HBM 더 달라\" 요청하더니…삼전닉스 경쟁 불 붙었다"
+          },
+          "url": "https://www.hankyung.com/article/202606231974g",
+          "time": "06. 23. AM 01:22"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782136800000",
       "type": "announcement",
