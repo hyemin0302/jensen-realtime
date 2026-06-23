@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-23T04:38:32.653Z",
+  "updatedAt": "2026-06-23T08:25:27.174Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782200202000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'",
+        "en": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'"
+      },
+      "url": "https://www.hankyung.com/article/202606232832g",
+      "location": null,
+      "datetime": "2026-06-23T07:36:42.000Z",
+      "datetime_display": {
+        "ko": "06. 23. AM 07:36",
+        "en": "06. 23. AM 07:36"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'",
+        "en": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'"
+      },
+      "summary": {
+        "ko": [
+          "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'",
+          "올해 시장 규모도 전년보다 4배 성장한 1500조원에 이를 전망이다."
+        ],
+        "en": [
+          "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'",
+            "en": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'"
+          },
+          "url": "https://www.hankyung.com/article/202606232832g",
+          "time": "06. 23. AM 07:36"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782177737000",
       "type": "announcement",
