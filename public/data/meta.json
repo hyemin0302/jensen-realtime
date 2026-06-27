@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-06-27T03:38:02.658Z",
+  "updatedAt": "2026-06-27T06:48:02.776Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-06-27",
+      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-06-27",
@@ -98,23 +103,67 @@
       "version": "2.0.0",
       "date": "2026-06-25",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-06-25",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-06-27T03:38:02.658Z",
+  "lastPolledAt": "2026-06-27T06:48:02.776Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 2,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
   "zeroNewsStreak": 0,
-  "pending_timeline": []
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\"",
+        "en": "New Jeollabuk-do Governor, Jensen Huang, Let's Discuss Newman Investment Over Samgyeopsal"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "meeting",
+      "confidence": 0.5,
+      "reason": "삼겹살 먹으며 새만금 투자 논의하자",
+      "source": {
+        "publisher": "한국경제",
+        "title": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\"",
+        "url": "https://www.hankyung.com/article/2026062713667",
+        "time": "06. 27. AM 04:54"
+      },
+      "extracted_at": "2026-06-27T06:47:53.573Z"
+    },
+    {
+      "title": {
+        "ko": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\"",
+        "en": "Lee Won-taek, Jensen Huang, Let's Discuss Newman Investment Over Samgyeopsal"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "meeting",
+      "confidence": 0.5,
+      "reason": "삼겹살로 먹으며 대화하자",
+      "source": {
+        "publisher": "연합뉴스",
+        "title": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\"",
+        "url": "https://www.yna.co.kr/view/AKR20260627030500055",
+        "time": "06. 27. AM 04:44"
+      },
+      "extracted_at": "2026-06-27T06:47:53.573Z"
+    }
+  ]
 }

@@ -1,8 +1,148 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-27T03:37:59.279Z",
+  "updatedAt": "2026-06-27T06:47:56.613Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782536084000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\"",
+        "en": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\""
+      },
+      "url": "https://www.hankyung.com/article/2026062713667",
+      "location": {
+        "name": {
+          "ko": "새만금",
+          "en": "새만금"
+        }
+      },
+      "datetime": "2026-06-27T04:54:44.000Z",
+      "datetime_display": {
+        "ko": "06. 27. AM 04:54",
+        "en": "06. 27. AM 04:54"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\"",
+        "en": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\""
+      },
+      "summary": {
+        "ko": [
+          "전북지사 당선인, 젠슨황에 '삼겹살 먹으며 새만금투자 논의하자'",
+          "이원택 전북특별자치도지사 당선인이 젠슨황 엔비디아 최고경영자에게 새만금 투자를 논의하기 위해 만나자고 제안했다."
+        ],
+        "en": [
+          "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\"",
+            "en": "전북지사 당선인, 젠슨황에 \"삼겹살 먹으며 새만금투자 논의하자\""
+          },
+          "url": "https://www.hankyung.com/article/2026062713667",
+          "time": "06. 27. AM 04:54"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1782535445000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\"",
+        "en": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\""
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260627030500055",
+      "location": {
+        "name": {
+          "ko": "새만금",
+          "en": "새만금"
+        }
+      },
+      "datetime": "2026-06-27T04:44:05.000Z",
+      "datetime_display": {
+        "ko": "06. 27. AM 04:44",
+        "en": "06. 27. AM 04:44"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(전주=연합뉴스) 최영수 기자 = 이원택 전북특별자치도지사 당선인이 글로벌 인공지능(AI) 반도체 기업인 엔비디아의 젠슨 황 최고경영자에게 새만...",
+        "en": "(전주=연합뉴스) 최영수 기자 = 이원택 전북특별자치도지사 당선인이 글로벌 인공지능(AI) 반도체 기업인 엔비디아의 젠슨 황 최고경영자에게 새만..."
+      },
+      "summary": {
+        "ko": [
+          "이원택 전북특별자치도지사 당선인이 글로벌 인공지능(AI) 반도체 기업인 엔비디아의 젠슨 황 최고경영자에게 새만금 투자 논의를 위한 회동을 제안했다.",
+          "이 당선인은 친서에서 새만금을 규제가 사실상 없는 '완벽한 백지'로 소개하며 '엔비디아가 필요로 하는 '마찰 없는 환경, 무한 확장성, 압도적 속도'를 갖춘 최적의 투자처'라고 강조했다."
+        ],
+        "en": [
+          "(전주=연합뉴스) 최영수 기자 = 이원택 전북특별자치도지사 당선인이 글로벌 인공지능(AI) 반도체 기업인 엔비디아의 젠슨 황 최고경영자에게 새만..."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\"",
+            "en": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\""
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260627030500055",
+          "time": "06. 27. AM 04:44"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782522600000",
       "type": "announcement",
