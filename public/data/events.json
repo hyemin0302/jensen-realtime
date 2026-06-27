@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-23T17:12:22.749Z",
+  "updatedAt": "2026-06-27T03:37:59.279Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782522600000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "최민식, 젠슨 황 만난 유재석 부러워..\"나도 구경가려고 했는데\"(핑계고)",
+        "en": "최민식, 젠슨 황 만난 유재석 부러워..\"나도 구경가려고 했는데\"(핑계고)"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/27/MFTDKNRZMNQTQMZWGJRDKODFME/",
+      "location": null,
+      "datetime": "2026-06-27T01:10:00.000Z",
+      "datetime_display": {
+        "ko": "06. 27. AM 01:10",
+        "en": "06. 27. AM 01:10"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=하수정 기자] 최민식이 유재석과 젠슨 황 회장의 만남에 부러움을 표했다.27일 오전 '뜬뜬' 채널에는 '팬미팅은 핑계고'라는 제목의 영상이 업로드됐다. 넷플릭스 새 시리즈 '맨 끝줄 소년'의 주연 최민식과 최현욱이 게스트로 출연했다.유재석은 \"오늘 빅데이다. 지금 내가 젠슨 황님 뵙고 왔다\"며 \"오전에는 젠슨 황 회장님, 오후에는 민식이 형님\"이",
+        "en": "[OSEN=하수정 기자] 최민식이 유재석과 젠슨 황 회장의 만남에 부러움을 표했다.27일 오전 '뜬뜬' 채널에는 '팬미팅은 핑계고'라는 제목의 영상이 업로드됐다. 넷플릭스 새 시리즈 '맨 끝줄 소년'의 주연 최민식과 최현욱이 게스트로 출연했다.유재석은 \"오늘 빅데이다. 지금 내가 젠슨 황님 뵙고 왔다\"며 \"오전에는 젠슨 황 회장님, 오후에는 민식이 형님\"이"
+      },
+      "summary": {
+        "ko": [
+          "최민식이 유재석과 젠슨 황 회장의 만남에 부러움을 표했다.",
+          "유재석은 '오늘 빅데이다. 지금 내가 젠슨 황님 뵙고 왔다'며 '오전에는 젠슨 황 회장님, 오후에는 민식이 형님'이라고 말했다."
+        ],
+        "en": [
+          "[OSEN=하수정 기자] 최민식이 유재석과 젠슨 황 회장의 만남에 부러움을 표했다.27일 오전 '뜬뜬' 채널에는 '팬미팅은 핑계고'라는 제목의 영상이 업로드됐다. 넷플릭스 새 시리즈 '맨 끝줄 소년'의 주연 최민식과 최현욱이 게스트로 출연했다.유재석은 \"오늘 빅데이다. 지금 내가 젠슨 황님 뵙고 왔다\"며 \"오전에는 젠슨 황 회장님, 오후에는 민식이 형님\"이"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "최민식, 젠슨 황 만난 유재석 부러워..\"나도 구경가려고 했는데\"(핑계고)",
+            "en": "최민식, 젠슨 황 만난 유재석 부러워..\"나도 구경가려고 했는데\"(핑계고)"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/27/MFTDKNRZMNQTQMZWGJRDKODFME/",
+          "time": "06. 27. AM 01:10"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782228780000",
       "type": "announcement",
