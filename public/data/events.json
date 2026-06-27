@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-27T09:25:17.669Z",
+  "updatedAt": "2026-06-27T12:50:46.767Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782550419000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”",
+        "en": "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”"
+      },
+      "url": "https://www.chosun.com/politics/politics_general/2026/06/27/FFQWETUSYNFEJPZRQRX4DOJVII/",
+      "location": null,
+      "datetime": "2026-06-27T08:53:39.000Z",
+      "datetime_display": {
+        "ko": "06. 27. AM 08:53",
+        "en": "06. 27. AM 08:53"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”",
+        "en": "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”"
+      },
+      "summary": {
+        "ko": [
+          "이원택, 젠슨 황에 친서... \"삼겹살 먹으며 새만금 논의하자\"",
+          "이원택이 젠슨 황에게 친서를 보냈다."
+        ],
+        "en": [
+          "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”",
+            "en": "이원택, 젠슨 황에 친서... “삼겹살 먹으며 새만금 논의하자”"
+          },
+          "url": "https://www.chosun.com/politics/politics_general/2026/06/27/FFQWETUSYNFEJPZRQRX4DOJVII/",
+          "time": "06. 27. AM 08:53"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782550419000",
       "type": "announcement",
