@@ -1,8 +1,213 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-27T12:50:46.767Z",
+  "updatedAt": "2026-06-28T04:58:33.857Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782617604000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지",
+        "en": "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지"
+      },
+      "url": "https://www.chosun.com/national/national_general/2026/06/28/ZLGS2PDQCBBO5LIQB3MZX3K3R4/",
+      "location": null,
+      "datetime": "2026-06-28T03:33:24.000Z",
+      "datetime_display": {
+        "ko": "06. 28. AM 03:33",
+        "en": "06. 28. AM 03:33"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지",
+        "en": "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지"
+      },
+      "summary": {
+        "ko": [
+          "K-치안에 밥 사고 싶다",
+          "젠슨 황 장녀, 경찰에 감사 편지"
+        ],
+        "en": [
+          "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지",
+            "en": "“K-치안에 밥 사고 싶다”...젠슨 황 장녀, 경찰에 감사 편지"
+          },
+          "url": "https://www.chosun.com/national/national_general/2026/06/28/ZLGS2PDQCBBO5LIQB3MZX3K3R4/",
+          "time": "06. 28. AM 03:33"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1782611977000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“덕분에 안전했어요”…젠슨 황 장녀, 한국 경찰에 감사 편지",
+        "en": "“덕분에 안전했어요”…젠슨 황 장녀, 한국 경찰에 감사 편지"
+      },
+      "url": "https://www.donga.com/news/Society/article/all/20260628/134194397/1",
+      "location": {
+        "name": {
+          "ko": "서울 마포구",
+          "en": "서울 마포구"
+        }
+      },
+      "datetime": "2026-06-28T01:59:37.000Z",
+      "datetime_display": {
+        "ko": "06. 28. AM 01:59",
+        "en": "06. 28. AM 01:59"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)의 장녀인 매디슨 황 엔비디아 옴니버스·로보틱스 제품 마케팅 수석 이사가 서울 경찰에 감사 이메일을 보낸 것으로 확인됐다.28일 서울 마포경찰서에 따르면 매디슨 황 이사는 최근 유종철 마포경찰서 치안정보과장에게 보낸 이메일에서 “서울 경찰이 우리의 방문을 관리해준 데 대해 감사의 말씀을 전하고 싶었다”고 밝혔다.이어 “경호팀과의 협업과 도움에 감사하다”며 “황 CEO 역시 경찰이 한국 시민들을 안전하게 지켜준 데 대해 진심으로 감사하고 있다”는 뜻을 전했다.마포경찰서는 지난 5일 황 CEO가 서울 마포구 홍대를 방문해 프로게이머 페이커를 만나고, 고깃집에서 ‘삼소’ 회동 일정을 소화한다는 사실을 파악한 뒤 현장 인파 관리에 나섰다.황 CEO는 외국 정부 요인 등이 아니어서",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)의 장녀인 매디슨 황 엔비디아 옴니버스·로보틱스 제품 마케팅 수석 이사가 서울 경찰에 감사 이메일을 보낸 것으로 확인됐다.28일 서울 마포경찰서에 따르면 매디슨 황 이사는 최근 유종철 마포경찰서 치안정보과장에게 보낸 이메일에서 “서울 경찰이 우리의 방문을 관리해준 데 대해 감사의 말씀을 전하고 싶었다”고 밝혔다.이어 “경호팀과의 협업과 도움에 감사하다”며 “황 CEO 역시 경찰이 한국 시민들을 안전하게 지켜준 데 대해 진심으로 감사하고 있다”는 뜻을 전했다.마포경찰서는 지난 5일 황 CEO가 서울 마포구 홍대를 방문해 프로게이머 페이커를 만나고, 고깃집에서 ‘삼소’ 회동 일정을 소화한다는 사실을 파악한 뒤 현장 인파 관리에 나섰다.황 CEO는 외국 정부 요인 등이 아니어서"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)의 장녀인 매디슨 황 엔비디아 옴니버스·로보틱스 제품 마케팅 수석 이사가 서울 경찰에 감사 이메일을 보냈다.",
+          "매디슨 황 이사는 서울 경찰이 우리의 방문을 관리해준 데 대해 감사의 말씀을 전하고 싶었다고 밝혔다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)의 장녀인 매디슨 황 엔비디아 옴니버스·로보틱스 제품 마케팅 수석 이사가 서울 경찰에 감사 이메일을 보낸 것으로 확인됐다.28일 서울 마포경찰서에 따르면 매디슨 황 이사는 최근 유종철 마포경찰서 치안정보과장에게 보낸 이메일에서 “서울 경찰이 우리의 방문을 관리해준 데 대해 감사의 말씀을 전하고 싶었다”고 밝혔다.이어 “경호팀과의 협업과 도움에 감사하다”며 “황 CEO 역시 경찰이 한국 시민들을 안전하게 지켜준 데 대해 진심으로 감사하고 있다”는 뜻을 전했다.마포경찰서는 지난 5일 황 CEO가 서울 마포구 홍대를 방문해 프로게이머 페이커를 만나고, 고깃집에서 ‘삼소’ 회동 일정을 소화한다는 사실을 파악한 뒤 현장 인파 관리에 나섰다.황 CEO는 외국 정부 요인 등이 아니어서"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "“덕분에 안전했어요”…젠슨 황 장녀, 한국 경찰에 감사 편지",
+            "en": "“덕분에 안전했어요”…젠슨 황 장녀, 한국 경찰에 감사 편지"
+          },
+          "url": "https://www.donga.com/news/Society/article/all/20260628/134194397/1",
+          "time": "06. 28. AM 01:59"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1782601320000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'",
+        "en": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'"
+      },
+      "url": "https://www.hankyung.com/article/2026062817267",
+      "location": {
+        "name": {
+          "ko": "서울 마포구",
+          "en": "서울 마포구"
+        }
+      },
+      "datetime": "2026-06-27T23:02:00.000Z",
+      "datetime_display": {
+        "ko": "06. 27. PM 11:02",
+        "en": "06. 27. PM 11:02"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'",
+        "en": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 가족이 한국 경찰에 고마움을 전했다.",
+          "젠슨 황 CEO는 경찰이 한국 대중을 안전하게 지켜준 것에 대해 진심으로 감사하고 있다."
+        ],
+        "en": [
+          "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'",
+            "en": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'"
+          },
+          "url": "https://www.hankyung.com/article/2026062817267",
+          "time": "06. 27. PM 11:02"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782550419000",
       "type": "announcement",
@@ -15868,7 +16073,7 @@
       "id": "evt_auto_loc_hongdae",
       "type": "visit",
       "is_new": true,
-      "source_count": 23,
+      "source_count": 25,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -16189,6 +16394,30 @@
           },
           "url": "https://www.hankyung.com/article/202606110226i",
           "time": "06. 11. AM 01:19"
+        },
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "“덕분에 안전했어요”…젠슨 황 장녀, 한국 경찰에 감사 편지",
+            "en": "“덕분에 안전했어요”…젠슨 황 장녀, 한국 경찰에 감사 편지"
+          },
+          "url": "https://www.donga.com/news/Society/article/all/20260628/134194397/1",
+          "time": "06. 28. AM 01:59"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'",
+            "en": "젠슨 황 가족 \"한국 경찰에 밥 사고 싶다\"…K-치안에 '감탄'"
+          },
+          "url": "https://www.hankyung.com/article/2026062817267",
+          "time": "06. 27. PM 11:02"
         }
       ],
       "map_pin": {
