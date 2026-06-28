@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-06-28T04:58:33.857Z",
+  "updatedAt": "2026-06-28T12:13:12.735Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1782645180000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황도 '샤라웃'할 만..화사, 피 흘리면서도 완주 \"눈물날 뻔\" [핫피플]",
+        "en": "젠슨 황도 '샤라웃'할 만..화사, 피 흘리면서도 완주 \"눈물날 뻔\" [핫피플]"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/06/28/G5TDEZDDMI3GKNDFMVSTKNJQGE/",
+      "location": {
+        "name": {
+          "ko": "경기도 의정부종합운동장",
+          "en": "경기도 의정부종합운동장"
+        }
+      },
+      "datetime": "2026-06-28T11:13:00.000Z",
+      "datetime_display": {
+        "ko": "06. 28. AM 11:13",
+        "en": "06. 28. AM 11:13"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=김수형 기자] 최근 엔비디아 CEO 젠슨 황에게 직접 '샤라웃'을 받아 화제를 모았던 화사가 이번에는 부상 투혼으로 관객들을 감동시켰다.화사는 지난 27일 경기도 의정부종합운동장에서 열린 '싸이 흠뻑쇼 2026' 첫 공연에 첫 게스트로 출연했다. '마리아', 'CHILI(칠리)', 'So Cute', 'Good Goodbye' 등을 연달아 선보이",
+        "en": "[OSEN=김수형 기자] 최근 엔비디아 CEO 젠슨 황에게 직접 '샤라웃'을 받아 화제를 모았던 화사가 이번에는 부상 투혼으로 관객들을 감동시켰다.화사는 지난 27일 경기도 의정부종합운동장에서 열린 '싸이 흠뻑쇼 2026' 첫 공연에 첫 게스트로 출연했다. '마리아', 'CHILI(칠리)', 'So Cute', 'Good Goodbye' 등을 연달아 선보이"
+      },
+      "summary": {
+        "ko": [
+          "화사가 부상 투혼으로 관객들을 감동시켰다.",
+          "화사는 '마리아', 'CHILI(칠리)', 'So Cute', 'Good Goodbye' 등을 연달아 선보였다."
+        ],
+        "en": [
+          "[OSEN=김수형 기자] 최근 엔비디아 CEO 젠슨 황에게 직접 '샤라웃'을 받아 화제를 모았던 화사가 이번에는 부상 투혼으로 관객들을 감동시켰다.화사는 지난 27일 경기도 의정부종합운동장에서 열린 '싸이 흠뻑쇼 2026' 첫 공연에 첫 게스트로 출연했다. '마리아', 'CHILI(칠리)', 'So Cute', 'Good Goodbye' 등을 연달아 선보이"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황도 '샤라웃'할 만..화사, 피 흘리면서도 완주 \"눈물날 뻔\" [핫피플]",
+            "en": "젠슨 황도 '샤라웃'할 만..화사, 피 흘리면서도 완주 \"눈물날 뻔\" [핫피플]"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/06/28/G5TDEZDDMI3GKNDFMVSTKNJQGE/",
+          "time": "06. 28. AM 11:13"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1782617604000",
       "type": "announcement",
