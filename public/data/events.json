@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-02T15:38:31.135Z",
+  "updatedAt": "2026-07-03T23:10:53.452Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1783117705000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다",
+        "en": "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다"
+      },
+      "url": "https://www.hankyung.com/article/2026070452507",
+      "location": null,
+      "datetime": "2026-07-03T22:28:25.000Z",
+      "datetime_display": {
+        "ko": "07. 03. PM 10:28",
+        "en": "07. 03. PM 10:28"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다",
+        "en": "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황이 즐겨 입던 '가죽재킷' 경매 나온다",
+          "예상 낙찰가는 최대 6만달러다"
+        ],
+        "en": [
+          "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다",
+            "en": "\"AI 황제가 입던거라고?\"…젠슨 황 가죽재킷 경매 나온다"
+          },
+          "url": "https://www.hankyung.com/article/2026070452507",
+          "time": "07. 03. PM 10:28"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783001880000",
       "type": "announcement",
