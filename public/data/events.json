@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-05T06:23:37.838Z",
+  "updatedAt": "2026-07-05T09:26:26.765Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1783242615000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력",
+        "en": "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력"
+      },
+      "url": "https://www.hankyung.com/article/2026070563701",
+      "location": null,
+      "datetime": "2026-07-05T09:10:15.000Z",
+      "datetime_display": {
+        "ko": "07. 05. AM 09:10",
+        "en": "07. 05. AM 09:10"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력",
+        "en": "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황이 말한, 지능보다 중요한 능력",
+          "엔비디아의 젠슨 황은 자신이 가장 높이 평가하는 능력이 지능은 아니라고 했다."
+        ],
+        "en": [
+          "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력",
+            "en": "[MZ 톡톡] 젠슨 황이 말한, 지능보다 중요한 능력"
+          },
+          "url": "https://www.hankyung.com/article/2026070563701",
+          "time": "07. 05. AM 09:10"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783222409000",
       "type": "announcement",
