@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-04T05:03:40.713Z",
+  "updatedAt": "2026-07-05T06:23:37.838Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1783222409000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다",
+        "en": "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다"
+      },
+      "url": "https://www.hankyung.com/article/2026070560917",
+      "location": null,
+      "datetime": "2026-07-05T03:33:29.000Z",
+      "datetime_display": {
+        "ko": "07. 05. AM 03:33",
+        "en": "07. 05. AM 03:33"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다",
+        "en": "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)의 상징처럼 굳어진 검은색 가죽 재킷이 경매에 나온다.",
+          "엔비디아가 인공지능(AI) 인프라 시장의 핵심 기업으로 떠오르면서 황 CEO의 재킷도 단순한 의상을 넘어 기술 업계 리더십의 상징으로 주목받는 분위기다."
+        ],
+        "en": [
+          "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다",
+            "en": "\"젠슨 황 가죽재킷 9000만원\"…블랙웰 가격 맞먹는다"
+          },
+          "url": "https://www.hankyung.com/article/2026070560917",
+          "time": "07. 05. AM 03:33"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783132301000",
       "type": "announcement",
