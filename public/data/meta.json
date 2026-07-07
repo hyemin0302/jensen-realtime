@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-07T16:43:53.776Z",
+  "updatedAt": "2026-07-07T18:56:03.718Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "version": "2.0.0",
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -81,7 +81,7 @@
     },
     {
       "version": "2.0.0",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -105,7 +105,7 @@
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-07T16:43:53.776Z",
+  "lastPolledAt": "2026-07-07T18:56:03.718Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,6 +115,6 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 25,
+  "zeroNewsStreak": 26,
   "pending_timeline": []
 }
