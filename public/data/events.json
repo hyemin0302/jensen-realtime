@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-05T09:26:26.765Z",
+  "updatedAt": "2026-07-08T21:38:27.659Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1783540801000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]",
+        "en": "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]"
+      },
+      "url": "https://www.hankyung.com/article/202607068852i",
+      "location": null,
+      "datetime": "2026-07-08T20:00:01.000Z",
+      "datetime_display": {
+        "ko": "07. 08. PM 08:00",
+        "en": "07. 08. PM 08:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]",
+        "en": "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 CEO가 삼겹살을 극찬했다.",
+          "국내 식품업계를 들썩이게 한 그의 한마디"
+        ],
+        "en": [
+          "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]",
+            "en": "\"삼겹살엔 소금장이지\"…젠슨 황 한마디에 참기름도 '들썩' [권용훈의 트렌드워치]"
+          },
+          "url": "https://www.hankyung.com/article/202607068852i",
+          "time": "07. 08. PM 08:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783242615000",
       "type": "announcement",
