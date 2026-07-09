@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-09T16:59:18.904Z",
+  "updatedAt": "2026-07-09T22:15:32.924Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1783630800000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니",
+        "en": "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/10/YI5BOQHKNJEMLECHILU6WYQZWI/",
+      "location": null,
+      "datetime": "2026-07-09T21:00:00.000Z",
+      "datetime_display": {
+        "ko": "07. 09. PM 09:00",
+        "en": "07. 09. PM 09:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니",
+        "en": "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니"
+      },
+      "summary": {
+        "ko": [
+          "메타·구글·오픈AI에 같은 요구해봤더니",
+          "광화문 걷는 젠슨 황 그려줘"
+        ],
+        "en": [
+          "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니",
+            "en": "“광화문 걷는 젠슨 황 그려줘” 메타·구글·오픈AI에 같은 요구해봤더니"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/10/YI5BOQHKNJEMLECHILU6WYQZWI/",
+          "time": "07. 09. PM 09:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783611000000",
       "type": "announcement",
