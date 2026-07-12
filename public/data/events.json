@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-10T17:15:41.900Z",
+  "updatedAt": "2026-07-12T01:00:18.645Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1783812604000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]",
+        "en": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]"
+      },
+      "url": "https://www.hankyung.com/article/202607119173i",
+      "location": {
+        "name": {
+          "ko": "서울 코엑스",
+          "en": "서울 코엑스"
+        }
+      },
+      "datetime": "2026-07-11T23:30:04.000Z",
+      "datetime_display": {
+        "ko": "07. 11. PM 11:30",
+        "en": "07. 11. PM 11:30"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]",
+        "en": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]"
+      },
+      "summary": {
+        "ko": [
+          "코엑스 전시장 내부에서 ICML 2026 행사가 열렸습니다.",
+          "세계 최고 수준의 능력을 가진 정예 연구자들이 서울로 모여 AI 기술을 논의했습니다."
+        ],
+        "en": [
+          "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]",
+            "en": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]"
+          },
+          "url": "https://www.hankyung.com/article/202607119173i",
+          "time": "07. 11. PM 11:30"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783701600000",
       "type": "announcement",

@@ -1,13 +1,13 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-11T23:22:47.777Z",
+  "updatedAt": "2026-07-12T01:00:24.035Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
-      "date": "2026-07-11",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+      "date": "2026-07-12",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -86,7 +86,7 @@
     },
     {
       "version": "2.0.0",
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -105,16 +105,41 @@
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-11T23:22:47.777Z",
+  "lastPolledAt": "2026-07-12T01:00:24.035Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 1,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 21,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "\"중 파워 실감한 한 주\"... '젠슨 황 예측' 현실 된 코엑스",
+        "en": "\"Jensen Huang Prediction\" Realized at COEX"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "KR"
+      },
+      "kind": "visit",
+      "confidence": 0.5,
+      "reason": "젠슨 황이 코엑스에서 방문한 것으로 보인다.",
+      "source": {
+        "publisher": "한국경제",
+        "title": "“中 파워 실감한 한 주”...'젠슨 황 예측' 현실 된 코엑스 [허진의 테크토닉]",
+        "url": "https://www.hankyung.com/article/202607119173i",
+        "time": "07. 11. PM 11:30"
+      },
+      "extracted_at": "2026-07-12T01:00:17.069Z"
+    }
+  ]
 }
