@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-15T17:44:32.993Z",
+  "updatedAt": "2026-07-15T22:29:54.242Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784106665000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",
+        "en": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-07-15/nvidia-s-huang-declares-vera-rubin-on-track-despite-delay-talk",
+      "location": null,
+      "datetime": "2026-07-15T09:11:05.000Z",
+      "datetime_display": {
+        "ko": "07. 15. AM 09:11",
+        "en": "07. 15. AM 09:11"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Nvidia Corp. co-founder Jensen Huang stressed that the US company’s next-generation AI accelerator systems were in production and on track for delivery to customers, responding to reports that manufacturing snags may delay their rollout.",
+        "en": "Nvidia Corp. co-founder Jensen Huang stressed that the US company’s next-generation AI accelerator systems were in production and on track for delivery to customers, responding to reports that manufacturing snags may delay their rollout."
+      },
+      "summary": {
+        "ko": [
+          "Nvidia Corp.의 다음세대 AI 가속기 시스템은 생산 중이며 고객에게 배송될 예정입니다.",
+          "제네시안 후원자 제인 헨그(Huang)가 제조 단계의 지연이 출시 지연을 일으킬 수 있다고 보도된 것에 대해 반박했습니다."
+        ],
+        "en": [
+          "Nvidia Corp. co-founder Jensen Huang stressed that the US company’s next-generation AI accelerator systems were in production and on track for delivery to customers, responding to reports that manufacturing snags may delay their rollout."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Bloomberg Tech",
+            "en": "Bloomberg Tech"
+          },
+          "title": {
+            "ko": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",
+            "en": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk"
+          },
+          "url": "https://www.bloomberg.com/news/articles/2026-07-15/nvidia-s-huang-declares-vera-rubin-on-track-despite-delay-talk",
+          "time": "07. 15. AM 09:11"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784136052000",
       "type": "announcement",
