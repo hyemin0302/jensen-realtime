@@ -1,8 +1,188 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-13T04:34:03.170Z",
+  "updatedAt": "2026-07-15T12:49:29.259Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784115914000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”",
+        "en": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/15/MU4DMNJSG5TGGYRTMUYTSYRRMQ/",
+      "location": {
+        "name": {
+          "ko": "일본 도쿄 아키하바라",
+          "en": "일본 도쿄 아키하바라"
+        }
+      },
+      "datetime": "2026-07-15T11:45:14.000Z",
+      "datetime_display": {
+        "ko": "07. 15. AM 11:45",
+        "en": "07. 15. AM 11:45"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 SK하이닉스의 미국주식예탁증서(ADR) 나스닥 상장에 대해 “믿을 수 없을 만큼 성공적(Incredibly Successful)”이라고 평가했다.  15일 황 CEO는 일본 도쿄 아키하바라에서 엔비디아와 일본 게임 회사 세가(SEGA)의 파트너십 30주년 기념 이벤트에 참석, 이같이 답하며 “매우 기쁘다”라고 소감을",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 SK하이닉스의 미국주식예탁증서(ADR) 나스닥 상장에 대해 “믿을 수 없을 만큼 성공적(Incredibly Successful)”이라고 평가했다.  15일 황 CEO는 일본 도쿄 아키하바라에서 엔비디아와 일본 게임 회사 세가(SEGA)의 파트너십 30주년 기념 이벤트에 참석, 이같이 답하며 “매우 기쁘다”라고 소감을"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 SK하이닉스의 미국주식예탁증서(ADR) 나스닥 상장에 대해 \"믿을 수 없을 만큼 성공적(Incredibly Successful)\"이라고 평가했다.",
+          "\"매우 기쁘다\"라고 소감을 밝혔다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 SK하이닉스의 미국주식예탁증서(ADR) 나스닥 상장에 대해 “믿을 수 없을 만큼 성공적(Incredibly Successful)”이라고 평가했다.  15일 황 CEO는 일본 도쿄 아키하바라에서 엔비디아와 일본 게임 회사 세가(SEGA)의 파트너십 30주년 기념 이벤트에 참석, 이같이 답하며 “매우 기쁘다”라고 소감을"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”",
+            "en": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/15/MU4DMNJSG5TGGYRTMUYTSYRRMQ/",
+          "time": "07. 15. AM 11:45"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784114570000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
+        "en": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황"
+      },
+      "url": "https://www.hankyung.com/article/2026071578557",
+      "location": null,
+      "datetime": "2026-07-15T11:22:50.000Z",
+      "datetime_display": {
+        "ko": "07. 15. AM 11:22",
+        "en": "07. 15. AM 11:22"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
+        "en": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황"
+      },
+      "summary": {
+        "ko": [
+          "일본서 'SK하이닉스' 샤라웃한 젠슨황",
+          "믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황\"\n   ],\n   \"location",
+          ":",
+          "일본 도쿄 아키하바라",
+          "n",
+          "persons",
+          ":",
+          [
+            "n",
+            "젠슨 황",
+            "n",
+            "박수빈",
+            "n"
+          ],
+          "n"
+        ],
+        "en": [
+          "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
+            "en": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황"
+          },
+          "url": "https://www.hankyung.com/article/2026071578557",
+          "time": "07. 15. AM 11:22"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1783909440000",
       "type": "announcement",

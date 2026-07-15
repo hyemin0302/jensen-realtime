@@ -1,13 +1,13 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-15T11:08:08.501Z",
+  "updatedAt": "2026-07-15T12:49:32.281Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-07-15",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -31,7 +31,7 @@
     },
     {
       "version": "2.0.0",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -101,20 +101,69 @@
     },
     {
       "version": "2.0.0",
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-15T11:08:08.502Z",
+  "lastPolledAt": "2026-07-15T12:49:32.281Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 2,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 29,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "젠슨황, SK하이닉스 ADR에 호평…\"믿을 수 없을 만큼 성공적\"",
+        "en": "Jensen Huang Praises SK Hynix ADR as \"Incredibly Successful\""
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "meeting",
+      "confidence": 0.5,
+      "reason": "젠슨 황 CEO가 SK하이닉스 ADR에 대한 성공을 언급",
+      "source": {
+        "publisher": "조선일보",
+        "title": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”",
+        "url": "https://www.chosun.com/economy/tech_it/2026/07/15/MU4DMNJSG5TGGYRTMUYTSYRRMQ/",
+        "time": "07. 15. AM 11:45"
+      },
+      "extracted_at": "2026-07-15T12:49:26.165Z"
+    },
+    {
+      "title": {
+        "ko": "\"믿을 수 없을 정도\"...일본서 'SK하이닉스' 샤라웃한 젠슨황",
+        "en": "\"Incredibly Successful\"...Jensen Huang Shouts Out SK Hynix in Japan"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "meeting",
+      "confidence": 0.5,
+      "reason": "젠슨 황 CEO가 SK하이닉스에 대한 성공을 언급",
+      "source": {
+        "publisher": "한국경제",
+        "title": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
+        "url": "https://www.hankyung.com/article/2026071578557",
+        "time": "07. 15. AM 11:22"
+      },
+      "extracted_at": "2026-07-15T12:49:26.166Z"
+    }
+  ]
 }
