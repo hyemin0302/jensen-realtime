@@ -1,8 +1,148 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-15T12:49:29.259Z",
+  "updatedAt": "2026-07-15T14:43:20.239Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784124745000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "日 찾은 젠슨 황, 이번에는 ‘꼬치 회동’ 나섰다",
+        "en": "日 찾은 젠슨 황, 이번에는 ‘꼬치 회동’ 나섰다"
+      },
+      "url": "https://www.chosun.com/international/international_general/2026/07/15/MVSTCZLCHAYTQMBRMQ4GMN3GMU/",
+      "location": {
+        "name": {
+          "ko": "일본 도쿄",
+          "en": "일본 도쿄"
+        }
+      },
+      "datetime": "2026-07-15T14:12:25.000Z",
+      "datetime_display": {
+        "ko": "07. 15. PM 02:12",
+        "en": "07. 15. PM 02:12"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 일본 도쿄에서 현지 기업 관계자들과 친목을 다지는 술자리에 참석한 것으로 알려졌다. 한국 기업 총수들과 ‘삼겹살 회동’을 한 지 한 달 만이다.  15일 니혼게이자이신문에 따르면, 황 CEO는 이날 일본 도쿄에 도착해 자사 개발자 대상 행사에 참석한 후 저녁에는 이자카야를 찾았다. 이 가게는 JR 간다역 인근에 있는",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 일본 도쿄에서 현지 기업 관계자들과 친목을 다지는 술자리에 참석한 것으로 알려졌다. 한국 기업 총수들과 ‘삼겹살 회동’을 한 지 한 달 만이다.  15일 니혼게이자이신문에 따르면, 황 CEO는 이날 일본 도쿄에 도착해 자사 개발자 대상 행사에 참석한 후 저녁에는 이자카야를 찾았다. 이 가게는 JR 간다역 인근에 있는"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 일본 도쿄에서 현지 기업 관계자들과 친목을 다지는 술자리에 참석한 것으로 알려졌다.",
+          "한국 기업 총수들과 '삼겹살 회동'을 한 지 한 달 만이다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 일본 도쿄에서 현지 기업 관계자들과 친목을 다지는 술자리에 참석한 것으로 알려졌다. 한국 기업 총수들과 ‘삼겹살 회동’을 한 지 한 달 만이다.  15일 니혼게이자이신문에 따르면, 황 CEO는 이날 일본 도쿄에 도착해 자사 개발자 대상 행사에 참석한 후 저녁에는 이자카야를 찾았다. 이 가게는 JR 간다역 인근에 있는"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "日 찾은 젠슨 황, 이번에는 ‘꼬치 회동’ 나섰다",
+            "en": "日 찾은 젠슨 황, 이번에는 ‘꼬치 회동’ 나섰다"
+          },
+          "url": "https://www.chosun.com/international/international_general/2026/07/15/MVSTCZLCHAYTQMBRMQ4GMN3GMU/",
+          "time": "07. 15. PM 02:12"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784122732000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+        "en": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\""
+      },
+      "url": "https://www.hankyung.com/article/2026071579381",
+      "location": {
+        "name": {
+          "ko": "일본 도쿄",
+          "en": "일본 도쿄"
+        }
+      },
+      "datetime": "2026-07-15T13:38:52.000Z",
+      "datetime_display": {
+        "ko": "07. 15. PM 01:38",
+        "en": "07. 15. PM 01:38"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+        "en": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\""
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 SK하이닉스 ADR 나스닥 상장에 대해 '믿을 수 없을 정도로 성공적'이라고 평가했다.",
+          "SK하이닉스 ADR은 지난 10일 공모가 149달러로 미국 나스닥시장에 상장했다."
+        ],
+        "en": [
+          "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+            "en": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\""
+          },
+          "url": "https://www.hankyung.com/article/2026071579381",
+          "time": "07. 15. PM 01:38"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784115914000",
       "type": "announcement",
