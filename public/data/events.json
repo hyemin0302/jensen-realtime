@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-15T22:29:54.242Z",
+  "updatedAt": "2026-07-15T23:31:17.007Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784156400000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "‘재팬 패싱’ 지우기 나선 엔비디아… 도요타·화낙과 AI 협력 확대",
+        "en": "‘재팬 패싱’ 지우기 나선 엔비디아… 도요타·화낙과 AI 협력 확대"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/16/ME2TEMBZMJTDAZJXGM3TCOBRMI/",
+      "location": {
+        "name": {
+          "ko": "일본",
+          "en": "일본"
+        }
+      },
+      "datetime": "2026-07-15T23:00:00.000Z",
+      "datetime_display": {
+        "ko": "07. 15. PM 11:00",
+        "en": "07. 15. PM 11:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 엔비디아 최고경영자(CEO)가 일본을 방문한 가운데 엔비디아가 일본 제조·자동차 기업들과 인공지능(AI) 협력 확대 전략을 공개했다. 최근 황 CEO가 한국과 대만을 잇달아 방문하면서 일본에서는 이른바 ‘재팬 패싱’ 논란이 제기됐다. 엔비디아는 이번 발표를 통해 도요타와 화낙(FANUC), NEC, 소프트뱅크 등과 피지컬 AI 협력을 확대하며 일본",
+        "en": "젠슨 황 엔비디아 최고경영자(CEO)가 일본을 방문한 가운데 엔비디아가 일본 제조·자동차 기업들과 인공지능(AI) 협력 확대 전략을 공개했다. 최근 황 CEO가 한국과 대만을 잇달아 방문하면서 일본에서는 이른바 ‘재팬 패싱’ 논란이 제기됐다. 엔비디아는 이번 발표를 통해 도요타와 화낙(FANUC), NEC, 소프트뱅크 등과 피지컬 AI 협력을 확대하며 일본"
+      },
+      "summary": {
+        "ko": [
+          "엔비디아가 일본 제조·자동차 기업들과 인공지능(AI) 협력 확대 전략을 공개했다.",
+          "엔비디아는 도요타와 화낙(FANUC), NEC, 소프트뱅크 등과 피지컬 AI 협력을 확대한다."
+        ],
+        "en": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 일본을 방문한 가운데 엔비디아가 일본 제조·자동차 기업들과 인공지능(AI) 협력 확대 전략을 공개했다. 최근 황 CEO가 한국과 대만을 잇달아 방문하면서 일본에서는 이른바 ‘재팬 패싱’ 논란이 제기됐다. 엔비디아는 이번 발표를 통해 도요타와 화낙(FANUC), NEC, 소프트뱅크 등과 피지컬 AI 협력을 확대하며 일본"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "‘재팬 패싱’ 지우기 나선 엔비디아… 도요타·화낙과 AI 협력 확대",
+            "en": "‘재팬 패싱’ 지우기 나선 엔비디아… 도요타·화낙과 AI 협력 확대"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/16/ME2TEMBZMJTDAZJXGM3TCOBRMI/",
+          "time": "07. 15. PM 11:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784106665000",
       "type": "announcement",

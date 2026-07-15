@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-15T22:29:57.173Z",
+  "updatedAt": "2026-07-15T23:31:22.588Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-15",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-15",
@@ -98,18 +103,13 @@
       "version": "2.0.0",
       "date": "2026-07-14",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-14",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-15T22:29:57.173Z",
+  "lastPolledAt": "2026-07-15T23:31:22.588Z",
   "lastPollReport": {
     "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 3,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
@@ -119,8 +119,56 @@
   "pending_timeline": [
     {
       "title": {
-        "ko": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",
-        "en": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk"
+        "ko": "\"재팬 패싱\" 지우기 나선 엔비디아… 도요타·화낙과 AI 협력 확대",
+        "en": "Nvidia Expands AI Collaboration with Toyota, FANUC, and Others"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "일본",
+          "en": "Japan"
+        },
+        "country": "JP"
+      },
+      "kind": "visit",
+      "confidence": 0.9,
+      "reason": "젠슨 황 엔비디아 최고경영자(CEO)가 일본을 방문",
+      "source": {
+        "publisher": "조선일보",
+        "title": "‘재팬 패싱’ 지우기 나선 엔비디아… 도요타·화낙과 AI 협력 확대",
+        "url": "https://www.chosun.com/economy/tech_it/2026/07/16/ME2TEMBZMJTDAZJXGM3TCOBRMI/",
+        "time": "07. 15. PM 11:00"
+      },
+      "extracted_at": "2026-07-15T23:31:15.465Z"
+    },
+    {
+      "title": {
+        "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+        "en": "Jensen Huang \"Highly Successful\""
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "meeting",
+      "confidence": 0.5,
+      "reason": "젠슨 황이 하이닉스 ADR에 대해 언급",
+      "source": {
+        "publisher": "한국경제",
+        "title": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+        "url": "https://www.hankyung.com/article/2026071579381",
+        "time": "07. 15. PM 01:38"
+      },
+      "extracted_at": "2026-07-15T23:31:15.465Z"
+    },
+    {
+      "title": {
+        "ko": "엔비디아의 하이닉스 AI 가속기, 지연 논란에 \"배송 준비 중\"",
+        "en": "Nvidia's High-Performance AI Accelerator"
       },
       "datetime": null,
       "location": {
@@ -131,15 +179,15 @@
         "country": "unknown"
       },
       "kind": "announcement",
-      "confidence": 0.9,
-      "reason": "Nvidia Corp. co-founder Jensen Huang stressed that the US company’s next-generation AI accelerator systems were in production and on track for delivery to customers",
+      "confidence": 0.7,
+      "reason": "엔비디아가 하이닉스 AI 가속기 배송 준비 중",
       "source": {
         "publisher": "Bloomberg Tech",
         "title": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",
         "url": "https://www.bloomberg.com/news/articles/2026-07-15/nvidia-s-huang-declares-vera-rubin-on-track-despite-delay-talk",
         "time": "07. 15. AM 09:11"
       },
-      "extracted_at": "2026-07-15T22:29:52.593Z"
+      "extracted_at": "2026-07-15T23:31:15.465Z"
     }
   ]
 }
