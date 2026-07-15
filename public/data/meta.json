@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-15T17:44:36.134Z",
+  "updatedAt": "2026-07-15T18:59:53.002Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-15",
+      "note": "자동 배치: 뉴스 0건, 주가 34개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-15",
@@ -98,24 +103,19 @@
       "version": "2.0.0",
       "date": "2026-07-14",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-14",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-15T17:44:36.134Z",
+  "lastPolledAt": "2026-07-15T18:59:53.002Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
     "pendingTimelineCount": 3,
-    "stockCount": 35,
+    "stockCount": 34,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
+  "zeroNewsStreak": 1,
   "pending_timeline": [
     {
       "title": {
@@ -139,12 +139,12 @@
         "url": "https://www.donga.com/news/Inter/article/all/20260716/134309113/1",
         "time": "07. 15. PM 05:20"
       },
-      "extracted_at": "2026-07-15T17:44:31.332Z"
+      "extracted_at": "2026-07-15T18:59:48.699Z"
     },
     {
       "title": {
         "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
-        "en": "Jensen Huang: SK Hynix ADR is Unbelievably Successful"
+        "en": "Jensen Huang: SK Hynix ADR is Extremely Successful"
       },
       "datetime": null,
       "location": {
@@ -156,19 +156,19 @@
       },
       "kind": "announcement",
       "confidence": 0.5,
-      "reason": "하이닉스 ADR에 대한 젠슨 황의 발언을 언급",
+      "reason": "젠슨 황이 하이닉스 ADR에 대한 성공을 언급했다.",
       "source": {
         "publisher": "한국경제",
         "title": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
         "url": "https://www.hankyung.com/article/2026071579381",
         "time": "07. 15. PM 01:38"
       },
-      "extracted_at": "2026-07-15T17:44:31.332Z"
+      "extracted_at": "2026-07-15T18:59:48.699Z"
     },
     {
       "title": {
         "ko": "\"믿을 수 없을 정도\"...일본서 'SK하이닉스' 샤라웃한 젠슨황",
-        "en": "Jensen Huang: SK Hynix is Unbelievably Successful"
+        "en": "Jensen Huang Shouts Out SK Hynix in Japan"
       },
       "datetime": null,
       "location": {
@@ -180,14 +180,14 @@
       },
       "kind": "announcement",
       "confidence": 0.5,
-      "reason": "하이닉스에 대한 젠슨 황의 발언을 언급",
+      "reason": "젠슨 황이 일본에서 SK하이닉스를 언급했다.",
       "source": {
         "publisher": "한국경제",
         "title": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
         "url": "https://www.hankyung.com/article/2026071578557",
         "time": "07. 15. AM 11:22"
       },
-      "extracted_at": "2026-07-15T17:44:31.332Z"
+      "extracted_at": "2026-07-15T18:59:48.699Z"
     }
   ]
 }
