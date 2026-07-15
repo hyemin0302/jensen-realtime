@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-15T16:15:05.417Z",
+  "updatedAt": "2026-07-15T17:44:36.134Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-15",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-15",
@@ -98,23 +103,91 @@
       "version": "2.0.0",
       "date": "2026-07-14",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-14",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-15T16:15:05.417Z",
+  "lastPolledAt": "2026-07-15T17:44:36.134Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
-    "stockCount": 33,
+    "pendingTimelineCount": 3,
+    "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "9년 만 日 찾은 젠슨 황…아키하바라 행사에 이자카야 회동",
+        "en": "Jensen Huang Visits Japan After 9 Years"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "도쿄",
+          "en": "Tokyo"
+        },
+        "country": "JP"
+      },
+      "kind": "visit",
+      "confidence": 0.9,
+      "reason": "아키하바라에서 게임 업체 '세가(SEGA)'와 행사를 열고, 현지 반도체 업계 관계자들과 이자카야 만찬을 함께 했다.",
+      "source": {
+        "publisher": "동아일보",
+        "title": "9년 만 日 찾은 젠슨 황…아키하바라 행사에 이자카야 회동",
+        "url": "https://www.donga.com/news/Inter/article/all/20260716/134309113/1",
+        "time": "07. 15. PM 05:20"
+      },
+      "extracted_at": "2026-07-15T17:44:31.332Z"
+    },
+    {
+      "title": {
+        "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+        "en": "Jensen Huang: SK Hynix ADR is Unbelievably Successful"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "announcement",
+      "confidence": 0.5,
+      "reason": "하이닉스 ADR에 대한 젠슨 황의 발언을 언급",
+      "source": {
+        "publisher": "한국경제",
+        "title": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
+        "url": "https://www.hankyung.com/article/2026071579381",
+        "time": "07. 15. PM 01:38"
+      },
+      "extracted_at": "2026-07-15T17:44:31.332Z"
+    },
+    {
+      "title": {
+        "ko": "\"믿을 수 없을 정도\"...일본서 'SK하이닉스' 샤라웃한 젠슨황",
+        "en": "Jensen Huang: SK Hynix is Unbelievably Successful"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "announcement",
+      "confidence": 0.5,
+      "reason": "하이닉스에 대한 젠슨 황의 발언을 언급",
+      "source": {
+        "publisher": "한국경제",
+        "title": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
+        "url": "https://www.hankyung.com/article/2026071578557",
+        "time": "07. 15. AM 11:22"
+      },
+      "extracted_at": "2026-07-15T17:44:31.332Z"
+    }
+  ]
 }
