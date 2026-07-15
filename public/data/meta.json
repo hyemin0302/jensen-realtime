@@ -1,13 +1,13 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-15T14:43:24.569Z",
+  "updatedAt": "2026-07-15T16:15:05.417Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-07-15",
-      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
+      "note": "자동 배치: 뉴스 0건, 주가 33개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -17,7 +17,7 @@
     {
       "version": "2.0.0",
       "date": "2026-07-15",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -41,7 +41,7 @@
     },
     {
       "version": "2.0.0",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -105,113 +105,16 @@
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-15T14:43:24.569Z",
+  "lastPolledAt": "2026-07-15T16:15:05.417Z",
   "lastPollReport": {
-    "newsCards": 2,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 4,
-    "stockCount": 35,
+    "pendingTimelineCount": 0,
+    "stockCount": 33,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "日 찾은 젠슨 황, 이번에는 ‘꼬치 회동’ 나섰다",
-        "en": "Jensen Huang Visits Japan for 'Kochi Meeting'"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "도쿄",
-          "en": "Tokyo"
-        },
-        "country": "JP"
-      },
-      "kind": "meeting",
-      "confidence": 0.9,
-      "reason": "15일 니혼게이자이신문에 따르면, 황 CEO는 이날 일본 도쿄에 도착해 자사 개발자 대상 행사에 참석한 후 저녁에는 이자카야를 찾았다.",
-      "source": {
-        "publisher": "조선일보",
-        "title": "日 찾은 젠슨 황, 이번에는 ‘꼬치 회동’ 나섰다",
-        "url": "https://www.chosun.com/international/international_general/2026/07/15/MVSTCZLCHAYTQMBRMQ4GMN3GMU/",
-        "time": "07. 15. PM 02:12"
-      },
-      "extracted_at": "2026-07-15T14:43:17.110Z"
-    },
-    {
-      "title": {
-        "ko": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
-        "en": "Jensen Huang: 'Hynix ADR, Incredibly Successful'"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "도쿄",
-          "en": "Tokyo"
-        },
-        "country": "JP"
-      },
-      "kind": "announcement",
-      "confidence": 0.9,
-      "reason": "15일 황 CEO는 일본 도쿄 아키하바라에서 엔비디아와 일본 게임 회사 세가(SEGA)의 파트너십 30주년 기념 이벤트에 참석, 이같이 답하며 “매우 기쁘다”라고 소감을",
-      "source": {
-        "publisher": "한국경제",
-        "title": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
-        "url": "https://www.hankyung.com/article/2026071579381",
-        "time": "07. 15. PM 01:38"
-      },
-      "extracted_at": "2026-07-15T14:43:17.110Z"
-    },
-    {
-      "title": {
-        "ko": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”",
-        "en": "Jensen Huang Praises Hynix ADR: 'Incredibly Successful'"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "도쿄",
-          "en": "Tokyo"
-        },
-        "country": "JP"
-      },
-      "kind": "announcement",
-      "confidence": 0.9,
-      "reason": "15일 황 CEO는 일본 도쿄 아키하바라에서 엔비디아와 일본 게임 회사 세가(SEGA)의 파트너십 30주년 기념 이벤트에 참석, 이같이 답하며 “매우 기쁘다”라고 소감을",
-      "source": {
-        "publisher": "조선일보",
-        "title": "젠슨황, SK하이닉스 ADR에 호평…“믿을 수 없을 만큼 성공적”",
-        "url": "https://www.chosun.com/economy/tech_it/2026/07/15/MU4DMNJSG5TGGYRTMUYTSYRRMQ/",
-        "time": "07. 15. AM 11:45"
-      },
-      "extracted_at": "2026-07-15T14:43:17.110Z"
-    },
-    {
-      "title": {
-        "ko": "\"믿을 수 없을 정도\"...일본서 'SK하이닉스' 샤라웃한 젠슨황",
-        "en": "\"Incredibly Successful\"...Jensen Huang Shouts Out Hynix in Japan"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "도쿄",
-          "en": "Tokyo"
-        },
-        "country": "JP"
-      },
-      "kind": "announcement",
-      "confidence": 0.9,
-      "reason": "15일 황 CEO는 일본 도쿄 아키하바라에서 엔비디아와 일본 게임 회사 세가(SEGA)의 파트너십 30주년 기념 이벤트에 참석, 이같이 답하며 “매우 기쁘다”라고 소감을",
-      "source": {
-        "publisher": "한국경제",
-        "title": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
-        "url": "https://www.hankyung.com/article/2026071578557",
-        "time": "07. 15. AM 11:22"
-      },
-      "extracted_at": "2026-07-15T14:43:17.110Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
