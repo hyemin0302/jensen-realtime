@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-16T11:28:09.297Z",
+  "updatedAt": "2026-07-16T12:59:44.800Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-16",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-16",
@@ -98,72 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-15",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-14",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-16T11:28:09.297Z",
+  "lastPolledAt": "2026-07-16T12:59:44.800Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 2,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "日, 엔비디아 ‘루빈’ 2만7500장 확보…피지컬 AI 주도권 노린다",
-        "en": "Japan Secures 27,500 NVIDIA 'Lovelace' Chips"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "일본",
-          "en": "Japan"
-        },
-        "country": "JP"
-      },
-      "kind": "visit",
-      "confidence": 0.9,
-      "reason": "일본 경제산업성이 젠슨 황 엔비디아를 방문했다는 보도",
-      "source": {
-        "publisher": "조선일보",
-        "title": "日, 엔비디아 ‘루빈’ 2만7500장 확보…피지컬 AI 주도권 노린다",
-        "url": "https://www.chosun.com/international/international_general/2026/07/16/HEZDONTCMRRGMOBUGJRTOYTCGU/",
-        "time": "07. 16. AM 11:07"
-      },
-      "extracted_at": "2026-07-16T11:28:04.680Z"
-    },
-    {
-      "title": {
-        "ko": "엔비디아의 황, 일본 AI 공급자와 소고기 스키퍼로 친분 쌓다",
-        "en": "Nvidia's Huang Courts Japanese AI Suppliers With Pork Skewers"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "도쿄",
-          "en": "Tokyo"
-        },
-        "country": "JP"
-      },
-      "kind": "meeting",
-      "confidence": 0.9,
-      "reason": "젠슨 황 엔비디아가 일본의 AI 공급자와 소고기 스키퍼를 통해 친분을 쌓았다는 보도",
-      "source": {
-        "publisher": "Bloomberg Tech",
-        "title": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
-        "time": "07. 16. AM 03:26"
-      },
-      "extracted_at": "2026-07-16T11:28:04.680Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
