@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-16T07:22:18.637Z",
+  "updatedAt": "2026-07-16T09:33:58.788Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-16",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-16",
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-07-14",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-14",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-16T07:22:18.638Z",
+  "lastPolledAt": "2026-07-16T09:33:58.789Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,35 +115,35 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
+  "zeroNewsStreak": 2,
   "pending_timeline": [
     {
       "title": {
-        "ko": "Nvidia의 황이 일본 AI 공급업체를 사냥한다",
-        "en": "Nvidia’s Huang Courts Japanese AI Suppliers"
+        "ko": "Nvidia의 황이 일본 AI 공급업체를 사냥하기 위해 소고기 스키퍼를 들여다보았다.",
+        "en": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers"
       },
       "datetime": null,
       "location": {
         "city": {
-          "ko": "도쿄",
-          "en": "Tokyo"
+          "ko": "",
+          "en": ""
         },
-        "country": "JP"
+        "country": "unknown"
       },
       "kind": "visit",
-      "confidence": 0.9,
-      "reason": "Nvidia의 황이 일본의 중간에 위치한 간다 구역에서 일본의 AI 공급업체를 사냥했다.",
+      "confidence": 0.5,
+      "reason": "일본의 중심부인 Kanda 지구에서",
       "source": {
         "publisher": "Bloomberg Tech",
         "title": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
         "url": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
         "time": "07. 16. AM 03:26"
       },
-      "extracted_at": "2026-07-16T07:22:13.009Z"
+      "extracted_at": "2026-07-16T09:33:53.650Z"
     },
     {
       "title": {
-        "ko": "Nvidia의 황, Vera Rubin의 지연에 대해 \"지연에 대해 이야기하는 것은 아니다\"",
+        "ko": "Nvidia의 황이 Vera Rubin의 지연에 대해 \"지연에 대해 이야기하는 것\"이라고 말했다.",
         "en": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk"
       },
       "datetime": null,
@@ -155,15 +155,15 @@
         "country": "unknown"
       },
       "kind": "announcement",
-      "confidence": 0.7,
-      "reason": "Nvidia의 황이 Vera Rubin의 지연에 대해 \"지연에 대해 이야기하는 것은 아니다\"라고 말했다.",
+      "confidence": 0.5,
+      "reason": "Vera Rubin의 지연에 대해 이야기하는 것",
       "source": {
         "publisher": "Bloomberg Tech",
         "title": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",
         "url": "https://www.bloomberg.com/news/articles/2026-07-15/nvidia-s-huang-declares-vera-rubin-on-track-despite-delay-talk",
         "time": "07. 15. AM 09:11"
       },
-      "extracted_at": "2026-07-16T07:22:13.009Z"
+      "extracted_at": "2026-07-16T09:33:53.650Z"
     }
   ]
 }
