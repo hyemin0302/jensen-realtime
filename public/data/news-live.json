@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-07-16T09:33:53.651Z",
+  "updatedAt": "2026-07-16T11:28:06.146Z",
   "count": 2,
   "items": [
+    {
+      "s": "조선일보",
+      "t": "日, 엔비디아 ‘루빈’ 2만7500장 확보…피지컬 AI 주도권 노린다",
+      "d": "일본 정부가 엔비디아의 차세대 AI 반도체 ‘루빈’ 2만7500장을 확보해 제조업 기반의 ‘피지컬 AI’ 생태계 구축에 나선다. 소프트뱅크를 비롯한 일본 대표 기업들과 자체 AI 플랫폼을 개발해 산업용 로봇 등 특화 분야에서 글로벌 경쟁력을 확보한다는 전략이다. 니혼게이자이신문(닛케이) 등에 따르면 일본 경제산업성은 16일 일본을 방문한 젠슨 황 엔비디아",
+      "u": "https://www.chosun.com/international/international_general/2026/07/16/HEZDONTCMRRGMOBUGJRTOYTCGU/",
+      "m": "07. 16. AM 11:07",
+      "ts": 1784200024000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
@@ -9,16 +19,6 @@
       "u": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
       "m": "07. 16. AM 03:26",
       "ts": 1784172360000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",
-      "d": "Nvidia Corp. co-founder Jensen Huang stressed that the US company’s next-generation AI accelerator systems were in production and on track for delivery to customers, responding to reports that manufacturing snags may delay their rollout.",
-      "u": "https://www.bloomberg.com/news/articles/2026-07-15/nvidia-s-huang-declares-vera-rubin-on-track-despite-delay-talk",
-      "m": "07. 15. AM 09:11",
-      "ts": 1784106665000,
       "stocks": [],
       "fullText": ""
     }
