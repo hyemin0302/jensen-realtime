@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-07-16T01:56:42.747Z",
-  "count": 1,
+  "updatedAt": "2026-07-16T04:57:44.803Z",
+  "count": 3,
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
+      "d": "On Wednesday night, Jensen Huang was in Tokyo’s central Kanda district courting the little-known Japanese suppliers that underpin the AI supply chain.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
+      "m": "07. 16. AM 03:26",
+      "ts": 1784172360000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”",
+      "d": "",
+      "u": "https://www.chosun.com/international/international_general/2026/07/16/GOB24ULMERD5RLYMLBT7S5BAVU/",
+      "m": "07. 16. AM 02:55",
+      "ts": 1784170546000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Nvidia’s Huang Says Vera Rubin on Track Despite Delay Talk",

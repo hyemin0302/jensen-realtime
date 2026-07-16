@@ -1,8 +1,148 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-15T23:31:17.007Z",
+  "updatedAt": "2026-07-16T04:57:44.798Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784172360000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
+        "en": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
+      "location": {
+        "name": {
+          "ko": "도쿄의 센트럴 칸다 지구",
+          "en": "도쿄의 센트럴 칸다 지구"
+        }
+      },
+      "datetime": "2026-07-16T03:26:00.000Z",
+      "datetime_display": {
+        "ko": "07. 16. AM 03:26",
+        "en": "07. 16. AM 03:26"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "On Wednesday night, Jensen Huang was in Tokyo’s central Kanda district courting the little-known Japanese suppliers that underpin the AI supply chain.",
+        "en": "On Wednesday night, Jensen Huang was in Tokyo’s central Kanda district courting the little-known Japanese suppliers that underpin the AI supply chain."
+      },
+      "summary": {
+        "ko": [
+          "제인슨 후앙은 화요일 밤에 도쿄의 센트럴 칸다 지구에서 AI 공급망의 기반을 이루는 알려지지 않은 일본 공급 업체를 사냥했다.",
+          "후앙은 일본의 AI 공급 업체와의 관계를 강화하기 위해 포크 스키퍼를 준비했다."
+        ],
+        "en": [
+          "On Wednesday night, Jensen Huang was in Tokyo’s central Kanda district courting the little-known Japanese suppliers that underpin the AI supply chain."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Bloomberg Tech",
+            "en": "Bloomberg Tech"
+          },
+          "title": {
+            "ko": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
+            "en": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers"
+          },
+          "url": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
+          "time": "07. 16. AM 03:26"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784170546000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”",
+        "en": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”"
+      },
+      "url": "https://www.chosun.com/international/international_general/2026/07/16/GOB24ULMERD5RLYMLBT7S5BAVU/",
+      "location": {
+        "name": {
+          "ko": "일본",
+          "en": "일본"
+        }
+      },
+      "datetime": "2026-07-16T02:55:46.000Z",
+      "datetime_display": {
+        "ko": "07. 16. AM 02:55",
+        "en": "07. 16. AM 02:55"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”",
+        "en": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황이 도요타와 피지컬AI를 협력하여 '일본 AI'를 시작한다.",
+          "이번 협력은 일본의 AI 기술 개발을 위한 중요한 단계로 여겨진다."
+        ],
+        "en": [
+          "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”",
+            "en": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”"
+          },
+          "url": "https://www.chosun.com/international/international_general/2026/07/16/GOB24ULMERD5RLYMLBT7S5BAVU/",
+          "time": "07. 16. AM 02:55"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784156400000",
       "type": "announcement",
