@@ -1,5 +1,16 @@
 {
-  "updatedAt": "2026-07-16T16:47:25.446Z",
-  "count": 0,
-  "items": []
+  "updatedAt": "2026-07-16T17:59:43.101Z",
+  "count": 1,
+  "items": [
+    {
+      "s": "Nikkei Asia",
+      "t": "Nvidia's Jensen Huang the latest US tech chief to visit Japan",
+      "d": "",
+      "u": "https://asia.nikkei.com/business/technology/nvidia-s-jensen-huang-the-latest-us-tech-chief-to-visit-japan",
+      "m": "",
+      "ts": 0,
+      "stocks": [],
+      "fullText": "Technology Nvidia&#x27;s Jensen Huang the latest US tech chief to visit Japan Firms make sales pitches as Takaichi&#x27;s government gears up for AI, chip investments"
+    }
+  ]
 }

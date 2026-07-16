@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-16T11:28:06.140Z",
+  "updatedAt": "2026-07-16T17:59:43.095Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Nvidia's Jensen Huang the latest US tech chief to visit Japan",
+        "en": "Nvidia's Jensen Huang the latest US tech chief to visit Japan"
+      },
+      "url": "https://asia.nikkei.com/business/technology/nvidia-s-jensen-huang-the-latest-us-tech-chief-to-visit-japan",
+      "location": {
+        "name": {
+          "ko": "일본",
+          "en": "일본"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Nvidia's Jensen Huang the latest US tech chief to visit Japan",
+        "en": "Nvidia's Jensen Huang the latest US tech chief to visit Japan"
+      },
+      "summary": {
+        "ko": [
+          "엔비디아의 제인슨 황이 일본을 방문하는 미국 기술 최고 경영진 중 한 명이었습니다.",
+          "기업들은 Takaichi 정부의 AI 및 칩 투자에 대한 판매 제안을 준비하고 있습니다."
+        ],
+        "en": [
+          "Nvidia's Jensen Huang the latest US tech chief to visit Japan"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Nikkei Asia",
+            "en": "Nikkei Asia"
+          },
+          "title": {
+            "ko": "Nvidia's Jensen Huang the latest US tech chief to visit Japan",
+            "en": "Nvidia's Jensen Huang the latest US tech chief to visit Japan"
+          },
+          "url": "https://asia.nikkei.com/business/technology/nvidia-s-jensen-huang-the-latest-us-tech-chief-to-visit-japan",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784200024000",
       "type": "announcement",
