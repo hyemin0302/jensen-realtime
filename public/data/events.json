@@ -1,8 +1,86 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-17T17:04:34.035Z",
+  "updatedAt": "2026-07-17T20:01:01.961Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "auto-tl-1784318461960-0",
+      "title": {
+        "ko": "젠슨 황, 2024년 1월 5일 CES 2024 keynote",
+        "en": "Jensen Huang, CES 2024 keynote on January 5, 2024"
+      },
+      "datetime": "2024-01-05",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "라스베가스",
+          "en": "Las Vegas"
+        },
+        "country": "US"
+      },
+      "kind": "keynote",
+      "sources": [
+        {
+          "publisher": "한국경제",
+          "title": "수억대 연봉 '네오블루칼라'…젠슨 황의 전망, 현실로 성큼",
+          "url": "https://www.hankyung.com/article/2026071712001",
+          "time": "07. 17. AM 08:56"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 13,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-17T20:01:01.960Z"
+    },
+    {
+      "id": "auto-tl-1784318461960-1",
+      "title": {
+        "ko": "젠슨 황, 2024년 3월 7일 NVIDIA GTC 2024 keynote",
+        "en": "Jensen Huang, NVIDIA GTC 2024 keynote on March 7, 2024"
+      },
+      "datetime": "2024-03-07",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "미국",
+          "en": "US"
+        },
+        "country": "US"
+      },
+      "kind": "keynote",
+      "sources": [
+        {
+          "publisher": "한국경제",
+          "title": "수억대 연봉 '네오블루칼라'…젠슨 황의 전망, 현실로 성큼",
+          "url": "https://www.hankyung.com/article/2026071712001",
+          "time": "07. 17. AM 08:56"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 14,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-17T20:01:01.960Z"
+    },
     {
       "id": "evt_llm_1784278610000",
       "type": "announcement",
