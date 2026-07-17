@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-17T05:25:36.131Z",
+  "updatedAt": "2026-07-17T07:32:25.353Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-17",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-17",
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-07-15",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-15",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-17T05:25:36.132Z",
+  "lastPolledAt": "2026-07-17T07:32:25.354Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,7 +115,7 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
+  "zeroNewsStreak": 2,
   "pending_timeline": [
     {
       "title": {
@@ -132,14 +132,14 @@
       },
       "kind": "announcement",
       "confidence": 0.5,
-      "reason": "젠슨 황이 '메이드 인 재팬' 외쳤다는 보도가 나왔다.",
+      "reason": "젠슨 황이 '메이드 인 재팬' 외친 이유에 대한 파격 계획이 나왔다는 보도가 나왔다.",
       "source": {
         "publisher": "한국경제",
         "title": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]",
         "url": "https://www.hankyung.com/article/2026071707146",
         "time": "07. 16. PM 11:47"
       },
-      "extracted_at": "2026-07-17T05:25:33.174Z"
+      "extracted_at": "2026-07-17T07:32:22.027Z"
     }
   ]
 }
