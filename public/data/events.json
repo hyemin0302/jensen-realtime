@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-17T02:00:34.969Z",
+  "updatedAt": "2026-07-17T09:50:34.184Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784278610000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼",
+        "en": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+      },
+      "url": "https://www.hankyung.com/article/2026071712001",
+      "location": {
+        "name": {
+          "ko": "북미",
+          "en": "북미"
+        }
+      },
+      "datetime": "2026-07-17T08:56:50.000Z",
+      "datetime_display": {
+        "ko": "07. 17. AM 08:56",
+        "en": "07. 17. AM 08:56"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼",
+        "en": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 올해 초 스위스 다보스에서 열린 세계경제포럼(WEF) 연차총회에서 한 발언이다.",
+          "네오 블루칼라는 자동화 기계가 대체할 수 없는 고숙련 현장직을 의미한다."
+        ],
+        "en": [
+          "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼",
+            "en": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+          },
+          "url": "https://www.hankyung.com/article/2026071712001",
+          "time": "07. 17. AM 08:56"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784245673000",
       "type": "announcement",
