@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-17T22:11:41.200Z",
+  "updatedAt": "2026-07-17T23:14:07.761Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
@@ -27,26 +27,6 @@
     {
       "version": "2.0.0",
       "date": "2026-07-17",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-17",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-17",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-17",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-17",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -67,6 +47,31 @@
     {
       "version": "2.0.0",
       "date": "2026-07-17",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-17",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-17",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-17",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-17",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-17",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -98,72 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-16",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-16",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-17T22:11:41.201Z",
+  "lastPolledAt": "2026-07-17T23:14:07.762Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 2,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 4,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "수억대 연봉 '네오블루칼라'…젠슨 황의 전망, 현실로 성큼",
-        "en": "Billion-dollar salary 'Neo Blue Collar'…Jensen Huang's vision, becoming a reality"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "announcement",
-      "confidence": 0.5,
-      "reason": "젠슨 황이 최근에 발표한 전망에 대한 보도",
-      "source": {
-        "publisher": "한국경제",
-        "title": "수억대 연봉 '네오블루칼라'…젠슨 황의 전망, 현실로 성큼",
-        "url": "https://www.hankyung.com/article/2026071712001",
-        "time": "07. 17. AM 08:56"
-      },
-      "extracted_at": "2026-07-17T22:11:36.455Z"
-    },
-    {
-      "title": {
-        "ko": "젠슨 황, 2024년 3월 6일 NVIDIA의 Q1 2024 연간 보고서 발표",
-        "en": "Jensen Huang, NVIDIA's Q1 2024 Annual Report to be released on March 6, 2024"
-      },
-      "datetime": "2024-03-06",
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "US"
-      },
-      "kind": "earnings",
-      "confidence": 0.9,
-      "reason": "NVIDIA 공식 발표",
-      "source": {
-        "publisher": "한국경제",
-        "title": "수억대 연봉 '네오블루칼라'…젠슨 황의 전망, 현실로 성큼",
-        "url": "https://www.hankyung.com/article/2026071712001",
-        "time": "07. 17. AM 08:56"
-      },
-      "extracted_at": "2026-07-17T22:11:36.455Z"
-    }
-  ]
+  "zeroNewsStreak": 5,
+  "pending_timeline": []
 }
