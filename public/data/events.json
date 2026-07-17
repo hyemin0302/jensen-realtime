@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-16T17:59:43.095Z",
+  "updatedAt": "2026-07-17T02:00:34.969Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784245673000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]",
+        "en": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]"
+      },
+      "url": "https://www.hankyung.com/article/2026071707146",
+      "location": {
+        "name": {
+          "ko": "일본",
+          "en": "일본"
+        }
+      },
+      "datetime": "2026-07-16T23:47:53.000Z",
+      "datetime_display": {
+        "ko": "07. 16. PM 11:47",
+        "en": "07. 16. PM 11:47"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]",
+        "en": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)는 일본을 세계 최고의 메카트로닉스 국가로 치켜세웠다.",
+          "황 CEO는 후지쓰와 화낙, 가와사키중공업 등과 손잡고 일본을 AI 로봇·스마트공장의 전진기지로 키우겠다는 구상을 밝혔다."
+        ],
+        "en": [
+          "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]",
+            "en": "젠슨 황 \"메이드 인 재팬\" 외친 이유가…'파격 계획' 나왔다 [강경주의 테크X]"
+          },
+          "url": "https://www.hankyung.com/article/2026071707146",
+          "time": "07. 16. PM 11:47"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_0",
       "type": "announcement",
