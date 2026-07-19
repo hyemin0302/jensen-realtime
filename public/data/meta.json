@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-19T21:44:05.056Z",
+  "updatedAt": "2026-07-19T22:43:26.768Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-19",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-19",
@@ -98,16 +103,11 @@
       "version": "2.0.0",
       "date": "2026-07-18",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-18",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-19T21:44:05.056Z",
+  "lastPolledAt": "2026-07-19T22:43:26.768Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
     "pendingTimelineCount": 1,
     "stockCount": 35,
@@ -115,7 +115,7 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
+  "zeroNewsStreak": 1,
   "pending_timeline": [
     {
       "title": {
@@ -139,7 +139,7 @@
         "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
         "time": "07. 19. PM 09:16"
       },
-      "extracted_at": "2026-07-19T21:44:00.341Z"
+      "extracted_at": "2026-07-19T22:43:23.802Z"
     }
   ]
 }
