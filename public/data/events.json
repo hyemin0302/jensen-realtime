@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-19T12:12:04.653Z",
+  "updatedAt": "2026-07-19T20:39:21.466Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784488468000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등",
+        "en": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등"
+      },
+      "url": "https://www.hankyung.com/article/202607203138H",
+      "location": null,
+      "datetime": "2026-07-19T19:14:28.000Z",
+      "datetime_display": {
+        "ko": "07. 19. PM 07:14",
+        "en": "07. 19. PM 07:14"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등",
+        "en": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 '검은 가죽 재킷' 14억원 낙찰",
+          "예상가 16배 폭등"
+        ],
+        "en": [
+          "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등",
+            "en": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등"
+          },
+          "url": "https://www.hankyung.com/article/202607203138H",
+          "time": "07. 19. PM 07:14"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784459977000",
       "type": "announcement",

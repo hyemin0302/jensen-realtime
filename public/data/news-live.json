@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-19T19:42:23.679Z",
+  "updatedAt": "2026-07-19T20:39:21.473Z",
   "count": 1,
   "items": [
     {
-      "s": "Nikkei Asia",
-      "t": "Nvidia's Jensen Huang the latest US tech chief to visit Japan",
+      "s": "한국경제",
+      "t": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등",
       "d": "",
-      "u": "https://asia.nikkei.com/business/technology/nvidia-s-jensen-huang-the-latest-us-tech-chief-to-visit-japan",
-      "m": "",
-      "ts": 0,
+      "u": "https://www.hankyung.com/article/202607203138H",
+      "m": "07. 19. PM 07:14",
+      "ts": 1784488468000,
       "stocks": [],
-      "fullText": "Technology Nvidia&#x27;s Jensen Huang the latest US tech chief to visit Japan Firms make sales pitches as Takaichi&#x27;s government gears up for AI, chip investments"
+      "fullText": ""
     }
   ]
 }
