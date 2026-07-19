@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-17T20:01:01.961Z",
+  "updatedAt": "2026-07-19T05:32:07.953Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784429355000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배",
+        "en": "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/19/WGKHWDBVKVERNJK5BMJB64TKSM/",
+      "location": null,
+      "datetime": "2026-07-19T02:49:15.000Z",
+      "datetime_display": {
+        "ko": "07. 19. AM 02:49",
+        "en": "07. 19. AM 02:49"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배",
+        "en": "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 가죽재킷이 경매에서 14억원에 낙찰되었습니다.",
+          "예상가보다 16배 높은 가격에 낙찰된 가죽재킷입니다."
+        ],
+        "en": [
+          "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배",
+            "en": "젠슨 황 가죽재킷, 경매에서 14억원에 낙찰…예상가 16배"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/19/WGKHWDBVKVERNJK5BMJB64TKSM/",
+          "time": "07. 19. AM 02:49"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "auto-tl-1784318461960-0",
       "title": {
