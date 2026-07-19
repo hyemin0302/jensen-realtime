@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-07-19T22:43:23.803Z",
-  "count": 2,
+  "updatedAt": "2026-07-19T23:51:20.515Z",
+  "count": 3,
   "items": [
+    {
+      "s": "조선일보",
+      "t": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최",
+      "d": "조선비즈가 8월 26일 서울 소공동 웨스틴조선호텔에서 국내 최대 테크 콘퍼런스 ‘스마트클라우드쇼 2026’을 개최합니다. 올해 행사는 ‘AI, 세상을 움직이다(AI works the world)’를 주제로, 피지컬 AI와 보안, 로보틱스, 반도체, 우주 분야의 세계적 석학과 산업 리더들이 한자리에 모여 인공지능(AI)이 바꿀 미래 산업의 청사진을 제시합니다",
+      "u": "https://www.chosun.com/economy/tech_it/2026/07/20/MRRWENRZHBSTIYJRMJTGGOJSHA/",
+      "m": "07. 19. PM 11:00",
+      "ts": 1784502000000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "TechCrunch",
       "t": "What to watch for after Jensen Huang&#8217;s Japan visit",

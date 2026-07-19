@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-19T21:44:01.961Z",
+  "updatedAt": "2026-07-19T23:51:20.510Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784502000000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최",
+        "en": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/20/MRRWENRZHBSTIYJRMJTGGOJSHA/",
+      "location": {
+        "name": {
+          "ko": "서울 소공동 웨스틴조선호텔",
+          "en": "서울 소공동 웨스틴조선호텔"
+        }
+      },
+      "datetime": "2026-07-19T23:00:00.000Z",
+      "datetime_display": {
+        "ko": "07. 19. PM 11:00",
+        "en": "07. 19. PM 11:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "조선비즈가 8월 26일 서울 소공동 웨스틴조선호텔에서 국내 최대 테크 콘퍼런스 ‘스마트클라우드쇼 2026’을 개최합니다. 올해 행사는 ‘AI, 세상을 움직이다(AI works the world)’를 주제로, 피지컬 AI와 보안, 로보틱스, 반도체, 우주 분야의 세계적 석학과 산업 리더들이 한자리에 모여 인공지능(AI)이 바꿀 미래 산업의 청사진을 제시합니다",
+        "en": "조선비즈가 8월 26일 서울 소공동 웨스틴조선호텔에서 국내 최대 테크 콘퍼런스 ‘스마트클라우드쇼 2026’을 개최합니다. 올해 행사는 ‘AI, 세상을 움직이다(AI works the world)’를 주제로, 피지컬 AI와 보안, 로보틱스, 반도체, 우주 분야의 세계적 석학과 산업 리더들이 한자리에 모여 인공지능(AI)이 바꿀 미래 산업의 청사진을 제시합니다"
+      },
+      "summary": {
+        "ko": [
+          "조선비즈가 8월 26일 서울 소공동 웨스틴조선호텔에서 국내 최대 테크 콘퍼런스 '스마트클라우드쇼 2026'을 개최합니다.",
+          "올해 행사는 'AI, 세상을 움직이다(AI works the world)'를 주제로, 피지컬 AI와 보안, 로보틱스, 반도체, 우주 분야의 세계적 석학과 산업 리더들이 한자리에 모여 인공지능(AI)이 바꿀 미래 산업의 청사진을 제시합니다."
+        ],
+        "en": [
+          "조선비즈가 8월 26일 서울 소공동 웨스틴조선호텔에서 국내 최대 테크 콘퍼런스 ‘스마트클라우드쇼 2026’을 개최합니다. 올해 행사는 ‘AI, 세상을 움직이다(AI works the world)’를 주제로, 피지컬 AI와 보안, 로보틱스, 반도체, 우주 분야의 세계적 석학과 산업 리더들이 한자리에 모여 인공지능(AI)이 바꿀 미래 산업의 청사진을 제시합니다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최",
+            "en": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/20/MRRWENRZHBSTIYJRMJTGGOJSHA/",
+          "time": "07. 19. PM 11:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784495767000",
       "type": "announcement",
