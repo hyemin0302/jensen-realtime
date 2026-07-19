@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-19T20:39:21.466Z",
+  "updatedAt": "2026-07-19T21:44:01.961Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784495767000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "What to watch for after Jensen Huang&#8217;s Japan visit",
+        "en": "What to watch for after Jensen Huang&#8217;s Japan visit"
+      },
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "location": {
+        "name": {
+          "ko": "도쿄",
+          "en": "도쿄"
+        }
+      },
+      "datetime": "2026-07-19T21:16:07.000Z",
+      "datetime_display": {
+        "ko": "07. 19. PM 09:16",
+        "en": "07. 19. PM 09:16"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+        "en": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+      },
+      "summary": {
+        "ko": [
+          "Nvidia의 Jensen Huang은 2일간(7월 15일, 16일) 도쿄를 방문하여 일본의 산업 및 칩 공급 엘리트를 사귀었다.",
+          "그는 일본의 전 산업 생태계를 아우르는 거래를 가지고 도쿄를 떠났다."
+        ],
+        "en": [
+          "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "TechCrunch",
+            "en": "TechCrunch"
+          },
+          "title": {
+            "ko": "What to watch for after Jensen Huang&#8217;s Japan visit",
+            "en": "What to watch for after Jensen Huang&#8217;s Japan visit"
+          },
+          "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+          "time": "07. 19. PM 09:16"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784488468000",
       "type": "announcement",
