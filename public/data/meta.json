@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-20T20:47:23.254Z",
+  "updatedAt": "2026-07-20T21:56:06.007Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
@@ -27,6 +27,11 @@
     {
       "version": "2.0.0",
       "date": "2026-07-20",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-20",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -98,72 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-19",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-19",
-      "note": "자동 배치: 뉴스 2건, 주가 16개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-20T20:47:23.254Z",
+  "lastPolledAt": "2026-07-20T21:56:06.007Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 2,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 4,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯",
-        "en": "IPOB, Canada and US visit...Jensen Huang meeting likely"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "캐나다",
-          "en": "Canada"
-        },
-        "country": "US"
-      },
-      "kind": "meeting",
-      "confidence": 0.7,
-      "reason": "투자 유치에 젠슨황 회동할듯",
-      "source": {
-        "publisher": "연합뉴스",
-        "title": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)",
-        "url": "https://www.yna.co.kr/view/AKR20260720077551017",
-        "time": "07. 20. AM 09:06"
-      },
-      "extracted_at": "2026-07-20T20:47:19.911Z"
-    },
-    {
-      "title": {
-        "ko": "What to watch for after Jensen Huang's Japan visit",
-        "en": "Jensen Huang's Japan visit"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "일본",
-          "en": "Japan"
-        },
-        "country": "JP"
-      },
-      "kind": "visit",
-      "confidence": 0.7,
-      "reason": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
-      "source": {
-        "publisher": "TechCrunch",
-        "title": "What to watch for after Jensen Huang&#8217;s Japan visit",
-        "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
-        "time": "07. 19. PM 09:16"
-      },
-      "extracted_at": "2026-07-20T20:47:19.911Z"
-    }
-  ]
+  "zeroNewsStreak": 5,
+  "pending_timeline": []
 }
