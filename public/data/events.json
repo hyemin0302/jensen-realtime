@@ -1,8 +1,105 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-20T11:38:29.619Z",
+  "updatedAt": "2026-07-20T13:52:19.169Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784547189000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다",
+        "en": "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다"
+      },
+      "url": "https://www.hankyung.com/article/2026072053607",
+      "location": null,
+      "datetime": "2026-07-20T11:33:09.000Z",
+      "datetime_display": {
+        "ko": "07. 20. AM 11:33",
+        "en": "07. 20. AM 11:33"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다",
+        "en": "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자의 친필 서명이 담긴 톰 포드 브랜드 가죽 재킷이 96만 달러에 낙찰됐다.",
+          "이 금액은 소더비가 제시했던 예상 낙찰가 상단의 16배에 해당하는 금액으로, 톰 포드 가죽 재킷 새 상품 가격과 비교하면 약 100배에 달한다."
+        ],
+        "en": [
+          "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다",
+            "en": "새 상품 가격 '100배'…젠슨 황 가죽 재킷 '14억'에 팔렸다"
+          },
+          "url": "https://www.hankyung.com/article/2026072053607",
+          "time": "07. 20. AM 11:33"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "auto-tl-1784555537423-0",
+      "title": {
+        "ko": "연합뉴스",
+        "en": "연합뉴스"
+      },
+      "datetime": "2023-05-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "캐나다",
+          "en": "Canada"
+        },
+        "country": "CA"
+      },
+      "kind": "visit",
+      "sources": [],
+      "source_count": 0,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 15,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-20T13:52:17.423Z"
+    },
     {
       "id": "evt_llm_1784538401000",
       "type": "announcement",
