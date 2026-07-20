@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-19T23:51:23.984Z",
+  "updatedAt": "2026-07-20T03:10:43.218Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-20",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-19",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-18",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-18",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-19T23:51:23.984Z",
+  "lastPolledAt": "2026-07-20T03:10:43.218Z",
   "lastPollReport": {
     "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
   "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최",
-        "en": "Jensen Huang and Sonny Koh to Discuss 'Robot Brain' Unicorn in Korea at SmartCloudShow 2026"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "서울",
-          "en": "Seoul"
-        },
-        "country": "KR"
-      },
-      "kind": "conference",
-      "confidence": 1,
-      "reason": "스마트클라우드쇼 2026 개최",
-      "source": {
-        "publisher": "조선일보",
-        "title": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최",
-        "url": "https://www.chosun.com/economy/tech_it/2026/07/20/MRRWENRZHBSTIYJRMJTGGOJSHA/",
-        "time": "07. 19. PM 11:00"
-      },
-      "extracted_at": "2026-07-19T23:51:18.924Z"
-    }
-  ]
+  "pending_timeline": []
 }

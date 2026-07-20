@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-19T23:51:20.515Z",
-  "count": 3,
+  "updatedAt": "2026-07-20T03:10:38.218Z",
+  "count": 2,
   "items": [
     {
-      "s": "조선일보",
-      "t": "[알립니다] 젠슨 황·손정의가 알아본 ‘로봇 뇌’ 유니콘 한국 온다… ‘스마트클라우드쇼’ 8월 26일 개최",
-      "d": "조선비즈가 8월 26일 서울 소공동 웨스틴조선호텔에서 국내 최대 테크 콘퍼런스 ‘스마트클라우드쇼 2026’을 개최합니다. 올해 행사는 ‘AI, 세상을 움직이다(AI works the world)’를 주제로, 피지컬 AI와 보안, 로보틱스, 반도체, 우주 분야의 세계적 석학과 산업 리더들이 한자리에 모여 인공지능(AI)이 바꿀 미래 산업의 청사진을 제시합니다",
-      "u": "https://www.chosun.com/economy/tech_it/2026/07/20/MRRWENRZHBSTIYJRMJTGGOJSHA/",
-      "m": "07. 19. PM 11:00",
-      "ts": 1784502000000,
+      "s": "동아일보",
+      "t": "젠슨 황이 입은 1500만원 가죽재킷, 14억원에 낙찰…예상가 16배",
+      "d": "젠슨 황 엔비디아 최고경영자(CEO)의 트레이드 마크인 검은색 가죽 재킷이 최근 경매에서 96만 달러(약 14억3000만 원)에 낙찰됐다.17일(현지 시간) 미국 뉴욕에 본사를 둔 글로벌 경매업체 소더비에 따르면 황 CEO의 친필 서명이 담긴 톰 포드 가죽 재킷이 65차례에 걸친 입찰 끝에 이날 96만 달러에 팔렸다. 이는 소더비가 내놓은 예상 판매가였던 6만 달러(약 9000만 원)의 약 16배에 달한다. 해당 제품의 시중 판매가는 1만 달러(약 1500만 원) 미만으로 알려졌다.이번에 낙찰된 재킷은 황 CEO가 2023년 10월 18일 대만 타이베이에서 열린 폭스콘 주최 ‘폭스콘 테크데이’에서 실제 착용한 바 있다.황 CEO는 공개 석상에서 검은색 가죽 재킷을 즐겨 입는다. CNBC는 “황 CEO는 신제",
+      "u": "https://www.donga.com/news/Inter/article/all/20260720/134326755/2",
+      "m": "07. 20. AM 01:38",
+      "ts": 1784511480000,
       "stocks": [],
-      "fullText": ""
+      "fullText": "이혜원 기자 구독"
     },
     {
       "s": "TechCrunch",
@@ -21,16 +21,6 @@
       "ts": 1784495767000,
       "stocks": [],
       "fullText": "Nvidia’s chief Jensen Huang spent two days — July 15 and 16 — in Tokyo, courting Japan’s industrial and chip-supply elite, weeks after a keynote in Taiwan, and months after a visit to South Korea . He left with deals spanning Japans entire tech ecosystem: a national AI factory, partnerships with the countrys leading robotics companies, and agreements with the chip-material suppliers powering Nvidias next generation of AI chips. His message was clear. Nvidia is targeting Japans factory floor, and many of the countrys biggest manufacturers are joining in. AIs next chapter, Huang said, belongs to factory floors, robots, and machines, and he wants Japan to build it. Thirty years ago, a $5 million Sega investment helped keep a near-bankrupt Nvidia afloat; today, Nvidia and Japans industrial giants need each other again — this time to build the physical-AI era, starting with these three projects: Noetra — Japan’s sovereign-AI play. The country doesn’t want to run its factories and robots on American or Chinese AI. So, the government pulled together roughly 44 domestic firms, with SoftBank, Sony, NEC and Honda at the core, to build its own AI for robots, vehicles and factory floors. Tokyo is committing up to 1 trillion yen ($6.2 billion) over five years , a bet on homegrown physical AI, foundation models built to run machines. Japan wants to own the software brain. The hardware to build it, though, still comes from Nvidia. The U.S chip giant is building “a Vera Rubin AI factory”, a massive data center packed with its next-generation chips, expected to launch in 2028, with 13,750 Vera CPUs and 27,500 Rubin GPUs , delivering 140 megawatts. Noetra will oversee the effort, with plans to build the data center. Noetra’s plan runs in three stages : a reasoning model heavy on Japanese-language skills starting in fiscal 2026; an omni-modal version handling text, images, video, and audio by 2028; and Real-world Native AI built to run robots by 2030, released to outside Noetra developers in phases. The robotics coalition — Japans industrial giants line up behind Cosmos. Nvidia is targeting Japan’s factory floor, and many of the countrys top robotics and manufacturing players are signing on. Fanuc, Yaskawa, Kawasaki Heavy, Fujitsu, Hitachi, NEC, Sony, SoftBank, Kubota and robotics group AIRoA say they plan to build on Nvidias Cosmos models, an open-model effort Nvidia started in May with a handful of global AI labs. In Tokyo, Nvidia gave them a reason to commit, unveiling Cosmos 3 Edge , a version of the model that runs on its Jetson Thor chips inside the machines themselves. Some are already testing a shared control system; others, like Honda R&D and Omron, are building on the tools now. “The next frontier of AI is in the physical world, and this is a once-in-a-generation opportunity for Japan,” Huang said in the company’s statement. “Japan invented modern manufacturing. Now, it has the opportunity to reinvent it for the age of intelligent industries.” Toyota — ca"
-    },
-    {
-      "s": "한국경제",
-      "t": "젠슨 황 '검은 가죽 재킷' 14억원 낙찰…예상가 16배 폭등",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202607203138H",
-      "m": "07. 19. PM 07:14",
-      "ts": 1784488468000,
-      "stocks": [],
-      "fullText": ""
     }
   ]
 }
