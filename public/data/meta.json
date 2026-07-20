@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-20T03:10:43.218Z",
+  "updatedAt": "2026-07-20T05:52:22.967Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-20",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-20",
@@ -98,23 +103,43 @@
       "version": "2.0.0",
       "date": "2026-07-18",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-18",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-20T03:10:43.218Z",
+  "lastPolledAt": "2026-07-20T05:52:22.967Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 1,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": []
+  "zeroNewsStreak": 1,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "Jensen Huang의 일본 방문 이후 무엇을 지켜야 하나?",
+        "en": "What to watch for after Jensen Huang's Japan visit"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "visit",
+      "confidence": 1,
+      "reason": "Jensen Huang이 일본 전 기술 생태계와 거래를 맺었다고 보도",
+      "source": {
+        "publisher": "TechCrunch",
+        "title": "What to watch for after Jensen Huang&#8217;s Japan visit",
+        "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+        "time": "07. 19. PM 09:16"
+      },
+      "extracted_at": "2026-07-20T05:52:19.904Z"
+    }
+  ]
 }
