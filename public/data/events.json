@@ -1,8 +1,94 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-20T03:10:38.213Z",
+  "updatedAt": "2026-07-20T11:38:29.619Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784538401000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "진행중",
+      "status_label": {
+        "ko": "진행중",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)",
+        "en": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)"
+      },
+      "url": "https://www.yna.co.kr/view/AKR20260720077551017",
+      "location": {
+        "name": {
+          "ko": "브룩필드의 캐나다 본사",
+          "en": "브룩필드의 캐나다 본사"
+        }
+      },
+      "datetime": "2026-07-20T09:06:41.000Z",
+      "datetime_display": {
+        "ko": "07. 20. AM 09:06",
+        "en": "07. 20. AM 09:06"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "(서울=연합뉴스) 한상용 기자 = 네이버 창업자인 이해진 이사회 의장과 최수연 대표를 비롯한 최고경영진이 글로벌 대체자산 운용사 브룩필드의 캐나...",
+        "en": "(서울=연합뉴스) 한상용 기자 = 네이버 창업자인 이해진 이사회 의장과 최수연 대표를 비롯한 최고경영진이 글로벌 대체자산 운용사 브룩필드의 캐나..."
+      },
+      "summary": {
+        "ko": [
+          "네이버 창업자인 이해진 이사회 의장과 최수연 대표를 비롯한 최고경영진이 글로벌 대체자산 운용사 브룩필드의 캐나다 본사를 찾는 것으로 보인다.",
+          "네이버 경영진이 브룩필드 최고위급 인사들과 만나 데이터센터는 물론 AI 팩토리 구축을 위한 대규모 투자와 자금 조달 방안을 협의할 것으로 보고 있다."
+        ],
+        "en": [
+          "(서울=연합뉴스) 한상용 기자 = 네이버 창업자인 이해진 이사회 의장과 최수연 대표를 비롯한 최고경영진이 글로벌 대체자산 운용사 브룩필드의 캐나..."
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "연합뉴스",
+            "en": "연합뉴스"
+          },
+          "title": {
+            "ko": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)",
+            "en": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)"
+          },
+          "url": "https://www.yna.co.kr/view/AKR20260720077551017",
+          "time": "07. 20. AM 09:06"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784511480000",
       "type": "announcement",
