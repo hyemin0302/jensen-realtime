@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-21T16:18:02.821Z",
+  "updatedAt": "2026-07-21T22:59:42.587Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784668958000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결",
+        "en": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결"
+      },
+      "url": "https://www.hankyung.com/article/2026072280467",
+      "location": {
+        "name": {
+          "ko": "미국 실리콘밸리",
+          "en": "미국 실리콘밸리"
+        }
+      },
+      "datetime": "2026-07-21T21:22:38.000Z",
+      "datetime_display": {
+        "ko": "07. 21. PM 09:22",
+        "en": "07. 21. PM 09:22"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결",
+        "en": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결"
+      },
+      "summary": {
+        "ko": [
+          "이재용 삼성전자 회장과 최태원 대한상공회의소 회장 겸 SK그룹 회장이 25일(현지시간) 미국 워싱턴DC 윌라드 호텔에서 열린 한미 비즈니스 라운드 테이블 리셉션에서 젠슨 황 엔비디아 최고경영자(CEO)와 대화하고 있다.",
+          "이재용 삼성전자 회장과 최태원 SK그룹 회장, 이해진 네이버 의장이 이번 주 미국 실리콘밸리에서 젠슨 황 엔비디아 최고경영자(CEO)를 함께 만나는 것으로 파악됐다."
+        ],
+        "en": [
+          "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결",
+            "en": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결"
+          },
+          "url": "https://www.hankyung.com/article/2026072280467",
+          "time": "07. 21. PM 09:22"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784647800000",
       "type": "announcement",
