@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-21T01:58:53.295Z",
+  "updatedAt": "2026-07-21T05:23:17.581Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-21",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-21",
@@ -98,72 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-19",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-19",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-21T01:58:53.296Z",
+  "lastPolledAt": "2026-07-21T05:23:17.581Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 2,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 8,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "이해진, 캐나다·미국 방문…투자 유치에 젠슨황 회동할듯",
-        "en": "Naver CEO to Visit Canada and US for Investment"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "meeting",
-      "confidence": 0.7,
-      "reason": "이사장과 최수연 대표가 글로벌 대체자산 운용사 브룩필드의 캐나다·미국 방문에 젠슨황 회장과 회동할 것으로 보인다.",
-      "source": {
-        "publisher": "연합뉴스",
-        "title": "이해진, 캐나다· 미국 방문…투자 유치에 젠슨황 회동할듯(종합)",
-        "url": "https://www.yna.co.kr/view/AKR20260720077551017",
-        "time": "07. 20. AM 09:06"
-      },
-      "extracted_at": "2026-07-21T01:58:48.586Z"
-    },
-    {
-      "title": {
-        "ko": "젠슨황, 일본 방문 후 일본 전 기술 생태계에 DEAL",
-        "en": "Jensen Huang's Japan Visit"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "visit",
-      "confidence": 0.7,
-      "reason": "젠슨황이 일본을 방문한 후 일본 전 기술 생태계에 DEAL을 맺었다.",
-      "source": {
-        "publisher": "TechCrunch",
-        "title": "What to watch for after Jensen Huang&#8217;s Japan visit",
-        "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
-        "time": "07. 19. PM 09:16"
-      },
-      "extracted_at": "2026-07-21T01:58:48.586Z"
-    }
-  ]
+  "zeroNewsStreak": 9,
+  "pending_timeline": []
 }
