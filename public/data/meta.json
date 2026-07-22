@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-21T23:58:21.759Z",
+  "updatedAt": "2026-07-22T02:43:35.346Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-22",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-21",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-20",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-20",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-21T23:58:21.760Z",
+  "lastPolledAt": "2026-07-22T02:43:35.346Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결",
-        "en": "Jae-yong Lee, Choi Tae-won, Lee Hae-jin, and Jensen Huang Gather in the US... 'AI Avengers' Assemble"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "meeting",
-      "confidence": 0.8,
-      "reason": "이재용·최태원·이해진·젠슨 황이 미국서 뭉친다는 보도가 나온다.",
-      "source": {
-        "publisher": "한국경제",
-        "title": "이재용·최태원·이해진·젠슨 황, 미국서 뭉친다…'AI 어벤져스' 집결",
-        "url": "https://www.hankyung.com/article/2026072280467",
-        "time": "07. 21. PM 09:22"
-      },
-      "extracted_at": "2026-07-21T23:58:18.817Z"
-    }
-  ]
+  "zeroNewsStreak": 2,
+  "pending_timeline": []
 }
