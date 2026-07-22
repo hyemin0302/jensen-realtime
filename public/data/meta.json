@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-22T05:41:42.032Z",
+  "updatedAt": "2026-07-22T08:13:05.868Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-22",
+      "note": "자동 배치: 뉴스 3건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-22",
@@ -98,23 +103,67 @@
       "version": "2.0.0",
       "date": "2026-07-20",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-20",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-22T05:41:42.033Z",
+  "lastPolledAt": "2026-07-22T08:13:05.868Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 3,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 3,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "李대통령, 24일부터 美·남미·獨 방문…샌프란서 젠슨황, 샘 올트먼 만난다",
+        "en": "President Lee Visits US, South America, and Europe from 24th"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "visit",
+      "confidence": 0.9,
+      "reason": "청와대가 22일 밝혔다.",
+      "source": {
+        "publisher": "동아일보",
+        "title": "李대통령, 24일부터 美·남미·獨 방문…샌프란서 젠슨황, 샘 올트먼 만난다",
+        "url": "https://www.donga.com/news/Politics/article/all/20260722/134345553/1",
+        "time": "07. 22. AM 08:08"
+      },
+      "extracted_at": "2026-07-22T08:12:57.234Z"
+    },
+    {
+      "title": {
+        "ko": "[속보] 李, 24일 젠슨황·샘 올트먼 등 빅테크 CEO 면담",
+        "en": "[Breaking News] President Lee Meets with Big Tech CEOs on 24th"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "confidence": 0.9,
+      "reason": "청와대는 글로벌 빅테크로부터 ‘반도체 수요 확대’ 메시지를 기대하고 있다.",
+      "source": {
+        "publisher": "조선일보",
+        "title": "[속보] 李, 24일 젠슨황·샘 올트먼 등 빅테크 CEO 면담",
+        "url": "https://www.chosun.com/economy/economy_general/2026/07/22/MNSGMZBWGU2GMZDCMY2TMNZQGA/",
+        "time": "07. 22. AM 07:47"
+      },
+      "extracted_at": "2026-07-22T08:12:57.234Z"
+    }
+  ]
 }
