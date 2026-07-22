@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-22T20:35:45.619Z",
+  "updatedAt": "2026-07-22T21:59:43.371Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784706458000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "李대통령, 美서 젠슨 황·올트먼 만난다",
+        "en": "李대통령, 美서 젠슨 황·올트먼 만난다"
+      },
+      "url": "https://www.chosun.com/politics/politics_general/2026/07/22/C5SROK5PKNAZTEXTBT52SHU6PQ/",
+      "location": null,
+      "datetime": "2026-07-22T07:47:38.000Z",
+      "datetime_display": {
+        "ko": "07. 22. AM 07:47",
+        "en": "07. 22. AM 07:47"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "李대통령, 美서 젠슨 황·올트먼 만난다",
+        "en": "李대통령, 美서 젠슨 황·올트먼 만난다"
+      },
+      "summary": {
+        "ko": [
+          "李대통령, 美서 젠슨 황·올트먼 만난다",
+          "본문 내용 없음"
+        ],
+        "en": [
+          "李대통령, 美서 젠슨 황·올트먼 만난다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "李대통령, 美서 젠슨 황·올트먼 만난다",
+            "en": "李대통령, 美서 젠슨 황·올트먼 만난다"
+          },
+          "url": "https://www.chosun.com/politics/politics_general/2026/07/22/C5SROK5PKNAZTEXTBT52SHU6PQ/",
+          "time": "07. 22. AM 07:47"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784748600000",
       "type": "announcement",
