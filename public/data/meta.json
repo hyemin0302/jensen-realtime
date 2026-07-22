@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-22T10:37:14.445Z",
+  "updatedAt": "2026-07-22T12:22:49.925Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-22",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-22",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-07-20",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-20",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-22T10:37:14.445Z",
+  "lastPolledAt": "2026-07-22T12:22:49.925Z",
   "lastPollReport": {
-    "newsCards": 2,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "李, 24일부터 5개국 순방…美서 젠슨 황, 올트먼 만난다",
-        "en": "Lee, 24-day 5-country tour... Meets Jensen Huang and Altman in the US"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "샌프란시스코",
-          "en": "San Francisco"
-        },
-        "country": "US"
-      },
-      "kind": "meeting",
-      "confidence": 0.9,
-      "reason": "청와대가 22일 밝혔다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "李, 24일부터 5개국 순방…美서 젠슨 황, 올트먼 만난다",
-        "url": "https://www.donga.com/news/Politics/article/all/20260722/134345553/1",
-        "time": "07. 22. AM 08:08"
-      },
-      "extracted_at": "2026-07-22T10:37:07.982Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
