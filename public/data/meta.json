@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-22T19:01:40.557Z",
+  "updatedAt": "2026-07-22T20:35:50.198Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-22",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-22",
@@ -98,23 +103,67 @@
       "version": "2.0.0",
       "date": "2026-07-21",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-21",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-22T19:01:40.557Z",
+  "lastPolledAt": "2026-07-22T20:35:50.198Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 2,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "李, 내일부터 美-남미 등 순방… 젠슨 황-샘 올트먼 만난다",
+        "en": "李, 내일부터 美-남미 등 순방… 젠슨 황-샘 올트먼 만난다"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "visit",
+      "confidence": 0.7,
+      "reason": "이 대통령이 24일부터 미국과 남미 3개국 등 5개국 순방에 나선다.",
+      "source": {
+        "publisher": "동아일보",
+        "title": "李, 내일부터 美-남미 등 순방… 젠슨 황-샘 올트먼 만난다",
+        "url": "https://www.donga.com/news/Politics/article/all/20260723/134348238/2",
+        "time": "07. 22. PM 07:30"
+      },
+      "extracted_at": "2026-07-22T20:35:44.155Z"
+    },
+    {
+      "title": {
+        "ko": "李, 美·남미·독일 순방… 젠슨 황·올트먼 만난다",
+        "en": "李, 美·남미·독일 순방… 젠슨 황·올트먼 만난다"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "visit",
+      "confidence": 0.7,
+      "reason": "이 대통령이 24일부터 미국과 남미 3개국 등 5개국 순방에 나선다.",
+      "source": {
+        "publisher": "조선일보",
+        "title": "李, 美·남미·독일 순방… 젠슨 황·올트먼 만난다",
+        "url": "https://www.chosun.com/politics/politics_general/2026/07/23/TOC7JQRZH5ASNPNJ2SPTNHQNNI/",
+        "time": "07. 22. PM 03:49"
+      },
+      "extracted_at": "2026-07-22T20:35:44.155Z"
+    }
+  ]
 }
