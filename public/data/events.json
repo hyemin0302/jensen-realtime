@@ -1,8 +1,203 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-22T21:59:43.371Z",
+  "updatedAt": "2026-07-23T04:15:37.907Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784775076000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'",
+        "en": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'"
+      },
+      "url": "https://www.hankyung.com/article/202607231479g",
+      "location": {
+        "name": {
+          "ko": "미국",
+          "en": "미국"
+        }
+      },
+      "datetime": "2026-07-23T02:51:16.000Z",
+      "datetime_display": {
+        "ko": "07. 23. AM 02:51",
+        "en": "07. 23. AM 02:51"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'",
+        "en": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자(CEO)가 중국 오픈소스 인공지능(AI) 모델을 차단하려는 미국 정부와 자국 AI 기업들의 움직임에 공개적으로 반기를 들었다.",
+          "황 CEO는 중국 모델이 미국의 AI 주도권을 위협한다는 주장과 달리 오히려 시장을 키우고 반도체&middot;데이터센터 수요도 늘릴 수 있다는 지적이다."
+        ],
+        "en": [
+          "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'",
+            "en": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'"
+          },
+          "url": "https://www.hankyung.com/article/202607231479g",
+          "time": "07. 23. AM 02:51"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784773025000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술",
+        "en": "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/23/BSXZGQQ7YJHPHNJXOPXDZYZX2I/",
+      "location": {
+        "name": {
+          "ko": "도쿄",
+          "en": "도쿄"
+        }
+      },
+      "datetime": "2026-07-23T02:17:05.000Z",
+      "datetime_display": {
+        "ko": "07. 23. AM 02:17",
+        "en": "07. 23. AM 02:17"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술",
+        "en": "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술"
+      },
+      "summary": {
+        "ko": [
+          "네이버가 도쿄에 '스마트빌딩' 솔루션을 수출했다.",
+          "젠슨 황도 극찬했던 기술"
+        ],
+        "en": [
+          "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "035420",
+          "name": {
+            "ko": "네이버",
+            "en": "네이버"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술",
+            "en": "네이버, 도쿄에 ‘스마트빌딩’ 솔루션 수출...젠슨 황도 극찬했던 기술"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/23/BSXZGQQ7YJHPHNJXOPXDZYZX2I/",
+          "time": "07. 23. AM 02:17"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "auto-tl-1784780134747-0",
+      "title": {
+        "ko": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+        "en": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School"
+      },
+      "datetime": "2023-02-15T00:00",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "모나로비",
+          "en": "Monterey"
+        },
+        "country": "US"
+      },
+      "kind": "visit",
+      "sources": [
+        {
+          "publisher": "NVIDIA공식",
+          "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+          "time": "07. 23. AM 02:00"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 16,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-23T04:15:34.747Z"
+    },
     {
       "id": "evt_llm_1784706458000",
       "type": "announcement",
