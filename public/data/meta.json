@@ -1,12 +1,17 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-23T22:49:54.360Z",
+  "updatedAt": "2026-07-23T23:54:01.602Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-07-23",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-23",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -98,16 +103,11 @@
       "version": "2.0.0",
       "date": "2026-07-22",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-22",
-      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-23T22:49:54.361Z",
+  "lastPolledAt": "2026-07-23T23:54:01.603Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
     "pendingTimelineCount": 1,
     "stockCount": 35,
@@ -115,12 +115,12 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
+  "zeroNewsStreak": 1,
   "pending_timeline": [
     {
       "title": {
         "ko": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진",
-        "en": "NVIDIA CEO Jensen Huang Partners with Seoul National University"
+        "en": "NVIDIA CEO Jensen Huang Visits Seoul National University"
       },
       "datetime": null,
       "location": {
@@ -130,16 +130,16 @@
         },
         "country": "unknown"
       },
-      "kind": "meeting",
-      "confidence": 0.7,
-      "reason": "서울대와의 파트너십을 발표했지만 정확한 날짜는 언급되지 않음",
+      "kind": "visit",
+      "confidence": 0.5,
+      "reason": "젠슨 황이 서울대에 방문한 것으로 보인다.",
       "source": {
         "publisher": "한국경제",
         "title": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진",
         "url": "https://www.hankyung.com/article/202607232809i",
         "time": "07. 23. PM 06:00"
       },
-      "extracted_at": "2026-07-23T22:49:49.632Z"
+      "extracted_at": "2026-07-23T23:53:57.779Z"
     }
   ]
 }
