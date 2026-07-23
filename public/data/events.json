@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-23T20:08:36.775Z",
+  "updatedAt": "2026-07-23T22:49:51.159Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784829601000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진",
+        "en": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진"
+      },
+      "url": "https://www.hankyung.com/article/202607232809i",
+      "location": {
+        "name": {
+          "ko": "서울대",
+          "en": "서울대"
+        }
+      },
+      "datetime": "2026-07-23T18:00:01.000Z",
+      "datetime_display": {
+        "ko": "07. 23. PM 06:00",
+        "en": "07. 23. PM 06:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진",
+        "en": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진"
+      },
+      "summary": {
+        "ko": [
+          "서울대와 엔비디아가 피지컬 인공지능(AI) 분야 공동 연구에 나선다.",
+          "로봇과 제조, 의료 등 다양한 분야를 아우르는 서울대의 연구 역량과 엔비디아의 AI 도구·컴퓨팅 기술을 결합해 피지컬 AI 연구 거점을 구축한다."
+        ],
+        "en": [
+          "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진",
+            "en": "[단독] 젠슨 황 손잡은 서울대, 亞 최초 '피지컬AI 조인트 랩' 추진"
+          },
+          "url": "https://www.hankyung.com/article/202607232809i",
+          "time": "07. 23. PM 06:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784835000000",
       "type": "announcement",
