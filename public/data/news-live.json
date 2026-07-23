@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-23T07:02:33.287Z",
-  "count": 2,
+  "updatedAt": "2026-07-23T09:54:01.588Z",
+  "count": 3,
   "items": [
     {
       "s": "NVIDIA공식",
@@ -11,6 +11,16 @@
       "ts": 1784772046000,
       "stocks": [],
       "fullText": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School NVIDIA founder and CEO Jensen Huang joined school leadership in Monterey, California, to commission the system, which will fuel AI education and research at the US military’s premier technical graduate university. July 22, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that come with these technologies.” Training Leaders to Build With AI NPS educates active-duty officers and international partners across disciplines — from space operations to ocean science — awarding graduate degrees while centering each program on applied research with direct relevance to real-world problems. “Leadership is about being in service of something else. You’re in service of your team. You’re in service of your country. You’re in service of your mission,” Huang said to attendees. “And all of this technology is just tools to help you.” The DGX GB300 gives those programs new technical depth: the ability to train foundation models in house, run high-fidelity simulations at scale and develop AI tools with immediate applicability. Huang told attendees that even if they aren’t experts in computer science, today’s computers running AI make it easy. “The most important advice that I would give to someone is to engage the technology,” Huang said. “It’s not as hard as you think it is, an"
+    },
+    {
+      "s": "한겨레",
+      "t": "이재용-정의선, 젠슨 황 이끄는 글로벌 AI 포럼 자문위원 합류",
+      "d": "",
+      "u": "https://www.hani.co.kr/arti/economy/marketing/1269652.html",
+      "m": "",
+      "ts": 0,
+      "stocks": [],
+      "fullText": "본문 경제 산업·재계 이재용-정의선, 젠슨 황 이끄는 글로벌 AI 포럼 자문위원 합류 배지현 기자 수정 2026-07-23 17:46 펼침 0:00 Your browser does not support the audio element. 구글 선호 매체 등록 젠슨 황 엔비디아 최고경영자가 지난해 10월30일 서울 강남구 삼성동의 한 치킨집에서 이재용 삼성전자 회장, 정의선 현대차그룹 회장과 ‘치맥(치킨+맥주) 회동’을 하고 있다. 공동취재사진 광고 이재용 삼성전자 회장과 정의선 현대자동차그룹 회장이 오는 11월 미국 실리콘밸리에서 열리는 인공지능(AI) 포럼의 자문위원으로 합류한다. 젠슨 황 엔비디아 최고경영자(CEO)가 공동 의장을 맡는 포럼이다. 미국 스타트업 미디어 세마포는 이 회장과 정 회장이 오는 11월 미국 실리콘밸리에서 열리는 글로벌 최고경영자 포럼 ‘실리콘밸리&더 월드’의 자문위원회에 이름을 올렸다고 최근 밝혔다. 올해 처음 개최되는 이 포럼에는 인공지능 기술을 개발하는 기업과 투자기관, 정책결정자 350명이 참석해 인공지능이 경제 성장, 노동력, 국가 안보, 에너지, 자본 시장 등에 미치는 영향을 논의할 계획이다. 이 행사의 공동 의장은 황 최고경영자와 사티아 나델라 마이크로소프트 최고경영자, 루스 포랏 알파벳·구글 사장 겸 최고투자책임자(CIO), 리사 수 미국 반도체기업 에이엠디(AMD) 최고경영자, 디베시 마칸 아이코닉 창립 파트너 등 5명이다. 자문위원으로는 이 회장과 정 회장을 비롯해 앤디 재시 아마존 최고경영자, 히로키 토토키 소니그룹 최고경영자, 리시 수낵 전 영국 총리, 지나 러먼도 전 미국 상무장관 등 정·재계 핵심 관계자 40여명이 이름을 올렸다. 정 회장은 지난 4월 미국에서 열린 세마포 주최 경제 포럼에 참석한 데 이어 새 포럼의 자문위원으로도 합류하게 됐다. 광고 자문위원회는 △첨단 기술기업 최고경영자 중심의 ‘프런티어 위원회’ △인공지능 인프라 투자자와 금융기관으로 이뤄진 ‘캐피털 위원회’ △산업 현장의 인공지능 적용을 이끄는 ‘빌더 위원회’ △차세대 유니콘 기업 창업자로 구성되는 ‘파운더스 위원회’ 등 역할에 따라 4개 협의체로 이뤄졌다. 한편 이 회장과 정 회장은 이재명 대통령의 미국 순방을 계기로 24~25일 열리는 실리콘밸리의 ‘인공지능 서밋’ 행사에서 황 최고경영자 등 글로벌 거대기술(빅테크) 기업인들과 인공지능 생태계 확장을 논의하는 데 이어 11월 포럼에서도 다시 한 자리에 설 것으로 보인다. 배지현 기자 beep@hani.co.kr"
     },
     {
       "s": "한겨레",
