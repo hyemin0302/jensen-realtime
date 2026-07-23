@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-23T18:43:03.136Z",
+  "updatedAt": "2026-07-23T20:08:41.056Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-23",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-23",
@@ -98,23 +103,43 @@
       "version": "2.0.0",
       "date": "2026-07-22",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-22",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-23T18:43:03.136Z",
+  "lastPolledAt": "2026-07-23T20:08:41.056Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 1,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 5,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "실리콘밸리 앤드 더 월드",
+        "en": "Silicon Valley and the World"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "실리콘밸리",
+          "en": "Silicon Valley"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "confidence": 0.9,
+      "reason": "글로벌 CEO 포럼 '실리콘밸리 앤드 더 월드'의 글로벌 자문위원 명단을 공개했다.",
+      "source": {
+        "publisher": "동아일보",
+        "title": "이재용-정의선, 젠슨황 주도 글로벌 AI리더 자문단 합류",
+        "url": "https://www.donga.com/news/People/article/all/20260723/134354128/2",
+        "time": "07. 23. PM 07:30"
+      },
+      "extracted_at": "2026-07-23T20:08:35.147Z"
+    }
+  ]
 }
