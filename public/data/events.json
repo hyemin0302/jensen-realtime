@@ -1,8 +1,47 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-24T13:54:09.550Z",
+  "updatedAt": "2026-07-24T15:21:59.332Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "auto-tl-1784906519331-0",
+      "title": {
+        "ko": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+        "en": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners"
+      },
+      "datetime": "2023-07-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "NVIDIA공식",
+          "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+          "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+          "time": "07. 24. AM 04:34"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 20,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-24T15:21:59.330Z"
+    },
     {
       "id": "evt_llm_1784895540000",
       "type": "announcement",
