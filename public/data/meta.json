@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-24T10:10:06.552Z",
+  "updatedAt": "2026-07-24T11:59:46.989Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
@@ -17,6 +17,11 @@
     {
       "version": "2.0.0",
       "date": "2026-07-24",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-24",
       "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-07-22",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-22",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-24T10:10:06.553Z",
+  "lastPolledAt": "2026-07-24T11:59:46.990Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,7 +115,7 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 2,
+  "zeroNewsStreak": 3,
   "pending_timeline": [
     {
       "title": {
@@ -130,16 +130,16 @@
         },
         "country": "unknown"
       },
-      "kind": "announcement",
+      "kind": "meeting",
       "confidence": 0.7,
-      "reason": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress.",
+      "reason": "At this week’s AI Summit in San Francisco,",
       "source": {
         "publisher": "NVIDIA공식",
         "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
         "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
         "time": "07. 24. AM 04:34"
       },
-      "extracted_at": "2026-07-24T10:10:01.015Z"
+      "extracted_at": "2026-07-24T11:59:42.967Z"
     }
   ]
 }
