@@ -1,8 +1,148 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-23T22:49:51.159Z",
+  "updatedAt": "2026-07-24T05:26:26.854Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784867667000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+        "en": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners"
+      },
+      "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+      "location": {
+        "name": {
+          "ko": "산프란시스코",
+          "en": "산프란시스코"
+        }
+      },
+      "datetime": "2026-07-24T04:34:27.000Z",
+      "datetime_display": {
+        "ko": "07. 24. AM 04:34",
+        "en": "07. 24. AM 04:34"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month, this week’s discussions and announcements advance [&#8230;]",
+        "en": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month, this week’s discussions and announcements advance [&#8230;]"
+      },
+      "summary": {
+        "ko": [
+          "한국의 AI 미래를 NVIDIA와 파트너들과 함께 지도하기 위해 한국 대통령 Jae Myung Lee와 일부 주요 비즈니스 리더와 연구원이 NVIDIA와 생태계 파트너들과 만난다.",
+          "이번 주 NVIDIA와 생태계 파트너들과의 논의와 발표는 한국의 AI 인프라와 전문성을 확장하고 글로벌 AI 혁신의 중심지로 변모하는 한국의 전체 스택을 확장하는 데 앞장서는 NVIDIA 창립자이자 CEO인 Jensen Huang의 한국 방문에 기반한다."
+        ],
+        "en": [
+          "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month, this week’s discussions and announcements advance [&#8230;]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "NVIDIA공식",
+            "en": "NVIDIA공식"
+          },
+          "title": {
+            "ko": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+            "en": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners"
+          },
+          "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+          "time": "07. 24. AM 04:34"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784862060000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진",
+        "en": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진"
+      },
+      "url": "https://www.donga.com/news/Economy/article/all/20260724/134357447/1",
+      "location": {
+        "name": {
+          "ko": "카이스트, 엔비디아",
+          "en": "카이스트, 엔비디아"
+        }
+      },
+      "datetime": "2026-07-24T03:01:00.000Z",
+      "datetime_display": {
+        "ko": "07. 24. AM 03:01",
+        "en": "07. 24. AM 03:01"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "카이스트(KAIST)가 글로벌 인공지능(AI) 기업 엔비디아와 손잡고 김재철AI대학원에 ‘엔비디아-KAIST AI 공동연구소’를 설립한다고 24일 밝혔다. 연구소는 한국어와 국내 산업 현장에 맞춘 차세대 ‘에이전틱 AI(Agentic AI)’ 원천기술을 개발하고 글로벌 AI 인재를 양성한다. 이재명 대통령이 이날 현지 시간으로 미국 샌프란시스코에서 젠슨 황 엔비디아 최고경영자(CEO)와의 면담을 앞두고 나온 발표다.양측은 앞으로 5년간 총 3억 달러(약 4200억 원) 규모의 협력을 추진한다. 엔비디아는 국내 클라우드 파트너를 통해 매년 5000만 달러(약 675억 원) 상당의 최신 AI 컴퓨팅 자원을 제공한다. 매년 KAIST 연구자 10명 이상에게 인턴십 기회도 주고, 우수 인력은 정규직으로 채용할 계획",
+        "en": "카이스트(KAIST)가 글로벌 인공지능(AI) 기업 엔비디아와 손잡고 김재철AI대학원에 ‘엔비디아-KAIST AI 공동연구소’를 설립한다고 24일 밝혔다. 연구소는 한국어와 국내 산업 현장에 맞춘 차세대 ‘에이전틱 AI(Agentic AI)’ 원천기술을 개발하고 글로벌 AI 인재를 양성한다. 이재명 대통령이 이날 현지 시간으로 미국 샌프란시스코에서 젠슨 황 엔비디아 최고경영자(CEO)와의 면담을 앞두고 나온 발표다.양측은 앞으로 5년간 총 3억 달러(약 4200억 원) 규모의 협력을 추진한다. 엔비디아는 국내 클라우드 파트너를 통해 매년 5000만 달러(약 675억 원) 상당의 최신 AI 컴퓨팅 자원을 제공한다. 매년 KAIST 연구자 10명 이상에게 인턴십 기회도 주고, 우수 인력은 정규직으로 채용할 계획"
+      },
+      "summary": {
+        "ko": [
+          "카이스트(KAIST)가 글로벌 인공지능(AI) 기업 엔비디아와 손잡고 김재철AI대학원에 '엔비디아-KAIST AI 공동연구소'를 설립한다.",
+          "연구소는 한국어와 국내 산업 현장에 맞춘 차세대 '에이전틱 AI(Agentic AI)' 원천기술을 개발하고 글로벌 AI 인재를 양성한다."
+        ],
+        "en": [
+          "카이스트(KAIST)가 글로벌 인공지능(AI) 기업 엔비디아와 손잡고 김재철AI대학원에 ‘엔비디아-KAIST AI 공동연구소’를 설립한다고 24일 밝혔다. 연구소는 한국어와 국내 산업 현장에 맞춘 차세대 ‘에이전틱 AI(Agentic AI)’ 원천기술을 개발하고 글로벌 AI 인재를 양성한다. 이재명 대통령이 이날 현지 시간으로 미국 샌프란시스코에서 젠슨 황 엔비디아 최고경영자(CEO)와의 면담을 앞두고 나온 발표다.양측은 앞으로 5년간 총 3억 달러(약 4200억 원) 규모의 협력을 추진한다. 엔비디아는 국내 클라우드 파트너를 통해 매년 5000만 달러(약 675억 원) 상당의 최신 AI 컴퓨팅 자원을 제공한다. 매년 KAIST 연구자 10명 이상에게 인턴십 기회도 주고, 우수 인력은 정규직으로 채용할 계획"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진",
+            "en": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진"
+          },
+          "url": "https://www.donga.com/news/Economy/article/all/20260724/134357447/1",
+          "time": "07. 24. AM 03:01"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784829601000",
       "type": "announcement",
