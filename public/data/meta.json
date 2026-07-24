@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-24T17:01:59.468Z",
+  "updatedAt": "2026-07-24T18:54:25.699Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-24",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-24",
@@ -98,24 +103,19 @@
       "version": "2.0.0",
       "date": "2026-07-23",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-23",
-      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-24T17:01:59.469Z",
+  "lastPolledAt": "2026-07-24T18:54:25.699Z",
   "lastPollReport": {
-    "newsCards": 3,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 3,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
+  "zeroNewsStreak": 1,
   "pending_timeline": [
     {
       "title": {
@@ -139,23 +139,23 @@
         "url": "https://www.donga.com/news/Politics/article/all/20260724/134362353/2",
         "time": "07. 24. PM 04:40"
       },
-      "extracted_at": "2026-07-24T17:01:49.520Z"
+      "extracted_at": "2026-07-24T18:54:22.203Z"
     },
     {
       "title": {
         "ko": "엔비디아-KAIST, 4300억 들여 서울에 AI 공동연구소 만든다",
-        "en": "NVIDIA-KAIST, 4300 Billion to Create AI Joint Research Institute in Seoul"
+        "en": "NVIDIA-KAIST, 4300 Billion to Establish AI Joint Research Institute in Seoul"
       },
       "datetime": null,
       "location": {
         "city": {
-          "ko": "서울",
-          "en": "Seoul"
+          "ko": "",
+          "en": ""
         },
         "country": "KR"
       },
       "kind": "announcement",
-      "confidence": 0.9,
+      "confidence": 0.7,
       "reason": "이 같은 한국 대학들과의 협업 발표는 이재명 대통령이 미국 샌프란시스코에서 젠슨 황 엔비디아 최고경영자(CEO)를 만나기 하루 앞서 공개됐다.",
       "source": {
         "publisher": "동아일보",
@@ -163,31 +163,7 @@
         "url": "https://www.donga.com/news/Economy/article/all/20260724/134362061/2",
         "time": "07. 24. PM 04:40"
       },
-      "extracted_at": "2026-07-24T17:01:49.520Z"
-    },
-    {
-      "title": {
-        "ko": "李대통령, 미국 도착… 젠슨 황·샘 올트먼 등과 면담 예정",
-        "en": "Lee, President of South Korea, Arrives in the US... Scheduled to Meet with Jensen Huang and Sam Altman"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "샌프란시스코",
-          "en": "San Francisco"
-        },
-        "country": "US"
-      },
-      "kind": "visit",
-      "confidence": 0.9,
-      "reason": "이 대통령은 이날 다리오 아모데이 앤트로픽 최고경영자(CEO), 샘 올트먼 오픈AI CEO, 젠슨 황 엔비디아 CEO, 혹 탄 브로드컴 사장 겸 CEO를 차례로 만날 예정이다.",
-      "source": {
-        "publisher": "조선일보",
-        "title": "李대통령, 미국 도착… 젠슨 황·샘 올트먼 등과 면담 예정",
-        "url": "https://www.chosun.com/economy/economy_general/2026/07/25/HAYTQY3EGA3DSOBXGA4WCNZSMI/",
-        "time": "07. 24. PM 03:40"
-      },
-      "extracted_at": "2026-07-24T17:01:49.520Z"
+      "extracted_at": "2026-07-24T18:54:22.203Z"
     }
   ]
 }
