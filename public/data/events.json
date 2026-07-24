@@ -1,8 +1,125 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-24T05:26:26.854Z",
+  "updatedAt": "2026-07-24T07:53:02.795Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "auto-tl-1784879582794-0",
+      "title": {
+        "ko": "최태원, 美서 젠슨 황과 만찬…내일 李대통령 행사 함께 참석",
+        "en": "SK Group Chairman Meets NVIDIA CEO in US"
+      },
+      "datetime": "2023-02-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "우드사이드",
+          "en": "Woodside"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "최태원, 美서 젠슨 황과 만찬…내일 李대통령 행사 함께 참석",
+          "url": "https://www.donga.com/news/Economy/article/all/20260724/134358943/1",
+          "time": "07. 24. AM 07:29"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 17,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-24T07:53:02.794Z"
+    },
+    {
+      "id": "auto-tl-1784879582794-1",
+      "title": {
+        "ko": "최태원, 美 AI서밋 앞두고 젠슨 황과 만찬…‘AI 동맹’ 재확인",
+        "en": "SK Group Chairman Meets NVIDIA CEO in US"
+      },
+      "datetime": "2023-02-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "우드사이드",
+          "en": "Woodside"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "최태원, 美 AI서밋 앞두고 젠슨 황과 만찬…‘AI 동맹’ 재확인",
+          "url": "https://www.donga.com/news/Economy/article/all/20260724/134358868/1",
+          "time": "07. 24. AM 07:21"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 18,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-24T07:53:02.794Z"
+    },
+    {
+      "id": "auto-tl-1784879582794-2",
+      "title": {
+        "ko": "李, 7박11일 美·남미 순방…젠슨 황 등 빅테크 CEO 연쇄 회동",
+        "en": "President Lee Embarks on 7-Nation Tour"
+      },
+      "datetime": "2023-02-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "李, 7박11일 美·남미 순방…젠슨 황 등 빅테크 CEO 연쇄 회동",
+          "url": "https://www.donga.com/news/Politics/article/all/20260724/134358495/1",
+          "time": "07. 24. AM 07:21"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 19,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-24T07:53:02.794Z"
+    },
     {
       "id": "evt_llm_1784867667000",
       "type": "announcement",

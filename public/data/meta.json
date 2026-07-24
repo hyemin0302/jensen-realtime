@@ -1,12 +1,17 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-24T05:26:31.357Z",
+  "updatedAt": "2026-07-24T07:53:07.028Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-07-24",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-24",
       "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -98,24 +103,19 @@
       "version": "2.0.0",
       "date": "2026-07-22",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-22",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-24T05:26:31.357Z",
+  "lastPolledAt": "2026-07-24T07:53:07.028Z",
   "lastPollReport": {
-    "newsCards": 2,
-    "autoTimelineAdded": 0,
-    "pendingTimelineCount": 2,
+    "newsCards": 0,
+    "autoTimelineAdded": 3,
+    "pendingTimelineCount": 1,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
+  "zeroNewsStreak": 1,
   "pending_timeline": [
     {
       "title": {
@@ -130,8 +130,8 @@
         },
         "country": "unknown"
       },
-      "kind": "meeting",
-      "confidence": 0.7,
+      "kind": "announcement",
+      "confidence": 0.9,
       "reason": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress.",
       "source": {
         "publisher": "NVIDIA공식",
@@ -139,31 +139,7 @@
         "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
         "time": "07. 24. AM 04:34"
       },
-      "extracted_at": "2026-07-24T05:26:23.337Z"
-    },
-    {
-      "title": {
-        "ko": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진",
-        "en": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "announcement",
-      "confidence": 0.7,
-      "reason": "이재명 대통령이 이날 현지 시간으로 미국 샌프란시스코에서 젠슨 황 엔비디아 최고경영자(CEO)와의 면담을 가졌다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "KAIST-엔비디아, AI 공동연구소 설립…4200억 규모 협력 추진",
-        "url": "https://www.donga.com/news/Economy/article/all/20260724/134357447/1",
-        "time": "07. 24. AM 03:01"
-      },
-      "extracted_at": "2026-07-24T05:26:23.338Z"
+      "extracted_at": "2026-07-24T07:53:02.794Z"
     }
   ]
 }
