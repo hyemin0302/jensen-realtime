@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-24T21:34:38.681Z",
+  "updatedAt": "2026-07-24T22:55:42.512Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-24",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-24",
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-07-23",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-23",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-24T21:34:38.682Z",
+  "lastPolledAt": "2026-07-24T22:55:42.512Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,7 +115,7 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 3,
+  "zeroNewsStreak": 4,
   "pending_timeline": [
     {
       "title": {
@@ -139,7 +139,7 @@
         "url": "https://www.donga.com/news/Politics/article/all/20260724/134362353/2",
         "time": "07. 24. PM 04:40"
       },
-      "extracted_at": "2026-07-24T21:34:35.880Z"
+      "extracted_at": "2026-07-24T22:55:39.648Z"
     },
     {
       "title": {
@@ -152,7 +152,7 @@
           "ko": "",
           "en": ""
         },
-        "country": "KR"
+        "country": "unknown"
       },
       "kind": "announcement",
       "confidence": 0.7,
@@ -163,7 +163,7 @@
         "url": "https://www.donga.com/news/Economy/article/all/20260724/134362061/2",
         "time": "07. 24. PM 04:40"
       },
-      "extracted_at": "2026-07-24T21:34:35.880Z"
+      "extracted_at": "2026-07-24T22:55:39.648Z"
     }
   ]
 }
