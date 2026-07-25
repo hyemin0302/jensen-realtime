@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-25T02:41:15.153Z",
+  "updatedAt": "2026-07-25T05:36:45.754Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784949117000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”",
+        "en": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”"
+      },
+      "url": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
+      "location": {
+        "name": {
+          "ko": "샌프란",
+          "en": "샌프란"
+        }
+      },
+      "datetime": "2026-07-25T03:11:57.000Z",
+      "datetime_display": {
+        "ko": "07. 25. AM 03:11",
+        "en": "07. 25. AM 03:11"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”",
+        "en": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”"
+      },
+      "summary": {
+        "ko": [
+          "李, 젠슨 황과 '샌프란 깐부회동'...",
+          "'우리는 식구다'는 건배사의 말이다."
+        ],
+        "en": [
+          "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”",
+            "en": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사는 “우리는 식구다”"
+          },
+          "url": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
+          "time": "07. 25. AM 03:11"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784941062000",
       "type": "announcement",
