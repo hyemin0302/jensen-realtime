@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-25T16:49:20.249Z",
-  "count": 5,
+  "updatedAt": "2026-07-25T17:53:15.733Z",
+  "count": 6,
   "items": [
     {
       "s": "동아일보",
@@ -36,6 +36,16 @@
       "ts": 1784953200000,
       "stocks": [],
       "fullText": "박훈상 기자 구독"
+    },
+    {
+      "s": "조선일보",
+      "t": "李 “주식 약간 조정 중” 젠슨 황 “다시 오를겁니다”",
+      "d": "",
+      "u": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
+      "m": "07. 25. AM 03:11",
+      "ts": 1784949117000,
+      "stocks": [],
+      "fullText": ""
     },
     {
       "s": "NVIDIA공식",
