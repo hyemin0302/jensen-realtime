@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-25T09:39:27.216Z",
+  "updatedAt": "2026-07-25T11:03:55.679Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-25",
+      "note": "자동 배치: 뉴스 3건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-25",
@@ -98,16 +103,11 @@
       "version": "2.0.0",
       "date": "2026-07-23",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-23",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-25T09:39:27.216Z",
+  "lastPolledAt": "2026-07-25T11:03:55.679Z",
   "lastPollReport": {
-    "newsCards": 2,
+    "newsCards": 3,
     "autoTimelineAdded": 0,
     "pendingTimelineCount": 5,
     "stockCount": 35,
@@ -120,7 +120,7 @@
     {
       "title": {
         "ko": "정의선 \"빅테크와 피지컬 AI 혁신 생태계 구축\"…젠슨 황과 회동",
-        "en": "Keynote on Big Tech and Physical AI Innovation Ecosystem"
+        "en": "Jung Se-yoon \"Big Tech and Physical AI Innovation Ecosystem\"…Jensen Huang and Meeting"
       },
       "datetime": null,
       "location": {
@@ -132,19 +132,19 @@
       },
       "kind": "meeting",
       "confidence": 0.9,
-      "reason": "정의선 현대차그룹 회장, 젠슨 황 엔비디아 CEO와 회동",
+      "reason": "정의선 현대차그룹 회장, 젠슨 황 엔비디아 최고경영자(CEO)와 회동",
       "source": {
         "publisher": "한국경제",
         "title": "정의선 \"빅테크와 피지컬 AI 혁신 생태계 구축\"…젠슨 황과 회동",
         "url": "https://www.hankyung.com/article/202607255694i",
         "time": "07. 25. AM 07:20"
       },
-      "extracted_at": "2026-07-25T09:39:17.284Z"
+      "extracted_at": "2026-07-25T11:03:45.437Z"
     },
     {
       "title": {
-        "ko": "청와대 \"9500억 달러 반도체 협력 추진…SK·엔비디아 7500억-삼성·브로드컴 2000억\"",
-        "en": "9500 Billion Dollar Semiconductor Cooperation"
+        "ko": "실리콘밸리도 이제 'K칩세권'…李, 1375조 '미국판 메가' 띄웠다",
+        "en": "Silicon Valley is now 'Kchip Sector'…Lee, 1375 trillion 'US Mega'"
       },
       "datetime": null,
       "location": {
@@ -156,19 +156,19 @@
       },
       "kind": "announcement",
       "confidence": 0.9,
-      "reason": "이재명 대통령, 젠슨 황 엔비디아 CEO와 회동",
+      "reason": "이재명 대통령이 젠슨 황 엔비디아 최고경영자(CEO)와 다리오 아모르디노 넷플릭스 최고경영자(CEO) 등과 회동",
       "source": {
         "publisher": "동아일보",
-        "title": "靑 “9500억 달러 반도체 협력 추진…SK·엔비디아 7500억-삼성·브로드컴 2000억”",
+        "title": "실리콘밸리도 이제 ‘K칩세권’…李, 1375조 ‘미국판 메가’ 띄웠다",
         "url": "https://www.donga.com/news/Politics/article/all/20260725/134363078/1",
         "time": "07. 25. AM 04:20"
       },
-      "extracted_at": "2026-07-25T09:39:17.285Z"
+      "extracted_at": "2026-07-25T11:03:45.437Z"
     },
     {
       "title": {
         "ko": "젠슨 황 \"韓 올해 성장률 얼마나?\"…李 \"3% 넘길 것 같다\"",
-        "en": "Jensen Huang on Korea's Growth Rate"
+        "en": "Jensen Huang \"How much will Korea's growth rate be this year?\"…Lee \"It will exceed 3%\""
       },
       "datetime": null,
       "location": {
@@ -180,19 +180,19 @@
       },
       "kind": "meeting",
       "confidence": 0.9,
-      "reason": "이재명 대통령, 젠슨 황 엔비디아 CEO와 만찬",
+      "reason": "이재명 대통령이 젠슨 황 엔비디아 최고경영자(CEO) 등 글로벌 AI 리더들과 만찬",
       "source": {
         "publisher": "동아일보",
         "title": "젠슨 황 “韓 올해 성장률 얼마나?”…李 “3% 넘길 것 같다”",
         "url": "https://www.donga.com/news/Politics/article/all/20260725/134363032/2",
         "time": "07. 25. AM 03:45"
       },
-      "extracted_at": "2026-07-25T09:39:17.285Z"
+      "extracted_at": "2026-07-25T11:03:45.437Z"
     },
     {
       "title": {
         "ko": "李 대통령, 젠슨 황과 '버거 회동'…\"우리는 식구다\" 건배사",
-        "en": "Lee Jae-Myung and Jensen Huang's Burger Meeting"
+        "en": "President Lee, Jensen Huang and 'Burger Meeting'…\"We are family\""
       },
       "datetime": null,
       "location": {
@@ -204,19 +204,19 @@
       },
       "kind": "meeting",
       "confidence": 0.9,
-      "reason": "이재명 대통령, 젠슨 황 엔비디아 CEO와 만찬",
+      "reason": "이재명 대통령이 젠슨 황 엔비디아 최고경영자(CEO)와 만찬",
       "source": {
         "publisher": "한국경제",
         "title": "李 대통령, 젠슨 황과 '버거 회동'…\"우리는 식구다\" 건배사",
         "url": "https://www.hankyung.com/article/202607255533i",
         "time": "07. 25. AM 03:29"
       },
-      "extracted_at": "2026-07-25T09:39:17.285Z"
+      "extracted_at": "2026-07-25T11:03:45.437Z"
     },
     {
       "title": {
-        "ko": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사 “우리는 식구다”",
-        "en": "Lee Jae-Myung and Jensen Huang's San Francisco Meeting"
+        "ko": "李, 젠슨 황과 '샌프란 깐부회동'...건배사 \"우리는 식구다\"",
+        "en": "Lee, Jensen Huang and 'San Francisco Brother Meeting'...Toast \"We are family\""
       },
       "datetime": null,
       "location": {
@@ -228,14 +228,14 @@
       },
       "kind": "meeting",
       "confidence": 0.9,
-      "reason": "이재명 대통령, 젠슨 황 엔비디아 CEO와 만찬",
+      "reason": "이재명 대통령이 젠슨 황 엔비디아 최고경영자(CEO)와 만찬",
       "source": {
         "publisher": "조선일보",
         "title": "李, 젠슨 황과 ‘샌프란 깐부회동’...건배사 “우리는 식구다”",
         "url": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
         "time": "07. 25. AM 03:11"
       },
-      "extracted_at": "2026-07-25T09:39:17.285Z"
+      "extracted_at": "2026-07-25T11:03:45.437Z"
     }
   ]
 }
