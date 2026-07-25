@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-25T22:24:51.807Z",
+  "updatedAt": "2026-07-25T23:28:15.216Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-25",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-25",
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-07-24",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-24",
-      "note": "자동 배치: 뉴스 3건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-25T22:24:51.807Z",
+  "lastPolledAt": "2026-07-25T23:28:15.216Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,12 +115,12 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 4,
+  "zeroNewsStreak": 5,
   "pending_timeline": [
     {
       "title": {
         "ko": "李 “주식 약간 조정 중” 젠슨 황 “다시 오를겁니다”",
-        "en": "Jensen Huang Predicts Market Recovery"
+        "en": "Lee \"Stock Adjustment in Progress\" Jensen Huang \"Will Rise Again\""
       },
       "datetime": null,
       "location": {
@@ -132,14 +132,14 @@
       },
       "kind": "announcement",
       "confidence": 0.5,
-      "reason": "젠슨 황이 주식 시장에 대한 발언",
+      "reason": "젠슨 황 NVIDIA CEO가 주식에 대한 언급을 했다.",
       "source": {
         "publisher": "조선일보",
         "title": "李 “주식 약간 조정 중” 젠슨 황 “다시 오를겁니다”",
         "url": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
         "time": "07. 25. AM 03:11"
       },
-      "extracted_at": "2026-07-25T22:24:47.805Z"
+      "extracted_at": "2026-07-25T23:28:11.617Z"
     }
   ]
 }
