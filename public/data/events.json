@@ -1,8 +1,125 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-25T12:15:03.835Z",
+  "updatedAt": "2026-07-25T14:08:40.403Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "auto-tl-1784988520402-0",
+      "title": {
+        "ko": "샌프란 AI 선언 “韓, 메모리 넘어 글로벌 AI 생산기지 도약 신호탄",
+        "en": "샌프란 AI 선언 “韓, 메모리 넘어 글로벌 AI 생산기지 도약 신호탄"
+      },
+      "datetime": "2023-09-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "announcement",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "샌프란 AI 선언 “韓, 메모리 넘어 글로벌 AI 생산기지 도약 신호탄”",
+          "url": "https://www.donga.com/news/Economy/article/all/20260725/134363429/1",
+          "time": "07. 25. AM 08:54"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 21,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-25T14:08:40.402Z"
+    },
+    {
+      "id": "auto-tl-1784988520402-1",
+      "title": {
+        "ko": "정의선 \"빅테크와 피지컬 AI 혁신 생태계 구축\"…젠슨 황과 회동",
+        "en": "Jae-yong Lee \"Building a physical AI innovation ecosystem with big tech\"… meeting with Jensen Huang"
+      },
+      "datetime": "2023-09-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "한국경제",
+          "title": "정의선 \"빅테크와 피지컬 AI 혁신 생태계 구축\"…젠슨 황과 회동",
+          "url": "https://www.hankyung.com/article/202607255694i",
+          "time": "07. 25. AM 07:20"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 22,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-25T14:08:40.402Z"
+    },
+    {
+      "id": "auto-tl-1784988520402-2",
+      "title": {
+        "ko": "실리콘밸리도 이제 ‘K칩세권’…李, 1375조 ‘미국판 메가’ 띄웠다",
+        "en": "Silicon Valley is now 'Kchip zone'… Lee, 1375 trillion 'US version of Mega' was launched"
+      },
+      "datetime": "2023-09-24",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "announcement",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "실리콘밸리도 이제 ‘K칩세권’…李, 1375조 ‘미국판 메가’ 띄웠다",
+          "url": "https://www.donga.com/news/Politics/article/all/20260725/134363078/1",
+          "time": "07. 25. AM 04:20"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 23,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-25T14:08:40.402Z"
+    },
     {
       "id": "evt_llm_1784949117000",
       "type": "announcement",
