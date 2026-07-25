@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-25T11:03:50.231Z",
+  "updatedAt": "2026-07-25T12:15:03.835Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1784949117000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”",
+        "en": "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”"
+      },
+      "url": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
+      "location": null,
+      "datetime": "2026-07-25T03:11:57.000Z",
+      "datetime_display": {
+        "ko": "07. 25. AM 03:11",
+        "en": "07. 25. AM 03:11"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”",
+        "en": "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”"
+      },
+      "summary": {
+        "ko": [
+          "주식이 떨어져 조정 중인 상황입니다.",
+          "젠슨 황은 다시 오를 것이라고 말합니다."
+        ],
+        "en": [
+          "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”",
+            "en": "李 “주식 떨어져, 조정 중” 젠슨 황 “다시 오를겁니다”"
+          },
+          "url": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
+          "time": "07. 25. AM 03:11"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1784953200000",
       "type": "announcement",
