@@ -1,8 +1,86 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-26T20:28:38.311Z",
+  "updatedAt": "2026-07-26T22:29:13.304Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "auto-tl-1785104953302-0",
+      "title": {
+        "ko": "젠슨 황 \"엔비디아 AI 연구원들, 한국 이주 계획\"",
+        "en": "Jensen Huang \"NVIDIA AI Researchers to Move to Korea\""
+      },
+      "datetime": "2023-02-24T00:00",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "李 “우리는” 빅테크 CEO “식구다”… 샌프란 ‘깐부 회동’",
+          "url": "https://www.donga.com/news/Politics/article/all/20260727/134368323/2",
+          "time": "07. 26. PM 07:30"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 25,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-26T22:29:13.302Z"
+    },
+    {
+      "id": "auto-tl-1785104953302-1",
+      "title": {
+        "ko": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐",
+        "en": "Jensen Huang and Hwag Tan Meeting with Lee Jae-myung"
+      },
+      "datetime": "2023-02-24T00:00",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "샌프란시스코",
+          "en": "San Francisco"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "젠슨 황 “엔비디아 AI 연구원들, 한국 이주 계획”",
+          "url": "https://www.donga.com/news/Politics/article/all/20260727/134368179/2",
+          "time": "07. 26. PM 07:30"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 26,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-26T22:29:13.302Z"
+    },
     {
       "id": "evt_llm_1785094200000",
       "type": "announcement",
