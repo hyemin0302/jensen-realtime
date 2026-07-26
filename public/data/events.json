@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-26T15:36:54.491Z",
+  "updatedAt": "2026-07-26T16:51:40.338Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785058039000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐",
+        "en": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐"
+      },
+      "url": "https://www.hankyung.com/article/2026072666131",
+      "location": {
+        "name": {
+          "ko": "미국 샌프란시스코 선착장",
+          "en": "미국 샌프란시스코 선착장"
+        }
+      },
+      "datetime": "2026-07-26T09:27:19.000Z",
+      "datetime_display": {
+        "ko": "07. 26. AM 09:27",
+        "en": "07. 26. AM 09:27"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐",
+        "en": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐"
+      },
+      "summary": {
+        "ko": [
+          "이재명 대통령은 지난 24일 미국 샌프란시스코 선착장 옆 식당 야외 테이블에서 국내 재계 총수, 엔비디아 등 글로벌 빅테크 기업인들과 버드와이저 병맥주를 곁들인 '미니버거 회동'을 했다.",
+          "테이블에는 버거와 함께 크랩케이크, 피시앤드칩스, 칼라마리(지중해식 오징어튀김) 등이 올랐다."
+        ],
+        "en": [
+          "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐",
+            "en": "젠슨 황·혹 탄 등과 '버맥 회동'…李 \"우리는 식구\" 건배사 외쳐"
+          },
+          "url": "https://www.hankyung.com/article/2026072666131",
+          "time": "07. 26. AM 09:27"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785076200000",
       "type": "announcement",
