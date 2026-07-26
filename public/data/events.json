@@ -1,8 +1,117 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-25T17:53:15.725Z",
+  "updatedAt": "2026-07-26T04:53:15.569Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785025802000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]",
+        "en": "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]"
+      },
+      "url": "https://www.hankyung.com/article/202607244395g",
+      "location": {
+        "name": {
+          "ko": "현대차그룹 양재 사옥, 부산모빌리티쇼 전시장",
+          "en": "현대차그룹 양재 사옥, 부산모빌리티쇼 전시장"
+        }
+      },
+      "datetime": "2026-07-26T00:30:02.000Z",
+      "datetime_display": {
+        "ko": "07. 26. AM 12:30",
+        "en": "07. 26. AM 12:30"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]",
+        "en": "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 엔비디아 최고경영자가 현대차그룹 양재 사옥을 방문해 젠슨♡현대라고 사인을 남겨 화제를 모은 모베드가 일상에서 쓰이는 모습이 노출되면서 일반인의 관심도 점차 커지는 모양새다.",
+          "현대차그룹의 차세대 모빌리티 로봇 모베드(MobED)에 대한 일반인의 관심이 커지고 있다."
+        ],
+        "en": [
+          "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]",
+            "en": "\"남편보다 낫네\"…젠슨 황도 반한 '그 로봇' 주부들까지 '심쿵' [영상]"
+          },
+          "url": "https://www.hankyung.com/article/202607244395g",
+          "time": "07. 26. AM 12:30"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "auto-tl-1785041593819-0",
+      "title": {
+        "ko": "박지원 “대통령 외교 성과 중에 與는 명청 갈등-신천지 전쟁”",
+        "en": "Park Ji-won \"President's diplomatic achievements include the conflict between the two sides\""
+      },
+      "datetime": "2023-01-26",
+      "status": "completed",
+      "status_label": {
+        "ko": "완료",
+        "en": "done"
+      },
+      "location": {
+        "city": {
+          "ko": "미국",
+          "en": "US"
+        },
+        "country": "US"
+      },
+      "kind": "meeting",
+      "sources": [
+        {
+          "publisher": "동아일보",
+          "title": "박지원 “대통령 외교 성과 중에 與는 명청 갈등-신천지 전쟁“",
+          "url": "https://www.donga.com/news/Politics/article/all/20260726/134364801/1",
+          "time": "07. 26. AM 02:56"
+        }
+      ],
+      "source_count": 1,
+      "views": {
+        "timeline": true,
+        "news_card": false,
+        "map_pin": true
+      },
+      "timeline_order": 24,
+      "_extracted_by": "llm-auto",
+      "_confidence": 0.9,
+      "_extracted_at": "2026-07-26T04:53:13.819Z"
+    },
     {
       "id": "evt_llm_1784949117000",
       "type": "announcement",
