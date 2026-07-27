@@ -1,8 +1,244 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-26T22:29:13.304Z",
+  "updatedAt": "2026-07-27T01:10:03.334Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785114016000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래",
+        "en": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래"
+      },
+      "url": "https://www.hankyung.com/article/202607277317g",
+      "location": {
+        "name": {
+          "ko": "LG전자",
+          "en": "LG전자"
+        }
+      },
+      "datetime": "2026-07-27T01:00:16.000Z",
+      "datetime_display": {
+        "ko": "07. 27. AM 01:00",
+        "en": "07. 27. AM 01:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래",
+        "en": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래"
+      },
+      "summary": {
+        "ko": [
+          "LG전자 AI 데이터센터용 CDU 국내 기업 최초로 엔비디아 인증",
+          "고성능 그래픽처리장치(GPU) 발열을 안정적으로 제어할 수 있다는 점을 인정받은 만큼 글로벌 빅테크를 상대로 냉각 솔루션 공급을 확대한다는 계획이다."
+        ],
+        "en": [
+          "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래",
+            "en": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래"
+          },
+          "url": "https://www.hankyung.com/article/202607277317g",
+          "time": "07. 27. AM 01:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784940790000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다",
+        "en": "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다"
+      },
+      "url": "https://www.chosun.com/economy/money/2026/07/25/V3FDFMJSDVFUDN3IHCAUKAIQZI/",
+      "location": {
+        "name": {
+          "ko": "엔비디아 본사",
+          "en": "엔비디아 본사"
+        }
+      },
+      "datetime": "2026-07-25T00:53:10.000Z",
+      "datetime_display": {
+        "ko": "07. 25. AM 12:53",
+        "en": "07. 25. AM 12:53"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다",
+        "en": "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다"
+      },
+      "summary": {
+        "ko": [
+          "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다",
+          "엔비디아 본사에서 젠슨 황과 만난 이재용·정의선·이해진"
+        ],
+        "en": [
+          "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다",
+            "en": "이재용·정의선·이해진, 엔비디아 본사 찾아 젠슨 황 만났다"
+          },
+          "url": "https://www.chosun.com/economy/money/2026/07/25/V3FDFMJSDVFUDN3IHCAUKAIQZI/",
+          "time": "07. 25. AM 12:53"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1784936668000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”",
+        "en": "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”"
+      },
+      "url": "https://www.chosun.com/politics/politics_general/2026/07/25/IMD7FVKAUBCOPIAUYFTS6WPSLI/",
+      "location": null,
+      "datetime": "2026-07-24T23:44:28.000Z",
+      "datetime_display": {
+        "ko": "07. 24. PM 11:44",
+        "en": "07. 24. PM 11:44"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”",
+        "en": "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”"
+      },
+      "summary": {
+        "ko": [
+          "李 만난 젠슨 황 \"한국, AI 황금시대...SK와 5000억달러 파트너십\"",
+          "한국은 AI 기술의 황금시대를 맞이하고 있다."
+        ],
+        "en": [
+          "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”",
+            "en": "李 만난 젠슨 황 “한국, AI 황금시대...SK와 5000억달러 파트너십”"
+          },
+          "url": "https://www.chosun.com/politics/politics_general/2026/07/25/IMD7FVKAUBCOPIAUYFTS6WPSLI/",
+          "time": "07. 24. PM 11:44"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "auto-tl-1785104953302-0",
       "title": {
