@@ -1,8 +1,99 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-27T08:52:48.254Z",
+  "updatedAt": "2026-07-27T22:54:30.844Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785186008000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]",
+        "en": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]"
+      },
+      "url": "https://www.hankyung.com/article/202607278722g",
+      "location": null,
+      "datetime": "2026-07-27T21:00:08.000Z",
+      "datetime_display": {
+        "ko": "07. 27. PM 09:00",
+        "en": "07. 27. PM 09:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]",
+        "en": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]"
+      },
+      "summary": {
+        "ko": [
+          "삼성전자 파운드리, '희망' 보인다 작년 대형 고객사 확보 등 성과",
+          "젠슨 황 \"그록 칩 생산, 삼성 감사",
+          "\n   ]",
+          "location",
+          ": null",
+          "persons",
+          ":",
+          [
+            "젠슨 황",
+            "딜런 파텔",
+            "김대영"
+          ]
+        ],
+        "en": [
+          "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "TSM",
+          "name": {
+            "ko": "TSM",
+            "en": "TSM"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]",
+            "en": "젠슨 황도 \"고맙다\"…'TSMC 추격은 착각'이라던 삼성의 반전 [테크로그]"
+          },
+          "url": "https://www.hankyung.com/article/202607278722g",
+          "time": "07. 27. PM 09:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785139560000",
       "type": "announcement",
