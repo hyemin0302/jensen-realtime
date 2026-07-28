@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-28T02:14:47.270Z",
+  "updatedAt": "2026-07-28T08:00:06.598Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785222000000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는",
+        "en": "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/28/VTFWSCSA4JGKTJQAPERNFIRQLU/",
+      "location": null,
+      "datetime": "2026-07-28T07:00:00.000Z",
+      "datetime_display": {
+        "ko": "07. 28. AM 07:00",
+        "en": "07. 28. AM 07:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는",
+        "en": "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는",
+          "오픈AI 공동 창업자 젠슨 황이 수츠케버에 50억달러를 투자하는 이유에 대한 관심이 높아지고 있습니다."
+        ],
+        "en": [
+          "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는",
+            "en": "젠슨 황, 오픈AI 공동 창업자 수츠케버에 50억달러 쏘는 이유는"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/07/28/VTFWSCSA4JGKTJQAPERNFIRQLU/",
+          "time": "07. 28. AM 07:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785203492000",
       "type": "announcement",
