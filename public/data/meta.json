@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-07-28T12:49:40.980Z",
+  "updatedAt": "2026-07-28T15:14:22.444Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-07-28",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-28",
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-07-26",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-26",
-      "note": "자동 배치: 뉴스 2건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-07-28T12:49:40.981Z",
+  "lastPolledAt": "2026-07-28T15:14:22.444Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,11 +115,11 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 2,
+  "zeroNewsStreak": 3,
   "pending_timeline": [
     {
       "title": {
-        "ko": "Anthropic의 Amodei, Open Model Ban 반대",
+        "ko": "Anthropic의 Amodei, Open Model Ban에 반대",
         "en": "Anthropic's Amodei Rejects Open Model Ban"
       },
       "datetime": null,
@@ -132,14 +132,14 @@
       },
       "kind": "meeting",
       "confidence": 0.5,
-      "reason": "기사에서 젠슨 황의 향후 일정에 대한 언급이 있지만 정확한 날짜와 장소는 명시되지 않음.",
+      "reason": "기사에서 젠슨 황의 향후 일정에 대한 언급이 없음",
       "source": {
         "publisher": "Bloomberg Tech",
         "title": "Anthropic’s Amodei Rejects Open Model Ban, Calls for Testing",
         "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
         "time": "07. 28. AM 01:51"
       },
-      "extracted_at": "2026-07-28T12:49:37.841Z"
+      "extracted_at": "2026-07-28T15:14:18.407Z"
     }
   ]
 }
