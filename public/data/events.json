@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-27T22:54:30.844Z",
+  "updatedAt": "2026-07-28T02:14:47.270Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785203492000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing",
+        "en": "Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
+      "location": null,
+      "datetime": "2026-07-28T01:51:32.000Z",
+      "datetime_display": {
+        "ko": "07. 28. AM 01:51",
+        "en": "07. 28. AM 01:51"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "Silicon Valley leaders, including Anthropic PBC Chief Executive Officer Dario Amodei and Nvidia Corp. CEO Jensen Huang, are warning against a broad government crackdown on open-weight artificial intelligence systems as a response to a breakthrough Chinese AI model that’s challenged US leadership in the technology.",
+        "en": "Silicon Valley leaders, including Anthropic PBC Chief Executive Officer Dario Amodei and Nvidia Corp. CEO Jensen Huang, are warning against a broad government crackdown on open-weight artificial intelligence systems as a response to a breakthrough Chinese AI model that’s challenged US leadership in the technology."
+      },
+      "summary": {
+        "ko": [
+          "Anthropic PBC CEO Dario Amodei와 Nvidia Corp. CEO Jensen Huang는 중국의 AI 모델에 대한 미국의 반응으로 개방형 가중치 인공 지능 시스템에 대한 정부의 광범위한 단속에 반대한다.",
+          "그들은 중국의 AI 모델이 미국의 기술 선도력을 도전하는 브레이크스루를 달성했다고 말한다."
+        ],
+        "en": [
+          "Silicon Valley leaders, including Anthropic PBC Chief Executive Officer Dario Amodei and Nvidia Corp. CEO Jensen Huang, are warning against a broad government crackdown on open-weight artificial intelligence systems as a response to a breakthrough Chinese AI model that’s challenged US leadership in the technology."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "Bloomberg Tech",
+            "en": "Bloomberg Tech"
+          },
+          "title": {
+            "ko": "Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing",
+            "en": "Anthropic’s Amodei Rejects Open Model Ban But Calls for Testing"
+          },
+          "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
+          "time": "07. 28. AM 01:51"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785186008000",
       "type": "announcement",
