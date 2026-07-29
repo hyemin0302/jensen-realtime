@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-28T08:00:06.598Z",
+  "updatedAt": "2026-07-29T16:47:55.887Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785339300000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락",
+        "en": "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락"
+      },
+      "url": "https://www.chosun.com/economy/stock-finance/2026/07/30/ZYIK74KUT5AIJLYU2UA536EZ6E/",
+      "location": null,
+      "datetime": "2026-07-29T15:35:00.000Z",
+      "datetime_display": {
+        "ko": "07. 29. PM 03:35",
+        "en": "07. 29. PM 03:35"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락",
+        "en": "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황의 저주?",
+          "訪韓·협력 발표 때마다 증시 하락"
+        ],
+        "en": [
+          "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락",
+            "en": "젠슨 황의 저주?… 訪韓·협력 발표 때마다 증시 하락"
+          },
+          "url": "https://www.chosun.com/economy/stock-finance/2026/07/30/ZYIK74KUT5AIJLYU2UA536EZ6E/",
+          "time": "07. 29. PM 03:35"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785222000000",
       "type": "announcement",
