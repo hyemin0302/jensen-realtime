@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-08-02T04:49:39.270Z",
-  "count": 2,
+  "updatedAt": "2026-08-02T07:28:01.035Z",
+  "count": 3,
   "items": [
+    {
+      "s": "조선일보",
+      "t": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착",
+      "d": "이재명 대통령이 2일(현지 시각) 순방 마지막 일정을 위해 독일 프랑크푸르트에 도착했다. 이 대통령은 이날 오후 현지에 거주하는 동포들과 오찬 간담회에서 애로사항을 들을 예정이다. 이번 간담회를 끝으로 지난달 24일부터 시작된 7박 11일 순방이 마무리된다. 이 대통령은 첫 방문지인 미국 샌프란시스코에서 엔비디아의 젠슨 황, 오픈AI의 샘 올트먼 등 미국",
+      "u": "https://www.chosun.com/economy/economy_general/2026/08/02/HFSDAM3CHFTDIMBVMIYDQMZSG4/",
+      "m": "08. 02. AM 07:01",
+      "ts": 1785654069000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",

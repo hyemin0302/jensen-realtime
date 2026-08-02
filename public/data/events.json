@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-07-29T16:47:55.887Z",
+  "updatedAt": "2026-08-02T07:28:00.872Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785654069000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착",
+        "en": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착"
+      },
+      "url": "https://www.chosun.com/economy/economy_general/2026/08/02/HFSDAM3CHFTDIMBVMIYDQMZSG4/",
+      "location": {
+        "name": {
+          "ko": "독일 프랑크푸르트",
+          "en": "독일 프랑크푸르트"
+        }
+      },
+      "datetime": "2026-08-02T07:01:09.000Z",
+      "datetime_display": {
+        "ko": "08. 02. AM 07:01",
+        "en": "08. 02. AM 07:01"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "이재명 대통령이 2일(현지 시각) 순방 마지막 일정을 위해 독일 프랑크푸르트에 도착했다. 이 대통령은 이날 오후 현지에 거주하는 동포들과 오찬 간담회에서 애로사항을 들을 예정이다. 이번 간담회를 끝으로 지난달 24일부터 시작된 7박 11일 순방이 마무리된다. 이 대통령은 첫 방문지인 미국 샌프란시스코에서 엔비디아의 젠슨 황, 오픈AI의 샘 올트먼 등 미국",
+        "en": "이재명 대통령이 2일(현지 시각) 순방 마지막 일정을 위해 독일 프랑크푸르트에 도착했다. 이 대통령은 이날 오후 현지에 거주하는 동포들과 오찬 간담회에서 애로사항을 들을 예정이다. 이번 간담회를 끝으로 지난달 24일부터 시작된 7박 11일 순방이 마무리된다. 이 대통령은 첫 방문지인 미국 샌프란시스코에서 엔비디아의 젠슨 황, 오픈AI의 샘 올트먼 등 미국"
+      },
+      "summary": {
+        "ko": [
+          "이재명 대통령이 2일(현지 시각) 순방 마지막 일정을 위해 독일 프랑크푸르트에 도착했다.",
+          "이 대통령은 이날 오후 현지에 거주하는 동포들과 오찬 간담회에서 애로사항을 들을 예정이다."
+        ],
+        "en": [
+          "이재명 대통령이 2일(현지 시각) 순방 마지막 일정을 위해 독일 프랑크푸르트에 도착했다. 이 대통령은 이날 오후 현지에 거주하는 동포들과 오찬 간담회에서 애로사항을 들을 예정이다. 이번 간담회를 끝으로 지난달 24일부터 시작된 7박 11일 순방이 마무리된다. 이 대통령은 첫 방문지인 미국 샌프란시스코에서 엔비디아의 젠슨 황, 오픈AI의 샘 올트먼 등 미국"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착",
+            "en": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착"
+          },
+          "url": "https://www.chosun.com/economy/economy_general/2026/08/02/HFSDAM3CHFTDIMBVMIYDQMZSG4/",
+          "time": "08. 02. AM 07:01"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785339300000",
       "type": "announcement",

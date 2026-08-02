@@ -1,12 +1,17 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-02T04:49:44.461Z",
+  "updatedAt": "2026-08-02T07:28:05.672Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-08-02",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-02",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -87,11 +92,6 @@
     {
       "version": "2.0.0",
       "date": "2026-08-01",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-07-31",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -105,16 +105,41 @@
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-02T04:49:44.461Z",
+  "lastPolledAt": "2026-08-02T07:28:05.673Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 1,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 48,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착",
+        "en": "President Lee Arrives in Germany for Final Leg of 7-Day 11-City Tour"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "프랑크푸르트",
+          "en": "Frankfurt"
+        },
+        "country": "DE"
+      },
+      "kind": "visit",
+      "confidence": 1,
+      "reason": "이 대통령은 이날 오후 현지에 거주하는 동포들과 오찬 간담회에서 애로사항을 들을 예정이다.",
+      "source": {
+        "publisher": "조선일보",
+        "title": "李대통령, ‘7박 11일’ 순방 마지막 일정 독일 도착",
+        "url": "https://www.chosun.com/economy/economy_general/2026/08/02/HFSDAM3CHFTDIMBVMIYDQMZSG4/",
+        "time": "08. 02. AM 07:01"
+      },
+      "extracted_at": "2026-08-02T07:27:59.193Z"
+    }
+  ]
 }
