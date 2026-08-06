@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-02T07:28:00.872Z",
+  "updatedAt": "2026-08-06T07:59:00.691Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1785997095000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
+        "en": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문"
+      },
+      "url": "https://www.hankyung.com/article/202608068488i",
+      "location": {
+        "name": {
+          "ko": "실리콘밸리",
+          "en": "실리콘밸리"
+        }
+      },
+      "datetime": "2026-08-06T06:18:15.000Z",
+      "datetime_display": {
+        "ko": "08. 06. AM 06:18",
+        "en": "08. 06. AM 06:18"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
+        "en": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문"
+      },
+      "summary": {
+        "ko": [
+          "LG그룹 회장 구광모가 다음 주 미국 엔비디아 본사를 방문해 젠슨 황 CEO와 만나 로봇, AI 인프라, 스마트 제조 및 데이터센터 냉각 기술 등 양사의 미래 사업 협력 방안을 구체화할 예정이다.",
+          "양사 경영진이 최근 수개월간 한국과 미국을 오가며 논의해온 로봇, 인공지능(AI) 인프라, 자율주행 등 협력을 한층 구체화하기 위해서다."
+        ],
+        "en": [
+          "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
+            "en": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문"
+          },
+          "url": "https://www.hankyung.com/article/202608068488i",
+          "time": "08. 06. AM 06:18"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785654069000",
       "type": "announcement",
