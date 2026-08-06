@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-06T07:59:03.551Z",
+  "updatedAt": "2026-08-06T10:42:02.391Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-06",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-06",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-08-04",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-04",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-06T07:59:03.551Z",
+  "lastPolledAt": "2026-08-06T10:42:02.392Z",
   "lastPollReport": {
     "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
   "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
-        "en": "Goo Kwang-mo, Jensen Huang Invited to Visit NVIDIA Headquarters"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "visit",
-      "confidence": 0.9,
-      "reason": "엔비디아 본사 방문",
-      "source": {
-        "publisher": "한국경제",
-        "title": "[단독] 구광모, 젠슨 황 초청에 답방…엔비디아 본사 방문",
-        "url": "https://www.hankyung.com/article/202608068488i",
-        "time": "08. 06. AM 06:18"
-      },
-      "extracted_at": "2026-08-06T07:58:59.150Z"
-    }
-  ]
+  "pending_timeline": []
 }

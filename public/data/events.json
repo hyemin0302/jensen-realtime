@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-06T07:59:00.691Z",
+  "updatedAt": "2026-08-06T10:41:56.997Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786007669000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황",
+        "en": "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황"
+      },
+      "url": "https://www.hankyung.com/article/2026080693391",
+      "location": {
+        "name": {
+          "ko": "실리콘밸리",
+          "en": "실리콘밸리"
+        }
+      },
+      "datetime": "2026-08-06T09:14:29.000Z",
+      "datetime_display": {
+        "ko": "08. 06. AM 09:14",
+        "en": "08. 06. AM 09:14"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황",
+        "en": "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황"
+      },
+      "summary": {
+        "ko": [
+          "구광모 LG그룹 회장이 다음주 미국 실리콘밸리에서 젠슨 황 엔비디아 최고경영자(CEO)를 만난다.",
+          "양사 관계자들이 그 사이 한국과 미국을 오가며 로봇, 인공지능(AI) 인프라, 스마트 제조 등의 분야의 협력 방안이 공개될지 관심이다."
+        ],
+        "en": [
+          "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황",
+            "en": "[단독] 두달 만에 다시 만나는 구광모와 젠슨 황"
+          },
+          "url": "https://www.hankyung.com/article/2026080693391",
+          "time": "08. 06. AM 09:14"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1785997095000",
       "type": "announcement",
