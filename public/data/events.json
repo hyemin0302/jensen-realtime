@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-09T01:07:58.980Z",
+  "updatedAt": "2026-08-09T11:53:22.350Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786275025000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다",
+        "en": "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다"
+      },
+      "url": "https://www.chosun.com/entertainments/celebrity/2026/08/09/RHWW34PAEBHVLNIUJWQN43GCFY/",
+      "location": null,
+      "datetime": "2026-08-09T11:30:25.000Z",
+      "datetime_display": {
+        "ko": "08. 09. AM 11:30",
+        "en": "08. 09. AM 11:30"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다",
+        "en": "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다"
+      },
+      "summary": {
+        "ko": [
+          "젠슨황은 화사와의 만남을 통해 감동을 받았다.",
+          "손편지로 감사 인사를 했다."
+        ],
+        "en": [
+          "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다",
+            "en": "젠슨황 누군지 몰랐던 화사…손편지로 감사 인사했다"
+          },
+          "url": "https://www.chosun.com/entertainments/celebrity/2026/08/09/RHWW34PAEBHVLNIUJWQN43GCFY/",
+          "time": "08. 09. AM 11:30"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786234440000",
       "type": "announcement",
