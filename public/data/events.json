@@ -1,8 +1,78 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-06T10:41:56.997Z",
+  "updatedAt": "2026-08-09T01:07:58.980Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786234440000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "화사, 뼈말라됐지만 식욕 여전..'덕자찜' 폭풍 흡입 또 대란 일으키나 ('미우새')",
+        "en": "화사, 뼈말라됐지만 식욕 여전..'덕자찜' 폭풍 흡입 또 대란 일으키나 ('미우새')"
+      },
+      "url": "https://www.chosun.com/entertainments/broadcast/2026/08/09/GRRGIMRSG5QTGNLGGBTGMOJTMY/",
+      "location": {
+        "name": {
+          "ko": "남대문 시장",
+          "en": "남대문 시장"
+        }
+      },
+      "datetime": "2026-08-09T00:14:00.000Z",
+      "datetime_display": {
+        "ko": "08. 09. AM 12:14",
+        "en": "08. 09. AM 12:14"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "[OSEN=최이정 기자] ‘띠동갑 나이 차’를 뛰어넘은 연예계 대표 절친 한혜진과 화사가 남대문 시장 목욕용품 싹쓸이부터 젠슨 황 CEO와의 특별한 비하인드까지 공개했다.오늘(9일) 오후 9시 방송되는 SBS 예능프로그램 ‘미운 우리 새끼’(이하 ‘미우새’)에서는 월드투어로 바쁜 절친 화사를 위해 스페셜 힐링 코스를 준비한 한혜진의 특별한 하루가 그려진다.",
+        "en": "[OSEN=최이정 기자] ‘띠동갑 나이 차’를 뛰어넘은 연예계 대표 절친 한혜진과 화사가 남대문 시장 목욕용품 싹쓸이부터 젠슨 황 CEO와의 특별한 비하인드까지 공개했다.오늘(9일) 오후 9시 방송되는 SBS 예능프로그램 ‘미운 우리 새끼’(이하 ‘미우새’)에서는 월드투어로 바쁜 절친 화사를 위해 스페셜 힐링 코스를 준비한 한혜진의 특별한 하루가 그려진다."
+      },
+      "summary": {
+        "ko": [
+          "한혜진과 화사가 남대문 시장 목욕용품 싹쓸이",
+          "젠슨 황 CEO와의 특별한 비하인드까지 공개"
+        ],
+        "en": [
+          "[OSEN=최이정 기자] ‘띠동갑 나이 차’를 뛰어넘은 연예계 대표 절친 한혜진과 화사가 남대문 시장 목욕용품 싹쓸이부터 젠슨 황 CEO와의 특별한 비하인드까지 공개했다.오늘(9일) 오후 9시 방송되는 SBS 예능프로그램 ‘미운 우리 새끼’(이하 ‘미우새’)에서는 월드투어로 바쁜 절친 화사를 위해 스페셜 힐링 코스를 준비한 한혜진의 특별한 하루가 그려진다."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "화사, 뼈말라됐지만 식욕 여전..'덕자찜' 폭풍 흡입 또 대란 일으키나 ('미우새')",
+            "en": "화사, 뼈말라됐지만 식욕 여전..'덕자찜' 폭풍 흡입 또 대란 일으키나 ('미우새')"
+          },
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/08/09/GRRGIMRSG5QTGNLGGBTGMOJTMY/",
+          "time": "08. 09. AM 12:14"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786007669000",
       "type": "announcement",
