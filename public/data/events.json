@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-09T13:42:50.018Z",
+  "updatedAt": "2026-08-10T01:09:39.367Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786322241000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\"",
+        "en": "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\""
+      },
+      "url": "https://www.hankyung.com/article/202608103488H",
+      "location": null,
+      "datetime": "2026-08-10T00:37:21.000Z",
+      "datetime_display": {
+        "ko": "08. 10. AM 12:37",
+        "en": "08. 10. AM 12:37"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\"",
+        "en": "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\""
+      },
+      "summary": {
+        "ko": [
+          "화사가 엔비디아 최고경영자(CEO) 젠슨 황의 깜짝 팬심 고백에 대한 솔직한 심경을 털어놓으며 감사의 마음을 표했다.",
+          "화사는 절친한 관계인 모델 한혜진과 힐링 데이트 현장을 공개하며 남다른 먹방을 선보였다."
+        ],
+        "en": [
+          "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\""
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\"",
+            "en": "화사 \"젠슨 황? 모르는 분…샤라웃에 AI 영상인줄 알아\""
+          },
+          "url": "https://www.hankyung.com/article/202608103488H",
+          "time": "08. 10. AM 12:37"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786280640000",
       "type": "announcement",
