@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-11T11:12:17.908Z",
+  "updatedAt": "2026-08-11T12:05:52.666Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
@@ -12,27 +12,12 @@
     {
       "version": "2.0.0",
       "date": "2026-08-11",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-11",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-11",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-11",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-11",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-11",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -51,6 +36,26 @@
     },
     {
       "version": "2.0.0",
+      "date": "2026-08-11",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-11",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-11",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-11",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
       "date": "2026-08-10",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-08-10",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-10",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-11T11:12:17.908Z",
+  "lastPolledAt": "2026-08-11T12:05:52.666Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "엔비디아, 월가 거물들과 709조원 AI투자…‘순환투자’ 우려 커져",
-        "en": "NVIDIA, 709 trillion KRW AI Investment with Wall Street Giants"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "US"
-      },
-      "kind": "announcement",
-      "confidence": 0.5,
-      "reason": "투자자금 마련에 대한 언급",
-      "source": {
-        "publisher": "동아일보",
-        "title": "엔비디아, 월가 거물들과 709조원 AI투자…‘순환투자’ 우려 커져",
-        "url": "https://www.donga.com/news/Economy/article/all/20260811/134458735/1",
-        "time": "08. 11. AM 09:17"
-      },
-      "extracted_at": "2026-08-11T11:12:14.456Z"
-    }
-  ]
+  "zeroNewsStreak": 2,
+  "pending_timeline": []
 }
