@@ -1,17 +1,12 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-12T11:40:58.944Z",
+  "updatedAt": "2026-08-12T12:52:22.197Z",
   "updatedBy": "orchestrator",
   "changelog": [
     {
       "version": "2.0.0",
       "date": "2026-08-12",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-12",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -32,6 +27,16 @@
     {
       "version": "2.0.0",
       "date": "2026-08-12",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-12",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-12",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
@@ -68,11 +73,6 @@
       "version": "2.0.0",
       "date": "2026-08-11",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-11",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     },
     {
       "version": "2.0.0",
@@ -105,9 +105,9 @@
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-12T11:40:59.036Z",
+  "lastPolledAt": "2026-08-12T12:52:22.197Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
     "pendingTimelineCount": 1,
     "stockCount": 35,
@@ -115,12 +115,12 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
+  "zeroNewsStreak": 0,
   "pending_timeline": [
     {
       "title": {
-        "ko": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성",
-        "en": "SK Hynix to Host Groundbreaking Ceremony for Indiana Fab on 27th"
+        "ko": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+        "en": "SKhynix, IndianaFAB 27th groundbreaking ceremony... Meet Cho Tae-woon and Jensen Huang"
       },
       "datetime": null,
       "location": {
@@ -131,15 +131,15 @@
         "country": "US"
       },
       "kind": "meeting",
-      "confidence": 0.8,
-      "reason": "업계에 따르면 SK하이닉스는 착공식 날짜를 확정하고 주요 고객사·협력사에 초청장을 발송했다.",
+      "confidence": 0.9,
+      "reason": "인디애나팹 27일 착공식에 최태원과 젠슨 황이 참석한다는 보도",
       "source": {
-        "publisher": "조선일보",
-        "title": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성",
-        "url": "https://www.chosun.com/economy/tech_it/2026/08/12/HBSGMZBSMUZGEYRYGFRWGZLDMI/",
-        "time": "08. 12. AM 10:38"
+        "publisher": "한국경제",
+        "title": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+        "url": "https://www.hankyung.com/article/2026081277966",
+        "time": "08. 12. PM 12:20"
       },
-      "extracted_at": "2026-08-12T11:40:55.866Z"
+      "extracted_at": "2026-08-12T12:52:15.641Z"
     }
   ]
 }

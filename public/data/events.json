@@ -1,8 +1,94 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-12T10:54:07.925Z",
+  "updatedAt": "2026-08-12T12:52:17.211Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786537214000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "진행중",
+      "status_label": {
+        "ko": "진행중",
+        "en": "planned"
+      },
+      "confidence": "유력",
+      "confidence_label": {
+        "ko": "유력",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+        "en": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나"
+      },
+      "url": "https://www.hankyung.com/article/2026081277966",
+      "location": {
+        "name": {
+          "ko": "인디애나주",
+          "en": "인디애나주"
+        }
+      },
+      "datetime": "2026-08-12T12:20:14.000Z",
+      "datetime_display": {
+        "ko": "08. 12. PM 12:20",
+        "en": "08. 12. PM 12:20"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+        "en": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나"
+      },
+      "summary": {
+        "ko": [
+          "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+          "SK하이닉스 의 미국 인디애나주(州) 첨단 반도체 패키징 생산기지 착공식이 오는 27일(현지시간) 열린다."
+        ],
+        "en": [
+          "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나",
+            "en": "SK하이닉스, 인디애나팹 27일 착공식…최태원·젠슨 황 만나나"
+          },
+          "url": "https://www.hankyung.com/article/2026081277966",
+          "time": "08. 12. PM 12:20"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786531090000",
       "type": "announcement",
