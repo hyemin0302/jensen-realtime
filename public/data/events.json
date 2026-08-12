@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-12T16:24:54.755Z",
+  "updatedAt": "2026-08-12T22:32:41.721Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786572997000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지",
+        "en": "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지"
+      },
+      "url": "https://www.hankyung.com/article/2026081380157",
+      "location": null,
+      "datetime": "2026-08-12T22:16:37.000Z",
+      "datetime_display": {
+        "ko": "08. 12. PM 10:16",
+        "en": "08. 12. PM 10:16"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지",
+        "en": "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 최고경영자(CEO)가 직원들이 꼽은 최고의 CEO에 올랐다.",
+          "임직원 지지율은 99%에 달했다."
+        ],
+        "en": [
+          "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지",
+            "en": "\"시총 1위 '록스타 CEO' 최고\"…젠슨 황 향한 압도적 지지"
+          },
+          "url": "https://www.hankyung.com/article/2026081380157",
+          "time": "08. 12. PM 10:16"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786548600000",
       "type": "announcement",
