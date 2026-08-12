@@ -1,8 +1,94 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-12T08:10:51.821Z",
+  "updatedAt": "2026-08-12T10:54:07.925Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786531090000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "진행중",
+      "status_label": {
+        "ko": "진행중",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성",
+        "en": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/08/12/HBSGMZBSMUZGEYRYGFRWGZLDMI/",
+      "location": {
+        "name": {
+          "ko": "인디애나주 웨스트라피엣",
+          "en": "인디애나주 웨스트라피엣"
+        }
+      },
+      "datetime": "2026-08-12T10:38:10.000Z",
+      "datetime_display": {
+        "ko": "08. 12. AM 10:38",
+        "en": "08. 12. AM 10:38"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "SK하이닉스가 미국 인디애나주 웨스트라피엣에 건설 중인 반도체 패키징 팹의 착공식을 오는 27일(현지시각) 개최한다. 12일 업계에 따르면 SK하이닉스는 착공식 날짜를 확정하고 주요 고객사·협력사에 초청장을 발송했다. 행사에는 곽노정 대표이사 등 경영진과 빅테크 CEO급 인사들이 참석할 것으로 전해졌다. 최태원 SK그룹 회장과 젠슨 황 엔비디아 CEO도 함",
+        "en": "SK하이닉스가 미국 인디애나주 웨스트라피엣에 건설 중인 반도체 패키징 팹의 착공식을 오는 27일(현지시각) 개최한다. 12일 업계에 따르면 SK하이닉스는 착공식 날짜를 확정하고 주요 고객사·협력사에 초청장을 발송했다. 행사에는 곽노정 대표이사 등 경영진과 빅테크 CEO급 인사들이 참석할 것으로 전해졌다. 최태원 SK그룹 회장과 젠슨 황 엔비디아 CEO도 함"
+      },
+      "summary": {
+        "ko": [
+          "SK하이닉스가 미국 인디애나주 웨스트라피엣에 건설 중인 반도체 패키징 팹의 착공식을 오는 27일 개최한다.",
+          "행사에는 곽노정 대표이사 등 경영진과 빅테크 CEO급 인사들이 참석할 것으로 전해졌다."
+        ],
+        "en": [
+          "SK하이닉스가 미국 인디애나주 웨스트라피엣에 건설 중인 반도체 패키징 팹의 착공식을 오는 27일(현지시각) 개최한다. 12일 업계에 따르면 SK하이닉스는 착공식 날짜를 확정하고 주요 고객사·협력사에 초청장을 발송했다. 행사에는 곽노정 대표이사 등 경영진과 빅테크 CEO급 인사들이 참석할 것으로 전해졌다. 최태원 SK그룹 회장과 젠슨 황 엔비디아 CEO도 함"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "000660",
+          "name": {
+            "ko": "SK하이닉스",
+            "en": "SK하이닉스"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성",
+            "en": "SK하이닉스, 27일 인디애나 팹 착공식…최태원·젠슨 황 참석 가능성"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/08/12/HBSGMZBSMUZGEYRYGFRWGZLDMI/",
+          "time": "08. 12. AM 10:38"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786519860000",
       "type": "announcement",
