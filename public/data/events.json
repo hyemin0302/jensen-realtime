@@ -1,8 +1,94 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-13T16:24:28.357Z",
+  "updatedAt": "2026-08-13T21:37:08.354Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786654800000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "두 달만에 재회하는 구광모·젠슨황…‘피지컬 AI·데이터센터’ 초대형 동맹 주목",
+        "en": "두 달만에 재회하는 구광모·젠슨황…‘피지컬 AI·데이터센터’ 초대형 동맹 주목"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/08/14/MFTDAMJQGAZWMMJZGA2GCNTDHE/",
+      "location": {
+        "name": {
+          "ko": "미국 캘리포니아주 산타클라라",
+          "en": "미국 캘리포니아주 산타클라라"
+        }
+      },
+      "datetime": "2026-08-13T21:00:00.000Z",
+      "datetime_display": {
+        "ko": "08. 13. PM 09:00",
+        "en": "08. 13. PM 09:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "구광모 LG그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO) 회동에 시장의 관심이 쏠리고 있다. 양측은 피지컬 인공지능(AI), AI 팩토리, AI 데이터센터 등 3대 사업을 중심으로 전략적 파트너십을 구체화할 것이란 전망이 나온다. 14일 재계에 따르면 구 회장은 미국 캘리포니아주 산타클라라 엔비디아 본사를 찾아 황 CEO와 만날 예정이다. 엔비디아 측의",
+        "en": "구광모 LG그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO) 회동에 시장의 관심이 쏠리고 있다. 양측은 피지컬 인공지능(AI), AI 팩토리, AI 데이터센터 등 3대 사업을 중심으로 전략적 파트너십을 구체화할 것이란 전망이 나온다. 14일 재계에 따르면 구 회장은 미국 캘리포니아주 산타클라라 엔비디아 본사를 찾아 황 CEO와 만날 예정이다. 엔비디아 측의"
+      },
+      "summary": {
+        "ko": [
+          "구광모 LG그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO) 회동에 시장의 관심이 쏠리고 있다.",
+          "양측은 피지컬 인공지능(AI), AI 팩토리, AI 데이터센터 등 3대 사업을 중심으로 전략적 파트너십을 구체화할 것이란 전망이 나온다."
+        ],
+        "en": [
+          "구광모 LG그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO) 회동에 시장의 관심이 쏠리고 있다. 양측은 피지컬 인공지능(AI), AI 팩토리, AI 데이터센터 등 3대 사업을 중심으로 전략적 파트너십을 구체화할 것이란 전망이 나온다. 14일 재계에 따르면 구 회장은 미국 캘리포니아주 산타클라라 엔비디아 본사를 찾아 황 CEO와 만날 예정이다. 엔비디아 측의"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "두 달만에 재회하는 구광모·젠슨황…‘피지컬 AI·데이터센터’ 초대형 동맹 주목",
+            "en": "두 달만에 재회하는 구광모·젠슨황…‘피지컬 AI·데이터센터’ 초대형 동맹 주목"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/08/14/MFTDAMJQGAZWMMJZGA2GCNTDHE/",
+          "time": "08. 13. PM 09:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786635000000",
       "type": "announcement",

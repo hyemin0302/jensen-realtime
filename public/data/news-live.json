@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-13T20:34:04.613Z",
-  "count": 2,
+  "updatedAt": "2026-08-13T21:37:08.362Z",
+  "count": 3,
   "items": [
+    {
+      "s": "조선일보",
+      "t": "두 달만에 재회하는 구광모·젠슨황…‘피지컬 AI·데이터센터’ 초대형 동맹 주목",
+      "d": "구광모 LG그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO) 회동에 시장의 관심이 쏠리고 있다. 양측은 피지컬 인공지능(AI), AI 팩토리, AI 데이터센터 등 3대 사업을 중심으로 전략적 파트너십을 구체화할 것이란 전망이 나온다. 14일 재계에 따르면 구 회장은 미국 캘리포니아주 산타클라라 엔비디아 본사를 찾아 황 CEO와 만날 예정이다. 엔비디아 측의",
+      "u": "https://www.chosun.com/economy/industry-company/2026/08/14/MFTDAMJQGAZWMMJZGA2GCNTDHE/",
+      "m": "08. 13. PM 09:00",
+      "ts": 1786654800000,
+      "stocks": [
+        "066570"
+      ],
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
