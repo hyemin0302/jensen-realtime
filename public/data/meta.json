@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-13T08:16:51.309Z",
+  "updatedAt": "2026-08-13T09:38:45.606Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-13",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-13",
@@ -98,72 +103,18 @@
       "version": "2.0.0",
       "date": "2026-08-12",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-12",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-13T08:16:51.310Z",
+  "lastPolledAt": "2026-08-13T09:38:45.606Z",
   "lastPollReport": {
     "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 2,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
   "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "SK하이닉스, 27일 인디애나팹 착공식…최태원·젠슨황 또 만날까",
-        "en": "SK Hynix to Host Groundbreaking Ceremony for Indiana Fab on 27th"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "인디애나",
-          "en": "Indiana"
-        },
-        "country": "US"
-      },
-      "kind": "meeting",
-      "confidence": 0.9,
-      "reason": "SK하이닉스의 미국 인디애나주 반도체 공장(팹) 착공식이 27일(현지시간)에 열릴 예정이다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "SK하이닉스, 27일 인디애나팹 착공식…최태원·젠슨황 또 만날까",
-        "url": "https://www.donga.com/news/Economy/article/all/20260813/134472629/1",
-        "time": "08. 13. AM 07:01"
-      },
-      "extracted_at": "2026-08-13T08:16:45.148Z"
-    },
-    {
-      "title": {
-        "ko": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-        "en": "NVIDIA CEO Ranked No. 1 on Glassdoor’s Best CEOs List for 2026"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "announcement",
-      "confidence": 0.5,
-      "reason": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026.",
-      "source": {
-        "publisher": "NVIDIA공식",
-        "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-        "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-        "time": "08. 12. PM 02:00"
-      },
-      "extracted_at": "2026-08-13T08:16:45.148Z"
-    }
-  ]
+  "pending_timeline": []
 }
