@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-13T21:37:14.338Z",
+  "updatedAt": "2026-08-13T22:33:44.196Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-13",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-13",
@@ -98,16 +103,11 @@
       "version": "2.0.0",
       "date": "2026-08-12",
       "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-12",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-13T21:37:14.338Z",
+  "lastPolledAt": "2026-08-13T22:33:44.197Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
     "pendingTimelineCount": 2,
     "stockCount": 35,
@@ -115,7 +115,7 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
+  "zeroNewsStreak": 1,
   "pending_timeline": [
     {
       "title": {
@@ -139,12 +139,12 @@
         "url": "https://www.chosun.com/economy/industry-company/2026/08/14/MFTDAMJQGAZWMMJZGA2GCNTDHE/",
         "time": "08. 13. PM 09:00"
       },
-      "extracted_at": "2026-08-13T21:37:06.488Z"
+      "extracted_at": "2026-08-13T22:33:39.253Z"
     },
     {
       "title": {
         "ko": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-        "en": "NVIDIA CEO Ranked No. 1 on Glassdoor’s Best CEOs List"
+        "en": "NVIDIA CEO Ranked No. 1 on Glassdoor’s Best CEOs list"
       },
       "datetime": null,
       "location": {
@@ -163,7 +163,7 @@
         "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
         "time": "08. 12. PM 02:00"
       },
-      "extracted_at": "2026-08-13T21:37:06.488Z"
+      "extracted_at": "2026-08-13T22:33:39.253Z"
     }
   ]
 }
