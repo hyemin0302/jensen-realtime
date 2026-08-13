@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-12T22:32:41.721Z",
+  "updatedAt": "2026-08-13T03:37:14.660Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786584493000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "CEO 못 믿겠다는 미국 직장인 늘었는데…젠슨 황은 ‘99% 지지’",
+        "en": "CEO 못 믿겠다는 미국 직장인 늘었는데…젠슨 황은 ‘99% 지지’"
+      },
+      "url": "https://www.donga.com/news/Inter/article/all/20260813/134470189/2",
+      "location": null,
+      "datetime": "2026-08-13T01:28:13.000Z",
+      "datetime_display": {
+        "ko": "08. 13. AM 01:28",
+        "en": "08. 13. AM 01:28"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "미국 기업 CEO에 대한 직원 신뢰가 2017년 이후 최저 수준으로 떨어진 가운데 엔비디아 젠슨 황 CEO가 직원 지지율 99%로 미국 최고의 CEO에 선정됐다.",
+        "en": "미국 기업 CEO에 대한 직원 신뢰가 2017년 이후 최저 수준으로 떨어진 가운데 엔비디아 젠슨 황 CEO가 직원 지지율 99%로 미국 최고의 CEO에 선정됐다."
+      },
+      "summary": {
+        "ko": [
+          "미국 기업 CEO에 대한 직원 신뢰가 2017년 이후 최저 수준으로 떨어진 가운데",
+          "엔비디아 젠슨 황 CEO가 직원 지지율 99%로 미국 최고의 CEO에 선정됐다."
+        ],
+        "en": [
+          "미국 기업 CEO에 대한 직원 신뢰가 2017년 이후 최저 수준으로 떨어진 가운데 엔비디아 젠슨 황 CEO가 직원 지지율 99%로 미국 최고의 CEO에 선정됐다."
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "동아일보",
+            "en": "동아일보"
+          },
+          "title": {
+            "ko": "CEO 못 믿겠다는 미국 직장인 늘었는데…젠슨 황은 ‘99% 지지’",
+            "en": "CEO 못 믿겠다는 미국 직장인 늘었는데…젠슨 황은 ‘99% 지지’"
+          },
+          "url": "https://www.donga.com/news/Inter/article/all/20260813/134470189/2",
+          "time": "08. 13. AM 01:28"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786572997000",
       "type": "announcement",
