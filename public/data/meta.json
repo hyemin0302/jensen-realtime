@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-13T17:26:43.272Z",
+  "updatedAt": "2026-08-13T18:25:43.943Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-13",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-13",
@@ -98,14 +103,9 @@
       "version": "2.0.0",
       "date": "2026-08-12",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-12",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-13T17:26:43.272Z",
+  "lastPolledAt": "2026-08-13T18:25:43.943Z",
   "lastPollReport": {
     "newsCards": 0,
     "autoTimelineAdded": 0,
@@ -115,7 +115,7 @@
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 1,
+  "zeroNewsStreak": 2,
   "pending_timeline": [
     {
       "title": {
@@ -139,7 +139,7 @@
         "url": "https://www.donga.com/news/Economy/article/all/20260813/134475040/2",
         "time": "08. 13. PM 03:30"
       },
-      "extracted_at": "2026-08-13T17:26:39.574Z"
+      "extracted_at": "2026-08-13T18:25:40.222Z"
     },
     {
       "title": {
@@ -163,7 +163,7 @@
         "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
         "time": "08. 12. PM 02:00"
       },
-      "extracted_at": "2026-08-13T17:26:39.574Z"
+      "extracted_at": "2026-08-13T18:25:40.222Z"
     }
   ]
 }
