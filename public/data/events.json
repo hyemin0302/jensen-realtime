@@ -1,8 +1,143 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-13T03:37:14.660Z",
+  "updatedAt": "2026-08-13T06:56:28.463Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786600205000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위",
+        "en": "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/08/13/GAF237AGBNFRPLR7MGXGIBHH4E/",
+      "location": null,
+      "datetime": "2026-08-13T05:50:05.000Z",
+      "datetime_display": {
+        "ko": "08. 13. AM 05:50",
+        "en": "08. 13. AM 05:50"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위",
+        "en": "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황이 미국 직원 뽑은 '최고 CEO' 1위에 선정되었습니다.",
+          "젠슨 황의 경영 능력과 리더십이 인정받은 것으로 보입니다."
+        ],
+        "en": [
+          "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위",
+            "en": "젠슨 황, 美 직원 뽑은 ‘최고 CEO’ 1위"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/08/13/GAF237AGBNFRPLR7MGXGIBHH4E/",
+          "time": "08. 13. AM 05:50"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결",
+        "en": "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/marketing/1272763.html",
+      "location": {
+        "name": {
+          "ko": "미국 실리콘밸리 엔비디아 본사",
+          "en": "미국 실리콘밸리 엔비디아 본사"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결",
+        "en": "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결"
+      },
+      "summary": {
+        "ko": [
+          "구광모 엘지(LG)그룹 회장이 젠슨 황 엔비디아 최고경영자(CEO)와 두 달 만에 다시 만나면서 두 회사의 전략적 파트너십 범위가 어느 정도로 구체화할지 관심이 쏠린다.",
+          "두 사람의 회동은 지난 6월 황 최고경영자의 방한을 계기로 서울 여의도 엘지트윈타워에서 이뤄진 비공개 만남 이후 두 달 만이다."
+        ],
+        "en": [
+          "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결",
+            "en": "구광모-젠슨 황 두 달 만에 다시 만난다…AI 3대 산업 파트너십 체결"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/marketing/1272763.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786584493000",
       "type": "announcement",
