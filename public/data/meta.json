@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-14T03:35:18.305Z",
+  "updatedAt": "2026-08-14T05:26:21.229Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-14",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-14",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-08-13",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-13",
-      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-14T03:35:18.305Z",
+  "lastPolledAt": "2026-08-14T05:26:21.229Z",
   "lastPollReport": {
-    "newsCards": 2,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "LG, 엔비디아와 휴머노이드 로봇 공동 개발…‘피지컬 AI’ 파트너로",
-        "en": "LG, NVIDIA Collaborate on Humanoid Robot Development"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "US"
-      },
-      "kind": "meeting",
-      "confidence": 0.9,
-      "reason": "LG그룹 대표와 젠슨 황 엔비디아 CEO가 미국 실리콘밸리 엔비디아 본사에서 만나 ‘전략적 사업협력을 위한 양해각서(MOU)’를 체결했다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "LG, 엔비디아와 휴머노이드 로봇 공동 개발…‘피지컬 AI’ 파트너로",
-        "url": "https://www.donga.com/news/Economy/article/all/20260814/134477518/1",
-        "time": "08. 14. AM 02:10"
-      },
-      "extracted_at": "2026-08-14T03:35:12.636Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
