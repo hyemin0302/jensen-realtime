@@ -1,8 +1,104 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-14T03:35:15.711Z",
+  "updatedAt": "2026-08-14T06:52:30.683Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786685518000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "구광모가 젠슨 황에게 건넨 선물은?…내년 1분기 선 뵐 ‘휴머노이드 로봇’",
+        "en": "구광모가 젠슨 황에게 건넨 선물은?…내년 1분기 선 뵐 ‘휴머노이드 로봇’"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/08/14/G42WKODCMVRDSYJRHE2WGM3CGE/",
+      "location": null,
+      "datetime": "2026-08-14T05:31:58.000Z",
+      "datetime_display": {
+        "ko": "08. 14. AM 05:31",
+        "en": "08. 14. AM 05:31"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "구광모 LG그룹 회장이 두 달 만에 젠슨 황 엔비디아 최고경영자(CEO)를 재회한 자리에서 내년 1분기에 선보일 LG그룹의 첫 이족보행 휴머노이드 로봇 생김새를 공개했다. LG전자가 지난 1월 세계 최대 가전·IT 전시회 ‘CES 2026’에서 공개한 가정용 로봇 ‘클로이드’와 상체는 유사하지만, 두 다리가 달린 게 다른 점이다. 클로이드는 상체는 사람과",
+        "en": "구광모 LG그룹 회장이 두 달 만에 젠슨 황 엔비디아 최고경영자(CEO)를 재회한 자리에서 내년 1분기에 선보일 LG그룹의 첫 이족보행 휴머노이드 로봇 생김새를 공개했다. LG전자가 지난 1월 세계 최대 가전·IT 전시회 ‘CES 2026’에서 공개한 가정용 로봇 ‘클로이드’와 상체는 유사하지만, 두 다리가 달린 게 다른 점이다. 클로이드는 상체는 사람과"
+      },
+      "summary": {
+        "ko": [
+          "구광모 LG그룹 회장이 두 달 만에 젠슨 황 엔비디아 최고경영자(CEO)를 재회한 자리에서 내년 1분기에 선보일 LG그룹의 첫 이족보행 휴머노이드 로봇 생김새를 공개했다.",
+          "LG전자가 지난 1월 세계 최대 가전·IT 전시회 'CES 2026'에서 공개한 가정용 로봇 '클로이드'와 상체는 유사하지만, 두 다리가 달린 게 다른 점이다."
+        ],
+        "en": [
+          "구광모 LG그룹 회장이 두 달 만에 젠슨 황 엔비디아 최고경영자(CEO)를 재회한 자리에서 내년 1분기에 선보일 LG그룹의 첫 이족보행 휴머노이드 로봇 생김새를 공개했다. LG전자가 지난 1월 세계 최대 가전·IT 전시회 ‘CES 2026’에서 공개한 가정용 로봇 ‘클로이드’와 상체는 유사하지만, 두 다리가 달린 게 다른 점이다. 클로이드는 상체는 사람과"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "구광모가 젠슨 황에게 건넨 선물은?…내년 1분기 선 뵐 ‘휴머노이드 로봇’",
+            "en": "구광모가 젠슨 황에게 건넨 선물은?…내년 1분기 선 뵐 ‘휴머노이드 로봇’"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/08/14/G42WKODCMVRDSYJRHE2WGM3CGE/",
+          "time": "08. 14. AM 05:31"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786673400000",
       "type": "announcement",
