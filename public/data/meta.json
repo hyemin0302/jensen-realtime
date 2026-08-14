@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-14T17:25:03.128Z",
+  "updatedAt": "2026-08-14T18:13:52.984Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-14",
+      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-14",
@@ -98,48 +103,18 @@
       "version": "2.0.0",
       "date": "2026-08-13",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-13",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-14T17:25:03.128Z",
+  "lastPolledAt": "2026-08-14T18:13:52.985Z",
   "lastPollReport": {
-    "newsCards": 1,
+    "newsCards": 0,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 1,
+    "pendingTimelineCount": 0,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 0,
-  "pending_timeline": [
-    {
-      "title": {
-        "ko": "엔비디아 두뇌-LG 몸체… 이족보행 합작 로봇 내년 나온다",
-        "en": "NVIDIA-LG Joint Robot to be Released Next Year"
-      },
-      "datetime": null,
-      "location": {
-        "city": {
-          "ko": "",
-          "en": ""
-        },
-        "country": "unknown"
-      },
-      "kind": "announcement",
-      "confidence": 0.9,
-      "reason": "내년 1분기 차세대 휴머노이드 로봇을 공개하고, 2028년 상반기 국내에 대규모 AI 팩토리를 공동 구축한다.",
-      "source": {
-        "publisher": "동아일보",
-        "title": "엔비디아 두뇌-LG 몸체… 이족보행 합작 로봇 내년 나온다",
-        "url": "https://www.donga.com/news/Economy/article/all/20260814/134482310/2",
-        "time": "08. 14. PM 04:40"
-      },
-      "extracted_at": "2026-08-14T17:24:58.092Z"
-    }
-  ]
+  "zeroNewsStreak": 1,
+  "pending_timeline": []
 }
