@@ -1,8 +1,447 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-13T21:37:08.354Z",
+  "updatedAt": "2026-08-14T01:17:43.481Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786669459000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개",
+        "en": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/08/14/HFLCS5WUXZEVPKJMZA5ZQYW42Q/",
+      "location": null,
+      "datetime": "2026-08-14T01:04:19.000Z",
+      "datetime_display": {
+        "ko": "08. 14. AM 01:04",
+        "en": "08. 14. AM 01:04"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개",
+        "en": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개"
+      },
+      "summary": {
+        "ko": [
+          "구광모·젠슨황 'AI협력' 강화",
+          "내년 '엔비디아 칩' 심은 휴머노이드 공개"
+        ],
+        "en": [
+          "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개",
+            "en": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/08/14/HFLCS5WUXZEVPKJMZA5ZQYW42Q/",
+          "time": "08. 14. AM 01:04"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1786669234000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "두 달만에 재회한 구광모·젠슨 황, 로봇·AI 팩토리·모빌리티 분야 협력키로",
+        "en": "두 달만에 재회한 구광모·젠슨 황, 로봇·AI 팩토리·모빌리티 분야 협력키로"
+      },
+      "url": "https://www.chosun.com/economy/industry-company/2026/08/14/GIYDGNRWGAYTSZTCMRRGKNRWGM/",
+      "location": {
+        "name": {
+          "ko": "미국 캘리포니아주 산타모니카",
+          "en": "미국 캘리포니아주 산타모니카"
+        }
+      },
+      "datetime": "2026-08-14T01:00:34.000Z",
+      "datetime_display": {
+        "ko": "08. 14. AM 01:00",
+        "en": "08. 14. AM 01:00"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "구광모 LG그룹 회장이 미국 엔비디아 본사에서 젠슨 황 엔비디아 최고경영자(CEO)를 만나 휴머노이드 로봇, 인공지능(AI) 팩토리, 모빌리티 등 3대 분야에서 AI 시대 표준을 만들기로 했다. 구 회장과 젠슨 황이 지난 6월 서울 여의도 LG트윈타워에서 열린 최고경영진 회동 이후 협의를 이어온 결과다. LG그룹은 13일(현지 시간) 미국 캘리포니아주 산타",
+        "en": "구광모 LG그룹 회장이 미국 엔비디아 본사에서 젠슨 황 엔비디아 최고경영자(CEO)를 만나 휴머노이드 로봇, 인공지능(AI) 팩토리, 모빌리티 등 3대 분야에서 AI 시대 표준을 만들기로 했다. 구 회장과 젠슨 황이 지난 6월 서울 여의도 LG트윈타워에서 열린 최고경영진 회동 이후 협의를 이어온 결과다. LG그룹은 13일(현지 시간) 미국 캘리포니아주 산타"
+      },
+      "summary": {
+        "ko": [
+          "구광모 LG그룹 회장이 미국 엔비디아 본사에서 젠슨 황 엔비디아 최고경영자(CEO)를 만나 휴머노이드 로봇, 인공지능(AI) 팩토리, 모빌리티 등 3대 분야에서 AI 시대 표준을 만들기로 했다.",
+          "LG그룹은 13일(현지 시간) 미국 캘리포니아주 산타모니카에서 열린 엔비디아 최고경영진 회동에서 이와 같은 협력을 발표했다."
+        ],
+        "en": [
+          "구광모 LG그룹 회장이 미국 엔비디아 본사에서 젠슨 황 엔비디아 최고경영자(CEO)를 만나 휴머노이드 로봇, 인공지능(AI) 팩토리, 모빌리티 등 3대 분야에서 AI 시대 표준을 만들기로 했다. 구 회장과 젠슨 황이 지난 6월 서울 여의도 LG트윈타워에서 열린 최고경영진 회동 이후 협의를 이어온 결과다. LG그룹은 13일(현지 시간) 미국 캘리포니아주 산타"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "두 달만에 재회한 구광모·젠슨 황, 로봇·AI 팩토리·모빌리티 분야 협력키로",
+            "en": "두 달만에 재회한 구광모·젠슨 황, 로봇·AI 팩토리·모빌리티 분야 협력키로"
+          },
+          "url": "https://www.chosun.com/economy/industry-company/2026/08/14/GIYDGNRWGAYTSZTCMRRGKNRWGM/",
+          "time": "08. 14. AM 01:00"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1786668302000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "[특징주] 구광모-젠슨 황 ‘실리콘밸리 재회’ 소식에… LG전자, 장 초반 4%대 강세",
+        "en": "[특징주] 구광모-젠슨 황 ‘실리콘밸리 재회’ 소식에… LG전자, 장 초반 4%대 강세"
+      },
+      "url": "https://www.chosun.com/economy/stock-finance/2026/08/14/MRRDAMBYGJRDANLEG43TOY3DG4/",
+      "location": {
+        "name": {
+          "ko": "실리콘밸리",
+          "en": "실리콘밸리"
+        }
+      },
+      "datetime": "2026-08-14T00:45:02.000Z",
+      "datetime_display": {
+        "ko": "08. 14. AM 12:45",
+        "en": "08. 14. AM 12:45"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "LG전자가 14일 장 초반 4%대 상승세를 보이고 있다. 구광모 LG그룹 회장이 젠슨 황 엔비디아 최고경영자(CEO)와 회동할 것이라는 소식이 시장에 번지면서 매수세가 몰리는 것으로 풀이된다. 이날 오전 9시 33분 현재 LG전자는 전 거래일 대비 8500원(4.12%) 상승한 21만5000원에 거래되고 있다. 구 회장은 미국 실리콘밸리에 위치한 엔비디아",
+        "en": "LG전자가 14일 장 초반 4%대 상승세를 보이고 있다. 구광모 LG그룹 회장이 젠슨 황 엔비디아 최고경영자(CEO)와 회동할 것이라는 소식이 시장에 번지면서 매수세가 몰리는 것으로 풀이된다. 이날 오전 9시 33분 현재 LG전자는 전 거래일 대비 8500원(4.12%) 상승한 21만5000원에 거래되고 있다. 구 회장은 미국 실리콘밸리에 위치한 엔비디아"
+      },
+      "summary": {
+        "ko": [
+          "LG전자가 14일 장 초반 4%대 상승세를 보이고 있다.",
+          "구광모 LG그룹 회장이 젠슨 황 엔비디아 최고경영자(CEO)와 회동할 것이라는 소식이 시장에 번지면서 매수세가 몰리는 것으로 풀이된다."
+        ],
+        "en": [
+          "LG전자가 14일 장 초반 4%대 상승세를 보이고 있다. 구광모 LG그룹 회장이 젠슨 황 엔비디아 최고경영자(CEO)와 회동할 것이라는 소식이 시장에 번지면서 매수세가 몰리는 것으로 풀이된다. 이날 오전 9시 33분 현재 LG전자는 전 거래일 대비 8500원(4.12%) 상승한 21만5000원에 거래되고 있다. 구 회장은 미국 실리콘밸리에 위치한 엔비디아"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "[특징주] 구광모-젠슨 황 ‘실리콘밸리 재회’ 소식에… LG전자, 장 초반 4%대 강세",
+            "en": "[특징주] 구광모-젠슨 황 ‘실리콘밸리 재회’ 소식에… LG전자, 장 초반 4%대 강세"
+          },
+          "url": "https://www.chosun.com/economy/stock-finance/2026/08/14/MRRDAMBYGJRDANLEG43TOY3DG4/",
+          "time": "08. 14. AM 12:45"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_1786667590000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등",
+        "en": "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등"
+      },
+      "url": "https://www.hankyung.com/article/2026081410026",
+      "location": {
+        "name": {
+          "ko": "실리콘밸리",
+          "en": "실리콘밸리"
+        }
+      },
+      "datetime": "2026-08-14T00:33:10.000Z",
+      "datetime_display": {
+        "ko": "08. 14. AM 12:33",
+        "en": "08. 14. AM 12:33"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등",
+        "en": "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등"
+      },
+      "summary": {
+        "ko": [
+          "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등",
+          "LG전자 가 14일 장 초반 급등하고 있다."
+        ],
+        "en": [
+          "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등",
+            "en": "LG전자, 구광모·젠슨 황 회동 앞두고 5%대 급등"
+          },
+          "url": "https://www.hankyung.com/article/2026081410026",
+          "time": "08. 14. AM 12:33"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개",
+        "en": "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1272904.html",
+      "location": {
+        "name": {
+          "ko": "엘지타워",
+          "en": "엘지타워"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개",
+        "en": "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개"
+      },
+      "summary": {
+        "ko": [
+          "구광모 엘지(LG)그룹 회장이 젠슨 황 엔비디아 최고경영자(CEO)와 로봇·인공지능(AI) 팩토리·모빌리티 등 3개 분야 협력에 속도를 내기로 했다.",
+          "엘지는 내년 1분기 엔비디아 기술 기반의 차세대 휴머노이드 로봇(인간을 본떠 만든 로봇)을 공개할 계획이다."
+        ],
+        "en": [
+          "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개",
+            "en": "구광모, 젠슨황과 AI 회동…LG, 내년 초 휴머노이드 로봇 공개"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1272904.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786654800000",
       "type": "announcement",
