@@ -1,8 +1,73 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-14T17:24:59.842Z",
+  "updatedAt": "2026-08-15T08:18:33.087Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786778058000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]",
+        "en": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]"
+      },
+      "url": "https://www.hankyung.com/article/202608141499g",
+      "location": null,
+      "datetime": "2026-08-15T07:14:18.000Z",
+      "datetime_display": {
+        "ko": "08. 15. AM 07:14",
+        "en": "08. 15. AM 07:14"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]",
+        "en": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]"
+      },
+      "summary": {
+        "ko": [
+          "아이폰만 쓰는 줄 알았는데... 젠슨 황이 꺼낸 '이 폰'의 반전",
+          "갤럭시, 상반기 점유율 세계 1위 주요 시장서 1·2위로 선두권 유지"
+        ],
+        "en": [
+          "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]",
+            "en": "\"아이폰만 쓰는 줄 알았는데\"…젠슨 황이 꺼낸 '이 폰'의 반전 [갤럭시 중간결산(下)]"
+          },
+          "url": "https://www.hankyung.com/article/202608141499g",
+          "time": "08. 15. AM 07:14"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786725600000",
       "type": "announcement",
