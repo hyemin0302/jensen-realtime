@@ -1,8 +1,109 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-17T06:55:24.545Z",
+  "updatedAt": "2026-08-17T07:45:18.872Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_0",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문",
+        "en": "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문"
+      },
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1273245.html",
+      "location": {
+        "name": {
+          "ko": "서울 서초구 양재동",
+          "en": "서울 서초구 양재동"
+        }
+      },
+      "datetime": "1970-01-01T00:00:00.000Z",
+      "datetime_display": {
+        "ko": "",
+        "en": ""
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문",
+        "en": "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문"
+      },
+      "summary": {
+        "ko": [
+          "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 '로봇훈련소' 방문",
+          "젠슨 황 엔비디아 최고경영자(CEO)의 장녀인 매디슨 황이 18일 방한해 엘지전자의 '로봇 훈련소'를 찾는다."
+        ],
+        "en": [
+          "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한겨레",
+            "en": "한겨레"
+          },
+          "title": {
+            "ko": "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문",
+            "en": "LG전자-엔비디아 협력 속도…젠슨 황 장녀 18일 양재 ‘로봇훈련소’ 방문"
+          },
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1273245.html",
+          "time": ""
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786946928000",
       "type": "announcement",
