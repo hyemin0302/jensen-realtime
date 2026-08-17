@@ -1,9 +1,14 @@
 {
   "version": "2.0.0",
   "schema": "events-v1",
-  "updatedAt": "2026-08-17T05:58:09.001Z",
+  "updatedAt": "2026-08-17T06:55:27.773Z",
   "updatedBy": "orchestrator",
   "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2026-08-17",
+      "note": "자동 배치: 뉴스 1건, 주가 35개, 인사이트 0개, 상태변경 0개"
+    },
     {
       "version": "2.0.0",
       "date": "2026-08-17",
@@ -98,23 +103,67 @@
       "version": "2.0.0",
       "date": "2026-08-16",
       "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-16",
-      "note": "자동 배치: 뉴스 0건, 주가 35개, 인사이트 0개, 상태변경 0개"
     }
   ],
-  "lastPolledAt": "2026-08-17T05:58:09.001Z",
+  "lastPolledAt": "2026-08-17T06:55:27.773Z",
   "lastPollReport": {
-    "newsCards": 0,
+    "newsCards": 1,
     "autoTimelineAdded": 0,
-    "pendingTimelineCount": 0,
+    "pendingTimelineCount": 2,
     "stockCount": 35,
     "insights": 0,
     "statusChanges": 0,
     "errors": 0
   },
-  "zeroNewsStreak": 3,
-  "pending_timeline": []
+  "zeroNewsStreak": 0,
+  "pending_timeline": [
+    {
+      "title": {
+        "ko": "젠슨 황 장녀 매디슨 황, LG R&D 캠퍼스 방문…피지컬 AI 동맹 가속",
+        "en": "Jensen Huang's daughter Madison Huang visits LG R&D campus…Physical AI alliance accelerates"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "visit",
+      "confidence": 0.5,
+      "reason": "젠슨 황 장녀 매디슨 황이 LG R&D 캠퍼스에 방문했다는 보도가 나왔습니다.",
+      "source": {
+        "publisher": "한국경제",
+        "title": "젠슨 황 장녀 매디슨 황, LG R&D 캠퍼스 방문…피지컬 AI 동맹 가속",
+        "url": "https://www.hankyung.com/article/202608175089i",
+        "time": "08. 17. AM 06:08"
+      },
+      "extracted_at": "2026-08-17T06:55:22.988Z"
+    },
+    {
+      "title": {
+        "ko": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대",
+        "en": "Jensen Huang's daughter visits LG Electronics Robotics site…Physical AI cooperation expected to strengthen"
+      },
+      "datetime": null,
+      "location": {
+        "city": {
+          "ko": "",
+          "en": ""
+        },
+        "country": "unknown"
+      },
+      "kind": "visit",
+      "confidence": 0.5,
+      "reason": "젠슨 황 장녀 매디슨 황이 LG전자 로보틱스 거점에 방문했다는 보도가 나왔습니다.",
+      "source": {
+        "publisher": "한국경제",
+        "title": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대",
+        "url": "https://www.hankyung.com/article/2026081749447",
+        "time": "08. 17. AM 03:10"
+      },
+      "extracted_at": "2026-08-17T06:55:22.988Z"
+    }
+  ]
 }
