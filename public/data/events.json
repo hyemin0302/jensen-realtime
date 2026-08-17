@@ -1,8 +1,109 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-15T08:18:33.087Z",
+  "updatedAt": "2026-08-17T03:25:45.940Z",
   "updatedBy": "news-agent",
   "events": [
+    {
+      "id": "evt_llm_1786936255000",
+      "type": "announcement",
+      "is_new": true,
+      "source_count": 1,
+      "status": "완료",
+      "status_label": {
+        "ko": "완료",
+        "en": "planned"
+      },
+      "confidence": "확정",
+      "confidence_label": {
+        "ko": "확정",
+        "en": "expected"
+      },
+      "title": {
+        "ko": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대",
+        "en": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대"
+      },
+      "url": "https://www.hankyung.com/article/2026081749447",
+      "location": {
+        "name": {
+          "ko": "서울 서초구 양재 연구개발(R&D) 캠퍼스",
+          "en": "서울 서초구 양재 연구개발(R&D) 캠퍼스"
+        }
+      },
+      "datetime": "2026-08-17T03:10:55.000Z",
+      "datetime_display": {
+        "ko": "08. 17. AM 03:10",
+        "en": "08. 17. AM 03:10"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대",
+        "en": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대"
+      },
+      "summary": {
+        "ko": [
+          "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대",
+          "LG전자 로보틱스 사업의 핵심 거점을 찾는다."
+        ],
+        "en": [
+          "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대"
+        ]
+      },
+      "related_stocks": [
+        {
+          "code": "066570",
+          "name": {
+            "ko": "LG전자",
+            "en": "LG전자"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        },
+        {
+          "code": "066575",
+          "name": {
+            "ko": "LG전자우",
+            "en": "LG전자우"
+          },
+          "theme": {
+            "ko": "관련주",
+            "en": "related"
+          },
+          "brief": {
+            "ko": "자동수집",
+            "en": "auto"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대",
+            "en": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…피지컬 AI 협력 강화 기대"
+          },
+          "url": "https://www.hankyung.com/article/2026081749447",
+          "time": "08. 17. AM 03:10"
+        }
+      ],
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": true,
+        "map_pin": false
+      },
+      "_auto": true,
+      "_llm": true
+    },
     {
       "id": "evt_llm_1786778058000",
       "type": "announcement",
