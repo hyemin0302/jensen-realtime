@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-08-27T06:30:51.462Z",
-  "count": 1,
+  "updatedAt": "2026-08-27T18:00:34.811Z",
+  "count": 2,
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "SpaceX’s Musk, David Sacks to Join Altman, Huang at G20 Event",
+      "d": "SpaceX Chief Executive Officer Elon Musk, who ran a brazen campaign in Washington to cut government spending last year, and former White House AI czar David Sacks are scheduled to speak at a tech-focused Group of 20 ministerial meeting in North Carolina next week, along with Nvidia Corp.’s Jensen Huang and OpenAI’s Sam Altman, people familiar with the matter said.",
+      "u": "https://www.bloomberg.com/news/articles/2026-08-27/spacex-s-musk-david-sacks-to-join-altman-huang-at-g20-event",
+      "m": "08. 27. PM 01:14",
+      "ts": 1787836496000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
