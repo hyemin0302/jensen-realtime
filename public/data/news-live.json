@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-09-07T11:13:47.559Z",
-  "count": 2,
+  "updatedAt": "2026-09-07T16:34:28.523Z",
+  "count": 3,
   "items": [
+    {
+      "s": "조선일보",
+      "t": "인간 앞서는 ‘특이점’ 왔나… 오픈AI도 젠슨 황도 “AGI 시대 열렸다”",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/09/08/OKFJUP45Y5HC5FHOTDQDHAPQHE/",
+      "m": "09. 07. PM 03:47",
+      "ts": 1788796020000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
