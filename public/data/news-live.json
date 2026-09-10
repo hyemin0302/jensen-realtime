@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-09-10T21:43:49.709Z",
+  "updatedAt": "2026-09-10T23:36:00.545Z",
   "count": 2,
   "items": [
     {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
-      "d": "Cybersecurity is the next big market for artificial intelligence, with advances in the technology set to disrupt an industry geared to defending computer systems, said Nvidia Corp. co-founder and Chief Executive Officer Jensen Huang.",
-      "u": "https://www.bloomberg.com/news/articles/2026-09-10/nvidia-s-huang-touts-cybersecurity-as-next-big-market-for-ai",
-      "m": "09. 10. PM 05:08",
-      "ts": 1789060113000,
+      "s": "TechCrunch",
+      "t": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "d": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
+      "u": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "m": "09. 10. PM 09:51",
+      "ts": 1789077119000,
       "stocks": [],
-      "fullText": ""
+      "fullText": "Founder, CEO, and tireless Nvidia hype man Jensen Huang told attendees at the Goldman Sachs Communacopia + Technology conference on Thursday why his companys AI domination — and revenues — will continue its record-breaking growth streak through the end of next year. He can see the future. Theres been endless hand-wringing over whether Nvidias party will end as it faces increasing competition for GPUs and AI chips from all directions: the hyperscalers (Amazon, Microsoft, and Google, each building their own) and the AI labs (Anthropic and OpenAI, which are building their own), as well as from newly public competitor Cerebras and startups such as Etched . Most people think Nvidia builds a chip. I mean, you need airplanes to ship what we build, Huang said, adding that the company continues to battle a perception from its early days. Nvidia invented the GPU, which back then were largely sold to consumers to improve PC gaming. One GPU now is not $399. Its $8.5 million dollars. Thats one GPU, all connected with NVLink, 2 million parts, right? 250,000 kilowatts. Thats a GPU, and we ship thousands of them. He added that orders for just one product, a computer system that combines 36 Grace CPUs with 72 Blackwell GPUs, is currently experiencing 27% month-to-month sales growth. Huang didnt limit his bullish view to current sales though. He took the opportunity to reiterate Nvidias revenue outlook for next year — guidance the company provided last month when it reported yet another record-breaking revenue quarter. Thats when he first said revenue could grow by 70% next year. I think we could grow 70% year over year. Were confident about that, Huang said again on Thursday. Analysts expect the company to end its current fiscal year at about $400 billion in revenue. So 70% growth would mean around $680 billion next year. Huang explained why hes confident: His company is so embedded in every area of AI that he believes he can see the future. Nvidia runs every model. Every single lab can use us, the CEO said, mentioning that this includes models from Anthropic, OpenAI, and Google, as well as open-weight offerings. We are a foundational platform of the AI ecosystem, foundational platform of the AI industry. Nvidias fingers extend all the way from its suppliers, such as memory chip makers, to data center projects and startups. Were tracking every single gigawatt of land, power, shell around the world. Literally everything on the planet, he said. (Shell refers to the shell of a data center building before it is outfitted with computers). I mean, just think about all my partners. How many neoclouds are reporting back to us? How many OEMs are reporting back to us? How many clouds are reporting back to us? How many AI-native companies are reporting back to us? Were working with everybody, and so we kind of know where everything is, he said. That comment led to inevitable questions about Nvidias so-called circular deals, in which it invests in companies that turn around "
     },
     {
       "s": "NVIDIA공식",
