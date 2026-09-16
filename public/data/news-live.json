@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-16T18:59:45.585Z",
-  "count": 6,
+  "updatedAt": "2026-09-16T21:58:10.274Z",
+  "count": 5,
   "items": [
     {
       "s": "Bloomberg Tech",
@@ -11,16 +11,6 @@
       "ts": 1789583523000,
       "stocks": [],
       "fullText": ""
-    },
-    {
-      "s": "TechCrunch",
-      "t": "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
-      "d": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
-      "u": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "m": "09. 16. AM 12:20",
-      "ts": 1789518039000,
-      "stocks": [],
-      "fullText": "Nvidia founder and CEO Jensen Huang made his position on the dangers AI poses very clear while speaking at Salesforces Dreamforce conference on Tuesday. To him, AI isnt some new form of alien mind, as at least one OpenAI safety researcher has described it. Its just hardware and software, he says, built by humans. That means, in his view, it can be controlled by humans and existing laws. Safety is an engineering problem, not a legal one, he said. Were developing software after all. Were developing computing systems after all. Its a complicated computing system, but its ultimately a computing system. Therefore, theres no need for new laws or regulations to govern it, he argues. In fact, Huang sees little need for new laws at all. The free market, he argues, will be enough to pressure companies not to release unsafe products. If were not confident about the safety of the products, like all companies, like you and I, all the companies here, if you build a product or a service, and youre not confident in its functionality, capability, or safety, then dont release it. And so thats a very obvious thing to do, he said. He continued: You pace yourself until you are confident youre releasing something that the market would appreciate. The market forces are already there. We dont need any new laws. We dont need new regulations. We just need companies to decide that when [to] run as fast as they can. I think innovation, speed, and safe products … its a false choice. You could definitely have both at the same time. So run as fast as you can. But if you feel at any given point in time the companys out of control, or the products not going to be safe, you know, take a pause and make sure you get it right. In some ways, this is a comforting thought. If anyone in the world knows AI, it is Nvidias founder, whos been building the hardware brains of AI since well before ChatGPT existed and now runs a company that also makes open source models, agents, harnesses, and sandboxes. Then again, if were being cynical, his point of view is also unsurprising for someone whos had his bread so well buttered by the AI boom . Why would he want regulation to come along and add in a layer of hinderance that could slow down Nvidias quest to sell ever more AI systems and software? As he also said in the interview: Im more ambitious than ever. As a result of our ambition, and with the product productivity boost that we get from AI, the skys the limit for us. The skys the limit for our company. The skys the limit for every industry, for every single country. Unfortunately, even companies with the best intentions ship faulty products with unintended consequences, even software. Remember the 2024 CrowdStrike bluescreen-of-death fiasco that grounded thousands of flights and caused other havoc for businesses? Then there are companies accused of deliberately acting with less-than-good intentions. Meta just paid $18 billion to settle a lawsuit over social media harms to children . And AI ha"
     },
     {
       "s": "NVIDIA공식",
