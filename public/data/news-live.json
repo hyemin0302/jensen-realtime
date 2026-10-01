@@ -1,16 +1,5 @@
 {
-  "updatedAt": "2026-10-01T08:06:26.106Z",
-  "count": 1,
-  "items": [
-    {
-      "s": "NVIDIA공식",
-      "t": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-      "d": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
-      "m": "09. 15. PM 10:24",
-      "ts": 1789511074000,
-      "stocks": [],
-      "fullText": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce At Dreamforce, Salesforce and NVIDIA announced Koa, a CRM reasoning model for Agentforce, post-trained from Nemotron on 27 years of Salesforce CRM intelligence — and running entirely within Salesforce’s own infrastructure. September 15, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into the crowd — threading through the audience at Moscone Center, mic in hand, with Benioff alongside. “We’re all following you, bro,” Benioff told Huang at one point, drawing applause. “With electricity, we could power everything,” Huang said, tracing the arc of industrial revolutions. “With the internet, you can find anything. And now, with artificial intelligence as an infrastructure layer across the planet, we can know everything and do anything.” That arc led directly to the announcement. Salesforce’s first reasoning model was built by post-training NVIDIA Nemotron 3 Super on a proprietary synthetic dataset drawn from nearly three decades of enterprise CRM deployments. AI Safety When Benioff asked Huang about AI safety, Huang was direct. “Safety is paramount in a lot of ways. It’s job one,” Huang said. “However, safety is an engineering problem. We’re developing computing systems after all … If you build a product or a service and you’re not confident in its functionality, capability or safety, then don’t release it.” He reiterated that innovation and leadership should coincide with safety and security . “Innovation, speed and safe products — it’s a false choice,” Huang said. “You could definitely have both at the same time. So run as fast as you can. But if you feel at any given point in time the company’s out of control, or the product’s not going to be safe, take a pause and make sure you get it right.” Throughout his talk, Huang offered a positive vision for the future of AI. He noted he was among the first to push back on the notion that AI would end the software industry. He also pushed back on the idea that AI is a threat to jobs. “As a result of our ambition, and with the productivity boost we get from AI, the sky’s the limit,” he added. “Engage AI. Don’t get left behind.” “Every company, every enterprise, every country would become an AI company,” Huang said. “It’s going to be an agentic enterprise.” “The sky is especially the limit for our Trailblazers,” Benioff said, referring to the company’s customer and developer community. “I think this technology, the way it empowers people … the technology can partner with them to do this in incredible new ways.” Because NVIDIA Nemotron is open"
-    }
-  ]
+  "updatedAt": "2026-10-01T15:33:09.284Z",
+  "count": 0,
+  "items": []
 }
