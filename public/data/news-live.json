@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-16T13:40:06.076Z",
-  "count": 1,
+  "updatedAt": "2026-10-16T17:46:07.613Z",
+  "count": 2,
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Debt Worries Keep Driving Down CoreWeave Stock",
+      "d": "CoreWeave's stock dropped 20% during the first three trading sessions of this week, then Nvidia CEO Jensen Huang stepped in to say he had confidence in the company. But will that be enough to prop up the stock? Mandeep Singh of Bloomberg Intelligence has more.  (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-16/debt-worries-keep-driving-down-coreweave-stock-video",
+      "m": "10. 16. PM 03:21",
+      "ts": 1792164062000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
