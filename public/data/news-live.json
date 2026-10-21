@@ -1,27 +1,7 @@
 {
-  "updatedAt": "2026-10-21T12:08:18.095Z",
-  "count": 5,
+  "updatedAt": "2026-10-21T17:28:37.333Z",
+  "count": 2,
   "items": [
-    {
-      "s": "조선일보",
-      "t": "삼성전기, 엔비디아에 AI 반도체용 기판 장기 공급…세종·부산 생산 라인 증설",
-      "d": "삼성전기가 엔비디아와 손잡고 인공지능(AI) 반도체용 패키지 기판 생산을 확대한다. 세종·부산 사업장에 전용 생산 라인을 구축하고, 차세대 AI 반도체와 초고속 네트워크 칩용 기판을 장기 공급할 예정이다. 21일 엔비디아는 독일 베를린에서 열린 연례 개발자 행사 ‘GTC 2026’에서 젠슨 황 최고경영자(CEO)의 기조연설이 끝난 뒤 삼성전기와의 전략적 비",
-      "u": "https://www.chosun.com/economy/tech_it/2026/10/21/GJSTAYRVG5SWEMRQGQ2DGMRTMQ/",
-      "m": "10. 21. AM 11:47",
-      "ts": 1792583269000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia CEO Huang Pushes Europe on All Industries Adopting AI",
-      "d": "Nvidia Corp. Chief Executive Officer Jensen Huang pushed Europe to adopt artificial intelligence more quickly, striking a bullish note as some investors grow more skeptical about the sums being poured into the infrastructure underpinning the technology.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-21/nvidia-ceo-huang-pitches-europe-on-all-industries-adopting-ai",
-      "m": "10. 21. AM 10:54",
-      "ts": 1792580047000,
-      "stocks": [],
-      "fullText": ""
-    },
     {
       "s": "NVIDIA공식",
       "t": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
@@ -31,16 +11,6 @@
       "ts": 1792575016000,
       "stocks": [],
       "fullText": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote October 21, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, physical AI, open models and accelerated computing underway at STATION-Berlin down the road. Here, journalists, analysts and partners have gathered for the main event: NVIDIA founder and CEO Jensen Huang’s keynote. Huang Takes the Stage Huang opened with a question: What do L’Oréal, Revolut, Spotify, Merck, Vodafone, Zara, Porsche, Nestlé and HSBC have in common? They’re all European companies and they’re all working with NVIDIA on AI, he said. The keynote comes on the heels of NVIDIA’s weeklong road across Europe — Paris, London, Stockholm, Dublin — with the company committing nearly $10 billion to the technology ecosystem across Europe and working with 12,000+ partners. “After decades of advancement in the computer industry, we are now at the beginnings of a new industrial revolution,” Huang said. Read All NVIDIA in Europe Announcements AI is a five-layer cake , Huang explained. Energy powers advanced computers that are part of an AI factory, which generates tokens and digital intelligence from the models that run on it, which are then integrated into every application. “Long before the AI models emerge, the infrastructure has to exist,” he said, highlighting how, similarly, the internet first needed networking, and electricity first required the grid. “To be part of this AI economy, you don’t want to just be consuming the AI; you want to be producing the AI,” Huang said. “We could do all of that here in Europe, and in fact, we’ve already started.” The AI Factory Gets a New Form Factor Huang framed NVIDIA’s full-stack AI factory — spanning hardware, system software, CUDA-X libraries and models — as a broad platform for building and operating AI infrastructure. “This now represents the breadth of technology necessary to create the AI factory,” Huang said. “This is what NVIDIA builds today, and this is the foundation by which we can enable Europe to be part of the AI ecosystem, the AI economy.” He said Vera Rubin, in full production, extends NVIDIA’s computing platform beyond models and large language models to process the entire AI agent. He also showed several of NVIDIA’s latest rack-scale hardware offerings. Next, Huang announced NVIDIA DSX POD , a reference design for complete NVIDIA Vera Rubin AI factories built by partners inside modular containers, integrated and validated before delivery. With DSX POD, onsite deployment can shrink from six months to just 14 days once site utilities are ready. “This is a complete transformation of the"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "(NVDA) Nvidia CEO Jensen Huang Speaks at GTC Berlin",
-      "d": "",
-      "u": "https://www.bloomberg.com/news/live-blog/2026-10-21/nvda-nvidia-ceo-jensen-huang-at-gtc-berlin",
-      "m": "10. 21. AM 08:50",
-      "ts": 1792572617000,
-      "stocks": [],
-      "fullText": ""
     },
     {
       "s": "NVIDIA공식",
