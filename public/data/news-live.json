@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-10-29T13:26:57.200Z",
-  "count": 1,
+  "updatedAt": "2026-10-29T19:05:25.212Z",
+  "count": 3,
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Normal’",
+      "d": "Nvidia Corp. Chief Executive Officer Jensen Huang said the chipmaker’s dealings with Megaspeed International were “normal and not unusual” following a New York Times report that one of the Singapore firm’s executives is under investigation for spying on behalf of China.",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-29/nvidia-ceo-says-ties-to-company-under-spying-probe-were-normal",
+      "m": "10. 29. PM 06:50",
+      "ts": 1793299851000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "“젠슨 황과 긴밀한 관계의 중국 국적 여성, 중국의 스파이였다”",
+      "d": "",
+      "u": "https://www.chosun.com/international/international_general/2026/10/30/M3KKKO7XNNFWZDDZJDDZN2ONSQ/",
+      "m": "10. 29. PM 04:56",
+      "ts": 1793292988000,
+      "stocks": [],
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "Kazakhstan Expands Compute for Its AI Future",
