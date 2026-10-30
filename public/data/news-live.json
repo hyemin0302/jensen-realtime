@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-10-30T09:22:22.761Z",
-  "count": 3,
+  "updatedAt": "2026-10-30T16:06:32.834Z",
+  "count": 4,
   "items": [
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 옆 와인잔 든 여성, 중국의 스파이였나",
+      "d": "",
+      "u": "https://www.chosun.com/international/international_general/2026/10/31/7SH46L54AZHVXGRSSQOX2UJEYE/",
+      "m": "10. 30. PM 03:48",
+      "ts": 1793375280000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "동아일보",
+      "t": "[횡설수설/우경임]젠슨 황 옆 ‘여성 스파이’",
+      "d": "지난달 14일 젠슨 황 엔비디아 최고경영자(CEO)는 ‘올인 서밋’이라는 행사 참석 중에 도널드 트럼프 대통령으로부터 전화를 받고 스피커폰을 켰다. 트럼프 대통령은 인공지능(AI) 속도 조절론을 “사기”라고 일축하며 “중국이 가장 좋아할 것”이라고 했다. 황 CEO는 “그런 일이 일어나지 않도록 하겠다”며 맞장구를 쳤다. 그로부터 15일 뒤 트럼프 대통령은 빅테크 기업인들을 백악관으로 불러 오찬을 했다. 그의 바로 오른쪽에는 황 CEO가 앉았다. 대통령의 측근이라는 인증인 셈이었다. ▷중국 스파이로 추정되는 앨리스 황이라는 싱가포르 소재 ‘메가스피드’ 여성 임원과 황 CEO가 긴밀한(Close) 관계라고 뉴욕타임스(NYT)가 29일 보도했다. 둘의 사이를 암시하는 2장의 사진이 공개됐다. 2024년 6월 대",
+      "u": "https://www.donga.com/news/Opinion/article/all/20261030/134941785/2",
+      "m": "10. 30. PM 02:18",
+      "ts": 1793369880000,
+      "stocks": [],
+      "fullText": "우경임 논설위원 구독"
+    },
     {
       "s": "CNBC Tech",
       "t": "New report says Nvidia CEO was possible target of Chinese spy plot",
@@ -10,17 +30,7 @@
       "m": "10. 29. PM 09:51",
       "ts": 1793310674000,
       "stocks": [],
-      "fullText": "Philippine volcano spews massive ash cloud"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia CEO Says Ties to Company in Spy Probe Were ‘Normal’",
-      "d": "Nvidia Corp. Chief Executive Officer Jensen Huang said the chipmaker’s dealings with Megaspeed International were “normal and not unusual” following a New York Times report that one of the Singapore firm’s executives is under investigation for spying on behalf of China.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-29/nvidia-ceo-says-ties-to-company-under-spying-probe-were-normal",
-      "m": "10. 29. PM 06:50",
-      "ts": 1793299851000,
-      "stocks": [],
-      "fullText": ""
+      "fullText": "Pike releases first statement after failed execution"
     },
     {
       "s": "NVIDIA공식",
