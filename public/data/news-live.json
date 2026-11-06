@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T18:10:06.492Z",
-  "count": 4,
+  "updatedAt": "2026-11-06T23:20:38.259Z",
+  "count": 3,
   "items": [
     {
       "s": "동아일보",
@@ -13,16 +13,6 @@
       "fullText": "김보라 기자 구독"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia’s AI Chip Exports Emerge as Target in Democratic Congress",
-      "d": "Nvidia Corp. is in for tougher scrutiny from a new Democratic majority in Congress that’s set to demand answers from Chief Executive Officer Jensen Huang about whether the company is doing enough to keep its coveted artificial intelligence chips out of the hands of China and other US adversaries.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-s-ai-chip-exports-emerge-as-target-in-democratic-congress",
-      "m": "11. 06. PM 02:56",
-      "ts": 1793977019000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
       "s": "CNBC Tech",
       "t": "New report says Nvidia CEO was possible target of Chinese spy plot",
       "d": "A new report from the New York Times reveals that Nvidia CEO Jensen Huang was the target of a possible Chinese spy plot, involving an executive at a Singapore-based company. NBC News has not independently confirmed the details of the investigation.",
@@ -30,7 +20,7 @@
       "m": "10. 29. PM 09:51",
       "ts": 1793310674000,
       "stocks": [],
-      "fullText": "Current with Christine Romans Father of co-pilot killed in Learjet crash: ’She showed me what it is to be a hero’"
+      "fullText": "Protesters in Amsterdam break into data center site"
     },
     {
       "s": "NVIDIA공식",
