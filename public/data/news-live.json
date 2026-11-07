@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-11-06T23:20:38.259Z",
+  "updatedAt": "2026-11-07T02:58:19.842Z",
   "count": 3,
   "items": [
-    {
-      "s": "동아일보",
-      "t": "美의회 “젠슨황, 中간첩의혹 여성 접촉 해명을”",
-      "d": "미국 의회가 중국 간첩 의혹을 받는 싱가포르 데이터기업 ‘메가스피드’의 임원 겸 중국계 여성 앨리스 황과의 관계를 해명하라며 대만계 젠슨 황 엔비디아 최고경영자(CEO)에게 출석을 요구했다고 정치매체 액시오스 등이 5일(현지 시간) 보도했다. 이틀 전 중간선거에서 압승한 야당 민주당은 물론 집권 공화당 내에서조차 활발한 중국 사업을 펼치고 있는 황 CEO에 대한 의혹의 시선을 보내고 있다는 분석이 나온다. 모두 공화당 소속이며 대(對)중국 강경파로 꼽히는 브라이언 매스트 하원 외교위원장, 존 몰러나어 미중전략경쟁특별위원장, 릭 크로퍼드 정보위원장은 황 CEO에게 공동 서한을 보내 18일로 예정된 의회의 비공개 브리핑에 참석하라고 요구했다. 세 위원장은 황 CEO에게 앨리스 황과의 교류 내역, 엔비디아가 외국",
-      "u": "https://www.donga.com/news/People/article/all/20261106/134982272/2",
-      "m": "11. 06. PM 04:40",
-      "ts": 1793983200000,
-      "stocks": [],
-      "fullText": "김보라 기자 구독"
-    },
     {
       "s": "CNBC Tech",
       "t": "New report says Nvidia CEO was possible target of Chinese spy plot",
@@ -20,7 +10,7 @@
       "m": "10. 29. PM 09:51",
       "ts": 1793310674000,
       "stocks": [],
-      "fullText": "Protesters in Amsterdam break into data center site"
+      "fullText": "Stay Tuned NOW One police officer dead, others injured in Colorado shooting"
     },
     {
       "s": "NVIDIA공식",
@@ -31,6 +21,16 @@
       "ts": 1792720813000,
       "stocks": [],
       "fullText": "Kazakhstan Expands Compute for Its AI Future Jensen Huang’s visit to the nation’s capital, Astana — including a presidential meeting and public fireside chat — coincided with new AI infrastructure commitments anchored by NVIDIA compute. October 22, 2026 by Rev Lebaredian 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDIA founder and CEO Jensen Huang — point to the nation’s increasing supply of accelerated computing, along with its growing demand for what comes next. On Friday, Oct. 23, NVIDIA founder and CEO Jensen Huang visited Astana, meeting with President Kassym-Jomart Tokayev at the Akorda Presidential Palace and joining Deputy Prime Minister Zhaslan Madiyev — Kazakhstan’s minister of AI and digital development — for a public fireside chat at the Alem.AI program. Read All NVIDIA in Europe Announcements Jensen Huang and Kazakhstan’s AI Minister Speak at Alem.AI In their fireside chat at Alem.AI, Kazakhstan’s international center for artificial intelligence, Madiyev and Huang discussed the country’s push to become an AI nation — building the energy and computing infrastructure to support homegrown AI and applying it across the economy. Madiyev said Kazakhstan wants AI that reflects its language and culture. “We want AI that understands and speaks Kazakh and captures cultural contexts and cultural specifics,” he said, describing the country’s work on Kazakh-language models. Huang said Kazakhstan could turn its energy resources into a foundation for AI production — and a new kind of export. “Instead of just exporting energy, in the future, you could transform energy into intelligence and export intelligence,” he said. He also argued that local data is central to that ambition: it embodies a country’s culture, history and values. “Your country’s data is your natural resource. It belongs to you.” The conversation also turned to physical AI. Madiyev pointed to Kazakhstan’s factories, mines, agriculture, transport and logistics as potential areas for development, asking how the country could become a hub for training models for robots and other physical systems. Huang called the idea “fantastic,” saying physical AI could transform industries from mining and mineral processing to agriculture. Huang said AI and robotics can help people do more, but ambition will shape how fully they seize that opportunity. He applied the idea to Kazakhstan, saying AI could help lift the country and its people. “If you have ambition, and I believe you do, AI will lift your nation,” Huang said. “AI will lift your people.” Huang also praised the founders of Higgsfield AI, the Kazakhstan-founded startup, and it was announced NVIDIA is making an investment into the startup during the event. “The first thing "
+    },
+    {
+      "s": "한겨레",
+      "t": "AI 속도조절론은 중국의 계략?…젠슨 황과 트럼프의 ‘동상이몽’",
+      "d": "",
+      "u": "https://www.hani.co.kr/arti/economy/economy_general/1286215.html",
+      "m": "",
+      "ts": 0,
+      "stocks": [],
+      "fullText": "본문 경제 경제일반 AI 속도조절론은 중국의 계략?…젠슨 황과 트럼프의 ‘동상이몽’ 수정 2026-11-07 09:22 펼침 0:00 Your browser does not support the audio element. 따뜻한 AI 따스한 테크 도널드 트럼프 미국 대통령(오른쪽)은 2026년 10월8일 백악관에서 ‘과학: 새로운 황금시대 정상회의’라는 이름의 행사를 열어, 젠슨 황 엔비디아 최고경영자에게 국가과학훈장을 수여했다. 이 훈장은 미 과학·기술 분야 최고 권위의 상이다. REUTERS 광고 인공지능(AI) 속도조절론이 급부상하던 시점인 2026년 9월14일(이하 현지시각), 도널드 트럼프 미국 대통령은 갑자기 엔비디아의 젠슨 황 최고경영자(CEO)와 공개 통화를 한다. AI의 위험성에 대해 ‘사기’라고 일축하며 AI 개발 속도를 조절해야 한다는 일각의 주장에 공개적으로 반론을 펼친 것이다. 두 사람은 나란히 미국 중심의 AI 발전을 대표하는 인물이다. 한 명은 산업계에서, 다른 한 명은 국가수반이자 정치인으로서 접근한다는 점에서 차이는 있지만, 중국의 AI 속도전 속에서 미국 역시 빠른 AI 개발 속도를 늦출 필요는 전혀 없다는 점을 강조한다. 하지만 당연하게도 직접 만남이 아닌 굳이 전화 통화로서 이런 보여주기식 행동을 펼친 둘의 입장은 분명 차이가 있다. 다시 두 사람의 통화 장면으로 돌아가보자. 통화가 이뤄진 곳은 미국 서부, 캘리포니아주 로스앤젤레스에서 열린 행사장이다. 전통적으로 캘리포니아주는 미국의 전자와 정보기술(IT) 산업의 중심인 실리콘밸리가 있는 곳으로 이들의 목소리를 대변하는 각종 콘퍼런스가 활발히 열린다. 이날 열린 행사 역시 실리콘밸리 산업계가 자신들의 목소리를 내는 자리다. 미국이 아무리 자본주의의 나라라고는 하지만, 미국 대통령이 이런 행사장에 전화 통화로 등장한 것은 갑작스러운 결정에 따른 것이라고 이해할 수밖에 없다. 젠슨 황의 계산과 구상에 트럼프가 발을 맞췄다는 해석이 나오는 대목이다. 광고 AI 속도조절은 중국의 계략일까 대통령의 말은 결국 ‘패권 경쟁 국가’인 중국을 향한다. “AI 개발 속도를 늦추려는 움직임은 정치적 의도나 중국의 계략에 따른 것”이라는 공개적 비판은 음모론을 넘어 실제 현재 미국 행정부가 그런 논리를 강하게 믿고 그에 기반한 판단과 움직임을 보이고 있다는 증거가 된다. 트럼프의 정치적 승부수이고, 이것이 실리콘밸리의 목소리와 부합한다는 의미이기도 하다. 다시 시점을 AI 속도조절론이 (실리콘밸리에서) 처음 나온 때로 돌려보자. ‘클로드’라는 생성형AI를 앞세워 시장에서 가장 뜨거운 기업인 앤트로픽을 이끄는 다리오 아모데이 CEO가 AI 속도조절론을 최근 업계에서 가장 먼저 꺼낸 인물이다. 그것도 트럼프가 중국의 계략을 운운하며 공개적으로 비판한 자리의 바로 전날인 9월13일에 내놓은 내용이다. 단 하루 사이에 갑작스러운 화두 제기와 이에 대한 대통령의 거부 의사가 나타났다. 여기에 깔린 저의는 대체 무엇일까? 광고 광고 아모데이가 AI 속도조절론을 이야기하며 꺼낸 가장 중요한 근거는 ‘안전 조치’다. AI의 발전 속도가 너무 빨라 인류가 이에 대한 안전 조치를 마련할 시간이 부족하다는 설명이다. 이에 대해 챗지피티(ChatGPT) 개발사인 오픈에이아이의 샘 올트먼 CEO나 그록을 개발한 일론 머스크 스페이스엑스 CEO 역시 동조하는 모습을 보였다. AI의 빠른 발전으로 가장 큰 수혜를 입는 집단이 스스로 속도조절을 이야기한 셈인데, 이런 발언을 있는 그대로 순수하게 받아들여서는 현상을 제대로 이해할 수 없다. AI 개발 업체 대표자들은 AI에 대해 ‘그만큼 우리가 안전하게 잘 관리하려는 인식을 갖고 있다’는 것을 사회에 알리겠다는 의도가 큰 행위였다고 하면 과도한 해석일까? 혹은 AI 속도조절 따위는 전혀 신경 쓰지 않는 중국 정부와 기업의 개발 행위에 대해 국제사회의 압박을 가하려는 견제 의도가 있었던 것은 아닐까? 이런저런 해석이 난무하는 가운데 AI 시대의 총아인 엔비디아 대표와 미국 대통령이 입을 모아 반박해버렸다는 점은 우리에게 여러모로 의미심장한 상황임을 유추하게 한다. 광고 젠슨 황의 야망, 트럼프의 구상 젠슨 황이 갑자기 중앙처리장치(CPU) 영역으로 여겨지던 학습과 계산 영역에 그래픽처리장치(GPU) 코어를 활용할 수 있다며 세일즈를 시작한 시기는 2006년께다. 이후 관련 소프트웨어, 데이터 모음 등을 내놓으며 컴퓨터가 스스로 심화학습(딥러닝)을 하는 연구 사례를 만들어가며 CPU 대비 훨씬 효율적인 비용으로 AI 구현이 가능하다는 점을 입증해냈다. 이 과정에서 특히 국내 기업인 에스케이(SK)하이닉스와의 활발한 협업으로 고대역폭메모리(HBM)를 구현하는 등 관련 생태계를 만들며 AI 시대를 주도하는 기업으로 자리 잡았다. 엔비디아의 주가는 AI 시대의 본격화와 더불어 급상승을 이어갔다. 그렇게 승승장구하던 젠슨 황 앞에 등장한 것이 세계 AI 패권을 둘러싼 미국과 중국의 충돌이다. 중국에 대한 미국의 견제가 민감하게 이뤄지며 서로 으르렁거리는 상황에서 엔비디아가 중국에 최신 제품을 판매할 길이 사실상 막혀버렸다. 결국 젠슨 황 입장에선 중국 외의 지역, 특히 AI 패권국인 미국에서 관련 수요가 지속돼야 자신의 입지 또한 탄탄해질 수 있다. 미국을 중심으로 한국, 인도, 유럽 등 각지에서 AI 개발에 필요한 엔비디아의 GPU를 더욱 많이 사도록 만들 필요가 있는 것이다. 젠슨 황이 트럼프에게 공개 통화를 제안한 것은 이런 필요에서 만들어진 ‘이벤트’로 볼 수 있다. 2026년 9월15일 미국 캘리포니아주 샌프란시스코에서 열린 ‘드림포스 2026’ 서밋에서 앤트로픽의 최고경영자(CEO) 다리오 아모데이(왼쪽)와 세일즈포스 CEO 마크 베니오프가 대화하고 있다. AI 속도조절론을 제기한 아모데이는 모델의 성능을 대중에게 솔직하게 알려야 한다는 입장이다. REUTERS 트럼프 대통령 입장에서는 어떻게든 중국과의 AI 패권 경쟁에서 뒤처지는 모습이 나와서는 안 된다. 가뜩이나 이란 문제로 골머리를 앓는 상황에서 미국의 대표적 산업 연합체인 실리콘밸리의 생존을 위해서는 중국이라는 적대적 세력"
     }
   ]
 }
