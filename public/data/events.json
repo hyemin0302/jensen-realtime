@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-08-17T07:45:18.872Z",
+  "updatedAt": "2026-11-07T16:00:12.149Z",
   "updatedBy": "news-agent",
   "events": [
     {
@@ -27570,6 +27570,99 @@
           "en": "Shilla Hotel"
         },
         "undef": false,
+        "pct": null,
+        "sub": null,
+        "cur": false
+      },
+      "insight": null,
+      "views": {
+        "timeline": false,
+        "news_card": false,
+        "map_pin": true
+      },
+      "_auto_loc": true
+    },
+    {
+      "id": "evt_auto_loc_coex",
+      "type": "visit",
+      "is_new": true,
+      "source_count": 2,
+      "status": "planned",
+      "status_label": {
+        "ko": "예상",
+        "en": "expected"
+      },
+      "confidence": "expected",
+      "confidence_label": {
+        "ko": "예상 (자동)",
+        "en": "expected (auto)"
+      },
+      "title": {
+        "ko": "COEX 행사 (뉴스 감지)",
+        "en": "COEX event (auto)"
+      },
+      "url": "https://www.chosun.com/economy/tech_it/2026/11/07/GIYGMOBVGM3WIYRRGBTDKZLFGU/",
+      "location": {
+        "name": {
+          "ko": "서울 강남 COEX",
+          "en": "COEX, Gangnam"
+        },
+        "address": "서울 강남구 영동대로",
+        "lat": 37.513,
+        "lng": 127.059
+      },
+      "datetime": null,
+      "datetime_display": {
+        "ko": "방한 중 (뉴스 감지)",
+        "en": "During visit (auto)"
+      },
+      "timeline_order": null,
+      "timeline_badge": null,
+      "description": {
+        "ko": "COEX 강연 · 행사",
+        "en": "COEX talk/event"
+      },
+      "summary": {
+        "ko": [
+          "뉴스 본문 키워드 자동 감지"
+        ],
+        "en": [
+          "Auto-detected from article body"
+        ]
+      },
+      "related_stocks": [],
+      "sources": [
+        {
+          "publisher": {
+            "ko": "조선일보",
+            "en": "조선일보"
+          },
+          "title": {
+            "ko": "매디슨 황, 입국 하루 앞두고 방한 취소…엔비디아 행사 예정대로",
+            "en": "매디슨 황, 입국 하루 앞두고 방한 취소…엔비디아 행사 예정대로"
+          },
+          "url": "https://www.chosun.com/economy/tech_it/2026/11/07/GIYGMOBVGM3WIYRRGBTDKZLFGU/",
+          "time": "11. 07. PM 01:02"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "내일 한국 오기로 했는데…젠슨 황 장녀 방한 돌연 취소",
+            "en": "내일 한국 오기로 했는데…젠슨 황 장녀 방한 돌연 취소"
+          },
+          "url": "https://www.hankyung.com/article/2026110724057",
+          "time": "11. 07. PM 12:38"
+        }
+      ],
+      "map_pin": {
+        "label": {
+          "ko": "COEX",
+          "en": "COEX"
+        },
+        "undef": true,
         "pct": null,
         "sub": null,
         "cur": false
