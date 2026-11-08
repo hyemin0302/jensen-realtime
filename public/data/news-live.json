@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-08T03:44:13.891Z",
-  "count": 3,
+  "updatedAt": "2026-11-08T10:57:18.382Z",
+  "count": 4,
   "items": [
+    {
+      "s": "동아일보",
+      "t": "젠슨 황 ‘中스파이 연인 의혹’에 장녀 방한 취소…부총리 면담도 무산",
+      "d": "젠슨 황 엔비디아 최고경영자(CEO)의 장녀인 매디슨 황 엔비디아 수석이사가 방한 일정을 전격 취소했다. 최근 젠슨 황이 중국 스파이로 의심되는 여성과 연인 관계였다는 외신 보도가 나온 가운데 이뤄진 결정이다. 이에 따라 8일 예정됐던 배경훈 부총리 겸 과학기술정보통신부 장관과의 면담도 무산됐다.8일 과기정통부에 따르면 매디슨 황 엔비디아 옴니버스·로보틱스 제품 마케팅 수석이사는 당초 이날 오후 서울에서 배 부총리와 만나고, 9, 10일에는 서울 강남구 코엑스에서 열리는 ‘엔비디아 AI 데이 서울 2026’에 참석할 예정이었다. 그러나 엔비디아 측은 전날 오후 과기정통부에 매디슨 황의 방한 취소를 통보했다. 사유는 ‘가족 문제’라고만 밝혔고 구체적인 설명은 내놓지 않았다.배 부총리와 매디슨 황의 면담에서는 ",
+      "u": "https://www.donga.com/news/Economy/article/all/20261108/134985415/1",
+      "m": "11. 08. AM 06:40",
+      "ts": 1794120000000,
+      "stocks": [],
+      "fullText": "전혜진 기자 구독"
+    },
     {
       "s": "CNBC Tech",
       "t": "New report says Nvidia CEO was possible target of Chinese spy plot",
@@ -10,7 +20,7 @@
       "m": "10. 29. PM 09:51",
       "ts": 1793310674000,
       "stocks": [],
-      "fullText": "Nightly News Netcast Nov. 7: shooting at Krakow Poland main market square, post-midterm White House staffing shake-up fallout"
+      "fullText": "Emma Stone crashes Druski&#x27;s &#x27;SNL&#x27; monologue"
     },
     {
       "s": "NVIDIA공식",
