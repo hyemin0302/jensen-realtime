@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "updatedAt": "2026-11-07T16:00:12.149Z",
+  "updatedAt": "2026-11-10T16:00:12.430Z",
   "updatedBy": "news-agent",
   "events": [
     {
@@ -27586,7 +27586,7 @@
       "id": "evt_auto_loc_coex",
       "type": "visit",
       "is_new": true,
-      "source_count": 2,
+      "source_count": 4,
       "status": "planned",
       "status_label": {
         "ko": "예상",
@@ -27655,6 +27655,30 @@
           },
           "url": "https://www.hankyung.com/article/2026110724057",
           "time": "11. 07. PM 12:38"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "'젠슨황 불륜' 미리 알았다?…6개월 전 나온 보고서 '재조명'",
+            "en": "'젠슨황 불륜' 미리 알았다?…6개월 전 나온 보고서 '재조명'"
+          },
+          "url": "https://www.hankyung.com/article/2026111086527",
+          "time": "11. 10. PM 01:46"
+        },
+        {
+          "publisher": {
+            "ko": "한국경제",
+            "en": "한국경제"
+          },
+          "title": {
+            "ko": "불륜 인정한 젠슨 황…과거 신아영과 포옹 재조명",
+            "en": "불륜 인정한 젠슨 황…과거 신아영과 포옹 재조명"
+          },
+          "url": "https://www.hankyung.com/article/2026111085997",
+          "time": "11. 10. PM 12:15"
         }
       ],
       "map_pin": {
