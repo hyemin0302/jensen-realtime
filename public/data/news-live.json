@@ -1,34 +1,64 @@
 {
-  "updatedAt": "2026-11-12T12:16:31.758Z",
-  "count": 31,
+  "updatedAt": "2026-11-12T20:13:42.119Z",
+  "count": 56,
   "items": [
     {
       "s": "Bloomberg Tech",
-      "t": "Trump Asked to Preserve Nvidia Documents by Senators",
-      "d": "The Trump administration was asked on Thursday by Senators Elizabeth Warren of Massachusetts and Chris Coons of Delaware to preserve all records regarding the export of Nvidia Corp.’s advanced semiconductors to China or to “entities that may divert such chips.” The request comes as Nvidia’s board is meeting to discuss the fate of Chief Executive Officer Jensen Huang following reports he had multip",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-12/trump-asked-to-preserve-nvidia-documents-by-senators-video",
-      "m": "11. 12. PM 12:07",
-      "ts": 1794485251000,
+      "t": "Huang Affair Suggests 'Compromised Objectivity' Says Anna Ashton",
+      "d": "Anna Ashton, founder of Ashton Analytics and former China analyst at the Department of Defense, said that it doesn't matter if Alice Huang was an unwitting participant or a spy for the Chinese government because she already worked for Megaspeed, a company that was 'seriously distrusted' for attempting to work around US export controls on chips. Ashton said that Jensen Huang's affair with Alice Hua",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-12/huang-affair-suggests-compromised-objectivity-ashton-video",
+      "m": "11. 12. PM 07:59",
+      "ts": 1794513568000,
       "stocks": [],
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Congress Pressures Jensen Huang to Talk About Spy Scandal",
-      "d": "Members of Congress of both parties vow to investigate potential chip smuggling to China",
-      "u": "https://www.bloomberg.com/news/newsletters/2026-11-12/congress-pressures-jensen-huang-to-talk-about-spy-scandal",
-      "m": "11. 12. PM 12:02",
-      "ts": 1794484921000,
+      "t": "How Huang’s Resignation Could Hurt US AI",
+      "d": "Former Nvidia CEO Jensen Huang had direct access to President Donald Trump and more influence over American AI policy than any other Silicon Valley executive. Bloomberg Opinion columnist Dave Lee explains the risks to the sector without its leather-jacketed champion. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-12/opinion-how-huang-s-resignation-could-hurt-us-ai-video",
+      "m": "11. 12. PM 07:38",
+      "ts": 1794512327000,
       "stocks": [],
       "fullText": ""
     },
     {
       "s": "동아일보",
-      "t": "HBM-자율차-로봇-AI팩토리…깐부 기업들 ‘젠슨 황 스캔들’ 주시",
-      "d": "젠슨 황 엔비디아 최고경영자(CEO)가 해임 위기에 처하면서 황 CEO와 ‘깐부 회동’을 하며 긴밀한 관계를 맺었던 국내 기업들이 상황을 예의주시하고 있다. 만약 황 CEO가 물러날 경우 인공지능(AI) 데이터센터에서 로보틱스에 이르는 국내 기업들의 미래먹거리 사업 일정에 차질이 생길 가능성을 배제할 수 없기 때문이다.● 韓 재계 전체가 ‘젠슨 스캔들’ 촉각12일 재계에 따르면 엔비디아는 삼성, SK, 현대차, LG 등 국내 주요 기업 대부분과 긴밀한 관계를 맺고 있다. 황 CEO는 지난해 10월 한국을 방문해 이재용 삼성전자 회장, 정의선 현대차그룹 회장과 ‘깐부 회동’을 한 데 이어 올 6월 방한 때도 최태원 SK 회장, 구광모 LG 회장, 이해진 네이버 의장 등 국내 주요 기업 총수들을 직접 만나 한국",
-      "u": "https://www.donga.com/news/Economy/article/all/20261112/135015711/1",
-      "m": "11. 12. AM 11:58",
-      "ts": 1794484680000,
+      "t": "AI 록스타  몰락하다… 젠슨 황, 엔비디아 CEO-이사직 사임",
+      "d": "‘인공지능(AI) 업계 록스타’로 불리며 세계 최대 반도체 기업 엔비디아의 성공 신화를 이끌었던 젠슨 황 최고경영자(CEO·63)가 잇따른 불륜 스캔들로 결국 CEO직에서 물러났다. 중국 스파이로 지목된 앨리스 황(중국명 황러·黃樂)과의 불륜을 시인한 데 이어 킴벌리 파월 엔비디아 헬스케어 부사장(48)과의 추가 불륜 의혹까지 불거져 리더십에 치명타를 입었다. 사실상 황 CEO의 ‘1인 경영 체제’에 의존해 온 엔비디아의 경영 공백 우려가 가시화되고 있다는 평가가 나온다. 12일(현지 시간) 엔비디아는 황 CEO가 엔비디아 CEO와 이사회 이사직을 사임했다고 밝혔다. 엔비디아의 현 수석부사장 겸 최고재무책임자(CFO)인 콜레트 크레스(사진)가 임시 CEO를 맡기로 했다. 크레스 CFO는 정식 후임자가 선임될",
+      "u": "https://www.donga.com/news/Inter/article/all/20261113/135017916/2",
+      "m": "11. 12. PM 07:30",
+      "ts": 1794511800000,
+      "stocks": [],
+      "fullText": "곽도영 기자,홍정수 기자"
+    },
+    {
+      "s": "동아일보",
+      "t": "잇단 불륜 파문에… 젠슨 황, 자신이 33년간 일군 AI제국서 물러나",
+      "d": "33년 전 게임용 그래픽처리장치(GPU) 사업으로 출발한 엔비디아를 인공지능(AI) 산업의 성장 속에 세계 최대 반도체 기업으로 키우며 ‘엔비디아 그 자체’란 평가를 받아 온 젠슨 황 최고경영자(CEO)가 12일(현지 시간) 사임했다. 콜레트 크레스 엔비디아 최고재무책임자(CFO)가 임시 CEO에 올랐다. 황 CEO의 사임은 그와 중국 스파이로 지목된 앨리스 황(중국명 황러·黃樂)의 불륜 파문이 일파만파로 확산하는 와중에 그가 킴벌리 파월 엔비디아 헬스케어 부사장(48)과도 불륜 관계였다는 의혹까지 터지면서 사태 수습이 불가능해진 탓이다. 앨리스 황에 관한 의혹이 본격적으로 제기되기 직전인 지난달 28일 기준 황 CEO는 개인 자산만 약 1780억 달러(약 237조 원)에 달했고, 한때는 세계 부호 순위 6",
+      "u": "https://www.donga.com/news/Economy/article/all/20261113/135017906/2",
+      "m": "11. 12. PM 07:30",
+      "ts": 1794511800000,
+      "stocks": [],
+      "fullText": "곽도영 기자 외 2명"
+    },
+    {
+      "s": "동아일보",
+      "t": "‘젠슨 황 1인 독주’ 엔비디아 변화 불가피… 의사결정 지연으로 기술 개발 차질 우려",
+      "d": "젠슨 황 엔비디아 최고경영자(CEO)가 불륜 및 중국 스파이 연루 의혹으로 사임하자 초유의 엔비디아 리더십 공백에 이목이 쏠리고 있다. 네오 클라우드와 인공지능(AI) 스타트업의 자금줄 역할을 해 ‘AI 산업의 중앙은행 총재’의 몰락이 AI 산업 전체에 위축을 부를 것이란 우려도 나온다. 황 CEO는 3월 말 기준 엔비디아 지분 3.58%만 보유하고 있다. 블랙록(7.43%) 등 기관투자가들이 더 큰 지분을 차지하고 있다. 그가 CEO에서 물러난 뒤 지금과 같은 권한과 역할을 갖기 힘들 것이란 전망이 우세한 이유다. 자녀인 스펜서 황과 매디슨 황이 회사 일부 경영에 참여하고는 있지만 승계 가능성은 낮게 점쳐진다.  엔비디아는 그동안 뚜렷한 후계 구도 없이 젠슨 황 1인 ‘독주 체제’로 운영돼 왔다. 보통 기",
+      "u": "https://www.donga.com/news/Economy/article/all/20261113/135017904/2",
+      "m": "11. 12. PM 07:30",
+      "ts": 1794511800000,
+      "stocks": [],
+      "fullText": "박현익 기자 구독"
+    },
+    {
+      "s": "동아일보",
+      "t": "HBM-자율차-로봇-AI팩토리… 젠슨 황 ‘깐부 동맹’ 파장 촉각",
+      "d": "젠슨 황 엔비디아 최고경영자(CEO)가 사임하자 황 CEO와 ‘깐부 회동’을 하며 긴밀한 관계를 맺었던 국내 기업들이 상황을 예의주시하고 있다. 만약 황 CEO가 물러나 인공지능(AI) 데이터센터에서 로보틱스에 이르는 국내 기업들의 미래 먹거리 사업 일정에 차질이 생길 가능성을 배제할 수 없기 때문이다.● 韓 재계 전체가 ‘젠슨 스캔들’ 촉각12일 재계에 따르면 엔비디아는 삼성, SK, 현대차, LG 등 국내 주요 기업 대부분과 긴밀한 관계를 맺고 있다. 황 CEO는 지난해 10월 한국을 방문해 이재용 삼성전자 회장, 정의선 현대차그룹 회장과 ‘깐부 회동’을 한 데 이어 올 6월 방한 때도 최태원 SK 회장, 구광모 LG 회장, 이해진 네이버 의장 등 국내 주요 기업 총수들을 직접 만나 한국 재계와의 협력 ",
+      "u": "https://www.donga.com/news/Economy/article/all/20261113/135017900/2",
+      "m": "11. 12. PM 07:30",
+      "ts": 1794511800000,
       "stocks": [
         "005930",
         "005935",
@@ -39,54 +69,368 @@
       "fullText": "최지원 기자 외 2명"
     },
     {
-      "s": "CNBC Tech",
-      "t": "Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation",
-      "d": "HONG KONG — Megaspeed, the tech company at the center of the Chinese spy scandal engulfing Nvidia CEO Jensen Huang, said Thursday it will cooperate with U.S. government investigations.",
-      "u": "https://www.nbcnews.com/tech/tech-news/megaspeed-statement-nvidia-jensen-huang-alice-us-exports-chips-china-rcna608939",
-      "m": "11. 12. AM 10:41",
-      "ts": 1794480117000,
-      "stocks": [],
-      "fullText": "Artificial intelligence Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation The company said Thursday that it takes its obligation to comply with U.S. export control laws “extremely seriously,” in its first statement since reports emerged about Jensen Huang’s extramarital affair with an alleged Chinese spy and Megaspeed executive. Listen to this article with a free profile 00:00 00:00 NYT reports Nvidia CEO had second extramarital relationship 01:56 Get more news Live on Share Add NBC News to Google Nov. 12, 2026, 5:41 AM EST / Updated Nov. 12, 2026, 5:59 AM EST By Mithil Aggarwal HONG KONG — Megaspeed, the tech company at the center of the Chinese spy scandal engulfing Nvidia CEO Jensen Huang , said Thursday it will cooperate with U.S. government investigations. Megaspeed’s statement came as Nvidia’s board met to decide whether Huang, one of the leaders of the AI boom, will remain at the helm of the American chipmaker he co-founded and helped build into the world’s second most valuable company. In its first statement since reports emerged about Huang’s extramarital affair with an alleged Chinese spy, raising concerns over U.S. national security and the future of the tech giant, Megaspeed said Thursday that it takes its obligation to comply with U.S. export control laws “extremely seriously.” NBC News has reported that U.S. intelligence agencies determined that Alice Huang had an affair with the Nvidia CEO and was a Chinese intelligence operative. She held a senior position at Megaspeed, a Singapore-based company that was one of Nvidia’s biggest customers in Southeast Asia. Megaspeed is under U.S. criminal investigation for allegedly smuggling American-made chips into China in defiance of U.S. export controls. Megaspeed said in the statement Thursday that it has “cooperated with inspections by the U.S. Department of Commerce’s Bureau of Industry and Security (BIS) and stands ready to cooperate fully with any other relevant U.S. government authority.” It said that “Megaspeed is committed to working constructively and transparently with the U.S. government.” China has dismissed the spying allegations as “smears” and on Thursday a foreign ministry spokesperson said that “the U.S. side should stop fabricating so-called espionage narratives as a pretext for implementing technological blockades.” Megaspeed did not address the allegations surrounding Alice Huang, but said that “to further reinforce our commitment to compliance, Megaspeed has retained a leading U.S. law firm to lead a comprehensive census of its graphics processing units (GPUs) and independently verify its export control compliance practices.” The company added that it “welcomes appropriate government scrutiny and is committed to demonstrating through concrete actions that it operates responsibly, transparently, and in accordance with applicable U.S. laws.” Jensen Huang and Alice Huang Taipei, Taiwan, in 2024. NetThunder Nvidia’s stock price has"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia's Board Weighs Huang's Future After Affairs",
-      "d": "Nvidia's board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs, according to a person familiar with the matter. Bloomberg Opinion's Parmy Olson breaks down the situation. Her views are her own. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-s-board-weighs-huang-s-future-after-affairs-video",
-      "m": "11. 12. AM 10:27",
-      "ts": 1794479251000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
       "s": "동아일보",
-      "t": "트럼프, ‘앨리스 황’ 회사 제재하자고 했는데…러트닉이 뭉갰다",
-      "d": "젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들이 도널드 트럼프 행정부의 핵심 인사 간 내분으로도 번지고 있다. 11일(현지 시간) 미국 정치매체 액시오스에 따르면 트럼프 대통령의 최측근인 스콧 베선트 재무장관과 하워드 러트닉 상무장관은 이달 5일 황 CEO의 불륜녀이며 중국 스파이로 지목된 앨리스 황(중국명 황러·黃樂)이 이사로 재직했으며 엔비디아의 최첨단 인공지능(AI) 반도체를 중국으로 우회 수출한 의혹을 받는 싱가포르 기업 메가스피드의 제재를 두고 충돌했다. 베선트 장관은 제재를 촉구했지만, 러트닉 장관이 이를 사실상 반대하는 상황이 전개됐다는 것이다.워싱턴포스트(WP) 등은 패권 경쟁 중인 중국에 대한 각종 규제를 천명했던 트럼프 대통령이 오래전부터 황 CEO와 앨리스 황의 관계를 보고받았음에도",
-      "u": "https://www.donga.com/news/Inter/article/all/20261112/135015974/1",
-      "m": "11. 12. AM 10:17",
-      "ts": 1794478620000,
+      "t": "베선트 “메가스피드 제재” 러트닉 “中과 무역전쟁 될것”… 백악관 충돌",
+      "d": "젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들이 도널드 트럼프 행정부의 핵심 인사 간 내분으로도 번지고 있다. 11일(현지 시간) 미국 정치매체 액시오스에 따르면 트럼프 대통령의 최측근인 스콧 베선트 재무장관과 하워드 러트닉 상무장관은 이달 5일 황 CEO의 불륜녀이며 중국 스파이로 지목된 앨리스 황(중국명 황러·黃樂)이 이사로 재직했으며 엔비디아의 최첨단 인공지능(AI) 반도체를 중국으로 우회 수출한 의혹을 받는 싱가포르 기업 메가스피드의 제재를 두고 충돌했다. 베선트 장관은 제재를 촉구했지만, 러트닉 장관이 이를 사실상 반대하는 상황이 전개됐다는 것이다. 워싱턴포스트(WP) 등은 패권 경쟁 중인 중국에 대한 각종 규제를 천명했던 트럼프 대통령이 오래전부터 황 CEO와 앨리스 황의 관계를 보고받았음에",
+      "u": "https://www.donga.com/news/Inter/article/all/20261113/135017902/2",
+      "m": "11. 12. PM 07:30",
+      "ts": 1794511800000,
       "stocks": [],
       "fullText": "최지선 기자,김보라 기자"
     },
     {
       "s": "동아일보",
-      "t": "“앨리스 황, 中 정부에 이용당한 ‘유용한 바보’일수도”",
-      "d": "미국 민주당에서 젠슨 황 엔비디아 최고경영자(CEO)와 불륜 관계였다는 의혹을 받는 앨리스 황이 중국 간첩인지 불확실하다는 의견이 나왔다. 엘리스 황이 자기도 모르는 새 중국 정부에 이용당한, 이른바 ‘유용한 바보(useful idiot)’일 수도 있다는 취지다. 차기 미국 의회 하원 정보위원장으로 내정된 짐 하임스 민주당 하원의원(코네티컷)은 11일(현지 시간) 미국 정치전문매체 폴리티코 인터뷰에서 “앨리스 황이 미국 반도체 기업 관련 정보를 중국 정부에 의도적으로 제공했는지, 아니면 중국의 간첩 포섭 활동을 알지 못한 채 이용당한 유용한 바보였는지 명확하지 않다”고 말했다. 하임스 의원은 그러면서 실체를 밝혔어야 할 연방수사국(FBI)이 사실상 수사를 방기했다고 주장했다. 그는 “앨리스 황의 중국 정부 ",
-      "u": "https://www.donga.com/news/Inter/article/all/20261112/135016507/1",
-      "m": "11. 12. AM 09:17",
-      "ts": 1794475020000,
+      "t": "[오늘의 채널A]‘AI 황제’ 젠슨 황의 끝없는 추락",
+      "d": "중국 스파이로 의심되는 여성과의 외도를 인정한 후 사내 임원과의 불륜 의혹까지 터진 엔비디아 최고경영자(CEO) 젠슨 황이 FBI 수사에 직면했다. 중국 간첩 관련 혐의가 인정될 경우 최대 징역 20년의 중형을 받을 수 있다는 전망까지 나오는데…. 세계를 뒤흔든 ‘젠슨 황 스캔들’의 쟁점을 짚어본다.",
+      "u": "https://www.donga.com/news/Entertainment/article/all/20261113/135017192/2",
+      "m": "11. 12. PM 07:30",
+      "ts": 1794511800000,
       "stocks": [],
-      "fullText": "송유근 기자 구독"
+      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Alice Huang Resurfaces in Beijing Amid Nvidia Scandal",
-      "d": "Alice Huang, the woman at the center of the scandal engulfing Nvidia CEO Jensen Huang, has returned to China and is in Beijing, according to Bloomberg’s exclusive reporting. The chipmaker is investigating spying allegations denied by Beijing.\n\n (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-12/alice-huang-resurfaces-in-beijing-amid-nvidia-scandal-video",
-      "m": "11. 12. AM 09:16",
-      "ts": 1794474962000,
+      "t": "‘Dark Day’: Silicon Valley Mourns Nvidia’s Decision to Oust CEO",
+      "d": "The ouster of Nvidia Corp. Chief Executive Officer Jensen Huang has sent shockwaves throughout Silicon Valley, prompting a chorus of venture capitalists and founders to criticize the chipmaker’s decision and express concerns about the broader impact on the industry. Huang was removed by Nvidia’s board of directors after reports of two affairs, including one with a woman suspected of spying for Chi",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-12/-dark-day-silicon-valley-mourns-nvidia-s-decision-to-oust-ceo",
+      "m": "11. 12. PM 07:07",
+      "ts": 1794510438000,
       "stocks": [],
       "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia Names Colette Kress as Interim CEO",
+      "d": "Nvidia turns to CFO Colette Kress to steady the ship as interim CEO, following Jensen Huang’s ouster.\n\nNorah Mulinda explains. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-names-colette-kress-as-interim-ceo-video",
+      "m": "11. 12. PM 06:44",
+      "ts": 1794509046000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "d": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "u": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "m": "11. 12. PM 06:39",
+      "ts": 1794508763000,
+      "stocks": [],
+      "fullText": "The open source community just lost one of its strongest advocates. Nvidia CEO Jensen Huang resigned Thursday after he admitted to an affair with an alleged Chinese spy, raising concerns about U.S. national security and the motives behind the executive’s support for softer chip export controls on China. Huang has been a staunch supporter of open source AI, framing the ecosystem as good for safety, innovation, diffusion, and sovereignty. And as frontier AI labs increasingly move to reduce their reliance on Nvidia and build their own chips, supporting open source is also a good way for the company to diversify its customer base by selling chips to nation-states, enterprises, and any organization that wants to own its own models. Still, Huang’s resignation raises questions about whether Nvidia will carry on his legacy by continuing to support the open model community. Jensen no longer being CEO would be very very bad for the open model cause in the US. &mdash; Nathan Lambert (@natolambert) November 11, 2026 Huang’s departure also comes as Nvidia has yet to finalize a deal to acquire open source platform Hugging Face for $13 billion . Hugging Face CEO Clem Delangue said in a post on X that the company would continue to fight for open source , whatever happens next. Nvidia also agreed to pay $6 billion for a non-exclusive license for open AI coding startup Poolside’s technology. Within Nvidia, Huang pushed for the development of the Nemotron family of open-weight AI models built for long-running agentic AI systems and reasoning workloads — potential competitors to closed frontier models. Huang also backed companies that would make American open models more competitive, investing in startups like Reflection AI and Thinking Machines Lab. Huang’s influence extended beyond Nvidia’s investments and product roadmap. He also emerged as one of the most prominent voices pushing back against Washington’s efforts to restrict the open AI ecosystem. Earlier this year, Huang wrote an open letter signed by 25 companies, including Microsoft, Meta, IBM, and Palantir, urging the U.S. government not to over-restrict open-weight AI models, many of which come from China. The impetus for that letter was Washington’s debate over how the U.S. should respond to allegations that Chinese AI labs are stealing intellectual property from American counterparts like Anthropic and OpenAI, both of which have reportedly appealed directly to Washington on the matter, urging stronger protections. That combination of Huang’s personal visibility and Nvidia’s market power made him the strongest counterweight to arguments from closed-model providers like Anthropic and OpenAI, which have advocated for greater restrictions on advanced AI models due to safety reasons. Without Huang, the concern among open source community members is that whoever takes over will be more cautious. Nvidia has named CFO Colette Kress as interim CEO. It’s not clear how Kress will approach the Hugging Face deal or su"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia CEO Ouster Shakes AI Economy",
+      "d": "Get a jump start on the US trading day on \"Bloomberg Open Interest.\" Nvidia loses the man who built its AI empire. Jensen Huang is out after a stunning boardroom shakeup, wiping hundreds of billions from Nvidia’s value and rattling the entire AI trade. We break down what comes next for the AI industry and how it’s playing out in Washington and on Wall Street. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-12/open-interest-11-12-2026-video",
+      "m": "11. 12. PM 06:36",
+      "ts": 1794508586000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Jensen Huang Ousted By Nvidia Board As CEO",
+      "d": "Bloomberg’s Ed Ludlow breaks down the news of Jensen Huang ousted from his post as Nvidia CEO after reports of two affairs, including one with a woman US officials reportedly suspected of spying for China. Now investors are confronting a question that barely existed days ago: what is Nvidia without Jensen Huang? (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-12/bloomberg-tech-11-12-2026-video",
+      "m": "11. 12. PM 06:34",
+      "ts": 1794508467000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Former Prosecutor Breaks Down Nvidia’s Legal Exposure",
+      "d": "Questions remain over the potential legal and national security fallout for Nvidia and former CEO Jensen Huang following revelations about Huang’s relationship with a woman alleged to have ties to Chinese intelligence. Miller & Chevalier partner and former federal prosecutor Christina Clark explains how counterintelligence and criminal investigations could proceed in parallel and why Nvidia’s inde",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-12/former-prosecutor-breaks-down-nvidia-s-legal-exposure-video",
+      "m": "11. 12. PM 06:28",
+      "ts": 1794508117000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "불륜보다 거짓말이 더 문제… 젠슨 황의 실수",
+      "d": "",
+      "u": "https://www.chosun.com/economy/weeklybiz/2026/11/13/5YPAHJQB5BECRKLAB5LBAPLSPY/",
+      "m": "11. 12. PM 06:00",
+      "ts": 1794506400000,
+      "stocks": [],
+      "fullText": "불륜보다 거짓말이 더 문제… 젠슨 황의 실수 김은정 기자 입력 2026.11.13. 03:00"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang&#8217;s exit",
+      "d": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "u": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "m": "11. 12. PM 05:36",
+      "ts": 1794505000000,
+      "stocks": [],
+      "fullText": "Hugging Face CEO Clément Delangue briefly commented on Nvidia CEO Jensen Huangs departure on Thursday, calling it a really sad day. Nvidia had announced its plan to acquire the platform for open source AI models in September for $12.9 billion, making it the second-largest acquisition in the companys history, just behind that of chipmaker Groqs assets for $20 billion in December 2025. This whole thing sucks, and I wish none of it had happened. It’s a really sad day! But I want to make one thing clear: we’ll keep fighting for open-source AI, harder than ever. This is too important to slow down now. Let’s go!, Delangue wrote on X. This whole thing sucks, and I wish none of it had happened. It’s a really sad day! But I want to make one thing clear: we’ll keep fighting for open-source AI, harder than ever. This is too important to slow down now. Let’s go! &mdash; clem 🤗 (@ClementDelangue) November 12, 2026 The post is interesting as it implies that Huangs departure is potentially worrying to open source advocates, and hes attempting to offer reassurance. As Nvidias CEO, Huang was known as a strong advocate for open source AI and open-weight models, which is why there could be concerns about how a company thats no longer under his leadership will now approach this space. After Nvidia announced its plans to acquire Hugging Face, the U.S. Department of Justice began making inquiries about how the deal would impact competition in the AI market, Reuters reported in October . While Nvidia pledged that the platform would preserve open support, it would also allow the company to control a major distribution channel for AI models. The Hugging Face deal is still scheduled to close in the first half of 2027. Requests for further comment on the deal status and whether Hugging Face has spoken yet with Nvidias interim CEO Colette Kress were not returned. Huangs advocacy for open source and open-weight AI has long extended beyond Hugging Face. In July, the CEO published an AI policy letter as his first-ever post on the social network X . The letter, which was signed by 25 companies, including Microsoft, Meta, Hugging Face, IBM, Palantir, and others, urged the U.S. government not to over-restrict open-weight AI models. It said models that anyone can download, inspect, modify, and run on their own infrastructure are an important part of the AI ecosystem because they make AI more accessible, adaptable, and widely available. Huang also wrote that open-weight models expand access to the AI economy, strengthen competition, and give customers greater control, as they know they wont become locked into a single provider. Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty, his post on X stated. For my first post, I’m sharing a letter @NVIDIA signed on why open models matter. AI will transform every industry, power every company, and be built by every country. Open models strengthen safety and cybersecurity, accelerate"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Jensen Huang agrees to testify before Congress",
+      "d": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "u": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "m": "11. 12. PM 04:36",
+      "ts": 1794501397000,
+      "stocks": [],
+      "fullText": "In Brief Posted: 8:36 AM PST · November 12, 2026 Image Credits: Jose Sarmento Matos/Bloomberg / Getty Images Aisha Malik Jensen Huang agrees to testify before Congress Ex-Nvidia CEO Jensen Huang has agreed to testify before Congress, House Foreign Affairs Committee Chairman Brian Mast said on Thursday, according to reports from Bloomberg and NBC News . Huang, who stepped down as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him. Huang has agreed to testify before Congress by Thanksgiving, which falls later this month. The development comes after House Republicans Mast, John Moolenaar, and Rick Crawford sent Huang a letter on November 4 requesting that he appear before their committees . Moolenaar chairs the House Select Committee on the Chinese Communist Party, Mast chairs the House Committee on Foreign Affairs, and Crawford chairs the House Intelligence Committee. “Jensen and I have been very at odds as some of you already know on export controls, but Nvidia is a very important company to the United States of America,” Mast said to reporters. “I don’t want to see anything hurt in Nvidia, but he has some very serious questions to answer.” The testimony will take place behind closed doors, though Mast said he expects the briefing to be recorded on video and transcribed. Topics AI , Government & Policy , In Brief , Jensen Huang , nvidia 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry Julie Bort 3 hours ago AI Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement? Amanda Silberling 4 hours ago AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 6 hours ago Latest in AI AI Googles latest Search upgrade promises better answers to your most complicated questions Sarah Perez 34 minutes ago Startups Nectar launches an AI agent to automate creator discovery and outreach for brands Lauren Forristal 51 minutes ago AI Jensen Huang’s exit puts Nvidia’s support for open source in question Rebecca Bellan 1 hour ago"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+      "d": "President Trump weighed in on the search for a permanent CEO shortly after Nvidia’s announcement about Jensen Huang&#39;s resignation, saying that Apple executive chair Tim Cook should take the role. NBC News&#39; Allie Canal and New York Times contributor Don Clark discuss Cook&#39;s industry experience and the background of interim CEO Colette Kress.",
+      "u": "https://www.nbcnews.com/video/trump-recommends-tim-cook-for-nvidia-ceo-after-jensen-huang-resigns-273344581767",
+      "m": "11. 12. PM 04:32",
+      "ts": 1794501161000,
+      "stocks": [
+        "AAPL"
+      ],
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "d": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "u": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "m": "11. 12. PM 04:32",
+      "ts": 1794501153000,
+      "stocks": [],
+      "fullText": "Nvidia CEO Jensen Huang’s confession that he had an affair (and reports of another one with a direct report ) that led the board to oust him on Thursday isn’t just your run-of-the-mill salacious billionaire CEO sex scandal. In this case, one of his lovers is suspected by the U.S. government of being a spy for China . Shes also an executive of a Singapore-based neocloud that is suspected of smuggling Nvidia chips to China. These affairs show undeniably poor judgment by Huang and, I’d argue, unchecked hubris on many levels. Such choices are not only a betrayal of his wife of 40 years, theyre also a liability for his company. Sleeping with any Nvidia partner is bad enough, but he also chose one in a tinderbox of a geopolitical situation. Even if Alice Huangs company wasn’t suspected of helping Chinese firms evade chip restrictions (and he was somehow unaware of this), it was still exploiting a legal loophole by renting powerful AI infrastructure to Chinese companies. Its those potential national consequences that may land him in a hellscape of ongoing public humiliation. Republican committee chairs are already summoning him to testify in closed-door sessions about the security ramifications. Will Democrats, who are set to take over key committees when the new Congress convenes in January, also haul him in to testify on the Hill? No one knows yet, but Huang has flaunted his close relationship with President Trump. Remember when Trump called him while he was onstage at the All-In Summit in September? Nvidia also donated $25 million to Trump’s ballroom, a deeply unpopular project with American voters. Several Democratic lawmakers have already vowed to investigate the money behind it. In other words, he is a billionaire close to Trump. He was — until Thursday — the face of AI and data centers (also a deeply unpopular political topic with voters), and he has publicly admitted to having an affair with an alleged Chinese spy. Even though hes no longer CEO, that seems too juicy a target for Democrats to ignore. Beyond whatever may be coming, Huang’s influence has been lost right when he was using it to push the tech industry in a number of directions. These areas have now lost their biggest champion. Open-weight AI models as competitors to closed-source labs Huang has been the biggest, loudest advocate for open-weight AI models in the tech industry and among government policymakers. Nvidia not only offers its own open-weight models, it also offers a lot of other open source tech for agents, AI security, and more. It has even agreed to acquire the biggest site that hosts them, Hugging Face, for $12.9 billion. (That deal is supposed to close in the first half of next year, pending regulatory approval.) In July, when Anthropic and OpenAI were reportedly urging the Trump administration to ban Chinese open-weight models, Huang organized a letter of support for open-weight models generally (if not Chinese models specifically), signed by hundreds of tech companies"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Trump floats Apple chairman Tim Cook as Jensen Huang&#8217;s successor",
+      "d": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "u": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "m": "11. 12. PM 04:12",
+      "ts": 1794499964000,
+      "stocks": [
+        "AAPL"
+      ],
+      "fullText": "In Brief Posted: 8:12 AM PST · November 12, 2026 Image Credits: Kevin Dietsch / Getty Images Sarah Perez Trump floats Apple chairman Tim Cook as Jensen Huangs successor In the wake of the industry-shaking news of Nvidia CEO Jensen Huangs resignation on Thursday, U.S. President Donald Trump is floating the idea that former Apple CEO Tim Cook should take over the position. In a post on Truth Social, Trump wrote that only one man could take Huangs place: Tim Cook of Apple. A Legend replaces a Legend! he wrote. Cook stepped down as Apples CEO on September 1, 2026, after 15 years running the company , but hes still very much involved with Apple. While John Ternus took over as Apples CEO, Cook transitioned into the role of executive chairman of Apples board of directors, which sees him continuing to engage with global policymakers and manage international relationships, including Apples relations with China. Trump is not the only one to suggest Cook as a replacement for Huang. Jeffrey Sonnenfeld , Senior Associate Dean for Leadership Studies at Yale School of Management, who studies CEO leadership and corporate governance, penned an op-ed in Time on Wednesday , suggesting Cook should be among the potential candidates. He wrote that Cook has an unparalleled track record of succeeding a bigger-than-life founder, in reference to Cook taking over from Apple founder Steve Jobs. Whether or not Trump agrees with this opinion, or is simply blasting off an idea that hopped into his mind, is anyones guess. Tim Nvidia, however, doesnt quite have the same ring as Tim Apple does . Topics AI , Apple , In Brief , Jensen Huang , nvidia , Tim Cook , Trump 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Hugging Face CEO vows to keep fighting for open source AI after Jensen Huangs exit Sarah Perez 2 hours ago AI Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry Julie Bort 3 hours ago AI Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement? Amanda Silberling 4 hours ago Latest in AI AI Googles latest Search upgrade promises better answers to your most complicated questions Sarah Perez 30 minutes ago Startups Nectar launches an AI agent to automate creator discovery and outreach for brands Lauren Forristal 47 minutes ago AI"
+    },
+    {
+      "s": "조선일보",
+      "t": "[속보] 트럼프, 젠슨황 퇴진에 “그 자리 이어받을 사람은 애플 팀 쿡”",
+      "d": "ㅤ",
+      "u": "https://www.chosun.com/international/international_general/2026/11/13/MNSTCNRYGNSDCMZRMFRGCMLBGU/",
+      "m": "11. 12. PM 03:59",
+      "ts": 1794499168000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황 퇴진, AI 선장을 잃다…엔비디아 33년 만에 리더십 교체",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111339411",
+      "m": "11. 12. PM 03:52",
+      "ts": 1794498761000,
+      "stocks": [],
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황 퇴진, AI 선장을 잃다…엔비디아 33년 만에 리더십 교체 입력 2026.11.13 00:52 수정 2026.11.13 00:52 지면 A1 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김인엽 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. CEO&middot;이사직 모두 내려놔&hellip;추가 불륜이 '결정타' 임시 후임에 크레스 CFO&hellip;이사회, 차기 CEO 물색 사진=AFP 엔비디아를 33년간 이끈 젠슨 황 최고경영자(CEO)가 사임했다. 중국 스파이로 의심되는 앨리스 황과 부적절한 관계를 맺은 사실이 공개된 데 이어 사내 임원인 킴벌리 파월 엔비디아 헬스케어부문 부사장과 불륜 관계라는 의혹이 추가로 폭로되면서다. 그의 불명예 퇴진으로 글로벌 인공지능(AI)의 판이 흔들릴 것이라는 전망이 나온다. 엔비디아는 12일 성명을 내고 젠슨 황이 CEO 및 이사직에서 즉각 물러난다고 발표했다. 엔비디아 이사회는 전날 젠슨 황의 거취를 논의하기 위해 화상회의를 열었다. 이 자리에서 젠슨 황의 자진 사퇴로 가닥이 잡힌 것으로 알려졌다. 엔비디아는 콜렛 크레스 최고재무책임자(CFO)를 임시 CEO로 임명했다. 크레스 임시 CEO는 &ldquo;엔비디아의 강점은 언제나 임직원에게서 비롯됐다&rdquo;며 &ldquo;경영진과 함께 젠슨 황이 지난 33년간 쌓은 탁월한 기반을 더 발전시켜 나가겠다&rdquo;고 밝혔다. 하비 존스 이사는 이사회 의장으로 선임됐다. 후임 CEO로는 에릭 슈밋 전 구글 CEO, 조니 스루지 애플 최고하드웨어책임자(CHO), 르네 하스 Arm CEO 등이 물망에 오른다. 대만계 이민자인 젠슨 황은 1993년 엔비디아를 창업한 뒤 31년 만에 회사를 글로벌 시가총액 1위 기업으로 키워냈다. 게임용 그래픽카드를 제조하던 회사는 AI 칩 시장에서 90% 점유율을 차지한 &lsquo;공룡 기업&rsquo;이 됐다. 하지만 연이은 추문은 공적을 한순간에 무너뜨렸다. 사안은 불륜을 넘어섰다. 최소 75억달러(약 10조원)어치 엔비디아 칩이 앨리스 황을 통해 중국 등으로 넘어간 것으로 알려졌다. 시장은 젠슨 황이 구축한 AI 생태계에 미칠 충격에 주목하고 있다. 엔비디아와 거래하는 삼성전자와 SK하이닉스 등 한국 기업이 영향을 받게 된다. 브라이언 콜렐로 모닝스타 애널리스트는 &ldquo;AI 생태계 중심에 있던 젠슨 황의 퇴진은 AI산업의 자금 조달 감소와 규제 강화, AI에 대한 정치적 반발로 이어질 수 있다&rdquo;고 분석했다. 엔비디아 주가는 이날 장 초반 10% 넘게 급락했다. 사내 불륜&middot;美 정계 압박에&hellip;\"황 믿는다\"던 이사회 돌아서 엔비디아 이사회, 전날밤 긴급회의&hellip;사실상 해임 사진=REUTERS 젠슨 황 엔비디아 최고경영자(CEO)가 자진 사임하기 전날인 11일(현지시간) 미국 샌타클래라 본사에는 팽팽한 긴장감이 흘렀다. 회사의 심장부인 &lsquo;엔데버&rsquo; 건물 앞으로 기자가 걸어가자 보안요원 세 명이 뛰어나와 앞을 막았다. &lsquo;재향군인의 날&rsquo; 휴일에도 일부 인원은 비상근무 체제에 들어갔다. 직원들에게 현 상황에 대한 의견을 묻자 &ldquo;할 말이 없다&rdquo;며 자리를 벗어났다. 창업 후 33년간 회사를 이끈 젠슨 황은 엔비디아뿐 아니라 글로벌 인공지능(AI) 생태계의 정점에 있는 인물이다. 그가 물러난다는 소식에 엔비디아뿐 아니라 빅테크와 삼성전자, SK하이닉스, 마이크론, TSMC 등 생태계에 있는 모든 회사가 충격을 받은 이유다. ◇추가 불륜 폭로가 결정타 젠슨 황의 불명예 퇴진에 결정적인 역할을 한 것은 추가 불륜 폭로다. 상대는 2008년 입사해 젠슨 황에게 직접 보고하는 임원 60명 중 한 명인 킴벌리 파월 헬스케어부문 부사장(48)이다. 앞서 젠슨 황이 시인한 앨리스 황 외에 또 다른 부적절한 관계가 드러난 것이다. 지난 3월 연례 콘퍼런스 GTC 중 한 호텔에서 젠슨 황과 파월 부사장이 애정을 표현하는 모습이 목격됐다. 이 장면을 휴대폰으로 찍은 목격자에게 젠슨 황의 경호원은 비밀 유지 각서를 쓰도록 했다. 이사회는 이 문제를 회의 안건으로 올렸다. 엔비디아 행동강령은 개인적 관계를 포함해 이해충돌을 일으키는 상황을 피하도록 규정하고 있다. 8일 젠슨 황의 리더십을 신뢰한다고 밝힌 이사회 입장은 사흘 만에 달라졌다. 엔비디아 정관에 따르면 이사회는 사유와 관계없이 이사 과반수 찬성으로 CEO를 해임할 수 있다. 이사회는 민주당이 다수가 된 정치권과 수사기관의 압박을 염두에 뒀을 가능성이 크다. 미 정계는 젠슨 황과 앨리스 황의 관계에 대한 공세 수위를 계속 높였고, 결국 젠슨 황의 사임을 끌어냈다. 앨리스 황이 젠슨 황에 관해 알고 있는 정보를 협박에 쓸 수 있다는 이유에서다. 미 하원 외교&middot;정보&middot;중국특별위원회는 의회에 젠슨 황의 출석을 요구했다. 일각에서는 젠슨 황의 입지를 고려해 그에게 이사회 의장을 맡기는 방안도 거론됐지만, 결론은 퇴진이었다. 엔비디아는 &lsquo;사임&rsquo;이라는 표현을 썼지만, 사실상 이사회가 그를 해임했다는 해석이 지배적이다. 엔비디아는 젠슨 황이 앞으로 어떤 역할을 하거나 회사와 어떤 관계를 맺을지에 관해서도 언급하지 않았다. ◇&lsquo;AI 중앙은행&rsquo; 사라지나 젠슨 황의 퇴진은 회사 내부 문제로 끝나지 않을 전망이다. 그는 AI 생태계 전반에 자금이 도는 구조를 설계한 당사자다. 젠슨 황이 이끈 엔비디아는 막대한 현금흐름을 다시 AI 생태계에 주입하는 &lsquo;AI 중앙은행&rsquo; 역할을 했다. 오픈AI, 앤트로픽 등 첨단 AI 모델 개발사에 투자하고 이들이 엔비디아 칩을 사게 하는 &lsquo;벤더파이낸싱&rsquo;(순환금융) 구조를 구축했다. 엔비디아 그래픽처리장치(GPU)를 AI 기업에 임대하는 네오클라우드 기업도 지원했다. 새 경영진이 들"
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 ‘1인 경영’ 33년 만에 막내려… 엔비디아 임시 경영 체제",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/11/13/35UHVZNC45GLJHL2D6US5WYWW4/",
+      "m": "11. 12. PM 03:52",
+      "ts": 1794498720000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "d": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+      "u": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "m": "11. 12. PM 03:37",
+      "ts": 1794497849000,
+      "stocks": [],
+      "fullText": "The Nvidia Board of Directors announced on Thursday morning that the companys co-founder and CEO of 33 years, Jensen Huang, has resigned as president, CEO, and member of the board, effective immediately. This is a shocking twist for one of the most valuable companies in the world, which designs the chips that make the AI boom possible. Few people would have predicted this turn of events even just a week ago, as Huang has been so central to Nvidia throughout the companys existence that he never even established a succession plan . But Huang has now been ousted after reports that he had affairs with both an alleged Chinese spy and one of his direct reports at Nvidia. While the company conducts a more thorough search for Huangs successor, Nvidia CFO and Executive Vice President Colette Kress has taken over as interim CEO. But beyond her name and job title, what do we know about the person who will now lead a company worth about $3.8 trillion? According to Nvidias website , Kress has worked at the company since September 2013. Before that, she spent three years as an SVP and CFO of Ciscos Business Technology Operations Finance organization. She also worked at Microsoft for 13 years, where she spent four years as CFO of the Server and Tools division. She holds a finance degree from the University of Arizona and an MBA from Southern Methodist University. The California-based 59-year-old has a very limited social media presence — on Linkedin , she has commented some well wishes on former colleagues posts about their retirement. But as CFO, shes been a regular presence on Nvidias earnings calls, making her a familiar figure for analysts covering the company. According to Forbes list of Americas Richest Self-Made Women, Kress net worth is estimated to be about $1.2 billion. Her Forbes profile adds that she initially joined Nvidia in part because her two sons endorsed the company for its role in the video game industry, which it was best known for at the time. “Nvidias strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years,” Kress said in a statement . “We will continue advancing the work that has made Nvidia a leader in accelerated computing and AI, and execute on the opportunities ahead. Our focus remains on serving our customers, partners, developers and shareholders.” Nvidia is slated to report its quarterly earnings on Tuesday, when we will likely hear more from Kress about her plans for the companys immediate future. Topics AI , Jensen Huang , nvidia When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Amanda Silberling Senior Writer Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-hos"
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황, 엔비디아 전격 사임…美 반도체 규제 강화하나 [박신영의 개장전 요것만]",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202611133936i",
+      "m": "11. 12. PM 03:23",
+      "ts": 1794497020000,
+      "stocks": [],
+      "fullText": "글로벌마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황, 엔비디아 전격 사임…美 반도체 규제 강화하나[박신영의 개장전 요것만] 입력 2026.11.13 00:23 수정 2026.11.13 00:23 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박신영 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 영상 모듈 닫기 엔비디아를 세계 최대 인공지능(AI) 반도체 기업으로 키운 젠슨 황 최고경영자(CEO)가 12일(현지시간) 전격 사임했습니다. 중국 정보기관과 연계됐다는 의혹을 받는 여성과의 관계를 둘러싼 논란이 확산한 가운데 사내 여성 임원과의 관계도 외신에서 보도됐습니다. 엔비디아 주가는 이날 개장 전 거래에서 10% 급락했고 월가에서는 목표주가를 최대 50% 낮추는 등 충격이 확산하고 있습니다. 미국 의회도 황 CEO에 대한 조사와 함께 중국에 대한 AI 반도체 수출 규제 강화를 추진하고 있습니다. 이런 가운데 6개월 전 엔비디아의 중국 사업 위험을 경고했던 31세 공매도 투자자가 월가의 주목을 받고 있습니다. 1. 젠슨 황 엔비디아 CEO 전격 사임 엔비디아의 공동창업자이자 최고경영자(CEO)인 젠슨 황이 CEO 자리에서 물러났습니다. 12일(현지시간) 블룸버그에 따르면 엔비디아는 황 CEO가 사임하고 콜레트 크레스 최고재무책임자(CFO)를 임시 CEO로 선임했다고 밝혔습니다. 엔비디아 이사회는 하비 존스를 신임 이사회 의장으로 임명했습니다. 차기 CEO 선임을 위해 내부와 외부 후보를 모두 검토할 계획입니다. 황 CEO의 사임은 중국 정보기관과 연계됐다는 의혹을 받는 여성과의 관계, 엔비디아 내부 임원과의 부적절한 관계에 대한 보도가 잇따른 가운데 이뤄졌습니다. 다만 해당 여성의 중국 정보기관 연루 여부는 확인되지 않은 의혹이며 황 CEO의 사임 조건이나 법적 책임 여부도 구체적으로 알려지지 않았습니다. 황 CEO는 1993년 엔비디아를 공동 창업한 이후 30년 넘게 회사를 이끌었습니다. 엔비디아를 그래픽처리장치(GPU) 제조업체에서 글로벌 AI 인프라 시장을 지배하는 기업으로 성장시킨 인물입니다. 황 CEO의 사임 이후 엔비디아 지분 구조에도 관심이 집중되고 있습니다. 황 CEO가 보유한 엔비디아 주식 대부분은 아내 로리 황과 공동으로 소유하고 있으며 신탁을 통해 관리되고 있습니다. 이들 신탁이 보유한 엔비디아 주식은 약 8억주에 달합니다. 반면 황 CEO가 개인 명의로 직접 보유한 주식은 약 7000만주입니다. 이 같은 지분 구조는 황 CEO의 퇴진 이후 엔비디아에 대한 영향력을 판단하는 주요 변수로 거론되고 있습니다. 다만 신탁을 통해 보유한 주식도 의결권과 경제적 이해관계에 영향을 미칠 수 있기 때문에 개인 명의 주식만으로 황 CEO의 실질적인 지배력을 판단하기는 어렵습니다. 2. 씨티&middot;번스타인 목표주가 대폭 하향&hellip;최대 50% 인하 월가 주요 투자은행들도 엔비디아의 목표주가를 잇달아 낮추고 있습니다. 씨티는 엔비디아의 목표주가를 기존 285달러에서 225달러로 약 21% 하향 조정했습니다. 앞서 번스타인도 엔비디아 목표주가를 400달러에서 200달러로 50% 하향 조정했습니다. 이처럼 월가에서는 엔비디아의 AI 반도체 경쟁력 자체보다는 황 CEO의 퇴진으로 발생하는 경영 불확실성을 주요 위험 요인으로 평가하고 있습니다. 3. 미 의회, 황 CEO 조사 확대&hellip;중국 반도체 수출 규제 강화 압박 황 CEO를 둘러싼 중국 정보기관 연루 의혹은 미국 의회에서도 국가안보 문제로 확대되고 있습니다. 11일 공화당과 민주당 의원들은 황 CEO의 사퇴를 요구하며 의회 차원의 조사를 강화하겠다는 입장을 밝혔습니다. 상원 은행위원회 소속 공화당 케빈 크레이머 의원은 황 CEO가 자신의 양심에 따라 사임해야 한다고 주장했습니다. 크레이머 의원은 황 CEO와 관계를 맺은 앨리스 황이 중국 정보기관에 어떤 정보를 제공했는지 확인되지 않았다는 점을 우려했습니다. 특히 해당 여성이 황 CEO에 대해 어떤 정보를 알고 있으며 이를 어떻게 이용할 수 있는지가 핵심 문제라고 지적했습니다. 황 CEO가 협박과 공갈에 취약한 상태에 놓였을 가능성이 있다는 주장입니다. 미 하원 외교위원회와 중국특별위원회, 정보위원회도 황 CEO에 대한 의회 조사를 추진하고 있습니다. 공화당 소속 브라이언 매스트 하원 외교위원장과 존 물레나르 중국특별위원장, 릭 크로퍼드 정보위원장은 지난 4일 황 CEO에게 서한을 보내 오는 18일 의회에 출석해 증언할 것을 요구했습니다. 이들은 11일까지 출석 여부를 회신하도록 요구했지만 이날 오후까지 황 CEO의 답변을 받지 못했다고 밝혔습니다. 매스트 위원장은 황 CEO가 자발적으로 출석하지 않을 경우 소환장을 발부할 수 있다고 밝혔습니다. 민주당에서도 조사 요구가 확산하고 있습니다. 하원 감독위원회 소속 수하스 수브라마냠 의원은 엔비디아와 중국 사이에서 실제로 어떤 일이 벌어졌는지 조사해야 한다고 주장했습니다. 또 트럼프 행정부가 관련 사실을 알고 있었는지, 알고 있었다면 왜 조치를 취하지 않았는지도 규명해야 한다고 강조했습니다. 특히 내년 1월 민주당이 상원과 하원 모두에서 다수당 지위를 확보할 예정이라는 점에서 트럼프 행정부와 엔비디아의 관계에 대한 조사가 확대될 가능성이 제기됩니다. 황 CEO는 트럼프 대통령의 두 번째 임기 동안 백악관과 긴밀한 관계를 유지해 왔습니다. 지난 5월에는 트럼프 대통령과 함께 에어포스원을 타고 중국을 방문하기도 했습니다. 이번 논란은 미국의 대중 첨단 반도체 수출 규제 강화 움직임으로도 이어지고 있습니다.미 의회는 연례 국방수권법(NDAA)에 인공지능 감독법(AI Overwatch Act), 첨단 반도체 기술 통제법(MATCH Act), 반도체 보안법(Chip Security Act) 등 중국에 대한 첨단 반도체 수출을 제한하는 법안들을 포함해 일괄 처리하는 방안을 추진하고 있습니다. 국방수권법은 미국 의회가 매년 처리하는 핵심 국방 법안으"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Nvidia stock falls after Huang resigns, weighing on broader market",
+      "d": "Stocks declined at the opening bell on news that Jensen Huang, one of the most important executives in the AI boom, resigned as CEO of Nvidia.",
+      "u": "https://www.nbcnews.com/business/markets/nvidia-stock-huang-resigns-rcna608958",
+      "m": "11. 12. PM 03:00",
+      "ts": 1794495631000,
+      "stocks": [],
+      "fullText": "Markets Nvidia stock falls after Huang resigns, weighing on broader market The company at the center of the AI boom is in crisis at a pivotal moment for the technology and the economy. Listen to this article with a free profile 00:00 00:00 Nvidia shares tumble after Huang resignation 08:11 Get more news Live on Share Add NBC News to Google Nov. 12, 2026, 10:00 AM EST / Updated Nov. 12, 2026, 2:36 PM EST By Steve Kopack Major stock indexes declined following news that Jensen Huang, one of the most important executives in the AI boom, was resigning effective immediately as CEO of Nvidia. After diving 12% at the open, Nvidia’s stock was down more than 5% as of 2:30 p.m. ET, as the company and investors grappled with multiple scandals that have engulfed its co-founder and now-former CEO Jensen Huang. Throughout the day, the company was among the biggest decliners on the Nasdaq, Dow Jones Industrial Average and S&P 500 indexes. Major indexes also faced choppy trading. All three were slightly lower after following a similar pattern to Nvidia’s: falling, rising and then declining again. Without a formal succession plan, the company that designs the chips powering the entire AI sector was thrust into crisis. It’s a pivotal moment for AI, with Anthropic gearing up for its potentially trillion-dollar-plus initial public offering next week. Anthropic is highly reliant on Nvidia’s chips and has entered into hundreds of billions of dollars worth of contracts with cloud providers to rent them. Nvidia named its longtime chief financial officer as its interim leader. Huang’s departure from Nvidia came after a New York Times report said the CEO had had a relationship with an executive at Nvidia who reports to him. For Subscribers FOR SUBSCRIBERS How Amy Acton overcame big money and a vicious attack ad to make history in Ohio FOR SUBSCRIBERS Nvidia is at the center of the AI economy. What happens now? FOR SUBSCRIBERS The House districts that remain uncalled after the 2026 midterms FOR SUBSCRIBERS Wave of Iran-linked plots raise security questions about American bases in Britain FOR SUBSCRIBERS The price of baby formula just set a dubious record FOR SUBSCRIBERS Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say FOR SUBSCRIBERS Republicans tiptoe around Trump as they process defeat in the 2026 elections FOR SUBSCRIBERS How suspected spy Alice Huang got involved with Nvidia’s CEO FOR SUBSCRIBERS OSU abuse survivors blast Jim Jordan’s election as House minority leader FOR SUBSCRIBERS How measles surged in the U.S. FOR SUBSCRIBERS How a concerned mother says she helped rescue a missing Utah teen held captive in Oregon FOR SUBSCRIBERS Latino groups’ first demand of the new Congress: Subpoena Stephen Miller FOR SUBSCRIBERS How American Legion halls are adapting to survive a shrinking veteran population FOR SUBSCRIBERS Cubans say their houses are collapsing on top of them but they have nowhere to go FOR SUBSCRIBERS Deadly floods sweep Ga"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Nvidia shares tumble after Huang resignation",
+      "d": "NBC News’ Allie Canal details the drop in Nvidia shares after Jensen Huang resigned as the CEO of Nvidia in the wake of reports that he had multiple extramarital relationships.",
+      "u": "https://www.nbcnews.com/now/video/nvidia-shares-tumble-after-huang-resignation-273334341944",
+      "m": "11. 12. PM 02:52",
+      "ts": 1794495136000,
+      "stocks": [],
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
+    },
+    {
+      "s": "한국경제",
+      "t": "[속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111239037",
+      "m": "11. 12. PM 02:39",
+      "ts": 1794494383000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 [속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발 입력 2026.11.12 23:39 수정 2026.11.12 23:39 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이보배 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. /사진=EPA [속보[ 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발 이보배 한경닷컴 객원기자 newsinfo@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 이보배 객원기자 ADVERTISEMENT 관련 뉴스 1 젠슨 황, 엔비디아 CEO 사임…크레스 CFO가 임시 CEO 중국 스파이 의혹을 받는 여성과 불륜설에 휘말린 젠슨 황 엔비디아 창업자가 최고경영자(CEO)에서 물러났다.엔비디아는 12일 젠슨 황이 CEO 및 이사회 이사직에서 즉시 사임한다고 발표했다. 동시에 콜레트 ... 2026.11.12 22:58 2 젠슨 황 퇴진설·데이터센터 규제 우려에도…골드만삭스 '긍정' 전망 젠슨 황 엔비디아 최고경영자(CEO)의 퇴진 가능성과 미국 중간선거 이후 데이터센터 규제 강화 우려에도 불구하고 인공지능(AI)이 내년 미국 기업 투자를 이끄는 최대 동력으로 남을 것이라는 골드만삭스의 전망... 2026.11.12 22:55 3 \"젠슨 황 없으면 어쩌나\"…대만 반도체 업계도 긴장한 이유 젠슨 황 엔비디아 최고경영자(CEO)의 해임 가능성이 커지면서 세계 최대 반도체 생산기지인 대만에도 긴장감이 퍼지고 있다. 황 CEO가 주도해 온 공격적인 생산 능력 확보와 기술 개발 전략이 후임 경영진 아래에서 달... 2026.11.12 21:59 ADVERTISEMENT 많이 본 뉴스 1 '中 때문에 초비상' 다급한 日…한국에도 SOS 쳤다 2026.11.12 07:54 2 글로벌 시장 브리핑 \"엔비디아 이사회, 젠슨 황 해임 준비\"…시간외 주가 8% 급락 2026.11.12 07:47 3 \"하루 임대료 2000만원\" 줄폐업…잘나가던 '핫플'이 어쩌다 2026.11.10 17:28 4 \"한국 여성 따라할래\" 그야말로 열풍…해외서 제대로 터졌다 2026.11.12 06:05 5 핫스톡 어제는 9% 오늘은 14% 급등…그래도 \"가장 저평가\" 2026.11.11 16:34 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황 엔비디아 CEO 퇴진...엔비디아 주가 '급락'",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202611123920i",
+      "m": "11. 12. PM 02:38",
+      "ts": 1794494309000,
+      "stocks": [],
+      "fullText": "핫픽! 미국주식 핫픽! 미국주식 젠슨 황 엔비디아 CEO 퇴진...엔비디아 주가 '급락' 입력 2026.11.12 23:38 수정 2026.11.12 23:38 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 성수영 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 젠슨 황 엔비디아 최고경영자(CEO)가 사생활 논란 및 핵심 칩의 중국 유출 의혹으로 전격 사임하고 콜레트 크레스 최고재무책임자(CFO)가 임시 CEO로 선임되면서, 리더십 공백 우려로 엔비디아 주가와 시장 전망치가 급락하고 있습니다. 젠슨 황과 콜레트 크레스. 로이터연합뉴스 인공지능(AI)시대를 열어젖힌 주역 중 하나인 젠슨 황 엔비디아 최고경영자(CEO)가 12일 사임했다. 그를 대신해 회사를 이끌 임시 CEO로는 콜레트 크레스 최고재무책임자(CFO)가 선임됐다. 창립 이후 줄곧 엔비디아를 이끌어왔던 젠슨황의 리더십이 사라지면서 관련주 주가가 장 초반 급락했다. 젠슨 황 사임, 크레스 CFO가 임시 CEO 엔비디아는 이날 미국 동부시간 오전 8시 48분 \"황 CEO가 사장과 CEO, 이사직에서 즉시 물러났다\"고 발표했다. 사임 이유는 밝히지 않았다. 정식 후임자가 정해질 때까지는 크레스 CFO가 CEO 업무를 함께 맡을 예정이다. 이사회는 내외부를 가리지 않고 차기 CEO를 물색한다는 방침이다. 1993년부터 이사로 일한 하비 C. 존스 전 시놉시스 CEO는 창사 이래 첫 이사회 의장에 올랐다. 존스 의장은 \"회사 운영과 고객 약속, 제품 로드맵은 중단 없이 이어질 것\"이라고 말했다. 오는 17일 3분기 실적 발표도 예정대로 진행한다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 성수영 기자 성수영 기자는 한국경제신문에서 미술과 문화재 분야를 취재합니다. 미술관·갤러리 전시 리뷰부터 경매와 아트페어 등 미술시장 분석, 작가·기획자 인터뷰까지 미술 분야 전반을 주로 다룹니다. 매주 토요일에는 서양미술사 속 화가들의 삶과 명화 탄생의 뒷이야기를 조명하는 연재 '성수영의 그때 그 사람들'을 쓰고 있습니다. 이 연재는 누적 조회수 6000만 회를 넘겼고, 네이버 기자페이지 구독자는 8만여 명으로 국내 문화 분야 1위를 기록하고 있습니다. 사회부와 경제부를 거쳐 문화부에서 미술을 담당하고 있습니다. 쓰는 기사는 신문 지면과 한경닷컴, 문화예술 매거진 아르떼, 포털 아르떼, 네이버 등 포털에 업로드됩니다. 연재를 묶은 저서 '명화 시리즈' 4부작을 펴냈고, 은 2025년 세종도서 교양부문에 선정됐습니다. '벌거벗은 세계사' '언더스탠딩' 등 방송 및 유튜브에도 때때로 출연합니다. 쉽고 재미있게 쓰겠습니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "The unfolding Jensen Huang scandal: a timeline",
+      "d": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "u": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "m": "11. 12. PM 02:30",
+      "ts": 1794493801000,
+      "stocks": [],
+      "fullText": "Nvidia co-founder and (now former ) CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAIs Sam Altman or SpaceXAIs Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond Huangs personal life and U.S. national security. U.S. officials believe that Huangs likely romantic interest, Megaspeed executive Alice Huang, is a Chinese spy who has been feeding information back to Beijing. (Alice Huang, a Chinese citizen, is of no relation to Jensen Huang.) Megaspeed is a Singapore-based AI infrastructure company that reportedly purchased $4.8 billion in Nvidia chips over the last two years. The U.S. and Singapore have both previously investigated Megaspeed over suspicions that the firm was illegally sharing chips with China. The Justice Department has since taken over the federal investigation into the company, The New York Times has reported. The story took a sudden new turn on Wednesday. Citing five people who worked at Nvidia, the Times reported that Huang also had an extramarital relationship with Kimberly Powell, the company’s vice president of healthcare, who reports directly to him. Nvidia, Huang, and Powell have not confirmed the report. Reached by a Times reporter, Huang reportedly said, “I don’t think you should be talking to me directly, before hanging up. Separately, The Wall Street Journal reported that Nvidia’s board is preparing to oust Huang , and Nvidia’s shares fell in after-hours trading. The U.S. and China are embroiled in a fierce technological arms race to build the most advanced AI infrastructure, which could shape each countrys economic future, military prowess, and capacity for innovation. Nvidia is valuable in this competition as one of the worlds largest makers of AI chips, which are essential for accelerating AI development. But as an American company, Nvidia faces government restrictions on the sale of its most powerful chips to Chinese entities. As the controversy unfolds, we are organizing the most relevant events into a reverse-chronological timeline to keep you up to date. November 12, 2026: Jensen Huang resigns, CFO Colette Kress named as interim CEO Nvidia confirmed in an SEC filing on Thursday that the board accepted Huangs resignation on Wednesday. The companys current CFO, Colette Kress , will take over as interim CEO while still fulfilling her CFO duties. Nvidia is expected to conduct a larger search to determine a permanent successor to Huang. Harvey C. Jones, a managing partner of Square Wave Ventures and former CEO of Synopsys, was appointed as the company’s first-ever chair of the board of directors. Jones has been on Nvidia’s board since 1993. November 11, 2026: Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang After reports of a second extramarital affair, Nvidias board reportedly plans to meet to discuss Huangs future at the company, per The Wall Street Journal. S"
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황 퇴진 확정…월가 목표주가 줄줄이 하향 [월가 업&다운]",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202611123918i",
+      "m": "11. 12. PM 02:23",
+      "ts": 1794493404000,
+      "stocks": [],
+      "fullText": "핫픽! 미국주식 핫픽! 미국주식 젠슨 황 퇴진 확정…월가 목표주가 줄줄이 하향 [월가 업&다운] 입력 2026.11.12 23:23 수정 2026.11.12 23:35 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 황정수 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 젠슨 황 최고경영자(CEO)의 해임 소식으로 엔비디아 주가가 급락한 가운데, 월가 투자은행들은 경영 공백에 따른 장기 성장 불확실성을 우려하며 잇따라 투자의견과 목표주가를 하향 조정하고 있습니다. 인재 유출에 사업 성장 둔화 우려까지 목표 주가 절반 제시, 투자 의견 줄하향 월스트리트 표지판 / 로이터 연합뉴스 젠슨 황 최고경영자(CEO)의 퇴진에 엔비디아 주가가 급락하고 있다. 시장의 관심은 &lsquo;젠슨 황 없는 엔비디아가 성장을 이어갈 수 있느냐&rsquo;로 옮겨가고 있다. 경영 불확실성을 이유로 목표주가를 절반 이상 내린 증권사가 나오는 등 젠슨 황 공백에 대한 우려가 확산하는 분위기다. 주가 10%대 급락 엔비디아 주가는 12일(미국 동부 시간) 장 개장과 동시에 10%대 하락세를 나타냈다. 오전 9시35분 기준 하락률은 10.46%를 기록했다. 이날 이사회가 젠슨 황을 CEO에서 해임하기로 결정했다는 소식이 주가 급락에 직접적인 영향을 준 것으로 분석된다. 11일 뉴욕타임스(NYT)가 &lsquo;젠슨 황과 킴벌리 파월 엔비디아 헬스케어부문 부사장의 사내 불륜&rsquo;을 폭로하면서 급격하게 &lsquo;CEO 퇴진&rsquo; 쪽으로 분위기가 바뀌었다. 오펜하이머 \"엔비디아에서 두뇌 유출 우려\" 시장의 우려는 젠슨 황 없는 엔비디아가 성장세를 이어가지 못할 수 있다는 것이다. 존 빈 키뱅크 애널리스트는 \"황 대표의 사임은 전략적, 조직적, 실행적 위험을 크게 증가시킨다\"며 \"주식에 더 높은 위험 프리미엄과 더 낮은 밸류에이션 배수를 적용해야 할 필요성을 시사한다\"고 말했다. 브루스 자로 그래닛웰스매니지먼트 매니징디렉터도 &ldquo;젠슨 황이 구축한 데이터센터 기업과의 관계와 리더십을 대체할 인물이 있는지가 관건&rdquo;이라고 평가했다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 황정수 특파원 안녕하세요. 국제부 뉴욕특파원입니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
+    },
+    {
+      "s": "한국경제",
+      "t": "\"젠슨 황 스캔들에 등장한 여성\"…싱가포르서 입국 금지된 이유",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111239107",
+      "m": "11. 12. PM 02:19",
+      "ts": 1794493146000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"젠슨 황 스캔들에 등장한 여성\"…싱가포르서 입국 금지된 이유 입력 2026.11.12 23:19 수정 2026.11.12 23:32 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박수빈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 싱가포르, 지난해 '중국 스파이 스캔들' 메가스피드 독자 조사 앨리스 황은 입국 금지 내무부 \"수출통제 우회 용납 안 해\" \"메가스피드 범죄 입증 증거 불충분\" AI칩 우회 통로 '오명' 해소하려는 싱가폴 젠슨 황 엔비디아 CEO와 그의 불륜 상대인 앨리슨 황. /사진=AFP 싱가포르 내무부가 자국에 본사를 둔 클라우드 및 데이터센터 기업 메가스피드에 대한 조사 진행 상황과 결과를 발표했다. 내무부는 \"다른 국가의 수출통제를 우회하는 행위를 용납하지 않을 것\"이라고 강조했다. 12일(현지시간) 싱가포르는 젠슨 황 엔비디아 최고경영자(CEO)의 불륜 상대로 지목된 메가스피드의 고위 임원 앨리스 황(중국명 황러)의 재입국을 금지했다고 발표했다. 앨리스 황이 당국에 부정확한 정보를 제공했다는 이유에서다. 싱가포르 내무부의 조치는 메가스피드가 미국의 대중 수출 규제를 우회해 엔비디아 첨단 AI 반도체를 밀수하는 통로가 됐다는 의혹을 해소하려는 것으로 풀이된다. 사진=AFP 내무부는 이날 성명에서 \"싱가포르에서 사업을 운영하는 모든 기업은 수출통제를 포함한 관련 규제를 사업 활동에 고려해야 한다\"며 \"싱가포르는 기업들이 부적절한 수법으로 싱가포르와의 연관성을 이용해 다른 국가의 수출통제를 우회하거나 위반하는 행위를 용납하지 않을 것\"이라고 강조했다. 이어 \"싱가포르법을 위반했다는 증거가 발견되면 단호하게 조치할 것\"이라고 부연했다. 지난해 2월 싱가포르 경찰과 세관은 메가스피드와 앨리스 황 등 주요 임원을 포함한 여러 기업과 관계자에 대한 독자적 조사에 착수했다. 당시 조사는 서버 구매와 관련한 허위 신고 가능성&middot;기타 관련 위법 행위 등 싱가포르 국내법 위반 혐의에 집중했다. 내무부는 \"앨리스 황은 싱가포르에 거주하지 않았고, 간첩 행위 혐의로 조사를 받은 것도 아니다\"라고 설명했다. 내무부에 따르면 미국 상무부 산업안보국(BIS)은 같은 해 6월 24일 앨리스 황이 참석한 가운데 메가스피드에 대해 선적 후 사후 확인 검증에 들어갔다. 내무부는 메가스피드와 앨리스 황에 대한 미국의 관심을 인지한 것이 이때였다고 부연했다. 이후 싱가포르 경찰은 메가스피드에 대한 기존 수사의 일환으로 앨리스 황을 소환했다. 수사를 위해 여권을 압수했다. 당시에는 조사 대상 기업들이 구매한 서버가 싱가포르를 거쳐 말레이시아로 수출된 사안과 관련돼 있었다. 싱가포르 경찰은 수사와 관련 있는 미국 서버 공급업체 슈퍼마이크로에 대한 정보를 미국에 요청했으나 제한적 정보와 지원만 받았다고 주장했다. 싱가포르 내무부는 메가스피드가 범죄에 연루됐음을 입증할 증거가 충분하지 않다고 판단했다고 전했다. 그럼에도 앨리스 황이 메가스피드 내 자신의 역할을 축소하기 위해 부정확한 정보를 제공한 것으로 봐, 엄중 경고를 내리고 싱가포르 재입국을 금지했다. 내무부는 압수하고 있던 앨리스 황의 여권을 올해 2월6일 돌려줬다. 같은 날 그가 싱가포르를 떠났다고 전했다. 또한 메가스피드와 다른 개인 6명에 대한 경찰 수사를 진행 중이라며 \"6명 모두 지난해 2월 수사가 시작된 이후 싱가포르에 입국하지 않았다\"고 설명했다. 사진=AFP 싱가포르 내무부가 이러한 입장을 발표한 것은 아시아 금융&middot;물류 허브인 싱가포르가 미국의 첨단 AI 칩이 중국으로 흘러가는 우회 통로 역할을 했다는 오명을 해소하려는 것으로 풀이된다. 내무부는 지난해 2월부터 지난 7월까지 개인 4명과 기업 4곳을 기소한 사례를 언급하며 \"관련 사안에 대한 싱가포르의 명확한 대응 방침을 보여주는 것\"이라고 강조했다. 내무부는 \"싱가포르는 자국 법률에 따라 이용할 수 있는 증거를 토대로 독립적으로 자체 조사를 진행할 것\"이라며 \"필요할 경우 외국 당국과 협력하고, 증거가 뒷받침하는 모든 사안에 대해서는 단호한 법 집행 조치를 취할 것\"이라고 부연했다. 한편 메가스피드는 이날 성명을 내고 \"미국 정부의 다른 관련 기관이 요청할 경우에도 전면적으로 협조할 준비가 돼 있다\"고 강조했다. 또 자사가 보유한 그래픽처리장치(GPU)에 대해 전면적 실태 조사를 진행하고, 수출통제 준수 여부를 독립적으로 검증하기 위해 미국 로펌을 선임했다고 밝혔다. 박수빈 한경닷컴 기자 waterbean@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 박수빈 \"왜 갑자기 사람들이 여기에 몰릴까?\"라는 질문에서 기사가 시작됩니다. 2030의 새로운 소비와 라이프스타일 등 사람들이 몰리는 현장과 그 이면의 사회 변화를 취재합니다. ADVERTISEMENT 관련 뉴스 1 [속보] 젠슨 황 '사퇴'…엔비디아, 임시 CEO에 콜레트 크레스 임명 중국 스파이 의혹을 받는 여성과 불륜설에 휘말린 젠슨 황 엔비디아 창업자가 최고경영자(CEO)에서 물러났다.엔비디아는 12일 젠슨 황이 CEO 및 이사회 이사직에서 즉시 사임한다고 발표했다. 동시에 콜레트 ... 2026.11.12 22:58 2 '젠슨 황 관련 의혹' 파헤치다 보니…복권 판매점 등장한 이유 젠슨 황 엔비디아 최고경영자(CEO)의 중국 스파이 연루 의혹과 관련된 싱가포르 클라우드 업체인 메가스피드가 미국과 호주 등 5개국에 설립한 법인의 임원으로 동일한 29세 남성을 등재했다는 보도가 ... 2026.11.12 21:48 3 \"AI 거품 한순간에 터질 수도\"…월가 긴장시킨 '최악의 시나리오' 젠슨 황 엔비디아 최고경영자(CEO)와 중국 스파이 의혹 여성의 불륜 스캔들이 인공지능(AI) 거품을 터트려 전 세계 시장을 흔드는 블랙 스완이 될 것이라는 우려가 나오고 있다. ... 2026.11.12 20:04 "
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Nvidia&#8217;s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+      "d": "Nvidia gets a new chief executive, days after former CEO Jensen Huang admitted to a romantic affair with an alleged Chinese spy.",
+      "u": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "m": "11. 12. PM 02:10",
+      "ts": 1794492634000,
+      "stocks": [],
+      "fullText": "Jensen Huang has resigned from his position as president and chief executive of Nvidia, the company said on Thursday, just a few days after he admitted to a romantic affair with an alleged Chinese spy, sparking a U.S. national security crisis. In a regulatory filing , Nvidia said its board accepted Huangs resignation on Wednesday. Nvidia said its current chief financial officer and executive vice president, Colette Kress, will take over as interim CEO until the company finds a permanent successor. Kress will continue to serve as the companys CFO. Nvidias shares were down nearly 12% in early morning trading on Thursday. Since Friday, the companys stock has fallen by as much as 19%, resulting in a market cap loss of more than $855 billion. Huang founded Nvidia in 1993 and has led it as CEO ever since. Under his leadership, Nvidia played a crucial role in developing the graphics processing unit (GPU), a specialized chip that does graphics processing for PCs, as we know it today. The chips were not an immediate hit, and the early days of Nvidia were characterized by struggle and layoffs, but eventually, it struck on a GPU design that performed so well, it became the standard for graphics processing. These chips also turned out to be extremely good at doing large numbers of calculations simultaneously, which has made them popular for computation-intensive tasks like crypto mining, and more recently, training and running neural networks, which are what AI models are at their core. Nvidia was initially focused on making GPUs aimed at gaming, but it had already moved into general-purpose computing by 2006 with the launch of the CUDA architecture, which lets developers use the chips for other tasks, such as doing calculations and research. After AI researchers began using the companys GPUs to train neural networks over a decade ago, Huang leaned in toward developing chips for AI and then data centers, and grew it from there into its dominant position. Under Huang, the company has been by far the biggest beneficiary of the AI industrys skyrocketing growth, which has largely depended on Nvidias GPUs for training and running large language models. Before ChatGPT launched and sparked the AI boom, Nvidia shares were trading at about $15. As of last month, they had risen more than 1,450% to an all-time high of $243. Its market cap consequently has also risen by an eye-watering $5.5 trillion since then, reaching as high as $5.88 trillion early in October. Revenue, of course, has also ballooned, rising more than 1,500% to $96.22 billion as of the companys second quarter, from $5.93 billion in Q3 2023, right before the ChatGPT moment. Profits increased nearly 88 times in that period to $59.69 billion as of July 2026, from $680 million in October 2023. That success was predicated on large part by the AI industrys continued development, which Huang seemingly made his personal mission. He traveled to conferences and events around the world to promote his products and"
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황, 엔비디아 CEO 사임…크레스 CFO가 임시수장 맡는다",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111239027",
+      "m": "11. 12. PM 01:58",
+      "ts": 1794491936000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황, 엔비디아 CEO 사임…크레스 CFO가 임시수장 맡는다 입력 2026.11.12 22:58 수정 2026.11.12 23:44 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박수빈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 엔비디아, 임시 CEO에 콜레트 크레스 CFO 임명 사진=AP 중국 스파이 의혹을 받는 여성과 불륜설에 휘말린 젠슨 황 엔비디아 창업자가 최고경영자(CEO)에서 물러났다. 엔비디아는 12일 젠슨 황이 CEO 및 이사회 이사직에서 즉시 사임한다고 발표했다. 동시에 콜레트 크레스 최고재무책임자(CFO)를 임시 CEO로 임명했다. 크레스 임시 CEO는 수석부사장(EVP) 겸 CFO직을 유지한다. 콜레트 크레스. 사진=REUTERS 이사회 의장에는 하비 C 존스를 선임했다. 엔비디아 이사회는 \"정식 CEO 선임을 위한 후보자 물색에 착수했다\"며 \"내부 인사와 외부 인사 모두 검토할 예정\"이라고 말했다. 박수빈 한경닷컴 기자 waterbean@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 박수빈 \"왜 갑자기 사람들이 여기에 몰릴까?\"라는 질문에서 기사가 시작됩니다. 2030의 새로운 소비와 라이프스타일 등 사람들이 몰리는 현장과 그 이면의 사회 변화를 취재합니다. ADVERTISEMENT 관련 뉴스 1 [속보] 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발 [속보[ 엔비디아, 젠슨 황 사임에 뉴욕증시서 13% 급락 출발 이보배 한경닷컴 객원기자 newsinfo@hankyung.com 2026.11.12 23:39 2 \"젠슨 황 스캔들에 등장한 여성\"…싱가포르서 입국 금지된 이유 싱가포르 내무부가 자국에 본사를 둔 클라우드 및 데이터센터 기업 메가스피드에 대한 조사 진행 상황과 결과를 발표했다. 내무부는 \"다른 국가의 수출통제를 우회하는 행위를 용납하지 않을 것\"이라고 강조했다.12일(현지시... 2026.11.12 23:19 3 [속보] 젠슨 황, 엔비디아 CEO 사퇴 [로이터] [속보] 젠슨 황, 엔비디아 CEO 사퇴 [로이터]박수빈 한경닷컴 기자 waterbean@hankyung.com 2026.11.12 22:56 ADVERTISEMENT 많이 본 뉴스 1 '中 때문에 초비상' 다급한 日…한국에도 SOS 쳤다 2026.11.12 07:54 2 글로벌 시장 브리핑 \"엔비디아 이사회, 젠슨 황 해임 준비\"…시간외 주가 8% 급락 2026.11.12 07:47 3 \"하루 임대료 2000만원\" 줄폐업…잘나가던 '핫플'이 어쩌다 2026.11.10 17:28 4 \"한국 여성 따라할래\" 그야말로 열풍…해외서 제대로 터졌다 2026.11.12 06:05 5 핫스톡 어제는 9% 오늘은 14% 급등…그래도 \"가장 저평가\" 2026.11.11 16:34 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
+    },
+    {
+      "s": "한국경제",
+      "t": "[속보] 젠슨 황, 엔비디아 CEO 사퇴 [로이터]",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111238997",
+      "m": "11. 12. PM 01:56",
+      "ts": 1794491803000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 [속보] 젠슨 황, 엔비디아 CEO 사퇴 [로이터] 입력 2026.11.12 22:56 수정 2026.11.12 22:56 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박수빈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. [속보] 젠슨 황, 엔비디아 CEO 사퇴 [로이터] 박수빈 한경닷컴 기자 waterbean@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 박수빈 \"왜 갑자기 사람들이 여기에 몰릴까?\"라는 질문에서 기사가 시작됩니다. 2030의 새로운 소비와 라이프스타일 등 사람들이 몰리는 현장과 그 이면의 사회 변화를 취재합니다. ADVERTISEMENT 관련 뉴스 1 [속보] 김민석, 與 윤감단에 최민희 감찰 지시…\"최근 언행 심각하게 인식\" 김민석 더불어민주당 대표가 12일 최민희 최고위원의 최근 언행 관련 논란에 대해 감찰조사를 지시했다.민주당은 이날 언론공지를 통해 \"김 대표는 최근 최 최고위원의 일련의 언행과 관련한 여러 논란을 심각하게 인식했다\"... 2026.11.12 20:39 2 공소청, '성북 10대 여성 살해' 50대 남성 구속영장 청구 서울 성북구에서 10대 여성을 살해한 혐의로 긴급 체포된 50대 남성에 대한 구속영장을 공소청이 청구했다. 피해자는 50대 남성의 아들이 연루된 미성년자 의제강간 사건의 피해자이기도 하다.서울 북부지방공소청... 2026.11.12 17:56 3 [속보] '김승원 청탁의혹' 브로커 양모씨에 징역 4년 구형 김승원 더불어민주당 의원에게 신약 임상시험 승인 청탁을 부탁하고 후원금을 약속한 혐의로 재판에 넘겨진 브로커와 제약업체 제넨셀 창업주에게 징역형이 내려졌다.공소청 검사는 12일 오후 서울서부지법 형사10단독 성준규 ... 2026.11.12 17:37 ADVERTISEMENT 많이 본 뉴스 1 '中 때문에 초비상' 다급한 日…한국에도 SOS 쳤다 2026.11.12 07:54 2 글로벌 시장 브리핑 \"엔비디아 이사회, 젠슨 황 해임 준비\"…시간외 주가 8% 급락 2026.11.12 07:47 3 \"하루 임대료 2000만원\" 줄폐업…잘나가던 '핫플'이 어쩌다 2026.11.10 17:28 4 \"한국 여성 따라할래\" 그야말로 열풍…해외서 제대로 터졌다 2026.11.12 06:05 5 핫스톡 어제는 9% 오늘은 14% 급등…그래도 \"가장 저평가\" 2026.11.11 16:34 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황 퇴진설·데이터센터 규제 우려에도…골드만삭스 '긍정' 전망",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111238957",
+      "m": "11. 12. PM 01:55",
+      "ts": 1794491743000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황 퇴진설·데이터센터 규제 우려에도…골드만삭스 '긍정' 전망 입력 2026.11.12 22:55 수정 2026.11.12 22:55 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박수빈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 골드만삭스 \"내년 美 AI 투자 1조4000억 달러\" 美 설비투자 5.3%p&middot;GDP 성장률 0.6%p 견인 전망 골드만삭스 AI 투자 확대 전망&hellip;\"성장 동력 지속\" 젠슨 황 엔비디아 최고경영자(CEO) /사진=AP 젠슨 황 엔비디아 최고경영자(CEO)의 퇴진 가능성과 미국 중간선거 이후 데이터센터 규제 강화 우려에도 불구하고 인공지능(AI)이 내년 미국 기업 투자를 이끄는 최대 동력으로 남을 것이라는 골드만삭스의 전망이 나왔다. 12일 로이터통신에 따르면 골드만삭스는 AI 관련 하드웨어와 지식재산권에 대한 연율 투자액이 2026년 말 9000억달러를 넘어 2027년 말에는 1조4000억달러까지 확대될 것으로 전망했다. 이는 미국 경제 규모의 약 4%다. 골드만삭스는 \"AI가 2027년에도 기업 투자 증가의 지배적인 동력으로 남을 것\"이라고 말했다. AI 산업을 둘러싼 경영진 교체와 규제 불확실성에도 대규모 인프라 투자가 미국 경제의 주요 성장 동력으로 유지될 것이라는 예측이다. 사진=REUTERS 최근 AI 기업들이 대규모 인프라 확충에 필요한 자금을 차입에 의존하면서 금리 상승과 투자자들의 감시 강화가 설비투자를 위축시킬 수 있다는 우려가 나오고 있다. 이달 미국 중간선거에서 민주당이 승리하면서 데이터센터 건설에 대한 규제가 강화될 가능성도 있다. 그러나 골드만삭스는 선거 결과가 AI 투자에 미칠 위험은 제한적이라고 내다봤다. 골드만삭스는 반도체 투자를 포함한 AI 관련 지출이 2027년 미국 기업 설비투자 증가율을 5.3%포인트, 국내총생산(GDP) 성장률을 0.6%포인트 끌어올릴 것으로 봤다. 다만 반도체 투자를 제외하면 AI의 설비투자 증가율 기여도는 4.3%포인트, GDP 성장률 기여도는 0.2%포인트로 내려간다. 골드만삭스는 반도체 투자가 기업 투자 통계에 충분히 반영되지 않고 있으며 정보처리 장비 상당수가 수입품이어서 GDP 계산에서는 수입액이 차감된다고 분석했다. 이에 따라 AI 투자 확대가 기업 설비투자 증가율을 크게 높이더라도 미국 국내 생산과 경제성장에 미치는 직접적인 효과는 상대적으로 제한될 수 있다는 평가다. 골드만삭스는 2027년 미국 기업 투자 증가율을 분기 기준 8%로 전망했다. 시장 전망치인 4.2%의 거의 두 배에 달한다. 박수빈 한경닷컴 기자 waterbean@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 박수빈 \"왜 갑자기 사람들이 여기에 몰릴까?\"라는 질문에서 기사가 시작됩니다. 2030의 새로운 소비와 라이프스타일 등 사람들이 몰리는 현장과 그 이면의 사회 변화를 취재합니다. ADVERTISEMENT 관련 뉴스 1 \"젠슨 황 없으면 어쩌나\"…대만 반도체 업계도 긴장한 이유 젠슨 황 엔비디아 최고경영자(CEO)의 해임 가능성이 커지면서 세계 최대 반도체 생산기지인 대만에도 긴장감이 퍼지고 있다. 황 CEO가 주도해 온 공격적인 생산 능력 확보와 기술 개발 전략이 후임 경영진 아래에서 달... 2026.11.12 21:59 2 中 때린 공화당 의원의 한마디…삼전닉스 조용히 웃는 까닭 미국 공화당 중진 상원의원이 삼성전자와 SK하이닉스의 중국 경쟁사인 창신메모리테크놀로지(CXMT)를 수출통제 대상에 추가하라고 도널드 트럼프 행정부에 요구했다. 중국의 메모리 반도체 기술 발전을 차단하기 위... 2026.11.12 21:10 3 \"AI 거품 한순간에 터질 수도\"…월가 긴장시킨 '최악의 시나리오' 젠슨 황 엔비디아 최고경영자(CEO)와 중국 스파이 의혹 여성의 불륜 스캔들이 인공지능(AI) 거품을 터트려 전 세계 시장을 흔드는 블랙 스완이 될 것이라는 우려가 나오고 있다. ... 2026.11.12 20:04 ADVERTISEMENT 많이 본 뉴스 1 '中 때문에 초비상' 다급한 日…한국에도 SOS 쳤다 2026.11.12 07:54 2 글로벌 시장 브리핑 \"엔비디아 이사회, 젠슨 황 해임 준비\"…시간외 주가 8% 급락 2026.11.12 07:47 3 \"하루 임대료 2000만원\" 줄폐업…잘나가던 '핫플'이 어쩌다 2026.11.10 17:28 4 \"한국 여성 따라할래\" 그야말로 열풍…해외서 제대로 터졌다 2026.11.12 06:05 5 핫스톡 어제는 9% 오늘은 14% 급등…그래도 \"가장 저평가\" 2026.11.11 16:34 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy",
+      "d": "Nvidia CEO Jensen Huang has resigned in the wake of reports that he had multiple extramarital relationships.",
+      "u": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+      "m": "11. 12. PM 01:53",
+      "ts": 1794491598000,
+      "stocks": [],
+      "fullText": "Artificial intelligence Nvidia CEO Jensen Huang resigns after affair with suspected Chinese spy Huang resigned after it was reported that he had a relationship with Alice Huang, a businesswoman who is accused of being a Chinese agent, and also engaged in a relationship with an Nvidia executive. Listen to this article with a free profile 00:00 00:00 Nvidia CEO Jensen Huang resigns after reports of extramarital relationships 02:36 Get more news Live on Share Add NBC News to Google Nov. 12, 2026, 8:53 AM EST / Updated Nov. 12, 2026, 2:37 PM EST By Rob Wile , Steve Kopack and Brian Cheung Nvidia CEO Jensen Huang has resigned following reports that he had multiple extramarital relationships, including one with a suspected agent of China and another with an executive who reported to him — a stunning turn of events for the head of a company at the heart of the global AI investment boom. Colette Kress, the company’s chief financial officer, will become interim CEO, Nvidia’s board said in a statement. Nvidia shares plunged more as much as 16% after the board’s announcement, before later recovering and trading lower by about 5%. A company spokesperson clarified that Huang will not be working with Nvidia in any capacity going forward. The company also named its first chairman. That role will be filled by Harvey Jones, who is a former CEO of major chip company Synopsys. The addition of a chairman is a major governance overhaul at a company that for decades relied solely on Huang. Nvidia’s board met Wednesday night to address Huang’s future at the company, a source familiar with the matter told NBC News, adding that the White House was aware of the meeting. Huang, 63, co-founded Nvidia in the early 1990s and led the company’s meteoric rise amid the AI boom of the past several years. Jensen Huang at the annual Nvidia GTC conference in San Jose, Calif., in 2025. Justin Sullivan / Getty “I believe deeply in this company and in its future,” Kress wrote in her first email to Nvidia employees as interim CEO. “The Board, Estaff and I recognize that this has been an extraordinarily difficult period and I want you to know how grateful we are for your resilience, professionalism and continued dedication. Thank you.” In a separate note to the company’s workforce, Jones, the new chairman, wrote: “The Board takes seriously our duty as stewards of this great company.” For Subscribers FOR SUBSCRIBERS How Amy Acton overcame big money and a vicious attack ad to make history in Ohio FOR SUBSCRIBERS Nvidia is at the center of the AI economy. What happens now? FOR SUBSCRIBERS The House districts that remain uncalled after the 2026 midterms FOR SUBSCRIBERS Wave of Iran-linked plots raise security questions about American bases in Britain FOR SUBSCRIBERS The price of baby formula just set a dubious record FOR SUBSCRIBERS Jensen Huang agrees to brief Congress on interactions with alleged spy, lawmakers say FOR SUBSCRIBERS Republicans tiptoe around Trump as they process defeat in th"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia’s Huang Ousted by Board in Move That Roils AI Economy",
+      "d": "Nvidia Corp. Chief Executive Officer Jensen Huang, the preeminent face of the AI infrastructure boom, was ousted from his post after reports of three affairs, including one with a woman suspected of spying for China.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-12/jensen-huang-face-of-the-ai-boom-ousted-by-nvidia-board-as-ceo",
+      "m": "11. 12. PM 01:50",
+      "ts": 1794491441000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "한국경제",
+      "t": "\"젠슨 황 없으면 어쩌나\"…대만 반도체 업계도 긴장한 이유",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111238657",
+      "m": "11. 12. PM 12:59",
+      "ts": 1794488360000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"젠슨 황 없으면 어쩌나\"…대만 반도체 업계도 긴장한 이유 입력 2026.11.12 21:59 수정 2026.11.12 22:21 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박수빈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 젠슨 황 해임 위기에 대만 반도체 공급망 '긴장' \"증설 늦어질 수도\" TSMC&middot;폭스콘&middot;위스트론 등 '대만 공급망' 위기 황 CEO 물러난 뒤 차기 CEO 전략 변수 돼 대만 협력사 \"황만큼 공격적이지 않을 수도\" 사진=AP 젠슨 황 엔비디아 최고경영자(CEO)의 해임 가능성이 커지면서 세계 최대 반도체 생산기지인 대만에도 긴장감이 퍼지고 있다. 황 CEO가 주도해 온 공격적인 생산 능력 확보와 기술 개발 전략이 후임 경영진 아래에서 달라질 경우, 대만 반도체 업체들의 설비투자와 증설 계획에도 영향을 미칠 수 있다는 우려에서다. 12일 로이터통신에 따르면 엔비디아의 대만 협력업체들은 황 CEO의 해임 가능성에 대비해 향후 생산 능력 확장과 사업 계획에 미칠 영향을 검토 중이다. 대만의 한 엔비디아 협력업체 임원은 \"엔비디아가 필요로 하는 생산 능력은 계속 지원하겠지만 새로운 CEO가 젠슨 황만큼 공격적이지 않을 수 있다\"고 했다. 후임자가 황 CEO처럼 선제적으로 생산 능력을 확보하거나 장기 공급계약을 추진하지 않을 경우 협력업체들의 증설 속도가 느려질 수 있다는 의미다. 사진=로이터연합뉴스 대만 공급망의 핵심 변수는 기존 주문의 취소 여부에 있지 않다. 차기 경영진이 황 CEO 특유의 공격적인 생산 능력 확보와 차세대 반도체 개발 전략을 얼마나 유지할 것인지에 달려있다는 분석이 나온다. 황 CEO는 대만을 수시로 방문하면서 대만 공급망 중요성을 강조했다. 세계 최대 파운드리(반도체 위탁생산) 업체 TSMC를 비롯해 폭스콘, 위스트론 등 주요 제조업체들과 긴밀한 협력 관계를 이어 온 것은 물론, 지난 5월에는 대만에 연간 약 1500억달러를 투자할 계획이라고 밝혔다. 대만 TF인터내셔널증권의 궈밍치 애널리스트는 황 CEO가 엔지니어들의 기술적 구상을 실제 제품 개발과 대규모 투자로 연결하는 능력을 갖췄다고 봤다. 그는 이러한 추진력이 공급업체들에 장기적인 주문 전망을 제공해 공격적인 기술 개발과 생산 능력 확장을 가능하게 했다고 주장했다. 황 CEO의 경영 방식이 엔비디아 협력 업체 뿐 아니라 경쟁사들의 기술 개발과 투자에도 영향을 미쳤다는 평가다. 사진=EPA 시장조사업체 카운터포인트리서치의 닐 샤 부사장은 황 CEO가 물러날 경우 엔비디아의 신규 AI 생태계 투자와 대규모 인프라 협력 계약이 둔화할 가능성이 있다고 내다봤다. 실제 이날 대만 증시에서 TSMC의 주가는 약 2% 떨어졌다. 한국에서는 SK하이닉스가 1.6% 내린 반면 삼성전자는 0.8% 상승했다. 황 CEO의 퇴진은 단순한 경영진 교체를 넘어 엔비디아의 차세대 AI 반도체 개발 전략에도 변수가 될 전망이다. 시장조사업체 옴디아의 수 리안제 수석 애널리스트는 황 CEO가 물러나면서 장기 전략이 바뀌거나 제품 개발 일정의 실행력이 약화할 경우 경쟁업체들이 추격할 여지가 커질 수 있다고 봤다. 엔비디아의 경쟁력을 뒷받침해 온 핵심 요소 가운데 하나가 반도체 설계부터 제조, 공급망 투자까지 긴밀하게 연결하는 황 CEO의 의사 결정 방식이어서다. 지난해 5월 22일 대만 타이베이의 한 레스토랑에서 엔비디아 CEO 젠슨 황이 주최한 만찬에 앨리스 황이 참석했다. /사진=AP 황 CEO는 아직 공식적인 후계자를 지목하지 않았다. 시장에서는 엔비디아의 핵심 엔지니어인 이언 벅과 최고재무책임자(CFO) 콜레트 크레스를 차기 CEO 후보로 보고 있다. 한국 기업들도 경영진 교체 가능성을 주시하고 있다. 다만, 기존 반도체 공급계약과 AI 협력사업에 미칠 단기적인 영향은 제한적이라는 관측이 나온다. 엔비디아의 제품 경쟁력과 고객사들의 투자 계획이 당장 달라지는 것은 아니라는 반론도 제기된다. 엔비디아 주식을 보유한 미노타우르캐피털의 아르미나 로젠버그 공동창업자는 향후 1~2년간 출하될 엔비디아 반도체는 이미 설계와 생산이 진행되고 있으며 고객들의 2027년 투자 계획 역시 CEO 개인의 거취에 좌우되지 않는다고 설명했다. 박수빈 한경닷컴 기자 waterbean@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 박수빈 \"왜 갑자기 사람들이 여기에 몰릴까?\"라는 질문에서 기사가 시작됩니다. 2030의 새로운 소비와 라이프스타일 등 사람들이 몰리는 현장과 그 이면의 사회 변화를 취재합니다. ADVERTISEMENT 관련 뉴스 1 \"AI 거품 한순간에 터질 수도\"…월가 긴장시킨 '최악의 시나리오' 젠슨 황 엔비디아 최고경영자(CEO)와 중국 스파이 의혹 여성의 불륜 스캔들이 인공지능(AI) 거품을 터트려 전 세계 시장을 흔드는 블랙 스완이 될 것이라는 우려가 나오고 있다. ... 2026.11.12 20:04 2 \"비만치료제 맞고 실명\"…대만서 첫 피해구제 신청 나왔다 오젬픽, 위고비 등 글루카곤 유사 펩타이드-1(GLP-1) 계열 비만치료제의 사용이 늘어나는 가운데 대만에서 비만치료제 사용 후 실명했다는 사례가 처음 나왔다. 사례자는 의약품 부작용 피해 구제를 신청했다.12일 연... 2026.11.12 18:39 3 \"불편할 정도로 가깝다\"…젠슨 황 '불륜' 6개월 전 경고한 보고서 젠슨 황 엔비디아 최고경영자(CEO)가 중국계 스파이 지목 여성과의 스캔들에 휩싸이기 6개월 전 당시 31세 투자자가 이들의 관계에 의문을 제기하며 공매도에 나선 사실이 주목받고 있다.12일(현지시간) 월스트리트저널... 2026.11.12 16:23 ADVERTISEMENT 많이 본 뉴스 1 '中 때문에 초비상' 다급한 日…한국에도 SOS 쳤다 2026.11.12 07:54 2 글로벌 시장 브리핑 \"엔비디"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia Default-Risk Gauge Improves Following CEO Huang’s Ouster",
+      "d": "The cost of protecting Nvidia Corp.’s debt against default declined on Thursday, after Chief Executive Officer Jensen Huang was ousted from his post amid reports of two affairs.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-default-risk-nears-record-high-as-board-weighs-ceo-s-fate",
+      "m": "11. 12. PM 12:53",
+      "ts": 1794487997000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "한국경제",
+      "t": "'젠슨 황 관련 의혹' 파헤치다 보니…복권 판매점 등장한 이유",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026111238767",
+      "m": "11. 12. PM 12:48",
+      "ts": 1794487701000,
+      "stocks": [],
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 '젠슨 황 관련 의혹' 파헤치다 보니…복권 판매점 등장한 이유 입력 2026.11.12 21:48 수정 2026.11.12 22:01 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박수빈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 젠슨 황 '스파이 연루' 업체 법인 찾아가보니 시골 '복권 판매점' 메가스피드, 미국&middot;호주&middot;동남아 법인 임원 모든 법인에 29세 남성이 이사로 등재 법인 등록 서류 주소 찾아가니 복권 판매점 호주 법인 사업장 주소 가보니, '가상 사무실' 12일(현지시간) 호주 빅토리아주 시모어 지역 마을로 등록된 메가스피드 사업장은 복권판매점인 것으로 밝혀졌다. /사진=REUTERS 젠슨 황 엔비디아 최고경영자(CEO)의 중국 스파이 연루 의혹과 관련된 싱가포르 클라우드 업체인 메가스피드가 미국과 호주 등 5개국에 설립한 법인의 임원으로 동일한 29세 남성을 등재했다는 보도가 나왔다. 해당 남성은 법인 등록 서류에 주소를 호주 지방도시의 복권 판매점으로 기재했다. 12일(현지시간) 로이터 통신에 따르면 싱가포르 메가스피드 인터내셔널은 미국과 호주, 말레이시아, 인도네시아, 태국에 계열사를 설립했다. 이들 법인의 임원으로는 동일한 29세 남성 카이 강이 등재됐다. 미국 델라웨어주와 호주 기업 등록 서류에 따르면 두 법인은 2024년 설립됐다. 법인의 유일한 임원은 이사 또는 사장으로 등록된 강뿐이었다. 호주 서류에는 강이 중국 상하이에서 태어났고, 싱가포르 메가스피드 본사가 호주 법인의 주주로 기재됐다. 로이터가 말레이시아와 인도네시아, 태국의 기업 등록 자료를 확인한 결과, 강은 해당국의 메가스피드 법인에서도 이사로 등재됐다. 로이터 취재진은 강에게 연락이 닿지 않아 법인 등록 서류에 기재된 주소를 직접 방문했다. 해당 장소는 호주 멜버른에서 북쪽으로 자동차로 약 1시간 거리에 있는 빅토리아주 시모어의 신문&middot;잡지를 파는 복권 판매점이었다. 매장명은 시모어 뉴스로 지역 주민들이 복권을 확인하거나 잡지와 책 등을 구매하는 소규모 상점이라고 로이터는 보도했다. 매장을 약 16년 동안 운영했다는 여성은 자신이 강의 어머니라고 밝혔다. 아들은 이곳에서 일하지 않고 중국 상하이에 거주한다고 로이터에 설명했다. 이 여성은 아들이 상하이대학교에서 석사학위를 취득했고, 지난 8~9월 매장을 찾아 만났다고 전했다. 이 여성은 엔비디아와 메가스피드라는 회사에 대해서는 알고 있지만 자신의 아들이 싱가포르 메가스피드 본사와는 관계가 없다고 선을 그었다. 호주 기업 등록 당국의 자료에서도 강이 메가스피드 이사로 등재된 것 외에 다른 사업 활동을 했다는 기록은 확인되지 않았다. 사진=AFP 메가스피드 호주 법인의 사업장 주소는 시드니의 고급 업무지구에 있는 건물 10층으로 등록돼 있었다. 로이터가 현장을 방문한 결과 해당 장소는 실제 직원들이 상주하는 사무실이 아닌 행정 목적으로 주소를 제공하는 가상 사무실이었다. 메가스피드는 젠슨 황 CEO를 둘러싼 중국 스파이 의혹이 불거지면서 주목받고 있다. 이 회사의 지배주주는 중국계 사업가 앨리스 황으로, 젠슨 황 CEO의 불륜 상대로 지목된 인물이다. 메가스피드는 이번 논란 이전부터 미국의 첨단 반도체 수출통제와 관련해 당국의 주목을 받은 바 있다. 지난해 뉴욕타임스(NYT)는 미국 당국이 메가스피드가 수출통제 대상인 엔비디아의 첨단 반도체를 중국 고객에게 제공하는 데 관여했는지 조사하고 있다고 보도하기도 했다. 메가스피드는 자사 홈페이지에서 아시아태평양 지역의 엔비디아 클라우드 파트너라고 소개하며 엔비디아의 GB200 NVL72와 HGX H100 등 첨단 AI 컴퓨팅 시스템에 대한 접근 서비스를 제공한다고 설명하고 있다. 지난해 10월에는 싱가포르 경찰이 메가스피드의 자국 법률 위반 혐의를 조사하고 있다고 발표했다. 앞서 미국 상원의원도 메가스피드가 엔비디아 반도체를 중국으로 우회 공급했는지 조사해 달라고 상무부에 요청했다. 박수빈 한경닷컴 기자 waterbean@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 박수빈 \"왜 갑자기 사람들이 여기에 몰릴까?\"라는 질문에서 기사가 시작됩니다. 2030의 새로운 소비와 라이프스타일 등 사람들이 몰리는 현장과 그 이면의 사회 변화를 취재합니다. ADVERTISEMENT 관련 뉴스 1 \"AI 거품 한순간에 터질 수도\"…월가 긴장시킨 '최악의 시나리오' 젠슨 황 엔비디아 최고경영자(CEO)와 중국 스파이 의혹 여성의 불륜 스캔들이 인공지능(AI) 거품을 터트려 전 세계 시장을 흔드는 블랙 스완이 될 것이라는 우려가 나오고 있다. ... 2026.11.12 20:04 2 중국 외교부, 젠슨 황 질문에…\"간첩설 기술봉쇄 구실 안돼\" 중국 외교부가 엔비디아 관련 중국 간첩 의혹을 두고 미국에 \"간첩설을 지어내 기술 봉쇄의 구실로 삼는 일을 중단해야 한다\"고 선을 그었다.마오닝 중국 외교부 대변인은 12일 정례브리핑에서 엔비디아 ... 2026.11.12 17:36 3 \"어쩐지 LOVE를 3번 쓰더라\"…젠슨 황 불륜에 '과거 소환' [영상] 젠슨 황 엔비디아 최고경영자(CEO)가 중국 스파이 의혹을 받는 여성과 회사 임원 등과의 불륜 스캔들이 잇따라 터지자, 그의 불륜을 풍자하는 인공지능(AI) 활용 합성 영상과 각종 밈(meme) 또한 온라인에서 확산... 2026.11.12 17:16 ADVERTISEMENT 많이 본 뉴스 1 '中 때문에 초비상' 다급한 日…한국에도 SOS 쳤다 2026.11.12 07:54 2 글로벌 시장 브리핑 \"엔비디아 이사회, 젠슨 황 해임 준비\"…시간외 주가 8% 급락 2026.11.12 07:47 3 \"하루 임대료 2000만원\" 줄폐업…잘나가던 '핫플'이 어쩌다 2026.11.10 17:28 4 \"한국 여성 따라할래\" 그야말로 열풍…해외서 제대"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation",
+      "d": "HONG KONG — Megaspeed, the tech company at the center of the Chinese spy scandal that engulfed Nvidia CEO Jensen Huang, said Thursday it will cooperate with the U.S. government’s investigations into the matter.",
+      "u": "https://www.nbcnews.com/tech/tech-news/megaspeed-statement-nvidia-jensen-huang-alice-us-exports-chips-china-rcna608939",
+      "m": "11. 12. AM 10:41",
+      "ts": 1794480117000,
+      "stocks": [],
+      "fullText": "Artificial intelligence Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation In its first statement since the scandal broke, the company said it takes its obligation to comply with U.S. export control laws “extremely seriously.” Listen to this article with a free profile 00:00 00:00 Nvidia board meets to discuss CEO Jensen Huang’s future 02:16 Get more news Live on Share Add NBC News to Google Nov. 12, 2026, 5:41 AM EST / Updated Nov. 12, 2026, 8:32 AM EST By Mithil Aggarwal HONG KONG — Megaspeed, the tech company at the center of the Chinese spy scandal that engulfed Nvidia CEO Jensen Huang , said Thursday it will cooperate with the U.S. government’s investigations into the matter. Megaspeed’s statement came hours before the resignation of Huang, one of the leaders of the AI boom, who co-founded the American chipmaker and helped build it into the world’s second most valuable company. In its first statement since reports emerged about Huang’s extramarital affair with an alleged Chinese spy, raising concerns about U.S. national security and the future of the tech giant, Megaspeed said that it takes its obligation to comply with U.S. export control laws “extremely seriously.” U.S. intelligence agencies determined that Alice Huang had an affair with the Nvidia CEO and was a Chinese intelligence operative, a person with knowledge of the matter told NBC News on Sunday. She held a senior position at Megaspeed, a Singapore-based company that was one of Nvidia’s biggest customers in Southeast Asia. Megaspeed is under U.S. criminal investigation for allegedly smuggling American-made chips into China in defiance of U.S. export controls. A criminal investigation is ongoing in Singapore, where officials said Thursday Alice Huang had been barred from re-entering the country. The government also issued her with a stern warning after finding that she had knowingly provided police with inaccurate information to downplay her role in the company. It said that Huang was not investigated for espionage. The country’s Ministry of Home Affairs said in a statement that authorities had interviewed Huang and impounded her passport in 2025, but that its requests for cooperation from U.S. authorities had gone unanswered. “Despite these repeated requests, Singapore has to date received limited information or assistance in respect of the company,” it said. Investigators concluded in February that there was “insufficient evidence to establish that Huang had committed any offences,” the statement said, adding that investigations into Megaspeed and six other individuals were continuing, related to the shipment of servers via Singapore. Megaspeed, meanwhile, said in the statement Thursday that it has “cooperated with inspections by the U.S. Department of Commerce’s Bureau of Industry and Security (BIS) and stands ready to cooperate fully with any other relevant U.S. government authority.” The statement was signed by its chairman and CEO, "
     },
     {
       "s": "연합뉴스",
@@ -99,26 +443,6 @@
       "fullText": "젠슨 황 엔비디아 최고경영자가 중국 스파이까지 연루된 잇단 불륜 의혹으로 11일 해임 위기에 몰리면서 엔비디아는 물론 인공지능 산업 전반에까지 큰 파장이 예상된다. 김정식 노동당 중앙위원회 군수공업부 제1부부장은 12일 발표한 담화에서 \"가시화되는 적들의 해상무력 증강 책동과 그로 인한 안전 위협은 매우 엄중한 도전으로서 우리는 이를 규탄하는 것만으로 그치지 않을 것\"이라며 \"행동으로써, 실지 변화된 힘의 시위로써 모든 위협을 억제해나갈 것\"이라고 밝혔다고 조선중앙통신이 전했다. 군부 실세로 꼽히는 김 부부장은 미 해군의 호주 핵잠 배치, 한국 '장보고 N 사업'의 방위사업추진위원회 의결, 일본의 핵잠 도입 논의 등을 언급하며 \"미국과 동맹국들의 가증되고 있는 해군무력 증강 책동은 그 목적과 내용, 범위에서 명백히 공격적이고 대결 지향적인 성격을 띠고 있다\"고 주장했다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "한국경제",
-      "t": "'깐부' 손잡고 대박 났는데…젠슨 황 쇼크에 한국도 '초긴장'",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026111236681",
-      "m": "11. 12. AM 08:57",
-      "ts": 1794473875000,
-      "stocks": [],
-      "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 '깐부' 손잡고 대박 났는데…젠슨 황 쇼크에 한국도 '초긴장' 입력 2026.11.12 17:57 수정 2026.11.12 19:01 지면 A3 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김채연 기자 구독하기 원종환 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 흔들리는 '깐부 동맹'&hellip;삼전닉스 HBM 공급 계획 차질 빚나 엔비디아와 손잡은 국내 기업들 파장 '촉각' 단기적 영향은 제한적이지만 새 경영진 전략 변경 여부가 변수 장기계약 수정 가능성 배제 못해 현대차&middot;LG&middot;네이버 등도 '비상' &ldquo;고대역폭메모리(HBM) 공급망에서 한국 기업들이 확고한 우위를 점하고 있어 당장의 타격은 없겠지만, 젠슨 황 엔비디아 최고경영자(CEO)가 인공지능(AI) 산업에서 지닌 영향력이 컸던 만큼 차세대 AI 칩 개발과 투자 속도가 둔화할 경우 국내 업계도 영향을 받을 수 있다.&rdquo; 아시아태평양경제협력체(APEC) 정상회의를 계기로 한국을 찾은 젠슨 황 엔비디아 최고경영자가 지난해 10월 30일 서울 삼성동 한 치킨집에서 진행된 이재용 삼성전자 회장, 정의선 현대차그룹 회장과 치맥 회동 중 기념촬영을 하고 있는 모습. 사진=연합뉴스 젠슨 황 CEO가 사실상 해임 위기에 처한 데 대해 반도체 업계 고위 관계자는 12일 이같이 진단했다. 엔비디아의 리더십 교체가 가시화하면서 삼성전자 SK하이닉스 등 반도체 기업은 물론 현대차그룹&middot;LG그룹&middot;네이버 등 엔비디아와 AI 동맹을 맺은 국내 기업들이 파장을 예의주시하고 있다. 젠슨 황은 지난해 10월 방한해 이재용 삼성전자 회장, 정의선 현대차그룹 회장과 이른바 &lsquo;깐부 회동&rsquo;을 가진 데 이어 올해 6월에도 한국을 찾아 국내 기업들과 전방위적 협력을 강화해 왔다. 엔비디아 CEO 교체로 그래픽처리장치(GPU) 공급 등 기존 사업 기조가 달라질지가 최대 변수로 떠올랐다. 젠슨 황 엔비디아 최고경영자(CEO)와 최태원 SK그룹 회장이 6월7일 서울 강남구 깐부치킨 삼성점에서 회동하고 있다. /사진=연합뉴스 ◇차세대 HBM 납품&middot;LTA 변동 여부 촉각 이미지 크게보기 11일(현지시간) 미국 샌타클래라 엔비디아 본사 &lsquo;보이저&rsquo;. /실리콘밸리=김인엽 특파원 직접적인 영향권에 놓인 분야는 메모리 반도체다. 엔비디아는 삼성전자와 SK하이닉스의 최대 고객사다. 두 기업은 엔비디아의 AI 가속기에 HBM을 공급해 왔다. 올 하반기 출시된 엔비디아의 AI 가속기 &lsquo;베라 루빈&rsquo;에도 6세대 HBM4가 탑재된다. 업계에선 양사에 미칠 충격은 당장 제한적일 것으로 보고 있다. 이미 다년간의 장기공급계약(LTA)을 체결한 데다, 엔비디아 역시 가속기 양산을 위해선 HBM3E와 HBM4 확보가 필수적이기 때문이다. 당장 공급선을 대체할 곳도 마땅치 않다. 변수는 내년 이후 중장기 로드맵이다. 엔비디아는 통상 1년 주기로 신규 가속기를 출시하며 HBM 규격도 함께 고도화해 왔다. 새 경영진 체제에서 신제품 개발 일정과 AI 가속기 생산 계획이 수정되면 신규 HBM 발주가 줄어들 수 있고, 기존 LTA의 수정 가능성도 배제할 수 없다. 이종환 상명대 시스템반도체학과 교수는 &ldquo;새 CEO가 젠슨 황에 버금가는 공격적 투자와 경영을 이어가긴 쉽지 않을 것&rdquo;이라며 &ldquo;황 CEO가 AI 반도체 생태계 확장을 주도해 온 인물인 만큼 후임 체제에서는 생태계 전반의 확장세가 둔화할 수 있다&rdquo;고 내다봤다. 새 CEO가 거래선 재편에 나설 경우 엔비디아 매출 의존도가 25%에 달하는 SK하이닉스의 타격이 상대적으로 클 수 있다는 관측도 나온다. 다만 엔비디아의 리더십 변화가 국내 메모리 업계에 악재로만 작용하진 않을 것이란 시각도 있다. 빅테크의 AI 인프라 투자가 이어지는 한 전체 메모리 수요는 견고할 것이란 분석이다. 이병훈 포스텍 반도체공학과 교수는 &ldquo;AI 생태계 확장 기조 자체가 크게 흔들리지는 않을 것&rdquo;이라며 &ldquo;빅테크의 AI 투자가 지속되는 상황에서 엔비디아가 무리하게 공급을 줄일 이유가 없고 국내 반도체 수요도 이어질 것&rdquo;이라고 전망했다. 엔비디아의 시장 독점력이 완화되면 구글&middot;아마존의 자체 AI 칩 개발과 AMD의 점유율 확대가 빨라져 국내 업계의 고객사 다변화 계기가 될 수 있다는 예상도 나온다. ◇AI 인프라 기업도 비상 반도체를 넘어 로봇&middot;자율주행&middot;데이터센터 등 AI 신사업에서 엔비디아와 광범위하게 협력을 넓혀온 다른 국내 기업들도 바짝 긴장하고 있다. 엔비디아 사업전략이 조정될 경우 공동 프로젝트의 속도 조절이 불가피해서다. 현대차그룹은 블랙웰 GPU 5만 장을 도입해 자율주행과 스마트팩토리&middot;로봇 기술을 개발하고 있다. LG전자는 엔비디아의 아이작 그루트(GR00T) 플랫폼을 기반으로 휴머노이드 로봇을 개발하고 있다. 젠슨 황과 양사 총수 간의 교감을 토대로 피지컬 AI 동맹이 결성된 만큼 리더십 교체에 따른 의사결정 지연과 투자, 지원 조건이 조정될 수 있다는 우려가 나온다. 엔비디아를 3대 주주로 맞이한 네이버 역시 세종 AI 팩토리 구축 일정과 GPU 6만 장 이상의 적기 수급 여부를 예의주시하고 있다. 이밖에 AI패키지기판 증설에 나선 삼성전기, 동박적층판(CCL)을 공급하는 두산그룹, 엔비디아용 전력기기를 개발 중인 LS일렉트릭 등 부품&middot;전력 업계도 엔비디아의 생산 계획 변화에 촉각을 곤두세우고 있다. 김채연/원종환 기자 why29@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 김채연 기자 M&A 취재를 담당하고 있습니다. 원종환 기자 안녕하세요, 원종환 한국경제 산업부 기자입니"
-    },
-    {
-      "s": "한국경제",
-      "t": "'젠슨 황 리스크' 직격탄 맞았다…줄줄이 비명 쏟아진 종목",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026111236161",
-      "m": "11. 12. AM 08:53",
-      "ts": 1794473628000,
-      "stocks": [],
-      "fullText": "코리아마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 '젠슨 황 리스크' 직격탄 맞았다…줄줄이 비명 쏟아진 종목 입력 2026.11.12 17:53 수정 2026.11.12 18:56 지면 A25 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 강진규 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 밸류체인株, '젠슨 황 리스크'에 줄줄이 휘청 엔비디아 의존도 따라 주가 엇갈려 하이닉스 -2%&middot;삼성전기 -4% 엔비디아 편입한 ETF 동반 약세 \"AI 투자흐름은 꺾이지 않을 듯\" AMD 등 경쟁자 수혜 가능성 한국경제신문의 투자 전문 유료 플랫폼 한경 프리미엄9 에 실린 기사입니다. 한경 프리미엄9 (www.hankyung.com/premium9) 을 구독하시면 더 주식 투자 기사를 찾아볼 수 있습니다. 사진=한경DB 젠슨 황 엔비디아 최고경영자(CEO)의 해임 가능성이 대두되며 글로벌 인공지능(AI) 밸류체인 관련주가 약세로 돌아섰다. 한국과 대만을 중심으로 일본, 중국 등 아시아 증시도 일제히 하락했다. SK하이닉스 가 내린 반면 삼성전자 는 소폭 상승하는 등 종목 간 희비가 엇갈렸다. ◇ 엔비디아 시간외 급락에 코스피 하락 12일 코스피지수는 0.61% 하락한 5342.73에 마감했다. 코스피지수는 장 초반 5458.84로 오르며 5500에 근접했으나 오후 들어 하락으로 전환했다. 뉴욕타임스 (NYT)가 젠슨 황과 사내 임원의 두 번째 혼외 관계를 보도한 데 이어 월스트리트저널(WSJ)이 이사회의 젠슨 황 해임 준비 소식을 전하자 엔비디아가 시간 외 거래에서 급락하고 코스피지수도 상승분을 반납했다. 엔비디아는 11일(현지시간) 애프터마켓에서 8.61% 하락해 올 들어 가장 낮은 158.78달러까지 내렸다. 최근 반등에 따른 차익 실현 매물이 나오고 옵션 만기일에 따라 수급이 불안했던 점도 국내 증시 약세 원인으로 꼽혔다. 코스닥지수도 1.22% 내린 696.53에 마감했다. 이미지 크게보기 유가증권시장 종목별로 보면 엔비디아 생태계 노출도가 큰 종목의 낙폭이 두드러졌다. 메모리 반도체 기업인 삼성전자와 SK하이닉스의 희비가 엇갈린 것이 대표적이다. SK하이닉스는 1.80% 하락한 125만4000원에, SK스퀘어 는 0.63% 내린 79만1000원에 거래를 마쳤다. 반면 삼성전자는 0.97% 올라 20만8000원에, 삼성전자우 는 2.0% 상승한 16만8300원에 마감했다. SK하이닉스는 엔비디아 공급용 고대역폭메모리(HBM) 매출 비중이 커서 엔비디아 경영 불확실성에 더 민감하고 삼성전자는 범용 메모리와 파운드리, 스마트폰 등으로 사업이 분산돼 있어 상대적으로 충격이 덜했다는 분석이 나온다. 이날 AI 기판주도 큰 폭으로 출렁였다. 삼성전기 (-4.01%)의 하락폭이 두드러졌고 이수페타시스 (2.56%), 대덕전자 (2.52%), 심텍 (1.89%) 등은 상승 마감했지만 장중 고점 대비 5~7% 밀린 채 거래를 마쳤다. &lsquo; ACE 엔비디아밸류체인액티브 &rsquo;(-2.57%), &lsquo; RISE 엔비디아고정테크100 &rsquo;(-2.14%) 등 엔비디아를 주력으로 담고 있는 상장지수펀드(ETF)도 일제히 하락했다. 다른 아시아 국가 증시도 엔비디아 악재 영향을 받았다. 대만 자취안지수는 2.63% 하락했다. ◇ AI 수요 견조&hellip;다른 기업엔 기회 증권가에선 젠슨 황이 해임되면 엔비디아가 주도하던 &lsquo;순환 금융&rsquo; 방식의 AI 인프라 투자에 제동이 걸릴 수 있다고 전망했다. 순환 금융은 엔비디아가 네오클라우드 등 고객사에 지분을 투자하거나 보증을 서고 고객사가 그 자금으로 다시 엔비디아 그래픽처리장치(GPU)를 사들이는 구조를 말한다. 젠슨 황의 강한 의지로 추진한 방식이기 때문에 후임자 선택에 따라 위축될 가능성을 배제하기 어려운 것으로 평가됐다. 하지만 AI 투자 흐름 자체가 꺾일 가능성은 낮다는 분석이 대다수다. 투자 사이클이 위축되기보다 경쟁자가 수혜를 보는 국면으로 이어질 가능성이 높다는 것이다. 권순호 대신증권 애널리스트는 &ldquo;지난 9일 이후 엔비디아 주가가 하락하는 동안 AMD는 13%, 브로드컴 은 6% 상승했다&rdquo;며 &ldquo;1위 사업자가 내리고 대체 공급자가 오르는 상황은 수요 전망의 변화가 아니라 엔비디아 수요가 다른 공급자로 옮겨갈 수 있다는 기대가 반영된 것&rdquo;이라고 설명했다. 미래에셋증권 은 AMD, 브로드컴과 함께 마벨, 알파벳을 수혜주로 제시했다. 엔비디아를 주요 고객사로 둔 국내 메모리 반도체 기업도 큰 타격은 없을 것으로 예상됐다. 김영건 미래에셋증권 연구원은 &ldquo;빅테크 주문형반도체(ASIC)의 HBM 장착량도 늘어나는 추세&rdquo;라며 &ldquo;공급망 재편 가능성이 메모리 수요 감소와 직결되지 않는다&rdquo;고 설명했다. 강진규 기자 josep@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 강진규 기자 강진규 기자는 한국경제에서 증권가와 금융당국을 취재합니다. 최근 '진격의 증권산업', '투자대가 긴급 시장진단' 등의 기획 기사 작성을 주도했습니다. 올 초 급등한 코스피가 미국과 이란 간 전쟁으로 5천피로 후퇴하는 모습, 그리고 다시 반등해 9천피를 달성하는 과정 등 시장의 상황을 발빠르게 전하고 있습니다. 2013년 입사해 생활경제부에서 4년 간 유통·식품 산업 전반을 취재했고, 경제부에서 6년 간 기획재정부(현 재정경제부와 기획예산처), 국무총리실, 한국은행 등을 담당했습니다. 네이버와의 합작회사(아그로플러스)를 설립해 네이버 FARM판을 운영한 경험도 있습니다. 서울대 농경제학과에서 경제학을 전공했고, 2020년 경제학 석사학위를 취득해 경제 분야의 전문성을 갖고 있습니다. 대표 연재코너로는 '강진규의 데이터너머' 등이 있습니다. ADVERTISEMENT 관련 뉴스 1 "
-    },
-    {
       "s": "연합뉴스",
       "t": "'젠슨황 해임위기'가 악재로?…코스피, 오락가락 등락하다 0.6%↓(종합)",
       "d": "(서울=연합뉴스) 김유향 기자 = 코스피가 12일 사흘 만에 약세로 돌아섰다.",
@@ -129,26 +453,6 @@
       "fullText": "코스피 사흘 만에 0.61% 하락, 5,342.73 마감 젠슨 황 해임 가능성·옵션 만기 수급 부담 영향 외국인 3거래일째 순매수, 코스닥 1.22% 하락 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "조선일보",
-      "t": "젠슨 황에게 불륜女 소개한 비즈니스맨 알고 보니 남편이었다",
-      "d": "",
-      "u": "https://www.chosun.com/international/international_general/2026/11/12/RZOX4B6EKBHI5JDKLNR3SOLL5I/",
-      "m": "11. 12. AM 06:24",
-      "ts": 1794464650000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "조선일보",
-      "t": "젠슨 황 해임 ‘1조달러 딜레마’... 엔비디아 시총 충격, 한국은?",
-      "d": "",
-      "u": "https://www.chosun.com/international/international_general/2026/11/12/KPVBS5XBERCZFMNWA7ABPJ7TEQ/",
-      "m": "11. 12. AM 04:44",
-      "ts": 1794458668000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
       "s": "TechCrunch",
       "t": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
       "d": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
@@ -156,7 +460,7 @@
       "m": "11. 12. AM 03:13",
       "ts": 1794453190000,
       "stocks": [],
-      "fullText": "It’s almost inconceivable that Nvidia would fire its rock star CEO. Yet here we are, on the precipice of this happening. Over at Kalshi, Jensen Huang’s odds of surviving the week are sitting at a lowly 30% . Even though he built one of the world’s most valuable and, many would argue, dangerously powerful companies, the tides have completely turned against him. He has confessed to an extramarital affair, but as of Wednesday afternoon it isn’t even clear whom he meant: Alice Huang, the Chinese executive suspected by U.S. intelligence of spying for her country, or Kimberly Powell, an Nvidia executive who reports to him and who, five sources told The New York Times in an explosive new report, was also a paramour. Even if Huang is pushed out as CEO, the board members he has made very rich are unlikely to cut him loose entirely. Barring another shoe dropping, they could keep him on as chairman, a role Nvidia doesn’t currently have. But someone still has to run the company, and there’s no apparent succession plan, which leaves us, like everyone else, to speculate while we wait to see what happens next. While Huangs 60 direct reports undoubtedly get a closer look, consider this our own parlor game, featuring some obvious and less obvious candidates: Lisa Su . The AMD CEO runs Nvidia’s most credible rival, as well as a distant cousin of Huang. The Information floated her name this week, but why would she leave her job for his? Her company stands to benefit from every day that Nvidia spends distracted by an investigation, congressional briefings, and all the mini dramas that are sure to follow. Her best move might be to send a nice note and keep her current corner office. Eric Schmidt. He was the pick of Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management, who we talked with earlier this week. Schmidt could “parachute in tomorrow and do a very good job,” Sonnenfeld said, and perhaps he could. He ran Google from 2001 to 2011, chaired the National Security Commission on AI from 2018 to 2021, and now runs the rocket company Relativity Space. Chips, software, government, rockets its an impressive range. Then again, Schmidt would bring a lot of baggage when it comes to his own extramarital dalliances . Its hard to see him clearing the board for that reason. Lip-Bu Tan . Intel’s CEO knows chips, and right now he might welcome a very soft landing. Last month, Intel reported third-quarter revenue up 21% to $16.5 billion, then warned its fourth-quarter results would fall short of Wall Street’s forecasts. The AI boom has caused a memory-chip shortage, pushing up PC prices and cutting PC sales. Thats hurt Intel (PC chips are a big part of its business), and its stock plunged 20% in after-hours trading on the warning, having already slid more than 30% since September. A move to a company that’s eating everyone’s lunch would be a pretty amazing escape hatch. Bret Taylor. The former Salesforce co-CEO and OpenAI board chair n"
+      "fullText": "It’s almost inconceivable that Nvidia would fire its rock star CEO. Yet here we are, on the precipice of this happening. Over at Kalshi, Jensen Huang’s odds of surviving the week are sitting at a lowly 30% . Even though he built one of the world’s most valuable and, many would argue, dangerously powerful companies, the tides have completely turned against him. He has confessed to an extramarital affair, but as of Wednesday afternoon it isn’t even clear who he meant: Alice Huang, the Chinese executive suspected by U.S. intelligence of spying for her country, or Kimberly Powell, an Nvidia executive who reports to him and who, five sources told The New York Times in an explosive new report, was also a paramour. Even if Huang is pushed out as CEO, the board members he has made very rich are unlikely to cut him loose entirely. Barring another shoe dropping, they could keep him on as chairman, a role Nvidia doesn’t currently have. But someone still has to run the company, and there’s no apparent succession plan, which leaves us, like everyone else, to speculate while we wait to see what happens next. While Huangs 60 direct reports undoubtedly get a closer look, consider this our own parlor game, featuring some obvious and less obvious candidates: Lisa Su . The AMD CEO runs Nvidia’s most credible rival and is a distant cousin of Huang. The Information floated her name this week, but why would she leave her job for his? Her company stands to benefit from every day that Nvidia spends distracted by an investigation, congressional briefings, and all the mini dramas that are sure to follow. Her best move might be to send a nice note and keep her current corner office. Eric Schmidt. He was the pick of Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management, who we talked with earlier this week. Schmidt could “parachute in tomorrow and do a very good job,” Sonnenfeld said, and perhaps he could. He ran Google from 2001 to 2011, chaired the National Security Commission on AI from 2018 to 2021, and now runs the rocket company Relativity Space. Chips, software, government, rockets its an impressive range. Then again, Schmidt would bring a lot of baggage when it comes to his own extramarital dalliances . Its hard to see him clearing the board for that reason. Lip-Bu Tan . Intel’s CEO knows chips, and right now he might welcome a very soft landing. Last month, Intel reported third-quarter revenue up 21% to $16.5 billion, then warned its fourth-quarter results would fall short of Wall Street’s forecasts. The AI boom has caused a memory-chip shortage, pushing up PC prices and cutting PC sales. Thats hurt Intel (PC chips are a big part of its business), and its stock plunged 20% in after-hours trading on the warning, having already slid more than 30% since September. A move to a company that’s eating everyone’s lunch would be a pretty amazing escape hatch. Bret Taylor. The former Salesforce co-CEO and OpenAI board chair now run"
     },
     {
       "s": "CNBC Tech",
@@ -166,27 +470,7 @@
       "m": "11. 12. AM 12:17",
       "ts": 1794442635000,
       "stocks": [],
-      "fullText": "SS United States sinks to become artificial reef"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "The unfolding Jensen Huang scandal: a timeline",
-      "d": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "u": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "m": "11. 11. PM 11:50",
-      "ts": 1794441000000,
-      "stocks": [],
-      "fullText": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAIs Sam Altman or SpaceXAIs Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huangs personal life and potentially impact national security. United States officials believe that Huangs likely romantic interest, Megaspeed executive Alice Huang, is a Chinese spy who has been feeding information back to Beijing. (Alice Huang, a Chinese citizen, is of no relation to Jensen Huang.) Megaspeed, a Singapore-based AI infrastructure company, had reportedly purchased $4.8 billion in Nvidia chips over the last two years. The U.S. and Singapore have both previously investigated Megaspeed over suspicions that the firm was illegally sharing chips with China. The Justice Department has since taken over the federal investigation into the company, the Times has reported. The story took a sudden new turn on Wednesday. Citing five people who worked at Nvidia, the Times reported that Huang also had an extramarital relationship with Kimberly Powell, the company’s vice president of health care, who reports directly to him. Nvidia, Huang and Powell have not confirmed the report. Reached by a Times reporter, Huang reportedly said, “I don’t think you should be talking to me directly, before hanging up. Separately, the Wall Street Journal reported that Nvidia’s board is preparing to oust Huang , and Nvidia’s shares fell in after-hours trading. The U.S. and China are embroiled in a fierce technological arms race to build the most advanced AI infrastructure, which could shape each countrys economic future, military prowess, and capacity for innovation. Nvidia is valuable in this competition as one of the worlds largest makers of AI chips, which are essential for accelerating AI development. But as an American company, Nvidia faces government restrictions on the sale of its most powerful chips to Chinese entities. As the controversy unfolds, we are organizing the most relevant events into a reverse-chronological timeline to keep you up to date. November 11, 2026: Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang After reports of a second extramarital affair, Nvidias board reportedly plans to meet to discuss Huangs future at the company, per the Wall Street Journal. Stock fell about 8% in after hours trading on Wednesday and is down 11% in the past five days. Huang famously delegates very little and has about 60 direct reports, he has said . The company has not had an obvious successor or a succession plan. November 11, 2026: Huang also had an affair with an Nvidia executive who reports to him, NYT says The New York Times reported that Jensen Huang also had an affair with Nvidia vice president of healthcare Kimberly Powell, who reports directly to the CEO. According to the report, Huang and Powell were captured on film being affectionate at a hotel duri"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Working With Outside Firm to Identify CEO Candidates",
-      "d": "Nvidia Corp.’s board has been working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs, including one with a woman who is reportedly suspected of spying for China, a person familiar with the situation said.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-candidates",
-      "m": "11. 11. PM 11:46",
-      "ts": 1794440799000,
-      "stocks": [],
-      "fullText": ""
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
     },
     {
       "s": "TechCrunch",
@@ -196,37 +480,17 @@
       "m": "11. 11. PM 11:28",
       "ts": 1794439725000,
       "stocks": [],
-      "fullText": "In Brief Posted: 3:28 PM PST · November 11, 2026 Image Credits: Tomohiro Ohsumi / Getty Images Amanda Silberling Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years, the Wall Street Journal reports . Sources told the newspaper that the Nvidia board is meeting as soon as Wednesday to determine Huangs future at the company. On Sunday, Huang admitted to having an extramarital affair with a woman purported by U.S. intelligence to be a Chinese spy. On Wednesday evening, the New York Times reported that Huang also had an affair with an executive who reports to him. Nvidia has become one of the most valuable companies in the world as it designs the chips that power the AI boom, but in the midst of Huangs ongoing scandal , Nvidia stock fell about 8% in after hours trading on Wednesday. The stock is down about 11% in the past five days. Huang famously delegates very little and has about 60 direct reports, he has said . The company also has not had an obvious successor or a succession plan. According to Bloomberg, Nvidia is working with an outside firm to identify candidates that could potentially replace Huang as CEO. Topics AI , In Brief , Jensen Huang , nvidia 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 12 hours ago AI Nvidia’s crisis has corporate governance experts reaching for the popcorn Connie Loizos 1 day ago AI Google broadens its AI hardware portfolio with two new specialized chips Ram Iyer 2 days ago Latest in AI AI Who could replace Jensen Huang? A highly unscientific list of possible successors Connie Loizos 9 hours ago AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 12 hours ago In Brief Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang Amanda Silberling 13 hours ago"
+      "fullText": "In Brief Posted: 3:28 PM PST · November 11, 2026 Image Credits: Tomohiro Ohsumi / Getty Images Amanda Silberling Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years, the Wall Street Journal reports . Sources told the newspaper that the Nvidia board is meeting as soon as Wednesday to determine Huangs future at the company. On Sunday, Huang admitted to having an extramarital affair with a woman purported by U.S. intelligence to be a Chinese spy. On Wednesday evening, the New York Times reported that Huang also had an affair with an executive who reports to him. Nvidia has become one of the most valuable companies in the world as it designs the chips that power the AI boom, but in the midst of Huangs ongoing scandal , Nvidia stock fell about 8% in after hours trading on Wednesday. The stock is down about 11% in the past five days. Huang famously delegates very little and has about 60 direct reports, he has said . The company also has not had an obvious successor or a succession plan. According to Bloomberg, Nvidia is working with an outside firm to identify candidates that could potentially replace Huang as CEO. SpaceXSI CEO Elon Musk late on Wednesday posted on X that hiring Huang would be an honor. That would be an honor &mdash; Elon Musk (@elonmusk) November 12, 2026 Topics AI , In Brief , Jensen Huang , nvidia 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry Julie Bort 4 hours ago AI Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement? Amanda Silberling 5 hours ago AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 6 hours ago Latest in AI AI Googles latest Search upgrade promises better answers to your most complicated questions Sarah Perez 42 minutes ago Startups Nectar launches an AI agent to automate creator discovery and outreach for brands Lauren Forristal 59 minutes ago AI Jensen Huang’s exit puts Nvidia’s support for open source in question Rebecca Bellan 2 hours ago"
     },
     {
-      "s": "TechCrunch",
-      "t": "Jensen Huang accused of having another affair — with an Nvidia exec",
-      "d": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-      "u": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-      "m": "11. 11. PM 11:17",
-      "ts": 1794439025000,
+      "s": "Bloomberg Tech",
+      "t": "Cinco gráficos que muestran la enorme relevancia de Nvidia",
+      "d": "Nvidia llegó a acercarse a una valoración de US$6 billones. Ahora, el escándalo de Jensen Huang ha golpeado sus acciones y expuesto un problema que inquieta a los inversionistas: no hay un sucesor claro.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-11/cinco-graficos-que-muestran-la-enorme-relevancia-de-nvidia-mwcd82n6",
+      "m": "11. 11. PM 05:00",
+      "ts": 1794416449000,
       "stocks": [],
-      "fullText": "In Brief Posted: 3:17 PM PST · November 11, 2026 Image Credits: Benjamin Fanjoy / Getty Images Lucas Ropek Jensen Huang accused of having another affair — with an Nvidia exec Nvidia CEO Jensen Huang is already under investigation after having admitted to having an affair with a woman accused of being a Chinese spy . Now the New York Times is reporting that Huang is also suspected of having another extramarital affair, with a direct report of his at the company — Kimberly Powell, Nvidia’s vice president of healthcare. Powell, like Huang, is married, the outlet says. The Times says it was told of the alleged affair by five employees at the company. The sources said that Huang and Powell were captured on video being affectionate at a San Jose, Calif., hotel during a conference earlier this year. Like many companies, Nvidia has rules discouraging superiors from having relationships with employees in subordinate roles, the Times notes. TechCrunch reached out to Nvidia for comment. The companys board has initiated an investigation into Huangs publicly admitted affair. Additionally, two House Republicans said Wednesday that Congress is gearing up to subpoena Huang over the spy allegations if he doesnt voluntarily respond to their summons to a closed-door briefing. Late Wednesday, after the reports of the second affair were published, the Wall Street Journal reported that the Nvidia board was preparing to oust Huang, who co-founded the company in 1993. Topics AI , AI , Jensen Huang , nvidia 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 12 hours ago AI Nvidia’s crisis has corporate governance experts reaching for the popcorn Connie Loizos 1 day ago AI Google broadens its AI hardware portfolio with two new specialized chips Ram Iyer 2 days ago Latest in AI AI Who could replace Jensen Huang? A highly unscientific list of possible successors Connie Loizos 9 hours ago AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 12 hours ago In Brief Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang Amanda Silberling 13 hours ago"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
-      "d": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
-      "u": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
-      "m": "11. 11. PM 07:22",
-      "ts": 1794424942000,
-      "stocks": [],
-      "fullText": "In Brief Posted: 11:22 AM PST · November 11, 2026 Image Credits: Jose Sarmento Matos/Bloomberg / Getty Images Rebecca Bellan Congress to call Jensen Huang in to answer for alleged Chinese spy affair Congress is gearing up to subpoena Nvidia CEO Jensen Huang to answer their questions about his affair with an alleged Chinese spy , Bloomberg reports , citing two House Republicans. The report comes a week after House Republicans Brian Mast, John Moolenaar, and Rick Crawford sent a letter to Huang asking him to appear before their committees for a joint, closed-door briefing in regards to his relations with Alice Huang, the Megaspeed executive and suspected Chinese spy. House China committee Chairman Moolenaar said Wednesday on Fox Business that Huang has until the end of the day to respond to the request. If he doesn’t agree to the briefing, he’ll likely be subpoenaed, said Moolenaar. Mast, who chairs the House Foreign Affairs Committee, on Wednesday said his committee is preparing a subpoena for Huang to send if he doesn’t respond. Nvidia did not immediately respond to TechCrunch’s request for comment. Topics AI , Government & Policy , In Brief , Jensen Huang , nvidia 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI The unfolding Jensen Huang scandal: a timeline Amanda Silberling 12 hours ago AI Is Jensen Huang’s bad behavior more commonplace than it seems? Russell Brandom 20 hours ago AI Nvidia’s crisis has corporate governance experts reaching for the popcorn Connie Loizos 1 day ago Latest in Government & Policy AI Why the data center you dread might never even be built Theresa Loconsolo Rebecca Bellan Tim De Chant 16 hours ago 31 min Government & Policy How backlash and red tape continue to slow data centers post-Blue Wave Theresa Loconsolo Rebecca Bellan Tim De Chant 16 hours ago In Brief Congress to call Jensen Huang in to answer for alleged Chinese spy affair Rebecca Bellan 17 hours ago"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
-      "d": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
-      "u": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
-      "m": "11. 11. PM 04:16",
-      "ts": 1794413767000,
-      "stocks": [],
-      "fullText": "The AI industry is still reeling from Nvidia CEO Jensen Huang’s honeypot scandal, but some in the industry see it as an issue that’s much larger than one man. The Chinese government has been active in economic espionage for decades, and with semiconductors at the center of the AI boom, there’s intense pressure to infiltrate any company involved. At the same time, many of the executives getting rich off that boom have made themselves easy targets. As CEO of investment intel firm Heron Intelligence, Nate Singer has a unique view into the problem. His firm works on corporate due diligence: Essentially, making sure companies know the relevant dirt before making a major acquisition or executive hire. And while the Nvidia case is particularly severe, Singer says there are lots of similar cases in the semiconductor industry that have stayed under the radar. “We’ve got former employees talking about behavior at senior executive levels,” Singer told TechCrunch, saying executives are “really crossing lines that should not be crossed.” In a widely circulated LinkedIn post , Singer detailed one case in which a CEO’s wife made an unexpected board room appearance, “screaming about her husband and another company exec flying around in the corporate jet with a couple young ladies (who also turned out to be state-sponsored actors).” It’s an alarming story, but an unfortunately common one. Singer says he’s seen at least three reports of similar cases, and suspects many more have gone unreported. “There’s a lot more than this one woman,” Singer said. “They are embedded in these companies.” Semiconductor companies are already big targets for international trade secret theft. There have been dozens of prosecutions for similar cases in recent years, including a case involving the fabrication powerhouse TSMC in 2007. In 2017, four executives at an unnamed “Bay Area semiconductor equipment manufacturer” were charged with stealing trade secrets for use at a competing company in China. According to the indictment, the technology in question “related to the high-volume manufacturing of semiconductor wafers to be used in lighting and electronic devices, such as flat screen televisions and smart phones.“ Any sexual elements in such cases rarely become public, in part because of the severe consequences for executives and their companies. But according to Singer, the ongoing threat has become a kind of open secret in the industry. “There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” he told TechCrunch. Topics AI , China , Jensen Huang , nvidia When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Russell Brandom AI Editor Russell Brandom has been covering the tech industry since 2012, with a focus on platform policy and emerging technologies. He previously worked at The Verge and Rest of World, and has written for Wired, The Awl and MITs Tech"
+      "fullText": ""
     },
     {
       "s": "CNBC Tech",
@@ -236,17 +500,7 @@
       "m": "11. 10. PM 11:58",
       "ts": 1794355117000,
       "stocks": [],
-      "fullText": "SS United States sinks to become artificial reef"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
-      "d": "Nvidia shares have tumbled by more than 10% since Monday, erasing almost $500 billion in market value.",
-      "u": "https://www.nbcnews.com/business/corporations/ex-prosecutor-probe-jensen-huang-chinese-spy-affair-nvidia-rcna608628",
-      "m": "11. 10. PM 08:51",
-      "ts": 1794343916000,
-      "stocks": [],
-      "fullText": "Corporations Nvidia hires former acting U.S. attorney to probe Jensen Huang affair Nvidia shares have tumbled by more than 10% since Monday, erasing almost $500 billion in market value. Listen to this article with a free profile 00:00 00:00 Nvidia names outside council for investigation into CEO’s affair 02:00 Get more news Live on Share Add NBC News to Google Nov. 10, 2026, 3:51 PM EST / Updated Nov. 10, 2026, 4:18 PM EST By Steve Kopack Nvidia’s board of directors announced Tuesday that it had hired a prominent former prosecutor and a top Wall Street law firm to probe the events surrounding CEO Jensen Huang’s affair with a woman believed to be a spy for China. “The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz to conduct a thorough and independent investigation as was announced on Sunday,” the company said in a statement. The announcement followed revelations over the weekend that included Huang’s admission of an extramarital affair. U.S. intelligence agencies believe that Alice Huang, a Chinese citizen and business executive, spied for Beijing, sources told NBC News. The hiring of Kim and his law firm raises the stakes significantly for Huang, who co-founded Nvidia in 1993. Many of Nvidia’s board members have worked alongside Huang for decades and become wealthier with him. Nvidia loses $200B in value amid alleged Chinese spy scandal 02:20 But Tuesday’s announcement signaled that Nvidia’s board does not intend its probe to serve as a rubber stamp for Huang’s actions. Wachtell Lipton is one of the nation’s most influential law firms, and its attorneys have track records of taking on corporate titans. As Wall Street’s top cop, Kim battled mob bosses and billion-dollar hedge funds in the U.S. attorney’s office. As of Tuesday, Jensen Huang remained in his post as Nvidia’s CEO, and a spokesperson for the company told NBC News over the weekend that he was focused on leading the trillion-dollar AI chip giant “without interruption.” President Donald Trump said Monday that the FBI was also probing the events. Trump said Huang “had absolutely no idea that the person in question was a spy,” adding, “I really believe him.” The recent developments have caused Nvidia shares to sell off by more than 10% since trading opened on Monday morning. The move has erased almost $500 billion of value from the $4 trillion company in just two days. The sell-off was the latest blow in a weekslong decline for Nvidia stock already underway. After hitting its last record high on Oct. 6, shares in the chip designer have plunged by 31%. That drop has erased more than $1.7 trillion in market value. Adding to the downward pressure on Nvidia shares Tuesday was new reporting from The New York Times that Secretary of State Marco Rubio had twice warned Trump about Huang’s entanglement with Chinese intelligence. Alice Huang with Jensen Huang in Taipei, Tai"
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
     },
     {
       "s": "CNBC Tech",
@@ -256,7 +510,7 @@
       "m": "11. 10. AM 12:10",
       "ts": 1794269423000,
       "stocks": [],
-      "fullText": "SS United States sinks to become artificial reef"
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
     },
     {
       "s": "CNBC Tech",
@@ -266,7 +520,7 @@
       "m": "11. 09. PM 10:50",
       "ts": 1794264641000,
       "stocks": [],
-      "fullText": "SS United States sinks to become artificial reef"
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
     },
     {
       "s": "CNBC Tech",
@@ -276,17 +530,7 @@
       "m": "11. 09. PM 10:42",
       "ts": 1794264135000,
       "stocks": [],
-      "fullText": "SS United States sinks to become artificial reef"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "New report says Nvidia CEO was possible target of Chinese spy plot",
-      "d": "A new report from the New York Times reveals that Nvidia CEO Jensen Huang was the target of a possible Chinese spy plot, involving an executive at a Singapore-based company. NBC News has not independently confirmed the details of the investigation.",
-      "u": "https://www.nbcnews.com/video/new-report-says-nvidia-ceo-was-possible-target-of-chinese-spy-plot-272497733989",
-      "m": "10. 29. PM 09:51",
-      "ts": 1793310674000,
-      "stocks": [],
-      "fullText": "SS United States sinks to become artificial reef"
+      "fullText": "NBC News NOW Ring camera video shows the moment of Brooklyn building collapse"
     },
     {
       "s": "한겨레",
@@ -297,6 +541,16 @@
       "ts": 0,
       "stocks": [],
       "fullText": "본문 경제 경제일반 ‘젠슨 황 스캔들’ 여파에 국내 증시도 휘청…코스피 5342 하락 마감 김영배 기자 수정 2026-11-12 16:07 펼침 0:00 Your browser does not support the audio element. 장 초반 올랐으나 엔비디아 시간 외 급락에 반전 12일 서울 중구 하나은행 본점 딜링룸 현황판에 원/달러 환율, 코스피, 코스닥 지수가 표시돼 있다. 연합뉴스 광고 호재와 악재가 뒤섞인 속에서 12일 국내 증시는 심한 변동성을 보이다가 하락 마감했다. 이날 코스피는 전날보다 32.63(0.61%) 떨어진 5342.73에 마감했다. 지수는 10.58(0.20%) 오른 5385.94로 출발한 뒤 등락을 거듭하며 오전 한때 5458.84까지 올랐다가 하락세로 반전했다. 코어위브의 호실적, 앤트로픽 기업공개(IPO) 기대감, 필라델피아 반도체 지수 급등에 따른 장 초반의 기대감이 엔비디아 여파에 밀렸다. 11일(현지시각) 뉴욕증시 마감 뒤 젠슨 황 엔비디아 최고경영자(CEO) 해임설이 불거지고 추가 스캔들이 터져 나오자 미국 시간 외 거래에서 엔비디아 주가는 8% 가까이 급락했다. 이는 국내 반도체주에도 악영향을 끼친 것으로 분석된다. 코스피200 옵션 만기일을 맞아 파생상품 관련 물량이 쏟아진 것도 이날 시장의 변동성을 키운 요인으로 꼽힌다. 광고 서상영 미래에셋증권 상무는 “젠슨 황이 1993년 창업 이후 기술 개발과 전략적 의사 결정을 주도해 왔다는 점에서 후계자 부재에 대한 불안감이 확대됐다”며 “이런 불확실성은 메모리 반도체, 인공지능 서버 등 엔비디아 중심의 인공지능 생태계 전반에 부담으로 작용할 수 있다”고 분석했다. 서 상무는 “특히 다음 주 엔비디아 실적 발표를 앞두고 있어 경영진 거취와 실적 전망이 동시에 주가 변동성을 확대할 수 있다”고 덧붙였다. 이날 유가증권시장에서 코스피 대장주인 삼성전자(+0.97%)는 등락 끝에 상승 마감한 반면, 에스케이(SK)하이닉스(-1.80%)는 하락세에서 벗어나지 못했다. 삼성전자와 에스케이하이닉스 주가의 엇갈림 또한 엔비디아 여파로 풀이된다. 엔비디아에 고대역폭 메모리(HBM)를 주력으로 납품하는 에스케이하이닉스는 경영진 교체 가능성에 따른 불확실성 확대에 민감하게 반응할 수밖에 없는 처지다. 여기에 전날 에스케이하이닉스(+5.36%) 주가가 삼성전자(+3.57%)보다 더 큰 폭으로 뛰었던 데 따른 반사적 영향도 있었던 것으로 보인다. 광고 광고 시가총액 상위 종목 중 에스케이스퀘어(-0.63%), 엘지(LG)에너지솔루션(-1.79%), 삼성전기(-4.01%), 현대차(-2.20%)도 하락했다. 삼성바이오로직스(+1.33%)는 상승 마감했다. 이날 유가증권시장에서 외국인은 3780억원 순매수하며 사흘째 순매수 흐름을 이어갔다. 기관과 개인은 각각 6911억원, 2040억원의 매도 우위를 기록했다. 광고 전날 5% 넘게 급등한 코스닥 지수는 8.57(1.22%) 내린 696.53에 마감했다. 지수는 1.88(0.27%) 내린 703.22로 출발한 뒤 한 때 687.40까지 떨어지며 700선을 내주기도 했다. 코스닥 시장에서는 외국인이 3525억원 순매도했고, 기관과 개인은 각각 437억원, 3075억원 순매수를 기록했다. 이날 서울외환시장에서 원-달러 환율은 전날보다 2.9원 내린 1330.7원에 주간거래를 마쳤다. 환율은 전날보다 3.0원 오른 1336.6원에 거래를 시작한 뒤 장중 대체로 하락세를 이어갔다. 김영배 선임기자 kimyb@hani.co.kr"
+    },
+    {
+      "s": "Nikkei Asia",
+      "t": "Jensen Huang resigns as Nvidia chief after alleged second affair",
+      "d": "",
+      "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair",
+      "m": "",
+      "ts": 0,
+      "stocks": [],
+      "fullText": "Artificial intelligence Jensen Huang resigns as Nvidia chief after alleged second affair Trump calls for Apple&#x27;s Tim Cook to replace former CEO of world&#x27;s leading AI chipmaker"
     },
     {
       "s": "Nikkei Asia",
