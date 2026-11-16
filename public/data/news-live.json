@@ -1,20 +1,60 @@
 {
-  "updatedAt": "2026-11-16T00:06:21.527Z",
-  "count": 45,
+  "updatedAt": "2026-11-16T06:58:12.824Z",
+  "count": 32,
   "items": [
     {
+      "s": "연합뉴스",
+      "t": "'젠슨 황' 파장 지속, 'AI 빅위크' 경계감…증시 다시 출렁",
+      "d": "(서울=연합뉴스) 곽윤아 기자 = 16일 코스피 지수가 장중 낙폭을 키워 3% 넘게 하락하고 있는 것은 엔비디아 실적 발표, 앤트로픽 상장 등 ...",
+      "u": "https://www.yna.co.kr/view/AKR20261116113700008",
+      "m": "11. 16. AM 06:05",
+      "ts": 1794809155000,
+      "stocks": [],
+      "fullText": "코스피 장중 3%대 급락, 코스닥 4%대 하락 젠슨 황 퇴진 여진·엔비디아 실적발표 경계 미 PPI 전년비 6.5%, 긴축 우려에 투심 위축 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황 떠나자 반도체 '흔들'…한국 증시 영향은",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202611169259i",
+      "m": "11. 16. AM 05:32",
+      "ts": 1794807132000,
+      "stocks": [],
+      "fullText": "핫픽! 미국주식 핫픽! 미국주식 젠슨 황 떠나자 반도체 '흔들'…한국 증시 영향은 입력 2026.11.16 14:32 수정 2026.11.16 14:36 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박주연 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 젠슨 황 엔비디아 CEO 사임에 따른 AI 투자 위축 우려로 국내 증시 및 반도체 업종의 단기 변동성이 우려되나, 중장기적으로는 글로벌 경쟁 구도 재편과 대중 제재에 따른 경쟁 우위 유지로 한국 반도체 기업들에 반사이익 기회가 될 수 있다는 분석이 제기되었습니다. 사진=연합뉴스 젠슨 황 엔비디아 창업자가 최고경영자(CEO)에서 물러나면서 한국 증시도 당분간 흔들릴 수 있다는 분석이 나왔다. 엔비디아의 경영 공백이 인공지능(AI) 투자 위축 우려로 번지면 국내 반도체 대형주부터 타격을 받을 수 있어서다. 17일 하나증권은 보고서를 내고 이번 사태를 한국 증시에 단기 악재라고 진단했다. 반도체 대형주가 조정받으면 지수가 눌리고, 외국인 매도와 원화 약세가 겹치면 반도체 외 업종 주가도 압박받을 수 있다. AI 클라우드 업체의 자금 조달이 막혀 투자가 줄면 전력기기와 냉각, 건설 업종의 이익 전망도 다시 따져야 한다는 게 하나증권의 설명이다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 박주연 기자 증권부에서 운용사를 출입합니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
+    },
+    {
       "s": "조선일보",
-      "t": "iM證 “엔비디아 주가, 닷컴버블 때 시스코 닮아…추가 급락 가능성은 낮아”",
-      "d": "iM증권은 16일 엔비디아 주가가 닷컴버블 당시 시스코시스템즈와 비슷한 흐름을 보이고 있지만, 젠슨 황 최고경영자(CEO)의 퇴임으로 엔비디아 실적이 크게 흔들리거나 주가가 추가 급락할 가능성은 낮다고 분석했다. 다만 엔비디아의 그래픽처리장치(GPU)를 담보로 한 자금 조달에 차질이 생기면 인공지능(AI) 업계 전반의 투자와 신용에 부담이 될 수 있다고 봤",
-      "u": "https://www.chosun.com/economy/stock-finance/2026/11/16/MI3TKZRRMUYDSMTCHE2DANLEMU/",
-      "m": "11. 15. PM 11:59",
-      "ts": 1794787182000,
+      "t": "‘젠슨 황 쇼크’ 언제 끝나나...코스피·코스닥 나란히 3% 넘게 급락",
+      "d": "",
+      "u": "https://www.chosun.com/economy/money/2026/11/16/GBBXWRTYPJGZ5IDB2BGPXFNDWI/",
+      "m": "11. 16. AM 01:33",
+      "ts": 1794792825000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황, 美 의회 출석 동의… ‘中 스파이 연루’ 비공개 조사",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/11/16/EDSZDSJOFFAQBO3RSQHOGZPZHA/",
+      "m": "11. 16. AM 01:30",
+      "ts": 1794792627000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 창업 구상 식당, ‘엔비디아 명판’ 뗐다가 원상복구",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/11/16/VAVI4C6PKZAF3BTPQWXFWKFLDE/",
+      "m": "11. 16. AM 12:50",
+      "ts": 1794790211000,
       "stocks": [],
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Nvidia’s CEO Search Draws Fire With Bessent’s ‘Shakeup’ Call",
+      "t": "Nvidia’s CEO Search Draws Fire With Bessent’s Shakeup Call",
       "d": "Pressure is mounting on Nvidia Corp. days after it ousted Jensen Huang as chief executive officer, with Treasury Secretary Scott Bessent urging the company to make a “dramatic” leadership shakeup and come clean about its compliance with export controls on its prized AI chips.",
       "u": "https://www.bloomberg.com/news/articles/2026-11-15/nvidia-s-ceo-search-draws-fire-with-bessent-s-call-for-shakeup",
       "m": "11. 15. PM 11:47",
@@ -23,75 +63,12 @@
       "fullText": ""
     },
     {
-      "s": "연합뉴스",
-      "t": "iM증권 \"엔비디아·코스피, 불편한 차트…중요한건 펀더멘털\"",
-      "d": "(서울=연합뉴스) 강수지 기자 = iM증권은 16일 젠슨 황 엔비디아 최고경영자(CEO) 스캔들로 엔비디아 주가가 1990년대 시스코 주가와 닮...",
-      "u": "https://www.yna.co.kr/view/AKR20261116022900008",
-      "m": "11. 15. PM 11:43",
-      "ts": 1794786221000,
-      "stocks": [],
-      "fullText": "iM증권 \"엔비디아·코스피 '불편한 차트'\" 엔비디아, 시스코식 추가 급락 가능성은 낮아 코스피 37.6% 하락…외국인 순매도·원화 강세 원인 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
-      "s": "연합뉴스",
-      "t": "[마켓뷰] '젠슨 황' 파장속 'AI 빅위크' 경계감…코스피 향배는",
-      "d": "(서울=연합뉴스) 김유아 기자 = &apos;젠슨 황 퇴진&apos; 여파가 지속되는 가운데 이번 주 앤트로픽 상장과 엔비디아 실적 발표, FOMC 의사록 공개 ...",
-      "u": "https://www.yna.co.kr/view/AKR20261116017000008",
-      "m": "11. 15. PM 11:17",
-      "ts": 1794784634000,
-      "stocks": [],
-      "fullText": "'젠슨 황 퇴진' 여파에 코스피 경계감 확대 지난주 코스피 0.98% 하락 5,290.53 마감 이번주 엔비디아 실적·FOMC 의사록 주목 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
       "s": "조선일보",
       "t": "베선트 “엔비디아 새 CEO는 외부서”…젠슨 황은 복귀 논의",
       "d": "",
       "u": "https://www.chosun.com/economy/int_economy/2026/11/16/CMRHQD377JE4HHLN334PDQGUE4/",
       "m": "11. 15. PM 11:00",
       "ts": 1794783630000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "조선일보",
-      "t": "KB證 “삼성전자, 脫엔비디아 시대 최대 수혜주… AI 생태계 확장 본격화”",
-      "d": "KB증권은 16일 삼성전자에 대해 인공지능(AI) 패권 구도의 전환 속에서 비(非)엔비디아 진영을 중심으로 한 AI 생태계 확장의 최대 수혜를 누릴 것이라고 분석했다. 삼성전자의 전 거래일 종가는 20만6000원이다. 최근 엔비디아는 젠슨 황 최고경영자(CEO) 사임과 콜레트 크레스 최고재무책임자(CFO)의 임시 CEO 선임을 공식 발표했다. KB증권은 젠",
-      "u": "https://www.chosun.com/economy/stock-finance/2026/11/16/G4YWCYJZMQ3DEZBRGFSWCN3BME/",
-      "m": "11. 15. PM 10:49",
-      "ts": 1794782986000,
-      "stocks": [
-        "005930",
-        "005935"
-      ],
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "메가스피드 “앨리스 황 작년 8월 퇴사”…中에 반도체 불법반출 의혹 부인",
-      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)와의 혼외관계 논란이 불거진 앨리스 황이 지난해 8월 싱가포르 클라우드 업체 메가스피드를 퇴사했다고 미국 경제매체 CNBC가 15일(현지시간) 보도했다. 메가스피드는 이와 함께 외부 법률고문을 선임해 내부 조사에 착수했다고 밝혔다.CNBC에 따르면 메가스피드는 이날 이메일 성명에서 “앨리스 황은 2025년 8월 30일부로 회사를 공식 퇴사했으며, 현재 회사 내에서 어떠한 역할도 맡고 있지 않다”고 밝혔다. 이어 “회사는 합법적으로 사업을 운영하고 있다”며 “(메가스피드의) 사업과 공급망 등에 관한 일부 언론 보도는 검증 가능한 증거로 뒷받침되지 않는다”고 주장했다. 또 외부 법률 전문가를 선임해 철저한 내부 조사를 진행하고 있다고 밝혔다.메가스피드는 “미국 등 모든 국",
-      "u": "https://www.donga.com/news/Inter/article/all/20261116/135029304/1",
-      "m": "11. 15. PM 10:42",
-      "ts": 1794782520000,
-      "stocks": [],
-      "fullText": "송유근 기자 구독"
-    },
-    {
-      "s": "연합뉴스",
-      "t": "[연합뉴스 이 시각 헤드라인] - 07:30",
-      "d": "■ &quot;젠슨 황, 엔비디아 CEO 복귀 논의 중…백악관 설득 시도&quot;",
-      "u": "https://www.yna.co.kr/view/AKR20261116009100011",
-      "m": "11. 15. PM 10:30",
-      "ts": 1794781800000,
-      "stocks": [],
-      "fullText": "젠슨 황 전 엔비디아 최고경영자가 물러난 지 불과 나흘 만에 다시 복귀를 노리고 있는 것으로 알려졌다. 도널드 트럼프 미국 대통령이 협상도 공격도 없이 이란 붕괴를 기다리는 쪽으로 기우는 징후를 보이고 있다. 미국 주도의 경제제재 강화로 결국 이란 정권이 두 손을 드는 상황을 기다리는 모양새인데 트럼프 대통령의 기대대로 될지는 미지수라는 관측이 나온다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
-      "s": "조선일보",
-      "t": "“젠슨 황, 나흘 만에 엔비디아 CEO 복귀 타진”",
-      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)가 물러난 지 나흘 만에 경영 일선 복귀를 타진하는 것으로 알려졌다. 15일(현지시각) 영국 파이낸셜타임스(FT)에 따르면 젠슨 황은 최근 측근들과 엔비디아 CEO직 복귀 가능성을 심도 있게 논의했다. FT는 황 측근을 인용해 “실리콘밸리 임원들로 구성된 전시상황실(워룸)을 꾸려 복귀 로비에 나섰다”며 “백악관 지지",
-      "u": "https://www.chosun.com/international/international_general/2026/11/16/HE2TKYZYMQYWCMRZMYYDMYTDMQ/",
-      "m": "11. 15. PM 10:27",
-      "ts": 1794781632000,
       "stocks": [],
       "fullText": ""
     },
@@ -116,68 +93,18 @@
       "fullText": "We didn’t see this coming. Or at least, I didn’t — a week ago, when I wrote about Nvidia’s board opening an investigation into then-CEO Jensen Huang, I assumed his job was safe. On the latest episode of TechCrunch’s Equity podcast , Rebecca Bellan, Tim De Chant, and I discussed how Huang’s ouster went down and what it means for the larger AI economy. While Tim said he saw it coming (albeit not this quickly), Rebecca said, “I didn’t think it was going to happen at all.” “Jensen is Nvidia, right?” she added. “And so much of this economy is riding on Nvidia.” Similarly, I marveled at how quickly Huang’s support seemed to crumble, with more scandals seeming to emerge every day. (At the same time, there are many who’d still like to see him return .) And we also took a moment to wonder what will happen to Nvidia’s investments in the larger AI ecosystem. Keep reading for a preview of our conversation, edited for length and clarity; you can listen to the whole episode here . Tim De Chant: I figured this was coming. I didnt think it would happen this quickly. I thought there would be at least a few days. Rebecca Bellan: I didnt think it was going to happen at all. I mean, Jensen is Nvidia, right? And so much of this economy is riding on Nvidia. And we’ve got nothing but the last few years of data to show us that billionaires can do whatever the hell they want. So it was surprising to me — it almost restored my faith in humanity, that he resigned. But someone said to me, If this were Elon, nothing would happen.” He would not be resigning. Nothing would be going down Anthony Ha: Which is interesting, because I would have said, as of a week ago, or even just a few days ago, that Jensen is in the same category as Elon. I mean, no one is quite as special as Elon is, but it’s a big, incredibly successful company. Like you said — in a lot of ways, the entire AI economy is built on top of Nvidia. And for most people, Jensen Huang is Nvidia. Hes the biggest shareholder. He has family members who work at the company, and probably most importantly, there was no succession plan in place. So this was not something that they were prepared for at all. Rebecca: I think we should actually take a step back, because we just launched into this conversation assuming — rightly so — that our listeners will know what the heck were talking about. But for those who somehow dont, Jensen resigned on Thursday, after it came out he was having an affair with a former executive at an Nvidia customer called Megaspeed, whos alleged to have ties to Chinese intelligence. And then there was another reported affair with an Nvidia executive. So hes resigned. Nvidia CFO Collette Kress is jumping in as the interim CEO. Shes a longtime board member. I think its always interesting when a CFO steps in to be a CEO. It just means we’re going to manage expenses right now, like thats the key. Anthony: I think a big part of the message is: This is not necessarily someone you should expect to be in this "
     },
     {
-      "s": "동아일보",
-      "t": "‘젠슨 황 복귀’ 요구 본격화…머스크 등 엔비디아 이사회에 서한",
-      "d": "중국 정보기관 연계 의혹이 제기된 여성과의 혼외관계 논란으로 사퇴한 젠슨 황 전 엔비디아 최고경영자(CEO)가 복귀 가능성을 측근들과 논의하고 있다고 파이낸셜타임스(FT)가 15일(현지시간) 보도했다. 일론 머스크 테슬라·스페이스X CEO 등 실리콘밸리 기업인들이 공개 지지에 나서면서 엔비디아의 차기 경영권을 둘러싼 논쟁이 확산하고 있다.FT는 사안에 정통한 복수의 관계자를 인용해 황 전 CEO의 퇴진 나흘 만에 복귀 움직임이 본격화했다고 전했다. 한 측근은 FT에 실리콘밸리 경영진으로 이른바 ‘워룸’(war room·비상대책 조직)을 꾸려 이사회에 복귀를 압박하고 백악관의 지원까지 확보할 계획이라고 밝혔다. 이 측근은 “최첨단 AI 연구소들을 제외하면 기술업계의 중요한 인물들은 모두 젠슨을 좋아한다”며 황",
-      "u": "https://www.donga.com/news/Inter/article/all/20261116/135029299/1",
-      "m": "11. 15. PM 09:25",
-      "ts": 1794777900000,
-      "stocks": [],
-      "fullText": "송유근 기자 구독"
-    },
-    {
-      "s": "한국경제",
-      "t": "젠슨 황 사퇴 나흘 만에 컴백 움직임…\"백악관 설득 시도\"",
+      "s": "조선일보",
+      "t": "젠슨 황 퇴진에 글로벌 AI 스타트업 투자 ‘비상’… “엔비디아 공백 누가 메우나”",
       "d": "",
-      "u": "https://www.hankyung.com/article/2026111678157",
-      "m": "11. 15. PM 09:15",
-      "ts": 1794777306000,
+      "u": "https://www.chosun.com/economy/tech_it/2026/11/16/6OSLDZB2BJFCNN7JJ3CJK3R5QM/",
+      "m": "11. 15. PM 09:00",
+      "ts": 1794776401000,
       "stocks": [],
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황 사퇴 나흘 만에 컴백 움직임…\"백악관 설득\" 입력 2026.11.16 06:15 수정 2026.11.16 06:20 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 강경주 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 일론 머스크&middot;박현주 참여한 복귀 청원에는 16만명 참여 젠슨 황 전 엔비디아 최고경영자(CEO)가 지난 2024년 6월 2일(현지시간) 대만 컴퓨텍스 행사에서 연설한 직후 앨리스 황과 포옹하고 있다. / 사진=로이터 연합뉴스 젠슨 황 전 엔비디아 최고경영자(CEO)가 물러난 지 불과 나흘 만에 복귀를 노리고 있다는 외신 보도가 나왔다. 실리콘밸리 주요 기업인과 투자자들이 공개적으로 복귀를 촉구하고 나선 가운데 백악관 설득을 위한 로비 움직임까지 포착됐다. 다만 중국 반도체 수출통제 우회 의혹과 미국 재무장관의 쇄신 압박이 맞물리면서 복귀 여부는 정치권의 판단에 달렸다는 분석이 나온다. 영국 일간 파이낸셜타임스(FT)는 15일(현지시간) 복수 소식통을 인용해 황 전 CEO가 측근들과 CEO 자리 복귀에 대해 논의했다고 보도했다. 한 측근은 황 전 CEO 복귀 로비를 위한 실리콘밸리 임원진으로 구성된 전시 상황실(War room)이 꾸려지고 있으며 백악관의 지지 확보를 시도할 것이라고 밝혔다. 이미 황 전 CEO의 복귀를 위한 공개 캠페인이 힘을 얻고 있다. 그의 복귀를 요구하는 온라인 청원 스탠드 위드 젠슨에 현재까지 15만6000여명이 서명했다. 일론 머스크 스페이스X&middot;테슬라 CEO와 팀 스위니 에픽게임즈 CEO, 개리 탄 Y콤비네이터 CEO, 에이든 고메즈 코히어 공동창업자 등이 공개적으로 이름을 올렸다. 박현주 미래에셋그룹 회장도 참여한 것으로 알려졌다. 박 회장은 황 전 CEO를 사퇴시킨 엔비디아 이사회의 결정이 성급했다면서 \"황 전 CEO는 문명을 만든 CEO다. 글로벌 인공지능(AI) 생태계에 문제가 될 수 있다\"고 말한 것으로 전해졌다. 특히 국내 투자자들이 엔비디아에 투자한 규모가 30조원에 이르고 미래에셋 지수상장펀드(ETF) 등을 통한 간접투자 규모도 5조원에 이른다면서 \"투자자 보호가 필요하다\"고 강조한 것으로 알려졌다. 황 전 CEO는 직원들로부터도 여전히 열렬한 지지를 받고 있으며, 이들 역시 온라인 청원에 임직원임을 밝히고 공개적으로 복귀를 촉구했다. 엔비디아의 주요 주주인 알티미터 캐피털의 브래드 거스트너 CEO와 아트레이디스 매니지먼트의 개빈 베이커 창업자는 이사회에 \"황 전 CEO의 복귀를 포함해 모든 선택지를 논의해야 한다\"고 요구했다. 황 전 CEO의 측근은 \"프론티어 랩(AI기업들)을 제외한 테크 업계 모든 이들이 젠슨 황을 사랑한다\"고 설명했다. 문제는 정치권을 설득할 수 있느냐다. 최근까지 폭로된 황 전 CEO와 관련된 사안은 단순한 불륜 문제가 아니라 미국의 수출 통제 규정을 우회해 엔비디아 반도체가 중국에 반출됐다는 의혹과도 연결돼 있다. 스콧 베선트 미국 재무장관 역시 이날 엔비디아의 책임을 언급하고 \"대대적인 쇄신\"을 촉구하며 후임자를 회사 외부에서 찾으라고 촉구했다. 황 전 CEO는 중국 스파이로 지목된 앨리스 황과의 외도와 회사 내 여성과의 또 다른 혼외 관계 등 잇단 의혹에 지난 12일 사임했으며, 이사회는 콜레트 크레스 최고재무책임자(CFO)를 임시 CEO로 선임했다. 시장은 오는 17일로 예정된 엔비디아 3분기 실적발표에서 회사의 향후 방향이 어떻게 제시될지를 지켜보고 있다. 강경주 기자 memory@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 강경주 기자 증권, 금융당국 등 자본시장을 기록합니다. 반도체, AI, 우주, 방산 등 첨단 분야를 거쳤습니다. 삼성전자, SK하이닉스는 물론 글로벌 반도체 기업을 취재하며 AI 산업과 공급망 변화를 보도했습니다. ASML, Arm, 어플라이드머티어리얼즈, 램리서치, ASM CEO를 직접 인터뷰했습니다. 복잡한 기술을 투자 관점에서 풀어내 독자들이 시장의 흐름을 이해할 수 있도록 쓰겠습니다. ADVERTISEMENT 관련 뉴스 1 \"병세 악화했으면\"…폭언 증언까지 나온 젠슨 황 '충격' 젠슨 황 전 엔비디아 최고경영자(CEO)가 재임 시절 직원들에게 상습적으로 폭언을 하고 임원에게 물병을 던졌다는 증언이 나왔다. 소탈하고 친근한 이미지로 알려진 황 전 CEO가 회사 내부에서는 직원들에게 고함을 지르... 2026.11.15 17:08 2 \"젠슨 황 복귀시켜라\" 청원 13만명 돌파…일론 머스크도 가세 불륜 스캔들로 사임한 젠슨 황 엔비디아 전 최고경영자(CEO)의 복귀를 촉구하는 온라인 청원 참여자가 13만6000명을 넘어섰다. 엔비디아 직원과 주주뿐 아니라 일론 머스크 테슬라 CEO 등 미국 기술업계 주요 인사... 2026.11.15 15:55 3 젠슨 황 불륜 파문에 흔적 지운 美 식당…논란 일자 \"다시 설치\" 엔비디아 발상지로 불리는 미국 프랜차이즈 식당 데니스가 젠슨 황 엔비디아 전 최고경영자(CEO)의 불륜 스캔들 이후 관련 기념물을 철거했다가 복원하는 촌극을 빚었다.14일(현지시간) 미국 NBC 방... 2026.11.15 15:12 ADVERTISEMENT 많이 본 뉴스 1 \"손주 육아하러 집 떠났다가 날벼락\"…70대 노부부의 탄식 2026.11.15 12:00 2 \"이제 와서 2억 더 내라고?\"…서초 아파트 주민들 '날벼락' 2026.11.15 07:00 3 \"10년 모은 4억이 와르르\"…'SK하닉 몰빵' 30대 피눈물 2026.11.14 18:53 4 샤인머스캣 인기 시들하더니…새로 등장한 '귀족 과일' 2026.11.15 18:14 5 \"지금 사도 8개월 걸려\"…불티나게 팔린 '가성비 車' 정체 2026.11.15 10:30 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTIS"
-    },
-    {
-      "s": "동아일보",
-      "t": "젠슨 황 불륜 상대 앨리스 황, 작년 퇴사…메가스피드 자체 조사 착수",
-      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)와의 불륜 및 중국 스파이 의혹에 휩싸인 앨리스 황이 지난해 동남아시아 데이터센터 기업 메가스피드를 떠난 것으로 확인됐다. 메가스피드는 미국의 대중국 반도체 수출 규제를 위반했다는 의혹에 대해 자체 조사에 착수했다.15일(현지 시간) AP통신에 따르면 싱가포르에 본사를 둔 클라우드 컴퓨팅 기업 메가스피드는 이날 성명을 통해 “앨리스 황은 2025년 8월 30일 회사를 떠났으며 현재 어떠한 역할도 맡고 있지 않다”고 밝혔다.이어 “회사는 합법적으로 사업을 운영하고 있다”며 “사업과 공급망 등에 관한 일부 언론 보도는 검증 가능한 증거로 뒷받침되지 않는다”고 주장했다. 또 외부 법률 전문가를 선임해 철저한 내부 조사를 진행하고 있다고 밝혔다.메가스피드는 엔비디아의 고객사이",
-      "u": "https://www.donga.com/news/Inter/article/all/20261116/135029290/1",
-      "m": "11. 15. PM 07:46",
-      "ts": 1794772006000,
-      "stocks": [],
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
-    },
-    {
-      "s": "동아일보",
-      "t": "젠슨 황, 회사 경영진에 “앨리스와 통상적 사업관계” 거짓 해명",
-      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)가 자신의 불륜 상대이자 중국 정보기관의 스파이란 의심을 받는 앨리스 황에 대해 회사의 핵심 경영진에게도 “통상적인 사업 관계”라며 거짓 해명을 해 왔다고 로이터통신이 14일(현지 시간) 전했다. 황 전 CEO가 회사의 경영 판단에 영향을 미칠 수 있는 문제를 최고위급 경영진에게도 투명하게 설명하지 않고 축소했다는 것이다. 이런 가운데, 황 전 CEO와 가까운 사이인 도널드 트럼프 미국 대통령은 지난해 5월 중국에 대한 첨단 반도체 수출 통제를 완화하기 직전 최대 500만 달러 규모의 엔비디아 주식을 매수했다고 영국 일간 가디언이 13일 보도했다. ● 황, 경영진에도 “앨리스와 관계 적절” 14일 로이터통신에 따르면 황 전 CEO는 지난해 가을과 지난달 앨리스 황과의 ",
-      "u": "https://www.donga.com/news/Inter/article/all/20261116/135028777/2",
-      "m": "11. 15. PM 07:30",
-      "ts": 1794771000000,
-      "stocks": [],
-      "fullText": "홍정수 기자 구독"
-    },
-    {
-      "s": "동아일보",
-      "t": "“트럼프, 시진핑에 ‘젠슨 황 사태’ 거론 안할듯”",
-      "d": "도널드 트럼프 미국 행정부가 19일 중국 광둥성 선전에서 열리는 미중 정상회담 때 젠슨 황 엔비디아 전 최고경영자(CEO)의 불륜녀인 앨리스 황의 중국 정보기관 연루 의혹을 거론하지 않을 방침이라고 영국 파이낸셜타임스(FT)가 14일(현지 시간) 보도했다. 다만 3일 미국 중간선거에서 압승한 야당 민주당은 내년 1월 출범할 새 의회에서 대(對)중국 첨단 반도체 수출 통제 강화를 추진할 뜻을 밝혀 향후 미중 관계의 걸림돌로 작용할 여지가 있다. 트럼프 행정부의 고위 당국자는 FT에 아시아태평양경제협력체(APEC) 정상회의(18, 19일)를 계기로 진행되는 이번 미중 정상회담에서 트럼프 대통령이 시진핑(習近平) 중국 국가주석에게 앨리스 황 관련 문제를 제기하지 않을 것으로 보인다고 전했다. 다른 소식통은 “엔비",
-      "u": "https://www.donga.com/news/Inter/article/all/20261116/135028772/2",
-      "m": "11. 15. PM 07:30",
-      "ts": 1794771000000,
-      "stocks": [],
-      "fullText": "김철중 기자,신진우 기자"
-    },
-    {
-      "s": "동아일보",
-      "t": "엔비디아 주가 폭락에 “젠슨 황 복귀” 14만명 청원도",
-      "d": "사내 불륜 스캔들과 중국 스파이 연루 논란으로 젠슨 황 전 엔비디아 최고경영자(CEO)가 사퇴했지만 일각에서는 그의 복귀를 요청하는 목소리도 새어 나오고 있다. 일주일 새 엔비디아 주가가 13% 가까이 떨어지며 시가총액 4조 달러가 붕괴되자 그의 리더십 공백에 대한 우려도 적지 않은 모습이다. 13일(현지 시간) 엔비디아의 주요 주주인 얼티미터 캐피털의 브래드 거스트너 CEO와 아트레이디스 매니지먼트의 개빈 베이커 창업자는 엔비디아 이사회에 서한을 보내 복귀 가능성을 열어 두고 후임 선임을 서두르지 말라고 촉구했다. 온라인 청원 ‘스탠드 위드 젠슨(Stand with Jensen)’에는 15일 오후 6시(한국 시간) 기준 약 14만5000명이 서명했다. 주주들은 물론 일론 머스크 테슬라 CEO, 팀 스위티 ",
-      "u": "https://www.donga.com/news/Economy/article/all/20261116/135028774/2",
-      "m": "11. 15. PM 07:30",
-      "ts": 1794771000000,
-      "stocks": [],
-      "fullText": "이동훈 기자 구독"
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Huang Discusses Comeback as Nvidia Chief With Allies, FT Says",
+      "t": "Nvidia’s Jensen Huang in Talks With Allies Over CEO Comeback, Report Says",
       "d": "Ousted Nvidia Corp. chief executive officer Jensen Huang is discussing a possible comeback to the company just days after the board of directors pushed him out, the Financial Times reported.",
       "u": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
       "m": "11. 15. PM 07:14",
@@ -206,26 +133,6 @@
       "fullText": ""
     },
     {
-      "s": "조선일보",
-      "t": "[조용헌 살롱] [1554] 명리학으로 본 젠슨 황의 再起",
-      "d": "",
-      "u": "https://www.chosun.com/opinion/specialist_column/2026/11/15/Y3ZKJWXDTBGPRC74BP7DJV7QSY/",
-      "m": "11. 15. PM 02:33",
-      "ts": 1794753180000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "연합뉴스",
-      "t": "박현주 미래에셋 회장, '젠슨 황 복귀' 온라인 청원 동참",
-      "d": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 전 엔비디아 최고경영자(CEO)의 경영 복귀를 촉구하는 온라인 청원에 박현주 미래에셋그룹 회장도 참여...",
-      "u": "https://www.yna.co.kr/view/AKR20261115051500008",
-      "m": "11. 15. AM 11:19",
-      "ts": 1794741590000,
-      "stocks": [],
-      "fullText": "박현주, '젠슨 황 복귀' 청원 동참 \"황 사퇴, 글로벌 AI 생태계에 문제\" 청원 14만6천여명 서명…머스크 등 참여 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
       "s": "TechCrunch",
       "t": "Where was Nvidia&#8217;s security team?",
       "d": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
@@ -243,17 +150,7 @@
       "m": "11. 14. PM 09:41",
       "ts": 1794692482000,
       "stocks": [],
-      "fullText": "In Brief Posted: 1:41 PM PST · November 14, 2026 Image Credits: Li Hongbo/VCG / Getty Images Anthony Ha Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon. The petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Notable supporters include Tesla and SpaceX CEO Elon Musk, Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, and Y Combinator CEO Garry Tan. The petition states that its signers are “concerned that Jensen was removed without meaningful due process” and demands that the board “bring him back while an independent investigation establishes the facts.” It also calls on the board to ensure a fair investigation and provide more information to the public. “Jensen deserves due process, not mob justice,” the petition says. Huang resigned on Thursday , four days after confessing to having an affair with a chip executive suspected by U.S. intelligence to be a Chinese spy. The former CEO has agreed to testify before Congress, while news reports have also suggested that Huang engaged in multiple extramarital affairs . Nvidia appointed CFO Colette Kress as the company’s interim CEO while it searches for a permanent replacement. Nvidia’s stock price fell sharply through the week, while Huang’s departure is also expected to leave a big gap in AI industry funding . Topics AI , Amjad Masad , Elon Musk , Jensen Huang , nvidia , tim sweeney 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Is bad news for Jensen Huang also bad news for the AI industry? Anthony Ha 2 hours ago Media & Entertainment SNL gathers all the tech tycoons for a lesson in dating and spycraft Anthony Ha 3 hours ago Government & Policy Asian governments react to Nvidia CEO Jensen Huang’s exit Kate Park 1 day ago Latest in AI AI Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market Jagmeet Singh 17 minutes ago AI Is bad news for Jensen Huang also bad news for the AI industry? Anthony Ha 2 hours ago Media & Entertainment SNL gathers all the tech tycoons for a lesson in dating and spy"
-    },
-    {
-      "s": "연합뉴스",
-      "t": "'젠슨황 스캔들'에 짓눌린 증시…엔비디아 실적·앤트로픽 상장 주시",
-      "d": "(서울=연합뉴스) 황철환 기자 = 인공지능(AI) 투자 둔화 우려가 가시기도 전에 젠슨 황 전 엔비디아 최고경영자(CEO)의 불륜과 해임이란 대...",
-      "u": "https://www.yna.co.kr/view/AKR20261113177200008",
-      "m": "11. 14. PM 09:00",
-      "ts": 1794690005000,
-      "stocks": [],
-      "fullText": "젠슨 황 사임 스캔들에 국내외 증시 짓눌려 뉴욕 혼조·필라델피아 반도체 3.43% 하락 17일 엔비디아 실적·19일 앤트로픽 상장 주시 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
+      "fullText": "In Brief Posted: 1:41 PM PST · November 14, 2026 Image Credits: Li Hongbo/VCG / Getty Images Anthony Ha Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon. The petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Notable supporters include Tesla and SpaceX CEO Elon Musk, Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, and Y Combinator CEO Garry Tan. The petition states that its signers are “concerned that Jensen was removed without meaningful due process” and demands that the board “bring him back while an independent investigation establishes the facts.” It also calls on the board to ensure a fair investigation and provide more information to the public. “Jensen deserves due process, not mob justice,” the petition says. Huang resigned on Thursday , four days after confessing to having an affair with a chip executive suspected by U.S. intelligence to be a Chinese spy. The former CEO has agreed to testify before Congress, while news reports have also suggested that Huang engaged in multiple extramarital affairs . Nvidia appointed CFO Colette Kress as the company’s interim CEO while it searches for a permanent replacement. Nvidia’s stock price fell sharply through the week, while Huang’s departure is also expected to leave a big gap in AI industry funding . Topics AI , Amjad Masad , Elon Musk , Jensen Huang , nvidia , tim sweeney 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Is bad news for Jensen Huang also bad news for the AI industry? Anthony Ha 9 hours ago Media & Entertainment SNL gathers all the tech tycoons for a lesson in dating and spycraft Anthony Ha 10 hours ago Government & Policy Asian governments react to Nvidia CEO Jensen Huang’s exit Kate Park 2 days ago Latest in AI Apps Apple launches new app to study how people use AI for health Ivan Mehta 5 hours ago AI Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market Jagmeet Singh 7 hours ago AI Is bad news for Jensen Huang also bad news for the AI industry? Anthony Ha 9 hours a"
     },
     {
       "s": "TechCrunch",
@@ -276,6 +173,16 @@
       "fullText": "It was the resignation heard across the world. Jensen Huang, Nvidias embattled CEO who co-founded and led the company for 33 years, had officially stepped down . “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Over the last several years, Nvidia has been a prolific investor , pouring tens of billions into startups annually and participating in 105 rounds this year alone, often as the largest investor, according to PitchBook. “If that direction changes, itll be a big blow to so many young companies,” said Maria Davidson, founder of Relational Capital. Huang’s absence leaves the startup ecosystem without one of its biggest champions and with far less capital for now, investors say, which could have a massive impact on dealmaking, valuations, funding, and even competition. “Nvidia is carrying almost every AI-native startup from application to neocloud,” Dawn Capital’s Shamillah Bankiya told TechCrunch. Most of the significant decisions to invest in startups often came from Jensen himself, according to Umesh Padval, managing partner at Seligman Ventures. Padval has known Huang since serving on the board of Mellanox Technologies, a networking chipmaker Nvidia acquired for approximately $7 billion in 2020. While there is hope that Huang’s eventual successor will resume his dealmaking spree, investors aren’t hopeful that it will happen in the short term. Nvidias interim CEO, Colette Kress, is expected to institute some changes , especially when it comes to Nvidia’s investments into AI startups at the crux of the billion-dollar data center build-out . Huangs rampant dealmaking in this sphere has been a source of concern for Wall Street. “She’s much more conservative,” one investor said of Kress. “I don’t think she’s going to commit the same amount of money to keep the early-stage ecosystem going.” Nvidia’s biggest bets were backing neoclouds, inference providers, and open weight models, which are expensive for smaller companies to build. “Jensen’s initiatives are a big reason an ecosystem has emerged despite that,” Zain Javaid, founder of the hardware company Ghost, said. For instance, Nvidia backed CoreWeave when it was still private and participated in two of Crusoes rounds, including its $1.4 billion Series E. It bought Hugging Face this year for $13 billion (expected to close in 2027) and holds investments in Mistral AI, Lambda, and Black Forest Labs. Nvidia was often the largest investor in the deals. Last year, it wrote an $800 million check into a $2 billion Series B round for Reflection AI, before the open source startup began to earn meaningful revenue, according to the Wall Street Journal . “Jensen believed in open source and frankly speaking, Europe,” Bankiya said of how Huang invested so much in AI across the world. The cease of that support in other regions outside of America, like Europe “would be a massive funding and honestly ecosystem gap that no one can fill.” It’s also true that Nvidia wa"
     },
     {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia’s Biggest Risk Is Product Pace: Windsor",
+      "d": "Radio Free Mobile founder Richard Windsor says the immediate damage to Nvidia is reputational, with its products, contracts and financial outlook still intact. He says the critical test for Jensen Huang’s successor will be maintaining the rapid product-development cycle that underpinned Nvidia’s dominance and warns that any slowdown could cost the company market share and margins. \nWindsor was spe",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-13/nvidia-s-biggest-risk-is-product-pace-windsor",
+      "m": "11. 13. PM 12:41",
+      "ts": 1794573683000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
       "s": "CNBC Tech",
       "t": "Howard Lutnick will testify as bipartisan pressure grows over Nvidia scandal",
       "d": "Former Nvidia CEO Jensen Huang, who was also requested to testify, had previously praised the commerce secretary for his support and involvement in the industry.",
@@ -293,7 +200,7 @@
       "m": "11. 13. AM 12:16",
       "ts": 1794529010000,
       "stocks": [],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "CNBC Tech",
@@ -303,7 +210,7 @@
       "m": "11. 12. PM 08:40",
       "ts": 1794516044000,
       "stocks": [],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "CNBC Tech",
@@ -315,7 +222,7 @@
       "stocks": [
         "AAPL"
       ],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "CNBC Tech",
@@ -335,7 +242,7 @@
       "m": "11. 12. PM 02:52",
       "ts": 1794495136000,
       "stocks": [],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "CNBC Tech",
@@ -355,7 +262,7 @@
       "m": "11. 12. AM 12:17",
       "ts": 1794442635000,
       "stocks": [],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "CNBC Tech",
@@ -365,7 +272,7 @@
       "m": "11. 10. PM 11:58",
       "ts": 1794355117000,
       "stocks": [],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "CNBC Tech",
@@ -375,7 +282,7 @@
       "m": "11. 10. AM 12:10",
       "ts": 1794269423000,
       "stocks": [],
-      "fullText": "Nightly News SpaceX Starship rocket makes historic return to Earth"
+      "fullText": "Powerful waves hit California coast, prompting rescues"
     },
     {
       "s": "한겨레",
@@ -408,36 +315,6 @@
       "fullText": "본문 경제 금융·증권 흔들리는 ‘AI 중앙은행’…젠슨 황 스캔들, 기존 CEO 리스크와 결이 다르다 수정 2026-11-15 19:10 펼침 0:00 Your browser does not support the audio element. [박상현의 경제수다] 지난 13일(현지시각) 뉴욕증권거래소 디스플레이 창에 엔비디아 종목의 시세가 표시돼 있다. UPI 연합뉴스 광고 엔비디아 최고경영자(CEO) 리스크가 일파만파 커지고 있다. 한때 전세계 시가총액 1위였던 엔비디아 주가도 큰 폭으로 하락했다. 엔비디아 주가는 11월 들어 미국 중간선거 여파와 젠슨 황 시이오 리스크로 19.1%(12일 종가 기준) 급락했고 10월6일 고점 대비로는 30.8% 폭락했다. 과거에도 미국 주요 기업 시이오의 스캔들은 자주 있었지만 젠슨 황 리스크 파장은 이전과는 다른 모습이다. 우선 젠슨 황 사임으로 인공지능의 ‘중앙은행’으로서 엔비디아 역할에 대한 불확실성이 커졌다. 인공지능 기업의 투자 수익성 논란이 불거지고 부채 리스크가 커지는 상황에서 인공지능 인프라기업에 자금을 공급하거나 자사 그래픽처리장치(GPU)를 담보로 대출 보증 역할을 했던 금융기능이 약화될 경우 일부 인공지능 기업들의 자금경색 우려가 높아질 것이다. 소위 인공지능 기업 부채발 신용위험 경고등이 켜질 수 있다. 미국 인공지능 기술 혹은 산업 성장 속도에도 악영향이 예상된다. 트럼프 대통령과의 우호적 관계를 바탕으로 엔비디아는 미국 인공지능 기술 발전을 선도하는 동시에 인공지능 산업 규제 완화에 큰 영향력을 발휘했다. 그런데 중간선거에서 공화당의 패배한 상황에서 젠슨 황의 퇴진은 인공지능 산업에 대한 규제의 문턱이 더욱 높아질 수 있는 명분을 제공하게 되었다. 광고 미국의 대중국 기술 규제 강화도 불가피해졌다. 젠슨 황 스캔들이 단순히 개인 차원을 넘어 중국의 스파이 활동으로 밝혀질 경우 미국 정치권의 대중국 기술 수출규제는 초당적으로 강경해질 것이 분명하다. 특히 내년 새로운 의회 구성 이후 민주당은 젠슨 황 스캔들 관련 증언 등을 통해 인공지능 투자 규제 움직임을 강화하는 동시에 국가안보 차원에서 중국에 대한 각종 인공지능 관련 기술 및 제품의 수출 통제를 한층 강화할 공산이 높다. 다소 소강국면에 접어들었던 미-중 무역갈등 및 인공지능 패권 갈등을 격화시키면서 미-중 인공지능 공급망의 벽을 더욱 높고 두껍게 하는 결과를 초래할 전망이다. 광고 광고 한국 인공지능 산업과 금융시장에 미칠 부정적 파장도 적지 않다. 당장 젠슨 황이 주도적으로 추진하던 국내 대기업과의 각종 협력 사업의 차질이 예상된다. 국내 개인투자자들의 투자 손실도 만만치 않다. 국내 서학개미의 보유 종목 중 엔비디아는 테슬라 다음으로 2위이다. 또한 국내 상장된 미국 기술주 상장지수펀드(ETF)에도 엔비디아가 큰 비중을 차지하고 있다. 다만 엔비디아 사태가 꼭 부정적 측면만 있는 것은 아니다. 미국 입장에서 격화되는 중국의 거센 인공지능 기술 추격을 벗어나기 위해 규제만이 아닌 국가안보차원에서 보호 및 육성 정책을 강화할 수도 있다. 또한 미국의 대중국 기술 견제가 한국과 중국 간 반도체 기술 격차를 연장시키는 호재로 이어질 수 있다. 엔비디아 사태가 미-중 패권갈등 격화 속에서 한국의 인공지능 공급망 지위 강화의 계기가 되어야 할 것이다. 광고 박상현 iM증권 수석연구위원"
     },
     {
-      "s": "한겨레",
-      "t": "정부 “엔비디아 GPU 26만장 공급 차질 없어”…젠슨 황 사임에도 협력 계속",
-      "d": "",
-      "u": "https://www.hani.co.kr/arti/economy/it/1287276.html",
-      "m": "",
-      "ts": 0,
-      "stocks": [],
-      "fullText": "본문 경제 IT 정부 “엔비디아 GPU 26만장 공급 차질 없어”…젠슨 황 사임에도 협력 계속 강재구 기자 수정 2026-11-14 11:57 펼침 0:00 Your browser does not support the audio element. 이재명 대통령(오른쪽)과 젠슨 황 엔비디아 최고경영자가 지난해 10월 아시아태평양경제협력체(APEC·아펙) 회의장인 경북 경주화백컨벤션센터에서 면담 전 악수하고 있다. 연합뉴스 광고 젠슨 황 엔비디아 최고경영자(CEO)가 불륜 스캔들로 사임한 가운데, 정부는 긴급 점검에 나서며 그래픽처리장치(GPU·지피유) 공급 등에 미칠 영향을 살폈다. 배경훈 부총리 겸 과학기술정보통신부 장관은 13일 페이스북에 “오늘 오전 과기정통부 제2차관 주재로 엔비디아 측과 현안점검회의를 열었다”며 “첨단 지피유 26만장 공급과 국내 기업과의 협력을 엔비디아가 회사 차원에서 기존 발표대로 추진할 계획임을 재확인했다”고 밝혔다. 이어 배 부총리는 “(엔비디아의) 엔브이링크를 활용한 국산 인공지능(AI) 반도체와 엔비디아 플랫폼 간 연계, 인공지능 컴퓨팅 인프라 구축, 피지컬인공지능 공동연구와 인재양성, 엔비디아 개발자 행사인 지시티(GCT)의 한국 개최 추진 등 양측이 논의해 온 과제도 계속 추진하기로 했다”고 덧붙였다. 국내 인공지능 반도체 스타트업 리벨리온과 에스케이(SK)텔레콤, 엔비디아는 지난 9일 리벨리온의 신경망처리장치(NPU)를 엔비디아 지피유에 적용해 데이터센터를 구축하는 업무협약(MOU)을 맺은 바 있다. 배경훈 부총리 겸 과학기술정보통신부 장관이 지난 7월20일 정부세종청사 과기정통부에서 열린 취임 1주년 기자 간담회에서 발언하는 모습. 과기정통부 제공 배 부총리는 또 정부가 추진 중인 지피유 5만장 확보도 예정대로 진행 중이라고도 밝혔다. 정부가 확보하는 3만5천장 분량 가운데 현재까지 지피유 비(B)200 기준 2만1천장 규모를 확보했고, 나머지 1만4천장은 2027년 초까지 확보할 예정이다. 나머지 1만5천장은 국가인공지능컴퓨팅센터를 통해 확보를 진행 중이다. 광고 배 부총리는 “정부는 국내외 기업·기관과 긴밀히 협력하며 공공과 민간의 지피유 수급을 계속 점검하겠다”며 “확보한 지피유는 기업·대학·연구기관의 인공지능 연구개발과 독자 인공지능 파운데이션 모델, 모두의 인공지능 등 정부 사업에 필요한 시기에 활용할 수 있도록 하겠다”고 밝혔다. 한편, 이날 국가인공지능전략위원회도 긴급 점검회의를 열어 엔비디아 경영진 교체가 국내 지피유 공급과 기존 협력 사업에 미칠 영향 등을 살폈다. 하정우 전략위 상근 부위원장은 “엔비디아의 최고경영진 변화가 글로벌 인공지능 산업 전반에 미칠 영향을 관계부처 및 기업들과 긴밀히 협력하여 선제적으로 대응하겠다”고 말했다. 광고 광고 강재구 기자 j9@hani.co.kr"
-    },
-    {
-      "s": "한겨레",
-      "t": "‘젠슨 황 퇴진’에도 3% 넘게 오르던 코스피, 외인 ‘팔자’에 하락 마감",
-      "d": "",
-      "u": "https://www.hani.co.kr/arti/economy/economy_general/1287255.html",
-      "m": "",
-      "ts": 0,
-      "stocks": [],
-      "fullText": "본문 경제 경제일반 ‘젠슨 황 퇴진’에도 3% 넘게 오르던 코스피, 외인 ‘팔자’에 하락 마감 김영배 기자 수정 2026-11-14 12:01 펼침 0:00 Your browser does not support the audio element. 삼성전자 -0.96%, SK하이닉스 -3.03% 미 국채 금리·유가 급등 부담에 5290.53 13일 서울 중구 하나은행 딜링룸 현황판에 코스피와 코스닥이 표시되고 있다. 연합뉴스 광고 젠슨 황 엔비디아 최고경영자(CEO) 퇴진 여파에도 장 초반 강세를 이어가던 코스피가 하락세로 마감했다. 단기 급등 분위기에서 외국인 투자자들을 중심으로 차익 실현 매물이 쏟아진데다 미국 국채금리 상승, 국제 유가 급등세가 투자 심리를 냉각시켰다. 13일 유가증권시장에서 코스피는 전날보다 52.20(0.98%) 떨어진 5290.53에 마감했다. 이날 지수는 109.68(2.05%) 오른 5452.41에 출발해 상승 폭을 키우며 한때 5504.44까지 오르며 강세를 띠었다. 젠슨 황의 퇴진 소식에도 시장에서는 인공지능(AI) 산업 전체가 아닌 개별 기업의 지배구조 리스크(위험)로 인식돼 삼성전자, 에스케이(SK)하이닉스를 중심으로 저가 매수세가 유입되는 분위기였다. 한지영 키움증권 연구원은 “젠슨 황의 사임은 단기적으로 인공지능 투자 심리에 부담이지만, 인공지능 산업 전반의 수요 둔화로 이어질 가능성은 제한적일 것”이라고 분석했다. 사임 발표 직후 뉴욕증시에서 폭락했던 엔비디아 주가가 저가 매수세 유입에 따라 낙폭을 빠르게 줄였고, 엔비디아의 경쟁사로 꼽히는 에이엠디(AMD), 브로드컴, 알파벳이 동반 강세를 띠었다는 점을 정황 근거로 들었다. 광고 투자 분위기가 돌연 달라진 것은 이날 오전 중 코스피가 3% 넘게 급등한 뒤부터였다. 단기 급등세에 따른 경계감으로 외국인 투자자들을 중심으로 차익 실현 매물이 쏟아지며 지수 하락으로 이어졌다. 미국 국채금리와 국제유가 급등세 또한 투자 심리를 떨어뜨린 요인으로 꼽힌다. 이날 유가증권시장에서 외국인 투자자들이 장 초반 순매수로 지수를 받치다가 태도를 바꿔 이날 하루 5505억원의 순매도를 기록했다. 기관(+21억원)과 개인(+172억원)은 소폭 순매수로 집계됐다. 기타 법인(+5312억원)의 순매수 규모가 비교적 컸다. 광고 광고 삼성전자(-0.96%)가 초반의 강세를 지켜내지 못하고 하락 마감했으며, 에스케이하이닉스(-3.03%)는 비교적 큰 폭으로 떨어졌다. 에스케이스퀘어(-3.67%), 엘지(LG)에너지솔루션(-1.52%), 삼성바이오로직스(-2.62%), 삼성전기(-3.50%)도 하락세를 면치 못했다. 케이비(KB)금융(+4.74%), 현대차(+1.13%)는 강세를 나타냈다. 코스닥지수는 전날보다 3.13(0.45%) 오른 699.66에 마감했다. 코스닥은 전날보다 9.43(1.35%) 오른 705.96에 출발해 상승 폭을 키우다가 다시 미끄러지며 700선을 지켜내지 못했다. 코스닥시장에서는 기관이 순매수로 지수를 받쳤고, 외국인과 개인은 순매도를 기록했다. 광고 서상영 미래에셋증권 상무는 “미국 10년물 국채금리가 5%를 상회하고 국제유가도 중동 불안으로 급등한 데 따른 외국인 수급 부담”에 더해 “미국 10월 생산자물가지수(PPI) 발표를 앞두고 있어 물가 불안이 재차 확대될 수 있다는 점도 있다”고 짚었다. 여기에 다음 주 엔비디아 실적 발표와 앤트로픽 상장, 미-중 정상회담 같은 주요 일정이 몰려 있다는 점도 투자 심리에 영향을 끼친 변수로 거론된다. 서 상무는 엔비디아 충격에 대해선 “미국 증시에서 인공지능 산업 전체의 수요 둔화라기보다 엔비디아 개별의 위험이라는 인식이 확산된 점은 우호적”이라며 “여기에 앤트로픽의 기업공개(IPO)에 투자 수요가 몰리고 있다는 소식도 인공지능 산업에 대한 기대를 높이는 긍정적인 대목”이라고 꼽았다. 김영배 선임기자 kimyb@hani.co.kr"
-    },
-    {
-      "s": "한겨레",
-      "t": "‘젠슨 황 퇴진’ 악재에도 ‘삼전닉스’ 강세",
-      "d": "",
-      "u": "https://www.hani.co.kr/arti/economy/economy_general/1287188.html",
-      "m": "",
-      "ts": 0,
-      "stocks": [],
-      "fullText": "본문 경제 경제일반 ‘젠슨 황 퇴진’ 악재에도 ‘삼전닉스’ 강세 김영배 기자 수정 2026-11-13 18:15 펼침 0:00 Your browser does not support the audio element. 코스피·코스닥지수도 동반 상승 흐름 13일 서울 중구 하나은행 딜링룸에서 직원이 업무를 보고 있다. 연합뉴스 광고 젠슨 황 엔비디아 최고경영자(CEO)의 퇴진 여파에도 국내 주식시장의 양대 축인 삼성전자와 에스케이(SK)하이닉스는 13일 오전 오름세로 출발해 강세 흐름을 유지하고 있다. 유가증권시장에서 이날 오전 11시 현재 삼성전자는 전날보다 5천원(2.40%) 오른 21만3천원에 거래되고 있다. 에스케이하이닉스는 2만7천원(2.15%) 오른 128만1천원을 기록 중이다. 시가총액 상위권 종목 중 에스케이스퀘어(-0.88%)가 소폭 하락 중이고, 엘지(LG)에너지솔루션(+0.46%), 삼성전기(+2.14%), 현대차(+4.50·%)는 상승세를 타고 있다. 같은 시각 코스피는 전날보다 110.00(2.06%) 오른 5452.73을 기록 중이다. 지수는 109.68(2.05%) 오른 5452.41에 거래를 시작해 상승세를 유지하고 있다. 광고 젠슨 황 관련 불확실성이 전날 시장에서 일부 반영된 데 따라 저가 매수세가 유입된 영향으로 풀이된다. 미국 10년물 국채금리가 5%를 웃돌고 중동지역 긴장감 재확산으로 국제유가가 급등한 데 따른 부담에도 반도체 중심의 상승 흐름을 지켜내고 있다. 이날 유가증권시장에서 외국인이 매수 우위로 장 초반 지수를 끌어올렸으며 기관도 순매수에 가세하고 있다. 개인 투자자들은 매도 우위 상태다. 광고 광고 코스닥지수는 같은 시각 27.39(3.93%) 오른 723.92를 기록했다. 지수는 전날보다 9.43(1.35%) 오른 705.96에 출발해 상승 폭을 키웠다. 코스닥시장에서도 외국인과 기관은 순매수, 개인은 매도 우위를 보이고 있다. 힌지영 키움증권 연구원은 “젠슨 황의 사임은 단기적으로 인공지능 투자 심리에 부담이지만, 인공지능 산업 전반의 수요 둔화로 이어질 가능성은 제한적일 것”이라고 전망했다. 사임 발표 직후 폭락했던 엔비디아 주가가 저가 매수세 유입에 따라 낙폭을 빠르게 줄였고, 엔비디아의 경쟁사로 꼽히는 에이엠디(AMD), 브로드컴, 알파벳이 동반 강세를 띠었다는 점을 정황 근거로 들었다. 광고 김영배 선임기자 kimyb@hani.co.kr"
-    },
-    {
       "s": "Nikkei Asia",
       "t": "China sees Nvidia chief Huang's swift downfall as political hit",
       "d": "",
@@ -446,16 +323,6 @@
       "ts": 0,
       "stocks": [],
       "fullText": "Semiconductors China sees Nvidia chief Huang&#x27;s swift downfall as political hit Commentators say a spying smear campaign aims to purge US tech of Chinese influence"
-    },
-    {
-      "s": "Nikkei Asia",
-      "t": "Chinese shares lead Asia chip rally amid Jensen Huang turmoil",
-      "d": "",
-      "u": "https://asia.nikkei.com/business/markets/equities/chinese-shares-lead-asia-chip-rally-amid-jensen-huang-turmoil",
-      "m": "",
-      "ts": 0,
-      "stocks": [],
-      "fullText": "Equities Chinese shares lead Asia chip rally amid Jensen Huang turmoil Gains come as Nvidia management uncertainty temporarily subsides"
     }
   ]
 }
