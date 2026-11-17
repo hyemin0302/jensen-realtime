@@ -1,36 +1,90 @@
 {
-  "updatedAt": "2026-11-17T08:42:53.007Z",
-  "count": 18,
+  "updatedAt": "2026-11-17T18:01:15.633Z",
+  "count": 17,
   "items": [
     {
-      "s": "동아일보",
-      "t": "김구라 “젠슨 황 뉴스 처음 봤을 때 느낌 안 좋았다”…주가 영향까지 우려",
-      "d": "김구라가 유튜브 ‘그리구라’에서 젠슨 황 전 엔비디아 CEO의 외도 논란과 국가안보 관련 의혹을 언급하며 처음 보도를 접했을 때부터 “느낌이 좋지 않았다”고 밝혔다. 그는 이번 논란이 엔비디아 주가에도 영향을 줄 수 있다는 개인적인 견해를 내놨다.",
-      "u": "https://www.donga.com/news/Culture/article/all/20261117/135040050/2",
-      "m": "11. 17. AM 08:21",
-      "ts": 1794903676000,
+      "s": "Bloomberg Tech",
+      "t": "New Street's Ferragu Sees Strong Case to Buy Nvidia Shares Ahead of Earnings",
+      "d": "Pierre Ferragu of New Street Research maintains a buy rating on Nvidia shares and says the recent selloff strengthens the case to buy. He says the resignation of CEO Jensen Huang won't affect near-term earnings. Ferragu speaks on \"Bloomberg Surveillance.\" (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-17/ferragu-sees-strong-case-to-buy-nvidia-shares-video",
+      "m": "11. 17. PM 04:51",
+      "ts": 1794934293000,
       "stocks": [],
-      "fullText": "배정한 구독"
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Markets Await Nvidia Earnings Call for Clues on Strategy",
-      "d": "Nvidia’s earnings arrive at perhaps the strangest time possible for the world’s most important artificial intelligence chipmaker. The company reports its results after the market closes Tuesday, but its performance in the latest quarter is being overshadowed by last week’s ouster of CEO Jensen Huang. Bloomberg's Anthony Stephens has a preview. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-17/markets-await-nvidia-earnings-call-for-clues-on-strategy-video",
-      "m": "11. 17. AM 07:58",
-      "ts": 1794902291000,
+      "t": "Read Jensen Huang’s Statement Offering a Return as Nvidia CEO",
+      "d": "After his chaotic exit from Nvidia Corp. last week, former Chief Executive Officer Jensen Huang said he’s received an “outpouring” of support from people calling for his return.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-17/read-jensen-huang-s-statement-offering-a-return-as-nvidia-ceo",
+      "m": "11. 17. PM 04:41",
+      "ts": 1794933718000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 “이사회 원하면 엔비디아 CEO 복귀 의사 있다”",
+      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)가 사임 후 처음으로 공개 입장을 내고 이사회 판단에 따라 경영에 복귀할 의향이 있다고 밝혔다. 개인적인 잘못에 대해서는 사과하고 이사회의 조사에 협조하겠다고 했다. 17일(현지 시각) CNBC에 따르면 황 전 CEO는 이날 서면 성명에서 “이사회가 나의 복귀가 주주와 직원, 회사, 그리고 미국에 가장 이익이 된다고",
+      "u": "https://www.chosun.com/international/international_general/2026/11/18/ME2GMYTFMNRDENJYMYZTMYTEMM/",
+      "m": "11. 17. PM 04:30",
+      "ts": 1794933018000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 “CEO 복귀 요청 쏟아져...이사회가 원하면 돌아갈 것”",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/11/18/FPL6UQZHRVBKLPQCFD2R2Z5MRY/",
+      "m": "11. 17. PM 04:17",
+      "ts": 1794932249000,
+      "stocks": [],
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia’s Jensen Huang Open to Rejoining as CEO Pending Board Decision",
+      "d": "Former Nvidia Corp. Chief Executive Officer Jensen Huang expressed willingness to return to the helm after his dramatic ouster last week, though the board isn’t currently considering such an idea.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-17/huang-is-willing-to-return-as-nvidia-ceo-if-board-allows-it",
+      "m": "11. 17. PM 04:08",
+      "ts": 1794931691000,
       "stocks": [],
       "fullText": ""
     },
     {
       "s": "동아일보",
-      "t": "“요리학교 출신 젠슨 황 맏딸 ‘사내 갑질’…직원들 퇴사-공황 발작”",
-      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)가 사임한 뒤, 회사에 남은 딸과 아들, 사위 등 황씨 일가 3명의 거취가 엔비디아의 핵심 뇌관으로 떠올랐다고 16일 뉴욕타임즈(NYT)가 보도했다.이날 NYT는 전·현직 직원 10여 명의 증언을 토대로, 엔비디아 내부에서 황씨 일가 삼인방(딸 매디슨·아들 스펜서·사위 니코 카프레즈)은 젠슨 황의 직계 라인으로 통하며 막강한 영향력을 행사해왔다고 보도했다.그중에서도 정점에 선 인물은 맏딸 매디슨 황(35)이다. 미국 유명 요리학교(CIA)와 르 꼬르동 블루를 거쳐 루이비통모에헤네시(LVMH) 계열 호텔과 제과점을 운영하던 그는 2020년 엔비디아에 합류했다. 공식 직함은 ‘피지컬 AI 제품 마케팅 시니어 디렉터’지만 실제로는 아버지의 ‘비서실장’ 행세를 하며 분기별 경",
-      "u": "https://www.donga.com/news/Inter/article/all/20261117/135039528/1",
-      "m": "11. 17. AM 07:34",
-      "ts": 1794900840000,
+      "t": "“AI메모리 수요 견조… 삼성전자-SK하이닉스 영향력 더 커질 것”",
+      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)의 퇴진으로 메모리 반도체 수요가 위축될 수 있다는 우려가 일각에서 제기되지만 실제로는 그렇지 않을 것이라는 전망이 나왔다. 장기적으로 ‘메모리’와 ‘로직 반도체’의 결합이 강화되고 고객 맞춤형 고부가가치 제품이 확대되면서 삼성전자와 SK하이닉스 등 메모리 업체들의 영향력이 오히려 커지고, 특히 두 반도체를 모두 생산할 수 있는 삼성전자에는 새로운 기회가 될 수 있다는 분석이다. 17일 시장조사업체 카운터포인트리서치에 따르면 황 전 CEO의 퇴진이 향후 18∼24개월간 AI 반도체 공급망에 미칠 영향은 제한적일 것으로 점쳐졌다. 엔비디아의 블랙웰에서 베라 루빈으로 이어지는 제품 개발 일정이 이미 확정돼 있기 때문이다.  황 전 CEO의 퇴진은 엔비디아의 독주 체제에도 ",
+      "u": "https://www.donga.com/news/Economy/article/all/20261117/135041685/2",
+      "m": "11. 17. PM 03:30",
+      "ts": 1794929400000,
+      "stocks": [
+        "005930",
+        "005935",
+        "000660"
+      ],
+      "fullText": "이민아 기자 구독"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Jensen Huang says he would be ‘honored’ if asked to return as Nvidia CEO",
+      "d": "Jensen Huang said Tuesday that he would be “honored” to return to his job as CEO of Nvidia if the chip giant’s board of directors decided to bring him back.",
+      "u": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803",
+      "m": "11. 17. PM 03:29",
+      "ts": 1794929395000,
       "stocks": [],
-      "fullText": "이지훈 기자 구독"
+      "fullText": "Corporations Jensen Huang says he would be ‘honored’ to return as Nvidia’s CEO The statement is Huang’s first since resigning from Nvidia amid reports of an extramarital relationship with a woman believed to be a Chinese spy. Listen to this article with a free profile 00:00 00:00 Jensen Huang agrees to appear for House interview on Nvidia in December 00:37 Get more news Live on Share Add NBC News to Google Nov. 17, 2026, 10:29 AM EST / Updated Nov. 17, 2026, 11:23 AM EST By Rob Wile and Brennan Leach Jensen Huang said Tuesday that he would be “honored” to return to his job as CEO of Nvidia if the chip giant’s board of directors decided to bring him back. In a statement posted to X , Huang, who resigned as CEO last week over allegations of extramarital affairs, including one with a suspected Chinese spy, said he would welcome the opportunity to retake the reins of the company he co-founded in 1993. “Since my departure, I’ve seen an outpouring of calls from Nvidia’s employees, investors, business partners, and customers for me to return as CEO,” Huang said in a short statement. “If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.” Huang also said he “did not live up to the standards expected of everyone at NVIDIA, and I have made serious mistakes in my personal life.” “I created problems for the Board that I deeply regret,” he said. “I own my mistakes completely, and I am committed to cooperating with the Board’s independent investigation.” A portion of the statement was first reported by The Wall Street Journal, prompting shares of Nvidia to erase their earlier losses. Earlier Tuesday, Republicans announced that Huang had agreed to sit for an interview with several House committees about whether the computer chip giant’s sales to China may have endangered U.S. national security. Huang is set to appear before the House Foreign Affairs Committee, the Select Committee on the Chinese Communist Party and the House Intelligence Committee on Dec. 1. Nvidia’s general counsel Tim Teter will sit for an interview the following day. For Subscribers FOR SUBSCRIBERS A new ‘Hunger Games’ in 2026? The YA dystopia is so back FOR SUBSCRIBERS Democrats weigh how far to go with their newfound power in the states FOR SUBSCRIBERS House Republicans threaten to ax defense bill’s Ukraine provisions in effort to block stronger Pentagon oversight FOR SUBSCRIBERS The U.S. lost its measles elimination status. Here’s how to keep your family safe. FOR SUBSCRIBERS Higher rates, AI and hiring: How FedEx navigates a tricky economy FOR SUBSCRIBERS An AI toy for 3-year-olds described gang rape. Three major retailers are pulling it. FOR SUBSCRIBERS Running used to pay this pro athlete’s bills. Now, it’s OnlyFans. FOR SUBSCRIBERS The Data Dive: Steve Kornacki on how Josh Turek flipped a Senate seat in Trump’s Iowa FOR SUBSCRIBERS Trump lands in"
+    },
+    {
+      "s": "한국경제",
+      "t": "'젠슨 황'없는 엔비디아 첫 실적…하루 448조원 움직일수도",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202611173105i",
+      "m": "11. 17. PM 02:25",
+      "ts": 1794925506000,
+      "stocks": [],
+      "fullText": "핫픽! 미국주식 핫픽! 미국주식 '젠슨 황'없는 엔비디아 첫 실적…하루 448조원 움직일수도 입력 2026.11.17 23:25 수정 2026.11.17 23:51 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 엔비디아가 젠슨 황 CEO의 사임 여파로 주가 급락을 겪은 가운데, 실적 발표를 앞두고 옵션 시장에서 약 8.5%의 대규모 주가 변동성이 예상되며 향후 AI 수요 전망에 시장의 관심이 집중되고 있습니다. 옵션시장,실적발표후 주가 상하변동폭 8.5% 예상 10월 이후 시가총액 약 2조달러 증발 월가,AI인프라 수요 지속여부와 향후 수요전망에 촉각 사진=REUTERS 미국 현지시간으로 17일 뉴욕 증시 마감후 발표되는 엔비디아의 실적 발표후 옵션 거래자들은 엔비디아 주가가 양방향으로 8.5% 변동할 것으로 예상했다. 이는 금액으로는 약 3,350억달러(약 448조원)에 달한다. 엔비디아 주가는 지난주 젠슨 황 CEO가 중국 스파이 혐의자 및 회사 부하 직원과의 불륜 의혹으로 사임한 이후 급락했다. 현재 이사회를 중심으로 후임 CEO를 찾는 동안, 최고재무책임자(CFO)인 콜레트 크레스가 임시 CEO를 맡고 있다. 그가 이 날 실적 발표를 진행할 것으로 예상된다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 김정아 객원기자 기자로 14년, 자본시장에서 18년 일했습니다. 글로벌 기업과 자본시장을 주시하고 있습니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
     },
     {
       "s": "연합뉴스",
@@ -53,26 +107,6 @@
       "fullText": "코스피 4거래일째 하락, 9개월여만에 5천선 붕괴 외국인 1조4천억 순매도, 코스피 2.59% 급락 젠슨황 사임발 AI 우려·미 수출규제 강화 악재 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "한국경제",
-      "t": "젠슨 황 불륜녀 남편, 알고 보니…중국 정부 업고 12조 사업",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026111723587",
-      "m": "11. 17. AM 06:58",
-      "ts": 1794898680000,
-      "stocks": [],
-      "fullText": "코리아마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황 불륜녀 남편, 알고 보니…중국 정부 업고 12조 사업 입력 2026.11.17 15:58 수정 2026.11.17 16:19 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김연지 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. WSJ \"앨리스 황 남편, 중국 정부 지원받아 데이터센터 추진\" 젠슨 황 엔비디아 최고경영자(CEO)와 앨리스 황. / 사진=샤오홍슈 캡처 / 한경DB 젠슨 황 전 엔비디아 최고경영자(CEO)와 교제한 앨리스 황의 남편 캉웨이가 중국 정부의 지원을 받아 자국에서 대규모 데이터센터 사업을 추진한 것으로 나타났다. 2021~2024년 캉웨이의 사업 네트워크와 관련해 제안된 투자액은 90억달러(약 12조원)를 넘었다. 미국 월스트리트저널(WSJ)은 16일(현지시간) 중국 기업 공시와 정부 발표 등 공개 기록을 검토한 결과, 캉웨이와 연계된 데이터센터 사업들이 정부 지원을 바탕으로 추진됐다고 보도했다. 중국 당국은 이 사업들을 자국의 컴퓨팅 역량을 확충하는 국가 계획의 일부로 평가했다. 사업의 중심에는 상하이에 본사를 둔 센추리 룽텅이 있었다. 2021년 말 기준 상하이 지방정부 산하 기관이 이 회사 지분 10%를, 캉웨이의 허시 캐피털과 연계된 투자기구가 27%를 보유했다. 나머지 63%는 선전 증시에 상장된 센추리 화퉁이 갖고 있었다. 이후 캉웨이는 센추리 룽텅의 임원을 맡았고, 이 회사는 2022년 초 화웨이와 클라우드 데이터센터 등을 아우르는 협력 기본협약을 맺었다. 2022년 공개된 우후 사업에는 45억달러(약 6조원)를 들여 38만㎡ 부지에 데이터센터 건물 8개 동과 서버 랙 2만4000개를 설치한다는 계획이 담겼다. 중국 정부의 컴퓨팅 시설 분산 배치 전략에 따라 전력과 기반시설 지원을 받았으며, 올해 4월 기준 최소 1개 동이 준공 등록을 마쳤다. 캉웨이는 2024년 7월 쓰촨성 량산에서 추진된 50억달러(약 6조7000억원) 규모의 데이터센터 사업 착공식에도 참석했다. WSJ는 앨리스 황이 고위 임원으로 있던 싱가포르 기업 메가스피드가 확보한 엔비디아 칩 가운데 일부가 중국으로 보내졌다고 앞서 보도했다. 다만 중국 정부가 메가스피드에 칩 조달을 지시했는지, 해당 칩이 캉웨이와 연계된 데이터센터에 공급됐는지는 중국 측 공개 기록으로 확인되지 않았다고 밝혔다. WSJ는 부부에게 연락을 시도했으나 닿지 않았다고 전했다. 메가스피드는 자사가 합법적으로 운영되고 있으며 앨리스 황은 현재 회사에서 어떤 역할도 맡고 있지 않다고 밝혔다. 김연지 한경닷컴 기자 kongzi@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 김연지 기자 김연지 기자는 한경닷컴 증권부에서 국내 주식시장과 상장사, 증권업계 및 금융투자상품을 취재하고 있습니다. 2023년부터 경제 분야를 취재해 왔으며, 기업 실적과 산업 변화, 시장 수급을 바탕으로 주가가 움직이는 배경을 짚는 기사를 씁니다. 퇴직연금 시장과 연금 투자 흐름을 분석하는 기획 시리즈 \"연금 빌드업\"도 연재하고 있습니다. 복잡한 금융시장과 투자 정보를 독자의 눈높이에서 풀어내고, 합리적인 투자 판단과 노후 자산 설계에 도움이 되는 인사이트를 전하는 기자가 되고자 합니다. ADVERTISEMENT 관련 뉴스 1 \"내 얼굴 훔쳐 돈 벌었다\"…中 여배우가 발끈한 이유 녹비홍수, 여봉행 등에 출연한 중국 톱스타 조려영(자오리잉)이 초상권 침해를 주장하며 숏드라마 플랫폼 측을 상대로 소송을 제기했다. 지난 12일(현지시간) 중국... 2026.11.15 15:40 2 \"스파이만 60만명\"…젠슨 황 추문에 다시 불붙은 中 첩보전 젠슨 황 전 엔비디아 최고경영자(CEO)의 불륜 스캔들을 계기로 중국의 조직적인 기술 첩보활동이 다시 주목받고 있다.14일(현지시간) 월스트리트저널(WSJ) 등 외신에 따르면 중국의 첩보망은 정부와 민간 기업, 일반... 2026.11.15 14:20 3 분명 수출 통제했는데…중국, 엔비디아 칩 의존 '4.6조' 이상 미국의 수출 통제를 받는 엔비디아 칩에 의존하는 중국 내 인공지능(AI) 프로젝트 규모가 230억 위안(약 4조6000억원) 이상이라는 외신 집계가 나왔다. 젠슨 황 엔비디아 전 최고경영자(CEO)의 사임으로 대중국... 2026.11.14 11:20 ADVERTISEMENT 많이 본 뉴스 1 \"손주 육아하러 집 떠났다가 날벼락\"…70대 노부부의 탄식 2026.11.15 12:00 2 \"평생 운이라며 다 나눴다\"…장항준, 26억 스태프에 쾌척 2026.11.16 18:04 3 '48억이 16억으로'…주지훈, 16년 인연 끝내고 결국 떠난다 2026.11.16 13:21 4 \"동해에 참치가 떼로 몰려오더니\"…어민들 한숨 쉬는 까닭 2026.11.15 18:20 5 \"공장에 투입했더니 이럴 수가\"…中 로봇 줄줄이 '굴욕' 2026.11.16 07:16 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "More Volatility Forecast for AI as Nvidia Earnings Loom",
-      "d": "Xi Qiao, UBS financial advisor and managing director, said Nvidia faces a particularly difficult backdrop ahead of earnings, including tougher U.S. export restrictions and concerns surrounding Jensen Huang. Qiao expects near-term volatility in Nvidia and the broader AI trade, as markets brace for slower investment in the AI ecosystem and possible supply-chain disruptions. Qiao advised investors to",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-17/more-volatility-forecast-for-ai-as-nvidia-earnings-loom-video",
-      "m": "11. 17. AM 02:32",
-      "ts": 1794882731000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
       "s": "연합뉴스",
       "t": "젠슨황·앤트로픽·금리…'삼중고'에 짓눌린 코스피",
       "d": "(서울=연합뉴스) 임은진 기자 = 젠슨 황 스캔들, 앤트로픽 상장, 미국 국채 금리.",
@@ -83,44 +117,14 @@
       "fullText": "코스피, 젠슨 황 스캔들 등 '삼중고'에 4거래일 하락 엔비디아 '순환 금융' 우려로 반도체주 급락 앤트로픽 상장 수급 부담·美금리 반등도 악재 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "조선일보",
-      "t": "젠슨 황 떠나도 딸은 남았다... “임원 질책, 10여명 퇴사”",
-      "d": "",
-      "u": "https://www.chosun.com/economy/tech_it/2026/11/17/XYYC5QUWBZGUXEYRZD7QU377KQ/",
-      "m": "11. 17. AM 01:03",
-      "ts": 1794877381000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Trump says ex-Nvidia CEO Jensen Huang&#8217;s affair with an alleged Chinese spy did not threaten national security",
-      "d": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-      "u": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "m": "11. 16. PM 07:12",
-      "ts": 1794856322000,
-      "stocks": [],
-      "fullText": "U.S. President Donald Trump told reporters on Monday that he does not believe the countrys national security was put at risk as a result of former Nvidia CEO Jensen Huangs affair with an alleged Chinese spy. It was not put at risk, Trump said when asked by reporters in light of his own friendship with Huang. Our country is now stronger than ever before. And you know, China plays games with us, and we play games with China. Trump went on to contradict previous findings from U.S. officials by doubting that Huangs paramour, former Megaspeed executive Alice Huang, is a Chinese spy. He probably shouldnt have been doing on a personal basis what he did … Thats a different story, Trump added. But nobodys proven that shes a spy. She may not be a spy. Last year, U.S. Secretary of State Marco Rubio reportedly oversaw the production of an internal memo, circulated among top policymakers, which warned that Alice Huang was a spy for Chinas Ministry of State Security. Trump was reportedly briefed about these intelligence findings at least twice, including once in May aboard Air Force One, shortly before the former Nvidia CEO joined him on a trip to China. But Trump has maintained that he was not aware of these claims. The U.S. regulates the exports of Nvidias top chips to China as a way of maintaining a competitive advantage. But prior to news of Huangs affair publicly emerging, both the U.S. and Singaporean governments had been investigating Megaspeed for illegally smuggling Nvidia chips into China. Huang has since stepped down from the role he has had for 33 years at Nvidia after more reporting revealed that he also had affairs with two Nvidia employees, at least one of whom was a direct report. Given Huangs importance to Nvidia, some prominent figures in the industry — including Elon Musk, Y Combinator president and CEO Garry Tan, and Epic Games CEO Tim Sweeney — have signed a public letter calling for Nvidia to reinstate Huang. A lot of people are asking Jensen they think Jensen should go back. That certainly isnt a bad idea, Trump said. Referring to the former Apple chief executive, Trump added: I recommended Tim Cook. Topics AI , Government & Policy , Jensen Huang , nvidia , Trump When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Amanda Silberling Senior Writer Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos. You can contact or verify outreach from Amanda by emailing [emailprotected] or "
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Sam Altman on Nvidia without Jensen Huang: The industry will be &#8216;fine’",
-      "d": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
-      "u": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "m": "11. 16. PM 06:11",
-      "ts": 1794852670000,
-      "stocks": [],
-      "fullText": "OpenAI CEO Sam Altman says the AI industry will be “fine” without Nvidia CEO Jensen Huang at the helm, even as he acknowledged the special role Huang has played in the AI boom. Huang resigned last week from Nvidia after admitting to having an affair with an alleged Chinese spy. Altman made his first public comments about Huang’s departure on Monday at Semafor’s Silicon Valley & The World event, where he also discussed topics ranging from data center pushback to recursive self-improvement. Numerous executives and members of the AI industry have argued for Nvidia to reinstate Huang, including Elon Musk and Epic Games chief executive Tim Sweeney, who were among the signatories in a public letter. Many fear that Huang’s departure may cause Nvidia to rethink the enormous financial risks it has taken that have fueled the AI boom. Huang is also reportedly setting up a “war room” of Silicon Valley executives to lobby for his return. When asked whether he thought Huang should return to the company, Altman said: “I don’t think I know enough to answer that question.” He expressed empathy for Huang’s situation, citing his own ousting from OpenAI in 2023 after board members accused him of withholding information. “It’s hard to imagine the AI revolution without Jensen and the company he has built,” Altman said, adding that he sees Huang as a hero, and that “heroes have flaws.” OpenAI and Nvidia have had a close relationship for the last decade, one that has evolved from a simple chip supplier-customer relationship into a potentially circular financing arrangement, in which Nvidia’s money helps fund purchases of its own chips. Most recently, Nvidia agreed to provide a guarantee of up to $105 billion backing OpenAI’s Ohio data center project. That’s just one of many such circular deals Nvidia has made to bankroll the AI boom while fueling demand for its own chips. Altman said he’s not worried that the Bank of Nvidia will dry up. “Nvidia is, like, a behemoth of a company,” he said. “I think people still trust their guarantees very much.” Altman acknowledged the “ambition” Huang brought to the industry, the scale of which “has been quite important.” But he didn’t go so far as to agree with the many who worry about ripple effects from Huang’s departure. I think theres so much demand, and its so clear that AI is real, and people want to use it, and the revenues and demand are growing so strongly that I think the industry will be fine,” Altman said. “But again, I think Jensen has played this extremely special and valuable role as someone to really drive things forward with great ambition.” Topics AI , Jensen Huang , nvidia , OpenAI , sam altman When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Rebecca Bellan Senior Reporter Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeare"
-    },
-    {
       "s": "CNBC Tech",
-      "t": "Trump says he ‘would not mind’ if Jensen Huang returned as Nvidia CEO",
-      "d": "President Donald Trump said he “would not mind” Jensen Huang being reinstated as CEO of Nvidia after he resigned.",
-      "u": "https://www.nbcnews.com/politics/trump-administration/trump-support-jensen-huang-nvidia-ceo-rcna609597",
-      "m": "11. 16. PM 02:50",
-      "ts": 1794840602000,
+      "t": "Trump says he ‘would not mind’ if Jensen Huang returned to lead Nvidia",
+      "d": "President Trump said he “wouldn’t mind” if Jensen Huang were reinstated as CEO of Nvidia after he was ousted following allegations of multiple extramarital affairs, including one with a suspected Chinese spy. NBC News’ Garrett Haake details what tech leaders are saying about the scandal.",
+      "u": "https://www.nbcnews.com/now/video/trump-says-he-would-not-mind-if-jensen-huang-returned-to-lead-nvidia-273579077862",
+      "m": "11. 16. PM 03:08",
+      "ts": 1794841726000,
       "stocks": [],
-      "fullText": "Trump administration Trump says he ‘would not mind’ if Jensen Huang returned as Nvidia CEO The president said he did not know if Alice Huang, the suspected Chinese intelligence asset with whom Jensen Huang allegedly had a relationship, was actually a spy. Listen to this article with a free profile 00:00 00:00 Trump &#x27;would not mind&#x27; having Jensen Huang reinstated as Nvidia CEO 01:02 Get more news Live on Share Add NBC News to Google Nov. 16, 2026, 9:50 AM EST / Updated Nov. 16, 2026, 5:07 PM EST By Megan Brand and Rob Wile President Donald Trump told reporters Monday that he “would not mind” if Jensen Huang were reinstated as CEO of Nvidia after he resigned following allegations of multiple extramarital relationships, including one with a woman believed to be a Chinese intelligence asset. “I would not mind that,” the president said when asked about a reinstatement, adding that he thinks the ex-Nvidia chief, who resigned last week after the allegations were reported, had “learned a big lesson.” After Huang stepped down, Trump said he would support former Apple CEO Tim Cook as Huang’s successor at Nvidia, which he noted again in comments to White House reporters Monday. The president also told reporters that he did not know if Alice Huang, whom Jensen Huang allegedly had an affair with, was actually a spy, despite a U.S. intelligence assessment that she was working for Beijing. “I don’t know that she is a spy,” Trump said as he prepared to leave for his Asia trip. China has denied the spying allegations. Jensen Huang’s departure from Nvidia sent ripples through the technology industry and raised questions about the sector’s vulnerabilities to Chinese espionage operations, which could have national security implications. It’s also led to volatile trading Monday in major U.S. stock indexes, of which Nvidia, worth more than $3 trillion, has formed a major component. On Monday, Nvidia shares fell more than 4%, and they are down by more than 10% over the past week. The Nvidia decline weighed on other tech stocks Monday, as well, as the Nasdaq Composite declined about 2.5%. Nvidia reports quarterly earnings after the market closes Tuesday afternoon. Nvidia has hired an outside law firm to investigate the allegations against Jensen Huang, whose relationships may have violated company policies and who presided over export arrangements that raised concerns about Nvidia chips reaching China. Asked by a reporter what he would say to Americans who are concerned that national security was put at risk because of his close relationship with Jensen Huang and the business leader’s alleged affair with a suspected spy, Trump said that national security “was not put at risk.” Two senior U.S. officials previously told reporters they did not believe Trump would raise the Alice Huang espionage investigation with Chinese President Xi Jinping. One of the officials said Nvidia “should not really have any bearing on the trip.” President Donald Trump and former Nvidi"
+      "fullText": "Ukraine strikes key bridge linking Russia to Crimea"
     },
     {
       "s": "CNBC Tech",
@@ -130,7 +134,7 @@
       "m": "11. 13. AM 12:16",
       "ts": 1794529010000,
       "stocks": [],
-      "fullText": "NYC officials disband NYPD unit that responds to protests"
+      "fullText": "Ukraine strikes key bridge linking Russia to Crimea"
     },
     {
       "s": "CNBC Tech",
@@ -140,7 +144,7 @@
       "m": "11. 12. PM 08:40",
       "ts": 1794516044000,
       "stocks": [],
-      "fullText": "NYC officials disband NYPD unit that responds to protests"
+      "fullText": "Ukraine strikes key bridge linking Russia to Crimea"
     },
     {
       "s": "CNBC Tech",
@@ -152,7 +156,7 @@
       "stocks": [
         "AAPL"
       ],
-      "fullText": "NYC officials disband NYPD unit that responds to protests"
+      "fullText": "Ukraine strikes key bridge linking Russia to Crimea"
     },
     {
       "s": "CNBC Tech",
@@ -162,7 +166,7 @@
       "m": "11. 12. PM 02:52",
       "ts": 1794495136000,
       "stocks": [],
-      "fullText": "NYC officials disband NYPD unit that responds to protests"
+      "fullText": "Ukraine strikes key bridge linking Russia to Crimea"
     },
     {
       "s": "CNBC Tech",
@@ -172,17 +176,7 @@
       "m": "11. 12. AM 12:17",
       "ts": 1794442635000,
       "stocks": [],
-      "fullText": "NYC officials disband NYPD unit that responds to protests"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Nvidia names outside council for investigation into CEO’s affair",
-      "d": "Nvidia has named Joon Kim, a former acting U.S. Attorney, to head the investigation into CEO Jensen Huang’s affair with a woman U.S. intelligence agencies believe to be a Chinese spy. NBC News’ Brian Cheung reports.",
-      "u": "https://www.nbcnews.com/nightly-news/video/nvidia-names-outside-council-for-investigation-into-ceo-s-affair-273239621784",
-      "m": "11. 10. PM 11:58",
-      "ts": 1794355117000,
-      "stocks": [],
-      "fullText": "NYC officials disband NYPD unit that responds to protests"
+      "fullText": "Ukraine strikes key bridge linking Russia to Crimea"
     }
   ]
 }
