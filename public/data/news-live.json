@@ -1,59 +1,36 @@
 {
-  "updatedAt": "2026-11-18T01:05:21.226Z",
-  "count": 21,
+  "updatedAt": "2026-11-18T08:45:33.501Z",
+  "count": 12,
   "items": [
     {
-      "s": "조선일보",
-      "t": "[특징주] 엔비디아 호실적에 두산 급등…12% 상승",
-      "d": "두산 주가가 18일 장 초반 급등 중이다. 최근 젠슨 황 엔비디아 최고경영자(CEO)가 사임하면서 흔들렸던 주가가 엔비디아의 호실적 영향으로 오르고 있는 모습이다. 이날 오전 9시 21분 기준 두산 주식은 유가증권시장에서 전 거래일보다 12.01%(6만5000원) 오른 60만6000원에 거래되고 있다. 두산 주가는 엔비디아가 3분기 호실적을 발표한 영향으로",
-      "u": "https://www.chosun.com/economy/stock-finance/2026/11/18/HBSGGZTBMQYTOM3FGU2DIMBWGQ/",
-      "m": "11. 18. AM 12:39",
-      "ts": 1794962395000,
-      "stocks": [
-        "000150",
-        "454910"
-      ],
-      "fullText": ""
+      "s": "연합뉴스",
+      "t": "엔비디아 호실적에 젠슨황 충격 완화?…'집나간 투심' 돌아올까",
+      "d": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 전 엔비디아 최고경영자(CEO)의 복귀가 결국 무산됐지만, 엔비디아의 투자를 마중물 삼아 성장해 온 ...",
+      "u": "https://www.yna.co.kr/view/AKR20261118098100008",
+      "m": "11. 18. AM 06:55",
+      "ts": 1794984904000,
+      "stocks": [],
+      "fullText": "엔비디아 호실적에 AI 생태계 붕괴 우려 완화 코스피 1.99% 상승, 하루 만에 5,000선 탈환 관망 속 투심 반전은 한계…앤트로픽 상장 주목 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Boosts Forecast, Quashes Huang’s Return",
-      "d": "Nvidia delivered a sales forecast that exceeded Wall Street estimates, signaling that demand remains strong following the chaotic exit of CEO Jensen Huang. Ed Ludlow reports. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-18/nvidia-boosts-forecast-quashes-huang-s-return-video",
-      "m": "11. 18. AM 12:24",
-      "ts": 1794961457000,
+      "s": "CNBC Tech",
+      "t": "Nvidia enters the post-Jensen Huang era with a bang",
+      "d": "Nvidia delivered a message with its first earnings report under new leadership: The sky isn’t falling.",
+      "u": "https://www.nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782",
+      "m": "11. 18. AM 02:41",
+      "ts": 1794969709000,
       "stocks": [],
-      "fullText": ""
+      "fullText": "Artificial intelligence Nvidia enters the post-Jensen Huang era with a bang The company’s interim CEO delivered strong earnings and a clear message about the future of Nvidia without its charismatic former leader. Listen to this article with a free profile 00:00 00:00 NVIDIA says Jensen Huang will not return as CEO 01:47 Get more news Live on Share Add NBC News to Google Nov. 17, 2026, 9:41 PM EST / Updated Nov. 17, 2026, 9:42 PM EST By David Ingram Nvidia delivered a message with its first earnings report under new leadership: The sky isn’t falling. With a new CEO and board chair just days after the resignation of co-founder Jensen Huang, the company reported results Tuesday that beat analysts’ expectations for AI chip sales. Nvidia’s new leaders also appeared to calm some investors’ nerves about the immediate future of a company at the heart of the AI economy. Colette Kress, the interim CEO and Nvidia’s longtime chief financial officer, and Harvey Jones, the newly elected board chair, used the quarterly earnings call to answer many — but not all — of the biggest questions hanging over Nvidia, including who will be running things in the near term. Just hours before the earnings release, Huang had injected fresh uncertainty into precisely that question when announced that he would be “honored” to return to the job of CEO, if the company’s board decided to bring him back. At the top of Tuesday’s call, Jones shot down that idea . “The Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO,” he said. “While this was an unexpected transition, the board acted deliberately and in the best interest of the company’s employees, customers, partners and shareholders.” Following the earnings call, Kress poured even more cold water on the idea of Huang’s return. “Jensen resigned from his position with Nvidia, and the board accepted his resignation,” she said in an interview with CNBC. “The board has determined that they will not reinstate Jensen, and that is our statement and what the board has decided to do.” Huang resigned Thursday after reports that he had multiple extramarital relationships, including one with a woman believed to be spying for China and another with an executive who reported to him. On Tuesday morning, Huang said he had made “serious mistakes in my personal life.” Jones said the board would consider both internal and external candidates for CEO and had hired an executive search firm, Heidrick & Struggles, to help with the process. He also endorsed Kress as interim CEO, saying that she had been “instrumental in executing strategy” and possessed a “deep understanding of our business, customers, operations and financial position.” Investors responded positively to the earnings report and the call, sending Nvidia’s share price higher by 5% in after-hours trading. Nonetheless, the stock is still trading about 30% below the all-time high it reached last month. For Subscribers FOR SUBSCRIBERS Trump admin"
     },
     {
-      "s": "한국경제",
-      "t": "젠슨 황 없는 엔비디아 \"고객사 자금지원, 좀 더 면밀하게 살펴볼 것\" [어닝콜 전문]",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202611183431i",
-      "m": "11. 17. PM 11:19",
-      "ts": 1794957575000,
+      "s": "CNBC Tech",
+      "t": "NVIDIA says Jensen Huang will not return as CEO",
+      "d": "On an earnings call announcing blockbuster revenue, the chipmaker’s Board Chair said Jensen Huang would not be reinstated as CEO. NBC News’ Brian Cheung reports.",
+      "u": "https://www.nbcnews.com/nightly-news/video/nvidia-says-jensen-huang-will-not-return-as-ceo-273693253844",
+      "m": "11. 18. AM 01:51",
+      "ts": 1794966670000,
       "stocks": [],
-      "fullText": "핫픽! 미국주식 핫픽! 미국주식 젠슨 황 없는 엔비디아 \"순환금융 좀 더 면밀하게 살펴볼 것\" [어닝콜 전문] 입력 2026.11.18 08:19 수정 2026.11.18 08:52 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이선아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 엔비디아는 젠슨 황 전 CEO 사임 이후 개최된 첫 어닝콜에서 사상 최대 분기 실적을 발표하고 2028회계연도 매출 성장률 전망치를 75%로 상향 조정하며 강력한 AI 시장 수요와 비즈니스 안정성을 입증했습니다. 엔비디아 어닝콜 엔비디아가 17일(현지시간) 시장의 기대치를 뛰어넘는 3분기 매출과 이익률을 발표했다. 하지만 이번엔 숫자 자체보다 어닝콜에 관심이 더 쏠렸다. 인공지능(AI) 개척자 젠슨 황 최고경영자(CEO)가 잇딴 불륜으로 사임한 후 처음 열리는 어닝콜이라서다. 가장 이목이 쏠렸던 황 전 CEO의 복귀와 관련, 하비 존스 엔비디아 이사회 의장은 \"바로 복귀시킬 계획이 없다\"고 선을 그었다. 순환금용 전략에 대해선 콜렛 크레스 임시 CEO는 \"해당 전략을 유지하되, 좀 더 면밀하게 살펴볼 것\"이라고 밝혔다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 이선아 기자 산업부, 바이오부, 문화부, 유통산업부를 거쳐 증권부에서 시장 관련 기사를 씁니다. 지금 필요한 정보를 발 빠르게 전합니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Does Not Intend to Bring Back Huang as CEO, Chair Says",
-      "d": "Harvey Jones, chair of Nvidia's board, says former CEO Jensen Huang voluntarily resigned and the board does not intend to rehire him. He spoke on the earnings call after Nvidia said sales will increase 75% in fiscal 2028. Jones also talked about the effort to replace Huang. Bloomberg's Ed Ludlow reports.  (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-17/nvidia-chair-says-huang-isn-t-coming-back-as-ceo-video",
-      "m": "11. 17. PM 11:12",
-      "ts": 1794957126000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "젠슨 황 없는 엔비디아, 매출 155조원 ‘예상치 상회’",
-      "d": "미국 반도체 기업 엔비디아가 시장 예상치를 크게 웃도는 3분기 실적을 발표했다. 젠슨 황 전 최고경영자(CEO) 사임 후 처음 공개한 실적이다. CNBC 등에 따르면 엔비디아는 17일(현지 시간) 장 마감 뒤 발표한 3분기 실적에서 조정 주당순이익(EPS)이 2.68달러를 기록했다고 밝혔다. 런던증권거래소그룹(LSEG)이 집계한 시장 예상치 2.48달러를 상회했다.매출은 1158억4000만 달러로, 전년 동기보다 103% 증가했다. 이 역시 시장 전망치 1091억 달러를 67억4000만 달러 넘어섰다.데이터센터 부문 매출은 1076억 달러로 전년 동기보다 110% 증가했다. 전체 매출의 약 93%를 차지하며 실적 전망을 이끌었다. 데이터센터 매출은 전 분기보다도 21% 늘었다.다음 분기 매출은 1261억~1",
-      "u": "https://www.donga.com/news/Inter/article/all/20261118/135043438/1",
-      "m": "11. 17. PM 10:42",
-      "ts": 1794955369000,
-      "stocks": [],
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
       "s": "CNBC Tech",
@@ -63,61 +40,11 @@
       "m": "11. 17. PM 10:27",
       "ts": 1794954459000,
       "stocks": [],
-      "fullText": "Nightly News Bride’s father heals after heart attack to share dream wedding dance with daughter"
-    },
-    {
-      "s": "동아일보",
-      "t": "“젠슨 황 딸이 스캔들 대응에 깊이 관여…누구도 ‘NO’ 못했다”",
-      "d": "젠슨 황 전 엔비디아 최고경영자(CEO)의 딸이자 엔비디아의 이사인 매디슨 황이 싱가포르 클라우드 업체 메가스피드 문제를 둘러싼 엔비디아의 대외 대응에 깊이 관여했다고 파이낸셜타임스(FT)가 17일(현지시간) 보도했다. 일부 전현직 직원은 황 전 CEO의 딸과 사위가 급속히 승진해 고위직에 오른 데 대해 사내에서 우려가 나왔다고 말했다.FT는 소식통 3명을 인용해 매디슨 황이 엔비디아 피지컬AI 부문 제품 마케팅 수석이사라는 공식 직책과 관계없이 메가스피드 관련 언론 대응에 개입했다고 전했다. 매디슨 황은 2025년 10월 뉴욕타임스(NYT)가 미 당국이 메가스피드의 대중국 반도체 반출 의혹과 함께 메가스피드 전직 임원 앨리스 황과 황 전 CEO의 관계를 들여다보고 있다고 보도한 무렵부터 홍보 대응에 직접 ",
-      "u": "https://www.donga.com/news/Inter/article/all/20261118/135043376/1",
-      "m": "11. 17. PM 10:17",
-      "ts": 1794953820000,
-      "stocks": [],
-      "fullText": "송유근 기자 구독"
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Nvidia's CEO Issues May Only Be the Tip of the Iceberg, Great Hill's Hayes Says",
-      "d": "Great Hill Capital Chairman Thomas Hayes analyzes Nvidia’s latest earnings report and leadership uncertainty. Speaking on \"Bloomberg The Close,\" Hayes expects a four-to-six month CEO search and an “information vacuum,\" and expresses skepticism that Jensen Huang will be reinstated. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-17/nvidia-issues-may-be-tip-of-iceberg-great-hill-s-hayes-video",
-      "m": "11. 17. PM 10:11",
-      "ts": 1794953486000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "젠슨 황 “이사회 원하면 복귀”…“이사회, 황 복귀 논의 안해”",
-      "d": "불륜과 중국 정보기관 연계 의혹 등으로 사임한 젠슨 황 전 엔비디아 최고경영자(CEO)가 이사회가 요청하면 CEO로 복귀할 의사가 있다고 밝혔다. 황 전 CEO가 입장을 내놓은 것은 사임 이후 처음이다.월스트리트저널(WSJ)은 17일(현지시간) 황 전 CEO가 성명을 내고 “이사회가 나의 복귀가 주주와 직원, 회사, 미국을 위해 최선의 선택이라고 판단한다면 기꺼이 CEO직에 복귀하겠다”고 밝혔다고 보도했다. 사임 후 처음 내놓은 공개 입장이다.황 전 CEO는 “엔비디아는 한 세대에 한 번 나올까 말까 한 기업”이라며 “이사회에서 나의 복귀가 주주, 직원, 회사, 그리고 미국에 최선의 이익이 된다고 판단한다면 이러한 요청에 따라 CEO로 복귀하는 것을 영광으로 생각할 것”이라고 했다. 황 전 CEO는 또 불륜",
-      "u": "https://www.donga.com/news/Inter/article/all/20261118/135043367/1",
-      "m": "11. 17. PM 09:53",
-      "ts": 1794952380000,
-      "stocks": [],
-      "fullText": "송유근 기자 구독"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Key Takeaways From Nvidia's First Results Since CEO Departure",
-      "d": "Nvidia gave a sales forecast that exceeded Wall Street estimates, signaling that demand remains strong following the chaotic exit of CEO Jensen Huang. Mandeep Singh has more on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-17/nvidia-s-first-results-since-ceo-ouster-the-takeaways-video",
-      "m": "11. 17. PM 09:49",
-      "ts": 1794952171000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Delivers Solid Outlook in First Post-Huang Earnings",
-      "d": "Nvidia's sales forecast came in above estimates as the chipmaker delivered its first earnings report after the ouster of former CEO Jensen Huang. The report shows AI demand remains strong, calming investor fears about larger impact on the AI industry. Bloomberg's Mandeep Singh and Seaport Research Partners' Jay Goldberg break down the earnings report. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-17/nvidia-gives-solid-outlook-in-first-post-huang-earnings-video",
-      "m": "11. 17. PM 09:49",
-      "ts": 1794952157000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Persuades Investors That Company Can Thrive Without Huang",
+      "t": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
       "d": "Nvidia Corp. sought to deliver a clear message during its first earnings update since the departure of longtime leader Jensen Huang: He’s not coming back, and the company will be fine without him.",
       "u": "https://www.bloomberg.com/news/articles/2026-11-17/nvidia-delivers-solid-outlook-in-first-post-huang-earnings",
       "m": "11. 17. PM 09:24",
@@ -127,33 +54,13 @@
     },
     {
       "s": "CNBC Tech",
-      "t": "Jensen Huang says he would be ‘honored’ if asked to return as Nvidia CEO",
-      "d": "Jensen Huang said Tuesday that he would be “honored” to return to his job as CEO of Nvidia if the chip giant’s board of directors decided to bring him back.",
-      "u": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803",
-      "m": "11. 17. PM 03:29",
-      "ts": 1794929395000,
+      "t": "Jensen Huang says he would be &#39;honored&#39; to return to Nvidia as CEO",
+      "d": "In his first public comments since stepping down, Jensen Huang says he “would be honored” to return as CEO of Nvidia if asked by the board of directors. NBC News’ Allie Canal and editor-in-chief at Investopedia, Caleb Silver, break down Huang’s remarks and what they could mean for the company’s future leadership.",
+      "u": "https://www.nbcnews.com/video/jensen-huang-says-he-would-be-honored-to-return-to-nvidia-as-ceo-273654341777",
+      "m": "11. 17. PM 04:47",
+      "ts": 1794934049000,
       "stocks": [],
-      "fullText": "Corporations Jensen Huang says he would be ‘honored’ to return as Nvidia’s CEO if he were asked The statement is Huang’s first since resigning from Nvidia amid reports of an extramarital relationship with a woman believed to be a Chinese spy. Listen to this article with a free profile 00:00 00:00 Jensen Huang says he would be &#x27;honored&#x27; to return to Nvidia as CEO 02:07 Get more news Live on Share Add NBC News to Google Nov. 17, 2026, 10:29 AM EST / Updated Nov. 17, 2026, 11:23 AM EST By Rob Wile and Brennan Leach Jensen Huang said Tuesday that he would be “honored” to return to his job as CEO of Nvidia if the chip giant’s board of directors decided to bring him back. In a statement posted to X , Huang, who resigned as CEO last week over allegations of extramarital affairs, including one with a suspected Chinese spy, said he would welcome the opportunity to retake the reins of the company he co-founded in 1993. “Since my departure, I’ve seen an outpouring of calls from Nvidia’s employees, investors, business partners, and customers for me to return as CEO,” Huang said in a short statement. “If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.” Huang also said he “did not live up to the standards expected of everyone at NVIDIA, and I have made serious mistakes in my personal life.” “I created problems for the Board that I deeply regret,” he said. “I own my mistakes completely, and I am committed to cooperating with the Board’s independent investigation.” A portion of the statement was first reported by The Wall Street Journal, prompting shares of Nvidia to erase their earlier losses. For Subscribers FOR SUBSCRIBERS Why so many major computer systems went down in a week, according to experts FOR SUBSCRIBERS All these tech outages all at once FOR SUBSCRIBERS Trump had a mutually beneficial relationship with Nvidia’s Jensen Huang, one he’s reluctant to let go FOR SUBSCRIBERS Newest ‘Hunger Games’ hits big screen as dystopian YA sees comeback FOR SUBSCRIBERS Democrats weigh how far to go with their newfound power in the states FOR SUBSCRIBERS House Republicans threaten to ax defense bill’s Ukraine provisions in effort to block stronger Pentagon oversight FOR SUBSCRIBERS The U.S. lost its measles elimination status. Here’s how to keep your family safe. FOR SUBSCRIBERS Higher rates, AI and hiring: How FedEx navigates a tricky economy FOR SUBSCRIBERS An AI toy for 3-year-olds described gang rape. Three major retailers are pulling it. FOR SUBSCRIBERS Running used to pay this pro athlete’s bills. Now, it’s OnlyFans. FOR SUBSCRIBERS The Data Dive: Steve Kornacki on how Josh Turek flipped a Senate seat in Iowa FOR SUBSCRIBERS Trump lands in Asia ahead of high-stakes meeting with China’s Xi and Russia’s Putin FOR SUBSCRIBERS Trump official who warned politicians about speech says he’s ‘looking at’ more Democrats"
-    },
-    {
-      "s": "연합뉴스",
-      "t": "젠슨황·앤트로픽·금리…'삼중고'에 5,000선 무너진 코스피(종합)",
-      "d": "(서울=연합뉴스) 임은진 기자 = 17일 코스피가 결국 9개월여 만에 종가 기준으로 5,000선 아래로 주저앉고 말았다.",
-      "u": "https://www.yna.co.kr/view/AKR20261117065451008",
-      "m": "11. 17. AM 07:33",
-      "ts": 1794900831000,
-      "stocks": [],
-      "fullText": "코스피 종가 5,000선 붕괴, 9개월여 만 젠슨 황 스캔들·앤트로픽 상장·금리에 급락 삼전 반토막·닉스 3분의 1, 외인 매도 지속 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
-      "s": "연합뉴스",
-      "t": "젠슨황 충격에 결국 '5천피' 붕괴…9개월여 만에 최저(종합)",
-      "d": "(서울=연합뉴스) 김유아 기자 = 코스피가 4거래일 연속 내리며 17일 9개월여만에 처음으로 종가기준 5,000선을 내어준 채 마감했다.",
-      "u": "https://www.yna.co.kr/view/AKR20261117138600008",
-      "m": "11. 17. AM 07:28",
-      "ts": 1794900517000,
-      "stocks": [],
-      "fullText": "코스피 4거래일째 하락, 9개월여만에 5천선 붕괴 외국인 1조4천억 순매도, 코스피 2.59% 급락 젠슨황 사임발 AI 우려·미 수출규제 강화 악재 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
       "s": "CNBC Tech",
@@ -163,7 +70,7 @@
       "m": "11. 16. PM 03:08",
       "ts": 1794841726000,
       "stocks": [],
-      "fullText": "Nightly News Bride’s father heals after heart attack to share dream wedding dance with daughter"
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
       "s": "CNBC Tech",
@@ -173,7 +80,7 @@
       "m": "11. 13. AM 12:16",
       "ts": 1794529010000,
       "stocks": [],
-      "fullText": "Nightly News Bride’s father heals after heart attack to share dream wedding dance with daughter"
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
       "s": "CNBC Tech",
@@ -183,7 +90,7 @@
       "m": "11. 12. PM 08:40",
       "ts": 1794516044000,
       "stocks": [],
-      "fullText": "Nightly News Bride’s father heals after heart attack to share dream wedding dance with daughter"
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
       "s": "CNBC Tech",
@@ -195,17 +102,17 @@
       "stocks": [
         "AAPL"
       ],
-      "fullText": "Nightly News Bride’s father heals after heart attack to share dream wedding dance with daughter"
+      "fullText": "Driver narrowly misses children at school bus stop"
     },
     {
-      "s": "CNBC Tech",
-      "t": "Nvidia shares tumble after Huang resignation",
-      "d": "NBC News’ Allie Canal details the drop in Nvidia shares after Jensen Huang resigned as the CEO of Nvidia in the wake of reports that he had multiple extramarital relationships.",
-      "u": "https://www.nbcnews.com/now/video/nvidia-shares-tumble-after-huang-resignation-273334341944",
-      "m": "11. 12. PM 02:52",
-      "ts": 1794495136000,
+      "s": "한겨레",
+      "t": "젠슨 황 없는 엔비디아 실적, 시장 전망 웃돌아…삼성·하닉 주가 반등",
+      "d": "",
+      "u": "https://www.hani.co.kr/arti/economy/marketing/1287957.html",
+      "m": "",
+      "ts": 0,
       "stocks": [],
-      "fullText": "Nightly News Bride’s father heals after heart attack to share dream wedding dance with daughter"
+      "fullText": "본문 경제 산업·재계 젠슨 황 없는 엔비디아 실적, 시장 전망 웃돌아…삼성·하닉 주가 반등 배지현 , 서혜미 기자 수정 2026-11-18 16:32 펼침 0:00 Your browser does not support the audio element. 지난 6월 2일 대만 타이베이에서 열린 연례 컴퓨텍스(COMPUTEX) 행사에서 젠슨 황 엔비디아 최고경영자(CEO)가 팬들과 소통하며 에스케이(SK) 하이닉스 전시관을 떠나고 있다. 타이베이/로이터 연합뉴스 광고 젠슨 황 전 최고경영자(CEO)가 물러난 뒤 처음 나온 엔비디아 실적은 사상 첫 분기 매출 1000억달러 돌파였다. 인공지능(AI) 투자 둔화 우려에 급락하던 국내 반도체주도 일제히 반등했다. 엔비디아가 양호한 실적을 내놓았지만 미국의 대중국 수출통제 강화와 불확실한 차기 최고경영자 선임 과정은 여전히 변수로 꼽힌다. 엔비디아는 2027회계연도 3분기(8∼10월) 매출액이 1158억4400만달러(약 155조원)로 지난해 같은 기간에 견줘 103% 늘었다고 17일(현지시각) 공시했다. 직전 분기(962억2100만달러)보다도 20% 늘어나며 시장조사기관 런던증권거래소그룹(LSEG)이 집계한 시장전망치를 웃돌았다. 3분기 영업이익과 당기순이익도 775억2000만달러(약 104조원), 652억8700만달러(약 87조원)로 전년 대비 115%, 105% 증가했다. 실적을 끌어올린 건 인공지능 데이터센터용 그래픽처리장치(GPU)다. 데이터센터 부문 매출만 1076억달러(약 144조원)로 전체 매출의 93%를 차지했다. 특히 차세대 인공지능 가속기 ‘베라 루빈’이 출하 첫 분기에 약 200억달러의 매출을 올리며 성장을 이끌었다. 현재 베라 루빈 시스템은 구글 클라우드, 마이크로소프트, 오라클 등에서 가동 중이다. 콜레트 크레스 임시 최고경영자는 이날 실적설명회에서 베라 루빈을 두고 “엔비디아 역사상 가장 빠른 제품 생산 확대 속도”를 기록했다고 강조했다. 삼성전자와 에스케이(SK)하이닉스는 베라 루빈에 탑재되는 차세대 고대역폭메모리(HBM4)를 공급 중이다. 광고 국내 업계가 주목한 건 공급망이다. 크레스 임시 최고경영자는 “메모리와 첨단 패키징은 확보했다”고 설명했다. 엔비디아는 이날 삼성전기와 기판 분야 새 공급 계약을 맺었다며 공급망 확장을 이어가고 있다고 밝혔다. 회사는 2028회계연도 매출 증가율 전망도 기존 70%에서 75%로 높였다. 시장조사업체 카운터포인트리서치는 ‘젠슨 황 공백’이 앞으로 18∼24개월 동안 인공지능 반도체 공급망에 미칠 영향이 제한적일 것으로 내다봤다. 엔비디아 주가는 정규장에서 0.44% 내렸지만, 발표 뒤 시간 외 거래에서 3∼4%대 올랐다. 엔비디아 호실적에 이날 코스피는 전날보다 1.99% 오른 5067.44에 거래를 마쳤다. 삼성전자는 전날보다 2.31%(4400원) 오른 19만4700원, 에스케이(SK)하이닉스는 전날보다 4.19%(4만6천원) 오른 114만4천원에 정규장을 마감했다. 대중국 규제 강화 속에서도 엔비디아는 자신감을 보였다. 회사는 4분기 매출 전망을 1300억달러로 제시하면서 중국 데이터센터용 연산 제품 매출은 반영하지 않았다고 밝혔다. 크레스 임시 최고경영자는 “이번 주 미국 상무부에서 새로운 수출통제 조치가 발표됐지만, 수요가 공급을 훨씬 초과하는 상황에서 실적은 계속 좋아질 것”이라고 말했다. 엔비디아는 3분기 중국 수출 허가를 받은 ‘호퍼’ 제품으로 24억달러를 벌었지만, 앞으로 중국에 공급하지 않을 계획이다. ‘순환 금융’ 논란이 있는 네오클라우드 업체에 대한 자금 지원은 “신중하고 선별적”으로 하겠다는 입장을 내놨다. 광고 광고 경영 공백은 여전한 숙제다. 이규원 디에스(DS)투자증권 연구원은 “(젠슨 황 사임은) 기존 제품 로드맵과 견조한 인공지능 컴퓨팅 수요를 고려하면 단기 실적에 미치는 영향은 제한적이나, 엔비디아의 중장기 경쟁력과 인공지능 산업 구도에 변화를 가져올 수 있는 사건”이라고 했다. 배지현 기자 beep@hani.co.kr 서혜미 기자 ham@hani.co.kr"
     },
     {
       "s": "Nikkei Asia",
