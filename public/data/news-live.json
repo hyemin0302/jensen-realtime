@@ -1,66 +1,26 @@
 {
-  "updatedAt": "2026-11-18T23:45:18.241Z",
-  "count": 16,
+  "updatedAt": "2026-11-19T05:22:54.954Z",
+  "count": 9,
   "items": [
     {
-      "s": "조선일보",
-      "t": "4만7300명 임직원 다독인 엔비디아… ‘젠슨 황 시대 공식 작별’ 내부 결속 총력",
-      "d": "인공지능(AI) 반도체 대장주 엔비디아가 창업자 젠슨 황 전 최고경영자(CEO) 사임 충격에서 벗어나기 위해 내부 결속에 나섰다. 콜렛 크레스 엔비디아 임시 CEO는 18일(현지시각) 스캔들로 회사를 떠난 황 전 CEO 복귀설에 확실히 선을 긋고, 경영진 교체와 무관하게 AI 반도체 주도권을 이어가겠다는 의지를 분명히 밝혔다. 크레스 엔비디아 임시 CEO는",
-      "u": "https://www.chosun.com/international/international_general/2026/11/19/MFRGMYTEGJSDMMLFGRRDKMBZMM/",
-      "m": "11. 18. PM 10:35",
-      "ts": 1795041301000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia’s Outlook Cut to Stable by Moody’s on Governance Concerns",
-      "d": "Nvidia Corp.’s credit-rating outlook was lowered to stable from positive by Moody’s Ratings, which cited governance concerns following the ouster of longtime chief executive officer Jensen Huang.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive",
-      "m": "11. 18. PM 10:29",
-      "ts": 1795040941000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Tells Employees That Company Is Moving On From Huang Era",
-      "d": "At a town-hall meeting with employees Wednesday, Nvidia Corp. interim Chief Executive Officer Colette Kress reiterated her confidence in the company after the ouster of longtime leader Jensen Huang.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-18/nvidia-tells-employees-that-company-is-moving-on-from-huang-era",
-      "m": "11. 18. PM 09:00",
-      "ts": 1795035603000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Sizes Up Arm CEO Haas in Search for Huang Successor",
-      "d": "Nvidia Corp. recruiting firm Heidrick &amp; Struggles approached Arm Holdings Plc Chief Executive Officer Rene Haas as part of its hunt for a new leader, stepping up efforts to move on from longtime CEO Jensen Huang.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-18/arm-ceo-rene-haas-approached-by-nvidia-board-s-recruitment-firm",
-      "m": "11. 18. PM 06:45",
-      "ts": 1795027541000,
-      "stocks": [],
-      "fullText": ""
-    },
-    {
       "s": "한국경제",
-      "t": "젠슨 황 떠난 엔비디아 '지금 사도 될까'…월가가 내놓은 답은",
+      "t": "젠슨 황의 불륜 스캔들…두 여자의 주얼리를 보면 삶이 보인다 [민은미의 파인주얼리]",
       "d": "",
-      "u": "https://www.hankyung.com/article/202611185910i",
-      "m": "11. 18. PM 01:45",
-      "ts": 1795009540000,
+      "u": "https://www.hankyung.com/article/202611169480i",
+      "m": "11. 19. AM 01:51",
+      "ts": 1795053076000,
       "stocks": [],
-      "fullText": "핫픽! 미국주식 핫픽! 미국주식 젠슨 황 떠난 엔비디아 '지금 사도 될까'…월가가 내놓은 답은 입력 2026.11.18 22:45 수정 2026.11.18 22:52 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 투자은행 10곳 중 8곳 \"매수\" 의견&hellip;목표주가 174달러~280달러 동남아 데이터센터 추가 규제와 경영진 불확실성은 여전 주가는 11월 들어 30% 가까이 급락 사진=REUTERS 엔비디아의 실적 발표후 월가는 안도와 함께 급락한 엔비디아 주가의 목표치와 투자 의견을 다시 제시하고 있다. 대다수의 분석가들은 이번 스캔들과 젠슨황의 사임으로 드러워진 부담이 회사의 긍정적인 향후 전망치 발표로 곧 해소될 것으로 예상했다. 18일(현지시간) CNBC에 따르면, 월가 분석가들은 특히 엔비디아가 데이터센터 컴퓨팅 매출 전망에서 중국을 제외했음에도 불구하고 2028 회계연도 매출 성장률 전망치를 70%에서 75%로 상향 조정한 것을 높이 평가했다. 상무부의 새로운 칩규제 등 몇가지 불확실성이 남아있으나 분석가들은 엔비디아의 실적 발표후 조심스럽게 낙관적인 투자의견을 내놓고 있다. 골드만삭스는 발표 후 &ldquo;여러 불확실성이 여전히 남아 있지만, 경영진의 발언은 엔비디아 사업과 더 넓은 AI 생태계의 근본적 전망에 대한 투자자들의 신뢰를 강화할 것으로 믿는다&rdquo;면서 엔비디아에 매수 등급을 부여했다. 또 목표주가는 220달러로 제시했다. 뱅크오브 아메리카도 &ldquo;매수&rdquo; 등급과 목표주가 280달러를 유지했다. 뱅크오브아메리카는 크레스 임시 CEO 체제하에서 회사가 강력하게 결집하는 모습을 보였고 실적과 전망도 고무적이라고 지적했다. 모건스탠리는 &ldquo;미래 전망치에 대한 구체적 언급이 매우 긍정적 신호&rdquo;라면서 &ldquo;비중확대&rdquo;를 유지했다. 다만 목표 주가는 260달러로 소폭 내렸다. 그러나 상무부의 동남아 데이터센터 재판매 규제나 법무부 및 증권거래위원회의 조사 등 불확실성이 존재하고 있음을 지적했다. 반면 번스타인은, 젠슨황이 떠난 후 신규 공급업체 협상이나 로드맵 설정, 조치 속도, 인재의 유지, 새로운 조사와 관련된 위험 등 투자자들의 우려가 여전하다고 지적했다. 투자 의견은 &ldquo;시장평균&rdquo; 수준으로 조정하고 목표주가도 200달러로 낮췄다. 트루이스트도 &ldquo;중립&rdquo; 의견에 목표주가는 174달러를 제시했다. 트루이스트는 &ldquo;새로운 상무부 규정으로 향후 매출이 얼마나 영향받을지, 미국의 정치권력변화가 향후 1~2년간 미칠 영향 등에 대한 중요한 질문이 없었다&rdquo;고 지적했다. 제프리스는 엔비디아의 &ldquo;클라우드 부문 수주 잔고가 3개월전 2조달러에서 2조 5천억달러로 증가했고 블랙웰칩 임대료는 출시 이후 60%이상 오르고, 호퍼 GPU는 최초 가격의 최대 두 배 가격에 재계약됐다&rdquo;고 밝힌 것에 주목했다. 이는 여전히 공급이 수요에 비해 크게 부족하다는 것을 보여주는 확실한 증거라며 &ldquo;매수&rdquo;등급을 유지했다. 목표주가는 종전 300달러에서 250달러로 낮췄다. 씨티은행은 여전히 수요가 매우 강하고 특히 AI인프라 프로젝트에 대한 자금 지원을 보다 선별적으로 한다는 것은 긍정적으로 평가하면서 &ldquo;매수&rdquo;등급을 유지했다. 목표가는 225달러. JP모건은 단기적으로 주가 변동성이 클 것이라면서도 &ldquo;비중확대&rdquo;의견과 목표주가를 215달러에서 230달러로 상향 조정했다. TD코웬도 여전히 질문들이 남아있으나 2028년 매출 전망치를 상향 조정한 것과 매출총이익률도 일관된 점을 높이 평가했다. 다만 2028년 하반기 실적이 주요 관심사라고 밝혔다. \"매수\"의견과 목표주가 200달러를 유지했다. UBS는 2027년 전망과 추가 구매 약정은 공급망에 안도감을 줬지만 2028년 경기 둔화의 영향에 대한 의문이 남는다고 밝혔다. &ldquo;매수&rdquo;의견을 유지하고 목표 주가는 240달러에서 220달러로 낮췄다. 김정아 객원기자 kja@hankyung.com 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 김정아 객원기자 기자로 14년, 자본시장에서 18년 일했습니다. 글로벌 기업과 자본시장을 주시하고 있습니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
+      "fullText": "Wave 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 젠슨 황의 불륜 스캔들…두 여자의 주얼리를 보면 삶이 보인다 [민은미의 파인주얼리] 입력 2026.11.19 10:51 수정 2026.11.19 10:54 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 민은미 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 세기의 불륜 스캔들의 명암을 극명하게 보여주는 주얼리 로리 황의 진주 목걸이부터 앨리스 황의 드롭 귀걸이까지 젠슨 황 엔비디아 전 CEO와 아내 로리 황. / 사진. 오리건주립대 페이스북 최근 젠슨 황이 혼외 관계를 인정한 뒤, 소셜미디어에는 엔비디아 창업 초기의 일화가 퍼지고 있다. 세계 경제를 호령하는 초거대 기업이 되기 전의 엔비디아는 위태로운 스타트업이었다. 그런 앤비디아의 수장 젠슨 황(63)의 곁에는 미국 오리건주립대학 시절 실험실 짝이었던 아내 로리 황(Lori Huang, 65)이 있었다. 초기 엔비디아가 파산 위기에 몰렸을 때 구해낸 것이 바로 로리 황의 결혼반지라는 이야기다. 로리 황이 결혼반지를 전당포에 맡겨 남편을 도왔다는 것이 스토리의 골자다. 전당포에 맡긴 결혼반지, 진실 혹은 가십? 전당포에 웨딩밴드가 놓인 모습 / AI 생성 이이지 오늘날의 엔비디아가 있기까지 로리 황이 기꺼이 내어놓은 반지 하나가 있었다니&hellip;불확실한 미래에도 남편의 비전을 믿겠다는 &lsquo;동반자의 서약&rsquo;이나 다름없었다. 굴지의 기업 창업 신화에 인간적인 온기를 더하는 이야기였다. &lsquo;엔비디아가 파산 위기에 몰렸을 때, 아내 로리 황이 남편을 위해 자신의 결혼반지를 전당포에 맡겼다(Jensen Huangs Wife Lori Pawned Her Wedding Ring to Save NVIDIA)&rsquo;라는 감동적인 이야기. 과연 사실일까. 로리 황의 전당포 결혼반지 이야기는 너무 그럴듯하다. 사실 미국에도 전당포(Pawnshop)가 있다. 물건을 담보로 돈을 빌리고, 정해진 기한 안에 원금과 이자 등을 갚으면 물건을 돌려받는 방식이다. 하지만, 뚜껑을 열어보니 그것은 불륜극에 자극적인 색을 입히기 위해 누리꾼들이 지어낸 가상의 이야기였다. 마치 인터넷을 떠도는 AI 합성 영상에서 로리 황이 젠슨 황에게 &lsquo;김치 싸대기&rsquo;를 날리는 장면처럼&hellip; 이 일화는 당사자의 입이 출처가 아니라, 사실관계에 관한 확인 없이 SNS에 딱 한 줄 올라온 내용이 확산한 것이었다. 실제론 허구의 결혼반지보다 시선을 붙드는 로리 황의 주얼리가 있다. 로리 황의 진주 목걸이, 클래식 한 줄이 건네는 일관성 2024년 6월 대만 타이베이 돔을 방문한 로리 황. / 사진. 게티이미지 2024년 6월 1일, 젠슨 황이 대만 프로야구 경기의 시구자로 나선 날, 로리 황도 타이베이 돔을 찾았다. 빨간 야구 모자에 흰 카디건 차림이었다. 환하게 웃는 얼굴 아래로 진주 목걸이가 보였다. 둥근 알마다 맺힌 광택이 목선을 따라 고른 리듬을 만들었다. 오리건주립대가 공개한 무대 사진에서는 검은 정장 위로 밝은 진주 한 줄이 또렷하게 드러났다. 젠슨 황이 출연한 〈유 퀴즈 온 더 블럭〉에서도 로리 황의 목에는 진주가 있었다. 세 장면에서 시선을 끈 건 모두 둥근 진주를 한 줄로 꿴 목걸이였다. 촬영 당일 가족과 함께 서울 종로구의 식당을 찾은 젠슨 황 일행. 로리 황의 진주 목걸이가 보인다. / 사진. 토속촌 제공·뉴시스\"> 2026년 6월 6일, <유 퀴즈 온 더 블럭> 촬영 당일 가족과 함께 서울 종로구의 식당을 찾은 젠슨 황 일행. 로리 황의 진주 목걸이가 보인다. / 사진. 토속촌 제공&middot;뉴시스 이런 목걸이는 주얼리의 오랜 클래식이라 할 수 있다. 알이 목선을 따라 가지런히 놓이고, 은은한 광택이 얼굴 가까이에서 부드러운 빛을 더해, 정계와 재계의 공식 행사에서부터 왕실의 의전 행사까지, 격식을 갖춰야 하는 자리에서 두루 통하는 정석이다. 장식이 간결해 은은하고 화사한 인상을 만들어준다. 드레스에 걸면 격식이 살아나고, 셔츠나 카디건에 매치하면 일상복에 자연스럽게 스며들 수 있다. 로리 황의 진주가 무대 위 검은 정장에도, 야구장의 빨간 응원 모자에도 어울린 이유다. 그녀의 진주에서는 클래식한 한 줄이 건네는 일관성이 묵묵하게 드러났다. 로리 황과 대척점에 서 있는 또 다른 여인 엘리스 황. 그녀에게 주얼리가 없을 리 없다. 공교롭게도 그녀의 주얼리 스타일은 로리 황과는 확연히 달랐다. 흰색 코트를 입고 젠슨 황과 함께 포즈를 취한 엘리스 황(왼쪽). 엘리스 황의 귀걸이가 돋보인다 / 사진. X(@_FORAB 캡처) 엘리스 황의 드롭 귀걸이, 스포트라이트 아래 흔들리는 순간들 2025년 5월 22일, 대만의 기술 박람회 &lsquo;컴퓨텍스&rsquo;가 한창이던 타이베이에서 엘리스 황(Alice Huang, 43&middot;CNN 보도 기준)은 젠슨 황이 마련한 만찬에 분홍 민소매 원피스 차림으로 참석했다. 분홍 원피스에 다이아몬드로 보이는 펜던트 장식이 귓불 아래로 내려오는 귀걸이를 매치했다. 목걸이도 귀걸이와 형태가 비슷해 한 세트처럼 보였다. 이보다 앞선 2024년 9월 미국 캘리포니아주 골프 리조트 잔디 위에 흰색 벨트 코트를 입고 서 있는 사진이 위챗에 공개됐다. 네티즌들은 두 사진 속 의상을 각각 디올과 막스마라 제품으로 추정하고 있다. \"> 대만의 한 식당에 모습을 드러낸 젠슨 황(앞)과 엘리스 황(뒤). 엘리스 황은 디올로 추정되는 분홍 원피스에 다아아몬드가 세팅된 것으로 보이는 귀걸이와 목걸이를 착용했다. / 사진. 징바오<鏡報> 두 사진 속 그녀의 공통적인 주얼리는 길게 늘어진 드롭 이어링이었다. 분홍 원피스에는 펜던트가 매달려 흔들리는 다이아몬드 귀걸이를, 골프장에서의 흰색 코트 차림에서는 꽃잎처럼 모인 장식 아래로 턱선 가까이까지 이어지는 긴 드롭 이어링을 하고 있었다. 그녀의 귀걸이는 긴 생머리와 어우러져 고급스러운 분위기를 끌어올린 것은 부인하기 "
     },
     {
-      "s": "연합뉴스",
-      "t": "엔비디아 호실적에 젠슨황 충격 완화?…'집나간 투심' 돌아올까",
-      "d": "(서울=연합뉴스) 황철환 기자 = 젠슨 황 전 엔비디아 최고경영자(CEO)의 복귀가 결국 무산됐지만, 엔비디아의 투자를 마중물 삼아 성장해 온 ...",
-      "u": "https://www.yna.co.kr/view/AKR20261118098100008",
-      "m": "11. 18. AM 06:55",
-      "ts": 1794984904000,
+      "s": "Bloomberg Tech",
+      "t": "Nvidia Turmoil Spurs Valuation Rethink of Japan’s AI Shares",
+      "d": "Japanese stocks that once commanded a premium for their exposure to artificial intelligence are now looking too risky, with Jensen Huang’s abrupt departure from Nvidia Corp. adding to concerns about the industry’s outlook, investors say.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-18/nvidia-turmoil-spurs-valuation-rethink-of-japan-s-ai-shares",
+      "m": "11. 18. PM 11:50",
+      "ts": 1795045800000,
       "stocks": [],
-      "fullText": "엔비디아 호실적에 AI 생태계 붕괴 우려 완화 코스피 1.99% 상승, 하루 만에 5,000선 탈환 관망 속 투심 반전은 한계…앤트로픽 상장 주목 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
+      "fullText": ""
     },
     {
       "s": "CNBC Tech",
@@ -80,7 +40,7 @@
       "m": "11. 18. AM 01:51",
       "ts": 1794966670000,
       "stocks": [],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
+      "fullText": "Trump meets with Putin in China"
     },
     {
       "s": "CNBC Tech",
@@ -90,7 +50,7 @@
       "m": "11. 17. PM 10:27",
       "ts": 1794954459000,
       "stocks": [],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
+      "fullText": "Trump meets with Putin in China"
     },
     {
       "s": "CNBC Tech",
@@ -100,7 +60,7 @@
       "m": "11. 17. PM 04:47",
       "ts": 1794934049000,
       "stocks": [],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
+      "fullText": "Trump meets with Putin in China"
     },
     {
       "s": "CNBC Tech",
@@ -110,39 +70,7 @@
       "m": "11. 16. PM 03:08",
       "ts": 1794841726000,
       "stocks": [],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Jensen Huang out as NVIDIA CEO",
-      "d": "Following reports connecting him to extramarital relationships with multiple women, NVIDIA CEO Jensen Huang resigned. NBC News’ Hallie Jackson reports.",
-      "u": "https://www.nbcnews.com/nightly-news/video/jensen-huang-out-as-nvidia-ceo-273388613653",
-      "m": "11. 13. AM 12:16",
-      "ts": 1794529010000,
-      "stocks": [],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "The rise and fall of former Nvidia CEO Jensen Huang",
-      "d": "Jensen Huang, who once led the most valuable company in the world, resigned from his post as Nvidia CEO today after an affair with a suspected Chinese spy. Huang had co-founded Nvidia in 1993, and it became a juggernaut making the chips underpinning much of the AI boom.",
-      "u": "https://www.nbcnews.com/now/video/the-rise-and-fall-of-former-nvidia-ceo-jensen-huang-273361477672",
-      "m": "11. 12. PM 08:40",
-      "ts": 1794516044000,
-      "stocks": [],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
-      "d": "President Trump weighed in on the search for a permanent CEO shortly after Nvidia’s announcement about Jensen Huang&#39;s resignation, saying that Apple executive chair Tim Cook should take the role. NBC News&#39; Allie Canal and New York Times contributor Don Clark discuss Cook&#39;s industry experience and the background of interim CEO Colette Kress.",
-      "u": "https://www.nbcnews.com/video/trump-recommends-tim-cook-for-nvidia-ceo-after-jensen-huang-resigns-273344581767",
-      "m": "11. 12. PM 04:32",
-      "ts": 1794501161000,
-      "stocks": [
-        "AAPL"
-      ],
-      "fullText": "Hallie Jackson NOW Fiona the hippo gets round-the-clock care after accidentally swallowing a hat"
+      "fullText": "Trump meets with Putin in China"
     },
     {
       "s": "한겨레",
