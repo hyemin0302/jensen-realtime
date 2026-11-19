@@ -1,26 +1,38 @@
 {
-  "updatedAt": "2026-11-19T14:35:05.851Z",
-  "count": 9,
+  "updatedAt": "2026-11-19T22:31:16.131Z",
+  "count": 8,
   "items": [
     {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Moves Ousted CEO Jensen Huang Out of the Spotlight",
-      "d": "The voluble executive has been quieted as the chipmaker he built tries to move forward",
-      "u": "https://www.bloomberg.com/news/newsletters/2026-11-19/nvidia-moves-ousted-ceo-jensen-huang-out-of-the-spotlight",
-      "m": "11. 19. PM 12:02",
-      "ts": 1795089721000,
-      "stocks": [],
-      "fullText": ""
+      "s": "동아일보",
+      "t": "젠슨 황 경쟁자 리사 수 “그는 탁월한 리더…소음 가라앉을 것”",
+      "d": "리사 수 AMD 최고경영자(CEO)가 친척이자 오랜 경쟁자였던 젠슨 황 전 엔비디아 CEO의 불명예 사임 논란과 관련해 황 전 CEO를 ‘탁월한 리더’로 평가하며 “주변의 소음과 거리를 둘 필요가 있다”고 했다. 19일(현지시간) 미국 경제매체 비즈니스인사이더 등 외신에 따르면, 수 CEO는 미국 텍사스주 오스틴에서 열린 ‘투모로우X 서밋(TomorrowX Summit)’에 참석해 글로벌 투자운용사 티로프라이스(T. Rowe Price)의 도미닉 리조와 대담을 나눴다. 이 자리에서 수 CEO는 사생활 문제 등으로 물러난 황 전 CEO를 향해 “엔비디아는 뛰어난 기업이고 젠슨 황은 업계의 탁월한 리더였다”고 평가했다.수 CEO는 이어 “AMD와 업계의 관점에서 보면 주변의 소음과 조금 거리를 둘 필요가 있다”",
+      "u": "https://www.donga.com/news/Inter/article/all/20261120/135058182/1",
+      "m": "11. 19. PM 09:50",
+      "ts": 1795125000000,
+      "stocks": [
+        "AMD"
+      ],
+      "fullText": "김형민 기자 구독"
     },
     {
-      "s": "CNBC Tech",
-      "t": "Nvidia enters the post-Jensen Huang era with a bang",
-      "d": "Nvidia delivered a message with its first earnings report under new leadership: The sky isn’t falling.",
-      "u": "https://www.nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782",
-      "m": "11. 18. AM 02:41",
-      "ts": 1794969709000,
+      "s": "한국경제",
+      "t": "\"극도로 무례\"…트럼프에 '젠슨 황' 물은 기자 쫓아낸 中",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026112087987",
+      "m": "11. 19. PM 09:38",
+      "ts": 1795124282000,
       "stocks": [],
-      "fullText": "Artificial intelligence Nvidia enters the post-Jensen Huang era with a bang The company’s interim CEO delivered strong earnings and a clear message about the future of Nvidia without its charismatic former leader. Listen to this article with a free profile 00:00 00:00 NVIDIA says Jensen Huang will not return as CEO 01:47 Get more news Live on Share Add NBC News to Google Nov. 17, 2026, 9:41 PM EST / Updated Nov. 17, 2026, 9:42 PM EST By David Ingram Nvidia delivered a message with its first earnings report under new leadership: The sky isn’t falling. With a new CEO and board chair just days after the resignation of co-founder Jensen Huang, the company reported results Tuesday that beat analysts’ expectations for AI chip sales. Nvidia’s new leaders also appeared to calm some investors’ nerves about the immediate future of a company at the heart of the AI economy. Colette Kress, the interim CEO and Nvidia’s longtime chief financial officer, and Harvey Jones, the newly elected board chair, used the quarterly earnings call to answer many — but not all — of the biggest questions hanging over Nvidia, including who will be running things in the near term. Just hours before the earnings release, Huang had injected fresh uncertainty into precisely that question when announced that he would be “honored” to return to the job of CEO, if the company’s board decided to bring him back. At the top of Tuesday’s call, Jones shot down that idea . “The Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO,” he said. “While this was an unexpected transition, the board acted deliberately and in the best interest of the company’s employees, customers, partners and shareholders.” Following the earnings call, Kress poured even more cold water on the idea of Huang’s return. “Jensen resigned from his position with Nvidia, and the board accepted his resignation,” she said in an interview with CNBC. “The board has determined that they will not reinstate Jensen, and that is our statement and what the board has decided to do.” Huang resigned Thursday after reports that he had multiple extramarital relationships, including one with a woman believed to be spying for China and another with an executive who reported to him. On Tuesday morning, Huang said he had made “serious mistakes in my personal life.” Jones said the board would consider both internal and external candidates for CEO and had hired an executive search firm, Heidrick & Struggles, to help with the process. He also endorsed Kress as interim CEO, saying that she had been “instrumental in executing strategy” and possessed a “deep understanding of our business, customers, operations and financial position.” Investors responded positively to the earnings report and the call, sending Nvidia’s share price higher by 5% in after-hours trading. Nonetheless, the stock is still trading about 30% below the all-time high it reached last month. For Subscribers FOR SUBSCRIBERS As many emp"
+      "fullText": "국제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 '젠슨 황' 질문했다고 입틀막…기자 문밖으로 쫓아낸 中 입력 2026.11.20 06:38 수정 2026.11.20 06:55 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 홍민성 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 블룸버그 기자, 트럼프에 젠슨 황 의혹 질문 중국, 미&middot;중&middot;러 정상회담 취재 출입 막아 백악관 복귀 요청도 거부&hellip;\"극도로 무례\" 사진=로이터연합 도널드 트럼프 미국 대통령에게 젠슨 황 전 엔비디아 최고경영자(CEO)의 중국 간첩 연루 의혹을 질문한 미국 기자가 중국 당국으로부터 정상회담 취재를 금지당했다. 백악관이 해당 기자의 취재를 허용해 달라고 요청했지만 중국 측은 이를 거부했다. 미국과 중국의 취재 관행 차이가 사상 첫 미&middot;중&middot;러 3국 정상회담 현장에서 충돌한 것이다. 19일(현지시간) 뉴욕타임스(NYT)와 AP통신 등에 따르면 중국 선전에서 열린 미&middot;중 정상회담 도중 앤마리 호던 블룸버그TV 기자가 트럼프 대통령에게 던진 질문이 발단이 됐다. 당시 트럼프 대통령은 긴 테이블을 사이에 두고 마주 앉은 시진핑 중국 국가주석에게 감사 인사를 전한 직후였다. 현장에 있던 호던 기자는 트럼프 대통령을 향해 \"젠슨 황 전 엔비디아 CEO가 미국에 불충한 것이냐\"고 큰 소리로 물었다. 트럼프 대통령은 별다른 답변을 하지 않았다. 시 주석은 취재진이 있는 방향을 잠시 바라보다 시선을 돌렸고, 경호원은 해당 장면을 촬영하던 카메라 앞으로 다가와 촬영을 가로막았다. 문제는 이후 열린 3국 정상회담에서 불거졌다. 중국 당국은 트럼프 대통령과 시 주석, 블라디미르 푸틴 러시아 대통령이 참석하는 회담장에 호던 기자가 들어가지 못하도록 했다. 미국 측이 취재진 출입을 허용해 달라고 요청했으나 중국은 받아들이지 않았다. 백악관 관계자는 미국 정부가 호던 기자의 취재 복귀를 위해 중국 측에 요청했다고 전했다. 당시 현장 취재진에게는 큰 소리로 질문하는 행위가 \"극도로 무례하다\"는 중국 측 입장도 전달된 것으로 알려졌다. 호던 기자가 질문한 황 전 CEO는 최근 중국 정보기관과 연계된 의혹을 받는 여성 기업인과의 관계로 논란에 휩싸인 상태다. 미국 정보당국은 해당 여성이 중국 정부를 위해 정보활동을 했을 가능성을 조사해 왔다. 황 전 CEO는 이 여성과의 관계가 드러난 이후 엔비디아 CEO 자리에서 물러났다. 미국에서는 정상회담이나 공식 행사 도중 취재진이 정상에게 즉석 질문을 던지는 일이 흔하다. 반면 중국은 외국 정상의 방문이나 주요 외교 행사에서 취재진의 이동과 질문 기회를 엄격하게 제한해 왔다. 트럼프 대통령도 중국 측의 취재 제한을 의식한 듯한 발언을 했다. 그는 시 주석에게 행사 진행이 원활하게 이뤄졌다고 평가하면서도 \"모든 움직임이 완벽하게 진행됐는데 언론이 이를 보지 못해 아쉽다\"고 말했다. 중국 외교부는 호던 기자의 취재 제한 경위에 관한 언론 질의에 즉각 답변하지 않았다. 블룸버그뉴스 측도 관련 사안에 대한 논평을 거부했다. 홍민성 한경닷컴 기자 mshong@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 홍민성 기자 홍민성 기자는 한국경제 한경닷컴에서 반도체·전자·AI·이동통신·플랫폼·게임 등 글로벌 테크 산업의 최전선을 취재하고 있습니다. 개인 연재 '테토남(테크 스토리 전해주는 남자)', 팀 연재 '테크로그'에서 최신 테크 산업 이슈를 다루고 있습니다. 단순한 신제품 출시나 업황을 넘어, 기술 혁신의 이면에 숨겨진 사람들의 이야기와 생생한 산업 현장의 맥락을 독자에게 쉽게 전달하는 데 집중합니다. 국회에서 법안과 정책을 취재했던 경험을 바탕으로, 글로벌 기술 패권 경쟁 속에서 기업들이 마주하는 국내외 규제 이슈와 입법 리스크를 짚어내는 데도 관심이 많습니다. 신뢰할 수 있는 뉴스를 전하겠습니다. ADVERTISEMENT 관련 뉴스 1 \"새해에 무슨 일 생길지 보자\"…트럼프 '의미심장' 발언 도널드 트럼프 미국 대통령이 이란에 대한 추가 군사공격 여부를 내년으로 미룰 수 있다는 뜻을 내비쳤다. 이스라엘이 이란의 미사일 전력 재건 등을 이유로 공습 재개를 요구하고 있지만 트럼프 대통령은 당분간 군사행동을 ... 2026.11.20 06:23 2 막내가 임원보다 더 번다…직원 수천명 '돈벼락' 맞은 회사 생성형 AI 클로드의 개발사 앤스로픽이 나스닥 상장을 눈앞에 두면서 실리콘밸리 역사상 최대 규모의 주식 대박이 현실화할 전망이다. 인공지능(AI) 연구원과 엔지니어뿐 아니라 창업 초기 합류한 일반 ... 2026.11.19 22:13 3 [속보] 트럼프, 미중러 정상회담 마치고 공항 이동 [속보] 트럼프, 미중러 정상회담 마치고 공항 이동이보배 한경닷컴 객원기자 newsinfo@hankyung.com 2026.11.19 19:12 ADVERTISEMENT 많이 본 뉴스 1 \"3년 동안 그 가격 안 옵니다\"…삼전닉스 주주들 '술렁' 2026.11.19 09:54 2 젠슨 황의 불륜 스캔들…두 여자의 주얼리를 보면 삶이 보인다 2026.11.19 10:51 3 수석은커녕 189명 중 150등…'6개월 합격' 감평사의 해명 2026.11.19 09:30 4 \"제발 다시 팔아달라\" 성화에…농심이 결국 정식 출시한 라면 2026.11.17 09:06 5 '아빠, 이 집 나 줄 거지?'…10억 있는 3040 부모들 '뜻밖의 대답' 2026.11.18 07:00 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
+    },
+    {
+      "s": "조선일보",
+      "t": "창업 동지도, 이사회도… 젠슨 황과 결별 굳히기",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/11/20/E5EZ3M22XRDSDNTVGB27OCWVWU/",
+      "m": "11. 19. PM 03:33",
+      "ts": 1795102380000,
+      "stocks": [],
+      "fullText": ""
     },
     {
       "s": "CNBC Tech",
@@ -30,7 +42,7 @@
       "m": "11. 18. AM 01:51",
       "ts": 1794966670000,
       "stocks": [],
-      "fullText": "Trump holds historic talks with Xi and Putin"
+      "fullText": "Gamers worldwide celebrate release of GTA VI"
     },
     {
       "s": "CNBC Tech",
@@ -40,7 +52,7 @@
       "m": "11. 17. PM 10:27",
       "ts": 1794954459000,
       "stocks": [],
-      "fullText": "Trump holds historic talks with Xi and Putin"
+      "fullText": "Gamers worldwide celebrate release of GTA VI"
     },
     {
       "s": "CNBC Tech",
@@ -50,7 +62,7 @@
       "m": "11. 17. PM 04:47",
       "ts": 1794934049000,
       "stocks": [],
-      "fullText": "Trump holds historic talks with Xi and Putin"
+      "fullText": "Gamers worldwide celebrate release of GTA VI"
     },
     {
       "s": "CNBC Tech",
@@ -60,17 +72,7 @@
       "m": "11. 16. PM 03:08",
       "ts": 1794841726000,
       "stocks": [],
-      "fullText": "Trump holds historic talks with Xi and Putin"
-    },
-    {
-      "s": "한겨레",
-      "t": "젠슨 황 없는 엔비디아 실적, 시장 전망 웃돌아…삼성·하닉 주가 반등",
-      "d": "",
-      "u": "https://www.hani.co.kr/arti/economy/marketing/1287957.html",
-      "m": "",
-      "ts": 0,
-      "stocks": [],
-      "fullText": "본문 경제 산업·재계 젠슨 황 없는 엔비디아 실적, 시장 전망 웃돌아…삼성·하닉 주가 반등 배지현 , 서혜미 기자 수정 2026-11-18 19:24 펼침 0:00 Your browser does not support the audio element. 지난 6월 2일 대만 타이베이에서 열린 연례 컴퓨텍스(COMPUTEX) 행사에서 젠슨 황 엔비디아 최고경영자(CEO)가 팬들과 소통하며 에스케이(SK) 하이닉스 전시관을 떠나고 있다. 타이베이/로이터 연합뉴스 광고 젠슨 황 전 최고경영자(CEO)가 물러난 뒤 처음 나온 엔비디아 실적은 사상 첫 분기 매출 1000억달러 돌파였다. 인공지능(AI) 투자 둔화 우려에 급락하던 국내 반도체주도 일제히 반등했다. 엔비디아가 양호한 실적을 내놓았지만 미국의 대중국 수출통제 강화와 불확실한 차기 최고경영자 선임 과정은 여전히 변수로 꼽힌다. 엔비디아는 2027회계연도 3분기(8∼10월) 매출액이 1158억4400만달러(약 155조원)로 지난해 같은 기간에 견줘 103% 늘었다고 17일(현지시각) 공시했다. 직전 분기(962억2100만달러)보다도 20% 늘어나며 시장조사기관 런던증권거래소그룹(LSEG)이 집계한 시장전망치를 웃돌았다. 3분기 영업이익과 당기순이익도 775억2000만달러(약 104조원), 652억8700만달러(약 87조원)로 전년 대비 115%, 105% 증가했다. 실적을 끌어올린 건 인공지능 데이터센터용 그래픽처리장치(GPU)다. 데이터센터 부문 매출만 1076억달러(약 144조원)로 전체 매출의 93%를 차지했다. 특히 차세대 인공지능 가속기 ‘베라 루빈’이 출하 첫 분기에 약 200억달러의 매출을 올리며 성장을 이끌었다. 현재 베라 루빈 시스템은 구글 클라우드, 마이크로소프트, 오라클 등에서 가동 중이다. 콜레트 크레스 임시 최고경영자는 이날 실적설명회에서 베라 루빈을 두고 “엔비디아 역사상 가장 빠른 제품 생산 확대 속도”를 기록했다고 강조했다. 삼성전자와 에스케이(SK)하이닉스는 베라 루빈에 탑재되는 차세대 고대역폭메모리(HBM4)를 공급 중이다. 광고 국내 업계가 주목한 건 공급망이다. 크레스 임시 최고경영자는 “메모리와 첨단 패키징은 확보했다”고 설명했다. 엔비디아는 이날 삼성전기와 기판 분야 새 공급 계약을 맺었다며 공급망 확장을 이어가고 있다고 밝혔다. 회사는 2028회계연도 매출 증가율 전망도 기존 70%에서 75%로 높였다. 시장조사업체 카운터포인트리서치는 ‘젠슨 황 공백’이 앞으로 18∼24개월 동안 인공지능 반도체 공급망에 미칠 영향이 제한적일 것으로 내다봤다. 엔비디아 주가는 정규장에서 0.44% 내렸지만, 발표 뒤 시간 외 거래에서 3∼4%대 올랐다. 엔비디아 호실적에 이날 코스피는 전날보다 1.99% 오른 5067.44에 거래를 마쳤다. 삼성전자는 전날보다 2.31%(4400원) 오른 19만4700원, 에스케이(SK)하이닉스는 전날보다 4.19%(4만6천원) 오른 114만4천원에 정규장을 마감했다. 대중국 규제 강화 속에서도 엔비디아는 자신감을 보였다. 회사는 4분기 매출 전망을 1300억달러로 제시하면서 중국 데이터센터용 연산 제품 매출은 반영하지 않았다고 밝혔다. 크레스 임시 최고경영자는 “이번 주 미국 상무부에서 새로운 수출통제 조치가 발표됐지만, 수요가 공급을 훨씬 초과하는 상황에서 실적은 계속 좋아질 것”이라고 말했다. 엔비디아는 3분기 중국 수출 허가를 받은 ‘호퍼’ 제품으로 24억달러를 벌었지만, 앞으로 중국에 공급하지 않을 계획이다. ‘순환 금융’ 논란이 있는 네오클라우드 업체에 대한 자금 지원은 “신중하고 선별적”으로 하겠다는 입장을 내놨다. 광고 광고 경영 공백은 여전한 숙제다. 이규원 디에스(DS)투자증권 연구원은 “(젠슨 황 사임은) 기존 제품 로드맵과 견조한 인공지능 컴퓨팅 수요를 고려하면 단기 실적에 미치는 영향은 제한적이나, 엔비디아의 중장기 경쟁력과 인공지능 산업 구도에 변화를 가져올 수 있는 사건”이라고 했다. 배지현 기자 beep@hani.co.kr 서혜미 기자 ham@hani.co.kr"
+      "fullText": "Gamers worldwide celebrate release of GTA VI"
     },
     {
       "s": "Nikkei Asia",
@@ -81,16 +83,6 @@
       "ts": 0,
       "stocks": [],
       "fullText": "#techAsia Virtual &#x27;Jensanity&#x27; rocks Taipei in support for Nvidia chief The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
-    },
-    {
-      "s": "Nikkei Asia",
-      "t": "Nvidia board says Jensen Huang will not return as CEO",
-      "d": "",
-      "u": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-board-says-jensen-huang-will-not-return-as-ceo",
-      "m": "",
-      "ts": 0,
-      "stocks": [],
-      "fullText": "Semiconductors Nvidia board says Jensen Huang will not return as CEO AI chip giant stops shipping Hopper chips to China after revenue more than triples there"
     }
   ]
 }
